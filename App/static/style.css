@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500&display=swap');
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+:root {
+    --bg: #f5f4f0;
+    --surface: #ffffff;
+    --border: #e8e6e1;
+    --text-primary: #1a1a1a;
+    --text-secondary: #888580;
+    --bubble-user-bg: #1a1a1a;
+    --bubble-user-text: #ffffff;
+    --bubble-bot-bg: #ffffff;
+    --bubble-bot-text: #1a1a1a;
+    --accent: #e07d3c;
+    --accent-hover: #c96a28;
+    --input-bg: #ffffff;
+    --shadow-sm: 0 1px 3px rgba(0,0,0,0.06), 0 1px 2px rgba(0,0,0,0.04);
+    --shadow-md: 0 4px 16px rgba(0,0,0,0.08);
+    --radius-lg: 20px;
+    --radius-sm: 10px;
+}
+
+html, body {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background: var(--bg);
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+    color: var(--text-primary);
+}
+
+/* ── Header ─────────────────────────────────── */
+.header {
+    text-align: center;
+    padding: 28px 20px 12px;
+}
+
+.header h1 {
+    font-size: 1.25rem;
+    font-weight: 500;
+    letter-spacing: -0.02em;
+    margin: 0 0 4px;
+    color: var(--text-primary);
+}
+
+.header p {
+    font-size: 0.82rem;
+    color: var(--text-secondary);
+    margin: 0;
+    font-weight: 300;
+}
+
+/* ── Suggestions ─────────────────────────────── */
+.suggestions {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 8px;
+    padding: 8px 20px 16px;
+}
+
+.suggestion-btn {
+    background: var(--surface);
+    color: var(--text-primary);
+    padding: 7px 16px;
+    border: 1px solid var(--border);
+    border-radius: 999px;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: 0.78rem;
+    font-weight: 400;
+    letter-spacing: 0.01em;
+    transition: background 0.18s, border-color 0.18s, box-shadow 0.18s, transform 0.12s;
+    box-shadow: var(--shadow-sm);
+}
+
+.suggestion-btn:hover {
+    background: var(--accent);
+    color: #fff;
+    border-color: var(--accent);
+    box-shadow: 0 4px 12px rgba(224,125,60,0.25);
+    transform: translateY(-1px);
+}
+
+/* ── Chat container ──────────────────────────── */
+#chat-container {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    max-width: 720px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 16px 16px;
+    overflow: hidden;
+}
+
+/* ── Messages area ───────────────────────────── */
+#messages {
+    flex: 1;
+    padding: 16px 4px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    scrollbar-width: thin;
+    scrollbar-color: var(--border) transparent;
+}
+
+#messages::-webkit-scrollbar {
+    width: 4px;
+}
+
+#messages::-webkit-scrollbar-thumb {
+    background: var(--border);
+    border-radius: 4px;
+}
+
+/* ── Message bubbles ─────────────────────────── */
+.message {
+    display: flex;
+    max-width: 75%;
+}
+
+.message.user {
+    align-self: flex-end;
+}
+
+.message.assistant {
+    align-self: flex-start;
+}
+
+.bubble {
+    padding: 10px 15px;
+    line-height: 1.55;
+    font-size: 0.9rem;
+    word-break: break-word;
+}
+
+.message.user .bubble {
+    background: var(--bubble-user-bg);
+    color: var(--bubble-user-text);
+    border-radius: var(--radius-lg) var(--radius-lg) var(--radius-sm) var(--radius-lg);
+    box-shadow: var(--shadow-sm);
+}
+
+.message.assistant .bubble {
+    background: var(--bubble-bot-bg);
+    color: var(--bubble-bot-text);
+    border-radius: var(--radius-lg) var(--radius-lg) var(--radius-lg) var(--radius-sm);
+    border: 1px solid var(--border);
+    box-shadow: var(--shadow-sm);
+}
+
+/* ── Input area ──────────────────────────────── */
+.input-container {
+    display: flex;
+    gap: 8px;
+    padding: 10px 12px;
+    background: var(--input-bg);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-md);
+    align-items: center;
+}
+
+.input-wrapper {
+    flex-grow: 1;
+}
+
+#message-input {
+    width: 100%;
+    padding: 6px 2px;
+    border: none;
+    outline: none;
+    background: transparent;
+    font-family: inherit;
+    font-size: 0.9rem;
+    color: var(--text-primary);
+}
+
+#message-input::placeholder {
+    color: var(--text-secondary);
+}
+
+/* ── Buttons ─────────────────────────────────── */
+button {
+    padding: 8px 18px;
+    color: #fff;
+    background: var(--accent);
+    border: none;
+    border-radius: var(--radius-sm);
+    cursor: pointer;
+    font-family: inherit;
+    font-size: 0.82rem;
+    font-weight: 500;
+    letter-spacing: 0.01em;
+    transition: background 0.18s, box-shadow 0.18s, transform 0.12s;
+    white-space: nowrap;
+}
+
+button:hover {
+    background: var(--accent-hover);
+    box-shadow: 0 4px 12px rgba(224,125,60,0.3);
+    transform: translateY(-1px);
+}
+
+button:active {
+    transform: translateY(0);
+}
+
+#new-chat-btn {
+    background: transparent;
+    color: var(--text-secondary);
+    border: 1px solid var(--border);
+    padding: 8px 14px;
+}
+
+#new-chat-btn:hover {
+    background: var(--border);
+    color: var(--text-primary);
+    box-shadow: none;
+}
+
+/* ── Typing indicator ────────────────────────── */
+.typing-indicator {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 12px 16px;
+}
+
+.typing-indicator span {
+    width: 7px;
+    height: 7px;
+    background: var(--text-secondary);
+    border-radius: 50%;
+    animation: bounce 1.2s infinite ease-in-out;
+}
+
+.typing-indicator span:nth-child(2) { animation-delay: 0.2s; }
+.typing-indicator span:nth-child(3) { animation-delay: 0.4s; }
+
+@keyframes bounce {
+    0%, 60%, 100% { transform: translateY(0); opacity: 0.4; }
+    30%            { transform: translateY(-6px); opacity: 1; }
+}

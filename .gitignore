@@ -1,0 +1,13 @@
+# Secrets
+
+.env
+
+# Cache
+
+__pycache__
+__pycache__/*
+
+# Database
+
+KnowledgeBase/data/*
+KnowledgeBase/index/*
