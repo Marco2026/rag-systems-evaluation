@@ -2,12 +2,24 @@ from pydantic_settings import BaseSettings
 from pathlib import Path
 
 # RETRIEVER
-RETRIEVER_MODEL_NAME = "Octen/Octen-Embedding-0.6B"
 K = 4
 
 # GENERATOR
-GENERATOR_MODEL_NAME = "Qwen/Qwen2.5-7B-Instruct"
 SYSTEM_PROMPT = "Eres un asistente especializado en pádel. Debes contestar siempre en español. Debes contestar basándote en la información recibida como contexto. Si la información pedida no está en ese contexto debes decirlo. Debes contestar en un máximo de 250 palabras y ser amable."
+QUALITY_BENCHMARK_SYSTEM_PROMPT = """You are an expert reading comprehension assistant. You will be given a text passage and a multiple choice question about it.
+
+Your task:
+1. Read the passage carefully
+2. Answer the question based ONLY on the information contained in the passage
+3. Reply with a single letter: A, B, C, or D
+
+Rules:
+- Do NOT use any external knowledge
+- Do NOT explain your answer
+- Do NOT add any commentary
+- Your entire response must be exactly one letter: A, B, C, or D
+
+If you are unsure, choose the most supported answer based on the passage."""
 
 # KNOWLEDGE BASE
 INDEX_PATH = Path("KnowledgeBase/index/faiss.index")
