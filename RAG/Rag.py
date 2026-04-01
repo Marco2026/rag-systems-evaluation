@@ -60,8 +60,8 @@ class Rag():
         self.database_manager = DatabaseManager(meta_path=META_PATH, data_dir=DATA_DIR, chunk_size=CHUNK_SIZE, chunk_overlap=CHUNK_OVERLAP)
 
 
-    def start_retriever(self, retriever_mode: str):
-        match retriever_mode:
+    def start_retriever(self):
+        match self.retriever_model_mode:
             case "local":
                 self.retriever = LocalRetriever(model_name=self.retriever_model_name, device=self.device, k=K)
                 self.retriever.prepare_model()
@@ -71,11 +71,11 @@ class Rag():
                 return
 
     
-    def start_generator(self, generator_mode: str):
-        match generator_mode:
+    def start_generator(self):
+        match self.generator_model_mode:
             case "local":
                 self.generator = LocalGenerator(model_name=self.generator_model_name, system_prompt=self.system_prompt, device=self.device)
-                self.generator.prepare_model(generator_mode=generator_mode)
+                self.generator.prepare_model(generator_mode=self.generator_mode)
             case "api":
                 self.generator = OllamaGenerator()
             case _:
