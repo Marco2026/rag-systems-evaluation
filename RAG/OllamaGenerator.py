@@ -1,4 +1,4 @@
-from ApiManager import ask_generator_api_call
+from .ApiManager import ask_generator_api_call
 
 
 class OllamaGenerator:
