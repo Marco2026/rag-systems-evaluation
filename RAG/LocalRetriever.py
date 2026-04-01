@@ -4,13 +4,13 @@ import numpy as np
 
 class LocalRetriever():
     
-    def __init__(self, model_name: str, device: str, k: int, index, metadata):
+    def __init__(self, model_name: str, device: str, k: int):
         self.model_name = model_name
         self.device = device
         self.model = None
         self.k = k
-        self.index = index
-        self.metadata = metadata
+        self.index = None
+        self.metadata = None
         
         
     def prepare_model(self):
