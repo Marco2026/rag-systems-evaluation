@@ -1,34 +1,28 @@
-from sentence_transformers import SentenceTransformer
-import faiss
+from .ApiManager import create_embedding_api_call
 import numpy as np
+import faiss
 
-class Retriever():
-    
-    def __init__(self, model_name: str, device: str, k: int, index, metadata):
+
+class OllamaRetriever:
+
+    def __init__(self, model_name: str, k: int):
         self.model_name = model_name
-        self.device = device
-        self.model = None
         self.k = k
-        self.index = index
-        self.metadata = metadata
-        self.prepare_model()
-
-    
-    def prepare_model(self):
-        self.model = SentenceTransformer(self.model_name, device=self.device)
 
 
     def create_embeddings(self, data: list[str]) -> np.ndarray:
         files_embeddings = list()
-        for d in data:
-            embedding = self.model.encode(d)
-            files_embeddings.append(embedding)
+        batch_size = 10
+        for i in range(0, len(data), batch_size):
+            data_batch = data[i:i + batch_size]
+            embeddings_batch = create_embedding_api_call(model_name=self.model_name, input=data_batch)
+            files_embeddings.extend(embeddings_batch)
         files_embeddings_array = np.vstack(files_embeddings)
         return files_embeddings_array
 
 
     def retrieve(self, query: str) -> list[dict]:
-        query_embedding  = self.create_embeddings([query])
+        query_embedding  = self.create_embeddings(data=[query])
         faiss.normalize_L2(query_embedding)
 
         scores, ids = self.index.search(query_embedding, self.k)
