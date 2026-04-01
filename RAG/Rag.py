@@ -3,32 +3,52 @@ import faiss
 import json
 import gc
 from huggingface_hub import login
-from .Generator import Generator
-from .Retriever import Retriever
+from .LocalGenerator import LocalGenerator
+from .LocalRetriever import LocalRetriever
+from .OllamaGenerator import OllamaGenerator
+from .OllamaRetriever import OllamaRetriever
 from .DatabaseManager import DatabaseManager
-from config.settings import Settings, RETRIEVER_MODEL_NAME, GENERATOR_MODEL_NAME, SYSTEM_PROMPT, K, INDEX_PATH, META_PATH, DATA_DIR, CHUNK_SIZE, CHUNK_OVERLAP
+from Config.settings import Settings, K, INDEX_PATH, META_PATH, DATA_DIR, CHUNK_SIZE, CHUNK_OVERLAP
 
 class Rag():
 
-    def __init__(self, rebuild_index: bool):
+    def __init__(self, 
+                 retriever_model_name: str,
+                 retriever_model_mode: str, 
+                 generator_model_name: str,
+                 generator_model_mode: str,
+                 rebuild_index: bool,
+                 system_prompt: str):
+        
+        # starting configuration
         self.clean_vram()
-        self.rebuild_index = rebuild_index
         self.device = "cuda" if torch.cuda.is_available() else "cpu"
-        self.generator = None
+
+        # retriever options
+        self.retriever_model_name = retriever_model_name
+        self.retriever_model_mode = retriever_model_mode
         self.retriever = None
+
+        # generator options
+        self.generator_model_name = generator_model_name
+        self.generator_model_mode = generator_model_mode
+        self.generator = None
+        self.system_prompt = system_prompt
+        
+        # database options
+        self.rebuild_index = rebuild_index
         self.database_manager = None
         self.index = None
         self.metadata = None
-        self.build_rag()
 
 
-    def build_rag(self):
+    def build_rag(self, chunked_data: list[str]):
         settings = Settings()
         login(token=settings.hf_token)
         if self.rebuild_index:    
             self.start_database_manager()
             self.start_retriever()
-            self.build_index()
+            self.build_index(chunked_data)
             self.start_generator()
         else:
             self.start_retriever()
@@ -40,23 +60,38 @@ class Rag():
         self.database_manager = DatabaseManager(meta_path=META_PATH, data_dir=DATA_DIR, chunk_size=CHUNK_SIZE, chunk_overlap=CHUNK_OVERLAP)
 
 
-    def start_retriever(self):
-        self.retriever = Retriever(model_name=RETRIEVER_MODEL_NAME, device=self.device, k=K, index=None, metadata=None)
-        self.retriever.prepare_model()
+    def start_retriever(self, retriever_mode: str):
+        match retriever_mode:
+            case "local":
+                self.retriever = LocalRetriever(model_name=self.retriever_model_name, device=self.device, k=K)
+                self.retriever.prepare_model()
+            case "api":
+                self.retriever = OllamaRetriever(model_name=self.retriever_model_name, k=K)
+            case _:
+                return
 
     
-    def start_generator(self):
-        self.generator = Generator(model_name=GENERATOR_MODEL_NAME, system_prompt=SYSTEM_PROMPT, device=self.device)
+    def start_generator(self, generator_mode: str):
+        match generator_mode:
+            case "local":
+                self.generator = LocalGenerator(model_name=self.generator_model_name, system_prompt=self.system_prompt, device=self.device)
+                self.generator.prepare_model(generator_mode=generator_mode)
+            case "api":
+                self.generator = OllamaGenerator()
+            case _:
+                return
+            
 
-
-    def build_index(self):
+    def build_index(self, chunked_data: list[str]):
         if INDEX_PATH.exists():
             INDEX_PATH.unlink()
         if META_PATH.exists():
             META_PATH.unlink()
         INDEX_PATH.parent.mkdir(parents=True, exist_ok=True)
         
-        chunked_data = self.database_manager.chunk_data()
+        if not chunked_data:
+            chunked_data = self.database_manager.chunk_data()
+
         files_embeddings = self.retriever.create_embeddings(chunked_data)
 
         faiss.normalize_L2(files_embeddings)
@@ -77,11 +112,14 @@ class Rag():
         self.retriever.metadata = metadata
 
     
-    def prompt(self, query: str):
+    def prompt(self, query: str, benchmark: bool):
         results = self.retriever.retrieve(query=query)
         retrieved_docs = [r["text"] for r in results]
         context = "\n\n".join(retrieved_docs)
-        enriched_prompt = build_enriched_prompt(query=query, context=context)
+        if benchmark:
+            enriched_prompt = build_benchmark_prompt(query=query, context=context)
+        else:
+            enriched_prompt = build_enriched_prompt(query=query, context=context)
         answer = self.generator.ask_generator(user_prompt=enriched_prompt)
         return answer
     
@@ -94,3 +132,10 @@ class Rag():
 
 def build_enriched_prompt(query: str, context: str):
     return f"Contexto:\n\n{context}\n\nPregunta:\n\n{query}"
+
+
+def build_benchmark_prompt(query: str, context: str):
+    return f"""Passage:
+                {context}
+
+                {query}"""
