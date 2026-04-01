@@ -2,7 +2,7 @@ import torch
 from transformers import AutoModelForCausalLM, AutoTokenizer, BitsAndBytesConfig
 import re
 
-class Generator():
+class LocalGenerator():
     
     def __init__(self, model_name: str, system_prompt: str, device: str):
         self.model_name = model_name
@@ -10,9 +10,8 @@ class Generator():
         self.tokenizer = None
         self.system_prompt = system_prompt
         self.device = device
-        self.prepare_model()
 
-
+    
     def prepare_model(self):
         bnb_config = BitsAndBytesConfig(
             load_in_4bit=True,
