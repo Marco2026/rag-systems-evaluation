@@ -1,3 +1,6 @@
+import os
+os.environ["PYTORCH_ALLOC_CONF"] = "expandable_segments:True"
+
 import torch
 import faiss
 import json
@@ -42,13 +45,13 @@ class Rag():
         self.metadata = None
 
 
-    def build_rag(self, chunked_data: list[str]):
+    def build_rag(self, prepared_data: list[list[str], list[str]]):
         settings = Settings()
         login(token=settings.hf_token)
         if self.rebuild_index:    
             self.start_database_manager()
             self.start_retriever()
-            self.build_index(chunked_data)
+            self.build_index(prepared_data=prepared_data)
             self.start_generator()
         else:
             self.start_retriever()
@@ -75,22 +78,25 @@ class Rag():
         match self.generator_model_mode:
             case "local":
                 self.generator = LocalGenerator(model_name=self.generator_model_name, system_prompt=self.system_prompt, device=self.device)
-                self.generator.prepare_model(generator_mode=self.generator_mode)
+                self.generator.prepare_model()
             case "api":
-                self.generator = OllamaGenerator()
+                self.generator = OllamaGenerator(model_name=self.generator_model_name, system_prompt=self.system_prompt)
             case _:
                 return
             
 
-    def build_index(self, chunked_data: list[str]):
+    def build_index(self, prepared_data: list[list[str], list[str]]):
         if INDEX_PATH.exists():
             INDEX_PATH.unlink()
         if META_PATH.exists():
             META_PATH.unlink()
         INDEX_PATH.parent.mkdir(parents=True, exist_ok=True)
         
-        if not chunked_data:
+        if not prepared_data:
             chunked_data = self.database_manager.chunk_data()
+        else:
+            chunked_data, metadata = prepared_data
+            self.database_manager.write_metadata(metadata=metadata)
 
         files_embeddings = self.retriever.create_embeddings(chunked_data)
 
