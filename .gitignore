@@ -16,3 +16,7 @@ venv/*
 
 KnowledgeBase/data/*
 KnowledgeBase/index/*
+
+# Results
+
+Evaluation/results/*
