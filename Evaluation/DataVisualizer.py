@@ -33,8 +33,8 @@ class DataVisualizer:
 
 	def get_matrix(self, benchmark: str) -> dict[str, Any]:
 		records = self._load_records(benchmark)
-		retrievers = sorted({record.retriever for record in records})
-		generators = sorted({record.generator for record in records})
+		retrievers = self._sort_models_by_params({record.retriever for record in records})
+		generators = self._sort_models_by_params({record.generator for record in records})
 
 		matrix: list[list[float | None]] = []
 		cell_meta: dict[str, dict[str, dict[str, Any]]] = {}
@@ -208,3 +208,13 @@ class DataVisualizer:
 		if unit == "m":
 			return value / 1000.0
 		return None
+
+	def _sort_models_by_params(self, model_names: set[str]) -> list[str]:
+		return sorted(
+			model_names,
+			key=lambda name: (
+				self._extract_params_billions(name) is None,
+				self._extract_params_billions(name) if self._extract_params_billions(name) is not None else 0.0,
+				name,
+			),
+		)

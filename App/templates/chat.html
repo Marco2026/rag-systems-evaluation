@@ -7,6 +7,13 @@
     </head>
     <body>
         <div class="header">
+            <div class="top-actions">
+                <button id="start-rag-btn" class="start-rag-main" onclick="startRag()">Start RAG</button>
+                <div class="page-nav">
+                    <a class="page-nav-btn active" href="/">Chat</a>
+                    <a class="page-nav-btn" href="/results">Benchmark Results</a>
+                </div>
+            </div>
             <h1>Bienvenido al RAG de Marco</h1>
             <p>Haz la pregunta de pádel que quieras</p>
         </div>
@@ -14,7 +21,6 @@
             <button class="suggestion-btn" onclick="usePrompt('¿Dónde se creó el pádel?')">Origen del deporte</button>
             <button class="suggestion-btn" onclick="usePrompt('¿Quiénes fueron los primeros número 1?')">Primeros nº1</button>
             <button class="suggestion-btn" onclick="usePrompt('¿Cómo se encuentra actualmente el pádel?')">Actualidad</button>
-            <button id="start-rag-btn" class="suggestion-btn" onclick="startRag()">Start RAG</button>
         </div>
         <div id="chat-container">
             <div id="messages"></div>

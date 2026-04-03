@@ -108,14 +108,20 @@ function renderHeatmap(data) {
         y: data.retrievers,
         zmin: 0,
         zmax: 1,
-        colorscale: 'YlGnBu',
+        colorscale: [
+            [0.0, '#fffdf7'],
+            [0.2, '#fff4c2'],
+            [0.45, '#ffd27a'],
+            [0.7, '#ff9d4d'],
+            [1.0, '#c92a2a'],
+        ],
         hoverongaps: false,
     };
 
     const layout = {
         margin: { t: 10, r: 10, b: 110, l: 170 },
         xaxis: { tickangle: -25 },
-        yaxis: { automargin: true },
+        yaxis: { automargin: true, autorange: 'reversed' },
     };
 
     Plotly.newPlot('heatmap', [trace], layout, { responsive: true, displayModeBar: false });
@@ -123,13 +129,15 @@ function renderHeatmap(data) {
 
 function renderDetail(detail) {
     const summary = detail.summary;
-    detailSummary.innerHTML = [
-        `<strong>Retriever:</strong> ${detail.retriever}`,
-        `<strong>Generator:</strong> ${detail.generator}`,
-        `<strong>Accuracy:</strong> ${summary.accuracy}`,
-        `<strong>Correct:</strong> ${summary.correct}/${summary.total}`,
-        `<strong>Duración:</strong> ${summary.duration} (${summary.duration_seconds}s)`,
-    ].join(' | ');
+    detailSummary.innerHTML = `
+        <div class="detail-list">
+            <div class="detail-list-item"><span class="detail-label">Retriever</span><span class="detail-value">${detail.retriever}</span></div>
+            <div class="detail-list-item"><span class="detail-label">Generator</span><span class="detail-value">${detail.generator}</span></div>
+            <div class="detail-list-item"><span class="detail-label">Accuracy</span><span class="detail-value">${summary.accuracy}</span></div>
+            <div class="detail-list-item"><span class="detail-label">Correct</span><span class="detail-value">${summary.correct}/${summary.total}</span></div>
+            <div class="detail-list-item"><span class="detail-label">Duracion</span><span class="detail-value">${summary.duration} (${summary.duration_seconds}s)</span></div>
+        </div>
+    `;
 
     const maxItems = 40;
     const items = detail.results.slice(0, maxItems);
@@ -139,18 +147,33 @@ function renderDetail(detail) {
         return;
     }
 
-    detailResults.innerHTML = items
+    const rows = items
         .map((result) => {
             const rowClass = result.is_correct ? 'correct' : 'incorrect';
             return `
-                <div class="detail-item ${rowClass}">
-                    <strong>#${result.problem_index}</strong>
-                    | correct_answer: ${result.correct_answer}
-                    | rag_answer: ${result.rag_answer}
-                </div>
+                <tr class="${rowClass}">
+                    <td>${result.problem_index}</td>
+                    <td>${result.correct_answer}</td>
+                    <td>${result.rag_answer ?? ''}</td>
+                </tr>
             `;
         })
         .join('');
+
+    detailResults.innerHTML = `
+        <table class="detail-table">
+            <thead>
+                <tr>
+                    <th>Numero de pregunta</th>
+                    <th>Respuesta correcta</th>
+                    <th>Respuesta del RAG</th>
+                </tr>
+            </thead>
+            <tbody>
+                ${rows}
+            </tbody>
+        </table>
+    `;
 }
 
 function renderCurve(curve) {
