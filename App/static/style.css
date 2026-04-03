@@ -73,6 +73,12 @@ body {
     gap: 12px;
 }
 
+.rag-controls {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
 .start-rag-main {
     padding: 12px 24px;
     font-size: 0.95rem;
@@ -94,6 +100,40 @@ body {
 .start-rag-main:disabled:hover {
     background: #8f8b84;
     transform: none;
+}
+
+.rag-status {
+    font-size: 0.8rem;
+    font-weight: 600;
+    padding: 6px 10px;
+    border-radius: 999px;
+    border: 1px solid var(--border);
+    background: #f4f2ee;
+    color: var(--text-secondary);
+}
+
+.rag-status.ready {
+    background: #e9f8ee;
+    border-color: #c2eacd;
+    color: #21613a;
+}
+
+.rag-status.initializing {
+    background: #fff2de;
+    border-color: #ffd6a2;
+    color: #9d5a00;
+}
+
+.rag-status.not_started {
+    background: #f3f2f0;
+    border-color: #e0ddd7;
+    color: #6f6b64;
+}
+
+.rag-status.error {
+    background: #fdeceb;
+    border-color: #f4bfba;
+    color: #8b1f14;
 }
 
 .page-nav {
@@ -328,6 +368,11 @@ button:active {
         transform: none;
         width: 100%;
         margin-bottom: 8px;
+    }
+
+    .rag-controls {
+        width: 100%;
+        justify-content: space-between;
     }
 
     .nav-spacer {

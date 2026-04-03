@@ -4,11 +4,16 @@ from fastapi.responses import HTMLResponse
 from fastapi.templating import Jinja2Templates
 from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel
+import threading
 from RAG.Rag import Rag
 from Evaluation.DataVisualizer import DataVisualizer
+from Config.settings import SYSTEM_PROMPT
 
 app = FastAPI()
 rag = None
+rag_initializing = False
+rag_init_error = None
+rag_lock = threading.Lock()
 visualizer = DataVisualizer()
 
 app.mount("/static", StaticFiles(directory="App/static"), name="static")
@@ -43,20 +48,70 @@ async def create_chat(request: Request):
 
 @app.post("/api/start_rag")
 async def start_rag():
-    global rag
-    if rag is None:
-        rag = Rag(rebuild_index=True)
-        return {"status": "started", "message": "RAG started"}
-    return {"status": "already_started", "message": "RAG is already running"}
+    global rag, rag_initializing, rag_init_error
+
+    def _initialize_rag_background():
+        global rag, rag_initializing, rag_init_error
+        try:
+            rag_instance = Rag(
+                retriever_model_name="Octen/Octen-Embedding-0.6B",
+                retriever_model_mode="local",
+                generator_model_name="Qwen/Qwen2.5-3B-Instruct",
+                generator_model_mode="local",
+                rebuild_index=True,
+                system_prompt=SYSTEM_PROMPT,
+            )
+            # Build everything so "ready" means prompts can be answered immediately.
+            rag_instance.build_rag(prepared_data=[])
+            with rag_lock:
+                rag = rag_instance
+                rag_init_error = None
+        except Exception as exc:
+            with rag_lock:
+                rag = None
+                rag_init_error = str(exc)
+        finally:
+            with rag_lock:
+                rag_initializing = False
+
+    with rag_lock:
+        if rag is not None:
+            return {"status": "ready", "message": "RAG is already running"}
+        if rag_initializing:
+            return {"status": "initializing", "message": "RAG is initializing"}
+
+        rag_initializing = True
+        rag_init_error = None
+
+    threading.Thread(target=_initialize_rag_background, daemon=True).start()
+    return {"status": "initializing", "message": "RAG initialization started"}
+
+
+@app.get("/api/rag_status")
+async def rag_status():
+    with rag_lock:
+        if rag is not None:
+            return {"status": "ready"}
+        if rag_initializing:
+            return {"status": "initializing"}
+        if rag_init_error:
+            return {"status": "error", "message": rag_init_error}
+        return {"status": "not_started"}
 
 
 @app.post("/api/send_message")
 async def send_message(request: Request):
-    if rag is None:
+    with rag_lock:
+        rag_instance = rag
+        initializing = rag_initializing
+
+    if initializing:
+        raise HTTPException(status_code=409, detail="RAG is still initializing. Try again in a few seconds.")
+    if rag_instance is None:
         raise HTTPException(status_code=400, detail="RAG is not started. Press 'Start RAG' first.")
 
     data = await request.json()
-    answer = rag.prompt(data["message"])
+    answer = rag_instance.prompt(query=data["message"], benchmark=False)
     return {"message": answer}
 
 

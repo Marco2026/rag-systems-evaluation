@@ -8,7 +8,10 @@
     <body>
         <div class="header">
             <div class="top-actions">
-                <button id="start-rag-btn" class="start-rag-main" onclick="startRag()">Start RAG</button>
+                <div class="rag-controls">
+                    <button id="start-rag-btn" class="start-rag-main" onclick="startRag()">Start RAG</button>
+                    <span id="rag-status" class="rag-status not-started">No iniciado</span>
+                </div>
                 <div class="page-nav">
                     <a class="page-nav-btn active" href="/">Chat</a>
                     <a class="page-nav-btn" href="/results">Benchmark Results</a>
@@ -36,22 +39,95 @@
             const messagesContainer = document.getElementById('messages');
             const messageInput = document.getElementById('message-input');
             const startRagBtn = document.getElementById('start-rag-btn');
+            const ragStatus = document.getElementById('rag-status');
             let currentChatId = null;
             let currentUserId = null;
             let ragStarted = false;
+            let ragPollingTimer = null;
+
+            function applyRagStatus(status, message = '') {
+                ragStatus.className = `rag-status ${status}`;
+                if (status === 'ready') {
+                    ragStatus.textContent = 'Listo';
+                    ragStarted = true;
+                    startRagBtn.textContent = 'RAG Started';
+                    startRagBtn.disabled = true;
+                } else if (status === 'initializing') {
+                    ragStatus.textContent = 'Inicializando...';
+                    ragStarted = false;
+                    startRagBtn.textContent = 'Starting...';
+                    startRagBtn.disabled = true;
+                } else if (status === 'error') {
+                    ragStatus.textContent = 'Error al iniciar';
+                    ragStatus.title = message || 'Unknown initialization error';
+                    ragStarted = false;
+                    startRagBtn.textContent = 'Start RAG';
+                    startRagBtn.disabled = false;
+                } else {
+                    ragStatus.textContent = 'No iniciado';
+                    ragStatus.title = '';
+                    ragStarted = false;
+                    startRagBtn.textContent = 'Start RAG';
+                    startRagBtn.disabled = false;
+                }
+            }
+
+            function refreshRagStatus() {
+                fetch('/api/rag_status')
+                .then(response => response.json())
+                .then(data => {
+                    applyRagStatus(data.status || 'not_started', data.message || '');
+                })
+                .catch(() => {
+                    applyRagStatus('not_started');
+                });
+            }
+
+            function stopRagPolling() {
+                if (ragPollingTimer) {
+                    clearInterval(ragPollingTimer);
+                    ragPollingTimer = null;
+                }
+            }
+
+            function startRagPolling() {
+                stopRagPolling();
+                ragPollingTimer = setInterval(() => {
+                    fetch('/api/rag_status')
+                        .then(response => response.json())
+                        .then(data => {
+                            const status = data.status || 'not_started';
+                            applyRagStatus(status, data.message || '');
+                            if (status === 'ready' || status === 'error' || status === 'not_started') {
+                                stopRagPolling();
+                            }
+                        })
+                        .catch(() => {
+                            applyRagStatus('error', 'Status check failed');
+                            stopRagPolling();
+                        });
+                }, 1200);
+            }
 
             function startRag() {
+                applyRagStatus('initializing');
                 fetch('/api/start_rag', {
                     method: 'POST'
                 })
                 .then(response => response.json())
                 .then(data => {
-                    ragStarted = true;
-                    startRagBtn.textContent = 'RAG Started';
-                    startRagBtn.disabled = true;
+                    if (data.status === 'ready') {
+                        applyRagStatus('ready');
+                    } else if (data.status === 'initializing') {
+                        applyRagStatus('initializing');
+                        startRagPolling();
+                    } else {
+                        applyRagStatus(data.status || 'not_started', data.message || '');
+                    }
                     appendMessage('assistant', data.message);
                 })
                 .catch(() => {
+                    applyRagStatus('error', 'Error starting RAG');
                     alert('Error starting RAG');
                 });
             }
@@ -139,6 +215,7 @@
             }
 
             document.addEventListener('DOMContentLoaded', startNewChat);
+            document.addEventListener('DOMContentLoaded', refreshRagStatus);
 
             messageInput.addEventListener('keypress', function(e) {
                 if (e.key === 'Enter' && !e.shiftKey) {
