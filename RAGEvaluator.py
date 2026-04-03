@@ -56,7 +56,7 @@ class RAGEvaluator:
             "duration (seconds)": total_seconds,
             "total": total,
             "correct": correct,
-            "accuracy": round(accuracy * 100, 2),
+            "accuracy": accuracy,
             "results": results
         }
 
@@ -64,7 +64,7 @@ class RAGEvaluator:
         with open(report_file, "w") as f:
             json.dump(report, f, indent=2, ensure_ascii=False)
 
-        print(f"\nScore: {correct}/{total} ({accuracy:.2%})")
+        print(f"\nScore: {correct}/{total} ({round(accuracy * 100, 2):.2%})")
         print(f"Report saved to: {report_file}")
         return report
             
