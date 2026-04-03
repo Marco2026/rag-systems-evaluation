@@ -14,6 +14,7 @@
             <button class="suggestion-btn" onclick="usePrompt('¿Dónde se creó el pádel?')">Origen del deporte</button>
             <button class="suggestion-btn" onclick="usePrompt('¿Quiénes fueron los primeros número 1?')">Primeros nº1</button>
             <button class="suggestion-btn" onclick="usePrompt('¿Cómo se encuentra actualmente el pádel?')">Actualidad</button>
+            <button id="start-rag-btn" class="suggestion-btn" onclick="startRag()">Start RAG</button>
         </div>
         <div id="chat-container">
             <div id="messages"></div>
@@ -28,8 +29,26 @@
         <script>
             const messagesContainer = document.getElementById('messages');
             const messageInput = document.getElementById('message-input');
+            const startRagBtn = document.getElementById('start-rag-btn');
             let currentChatId = null;
             let currentUserId = null;
+            let ragStarted = false;
+
+            function startRag() {
+                fetch('/api/start_rag', {
+                    method: 'POST'
+                })
+                .then(response => response.json())
+                .then(data => {
+                    ragStarted = true;
+                    startRagBtn.textContent = 'RAG Started';
+                    startRagBtn.disabled = true;
+                    appendMessage('assistant', data.message);
+                })
+                .catch(() => {
+                    alert('Error starting RAG');
+                });
+            }
 
             function startNewChat() {
                 fetch('/api/create_chat', {
@@ -58,6 +77,10 @@
             function sendMessage() {
                 const message = messageInput.value.trim();
                 if (!message) return;
+                if (!ragStarted) {
+                    alert("Primero pulsa 'Start RAG'");
+                    return;
+                }
                 appendMessage('user', message);
                 messageInput.value = '';
 
@@ -81,7 +104,11 @@
                 .then(response => response.json())
                 .then(data => {
                     document.getElementById('typing')?.remove();
-                    appendMessage('assistant', data.message);
+                    if (data.message) {
+                        appendMessage('assistant', data.message);
+                    } else {
+                        appendMessage('assistant', data.detail || 'Error sending message');
+                    }
                 })
                 .catch(() => {
                     document.getElementById('typing')?.remove();

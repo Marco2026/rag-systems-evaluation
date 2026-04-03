@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>RAG Results Viewer</title>
+        <link rel="stylesheet" href="{{ url_for('static', path='/style.css') }}">
+        <link rel="stylesheet" href="{{ url_for('static', path='/results.css') }}">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>
+    </head>
+    <body>
+        <div class="header">
+            <h1>Resultados del Benchmark</h1>
+            <p>Comparativa retriever x generator</p>
+        </div>
+
+        <main id="results-page">
+            <section class="toolbar card">
+                <div class="toolbar-left">
+                    <label for="benchmark-select">Benchmark</label>
+                    <select id="benchmark-select"></select>
+                    <button id="reload-btn" type="button">Recargar</button>
+                </div>
+                <div class="toolbar-right">
+                    <a class="link-btn" href="/">Volver al chat</a>
+                </div>
+            </section>
+
+            <section class="card">
+                <h2>Tabla Comparativa (accuracy)</h2>
+                <div id="matrix-container"></div>
+            </section>
+
+            <section class="card">
+                <h2>Mapa de Calor</h2>
+                <div id="heatmap" class="plot"></div>
+            </section>
+
+            <section class="card">
+                <h2>Análisis por Parámetros</h2>
+                <p id="curve-caption" class="hint">Selecciona una fila o columna para dibujar la curva.</p>
+                <div id="curve-plot" class="plot"></div>
+            </section>
+
+            <section class="card">
+                <h2>Detalle de combinación</h2>
+                <div id="detail-summary" class="detail-summary">Selecciona una celda para ver detalle.</div>
+                <div id="detail-results" class="detail-results"></div>
+            </section>
+        </main>
+
+        <script src="{{ url_for('static', path='/results.js') }}"></script>
+    </body>
+</html>
