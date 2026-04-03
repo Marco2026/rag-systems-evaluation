@@ -1,4 +1,5 @@
 import torch
+import gc
 from transformers import AutoModelForCausalLM, AutoTokenizer, BitsAndBytesConfig
 import re
 
@@ -53,10 +54,15 @@ class LocalGenerator():
         inputs = self.tokenizer([text], return_tensors="pt").to(self.device)
         outputs = self.model.generate(
             **inputs, 
-            max_new_tokens=300, 
+            max_new_tokens=10, 
             do_sample=False
         )
         answer = self.clean_output(inputs, outputs)
+        
+        del outputs
+        torch.cuda.empty_cache()
+        gc.collect()
+        
         return answer
 
     def clean_output(self, inputs, outputs):
