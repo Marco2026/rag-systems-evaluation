@@ -18,12 +18,14 @@ class LocalRetriever():
 
 
     def create_embeddings(self, data: list[str]) -> np.ndarray:
-        files_embeddings = list()
-        for d in data:
-            embedding = self.model.encode(d)
-            files_embeddings.append(embedding)
-        files_embeddings_array = np.vstack(files_embeddings)
-        return files_embeddings_array
+        embeddings = self.model.encode(
+            data,
+            batch_size=2,
+            show_progress_bar=True,
+            normalize_embeddings=True,
+            convert_to_numpy=True
+        )
+        return embeddings
 
 
     def retrieve(self, query: str) -> list[dict]:
