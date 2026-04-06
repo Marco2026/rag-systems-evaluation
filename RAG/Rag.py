@@ -5,6 +5,7 @@ import torch
 import faiss
 import json
 import gc
+import numpy as np
 from huggingface_hub import login
 from .LocalGenerator import LocalGenerator
 from .LocalRetriever import LocalRetriever
@@ -99,6 +100,11 @@ class Rag():
             self.database_manager.write_metadata(metadata=metadata)
 
         files_embeddings = self.retriever.create_embeddings(chunked_data)
+        
+        files_embeddings = np.asarray(files_embeddings, dtype=np.float32)
+        if files_embeddings.ndim == 1:
+            files_embeddings = files_embeddings.reshape(1, -1)
+        files_embeddings = np.ascontiguousarray(files_embeddings, dtype=np.float32)
 
         faiss.normalize_L2(files_embeddings)
         dim = files_embeddings.shape[1]

@@ -25,6 +25,12 @@ class OllamaRetriever:
 
     def retrieve(self, query: str) -> list[dict]:
         query_embedding  = self.create_embeddings(data=[query])
+
+        query_embedding = np.asarray(query_embedding, dtype=np.float32)
+        if query_embedding.ndim == 1:
+            query_embedding = query_embedding.reshape(1, -1)
+        query_embedding = np.ascontiguousarray(query_embedding, dtype=np.float32)
+
         faiss.normalize_L2(query_embedding)
 
         scores, ids = self.index.search(query_embedding, self.k)

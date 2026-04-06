@@ -54,14 +54,13 @@ async def start_rag():
         global rag, rag_initializing, rag_init_error
         try:
             rag_instance = Rag(
-                retriever_model_name="Octen/Octen-Embedding-0.6B",
-                retriever_model_mode="local",
-                generator_model_name="Qwen/Qwen2.5-3B-Instruct",
-                generator_model_mode="local",
+                retriever_model_name="mxbai-embed-large:v1",
+                retriever_model_mode="api",
+                generator_model_name="llama3.1:8b",
+                generator_model_mode="api",
                 rebuild_index=True,
                 system_prompt=SYSTEM_PROMPT,
             )
-            # Build everything so "ready" means prompts can be answered immediately.
             rag_instance.build_rag(prepared_data=[])
             with rag_lock:
                 rag = rag_instance

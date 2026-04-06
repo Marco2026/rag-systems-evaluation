@@ -3,7 +3,7 @@ import requests
 
 def create_embedding_api_call(model_name: str, input: list[str]) -> dict[str:str]:
         settings = Settings()
-        uri = "https://llamus.cs.us.es/ollama/api/chat"
+        uri = "https://llamus.cs.us.es/ollama/api/embed"
         
         response = requests.post(
             uri,
@@ -13,12 +13,14 @@ def create_embedding_api_call(model_name: str, input: list[str]) -> dict[str:str
             },
             json={
                 "stream": False,
-                "model": f"{model_name}",
-                "input": f"{input}"
+                "model": model_name,
+                "input": input
             }
         )
-
-        return response
+        response.raise_for_status()
+        data = response.json()
+        embeddings = data["embeddings"]
+        return embeddings
 
 
 def ask_generator_api_call(model_name: str, messages: list[dict[str:str]]) -> dict[str:str]:
@@ -33,9 +35,11 @@ def ask_generator_api_call(model_name: str, messages: list[dict[str:str]]) -> di
             },
             json={
                 "stream": False,
-                "model": f"{model_name}",
+                "model": model_name,
                 "messages": messages
             }
         )
-
-        return response
+        response.raise_for_status()
+        data = response.json()
+        answer = data["message"]["content"]
+        return answer
