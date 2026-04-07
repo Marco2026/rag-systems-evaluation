@@ -5,7 +5,7 @@ from datasets import load_dataset, Dataset
 from RAG.Rag import Rag
 from collections import namedtuple
 from pathlib import Path
-from Config.settings import QUALITY_BENCHMARK_SYSTEM_PROMPT
+from Config.settings import QUALITY_BENCHMARK_SYSTEM_PROMPT, CHUNK_SIZE, CHUNK_OVERLAP
 from datetime import datetime
 import json
 import torch
@@ -97,9 +97,12 @@ class RAGEvaluator:
         hits: int = 0
         
         for d in dataset_sample:
-            articles.append(d["article"])
+            chunks = chunk_text(d["article"], chunk_size=CHUNK_SIZE, overlap=CHUNK_OVERLAP)
+            for c in chunks:
+                articles.append(c)
+                metadata.append({"source": d["article"][:15], "text": c})
+
             problems.append(Problem(d["question"], d["options"], d["answer"]))
-            metadata.append({"source": d["article"][:15], "text": d["article"]})
         
         self.benchmark_start_time = datetime.now()
 
@@ -160,10 +163,24 @@ def extract_duration(start_datetime: datetime, finish_datetime: datetime) -> tup
     return (f"{hours:02}:{minutes:02}:{seconds:02}", total_seconds)
 
 
+def chunk_text(text: str, chunk_size: int = 1200, overlap: int = 200) -> list[str]:
+    chunks = []
+    step = max(1, chunk_size - overlap)
+    for i in range(0, len(text), step):
+        piece = text[i:i + chunk_size].strip()
+        if piece:
+            chunks.append(piece)
+    return chunks
+
+
 if __name__ == "__main__":
 
-    RETRIEVER_MODEL_NAME = "Octen/Octen-Embedding-0.6B"
-    GENERATOR_MODEL_NAME = "Qwen/Qwen2.5-3B-Instruct" #"Qwen/Qwen2.5-7B-Instruct"
+    #RETRIEVER_MODEL_NAME = "Octen/Octen-Embedding-0.6B"
+    #GENERATOR_MODEL_NAME = "Qwen/Qwen2.5-3B-Instruct" #"Qwen/Qwen2.5-7B-Instruct"
+
+    RETRIEVER_MODEL_NAME = "mxbai-embed-large:v1"
+    GENERATOR_MODEL_NAME = "llama3.1:8b"
+
 
     # QuaLITY evaluation
     print("-"*20 + " STARTING QuaLITY EVALUATION " + "-"*20)
@@ -174,9 +191,9 @@ if __name__ == "__main__":
 
     rag = Rag(
         retriever_model_name = RETRIEVER_MODEL_NAME,
-        retriever_model_mode = "local",
+        retriever_model_mode = "api",
         generator_model_name = GENERATOR_MODEL_NAME,
-        generator_model_mode = "local",
+        generator_model_mode = "api",
         rebuild_index = True,
         system_prompt=QUALITY_BENCHMARK_SYSTEM_PROMPT
     )

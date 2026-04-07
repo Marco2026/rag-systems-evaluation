@@ -25,8 +25,8 @@ If you are unsure, choose the most supported answer based on the passage."""
 INDEX_PATH = Path("KnowledgeBase/index/faiss.index")
 META_PATH = Path("KnowledgeBase/index/meta.json")
 DATA_DIR = Path("KnowledgeBase/data")
-CHUNK_SIZE = 500
-CHUNK_OVERLAP = 80
+CHUNK_SIZE = 800
+CHUNK_OVERLAP = 100
 
 # SECRETS
 class Settings(BaseSettings):
