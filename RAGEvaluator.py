@@ -303,7 +303,7 @@ if __name__ == "__main__":
     )
 
     retriever_model_3 = ModelToEvaluate(
-        model_name = 'quen3-embedding:0.6b',
+        model_name = 'qwen3-embedding:0.6b',
         params = 0.596,
         size = 0.6
     )
