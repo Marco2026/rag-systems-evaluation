@@ -41,6 +41,11 @@ class RAGEvaluator:
 
 
     def evaluate(self):
+        print("-"*20 + " STARTING " + self.benchmark + " EVALUATION " + "-"*20)
+        print("Models to evaluate: ")
+        print("- Retriever: " + self.retriever_to_evaluate.model_name)
+        print("- Generator: " + self.generator_to_evaluate.model_name)
+        print()
         match self.benchmark:
             case "QuaLITY_EASY":
                 self.QuaLITY_EASY_evaluation()
@@ -167,7 +172,100 @@ class RAGEvaluator:
         return score
     
     def QuaLITY_HARD_evaluation(self):
-        pass
+        def parse_answer(option):
+            options = {
+                'A': 0,
+                'B': 1,
+                'C': 2,
+                'D': 3
+            }
+            if option.strip().rstrip(')') in options.keys():
+                return options[option.strip().rstrip(')')]
+            return 'Error'
+
+        dataset = load_dataset("emozilla/quality", split="validation")
+        df = dataset.to_pandas()
+        hard_df = df[df["hard"] == True].reset_index(drop=True)
+        hard_df = hard_df.sample(n=min(200, len(hard_df)), random_state=42).reset_index(drop=True)
+        dataset_sample = Dataset.from_pandas(hard_df, preserve_index=False)
+
+        articles: list[str] = list()
+        metadata: list[str] = list()
+        problems: list[Problem] = list()
+        hits: int = 0
+        
+        for d in dataset_sample:
+            chunks = chunk_text(d["article"], chunk_size=CHUNK_SIZE, overlap=CHUNK_OVERLAP)
+            for c in chunks:
+                articles.append(c)
+                metadata.append({"source": d["article"][:15], "text": c})
+
+            problems.append(Problem(d["question"], d["options"], d["answer"]))
+        
+        self.benchmark_start_time = datetime.now()
+
+        self.RAG.build_rag(prepared_data=[articles, metadata])
+
+        prob_idx = 0
+        for p in problems:
+            prob_idx += 1
+            question = f"""Question: {p.question}
+
+                A) {p.options[0]}
+                B) {p.options[1]}
+                C) {p.options[2]}
+                D) {p.options[3]}"""
+
+            rag_answer = self.RAG.prompt(query=question, benchmark=True)
+            is_correct = parse_answer(rag_answer) == p.answer
+
+            print("\nProblem #" + str(prob_idx))
+            print("Correct answer: " + str(p.answer))
+            print("Answer provided: " + str(parse_answer(rag_answer)))
+
+            if is_correct:
+                hits += 1
+            else:
+                print('RAG answer ' + rag_answer + ' did not match correct answer: ' + str(p.answer))
+
+            with open(self.results_file, "a") as f:
+                f.write(json.dumps({
+                    "problem_index": prob_idx,
+                    "question": p.question,
+                    "options": p.options,
+                    "correct_answer": p.answer,
+                    "rag_answer": rag_answer,
+                    "is_correct": is_correct
+                }, ensure_ascii=False) + "\n")
+
+            torch.cuda.empty_cache()
+            gc.collect()
+
+        self.benchmark_finish_time = datetime.now()
+
+        self.generate_report()
+        score = hits / len(problems)
+        return score
+
+
+def grid_evaluation(retrievers: list[ModelToEvaluate], generators: list[ModelToEvaluate], benchmark: str):
+    for r in retrievers:
+        for g in generators:
+            rag = Rag(
+                retriever_model_name = r.model_name,
+                retriever_model_mode = "api",
+                generator_model_name = g.model_name,
+                generator_model_mode = "api",
+                rebuild_index = True,
+                system_prompt=QUALITY_BENCHMARK_SYSTEM_PROMPT
+            )
+            rag_evaluator = RAGEvaluator(
+                RAG=rag,
+                benchmark=benchmark,
+                retriever_to_evaluate=r,
+                generator_to_evaluate=g
+            )
+            rag_evaluator.evaluate()
 
 
 def sanitize_name(file_name):
@@ -198,10 +296,28 @@ if __name__ == "__main__":
     #RETRIEVER_MODEL_NAME = "Octen/Octen-Embedding-0.6B"
     #GENERATOR_MODEL_NAME = "Qwen/Qwen2.5-3B-Instruct" #"Qwen/Qwen2.5-7B-Instruct"
 
-    retriever_model_1 = ModelToEvaluate(
+    retriever_model_2 = ModelToEvaluate(
         model_name = 'embeddinggemma:latest',
-        params = 0.118,
-        size = 0.476
+        params = 0.308,
+        size = 0.6
+    )
+
+    retriever_model_3 = ModelToEvaluate(
+        model_name = 'quen3-embedding:0.6b',
+        params = 0.596,
+        size = 0.6
+    )
+
+    retriever_model_4 = ModelToEvaluate(
+        model_name = 'miti99/gte-qwen2:latest',
+        params = 1.8,
+        size = 3.3
+    )
+
+    retriever_model_5 = ModelToEvaluate(
+        model_name = 'qwen3-embedding:4b',
+        params = 4.02,
+        size = 2.3
     )
 
     generator_model_1 = ModelToEvaluate(
@@ -210,27 +326,22 @@ if __name__ == "__main__":
         size = 2.5
     )
 
-    # QuaLITY evaluation
-    print("-"*20 + " STARTING QuaLITY EVALUATION " + "-"*20)
-    print("Models to evaluate: ")
-    print("- Retriever: " + retriever_model_1.model_name)
-    print("- Generator: " + generator_model_1.model_name)
-    print()
 
-    rag = Rag(
-        retriever_model_name = retriever_model_1.model_name,
-        retriever_model_mode = "api",
-        generator_model_name = generator_model_1.model_name,
-        generator_model_mode = "api",
-        rebuild_index = True,
-        system_prompt=QUALITY_BENCHMARK_SYSTEM_PROMPT
+    # Evaluation config
+    retrievers_to_evaluate = [
+        retriever_model_3,
+        retriever_model_4
+    ]
+
+    generators_to_evaluate = [
+        generator_model_1
+    ]
+
+    benchmark_to_evaluate = "QuaLITY_EASY"
+
+    grid_evaluation(
+        retrievers=retrievers_to_evaluate,
+        generators=generators_to_evaluate,
+        benchmark=benchmark_to_evaluate
     )
 
-    evaluator = RAGEvaluator(
-        RAG=rag,
-        benchmark="QuaLITY_EASY",
-        retriever_to_evaluate=retriever_model_1,
-        generator_to_evaluate=generator_model_1
-    )
-
-    evaluator.evaluate()
