@@ -2,7 +2,7 @@ from pydantic_settings import BaseSettings
 from pathlib import Path
 
 # RETRIEVER
-K = 4
+K = 5
 
 # GENERATOR
 SYSTEM_PROMPT = "Eres un asistente especializado en pádel. Debes contestar siempre en español. Debes contestar basándote en la información recibida como contexto. Si la información pedida no está en ese contexto debes decirlo. Debes contestar en un máximo de 250 palabras y ser amable."
