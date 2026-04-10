@@ -249,8 +249,8 @@ class RAGEvaluator:
 
 
 def grid_evaluation(retrievers: list[ModelToEvaluate], generators: list[ModelToEvaluate], benchmark: str):
-    for r in retrievers:
-        for g in generators:
+    for g in generators:
+        for r in retrievers:
             rag = Rag(
                 retriever_model_name = r.model_name,
                 retriever_model_mode = "api",
@@ -293,8 +293,14 @@ def chunk_text(text: str, chunk_size: int = 1200, overlap: int = 200) -> list[st
 
 if __name__ == "__main__":
 
-    #RETRIEVER_MODEL_NAME = "Octen/Octen-Embedding-0.6B"
-    #GENERATOR_MODEL_NAME = "Qwen/Qwen2.5-3B-Instruct" #"Qwen/Qwen2.5-7B-Instruct"
+    # local_retriever_model = "Octen/Octen-Embedding-0.6B"
+    # local_generator_model = "Qwen/Qwen2.5-3B-Instruct" 
+    
+    retriever_model_1 = ModelToEvaluate(
+        model_name = 'jeffh/intfloat-multilingual-e5-small:f32',
+        params = 0.118,
+        size = 0.4
+    )
 
     retriever_model_2 = ModelToEvaluate(
         model_name = 'embeddinggemma:latest',
@@ -323,7 +329,31 @@ if __name__ == "__main__":
     generator_model_1 = ModelToEvaluate(
         model_name = 'phi4-mini:3.8b',
         params = 3.84,
-        size = 2.5
+        size = 2.3
+    )
+
+    generator_model_2 = ModelToEvaluate(
+        model_name = 'goekdenizguelmez/JOSIEFIED-Qwen2.5:7b',
+        params = 7.62,
+        size = 4.4
+    )
+
+    generator_model_3 = ModelToEvaluate(
+        model_name = 'rjmalagon/lamarck-v0.7:14b-bf16',
+        params = 14.8,
+        size = 27.5
+    )
+
+    generator_model_4 = ModelToEvaluate(
+        model_name = 'huihui_ai/fluentlylm-prinum-abliterated:32b',
+        params = 32.8,
+        size = 18.5
+    )
+
+    generator_model_5 = ModelToEvaluate(
+        model_name = 'huihui_ai/qwen2.5-abliterate:72b',
+        params = 72.7,
+        size = 44.2
     )
 
 
