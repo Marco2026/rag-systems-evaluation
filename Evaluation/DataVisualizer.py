@@ -1,13 +1,7 @@
 import json
-import re
 from dataclasses import dataclass
 from pathlib import Path
 from typing import Any
-
-
-REPORT_RE = re.compile(
-	r"^(?P<benchmark>.+?)_R:(?P<retriever>.+?)_G:(?P<generator>.+?)_report\.json$"
-)
 
 
 @dataclass
@@ -17,6 +11,10 @@ class EvaluationRecord:
 	generator: str
 	report_file: Path
 	report: dict[str, Any]
+	retriever_params: float | None = None
+	generator_params: float | None = None
+	retriever_size: float | None = None
+	generator_size: float | None = None
 
 
 class DataVisualizer:
@@ -26,15 +24,21 @@ class DataVisualizer:
 	def list_benchmarks(self) -> list[str]:
 		benchmarks: set[str] = set()
 		for file_path in self.results_dir.glob("*_report.json"):
-			parsed = self._parse_report_filename(file_path.name)
-			if parsed is not None:
-				benchmarks.add(parsed["benchmark"])
+			try:
+				with open(file_path, "r", encoding="utf-8") as handle:
+					report = json.load(handle)
+			except (OSError, json.JSONDecodeError):
+				continue
+
+			benchmark = report.get("benchmark")
+			if isinstance(benchmark, str) and benchmark:
+				benchmarks.add(benchmark)
 		return sorted(benchmarks)
 
 	def get_matrix(self, benchmark: str) -> dict[str, Any]:
 		records = self._load_records(benchmark)
-		retrievers = self._sort_models_by_params({record.retriever for record in records})
-		generators = self._sort_models_by_params({record.generator for record in records})
+		retrievers = self._sort_models_by_report(records, axis="retriever")
+		generators = self._sort_models_by_report(records, axis="generator")
 
 		matrix: list[list[float | None]] = []
 		cell_meta: dict[str, dict[str, dict[str, Any]]] = {}
@@ -58,6 +62,10 @@ class DataVisualizer:
 					"duration_seconds": record.report.get("duration (seconds)"),
 					"timestamp": record.report.get("timestamp"),
 					"report_file": str(record.report_file),
+					"retriever_params": record.retriever_params,
+					"generator_params": record.generator_params,
+					"retriever_size": record.retriever_size,
+					"generator_size": record.generator_size,
 				}
 
 			matrix.append(row)
@@ -100,7 +108,11 @@ class DataVisualizer:
 
 		if axis == "row":
 			points = [
-				self._record_to_curve_point(record, variable_name=record.generator)
+				self._record_to_curve_point(
+					record,
+					variable_name=record.generator,
+					params_billions=record.generator_params,
+				)
 				for record in records
 				if record.retriever == model
 			]
@@ -108,7 +120,11 @@ class DataVisualizer:
 			variable_label = "generator"
 		elif axis == "col":
 			points = [
-				self._record_to_curve_point(record, variable_name=record.retriever)
+				self._record_to_curve_point(
+					record,
+					variable_name=record.retriever,
+					params_billions=record.retriever_params,
+				)
 				for record in records
 				if record.generator == model
 			]
@@ -136,34 +152,40 @@ class DataVisualizer:
 
 	def _load_records(self, benchmark: str) -> list[EvaluationRecord]:
 		records: list[EvaluationRecord] = []
-		for file_path in self.results_dir.glob(f"{benchmark}_R:*_G:*_report.json"):
-			parsed = self._parse_report_filename(file_path.name)
-			if parsed is None:
+		for file_path in self.results_dir.glob("*_report.json"):
+			try:
+				with open(file_path, "r", encoding="utf-8") as handle:
+					report = json.load(handle)
+			except (OSError, json.JSONDecodeError):
 				continue
 
-			with open(file_path, "r", encoding="utf-8") as handle:
-				report = json.load(handle)
+			report_benchmark = report.get("benchmark")
+			if not isinstance(report_benchmark, str) or report_benchmark != benchmark:
+				continue
+
+			retriever_name = report.get("retriever_model")
+			generator_name = report.get("generator_model")
+
+			if not isinstance(retriever_name, str) or not retriever_name:
+				continue
+
+			if not isinstance(generator_name, str) or not generator_name:
+				continue
 
 			records.append(
 				EvaluationRecord(
-					benchmark=parsed["benchmark"],
-					retriever=parsed["retriever"],
-					generator=parsed["generator"],
+					benchmark=report_benchmark,
+					retriever=retriever_name,
+					generator=generator_name,
 					report_file=file_path,
 					report=report,
+					retriever_params=self._safe_float(report.get("retriever_params")),
+					generator_params=self._safe_float(report.get("generator_params")),
+					retriever_size=self._safe_float(report.get("retriever_size")),
+					generator_size=self._safe_float(report.get("generator_size")),
 				)
 			)
 		return records
-
-	def _parse_report_filename(self, filename: str) -> dict[str, str] | None:
-		match = REPORT_RE.match(filename)
-		if match is None:
-			return None
-		return {
-			"benchmark": match.group("benchmark"),
-			"retriever": match.group("retriever"),
-			"generator": match.group("generator"),
-		}
 
 	def _find_record(
 		self, records: list[EvaluationRecord], retriever: str, generator: str
@@ -174,13 +196,12 @@ class DataVisualizer:
 		return None
 
 	def _record_to_curve_point(
-		self, record: EvaluationRecord, variable_name: str
+		self, record: EvaluationRecord, variable_name: str, params_billions: float | None
 	) -> dict[str, Any] | None:
 		accuracy = self._safe_float(record.report.get("accuracy"))
 		if accuracy is None:
 			return None
 
-		params_billions = self._extract_params_billions(variable_name)
 		return {
 			"name": variable_name,
 			"accuracy": accuracy,
@@ -195,26 +216,27 @@ class DataVisualizer:
 		except (TypeError, ValueError):
 			return None
 
-	def _extract_params_billions(self, model_name: str) -> float | None:
-		# Match sizes like 0.6B, 3B, 70B or 560M in model names.
-		match = re.search(r"(\d+(?:\.\d+)?)\s*([BbMm])", model_name)
-		if match is None:
-			return None
+	def _sort_models_by_report(
+		self, records: list[EvaluationRecord], axis: str
+	) -> list[str]:
+		model_to_params: dict[str, float | None] = {}
 
-		value = float(match.group(1))
-		unit = match.group(2).lower()
-		if unit == "b":
-			return value
-		if unit == "m":
-			return value / 1000.0
-		return None
+		for record in records:
+			if axis == "retriever":
+				name = record.retriever
+				params = record.retriever_params
+			else:
+				name = record.generator
+				params = record.generator_params
 
-	def _sort_models_by_params(self, model_names: set[str]) -> list[str]:
+			if name not in model_to_params or (model_to_params[name] is None and params is not None):
+				model_to_params[name] = params
+
 		return sorted(
-			model_names,
+			model_to_params,
 			key=lambda name: (
-				self._extract_params_billions(name) is None,
-				self._extract_params_billions(name) if self._extract_params_billions(name) is not None else 0.0,
+				model_to_params[name] is None,
+				model_to_params[name] if model_to_params[name] is not None else 0.0,
 				name,
 			),
 		)

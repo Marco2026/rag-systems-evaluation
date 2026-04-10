@@ -14,14 +14,25 @@ import pandas as pd
 
 Problem = namedtuple("Problem", "question, options, answer")
 
+class ModelToEvaluate:
+
+    def __init__(self, model_name, params, size):
+        self.model_name = model_name
+        self.params = params            # Medido en miles de millones de parámetros (B)
+        self.size = size                # Medido en Gigabytes ocupados en memoria (GB)
+
+
 class RAGEvaluator:
 
-    def __init__(self, RAG, benchmark):
+    def __init__(self, RAG, benchmark, retriever_to_evaluate, generator_to_evaluate):
         self.RAG = RAG
         self.benchmark = benchmark
 
         self.benchmark_start_time = None
         self.benchmark_finish_time = None
+
+        self.retriever_to_evaluate = retriever_to_evaluate
+        self.generator_to_evaluate = generator_to_evaluate
 
         output_dir = Path(f"Evaluation/results")
         output_dir.mkdir(exist_ok=True)
@@ -31,8 +42,10 @@ class RAGEvaluator:
 
     def evaluate(self):
         match self.benchmark:
-            case "QuaLITY":
-                self.QuaLITY_evaluation()
+            case "QuaLITY_EASY":
+                self.QuaLITY_EASY_evaluation()
+            case "QuaLITY_HARD":
+                self.QuaLITY_HARD_evaluation()
             case _:
                 return
             
@@ -51,6 +64,12 @@ class RAGEvaluator:
 
         report = {
             "benchmark": self.benchmark,
+            "retriever_model": self.retriever_to_evaluate.model_name,
+            "retriever_params": self.retriever_to_evaluate.params,
+            "retriever_size": self.retriever_to_evaluate.size,
+            "generator_model": self.generator_to_evaluate.model_name,
+            "generator_params": self.generator_to_evaluate.params,
+            "generator_size": self.generator_to_evaluate.size,
             "timestamp": datetime.now().isoformat(),
             "duration": duration,
             "duration (seconds)": total_seconds,
@@ -64,12 +83,14 @@ class RAGEvaluator:
         with open(report_file, "w") as f:
             json.dump(report, f, indent=2, ensure_ascii=False)
 
+        self.results_file.unlink()
+
         print(f"\nScore: {correct}/{total} ({round(accuracy * 100, 2):.2%})")
         print(f"Report saved to: {report_file}")
         return report
             
     
-    def QuaLITY_evaluation(self):
+    def QuaLITY_EASY_evaluation(self):
         def parse_answer(option):
             options = {
                 'A': 0,
@@ -77,19 +98,15 @@ class RAGEvaluator:
                 'C': 2,
                 'D': 3
             }
-            if option.strip() in options.keys():
-                return options[option.strip()]
+            if option.strip().rstrip(')') in options.keys():
+                return options[option.strip().rstrip(')')]
             return 'Error'
 
         dataset = load_dataset("emozilla/quality", split="validation")
         df = dataset.to_pandas()
-        df['difficulty_index'] = df['hard']
-
-        sample = df.groupby('difficulty_index', group_keys=False).apply(
-            lambda x: x.sample(frac=0.1, random_state=42)
-        ).reset_index(level=0, drop=True)
-
-        dataset_sample = Dataset.from_pandas(sample, preserve_index=False)
+        easy_df = df[df["hard"] == False].reset_index(drop=True)
+        easy_df = easy_df.sample(n=min(200, len(easy_df)), random_state=42).reset_index(drop=True)
+        dataset_sample = Dataset.from_pandas(easy_df, preserve_index=False)
 
         articles: list[str] = list()
         metadata: list[str] = list()
@@ -148,6 +165,9 @@ class RAGEvaluator:
         self.generate_report()
         score = hits / len(problems)
         return score
+    
+    def QuaLITY_HARD_evaluation(self):
+        pass
 
 
 def sanitize_name(file_name):
@@ -178,25 +198,39 @@ if __name__ == "__main__":
     #RETRIEVER_MODEL_NAME = "Octen/Octen-Embedding-0.6B"
     #GENERATOR_MODEL_NAME = "Qwen/Qwen2.5-3B-Instruct" #"Qwen/Qwen2.5-7B-Instruct"
 
-    RETRIEVER_MODEL_NAME = "mxbai-embed-large:v1"
-    GENERATOR_MODEL_NAME = "llama3.1:8b"
+    retriever_model_1 = ModelToEvaluate(
+        model_name = 'embeddinggemma:latest',
+        params = 0.118,
+        size = 0.476
+    )
 
+    generator_model_1 = ModelToEvaluate(
+        model_name = 'phi4-mini:3.8b',
+        params = 3.84,
+        size = 2.5
+    )
 
     # QuaLITY evaluation
     print("-"*20 + " STARTING QuaLITY EVALUATION " + "-"*20)
     print("Models to evaluate: ")
-    print("- Retriever: " + RETRIEVER_MODEL_NAME)
-    print("- Generator: " + GENERATOR_MODEL_NAME)
+    print("- Retriever: " + retriever_model_1.model_name)
+    print("- Generator: " + generator_model_1.model_name)
     print()
 
     rag = Rag(
-        retriever_model_name = RETRIEVER_MODEL_NAME,
+        retriever_model_name = retriever_model_1.model_name,
         retriever_model_mode = "api",
-        generator_model_name = GENERATOR_MODEL_NAME,
+        generator_model_name = generator_model_1.model_name,
         generator_model_mode = "api",
         rebuild_index = True,
         system_prompt=QUALITY_BENCHMARK_SYSTEM_PROMPT
     )
 
-    evaluator = RAGEvaluator(RAG=rag, benchmark="QuaLITY")
+    evaluator = RAGEvaluator(
+        RAG=rag,
+        benchmark="QuaLITY_EASY",
+        retriever_to_evaluate=retriever_model_1,
+        generator_to_evaluate=generator_model_1
+    )
+
     evaluator.evaluate()
