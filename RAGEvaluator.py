@@ -16,8 +16,9 @@ Problem = namedtuple("Problem", "question, options, answer")
 
 class ModelToEvaluate:
 
-    def __init__(self, model_name, params, size):
+    def __init__(self, model_name: str, model_mode: str, params: float, size: float):
         self.model_name = model_name
+        self.model_mode = model_mode    # 'api' or 'local'
         self.params = params            # Medido en miles de millones de parámetros (B)
         self.size = size                # Medido en Gigabytes ocupados en memoria (GB)
 
@@ -51,6 +52,8 @@ class RAGEvaluator:
                 self.QuaLITY_EASY_evaluation()
             case "QuaLITY_HARD":
                 self.QuaLITY_HARD_evaluation()
+            case "RACE":
+                self.RACE_evaluation()
             case _:
                 return
             
@@ -170,7 +173,8 @@ class RAGEvaluator:
         self.generate_report()
         score = hits / len(problems)
         return score
-    
+
+
     def QuaLITY_HARD_evaluation(self):
         def parse_answer(option):
             options = {
@@ -245,6 +249,82 @@ class RAGEvaluator:
 
         self.generate_report()
         score = hits / len(problems)
+        return 
+    
+
+    def RACE_evaluation(self):
+        def parse_answer(option):
+            options = {
+                'A': 0,
+                'B': 1,
+                'C': 2,
+                'D': 3
+            }
+            if option.strip().rstrip(')') in options.keys():
+                return options[option.strip().rstrip(')')]
+            return 'Error'
+
+        dataset = load_dataset("ehovy/race", "all", split="validation")
+        df = dataset.to_pandas()
+        df_sample = df.sample(n=min(5, len(df)), random_state=42).reset_index(drop=True)
+        dataset_sample = Dataset.from_pandas(df_sample, preserve_index=False)
+
+        articles: list[str] = list()
+        metadata: list[str] = list()
+        problems: list[Problem] = list()
+        hits: int = 0
+        
+        for d in dataset_sample:
+            chunks = chunk_text(d["article"], chunk_size=CHUNK_SIZE, overlap=CHUNK_OVERLAP)
+            for c in chunks:
+                articles.append(c)
+                metadata.append({"source": d["article"][:15], "text": c})
+
+            problems.append(Problem(d["question"], d["options"], d["answer"]))
+        
+        self.benchmark_start_time = datetime.now()
+
+        self.RAG.build_rag(prepared_data=[articles, metadata])
+
+        prob_idx = 0
+        for p in problems:
+            prob_idx += 1
+            question = f"""Question: {p.question}
+
+                A) {p.options[0]}
+                B) {p.options[1]}
+                C) {p.options[2]}
+                D) {p.options[3]}"""
+
+            rag_answer = self.RAG.prompt(query=question, benchmark=True)
+            is_correct = parse_answer(rag_answer) == p.answer
+
+            print("\nProblem #" + str(prob_idx))
+            print("Correct answer: " + str(p.answer))
+            print("Answer provided: " + str(parse_answer(rag_answer)))
+
+            if is_correct:
+                hits += 1
+            else:
+                print('RAG answer ' + rag_answer + ' did not match correct answer: ' + str(p.answer))
+
+            with open(self.results_file, "a") as f:
+                f.write(json.dumps({
+                    "problem_index": prob_idx,
+                    "question": p.question,
+                    "options": p.options,
+                    "correct_answer": p.answer,
+                    "rag_answer": rag_answer,
+                    "is_correct": is_correct
+                }, ensure_ascii=False) + "\n")
+
+            torch.cuda.empty_cache()
+            gc.collect()
+
+        self.benchmark_finish_time = datetime.now()
+
+        self.generate_report()
+        score = hits / len(problems)
         return score
 
 
@@ -253,9 +333,9 @@ def grid_evaluation(retrievers: list[ModelToEvaluate], generators: list[ModelToE
         for r in retrievers:
             rag = Rag(
                 retriever_model_name = r.model_name,
-                retriever_model_mode = "api",
+                retriever_model_mode = r.model_mode,
                 generator_model_name = g.model_name,
-                generator_model_mode = "api",
+                generator_model_mode = g.model_mode,
                 rebuild_index = True,
                 system_prompt=QUALITY_BENCHMARK_SYSTEM_PROMPT
             )
@@ -293,65 +373,90 @@ def chunk_text(text: str, chunk_size: int = 1200, overlap: int = 200) -> list[st
 
 if __name__ == "__main__":
 
-    # local_retriever_model = "Octen/Octen-Embedding-0.6B"
-    # local_generator_model = "Qwen/Qwen2.5-3B-Instruct" 
+    # MODELOS LOCALES
+
+    local_retriever_model_1 = ModelToEvaluate(
+        model_name = 'Octen/Octen-Embedding-0.6B',
+        model_mode = 'local',
+        params = 0.6,
+        size = 2.5
+    )
+
+    local_generator_model_1 = ModelToEvaluate(
+        model_name = 'Qwen/Qwen2.5-3B-Instruct',
+        model_mode = 'local',
+        params = 2.5,
+        size = 4.2
+    )
+
+    # MODELOS EN SERVIDOR
     
     retriever_model_1 = ModelToEvaluate(
         model_name = 'jeffh/intfloat-multilingual-e5-small:f32',
+        model_mode = 'api',
         params = 0.118,
         size = 0.4
     )
 
     retriever_model_2 = ModelToEvaluate(
         model_name = 'embeddinggemma:latest',
+        model_mode = 'api',
         params = 0.308,
         size = 0.6
     )
 
     retriever_model_3 = ModelToEvaluate(
         model_name = 'qwen3-embedding:0.6b',
+        model_mode = 'api',
         params = 0.596,
         size = 0.6
     )
 
     retriever_model_4 = ModelToEvaluate(
         model_name = 'miti99/gte-qwen2:latest',
+        model_mode = 'api',
         params = 1.8,
         size = 3.3
     )
 
     retriever_model_5 = ModelToEvaluate(
         model_name = 'qwen3-embedding:4b',
+        model_mode = 'api',
         params = 4.02,
         size = 2.3
     )
 
     generator_model_1 = ModelToEvaluate(
         model_name = 'phi4-mini:3.8b',
+        model_mode = 'api',
         params = 3.84,
         size = 2.3
     )
 
     generator_model_2 = ModelToEvaluate(
         model_name = 'goekdenizguelmez/JOSIEFIED-Qwen2.5:7b',
+        model_mode = 'api',
         params = 7.62,
         size = 4.4
     )
 
     generator_model_3 = ModelToEvaluate(
         model_name = 'rjmalagon/lamarck-v0.7:14b-bf16',
+        model_mode = 'api',
         params = 14.8,
         size = 27.5
     )
 
     generator_model_4 = ModelToEvaluate(
         model_name = 'huihui_ai/fluentlylm-prinum-abliterated:32b',
+        model_mode = 'api',
         params = 32.8,
         size = 18.5
     )
 
     generator_model_5 = ModelToEvaluate(
         model_name = 'huihui_ai/qwen2.5-abliterate:72b',
+        model_mode = 'api',
         params = 72.7,
         size = 44.2
     )
@@ -359,15 +464,21 @@ if __name__ == "__main__":
 
     # Evaluation config
     retrievers_to_evaluate = [
+        retriever_model_2,
         retriever_model_3,
-        retriever_model_4
+        retriever_model_4,
+        retriever_model_5
     ]
 
     generators_to_evaluate = [
-        generator_model_1
+        generator_model_1,
+        generator_model_2,
+        generator_model_3,
+        generator_model_4,
+        generator_model_5
     ]
 
-    benchmark_to_evaluate = "QuaLITY_EASY"
+    benchmark_to_evaluate = "RACE"
 
     grid_evaluation(
         retrievers=retrievers_to_evaluate,
