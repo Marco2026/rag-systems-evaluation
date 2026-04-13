@@ -52,8 +52,8 @@ class RAGEvaluator:
                 self.QuaLITY_EASY_evaluation()
             case "QuaLITY_HARD":
                 self.QuaLITY_HARD_evaluation()
-            case "RACE":
-                self.RACE_evaluation()
+            case "RACE_HARD":
+                self.RACE_HARD_evaluation()
             case _:
                 return
             
@@ -252,7 +252,7 @@ class RAGEvaluator:
         return 
     
 
-    def RACE_evaluation(self):
+    def RACE_HARD_evaluation(self):
         def parse_answer(option):
             options = {
                 'A': 0,
@@ -264,7 +264,7 @@ class RAGEvaluator:
                 return options[option.strip().rstrip(')')]
             return 'Error'
 
-        dataset = load_dataset("ehovy/race", "all", split="validation")
+        dataset = load_dataset("ehovy/race", "high", split="validation")
         df = dataset.to_pandas()
         df_sample = df.sample(n=min(5, len(df)), random_state=42).reset_index(drop=True)
         dataset_sample = Dataset.from_pandas(df_sample, preserve_index=False)
@@ -464,6 +464,7 @@ if __name__ == "__main__":
 
     # Evaluation config
     retrievers_to_evaluate = [
+        retriever_model_1,
         retriever_model_2,
         retriever_model_3,
         retriever_model_4,
@@ -478,7 +479,7 @@ if __name__ == "__main__":
         generator_model_5
     ]
 
-    benchmark_to_evaluate = "RACE"
+    benchmark_to_evaluate = "RACE_HARD"
 
     grid_evaluation(
         retrievers=retrievers_to_evaluate,
