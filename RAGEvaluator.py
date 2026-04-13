@@ -249,7 +249,7 @@ class RAGEvaluator:
 
         self.generate_report()
         score = hits / len(problems)
-        return 
+        return score
     
 
     def RACE_HARD_evaluation(self):
@@ -266,7 +266,7 @@ class RAGEvaluator:
 
         dataset = load_dataset("ehovy/race", "high", split="validation")
         df = dataset.to_pandas()
-        df_sample = df.sample(n=min(5, len(df)), random_state=42).reset_index(drop=True)
+        df_sample = df.sample(n=min(200, len(df)), random_state=42).reset_index(drop=True)
         dataset_sample = Dataset.from_pandas(df_sample, preserve_index=False)
 
         articles: list[str] = list()
