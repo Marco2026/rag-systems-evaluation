@@ -253,17 +253,6 @@ class RAGEvaluator:
     
 
     def RACE_HARD_evaluation(self):
-        def parse_answer(option):
-            options = {
-                'A': 0,
-                'B': 1,
-                'C': 2,
-                'D': 3
-            }
-            if option.strip().rstrip(')') in options.keys():
-                return options[option.strip().rstrip(')')]
-            return 'Error'
-
         dataset = load_dataset("ehovy/race", "high", split="validation")
         df = dataset.to_pandas()
         df_sample = df.sample(n=min(200, len(df)), random_state=42).reset_index(drop=True)
@@ -297,11 +286,11 @@ class RAGEvaluator:
                 D) {p.options[3]}"""
 
             rag_answer = self.RAG.prompt(query=question, benchmark=True)
-            is_correct = parse_answer(rag_answer) == p.answer
+            is_correct = rag_answer == p.answer
 
             print("\nProblem #" + str(prob_idx))
             print("Correct answer: " + str(p.answer))
-            print("Answer provided: " + str(parse_answer(rag_answer)))
+            print("Answer provided: " + str(rag_answer))
 
             if is_correct:
                 hits += 1
@@ -464,7 +453,6 @@ if __name__ == "__main__":
 
     # Evaluation config
     retrievers_to_evaluate = [
-        retriever_model_1,
         retriever_model_2,
         retriever_model_3,
         retriever_model_4,
