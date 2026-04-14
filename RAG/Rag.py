@@ -12,6 +12,7 @@ from .LocalRetriever import LocalRetriever
 from .OllamaGenerator import OllamaGenerator
 from .OllamaRetriever import OllamaRetriever
 from .DatabaseManager import DatabaseManager
+from .MockRetriever import MockRetriever
 from Config.settings import Settings, K, INDEX_PATH, META_PATH, DATA_DIR, CHUNK_SIZE, CHUNK_OVERLAP
 
 class Rag():
@@ -49,15 +50,19 @@ class Rag():
     def build_rag(self, prepared_data: list[list[str], list[str]]):
         settings = Settings()
         login(token=settings.hf_token)
-        if self.rebuild_index:    
-            self.start_database_manager()
+        if self.retriever_model_mode == 'mock':
             self.start_retriever()
-            self.build_index(prepared_data=prepared_data)
             self.start_generator()
         else:
-            self.start_retriever()
-            self.load_index()
-            self.start_generator()
+            if self.rebuild_index:    
+                self.start_database_manager()
+                self.start_retriever()
+                self.build_index(prepared_data=prepared_data)
+                self.start_generator()
+            else:
+                self.start_retriever()
+                self.load_index()
+                self.start_generator()
 
 
     def start_database_manager(self):
@@ -71,6 +76,8 @@ class Rag():
                 self.retriever.prepare_model()
             case "api":
                 self.retriever = OllamaRetriever(model_name=self.retriever_model_name, k=K)
+            case "mock":
+                self.retriever = MockRetriever()
             case _:
                 return
 

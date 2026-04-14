@@ -20,6 +20,18 @@ Rules:
 - Your entire response must be exactly one letter: A, B, C, or D
 
 If you are unsure, choose the most supported answer based on the passage."""
+NO_RETRIEVER_SYSTEM_PROMPT = """You are an expert reading comprehension assistant. You will be given a multiple choice question about it. Answer with the information you have.
+
+Your task:
+Reply with a single letter: A, B, C, or D
+
+Rules:
+- use ONLY your knowledge
+- Do NOT explain your answer
+- Do NOT add any commentary
+- Your entire response must be exactly one letter: A, B, C, or D
+
+If you are unsure, choose the most correct answer based on your knowledge."""
 
 # KNOWLEDGE BASE
 INDEX_PATH = Path("KnowledgeBase/index/faiss.index")

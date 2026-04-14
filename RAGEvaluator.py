@@ -5,7 +5,7 @@ from datasets import load_dataset, Dataset
 from RAG.Rag import Rag
 from collections import namedtuple
 from pathlib import Path
-from Config.settings import QUALITY_BENCHMARK_SYSTEM_PROMPT, CHUNK_SIZE, CHUNK_OVERLAP
+from Config.settings import QUALITY_BENCHMARK_SYSTEM_PROMPT, NO_RETRIEVER_SYSTEM_PROMPT, CHUNK_SIZE, CHUNK_OVERLAP
 from datetime import datetime
 import json
 import torch
@@ -337,7 +337,7 @@ def grid_evaluation(retrievers: list[ModelToEvaluate], generators: list[ModelToE
                 generator_model_name = g.model_name,
                 generator_model_mode = g.model_mode,
                 rebuild_index = True,
-                system_prompt=QUALITY_BENCHMARK_SYSTEM_PROMPT
+                system_prompt=NO_RETRIEVER_SYSTEM_PROMPT
             )
             rag_evaluator = RAGEvaluator(
                 RAG=rag,
@@ -372,6 +372,15 @@ def chunk_text(text: str, chunk_size: int = 1200, overlap: int = 200) -> list[st
 
 
 if __name__ == "__main__":
+
+    # SIN RETRIEVER
+
+    mock_retriever_model = ModelToEvaluate(
+        model_name = 'MockRetriever',
+        model_mode = 'mock',
+        params = 0.,
+        size = 0.
+    )
 
     # MODELOS LOCALES
 
@@ -464,19 +473,11 @@ if __name__ == "__main__":
 
     # Evaluation config
     retrievers_to_evaluate = [
-        retriever_model_1,
-        retriever_model_2,
-        retriever_model_3,
-        retriever_model_4,
-        retriever_model_5
+        mock_retriever_model
     ]
 
     generators_to_evaluate = [
-        generator_model_1,
-        generator_model_2,
-        generator_model_3,
-        generator_model_4,
-        generator_model_5
+        local_generator_model_1
     ]
 
     benchmark_to_evaluate = "RACE_HARD"
