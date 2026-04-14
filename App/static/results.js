@@ -4,10 +4,12 @@ const matrixContainer = document.getElementById('matrix-container');
 const detailSummary = document.getElementById('detail-summary');
 const detailResults = document.getElementById('detail-results');
 const curveCaption = document.getElementById('curve-caption');
+const accuracySourceToggle = document.getElementById('accuracy-source-toggle');
 
 let currentBenchmark = null;
 let currentMatrixData = null;
 let selectedCell = null;
+let currentSource = 'raw';
 
 async function fetchJson(url) {
     const response = await fetch(url);
@@ -129,10 +131,13 @@ function renderHeatmap(data) {
 
 function renderDetail(detail) {
     const summary = detail.summary;
+    const isPostSource = detail.source === 'post';
+
     detailSummary.innerHTML = `
         <div class="detail-list">
             <div class="detail-list-item"><span class="detail-label">Retriever</span><span class="detail-value">${detail.retriever}</span></div>
             <div class="detail-list-item"><span class="detail-label">Generator</span><span class="detail-value">${detail.generator}</span></div>
+            <div class="detail-list-item"><span class="detail-label">Fuente</span><span class="detail-value">${isPostSource ? 'POST' : 'RAW'}</span></div>
             <div class="detail-list-item"><span class="detail-label">Accuracy</span><span class="detail-value">${summary.accuracy}</span></div>
             <div class="detail-list-item"><span class="detail-label">Correct</span><span class="detail-value">${summary.correct}/${summary.total}</span></div>
             <div class="detail-list-item"><span class="detail-label">Duracion</span><span class="detail-value">${summary.duration} (${summary.duration_seconds}s)</span></div>
@@ -150,15 +155,21 @@ function renderDetail(detail) {
     const rows = items
         .map((result) => {
             const rowClass = result.is_correct ? 'correct' : 'incorrect';
+            const postprocessedAnswer = result.parsed_option ?? '';
+            const cleanAnswerCell = isPostSource ? `<td>${postprocessedAnswer}</td>` : '';
+
             return `
                 <tr class="${rowClass}">
                     <td>${result.problem_index}</td>
                     <td>${result.correct_answer}</td>
                     <td>${result.rag_answer ?? ''}</td>
+                    ${cleanAnswerCell}
                 </tr>
             `;
         })
         .join('');
+
+    const cleanAnswerHeader = isPostSource ? '<th>Respuesta postprocesada</th>' : '';
 
     detailResults.innerHTML = `
         <table class="detail-table">
@@ -167,6 +178,7 @@ function renderDetail(detail) {
                     <th>Numero de pregunta</th>
                     <th>Respuesta correcta</th>
                     <th>Respuesta del RAG</th>
+                    ${cleanAnswerHeader}
                 </tr>
             </thead>
             <tbody>
@@ -216,7 +228,7 @@ async function selectCell(button, retriever, generator) {
     selectedCell = button;
     selectedCell.classList.add('active');
 
-    const url = `/api/results/detail?benchmark=${encodeURIComponent(currentBenchmark)}&retriever=${encodeURIComponent(retriever)}&generator=${encodeURIComponent(generator)}`;
+    const url = `/api/results/detail?benchmark=${encodeURIComponent(currentBenchmark)}&retriever=${encodeURIComponent(retriever)}&generator=${encodeURIComponent(generator)}&source=${encodeURIComponent(currentSource)}`;
     const detail = await fetchJson(url);
     renderDetail(detail);
 }
@@ -226,14 +238,14 @@ async function loadCurve(axis, model) {
         return;
     }
 
-    const url = `/api/results/curve?benchmark=${encodeURIComponent(currentBenchmark)}&axis=${encodeURIComponent(axis)}&model=${encodeURIComponent(model)}`;
+    const url = `/api/results/curve?benchmark=${encodeURIComponent(currentBenchmark)}&axis=${encodeURIComponent(axis)}&model=${encodeURIComponent(model)}&source=${encodeURIComponent(currentSource)}`;
     const curve = await fetchJson(url);
     renderCurve(curve);
 }
 
 async function loadMatrix(benchmark) {
     currentBenchmark = benchmark;
-    const matrix = await fetchJson(`/api/results/matrix?benchmark=${encodeURIComponent(benchmark)}`);
+    const matrix = await fetchJson(`/api/results/matrix?benchmark=${encodeURIComponent(benchmark)}&source=${encodeURIComponent(currentSource)}`);
     renderTable(matrix);
     renderHeatmap(matrix);
 
@@ -243,25 +255,53 @@ async function loadMatrix(benchmark) {
     Plotly.purge('curve-plot');
 }
 
+function updateSourceToggleLabel() {
+    const isPost = currentSource === 'post';
+    accuracySourceToggle.classList.toggle('on', isPost);
+    accuracySourceToggle.setAttribute('aria-pressed', isPost ? 'true' : 'false');
+    accuracySourceToggle.title = isPost
+        ? 'Postprocesado activado: usando accuracy de Evaluation/postprocessed'
+        : 'Postprocesado desactivado: usando accuracy de Evaluation/results';
+}
+
+async function loadBenchmarks(preferredBenchmark) {
+    const data = await fetchJson(`/api/results/benchmarks?source=${encodeURIComponent(currentSource)}`);
+    const benchmarks = data.benchmarks || [];
+
+    benchmarkSelect.innerHTML = '';
+    benchmarks.forEach((benchmark) => {
+        const option = document.createElement('option');
+        option.value = benchmark;
+        option.textContent = benchmark;
+        benchmarkSelect.appendChild(option);
+    });
+
+    if (benchmarks.length === 0) {
+        currentBenchmark = null;
+        matrixContainer.innerHTML = '<p>No se encontraron reportes para la fuente seleccionada.</p>';
+        detailSummary.textContent = 'Selecciona una celda para ver detalle.';
+        detailResults.innerHTML = '';
+        curveCaption.textContent = 'Selecciona una fila o columna para dibujar la curva.';
+        Plotly.purge('heatmap');
+        Plotly.purge('curve-plot');
+        return null;
+    }
+
+    const selected = preferredBenchmark && benchmarks.includes(preferredBenchmark)
+        ? preferredBenchmark
+        : benchmarks[0];
+    benchmarkSelect.value = selected;
+    return selected;
+}
+
 async function init() {
     try {
-        const data = await fetchJson('/api/results/benchmarks');
-        const benchmarks = data.benchmarks || [];
-
-        benchmarkSelect.innerHTML = '';
-        benchmarks.forEach((benchmark) => {
-            const option = document.createElement('option');
-            option.value = benchmark;
-            option.textContent = benchmark;
-            benchmarkSelect.appendChild(option);
-        });
-
-        if (benchmarks.length === 0) {
-            matrixContainer.innerHTML = '<p>No se encontraron reportes de benchmark en Evaluation/results.</p>';
+        updateSourceToggleLabel();
+        const benchmark = await loadBenchmarks(null);
+        if (!benchmark) {
             return;
         }
-
-        await loadMatrix(benchmarks[0]);
+        await loadMatrix(benchmark);
     } catch (error) {
         matrixContainer.innerHTML = `<p>Error cargando resultados: ${error.message}</p>`;
     }
@@ -272,7 +312,20 @@ benchmarkSelect.addEventListener('change', async (event) => {
 });
 
 reloadBtn.addEventListener('click', async () => {
-    await loadMatrix(benchmarkSelect.value);
+    const benchmark = await loadBenchmarks(benchmarkSelect.value);
+    if (benchmark) {
+        await loadMatrix(benchmark);
+    }
+});
+
+accuracySourceToggle.addEventListener('click', async () => {
+    currentSource = currentSource === 'raw' ? 'post' : 'raw';
+    updateSourceToggleLabel();
+
+    const benchmark = await loadBenchmarks(benchmarkSelect.value || currentBenchmark);
+    if (benchmark) {
+        await loadMatrix(benchmark);
+    }
 });
 
 document.addEventListener('DOMContentLoaded', init);

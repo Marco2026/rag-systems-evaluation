@@ -7,6 +7,7 @@ from pydantic import BaseModel
 import threading
 from RAG.Rag import Rag
 from Evaluation.DataVisualizer import DataVisualizer
+from Evaluation.PostProcessor import ReportPostProcessor
 from Config.settings import SYSTEM_PROMPT
 
 app = FastAPI()
@@ -15,12 +16,22 @@ rag_initializing = False
 rag_init_error = None
 rag_lock = threading.Lock()
 visualizer = DataVisualizer()
+postprocessor = ReportPostProcessor()
 
 app.mount("/static", StaticFiles(directory="App/static"), name="static")
 templates = Jinja2Templates(directory="App/templates")
 
 class Message(BaseModel):
     text: str
+
+
+def _resolve_source(source: str) -> str:
+    normalized = source.strip().lower()
+    if normalized not in {"raw", "post"}:
+        raise HTTPException(status_code=400, detail="source must be 'raw' or 'post'")
+    if normalized == "post":
+        postprocessor.postprocess_all_reports()
+    return normalized
 
 
 @app.get("/", response_class=HTMLResponse)
@@ -115,31 +126,37 @@ async def send_message(request: Request):
 
 
 @app.get("/api/results/benchmarks")
-async def get_benchmarks():
-    return {"benchmarks": visualizer.list_benchmarks()}
+async def get_benchmarks(source: str = "raw"):
+    resolved_source = _resolve_source(source)
+    return {"benchmarks": visualizer.list_benchmarks(source=resolved_source)}
 
 
 @app.get("/api/results/matrix")
-async def get_matrix(benchmark: str):
+async def get_matrix(benchmark: str, source: str = "raw"):
     if not benchmark:
         raise HTTPException(status_code=400, detail="benchmark is required")
 
-    matrix = visualizer.get_matrix(benchmark)
+    resolved_source = _resolve_source(source)
+
+    matrix = visualizer.get_matrix(benchmark=benchmark, source=resolved_source)
     return matrix
 
 
 @app.get("/api/results/detail")
-async def get_result_detail(benchmark: str, retriever: str, generator: str):
+async def get_result_detail(benchmark: str, retriever: str, generator: str, source: str = "raw"):
     if not benchmark or not retriever or not generator:
         raise HTTPException(
             status_code=400,
             detail="benchmark, retriever and generator are required",
         )
 
+    resolved_source = _resolve_source(source)
+
     detail = visualizer.get_cell_detail(
         benchmark=benchmark,
         retriever=retriever,
         generator=generator,
+        source=resolved_source,
     )
     if detail is None:
         raise HTTPException(status_code=404, detail="Combination not found")
@@ -148,13 +165,15 @@ async def get_result_detail(benchmark: str, retriever: str, generator: str):
 
 
 @app.get("/api/results/curve")
-async def get_curve(benchmark: str, axis: str, model: str):
+async def get_curve(benchmark: str, axis: str, model: str, source: str = "raw"):
     if not benchmark or not axis or not model:
         raise HTTPException(status_code=400, detail="benchmark, axis and model are required")
     if axis not in {"row", "col"}:
         raise HTTPException(status_code=400, detail="axis must be 'row' or 'col'")
 
-    curve = visualizer.get_curve(benchmark=benchmark, axis=axis, model=model)
+    resolved_source = _resolve_source(source)
+
+    curve = visualizer.get_curve(benchmark=benchmark, axis=axis, model=model, source=resolved_source)
     if curve is None:
         raise HTTPException(status_code=404, detail="Curve data not found")
     return curve

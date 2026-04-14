@@ -20,10 +20,11 @@ class EvaluationRecord:
 class DataVisualizer:
 	def __init__(self, results_dir: Path | None = None):
 		self.results_dir = results_dir or Path("Evaluation/results")
+		self.postprocessed_dir = Path("Evaluation/postprocessed")
 
-	def list_benchmarks(self) -> list[str]:
+	def list_benchmarks(self, source: str = "raw") -> list[str]:
 		benchmarks: set[str] = set()
-		for file_path in self.results_dir.glob("*_report.json"):
+		for file_path in self._iter_report_files(source=source):
 			try:
 				with open(file_path, "r", encoding="utf-8") as handle:
 					report = json.load(handle)
@@ -35,8 +36,8 @@ class DataVisualizer:
 				benchmarks.add(benchmark)
 		return sorted(benchmarks)
 
-	def get_matrix(self, benchmark: str) -> dict[str, Any]:
-		records = self._load_records(benchmark)
+	def get_matrix(self, benchmark: str, source: str = "raw") -> dict[str, Any]:
+		records = self._load_records(benchmark, source=source)
 		retrievers = self._sort_models_by_report(records, axis="retriever")
 		generators = self._sort_models_by_report(records, axis="generator")
 
@@ -72,6 +73,7 @@ class DataVisualizer:
 
 		return {
 			"benchmark": benchmark,
+			"source": source,
 			"retrievers": retrievers,
 			"generators": generators,
 			"matrix": matrix,
@@ -79,9 +81,9 @@ class DataVisualizer:
 		}
 
 	def get_cell_detail(
-		self, benchmark: str, retriever: str, generator: str
+		self, benchmark: str, retriever: str, generator: str, source: str = "raw"
 	) -> dict[str, Any] | None:
-		records = self._load_records(benchmark)
+		records = self._load_records(benchmark, source=source)
 		record = self._find_record(records, retriever, generator)
 		if record is None:
 			return None
@@ -89,6 +91,7 @@ class DataVisualizer:
 		report = record.report
 		return {
 			"benchmark": benchmark,
+			"source": source,
 			"retriever": retriever,
 			"generator": generator,
 			"summary": {
@@ -103,8 +106,8 @@ class DataVisualizer:
 			"results": report.get("results", []),
 		}
 
-	def get_curve(self, benchmark: str, axis: str, model: str) -> dict[str, Any] | None:
-		records = self._load_records(benchmark)
+	def get_curve(self, benchmark: str, axis: str, model: str, source: str = "raw") -> dict[str, Any] | None:
+		records = self._load_records(benchmark, source=source)
 
 		if axis == "row":
 			points = [
@@ -144,15 +147,16 @@ class DataVisualizer:
 
 		return {
 			"benchmark": benchmark,
+			"source": source,
 			"axis": axis,
 			"fixed": {"type": fixed_label, "name": model},
 			"variable_type": variable_label,
 			"points": points,
 		}
 
-	def _load_records(self, benchmark: str) -> list[EvaluationRecord]:
+	def _load_records(self, benchmark: str, source: str = "raw") -> list[EvaluationRecord]:
 		records: list[EvaluationRecord] = []
-		for file_path in self.results_dir.glob("*_report.json"):
+		for file_path in self._iter_report_files(source=source, benchmark=benchmark):
 			try:
 				with open(file_path, "r", encoding="utf-8") as handle:
 					report = json.load(handle)
@@ -186,6 +190,16 @@ class DataVisualizer:
 				)
 			)
 		return records
+
+	def _iter_report_files(self, source: str, benchmark: str | None = None):
+		if source == "post":
+			if benchmark:
+				yield from self.postprocessed_dir.glob(f"{benchmark}/*_report.json")
+			else:
+				yield from self.postprocessed_dir.glob("*/*_report.json")
+			return
+
+		yield from self.results_dir.glob("*_report.json")
 
 	def _find_record(
 		self, records: list[EvaluationRecord], retriever: str, generator: str
