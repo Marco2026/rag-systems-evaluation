@@ -102,33 +102,6 @@ function renderTable(data) {
     matrixContainer.appendChild(table);
 }
 
-function renderHeatmap(data) {
-    const trace = {
-        type: 'heatmap',
-        z: data.matrix,
-        x: data.generators,
-        y: data.retrievers,
-        zmin: 0,
-        zmax: 1,
-        colorscale: [
-            [0.0, '#fffdf7'],
-            [0.2, '#fff4c2'],
-            [0.45, '#ffd27a'],
-            [0.7, '#ff9d4d'],
-            [1.0, '#c92a2a'],
-        ],
-        hoverongaps: false,
-    };
-
-    const layout = {
-        margin: { t: 10, r: 10, b: 110, l: 170 },
-        xaxis: { tickangle: -25 },
-        yaxis: { automargin: true, autorange: 'reversed' },
-    };
-
-    Plotly.newPlot('heatmap', [trace], layout, { responsive: true, displayModeBar: false });
-}
-
 function renderDetail(detail) {
     const summary = detail.summary;
     const isPostSource = detail.source === 'post';
@@ -247,7 +220,6 @@ async function loadMatrix(benchmark) {
     currentBenchmark = benchmark;
     const matrix = await fetchJson(`/api/results/matrix?benchmark=${encodeURIComponent(benchmark)}&source=${encodeURIComponent(currentSource)}`);
     renderTable(matrix);
-    renderHeatmap(matrix);
 
     detailSummary.textContent = 'Selecciona una celda para ver detalle.';
     detailResults.innerHTML = '';
