@@ -317,7 +317,7 @@ class RAGEvaluator:
         return score
 
 
-def grid_evaluation(retrievers: list[ModelToEvaluate], generators: list[ModelToEvaluate], benchmark: str):
+def grid_evaluation(retrievers: list[ModelToEvaluate], generators: list[ModelToEvaluate], benchmark: str, system_prompt: str):
     for g in generators:
         for r in retrievers:
             rag = Rag(
@@ -326,7 +326,7 @@ def grid_evaluation(retrievers: list[ModelToEvaluate], generators: list[ModelToE
                 generator_model_name = g.model_name,
                 generator_model_mode = g.model_mode,
                 rebuild_index = True,
-                system_prompt=NO_RETRIEVER_SYSTEM_PROMPT
+                system_prompt=system_prompt
             )
             rag_evaluator = RAGEvaluator(
                 RAG=rag,
@@ -390,10 +390,10 @@ if __name__ == "__main__":
     # MODELOS EN SERVIDOR
     
     retriever_model_1 = ModelToEvaluate(
-        model_name = 'jeffh/intfloat-multilingual-e5-small:f32',
+        model_name = 'ibm/granite-embedding:107m',
         model_mode = 'api',
-        params = 0.118,
-        size = 0.4
+        params = 0.107,
+        size = 0.2
     )
 
     retriever_model_2 = ModelToEvaluate(
@@ -462,21 +462,22 @@ if __name__ == "__main__":
 
     # Evaluation config
     retrievers_to_evaluate = [
-        retriever_model_2,
-        retriever_model_3,
-        retriever_model_4,
-        retriever_model_5
+        retriever_model_1
     ]
 
     generators_to_evaluate = [
-        local_generator_model_1
+        generator_model_4,
+        generator_model_2,
+        generator_model_3
     ]
 
     benchmark_to_evaluate = "RACE_HARD"
+    system_prompt = QUALITY_BENCHMARK_SYSTEM_PROMPT
 
     grid_evaluation(
         retrievers=retrievers_to_evaluate,
         generators=generators_to_evaluate,
-        benchmark=benchmark_to_evaluate
+        benchmark=benchmark_to_evaluate,
+        system_prompt=system_prompt
     )
 
