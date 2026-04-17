@@ -52,6 +52,8 @@ class RAGEvaluator:
                 self.QuaLITY_EASY_evaluation()
             case "QuaLITY_HARD":
                 self.QuaLITY_HARD_evaluation()
+            case "RACE_EASY":
+                self.RACE_EASY_evaluation()
             case "RACE_HARD":
                 self.RACE_HARD_evaluation()
             case _:
@@ -251,6 +253,71 @@ class RAGEvaluator:
         score = hits / len(problems)
         return score
     
+
+    def RACE_EASY_evaluation(self):
+        dataset = load_dataset("ehovy/race", "middle", split="validation")
+        df = dataset.to_pandas()
+        df_sample = df.sample(n=min(200, len(df)), random_state=42).reset_index(drop=True)
+        dataset_sample = Dataset.from_pandas(df_sample, preserve_index=False)
+
+        articles: list[str] = list()
+        metadata: list[str] = list()
+        problems: list[Problem] = list()
+        hits: int = 0
+        
+        for d in dataset_sample:
+            chunks = chunk_text(d["article"], chunk_size=CHUNK_SIZE, overlap=CHUNK_OVERLAP)
+            for c in chunks:
+                articles.append(c)
+                metadata.append({"source": d["article"][:15], "text": c})
+
+            problems.append(Problem(d["question"], d["options"], d["answer"]))
+        
+        self.benchmark_start_time = datetime.now()
+
+        self.RAG.build_rag(prepared_data=[articles, metadata])
+
+        prob_idx = 0
+        for p in problems:
+            prob_idx += 1
+            question = f"""Question: {p.question}
+
+                A) {p.options[0]}
+                B) {p.options[1]}
+                C) {p.options[2]}
+                D) {p.options[3]}"""
+
+            rag_answer = self.RAG.prompt(query=question, benchmark=True)
+            is_correct = rag_answer == p.answer
+
+            print("\nProblem #" + str(prob_idx))
+            print("Correct answer: " + str(p.answer))
+            print("Answer provided: " + str(rag_answer))
+
+            if is_correct:
+                hits += 1
+            else:
+                print('RAG answer ' + rag_answer + ' did not match correct answer: ' + str(p.answer))
+
+            with open(self.results_file, "a") as f:
+                f.write(json.dumps({
+                    "problem_index": prob_idx,
+                    "question": p.question,
+                    "options": p.options,
+                    "correct_answer": p.answer,
+                    "rag_answer": rag_answer,
+                    "is_correct": is_correct
+                }, ensure_ascii=False) + "\n")
+
+            torch.cuda.empty_cache()
+            gc.collect()
+
+        self.benchmark_finish_time = datetime.now()
+
+        self.generate_report()
+        score = hits / len(problems)
+        return score
+
 
     def RACE_HARD_evaluation(self):
         dataset = load_dataset("ehovy/race", "high", split="validation")
@@ -471,7 +538,7 @@ if __name__ == "__main__":
         generator_model_3
     ]
 
-    benchmark_to_evaluate = "RACE_HARD"
+    benchmark_to_evaluate = "RACE_EASY"
     system_prompt = QUALITY_BENCHMARK_SYSTEM_PROMPT
 
     grid_evaluation(
