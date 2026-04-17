@@ -1,0 +1,132 @@
+[
+  {
+    "id": "q131",
+    "document_id": "iconic_creatures",
+    "question": "What is the primary habitat of the Ash Dragon?",
+    "options": {
+      "A": "Mount Drakon",
+      "B": "Iron Hills",
+      "C": "Ember Island",
+      "D": "Silver Forest"
+    },
+    "correct_answer": "A",
+    "explanation": "The document states that Ash Dragons primarily dwell in Mount Drakon."
+  },
+  {
+    "id": "q132",
+    "document_id": "iconic_creatures",
+    "question": "In what year was the first recorded sighting of an Ash Dragon?",
+    "options": {
+      "A": "-1450",
+      "B": "-1500",
+      "C": "-1600",
+      "D": "-1700"
+    },
+    "correct_answer": "A",
+    "explanation": "The document mentions that the first recorded sighting of an Ash Dragon was in -1450."
+  },
+  {
+    "id": "q133",
+    "document_id": "iconic_creatures",
+    "question": "What is the name of the most famous Ash Dragon?",
+    "options": {
+      "A": "Ignis Dracorax",
+      "B": "Emberwing",
+      "C": "Flametail",
+      "D": "Fireheart"
+    },
+    "correct_answer": "A",
+    "explanation": "The document identifies Ignis Dracorax as the most famous Ash Dragon."
+  },
+  {
+    "id": "q134",
+    "document_id": "iconic_creatures",
+    "question": "What is the primary habitat of the Mist Wolf?",
+    "options": {
+      "A": "Mistwood",
+      "B": "Whispering Plains",
+      "C": "Silver Forest",
+      "D": "Moonhaven"
+    },
+    "correct_answer": "A",
+    "explanation": "The document states that Mist Wolves primarily dwell in the enchanted Mistwood forest."
+  },
+  {
+    "id": "q135",
+    "document_id": "iconic_creatures",
+    "question": "Who was the Kael'thys hunter who first encountered a Mist Wolf?",
+    "options": {
+      "A": "Eryndor Silverwind",
+      "B": "Elara Moonwhisper",
+      "C": "Lyrin Nightshade",
+      "D": "Thalor Sunheart"
+    },
+    "correct_answer": "A",
+    "explanation": "The document mentions that the first recorded encounter with a Mist Wolf was by Eryndor Silverwind."
+  },
+  {
+    "id": "q136",
+    "document_id": "iconic_creatures",
+    "question": "What is the primary habitat of the Glimmerfish?",
+    "options": {
+      "A": "Azure Sea",
+      "B": "Silverlake",
+      "C": "Ember Island",
+      "D": "Mistwood"
+    },
+    "correct_answer": "A",
+    "explanation": "The document states that Glimmerfish inhabit the Azure Sea."
+  },
+  {
+    "id": "q137",
+    "document_id": "iconic_creatures",
+    "question": "In what year did a massive school of Glimmerfish form an intricate pattern resembling a star in the sky?",
+    "options": {
+      "A": "1250",
+      "B": "1200",
+      "C": "1300",
+      "D": "1400"
+    },
+    "correct_answer": "A",
+    "explanation": "The document mentions that a significant event involving Glimmerfish occurred in 1250."
+  },
+  {
+    "id": "q138",
+    "document_id": "iconic_creatures",
+    "question": "What is the name of the Merfolk sea god?",
+    "options": {
+      "A": "Luminara",
+      "B": "Aquariel",
+      "C": "Neptunus",
+      "D": "Triton"
+    },
+    "correct_answer": "A",
+    "explanation": "The document states that the Merfolk consider Glimmerfish to be messengers from their sea god, Luminara."
+  },
+  {
+    "id": "q139",
+    "document_id": "iconic_creatures",
+    "question": "What is the name of the notable pack leader of Mist Wolves observed in 1025?",
+    "options": {
+      "A": "Luminos",
+      "B": "Silverfang",
+      "C": "Moonshadow",
+      "D": "Glimmerpaw"
+    },
+    "correct_answer": "A",
+    "explanation": "The document mentions a notable pack led by a wolf named Luminos in 1025."
+  },
+  {
+    "id": "q140",
+    "document_id": "iconic_creatures",
+    "question": "On what date was the first recorded observation of Glimmerfish made?",
+    "options": {
+      "A": "5th day of the seventh month in 700",
+      "B": "3rd day of the sixth month in 650",
+      "C": "10th day of the eighth month in 800",
+      "D": "15th day of the ninth month in 750"
+    },
+    "correct_answer": "A",
+    "explanation": "The document states that the first recorded observation of Glimmerfish was made on the 5th day of the seventh month in 700."
+  }
+]

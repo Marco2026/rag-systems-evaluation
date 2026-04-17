@@ -1,0 +1,132 @@
+[
+  {
+    "id": "q191",
+    "document_id": "alchemy",
+    "question": "Which school of alchemy is the oldest and most widely recognized in Eldara?",
+    "options": {
+      "A": "School of Potions",
+      "B": "School of Transmutation",
+      "C": "School of Enchantment",
+      "D": "School of Elemental Magic"
+    },
+    "correct_answer": "A",
+    "explanation": "The School of Potions is mentioned as the oldest and most widely recognized branch of alchemy in Eldara."
+  },
+  {
+    "id": "q192",
+    "document_id": "alchemy",
+    "question": "What is the *Eldarian Blue Lotus* primarily used for?",
+    "options": {
+      "A": "Creating the Elixir of Longevity",
+      "B": "Enhancing physical strength",
+      "C": "Imbuing objects with magical properties",
+      "D": "Transforming common metals into gold"
+    },
+    "correct_answer": "A",
+    "explanation": "The *Eldarian Blue Lotus* is essential for creating the *Elixir of Longevity*, which can extend a mortal's lifespan by up to 100 years."
+  },
+  {
+    "id": "q193",
+    "document_id": "alchemy",
+    "question": "Which legendary alchemical ingredient must be harvested within 30 minutes of the creature's death?",
+    "options": {
+      "A": "Dragon's Heart",
+      "B": "Eldarian Blue Lotus",
+      "C": "Phoenix Feather",
+      "D": "Starlight Dust"
+    },
+    "correct_answer": "A",
+    "explanation": "The *Dragon's Heart* must be harvested within 30 minutes of the Drakonar's death to retain its magical properties."
+  },
+  {
+    "id": "q194",
+    "document_id": "alchemy",
+    "question": "What is the primary focus of the School of Enchantment?",
+    "options": {
+      "A": "Creating potions and elixirs",
+      "B": "Transforming substances into other forms",
+      "C": "Imbuing objects with magical properties",
+      "D": "Studying elemental forces"
+    },
+    "correct_answer": "C",
+    "explanation": "The School of Enchantment focuses on imbuing objects with magical properties, making them more powerful or versatile."
+  },
+  {
+    "id": "q195",
+    "document_id": "alchemy",
+    "question": "Which city is known for its advanced magical research and houses the *Voss's Golden Flask*?",
+    "options": {
+      "A": "Valoria",
+      "B": "Thundertop",
+      "C": "Moonhaven",
+      "D": "Arvandor"
+    },
+    "correct_answer": "B",
+    "explanation": "The *Voss's Golden Flask* is housed in the Great Library of Thundertop, a city known for its advanced magical research."
+  },
+  {
+    "id": "q196",
+    "document_id": "alchemy",
+    "question": "What can the *Phoenix Feather* be used for?",
+    "options": {
+      "A": "Creating the Elixir of Longevity",
+      "B": "Rejuvenating and restoring life force",
+      "C": "Transforming common metals into gold",
+      "D": "Imbuing objects with shadow magic"
+    },
+    "correct_answer": "B",
+    "explanation": "The *Phoenix Feather* can rejuvenate and restore life force when used in potions or enchantments."
+  },
+  {
+    "id": "q197",
+    "document_id": "alchemy",
+    "question": "Which alchemical potion is commonly sold in the marketplaces of Valoria?",
+    "options": {
+      "A": "Elixir of Longevity",
+      "B": "Potion of Strength",
+      "C": "Voss's Golden Flask",
+      "D": "Moonwhisper's Staff"
+    },
+    "correct_answer": "B",
+    "explanation": "In the city of Valoria, vendors commonly sell *Potions of Strength* that can double a person's physical strength for up to an hour."
+  },
+  {
+    "id": "q198",
+    "document_id": "alchemy",
+    "question": "Where do Phoenixes nest in Eldara?",
+    "options": {
+      "A": "Silver Forest",
+      "B": "Ember Island",
+      "C": "Mistwood",
+      "D": "Azure Sea"
+    },
+    "correct_answer": "B",
+    "explanation": "Phoenixes are known to nest on Ember Island, where they are revered by the Dwarves for their fiery nature."
+  },
+  {
+    "id": "q199",
+    "document_id": "alchemy",
+    "question": "What is the *Festival of Lights* celebrated every 10 years in Moonhaven?",
+    "options": {
+      "A": "A festival of alchemical potions and elixirs",
+      "B": "A celebration using enchanted lanterns to illuminate the night sky",
+      "C": "A gathering to honor the creation of *Moonwhisper's Staff*",
+      "D": "A festival of magical constructs and elemental guardians"
+    },
+    "correct_answer": "B",
+    "explanation": "In Moonhaven, the *Festival of Lights* is celebrated every 10 years using enchanted lanterns to illuminate the night sky."
+  },
+  {
+    "id": "q200",
+    "document_id": "alchemy",
+    "question": "When was the Great Library of Thundertop established?",
+    "options": {
+      "A": "500",
+      "B": "850",
+      "C": "1200",
+      "D": "1850"
+    },
+    "correct_answer": "D",
+    "explanation": "The Great Library of Thundertop was established in 1850 and houses an extensive collection of alchemical texts and research materials."
+  }
+]

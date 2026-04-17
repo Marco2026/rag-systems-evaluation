@@ -1,0 +1,132 @@
+[
+  {
+    "id": "q111",
+    "document_id": "custodian_order",
+    "question": "In which year was the Order of Custodians founded?",
+    "options": {
+      "A": "1023",
+      "B": "1050",
+      "C": "1067",
+      "D": "1095"
+    },
+    "correct_answer": "A",
+    "explanation": "The Order of Custodians was founded in the year 1023 by Alaric Thaelor."
+  },
+  {
+    "id": "q112",
+    "document_id": "custodian_order",
+    "question": "Where is the headquarters of the Order of Custodians located?",
+    "options": {
+      "A": "Arvandor",
+      "B": "Thundertop",
+      "C": "Valoria",
+      "D": "Moonhaven"
+    },
+    "correct_answer": "B",
+    "explanation": "The headquarters of the Order of Custodians is located in Thundertop."
+  },
+  {
+    "id": "q113",
+    "document_id": "custodian_order",
+    "question": "What is one of the primary responsibilities of the Custodians?",
+    "options": {
+      "A": "Regulating the use of magical artifacts",
+      "B": "Leading military expeditions",
+      "C": "Building fortresses",
+      "D": "Training healers"
+    },
+    "correct_answer": "A",
+    "explanation": "One of the primary responsibilities of the Custodians is to monitor and regulate the use of magical artifacts."
+  },
+  {
+    "id": "q114",
+    "document_id": "custodian_order",
+    "question": "Which institution, founded by the Custodians, specializes in elemental magic?",
+    "options": {
+      "A": "Moonhaven Academy",
+      "B": "Elemental Academy",
+      "C": "Mage Guilds",
+      "D": "Sunhold University"
+    },
+    "correct_answer": "B",
+    "explanation": "The Elemental Academy, located in the Silver Forest, specializes in elemental magic and was founded by the Custodians."
+  },
+  {
+    "id": "q115",
+    "document_id": "custodian_order",
+    "question": "What is the potency of the Staff of Eldrin on the Custodian scale?",
+    "options": {
+      "A": "92",
+      "B": "85",
+      "C": "78",
+      "D": "100"
+    },
+    "correct_answer": "A",
+    "explanation": "The Staff of Eldrin has a potency of 92 on the Custodian scale."
+  },
+  {
+    "id": "q116",
+    "document_id": "custodian_order",
+    "question": "In which year did the Custodians facilitate peace negotiations between the Dwarves and Giants?",
+    "options": {
+      "A": "1023",
+      "B": "1050",
+      "C": "1067",
+      "D": "1080"
+    },
+    "correct_answer": "C",
+    "explanation": "The Custodians facilitated peace negotiations between the Dwarves and Giants in 1067."
+  },
+  {
+    "id": "q117",
+    "document_id": "custodian_order",
+    "question": "What is the unique property of Silverlake that affects magical practices?",
+    "options": {
+      "A": "Time dilation",
+      "B": "High concentration of lunar magic",
+      "C": "Amplification of shadow magic",
+      "D": "Fire elemental presence"
+    },
+    "correct_answer": "B",
+    "explanation": "Silverlake has a high concentration of lunar magic, which affects magical practices."
+  },
+  {
+    "id": "q118",
+    "document_id": "custodian_order",
+    "question": "In which year did the Custodians conduct a study on the effects of time dilation in Mistwood?",
+    "options": {
+      "A": "1023",
+      "B": "1050",
+      "C": "1067",
+      "D": "1080"
+    },
+    "correct_answer": "D",
+    "explanation": "The Custodians conducted a study on the effects of time dilation in Mistwood in 1080."
+  },
+  {
+    "id": "q119",
+    "document_id": "custodian_order",
+    "question": "What is the primary function of the Firewatch Tower?",
+    "options": {
+      "A": "Military lookout",
+      "B": "Trade hub",
+      "C": "Observatory and center for astronomical studies",
+      "D": "Magical artifact storage"
+    },
+    "correct_answer": "C",
+    "explanation": "The Firewatch Tower serves as an observatory and center for astronomical studies."
+  },
+  {
+    "id": "q120",
+    "document_id": "custodian_order",
+    "question": "In which year did the Custodians discover a hidden portal leading to the Shadow Vale?",
+    "options": {
+      "A": "1023",
+      "B": "1050",
+      "C": "1072",
+      "D": "1095"
+    },
+    "correct_answer": "D",
+    "explanation": "The Custodians discovered a hidden portal leading to the Shadow Vale in 1095."
+  }
+]

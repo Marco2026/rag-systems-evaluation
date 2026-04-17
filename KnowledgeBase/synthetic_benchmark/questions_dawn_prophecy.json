@@ -1,0 +1,132 @@
+[
+  {
+    "id": "q181",
+    "document_id": "dawn_prophecy",
+    "question": "According to the Dawn Prophecy, where will the Chosen One emerge from?",
+    "options": {
+      "A": "Silverlake",
+      "B": "Mistwood",
+      "C": "Ember Island",
+      "D": "Moonhaven"
+    },
+    "correct_answer": "B",
+    "explanation": "The prophecy states that the Chosen One will emerge from the shadowed depths of the Mistwood."
+  },
+  {
+    "id": "q182",
+    "document_id": "dawn_prophecy",
+    "question": "What is the Stone of Destiny?",
+    "options": {
+      "A": "An ancient obelisk in the center of a circular clearing",
+      "B": "A magical amulet crafted by Seer Alarion",
+      "C": "A sword wielded by the Swordbearer",
+      "D": "A volcanic heart on Ember Island"
+    },
+    "correct_answer": "A",
+    "explanation": "The Stone of Destiny is described as an ancient stone obelisk that marks the location where the Chosen One will be found."
+  },
+  {
+    "id": "q183",
+    "document_id": "dawn_prophecy",
+    "question": "What significant event is predicted to occur during the Celestial Conjunction?",
+    "options": {
+      "A": "The awakening of the Elemental Spirits",
+      "B": "The rediscovery of the Amulet of Alarion",
+      "C": "The formation of the Council of Elders",
+      "D": "The return of the Swordbearer"
+    },
+    "correct_answer": "A",
+    "explanation": "The prophecy mentions that the Elemental Spirits will awaken during the Celestial Conjunction."
+  },
+  {
+    "id": "q184",
+    "document_id": "dawn_prophecy",
+    "question": "Where is the Amulet of Alarion predicted to be rediscovered?",
+    "options": {
+      "A": "Silverlake Library",
+      "B": "Starfall Caverns",
+      "C": "Mistwood",
+      "D": "Moonhaven"
+    },
+    "correct_answer": "B",
+    "explanation": "The prophecy states that the Amulet of Alarion will be rediscovered in the depths of the Starfall Caverns."
+  },
+  {
+    "id": "q185",
+    "document_id": "dawn_prophecy",
+    "question": "Who is predicted to return from the ruins of Moonhaven?",
+    "options": {
+      "A": "The Chosen One",
+      "B": "The Swordbearer",
+      "C": "Seer Alarion",
+      "D": "The Elemental Spirits"
+    },
+    "correct_answer": "B",
+    "explanation": "The prophecy predicts that the Swordbearer will emerge from the ruins of Moonhaven."
+  },
+  {
+    "id": "q186",
+    "document_id": "dawn_prophecy",
+    "question": "What is the Council of Elders?",
+    "options": {
+      "A": "A group of Elemental Spirits",
+      "B": "An alliance of the major factions in Eldara",
+      "C": "A council of ancient scholars",
+      "D": "A gathering of magical creatures"
+    },
+    "correct_answer": "B",
+    "explanation": "The prophecy foretells the formation of a new alliance known as the Council of Elders, comprising representatives from each major faction."
+  },
+  {
+    "id": "q187",
+    "document_id": "dawn_prophecy",
+    "question": "What is the significance of the Celestial Conjunction?",
+    "options": {
+      "A": "It marks the beginning of significant changes in Eldara",
+      "B": "It signals the end of the current age",
+      "C": "It heralds the return of Seer Alarion",
+      "D": "It initiates a new magical era"
+    },
+    "correct_answer": "A",
+    "explanation": "The Celestial Conjunction is said to signal the beginning of significant changes in Eldara."
+  },
+  {
+    "id": "q188",
+    "document_id": "dawn_prophecy",
+    "question": "Where will the final confrontation between light and darkness take place?",
+    "options": {
+      "A": "Ember Island",
+      "B": "Silverlake",
+      "C": "Shadow Vale",
+      "D": "Mistwood"
+    },
+    "correct_answer": "C",
+    "explanation": "The prophecy predicts that the final confrontation will take place in the Shadow Vale."
+  },
+  {
+    "id": "q189",
+    "document_id": "dawn_prophecy",
+    "question": "What is the last Celestial Conjunction said to have occurred?",
+    "options": {
+      "A": "On the night of the Winter Solstice in 1600",
+      "B": "During a lunar eclipse on Eclipse Island",
+      "C": "On the night of the Summer Solstice in 1600",
+      "D": "In the depths of the Starfall Caverns"
+    },
+    "correct_answer": "C",
+    "explanation": "The last Celestial Conjunction was witnessed on the night of the Summer Solstice in the year 1600."
+  },
+  {
+    "id": "q190",
+    "document_id": "dawn_prophecy",
+    "question": "What is the role of the Amulet of Alarion in the prophecy?",
+    "options": {
+      "A": "It will guide the Chosen One on their journey",
+      "B": "It will be used to awaken the Elemental Spirits",
+      "C": "It will be wielded by the Swordbearer",
+      "D": "It will serve as a symbol of the Council of Elders"
+    },
+    "correct_answer": "A",
+    "explanation": "The prophecy states that the Amulet of Alarion will guide the Chosen One on their journey to fulfill their destiny."
+  }
+]

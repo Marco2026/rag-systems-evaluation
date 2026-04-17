@@ -1,0 +1,132 @@
+[
+  {
+    "id": "q101",
+    "document_id": "artifices",
+    "question": "Who discovered the method to harness and store magical energy in crystalline structures?",
+    "options": {
+      "A": "Alaric Thorne",
+      "B": "Brondur Stonefist",
+      "C": "Elara Nightshade",
+      "D": "Thalor Ironheart"
+    },
+    "correct_answer": "A",
+    "explanation": "Alaric Thorne made this discovery in 1650."
+  },
+  {
+    "id": "q102",
+    "document_id": "artifices",
+    "question": "In which year did the Valdrek Foundry become a leading manufacturer of artifices?",
+    "options": {
+      "A": "1705",
+      "B": "1650",
+      "C": "1753",
+      "D": "1800"
+    },
+    "correct_answer": "A",
+    "explanation": "The Valdrek Foundry was established in 1705."
+  },
+  {
+    "id": "q103",
+    "document_id": "artifices",
+    "question": "What significant innovation did the magi-furnace introduce to metalworking?",
+    "options": {
+      "A": "Automated mining",
+      "B": "Higher temperatures",
+      "C": "Faster smelting",
+      "D": "Cheaper materials"
+    },
+    "correct_answer": "B",
+    "explanation": "The magi-furnace achieved higher temperatures than conventional methods."
+  },
+  {
+    "id": "q104",
+    "document_id": "artifices",
+    "question": "How did the introduction of magi-pumps in 1780 affect Valdrek's water supply?",
+    "options": {
+      "A": "Increased water temperature",
+      "B": "Reduced incidence of waterborne diseases",
+      "C": "Improved taste of water",
+      "D": "Decreased water pressure"
+    },
+    "correct_answer": "B",
+    "explanation": "The magi-pumps reduced the incidence of waterborne diseases."
+  },
+  {
+    "id": "q105",
+    "document_id": "artifices",
+    "question": "What was the population of Valdrek in 1850?",
+    "options": {
+      "A": "25,000",
+      "B": "50,000",
+      "C": "75,000",
+      "D": "100,000"
+    },
+    "correct_answer": "B",
+    "explanation": "The population of Valdrek grew to over 50,000 by 1850."
+  },
+  {
+    "id": "q106",
+    "document_id": "artifices",
+    "question": "Which city is known for its high-quality steel production?",
+    "options": {
+      "A": "Arvandor",
+      "B": "Valoria",
+      "C": "Valdrek",
+      "D": "Sunhold"
+    },
+    "correct_answer": "C",
+    "explanation": "Valdrek became renowned for its high-quality steel."
+  },
+  {
+    "id": "q107",
+    "document_id": "artifices",
+    "question": "What was the speed of the first magi-carriage introduced in 1820?",
+    "options": {
+      "A": "20 miles per hour",
+      "B": "30 miles per hour",
+      "C": "40 miles per hour",
+      "D": "50 miles per hour"
+    },
+    "correct_answer": "B",
+    "explanation": "The first magi-carriage could travel at speeds up to 30 miles per hour."
+  },
+  {
+    "id": "q108",
+    "document_id": "artifices",
+    "question": "What is the name of the institution that offers specialized programs in artifice engineering?",
+    "options": {
+      "A": "Valdrek Foundry",
+      "B": "Valdrek Academy of Magic and Engineering",
+      "C": "Arvandor University",
+      "D": "Moonhaven College"
+    },
+    "correct_answer": "B",
+    "explanation": "The Valdrek Academy of Magic and Engineering was established in 1795."
+  },
+  {
+    "id": "q109",
+    "document_id": "artifices",
+    "question": "Who designed the magi-furnace?",
+    "options": {
+      "A": "Alaric Thorne",
+      "B": "Brondur Stonefist",
+      "C": "Elara Nightshade",
+      "D": "Thalor Ironheart"
+    },
+    "correct_answer": "C",
+    "explanation": "Elara Nightshade designed the magi-furnace."
+  },
+  {
+    "id": "q110",
+    "document_id": "artifices",
+    "question": "What are some future applications of magical energy being explored at the Valdrek Academy?",
+    "options": {
+      "A": "Automated farms and magi-ships",
+      "B": "Airships and automated factories",
+      "C": "Magi-trains and enchanted bridges",
+      "D": "Flying machines and magi-lamps"
+    },
+    "correct_answer": "B",
+    "explanation": "The Valdrek Academy is exploring airships powered by levitation spells and automated factories."
+  }
+]

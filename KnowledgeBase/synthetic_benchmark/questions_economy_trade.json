@@ -1,0 +1,132 @@
+[
+  {
+    "id": "q071",
+    "document_id": "economy_trade",
+    "question": "What is the primary medium of exchange in Eldara's economy?",
+    "options": {
+      "A": "Gold Coins",
+      "B": "Draken",
+      "C": "Silver Tokens",
+      "D": "Barter System"
+    },
+    "correct_answer": "B",
+    "explanation": "The Draken is explicitly mentioned as the primary medium of exchange in Eldara."
+  },
+  {
+    "id": "q072",
+    "document_id": "economy_trade",
+    "question": "What precious metal, mined primarily from the Iron Hills, is used to make the Draken?",
+    "options": {
+      "A": "Copper",
+      "B": "Silver",
+      "C": "Gold",
+      "D": "Mithril"
+    },
+    "correct_answer": "D",
+    "explanation": "The document states that mithril, along with silver and gold, is used to make the Draken."
+  },
+  {
+    "id": "q073",
+    "document_id": "economy_trade",
+    "question": "In which year was the standardization of the Draken currency established?",
+    "options": {
+      "A": "500",
+      "B": "800",
+      "C": "1200",
+      "D": "1400"
+    },
+    "correct_answer": "D",
+    "explanation": "The standardization of the Draken currency was established during the Treaty of the Silver Forest in 1400."
+  },
+  {
+    "id": "q074",
+    "document_id": "economy_trade",
+    "question": "Which city is known for its sunny climate and bustling marketplaces?",
+    "options": {
+      "A": "Arvandor",
+      "B": "Valoria",
+      "C": "Sunhold",
+      "D": "Moonhaven"
+    },
+    "correct_answer": "C",
+    "explanation": "Sunhold is described as the largest coastal city in Eldara, known for its sunny climate and vibrant marketplaces."
+  },
+  {
+    "id": "q075",
+    "document_id": "economy_trade",
+    "question": "What is the primary good transported along the Mountain Pass Route?",
+    "options": {
+      "A": "Silk",
+      "B": "Iron Ore",
+      "C": "Spices",
+      "D": "Magical Herbs"
+    },
+    "correct_answer": "B",
+    "explanation": "The primary goods transported along the Mountain Pass Route include iron ore, gemstones, and finely crafted weapons."
+  },
+  {
+    "id": "q076",
+    "document_id": "economy_trade",
+    "question": "Which trade route connects the volcanic island with the coastal city of Sunhold?",
+    "options": {
+      "A": "Azure Trade Route",
+      "B": "Ember Island Route",
+      "C": "Whispering Plains Route",
+      "D": "Firewatch Tower Route"
+    },
+    "correct_answer": "B",
+    "explanation": "The Ember Island Route connects the volcanic island with Sunhold, transporting fire elementals and rare minerals."
+  },
+  {
+    "id": "q077",
+    "document_id": "economy_trade",
+    "question": "What is the main feature of the Whispering Plains?",
+    "options": {
+      "A": "Ancient Forests",
+      "B": "Fertile Soil",
+      "C": "Volcanic Fields",
+      "D": "Silver Sheen"
+    },
+    "correct_answer": "B",
+    "explanation": "The Whispering Plains are known for their fertile soil, making them ideal for farming and grazing livestock."
+  },
+  {
+    "id": "q078",
+    "document_id": "economy_trade",
+    "question": "What is the primary good transported along the Silver Forest Route?",
+    "options": {
+      "A": "Enchanted Metals",
+      "B": "Silk",
+      "C": "Rare Woods and Magical Flora",
+      "D": "Spices"
+    },
+    "correct_answer": "C",
+    "explanation": "The primary goods transported along the Silver Forest Route include rare woods and magical flora."
+  },
+  {
+    "id": "q079",
+    "document_id": "economy_trade",
+    "question": "Which route is known for its transport of magical artifacts and ancient knowledge?",
+    "options": {
+      "A": "Azure Trade Route",
+      "B": "Whispering Plains Route",
+      "C": "Silver Forest Route",
+      "D": "Mistwood Route"
+    },
+    "correct_answer": "D",
+    "explanation": "The Mistwood Route is known for transporting magical artifacts and ancient knowledge through the enchanted forest."
+  },
+  {
+    "id": "q080",
+    "document_id": "economy_trade",
+    "question": "Which trade route was established in 1600?",
+    "options": {
+      "A": "Azure Trade Route",
+      "B": "Ember Island Route",
+      "C": "Whispering Plains Route",
+      "D": "Firewatch Tower Route"
+    },
+    "correct_answer": "B",
+    "explanation": "The Ember Island Route was established in 1600, connecting the volcanic island with Sunhold."
+  }
+]

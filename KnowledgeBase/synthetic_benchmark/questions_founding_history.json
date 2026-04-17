@@ -1,0 +1,132 @@
+[
+  {
+    "id": "q001",
+    "document_id": "founding_history",
+    "question": "In which year was the Valdrek Empire founded?",
+    "options": {
+      "A": "1050",
+      "B": "1075",
+      "C": "1080",
+      "D": "1095"
+    },
+    "correct_answer": "A",
+    "explanation": "The document explicitly states that the Valdrek Empire was founded in the year 1050."
+  },
+  {
+    "id": "q002",
+    "document_id": "founding_history",
+    "question": "Who ascended to power on the first day of the year 1050?",
+    "options": {
+      "A": "Emperor Alaric I",
+      "B": "Emperor Thalion II",
+      "C": "Emperor Elowen III",
+      "D": "Emperor Solara"
+    },
+    "correct_answer": "A",
+    "explanation": "The document states that Emperor Alaric I ascended to power on the first day of the year 1050."
+  },
+  {
+    "id": "q003",
+    "document_id": "founding_history",
+    "question": "What significant infrastructure did Emperor Alaric I build during his reign?",
+    "options": {
+      "A": "The Grand Road",
+      "B": "The Imperial Academy",
+      "C": "The Imperial Navy",
+      "D": "The Temple of the Sun"
+    },
+    "correct_answer": "A",
+    "explanation": "Emperor Alaric I is credited with constructing the Grand Road, a 500-mile highway connecting Valoria to distant regions."
+  },
+  {
+    "id": "q004",
+    "document_id": "founding_history",
+    "question": "In what year was the Imperial Academy founded?",
+    "options": {
+      "A": "1053",
+      "B": "1075",
+      "C": "1080",
+      "D": "1097"
+    },
+    "correct_answer": "A",
+    "explanation": "The document states that the Imperial Academy was founded in 1053."
+  },
+  {
+    "id": "q005",
+    "document_id": "founding_history",
+    "question": "What treaty did Emperor Thalion II sign in 1080?",
+    "options": {
+      "A": "Treaty of Silver Forest",
+      "B": "Treaty of Silverlake",
+      "C": "Treaty of the Silver Flame",
+      "D": "Treaty of the Silver Sea"
+    },
+    "correct_answer": "B",
+    "explanation": "Emperor Thalion II signed the Treaty of Silverlake in 1080, formalizing peaceful relations with the Dwarves."
+  },
+  {
+    "id": "q006",
+    "document_id": "founding_history",
+    "question": "How many warships were initially established in the Imperial Navy?",
+    "options": {
+      "A": "10",
+      "B": "20",
+      "C": "30",
+      "D": "40"
+    },
+    "correct_answer": "B",
+    "explanation": "The document states that Emperor Thalion II established a fleet of 20 warships in 1085."
+  },
+  {
+    "id": "q007",
+    "document_id": "founding_history",
+    "question": "What was the primary mission of the Imperial Navy?",
+    "options": {
+      "A": "To explore new lands",
+      "B": "To protect trade routes and deter piracy",
+      "C": "To conquer coastal cities",
+      "D": "To transport troops"
+    },
+    "correct_answer": "B",
+    "explanation": "The primary mission of the Imperial Navy was to protect trade routes and deter piracy."
+  },
+  {
+    "id": "q008",
+    "document_id": "founding_history",
+    "question": "In which city was the Temple of the Sun constructed?",
+    "options": {
+      "A": "Valoria",
+      "B": "Sunhold",
+      "C": "Moonhaven",
+      "D": "Arvandor"
+    },
+    "correct_answer": "C",
+    "explanation": "The document states that the Temple of the Sun was constructed in Moonhaven."
+  },
+  {
+    "id": "q009",
+    "document_id": "founding_history",
+    "question": "What was the name of the elite group of paladins established by Emperor Elowen III?",
+    "options": {
+      "A": "Order of the Silver Flame",
+      "B": "Order of the Golden Sun",
+      "C": "Order of the Celestial Shield",
+      "D": "Order of the Radiant Star"
+    },
+    "correct_answer": "A",
+    "explanation": "Emperor Elowen III established the Order of the Silver Flame, an elite group of paladins."
+  },
+  {
+    "id": "q010",
+    "document_id": "founding_history",
+    "question": "Which emperor initiated the construction of the Imperial Navy?",
+    "options": {
+      "A": "Emperor Alaric I",
+      "B": "Emperor Thalion II",
+      "C": "Emperor Elowen III",
+      "D": "Emperor Solara"
+    },
+    "correct_answer": "B",
+    "explanation": "The document states that Emperor Thalion II initiated the construction of the Imperial Navy in 1085."
+  }
+]

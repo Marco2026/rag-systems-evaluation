@@ -1,0 +1,132 @@
+[
+  {
+    "id": "q091",
+    "document_id": "great_fracture_war",
+    "question": "In which year did the Great Fracture war begin?",
+    "options": {
+      "A": "1752",
+      "B": "1768",
+      "C": "1750",
+      "D": "1756"
+    },
+    "correct_answer": "A",
+    "explanation": "The war began on the summer solstice of 1752."
+  },
+  {
+    "id": "q092",
+    "document_id": "great_fracture_war",
+    "question": "Who launched the initial attack that started the Great Fracture?",
+    "options": {
+      "A": "Zephyrion, the High Drake of Mount Drakon",
+      "B": "King Althorin of Valoria",
+      "C": "High Mage Elara Sunshadow",
+      "D": "The Giants and Trolls"
+    },
+    "correct_answer": "A",
+    "explanation": "Zephyrion, the High Drake of Mount Drakon, launched an unprovoked attack on Sunhold."
+  },
+  {
+    "id": "q093",
+    "document_id": "great_fracture_war",
+    "question": "Which city was attacked first by Zephyrion?",
+    "options": {
+      "A": "Sunhold",
+      "B": "Arvandor",
+      "C": "Valoria",
+      "D": "Moonhaven"
+    },
+    "correct_answer": "A",
+    "explanation": "Zephyrion attacked Sunhold, the largest coastal city in Eldara."
+  },
+  {
+    "id": "q094",
+    "document_id": "great_fracture_war",
+    "question": "How many lives were lost in Sunhold within the first day of the attack?",
+    "options": {
+      "A": "1,000",
+      "B": "5,000",
+      "C": "10,000",
+      "D": "20,000"
+    },
+    "correct_answer": "C",
+    "explanation": "Over 10,000 lives were lost within the first day of the attack on Sunhold."
+  },
+  {
+    "id": "q095",
+    "document_id": "great_fracture_war",
+    "question": "Who was the leader of the Kael'thys alliance during the Great Fracture?",
+    "options": {
+      "A": "King Althorin of Valoria",
+      "B": "High Mage Elara Sunshadow",
+      "C": "Zephyrion, the High Drake",
+      "D": "The Dwarven King"
+    },
+    "correct_answer": "A",
+    "explanation": "King Althorin of Valoria coordinated military efforts from his capital."
+  },
+  {
+    "id": "q096",
+    "document_id": "great_fracture_war",
+    "question": "Where did one of the most significant battles of the war take place?",
+    "options": {
+      "A": "Whispering Plains",
+      "B": "Stonefang Pass",
+      "C": "Sunhold",
+      "D": "Arvandor"
+    },
+    "correct_answer": "A",
+    "explanation": "One of the most significant battles took place in the Whispering Plains."
+  },
+  {
+    "id": "q097",
+    "document_id": "great_fracture_war",
+    "question": "What type of magic was prominently used during the battle in the Whispering Plains?",
+    "options": {
+      "A": "Fire Magic",
+      "B": "Water Magic",
+      "C": "Elemental Magic",
+      "D": "Divine Magic"
+    },
+    "correct_answer": "C",
+    "explanation": "The battle was marked by the use of powerful elemental magic, with lightning storms and earth tremors."
+  },
+  {
+    "id": "q098",
+    "document_id": "great_fracture_war",
+    "question": "What significant event happened on the 15th of Autumn, 1768?",
+    "options": {
+      "A": "The final confrontation between High Mage Elara Sunshadow and Zephyrion",
+      "B": "The start of the Great Fracture war",
+      "C": "The battle in the Whispering Plains",
+      "D": "The fall of Sunhold"
+    },
+    "correct_answer": "A",
+    "explanation": "The final confrontation between High Mage Elara Sunshadow and Zephyrion took place on this date."
+  },
+  {
+    "id": "q099",
+    "document_id": "great_fracture_war",
+    "question": "What did the Kael'thys establish on Mount Drakon after the war?",
+    "options": {
+      "A": "A new city",
+      "B": "A garrison",
+      "C": "A temple",
+      "D": "A trade post"
+    },
+    "correct_answer": "B",
+    "explanation": "The Kael'thys established a garrison on the mountain to ensure it remained under their control."
+  },
+  {
+    "id": "q100",
+    "document_id": "great_fracture_war",
+    "question": "What is now known for enhanced earth magic as a result of the Great Fracture?",
+    "options": {
+      "A": "Whispering Plains",
+      "B": "Mount Drakon",
+      "C": "Sunhold",
+      "D": "Silver Forest"
+    },
+    "correct_answer": "A",
+    "explanation": "The Whispering Plains are now known for their enhanced earth magic due to the elemental magic used during the battle."
+  }
+]
