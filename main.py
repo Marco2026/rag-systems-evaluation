@@ -65,9 +65,9 @@ async def start_rag():
         global rag, rag_initializing, rag_init_error
         try:
             rag_instance = Rag(
-                retriever_model_name="mxbai-embed-large:v1",
+                retriever_model_name="miti99/gte-qwen2:latest",
                 retriever_model_mode="api",
-                generator_model_name="llama3.1:8b",
+                generator_model_name="huihui_ai/fluentlylm-prinum-abliterated:32b",
                 generator_model_mode="api",
                 rebuild_index=True,
                 system_prompt=SYSTEM_PROMPT,
