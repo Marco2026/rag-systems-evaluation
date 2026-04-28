@@ -17,12 +17,12 @@
     "document_id": "founding_history",
     "question": "Who ascended to power on the first day of the year 1050?",
     "options": {
-      "A": "Emperor Alaric I",
+      "A": "Emperor Solara",
       "B": "Emperor Thalion II",
       "C": "Emperor Elowen III",
-      "D": "Emperor Solara"
+      "D": "Emperor Alaric I"
     },
-    "correct_answer": "A",
+    "correct_answer": "D",
     "explanation": "The document states that Emperor Alaric I ascended to power on the first day of the year 1050."
   },
   {
@@ -30,12 +30,12 @@
     "document_id": "founding_history",
     "question": "What significant infrastructure did Emperor Alaric I build during his reign?",
     "options": {
-      "A": "The Grand Road",
+      "A": "The Temple of the Sun",
       "B": "The Imperial Academy",
       "C": "The Imperial Navy",
-      "D": "The Temple of the Sun"
+      "D": "The Grand Road"
     },
-    "correct_answer": "A",
+    "correct_answer": "D",
     "explanation": "Emperor Alaric I is credited with constructing the Grand Road, a 500-mile highway connecting Valoria to distant regions."
   },
   {
@@ -57,11 +57,11 @@
     "question": "What treaty did Emperor Thalion II sign in 1080?",
     "options": {
       "A": "Treaty of Silver Forest",
-      "B": "Treaty of Silverlake",
-      "C": "Treaty of the Silver Flame",
+      "B": "Treaty of the Silver Flame",
+      "C": "Treaty of Silverlake",
       "D": "Treaty of the Silver Sea"
     },
-    "correct_answer": "B",
+    "correct_answer": "C",
     "explanation": "Emperor Thalion II signed the Treaty of Silverlake in 1080, formalizing peaceful relations with the Dwarves."
   },
   {
@@ -83,11 +83,11 @@
     "question": "What was the primary mission of the Imperial Navy?",
     "options": {
       "A": "To explore new lands",
-      "B": "To protect trade routes and deter piracy",
-      "C": "To conquer coastal cities",
+      "B": "To conquer coastal cities",
+      "C": "To protect trade routes and deter piracy",
       "D": "To transport troops"
     },
-    "correct_answer": "B",
+    "correct_answer": "C",
     "explanation": "The primary mission of the Imperial Navy was to protect trade routes and deter piracy."
   },
   {
@@ -108,12 +108,12 @@
     "document_id": "founding_history",
     "question": "What was the name of the elite group of paladins established by Emperor Elowen III?",
     "options": {
-      "A": "Order of the Silver Flame",
+      "A": "Order of the Radiant Star",
       "B": "Order of the Golden Sun",
       "C": "Order of the Celestial Shield",
-      "D": "Order of the Radiant Star"
+      "D": "Order of the Silver Flame"
     },
-    "correct_answer": "A",
+    "correct_answer": "D",
     "explanation": "Emperor Elowen III established the Order of the Silver Flame, an elite group of paladins."
   },
   {
@@ -134,12 +134,12 @@
     "document_id": "continent_geography",
     "question": "What is the name of the strait that separates Elyria Proper from Elyria Minor?",
     "options": {
-      "A": "Silver Channel",
+      "A": "Mistwood Gap",
       "B": "Azure Strait",
       "C": "Ember Passage",
-      "D": "Mistwood Gap"
+      "D": "Silver Channel"
     },
-    "correct_answer": "A",
+    "correct_answer": "D",
     "explanation": "The document states that Elyria Minor is separated from Elyria Proper by a narrow strait called the Silver Channel."
   },
   {
@@ -147,12 +147,12 @@
     "document_id": "continent_geography",
     "question": "Which city in Eldara is known for its sunny climate and vibrant marketplaces?",
     "options": {
-      "A": "Sunhold",
+      "A": "Arvandor",
       "B": "Moonhaven",
       "C": "Valoria",
-      "D": "Arvandor"
+      "D": "Sunhold"
     },
-    "correct_answer": "A",
+    "correct_answer": "D",
     "explanation": "The document describes Sunhold as the largest coastal city in Eldara, known for its sunny climate and vibrant marketplaces."
   },
   {
@@ -187,11 +187,11 @@
     "question": "What is the name of the mountain range rich in minerals where the Dwarves have established their largest underground cities?",
     "options": {
       "A": "Silver Mountains",
-      "B": "Iron Hills",
-      "C": "Stonefang Pass",
+      "B": "Stonefang Pass",
+      "C": "Iron Hills",
       "D": "Mount Drakon"
     },
-    "correct_answer": "B",
+    "correct_answer": "C",
     "explanation": "The document states that the Iron Hills are a vast mountain range rich in minerals where the Dwarves have established their largest underground cities."
   },
   {
@@ -199,12 +199,12 @@
     "document_id": "continent_geography",
     "question": "Which city is shaped like a crescent moon and has been a center of magical study for over 3,200 years?",
     "options": {
-      "A": "Moonhaven",
+      "A": "Sunhold",
       "B": "Arvandor",
       "C": "Valoria",
-      "D": "Sunhold"
+      "D": "Moonhaven"
     },
-    "correct_answer": "A",
+    "correct_answer": "D",
     "explanation": "The document describes Moonhaven as a tranquil Eldari settlement shaped like a crescent moon and founded in -1200, making it over 3,200 years old."
   },
   {
@@ -213,11 +213,11 @@
     "question": "What is the name of the enchanted forest where time flows differently, located on Elyria Minor?",
     "options": {
       "A": "Silver Forest",
-      "B": "Mistwood",
-      "C": "Whispering Plains",
+      "B": "Whispering Plains",
+      "C": "Mistwood",
       "D": "Moonhaven"
     },
-    "correct_answer": "B",
+    "correct_answer": "C",
     "explanation": "The document states that the Mistwood on Elyria Minor is an enchanted forest where time flows differently."
   },
   {
@@ -225,12 +225,12 @@
     "document_id": "continent_geography",
     "question": "Which city was founded by the Kael'thys and is renowned for its beautiful architecture and magical gardens?",
     "options": {
-      "A": "Arvandor",
+      "A": "Sunhold",
       "B": "Valoria",
       "C": "Moonhaven",
-      "D": "Sunhold"
+      "D": "Arvandor"
     },
-    "correct_answer": "A",
+    "correct_answer": "D",
     "explanation": "The document describes Arvandor as the city built by the Kael'thys, known for its beautiful architecture and magical gardens."
   },
   {
@@ -239,11 +239,11 @@
     "question": "What is the name of the extensive network of caves where meteors are said to have fallen long ago?",
     "options": {
       "A": "Silverlake Caverns",
-      "B": "Starfall Caverns",
-      "C": "Mistwood Caves",
+      "B": "Mistwood Caves",
+      "C": "Starfall Caverns",
       "D": "Firewatch Tunnels"
     },
-    "correct_answer": "B",
+    "correct_answer": "C",
     "explanation": "The document states that the Starfall Caverns are an extensive network of caves where meteors are said to have fallen long ago."
   },
   {
@@ -252,11 +252,11 @@
     "question": "Which island is known for its connection to lunar magic and frequent lunar eclipses?",
     "options": {
       "A": "Ember Island",
-      "B": "Eclipse Island",
-      "C": "Azure Isle",
+      "B": "Azure Isle",
+      "C": "Eclipse Island",
       "D": "Moonhaven"
     },
-    "correct_answer": "B",
+    "correct_answer": "C",
     "explanation": "The document describes Eclipse Island as a mystical island that experiences frequent lunar eclipses and is known for its connection to lunar magic."
   },
   {
@@ -265,11 +265,11 @@
     "question": "Which source of magic is associated with the Whispering Plains?",
     "options": {
       "A": "Living Flame",
-      "B": "Cold Void",
-      "C": "Deep Tide",
+      "B": "Deep Tide",
+      "C": "Cold Void",
       "D": "Eternal Wind"
     },
-    "correct_answer": "B",
+    "correct_answer": "C",
     "explanation": "The Cold Void is associated with the northern reaches of Elyria, particularly the Whispering Plains."
   },
   {
@@ -356,11 +356,11 @@
     "question": "What significant event involving the Eternal Wind occurred in -1500?",
     "options": {
       "A": "The First Dawn",
-      "B": "The Rise of the Drakonar",
-      "C": "The Great War of the Ancients",
+      "B": "he Great War of the Ancients",
+      "C": "The Rise of the DrakonarT",
       "D": "The Pact of the Three Races"
     },
-    "correct_answer": "B",
+    "correct_answer": "C",
     "explanation": "In -1500, during the Rise of the Drakonar, these dragon-like creatures formed a deep connection with the Eternal Wind."
   },
   {
@@ -434,11 +434,11 @@
     "question": "What is the primary purpose of the Wind Spirit Ceremony?",
     "options": {
       "A": "To celebrate a bountiful harvest",
-      "B": "To honor the wind spirits",
-      "C": "To mark the summer solstice",
+      "B": "To mark the summer solstice",
+      "C": "To honor the wind spirits",
       "D": "To welcome new citizens"
     },
-    "correct_answer": "B",
+    "correct_answer": "C",
     "explanation": "The Wind Spirit Ceremony is performed to honor the wind spirits."
   },
   {
@@ -446,12 +446,12 @@
     "document_id": "human_factions",
     "question": "What is the main industry of the Silverlake Federation?",
     "options": {
-      "A": "Fishing",
+      "A": "Trade and marketplaces",
       "B": "Mining",
       "C": "Craftsmanship",
-      "D": "Trade and marketplaces"
+      "D": "Fishing"
     },
-    "correct_answer": "A",
+    "correct_answer": "D",
     "explanation": "The Silverlake Federation is known for its fishing industry."
   },
   {
@@ -472,12 +472,12 @@
     "document_id": "human_factions",
     "question": "Who is credited with establishing the kingdom of Valoria?",
     "options": {
-      "A": "King Alaric I",
+      "A": "Queen Elyria",
       "B": "Captain Elara Stormwind",
       "C": "High Priestess Lyra Shadowveil",
-      "D": "Queen Elyria"
+      "D": "King Alaric I"
     },
-    "correct_answer": "A",
+    "correct_answer": "D",
     "explanation": "King Alaric I is credited with establishing the kingdom of Valoria."
   },
   {
@@ -512,11 +512,11 @@
     "question": "What is the primary function of Cragstone Keep?",
     "options": {
       "A": "Fishing hub",
-      "B": "Military fortress",
-      "C": "Religious temple",
+      "B": "Religious temple",
+      "C": "Military fortress",
       "D": "Trade center"
     },
-    "correct_answer": "B",
+    "correct_answer": "C",
     "explanation": "Cragstone Keep is a military fortress that guards the entrance to the Iron Hills."
   },
   {
@@ -537,12 +537,12 @@
     "document_id": "selvari",
     "question": "What is the name of the sacred tree at the heart of Thuun?",
     "options": {
-      "A": "Eryndur",
+      "A": "Moonwood",
       "B": "Thuun Oak",
       "C": "Great Elm",
-      "D": "Moonwood"
+      "D": "Eryndur"
     },
-    "correct_answer": "A",
+    "correct_answer": "D",
     "explanation": "The sacred tree at the heart of Thuun is known as Eryndur."
   },
   {
@@ -550,12 +550,12 @@
     "document_id": "selvari",
     "question": "Which clan is responsible for maintaining the High Canopy?",
     "options": {
-      "A": "Oakheart Clan",
+      "A": "Maplebark Clan",
       "B": "Willowwind Clan",
       "C": "Pinecrest Clan",
-      "D": "Maplebark Clan"
+      "D": "Oakheart Clan"
     },
-    "correct_answer": "A",
+    "correct_answer": "D",
     "explanation": "The Oakheart Clan is responsible for the High Canopy."
   },
   {
@@ -563,12 +563,12 @@
     "document_id": "selvari",
     "question": "What is the primary role of a Treeward?",
     "options": {
-      "A": "Leading the clan and maintaining tree-homes",
+      "A": "Conducting annual hunts",
       "B": "Guarding the forest against intruders",
       "C": "Cultivating medicinal plants",
-      "D": "Conducting annual hunts"
+      "D": "Leading the clan and maintaining tree-homes"
     },
-    "correct_answer": "A",
+    "correct_answer": "D",
     "explanation": "The Treeward is responsible for leading the clan and maintaining their tree-homes."
   },
   {
@@ -576,12 +576,12 @@
     "document_id": "selvari",
     "question": "What rare fruit do the Selvari use for its healing properties?",
     "options": {
-      "A": "Moonberries",
+      "A": "Sunseeds",
       "B": "Silverfruits",
       "C": "Goldenapples",
-      "D": "Sunseeds"
+      "D": "Moonberries"
     },
-    "correct_answer": "A",
+    "correct_answer": "D",
     "explanation": "The Selvari use moonberries, which grow during the full moon and have healing properties."
   },
   {
@@ -589,12 +589,12 @@
     "document_id": "selvari",
     "question": "How often is the High Treeward elected?",
     "options": {
-      "A": "Every 50 years",
+      "A": "Every 75 years",
       "B": "Every 25 years",
       "C": "Every 100 years",
-      "D": "Every 75 years"
+      "D": "Every 50 years"
     },
-    "correct_answer": "A",
+    "correct_answer": "D",
     "explanation": "The High Treeward is elected every 50 years during the Grand Assembly."
   },
   {
@@ -615,12 +615,12 @@
     "document_id": "selvari",
     "question": "What event do the Selvari hold annually to celebrate their connection to nature?",
     "options": {
-      "A": "Moonstag Hunt",
+      "A": "Forest Feast",
       "B": "Sun Festival",
       "C": "Tree Blessing",
-      "D": "Forest Feast"
+      "D": "Moonstag Hunt"
     },
-    "correct_answer": "A",
+    "correct_answer": "D",
     "explanation": "The Selvari hold an annual Moonstag Hunt during the summer solstice."
   },
   {
@@ -628,12 +628,12 @@
     "document_id": "selvari",
     "question": "Which forest spirit is believed to be the guardian of Eryndur?",
     "options": {
-      "A": "Arathorn",
+      "A": "Lynara",
       "B": "Eldorin",
       "C": "Thunor",
-      "D": "Lynara"
+      "D": "Arathorn"
     },
-    "correct_answer": "A",
+    "correct_answer": "D",
     "explanation": "The spirit Arathorn is believed to be the guardian of Eryndur."
   },
   {
@@ -667,12 +667,12 @@
     "document_id": "gorrak",
     "question": "Who is the leader of the Stonefist Clan?",
     "options": {
-      "A": "Chieftain Grorim Stonefist",
+      "A": "Chieftain Gromm Rockhide",
       "B": "Chieftain Thorgar Ironback",
       "C": "Chieftain Vrok Thunderfist",
-      "D": "Chieftain Gromm Rockhide"
+      "D": "Chieftain Grorim Stonefist"
     },
-    "correct_answer": "A",
+    "correct_answer": "D",
     "explanation": "The document mentions that the Stonefist Clan is led by Chieftain Grorim Stonefist."
   },
   {
@@ -693,12 +693,12 @@
     "document_id": "gorrak",
     "question": "Since when has the Stonefist Forge been in operation?",
     "options": {
-      "A": "500 BCE",
+      "A": "700 CE",
       "B": "1000 CE",
       "C": "300 BCE",
-      "D": "700 CE"
+      "D": "500 BCE"
     },
-    "correct_answer": "A",
+    "correct_answer": "D",
     "explanation": "The document mentions that the Stonefist Forge has been in operation since 500 BCE."
   },
   {
@@ -719,12 +719,12 @@
     "document_id": "gorrak",
     "question": "Where is the Crystal Cavern located?",
     "options": {
-      "A": "Deep beneath Mount Drakon",
+      "A": "On Ember Island",
       "B": "In the Iron Hills",
       "C": "Within the Great Stone Hall",
-      "D": "On Ember Island"
+      "D": "Deep beneath Mount Drakon"
     },
-    "correct_answer": "A",
+    "correct_answer": "D",
     "explanation": "The document mentions that the Crystal Cavern is located deep beneath Mount Drakon."
   },
   {
@@ -758,12 +758,12 @@
     "document_id": "gorrak",
     "question": "What are the Crystal Caverns known for?",
     "options": {
-      "A": "Luminescent crystals that enhance communication with earth spirits",
+      "A": "Enchanted stones that grant wishes",
       "B": "Ancient runes that tell the history of the Gorrak",
       "C": "Mystical pools that heal the wounded",
-      "D": "Enchanted stones that grant wishes"
+      "D": "Luminescent crystals that enhance communication with earth spirits"
     },
-    "correct_answer": "A",
+    "correct_answer": "D",
     "explanation": "The document states that the Crystal Cavern is filled with luminescent crystals that enhance the Gorrak's ability to communicate with the earth's spirits."
   },
   {
@@ -771,12 +771,12 @@
     "document_id": "gorrak",
     "question": "What is one of the notable structures created through the alliance between the Gorrak and the Mage Guilds of Thundertop?",
     "options": {
-      "A": "Firewatch Tower",
+      "A": "Crystal Cavern",
       "B": "Great Stone Hall",
       "C": "Stonefist Forge",
-      "D": "Crystal Cavern"
+      "D": "Firewatch Tower"
     },
-    "correct_answer": "A",
+    "correct_answer": "D",
     "explanation": "The document mentions that the Firewatch Tower is one of the notable structures created through the alliance between the Gorrak and the Mage Guilds of Thundertop."
   },
   {
@@ -850,11 +850,11 @@
     "question": "Which clan controls the underwater caverns near Ember Island?",
     "options": {
       "A": "Clan of the Silver Tide",
-      "B": "Clan of the Coral Reef",
-      "C": "Clan of the Stormy Sea",
+      "B": "Clan of the Stormy Sea",
+      "C": "Clan of the Coral Reef",
       "D": "Clan of the Deep Waters"
     },
-    "correct_answer": "B",
+    "correct_answer": "C",
     "explanation": "The Clan of the Coral Reef controls the underwater caverns near Ember Island."
   },
   {
@@ -863,11 +863,11 @@
     "question": "What event marks the beginning of the Mereidi's amphibious nature?",
     "options": {
       "A": "The Great Forging",
-      "B": "The Blessing of the Tides",
-      "C": "The Sundering",
+      "B": "The Sundering",
+      "C": "The Blessing of the Tides",
       "D": "The Rise of the Dwarves"
     },
-    "correct_answer": "B",
+    "correct_answer": "C",
     "explanation": "The Blessing of the Tides, performed by Eldari mages, marked the beginning of their amphibious nature."
   },
   {
@@ -876,11 +876,11 @@
     "question": "In which city is the largest and most renowned lighthouse located?",
     "options": {
       "A": "Sunhold",
-      "B": "Moonhaven",
-      "C": "Arvandor",
+      "B": "Arvandor",
+      "C": "Moonhaven",
       "D": "Thundertop"
     },
-    "correct_answer": "B",
+    "correct_answer": "C",
     "explanation": "The largest and most renowned lighthouse is located in Moonhaven."
   },
   {
@@ -888,12 +888,12 @@
     "document_id": "mereidi",
     "question": "What significant event do the Mereidi celebrate annually on the 15th day of the lunar month?",
     "options": {
-      "A": "Festival of the Tides",
+      "A": "Festival of the Stars",
       "B": "Festival of the Sun",
       "C": "Festival of the Moon",
-      "D": "Festival of the Stars"
+      "D": "Festival of the Tides"
     },
-    "correct_answer": "A",
+    "correct_answer": "D",
     "explanation": "The Mereidi celebrate the Festival of the Tides annually on the 15th day of the lunar month."
   },
   {
@@ -915,11 +915,11 @@
     "question": "What is the primary medium of exchange in Eldara's economy?",
     "options": {
       "A": "Gold Coins",
-      "B": "Draken",
-      "C": "Silver Tokens",
+      "B": "Silver Tokens",
+      "C": "Draken",
       "D": "Barter System"
     },
-    "correct_answer": "B",
+    "correct_answer": "C",
     "explanation": "The Draken is explicitly mentioned as the primary medium of exchange in Eldara."
   },
   {
@@ -980,11 +980,11 @@
     "question": "Which trade route connects the volcanic island with the coastal city of Sunhold?",
     "options": {
       "A": "Azure Trade Route",
-      "B": "Ember Island Route",
-      "C": "Whispering Plains Route",
+      "B": "Whispering Plains Route",
+      "C": "Ember Island Route",
       "D": "Firewatch Tower Route"
     },
-    "correct_answer": "B",
+    "correct_answer": "C",
     "explanation": "The Ember Island Route connects the volcanic island with Sunhold, transporting fire elementals and rare minerals."
   },
   {
@@ -1032,11 +1032,11 @@
     "question": "Which trade route was established in 1600?",
     "options": {
       "A": "Azure Trade Route",
-      "B": "Ember Island Route",
-      "C": "Whispering Plains Route",
+      "B": "Whispering Plains Route",
+      "C": "Ember Island Route",
       "D": "Firewatch Tower Route"
     },
-    "correct_answer": "B",
+    "correct_answer": "C",
     "explanation": "The Ember Island Route was established in 1600, connecting the volcanic island with Sunhold."
   },
   {
@@ -1070,12 +1070,12 @@
     "document_id": "religious_pantheon",
     "question": "What is Elara's domain and where is her most sacred site located?",
     "options": {
-      "A": "Life and fertility, Silver Forest",
+      "A": "Light and wisdom, Arvandor",
       "B": "Water and healing, Azure Sea",
-      "C": "Light and wisdom, Arvandor",
+      "C": "Life and fertility, Silver Forest",
       "D": "Storms and magic, Thundertop"
     },
-    "correct_answer": "A",
+    "correct_answer": "C",
     "explanation": "Elara's domain is life and fertility, and her most sacred site is the Silver Forest."
   },
   {
@@ -1083,12 +1083,12 @@
     "document_id": "religious_pantheon",
     "question": "Which god is associated with The Great Forging and is particularly revered by the Dwarves?",
     "options": {
-      "A": "Thalor, the Forger",
+      "A": "Kael'thys, the Lightbringer",
       "B": "Drakonar, the Sky Lord",
       "C": "Elara, the Lifegiver",
-      "D": "Kael'thys, the Lightbringer"
+      "D": "Thalor, the Forger"
     },
-    "correct_answer": "A",
+    "correct_answer": "D",
     "explanation": "Thalor is associated with The Great Forging and is particularly revered by the Dwarves."
   },
   {
@@ -1109,12 +1109,12 @@
     "document_id": "religious_pantheon",
     "question": "Which god guided the Kael'thys people to Eldara during The Coming of the Kael'thys?",
     "options": {
-      "A": "Kael'thys, the Lightbringer",
+      "A": "Thalor, the Forger",
       "B": "Elara, the Lifegiver",
       "C": "Drakonar, the Sky Lord",
-      "D": "Thalor, the Forger"
+      "D": "Kael'thys, the Lightbringer"
     },
-    "correct_answer": "A",
+    "correct_answer": "D",
     "explanation": "Kael'thys guided the Kael'thys people to Eldara during The Coming of the Kael'thys."
   },
   {
@@ -1135,12 +1135,12 @@
     "document_id": "religious_pantheon",
     "question": "Which goddess is associated with the earth and stability, and where is she particularly revered?",
     "options": {
-      "A": "Elyria, the Earth Mother, Iron Hills",
+      "A": "Kael'thys, the Lightbringer, Arvandor",
       "B": "Elara, the Lifegiver, Silver Forest",
       "C": "Thalor, the Forger, Cragstone Keep",
-      "D": "Kael'thys, the Lightbringer, Arvandor"
+      "D": "Elyria, the Earth Mother, Iron Hills"
     },
-    "correct_answer": "A",
+    "correct_answer": "D",
     "explanation": "Elyria is associated with the earth and stability, and she is particularly revered in the Iron Hills."
   },
   {
@@ -1161,12 +1161,12 @@
     "document_id": "religious_pantheon",
     "question": "Which god is often depicted holding a glowing orb symbolizing enlightenment?",
     "options": {
-      "A": "Kael'thys, the Lightbringer",
+      "A": "Elara, the Lifegiver",
       "B": "Thalor, the Forger",
       "C": "Drakonar, the Sky Lord",
-      "D": "Elara, the Lifegiver"
+      "D": "Kael'thys, the Lightbringer"
     },
-    "correct_answer": "A",
+    "correct_answer": "D",
     "explanation": "Kael'thys is often depicted holding a glowing orb symbolizing enlightenment."
   },
   {
@@ -1460,12 +1460,12 @@
     "document_id": "custodian_order",
     "question": "What is one of the primary responsibilities of the Custodians?",
     "options": {
-      "A": "Regulating the use of magical artifacts",
+      "A": "Training healers",
       "B": "Leading military expeditions",
       "C": "Building fortresses",
-      "D": "Training healers"
+      "D": "Regulating the use of magical artifacts"
     },
-    "correct_answer": "A",
+    "correct_answer": "D",
     "explanation": "One of the primary responsibilities of the Custodians is to monitor and regulate the use of magical artifacts."
   },
   {
@@ -1629,12 +1629,12 @@
     "document_id": "valdrek_politics",
     "question": "What event marks every five years and serves as a platform for discussing regional concerns?",
     "options": {
-      "A": "The Grand Assembly",
+      "A": "The Solar Throne Ceremony",
       "B": "The Treaty of Solara",
       "C": "The Arc Council Meeting",
-      "D": "The Solar Throne Ceremony"
+      "D": "The Grand Assembly"
     },
-    "correct_answer": "A",
+    "correct_answer": "D",
     "explanation": "Every five years, the Emperor hosts the Grand Assembly to discuss the state of the realm, as stated in the document."
   },
   {
@@ -1655,12 +1655,12 @@
     "document_id": "valdrek_politics",
     "question": "What can the Arc Council declare during a crisis to grant additional powers to the Solar Throne?",
     "options": {
-      "A": "A state of emergency",
+      "A": "A state of prosperity",
       "B": "A state of war",
       "C": "A state of peace",
-      "D": "A state of prosperity"
+      "D": "A state of emergency"
     },
-    "correct_answer": "A",
+    "correct_answer": "D",
     "explanation": "During a crisis, the Arc Council can declare a state of emergency to grant additional powers to the Solar Throne, as stated in the document."
   },
   {
@@ -1694,12 +1694,12 @@
     "document_id": "iconic_creatures",
     "question": "What is the primary habitat of the Ash Dragon?",
     "options": {
-      "A": "Mount Drakon",
+      "A": "Silver Forest",
       "B": "Iron Hills",
       "C": "Ember Island",
-      "D": "Silver Forest"
+      "D": "Mount Drakon"
     },
-    "correct_answer": "A",
+    "correct_answer": "D",
     "explanation": "The document states that Ash Dragons primarily dwell in Mount Drakon."
   },
   {
@@ -1759,12 +1759,12 @@
     "document_id": "iconic_creatures",
     "question": "What is the primary habitat of the Glimmerfish?",
     "options": {
-      "A": "Azure Sea",
+      "A": "Mistwood",
       "B": "Silverlake",
       "C": "Ember Island",
-      "D": "Mistwood"
+      "D": "Azure Sea"
     },
-    "correct_answer": "A",
+    "correct_answer": "D",
     "explanation": "The document states that Glimmerfish inhabit the Azure Sea."
   },
   {
@@ -1785,12 +1785,12 @@
     "document_id": "iconic_creatures",
     "question": "What is the name of the Merfolk sea god?",
     "options": {
-      "A": "Luminara",
+      "A": "Triton",
       "B": "Aquariel",
       "C": "Neptunus",
-      "D": "Triton"
+      "D": "Luminara"
     },
-    "correct_answer": "A",
+    "correct_answer": "D",
     "explanation": "The document states that the Merfolk consider Glimmerfish to be messengers from their sea god, Luminara."
   },
   {
@@ -1824,12 +1824,12 @@
     "document_id": "major_festivals",
     "question": "On which day of the Fire Moon is the Night of Flames celebrated?",
     "options": {
-      "A": "25th",
+      "A": "30th",
       "B": "10th",
       "C": "15th",
-      "D": "30th"
+      "D": "25th"
     },
-    "correct_answer": "A",
+    "correct_answer": "D",
     "explanation": "The Night of Flames is held on the 25th day of the Fire Moon."
   },
   {
@@ -1863,12 +1863,12 @@
     "document_id": "major_festivals",
     "question": "Where does Sunhold host its grand fireworks display during the Night of Flames?",
     "options": {
-      "A": "Firewatch Tower",
+      "A": "Stonefang Pass",
       "B": "Silverlake",
       "C": "Moonhaven",
-      "D": "Stonefang Pass"
+      "D": "Firewatch Tower"
     },
-    "correct_answer": "A",
+    "correct_answer": "D",
     "explanation": "Sunhold hosts its grand fireworks display from Firewatch Tower during the Night of Flames."
   },
   {
@@ -1980,12 +1980,12 @@
     "document_id": "southern_free_kingdoms",
     "question": "What event marked the formal recognition of the Southern Free Kingdoms?",
     "options": {
-      "A": "The signing of the Treaty of Silverlake",
+      "A": "The War of the Verdant Plains",
       "B": "The Battle of Stonefang Pass",
       "C": "The founding of Solara",
-      "D": "The War of the Verdant Plains"
+      "D": "The signing of the Treaty of Silverlake"
     },
-    "correct_answer": "A",
+    "correct_answer": "D",
     "explanation": "The Southern Free Kingdoms were formally recognized in 1257 AR with the signing of the Treaty of Silverlake."
   },
   {
@@ -2045,12 +2045,12 @@
     "document_id": "southern_free_kingdoms",
     "question": "What is the capital city of the Kingdom of Solara?",
     "options": {
-      "A": "Sunhold",
+      "A": "Moonhaven",
       "B": "Arvandor",
       "C": "Valoria",
-      "D": "Moonhaven"
+      "D": "Sunhold"
     },
-    "correct_answer": "A",
+    "correct_answer": "D",
     "explanation": "Solara's capital, Sunhold, has become a major hub for commerce."
   },
   {
@@ -2097,12 +2097,12 @@
     "document_id": "bound_sorcerers",
     "question": "What is the first task initiates must complete during the Elemental Challenge?",
     "options": {
-      "A": "Perform a specific spell",
+      "A": "Complete a somatic dance",
       "B": "Recite an ancient incantation",
       "C": "Craft a magical focus",
-      "D": "Complete a somatic dance"
+      "D": "Perform a specific spell"
     },
-    "correct_answer": "A",
+    "correct_answer": "D",
     "explanation": "The first task is to perform a specific spell demonstrating control over one of the four elements."
   },
   {
@@ -2175,12 +2175,12 @@
     "document_id": "bound_sorcerers",
     "question": "What is the rank given to initiates who have just completed their Bonding Ceremony?",
     "options": {
-      "A": "Apprentice",
+      "A": "High Mage",
       "B": "Adept",
       "C": "Master",
-      "D": "High Mage"
+      "D": "Apprentice"
     },
-    "correct_answer": "A",
+    "correct_answer": "D",
     "explanation": "Initiates who have just completed their Bonding Ceremony are ranked as Apprentices."
   },
   {
@@ -2357,12 +2357,12 @@
     "document_id": "dawn_prophecy",
     "question": "What is the Stone of Destiny?",
     "options": {
-      "A": "An ancient obelisk in the center of a circular clearing",
+      "A": "A volcanic heart on Ember Island",
       "B": "A magical amulet crafted by Seer Alarion",
       "C": "A sword wielded by the Swordbearer",
-      "D": "A volcanic heart on Ember Island"
+      "D": "An ancient obelisk in the center of a circular clearing"
     },
-    "correct_answer": "A",
+    "correct_answer": "D",
     "explanation": "The Stone of Destiny is described as an ancient stone obelisk that marks the location where the Chosen One will be found."
   },
   {
@@ -2397,11 +2397,11 @@
     "question": "Who is predicted to return from the ruins of Moonhaven?",
     "options": {
       "A": "The Chosen One",
-      "B": "The Swordbearer",
-      "C": "Seer Alarion",
+      "B": "Seer Alarion",
+      "C": "The Swordbearer",
       "D": "The Elemental Spirits"
     },
-    "correct_answer": "B",
+    "correct_answer": "C",
     "explanation": "The prophecy predicts that the Swordbearer will emerge from the ruins of Moonhaven."
   },
   {
@@ -2422,12 +2422,12 @@
     "document_id": "dawn_prophecy",
     "question": "What is the significance of the Celestial Conjunction?",
     "options": {
-      "A": "It marks the beginning of significant changes in Eldara",
+      "A": "It initiates a new magical era",
       "B": "It signals the end of the current age",
       "C": "It heralds the return of Seer Alarion",
-      "D": "It initiates a new magical era"
+      "D": "It marks the beginning of significant changes in Eldara"
     },
-    "correct_answer": "A",
+    "correct_answer": "D",
     "explanation": "The Celestial Conjunction is said to signal the beginning of significant changes in Eldara."
   },
   {
@@ -2527,11 +2527,11 @@
     "question": "Which city is known for its advanced magical research and houses the *Voss's Golden Flask*?",
     "options": {
       "A": "Valoria",
-      "B": "Thundertop",
-      "C": "Moonhaven",
+      "B": "Moonhaven",
+      "C": "Thundertop",
       "D": "Arvandor"
     },
-    "correct_answer": "B",
+    "correct_answer": "C",
     "explanation": "The *Voss's Golden Flask* is housed in the Great Library of Thundertop, a city known for its advanced magical research."
   },
   {
@@ -2553,11 +2553,11 @@
     "question": "Which alchemical potion is commonly sold in the marketplaces of Valoria?",
     "options": {
       "A": "Elixir of Longevity",
-      "B": "Potion of Strength",
-      "C": "Voss's Golden Flask",
+      "B": "Voss's Golden Flask",
+      "C": "Potion of Strength",
       "D": "Moonwhisper's Staff"
     },
-    "correct_answer": "B",
+    "correct_answer": "C",
     "explanation": "In the city of Valoria, vendors commonly sell *Potions of Strength* that can double a person's physical strength for up to an hour."
   },
   {

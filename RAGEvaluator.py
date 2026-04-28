@@ -56,6 +56,8 @@ class RAGEvaluator:
                 self.RACE_EASY_evaluation()
             case "RACE_HARD":
                 self.RACE_HARD_evaluation()
+            case "Synthetic":
+                self.synthetic_evaluation()
             case _:
                 return
             
@@ -384,6 +386,76 @@ class RAGEvaluator:
         return score
 
 
+    def synthetic_evaluation(self):
+        synthetic_benchmark_path = Path("KnowledgeBase/synthetic_benchmark")
+        synthetic_documents_path = synthetic_benchmark_path / "docs"
+
+        articles: list[str] = list()
+        metadata: list[str] = list()
+        problems: list[Problem] = list()
+        hits: int = 0
+        
+        for d in synthetic_documents_path.iterdir():
+            if d.is_file() and d.suffix == ".json":
+                with d.open(encoding="utf-8") as f:
+                    content = json.load(f)
+                    chunks = chunk_text(content["content"], chunk_size=CHUNK_SIZE, overlap=CHUNK_OVERLAP)
+                    for c in chunks:
+                        articles.append(c)
+                        metadata.append({"source": content.get("title", "unknown"), "text": c})
+
+        questions_file = next(synthetic_benchmark_path.rglob("questions.json"))
+        with questions_file.open(encoding="utf-8") as f:
+            questions_data = json.load(f)
+            for q in questions_data:
+                problems.append(Problem(q["question"], q["options"], q["correct_answer"]))
+        
+        self.benchmark_start_time = datetime.now()
+
+        self.RAG.build_rag(prepared_data=[articles, metadata])
+
+        prob_idx = 0
+        for p in problems:
+            prob_idx += 1
+            question = f"""Question: {p.question}
+
+                A) {p.options["A"]}
+                B) {p.options["B"]}
+                C) {p.options["C"]}
+                D) {p.options["D"]}"""
+
+            rag_answer = self.RAG.prompt(query=question, benchmark=True)
+            is_correct = rag_answer == p.answer
+
+            print("\nProblem #" + str(prob_idx))
+            print("Correct answer: " + str(p.answer))
+            print("Answer provided: " + str(rag_answer))
+
+            if is_correct:
+                hits += 1
+            else:
+                print('RAG answer ' + rag_answer + ' did not match correct answer: ' + str(p.answer))
+
+            with open(self.results_file, "a") as f:
+                f.write(json.dumps({
+                    "problem_index": prob_idx,
+                    "question": p.question,
+                    "options": p.options,
+                    "correct_answer": p.answer,
+                    "rag_answer": rag_answer,
+                    "is_correct": is_correct
+                }, ensure_ascii=False) + "\n")
+
+            torch.cuda.empty_cache()
+            gc.collect()
+
+        self.benchmark_finish_time = datetime.now()
+
+        self.generate_report()
+        score = hits / len(problems)
+        return score
+
+
 def grid_evaluation(retrievers: list[ModelToEvaluate], generators: list[ModelToEvaluate], benchmark: str, system_prompt: str):
     for g in generators:
         for r in retrievers:
@@ -529,16 +601,14 @@ if __name__ == "__main__":
 
     # Evaluation config
     retrievers_to_evaluate = [
-        retriever_model_1
+        local_retriever_model_1
     ]
 
     generators_to_evaluate = [
-        generator_model_4,
-        generator_model_2,
-        generator_model_3
+        local_generator_model_1
     ]
 
-    benchmark_to_evaluate = "RACE_EASY"
+    benchmark_to_evaluate = "Synthetic"
     system_prompt = QUALITY_BENCHMARK_SYSTEM_PROMPT
 
     grid_evaluation(
