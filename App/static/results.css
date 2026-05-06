@@ -262,7 +262,7 @@
     z-index: 1;
     background: #f7f5f0;
     border-bottom: 1px solid var(--border);
-    text-align: left;
+    text-align: center;
     padding: 10px 8px;
 }
 
@@ -270,6 +270,7 @@
     border-bottom: 1px solid var(--border);
     padding: 9px 8px;
     vertical-align: top;
+    text-align: center;
 }
 
 .detail-table tbody tr.correct {

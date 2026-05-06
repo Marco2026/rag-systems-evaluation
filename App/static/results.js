@@ -113,8 +113,8 @@ function renderDetail(detail) {
             <div class="detail-list-item"><span class="detail-label">Generator</span><span class="detail-value">${detail.generator}</span></div>
             <div class="detail-list-item"><span class="detail-label">Fuente</span><span class="detail-value">${isPostSource ? 'POST' : 'RAW'}</span></div>
             <div class="detail-list-item"><span class="detail-label">Accuracy</span><span class="detail-value">${summary.accuracy}</span></div>
-            <div class="detail-list-item"><span class="detail-label">Correct</span><span class="detail-value">${summary.correct}/${summary.total}</span></div>
-            <div class="detail-list-item"><span class="detail-label">Duracion</span><span class="detail-value">${summary.duration} (${summary.duration_seconds}s)</span></div>
+            <div class="detail-list-item"><span class="detail-label">Correctas</span><span class="detail-value">${summary.correct}/${summary.total}</span></div>
+            <div class="detail-list-item"><span class="detail-label">Duración</span><span class="detail-value">${summary.duration} (${summary.duration_seconds}s)</span></div>
         </div>
     `;
 
@@ -149,7 +149,7 @@ function renderDetail(detail) {
         <table class="detail-table">
             <thead>
                 <tr>
-                    <th>Numero de pregunta</th>
+                    <th>Número de pregunta</th>
                     <th>Respuesta correcta</th>
                     <th>Respuesta del RAG</th>
                     ${cleanAnswerHeader}
