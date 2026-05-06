@@ -1,6 +1,6 @@
 from fastapi import FastAPI, Request
 from fastapi import HTTPException
-from fastapi.responses import HTMLResponse
+from fastapi.responses import HTMLResponse, StreamingResponse
 from fastapi.templating import Jinja2Templates
 from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel
@@ -20,6 +20,7 @@ postprocessor = ReportPostProcessor()
 
 app.mount("/static", StaticFiles(directory="App/static"), name="static")
 templates = Jinja2Templates(directory="App/templates")
+
 
 class Message(BaseModel):
     text: str
@@ -177,3 +178,20 @@ async def get_curve(benchmark: str, axis: str, model: str, source: str = "raw"):
     if curve is None:
         raise HTTPException(status_code=404, detail="Curve data not found")
     return curve
+
+
+@app.get("/api/results/export")
+async def export_results(benchmark: str):
+    if not benchmark:
+        raise HTTPException(status_code=400, detail="benchmark is required")
+
+    try:
+        zip_buffer, filename = visualizer.export_benchmark_zip(
+            benchmark=benchmark,
+            postprocess=postprocessor.postprocess_all_reports,
+        )
+    except ValueError as exc:
+        raise HTTPException(status_code=404, detail=str(exc)) from exc
+
+    headers = {"Content-Disposition": f"attachment; filename={filename}"}
+    return StreamingResponse(zip_buffer, media_type="application/zip", headers=headers)
