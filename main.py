@@ -195,3 +195,16 @@ async def export_results(benchmark: str):
 
     headers = {"Content-Disposition": f"attachment; filename={filename}"}
     return StreamingResponse(zip_buffer, media_type="application/zip", headers=headers)
+
+
+@app.get("/api/results/export_all")
+async def export_all_results():
+    try:
+        zip_buffer, filename = visualizer.export_all_benchmarks_zip(
+            postprocess=postprocessor.postprocess_all_reports,
+        )
+    except ValueError as exc:
+        raise HTTPException(status_code=404, detail=str(exc)) from exc
+
+    headers = {"Content-Disposition": f"attachment; filename={filename}"}
+    return StreamingResponse(zip_buffer, media_type="application/zip", headers=headers)

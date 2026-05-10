@@ -366,6 +366,161 @@ class DataVisualizer:
 		zip_buffer.seek(0)
 		return zip_buffer, f"{safe_benchmark}_export.zip"
 
+	def export_all_benchmarks_zip(
+		self,
+		postprocess: Callable[[], None] | None = None,
+	) -> tuple[io.BytesIO, str]:
+		if postprocess is not None:
+			postprocess()
+
+		benchmarks = self._list_all_benchmarks()
+		if not benchmarks:
+			raise ValueError("No data found for benchmarks")
+
+		zip_buffer = io.BytesIO()
+		with zipfile.ZipFile(zip_buffer, "w", zipfile.ZIP_DEFLATED) as zip_file:
+			for benchmark in benchmarks:
+				safe_benchmark = self._label_safe(benchmark)
+				for source_label in ("raw", "post"):
+					payload = self.get_matrix(benchmark=benchmark, source=source_label)
+					if not payload.get("retrievers"):
+						continue
+
+					latex_table = self._build_latex_table_from_payload(
+						payload,
+						benchmark,
+						source_label.upper(),
+					)
+					markdown = latex_table + "\n"
+					zip_file.writestr(
+						f"{safe_benchmark}/{safe_benchmark}_{source_label}.md",
+						markdown,
+					)
+
+					retrievers = payload.get("retrievers", [])
+					generators = payload.get("generators", [])
+					matrix = payload.get("matrix", [])
+					retriever_params = payload.get("retriever_params_map", {})
+					generator_params = payload.get("generator_params_map", {})
+
+					if retrievers and generators and matrix:
+						x_generators = self._build_axis_values(generators, generator_params)
+						retriever_series: list[tuple[str, list[float | None]]] = []
+						for row_idx, retriever in enumerate(retrievers):
+							y_values = matrix[row_idx] if row_idx < len(matrix) else []
+							retriever_series.append(
+								(self._display_retriever_label(retriever), y_values)
+							)
+
+						retriever_plot = io.BytesIO()
+						self._plot_accuracy_series(
+							retriever_plot,
+							f"Accuracy por retriever ({source_label.upper()})",
+							x_generators,
+							retriever_series,
+							"Parametros de generadores (billions o indice)",
+							"Accuracy",
+						)
+						zip_file.writestr(
+							f"{safe_benchmark}/{safe_benchmark}_{source_label}_retrievers.png",
+							retriever_plot.getvalue(),
+						)
+
+						x_retrievers = self._build_axis_values(retrievers, retriever_params)
+						generator_series: list[tuple[str, list[float | None]]] = []
+						for col_idx, generator in enumerate(generators):
+							column = []
+							for row in matrix:
+								column.append(row[col_idx] if col_idx < len(row) else None)
+							generator_series.append((generator, column))
+
+						generator_plot = io.BytesIO()
+						self._plot_accuracy_series(
+							generator_plot,
+							f"Accuracy por generator ({source_label.upper()})",
+							x_retrievers,
+							generator_series,
+							"Parametros de retrievers (billions o indice)",
+							"Accuracy",
+						)
+						zip_file.writestr(
+							f"{safe_benchmark}/{safe_benchmark}_{source_label}_generators.png",
+							generator_plot.getvalue(),
+						)
+
+			for source_label in ("raw", "post"):
+				aggregate = self._aggregate_matrix(benchmarks, source_label)
+				retrievers = aggregate["retrievers"]
+				generators = aggregate["generators"]
+				matrix = aggregate["matrix"]
+				retriever_params = aggregate["retriever_params_map"]
+				generator_params = aggregate["generator_params_map"]
+
+				if retrievers and generators and matrix:
+					x_generators = self._build_axis_values(generators, generator_params)
+					retriever_series: list[tuple[str, list[float | None]]] = []
+					for row_idx, retriever in enumerate(retrievers):
+						y_values = matrix[row_idx] if row_idx < len(matrix) else []
+						retriever_series.append(
+							(self._display_retriever_label(retriever), y_values)
+						)
+
+					retriever_plot = io.BytesIO()
+					self._plot_accuracy_series(
+						retriever_plot,
+						f"Accuracy media por retriever ({source_label.upper()})",
+						x_generators,
+						retriever_series,
+						"Parametros de generadores (billions o indice)",
+						"Accuracy",
+					)
+					zip_file.writestr(
+						f"global/global_{source_label}_retrievers.png",
+						retriever_plot.getvalue(),
+					)
+
+					x_retrievers = self._build_axis_values(retrievers, retriever_params)
+					generator_series: list[tuple[str, list[float | None]]] = []
+					for col_idx, generator in enumerate(generators):
+						column = []
+						for row in matrix:
+							column.append(row[col_idx] if col_idx < len(row) else None)
+						generator_series.append((generator, column))
+
+					generator_plot = io.BytesIO()
+					self._plot_accuracy_series(
+						generator_plot,
+						f"Accuracy media por generator ({source_label.upper()})",
+						x_retrievers,
+						generator_series,
+						"Parametros de retrievers (billions o indice)",
+						"Accuracy",
+					)
+					zip_file.writestr(
+						f"global/global_{source_label}_generators.png",
+						generator_plot.getvalue(),
+					)
+
+					global_payload = {
+						"retrievers": retrievers,
+						"generators": generators,
+						"matrix": matrix,
+						"retriever_params_map": retriever_params,
+						"generator_params_map": generator_params,
+					}
+					global_table = self._build_latex_table_from_payload(
+						global_payload,
+						"GLOBAL",
+						source_label.upper(),
+					)
+					zip_file.writestr(
+						f"global/global_{source_label}.md",
+						global_table + "\n",
+					)
+
+		zip_buffer.seek(0)
+		return zip_buffer, "benchmarks_export.zip"
+
 	def _build_latex_table_from_payload(
 		self,
 		payload: dict[str, Any],
@@ -374,6 +529,8 @@ class DataVisualizer:
 	) -> str:
 		retrievers = payload.get("retrievers", [])
 		generators = payload.get("generators", [])
+		retriever_params = payload.get("retriever_params_map", {})
+		generator_params = payload.get("generator_params_map", {})
 		matrix = payload.get("matrix", [])
 
 		display_retrievers = [self._display_retriever_label(name) for name in retrievers]
@@ -386,9 +543,10 @@ class DataVisualizer:
 			row_order = [sin_index] + [idx for idx in row_order if idx != sin_index]
 
 		column_spec = "l" + ("c" * len(generators))
+		display_benchmark = benchmark.replace("\\", "")
 		caption = (
-			"Resultados de evaluacion por combinacion de modelos para el benchmark "
-			f"{benchmark} ({source_label})"
+			"Resultados de evaluación por combinación de modelos para el benchmark "
+			f"{display_benchmark} ({source_label})"
 		)
 		label = f"tab:resultados_benchmark_{self._label_safe(benchmark)}_{source_label}"
 
@@ -401,19 +559,23 @@ class DataVisualizer:
 			"\\toprule",
 		]
 
-		generator_labels = [f"G{idx}" for idx in range(1, len(generators) + 1)]
+		generator_labels = []
+		for idx, generator in enumerate(generators, start=1):
+			params_label = self._format_params(generator_params.get(generator))
+			generator_labels.append(f"G{idx} ({params_label})")
 		header_cells = ["\\textbf{Retriever / Generator}"]
 		header_cells.extend([f"\\textbf{{{label}}}" for label in generator_labels])
-		lines.append(" & ".join(header_cells) + " \\")
+		lines.append(" & ".join(header_cells) + " \\\\")
 		lines.append("\\midrule")
 
 		retriever_labels: dict[int, str] = {}
 		counter = 1
 		for row_idx in row_order:
 			if sin_index is not None and row_idx == sin_index:
-				retriever_labels[row_idx] = "R0"
+				retriever_labels[row_idx] = "Sin Retriever"
 			else:
-				retriever_labels[row_idx] = f"R{counter}"
+				params_label = self._format_params(retriever_params.get(retrievers[row_idx]))
+				retriever_labels[row_idx] = f"R{counter} ({params_label})"
 				counter += 1
 
 		for idx, row_idx in enumerate(row_order):
@@ -455,6 +617,136 @@ class DataVisualizer:
 			value = params_map.get(name)
 			axis_values.append(float(value) if value is not None else float(idx))
 		return axis_values
+
+	def _list_all_benchmarks(self) -> list[str]:
+		raw_benchmarks = self.list_benchmarks(source="raw")
+		post_benchmarks = self.list_benchmarks(source="post")
+		return sorted(set(raw_benchmarks) | set(post_benchmarks))
+
+	def _load_records_for_benchmarks(
+		self,
+		benchmarks: list[str],
+		source: str,
+	) -> list[EvaluationRecord]:
+		records: list[EvaluationRecord] = []
+		for benchmark in benchmarks:
+			records.extend(self._load_records(benchmark, source=source))
+		return records
+
+	def _aggregate_matrix(
+		self,
+		benchmarks: list[str],
+		source: str,
+	) -> dict[str, Any]:
+		records = self._load_records_for_benchmarks(benchmarks, source)
+		retrievers = self._sort_models_by_report(records, axis="retriever")
+		generators = self._sort_models_by_report(records, axis="generator")
+		retriever_params_map = self._collect_model_params(records, axis="retriever")
+		generator_params_map = self._collect_model_params(records, axis="generator")
+
+		pair_scores: dict[tuple[str, str], list[float]] = {}
+		retriever_scores: dict[str, list[float]] = {}
+		generator_scores: dict[str, list[float]] = {}
+
+		for record in records:
+			accuracy = self._safe_float(record.report.get("accuracy"))
+			if accuracy is None:
+				continue
+			pair_scores.setdefault((record.retriever, record.generator), []).append(accuracy)
+			retriever_scores.setdefault(record.retriever, []).append(accuracy)
+			generator_scores.setdefault(record.generator, []).append(accuracy)
+
+		matrix: list[list[float | None]] = []
+		for retriever in retrievers:
+			row: list[float | None] = []
+			for generator in generators:
+				values = pair_scores.get((retriever, generator))
+				if not values:
+					row.append(None)
+				else:
+					row.append(sum(values) / len(values))
+			matrix.append(row)
+
+		retriever_means = {
+			name: (sum(values) / len(values))
+			for name, values in retriever_scores.items()
+		}
+		generator_means = {
+			name: (sum(values) / len(values))
+			for name, values in generator_scores.items()
+		}
+
+		return {
+			"retrievers": retrievers,
+			"generators": generators,
+			"matrix": matrix,
+			"retriever_params_map": retriever_params_map,
+			"generator_params_map": generator_params_map,
+			"retriever_means": retriever_means,
+			"generator_means": generator_means,
+		}
+
+	def _build_average_table(
+		self,
+		kind: str,
+		models: list[str],
+		params_map: dict[str, float | None],
+		means: dict[str, float],
+		source_label: str,
+	) -> str:
+		column_spec = "lc"
+		caption = f"Media de accuracy por {kind} ({source_label.upper()})"
+		label = f"tab:media_{kind}_{source_label.lower()}"
+
+		lines = [
+			"\\begin{table}",
+			"\\centering",
+			f"\\caption{{{self._latex_escape(caption)}}}",
+			f"\\label{{{label}}}",
+			f"\\begin{{tabular}}{{{column_spec}}}",
+			"\\toprule",
+			"\\textbf{Modelo} & \\textbf{Accuracy media} \\\\",
+			"\\midrule",
+		]
+
+		order = list(range(len(models)))
+		labels: dict[int, str] = {}
+		if kind == "retriever":
+			display = [self._display_retriever_label(name) for name in models]
+			sin_index = next(
+				(idx for idx, label_name in enumerate(display) if label_name == "Sin Retriever"),
+				None,
+			)
+			if sin_index is not None:
+				order = [sin_index] + [idx for idx in order if idx != sin_index]
+			counter = 1
+			for idx in order:
+				if sin_index is not None and idx == sin_index:
+					labels[idx] = "Sin Retriever"
+				else:
+					params_label = self._format_params(params_map.get(models[idx]))
+					labels[idx] = f"R{counter} ({params_label})"
+					counter += 1
+		else:
+			for idx, model in enumerate(models, start=1):
+				params_label = self._format_params(params_map.get(model))
+				labels[idx - 1] = f"G{idx} ({params_label})"
+
+		for row_idx in order:
+			model_name = models[row_idx]
+			accuracy = means.get(model_name)
+			accuracy_value = "0" if accuracy is None else f"{accuracy:.3f}"
+			lines.append(f"{self._latex_escape(labels.get(row_idx, model_name))} & {accuracy_value} \\\\")
+
+		lines.extend(
+			[
+				"\\bottomrule",
+				"\\end{tabular}",
+				"\\end{table}",
+			]
+		)
+
+		return "\n".join(lines)
 
 	def _plot_accuracy_series(
 		self,
@@ -508,6 +800,11 @@ class DataVisualizer:
 			"^": r"\\textasciicircum{}",
 		}
 		return "".join(replacements.get(char, char) for char in text)
+
+	def _format_params(self, value: float | None) -> str:
+		if value is None:
+			return "?"
+		return f"{value:.2f}B"
 
 	def _label_safe(self, text: str) -> str:
 		return re.sub(r"[^a-zA-Z0-9]+", "_", text).strip("_") or "benchmark"

@@ -1,6 +1,7 @@
 const benchmarkSelect = document.getElementById('benchmark-select');
 const reloadBtn = document.getElementById('reload-btn');
 const exportBtn = document.getElementById('export-btn');
+const exportAllBtn = document.getElementById('export-all-btn');
 const matrixContainer = document.getElementById('matrix-container');
 const detailSummary = document.getElementById('detail-summary');
 const detailResults = document.getElementById('detail-results');
@@ -233,6 +234,11 @@ function setExportState(isLoading) {
     exportBtn.textContent = isLoading ? 'Exportando...' : 'Exportar';
 }
 
+function setExportAllState(isLoading) {
+    exportAllBtn.disabled = isLoading;
+    exportAllBtn.textContent = isLoading ? 'Exportando todo...' : 'Exportar todo';
+}
+
 async function exportBenchmark() {
     if (!currentBenchmark) {
         return;
@@ -269,6 +275,38 @@ async function exportBenchmark() {
     }
 }
 
+async function exportAllBenchmarks() {
+    try {
+        setExportAllState(true);
+        const response = await fetch('/api/results/export_all');
+        if (!response.ok) {
+            const errorText = await response.text();
+            throw new Error(errorText || 'No se pudo exportar');
+        }
+
+        const blob = await response.blob();
+        const disposition = response.headers.get('Content-Disposition') || '';
+        const filenameMatch = disposition.match(/filename=([^;]+)/i);
+        const filename = filenameMatch
+            ? filenameMatch[1].trim().replace(/^"|"$/g, '')
+            : 'benchmarks_export.zip';
+
+        const url = URL.createObjectURL(blob);
+        const anchor = document.createElement('a');
+        anchor.href = url;
+        anchor.download = filename;
+        document.body.appendChild(anchor);
+        anchor.click();
+        anchor.remove();
+        URL.revokeObjectURL(url);
+    } catch (error) {
+        console.error(error);
+        alert(`Error exportando: ${error.message}`);
+    } finally {
+        setExportAllState(false);
+    }
+}
+
 function updateSourceToggleLabel() {
     const isPost = currentSource === 'post';
     accuracySourceToggle.classList.toggle('on', isPost);
@@ -293,6 +331,7 @@ async function loadBenchmarks(preferredBenchmark) {
     if (benchmarks.length === 0) {
         currentBenchmark = null;
         exportBtn.disabled = true;
+        exportAllBtn.disabled = true;
         matrixContainer.innerHTML = '<p>No se encontraron reportes para la fuente seleccionada.</p>';
         detailSummary.textContent = 'Selecciona una celda para ver detalle.';
         detailResults.innerHTML = '';
@@ -307,6 +346,7 @@ async function loadBenchmarks(preferredBenchmark) {
         : benchmarks[0];
     benchmarkSelect.value = selected;
     exportBtn.disabled = false;
+    exportAllBtn.disabled = false;
     return selected;
 }
 
@@ -335,6 +375,7 @@ reloadBtn.addEventListener('click', async () => {
 });
 
 exportBtn.addEventListener('click', exportBenchmark);
+exportAllBtn.addEventListener('click', exportAllBenchmarks);
 
 accuracySourceToggle.addEventListener('click', async () => {
     currentSource = currentSource === 'raw' ? 'post' : 'raw';
