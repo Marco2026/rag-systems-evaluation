@@ -372,7 +372,7 @@ class DataVisualizer:
 		display_benchmark = benchmark.replace("\\", "")
 		caption = (
 			"Resultados de evaluación por combinación de modelos para el benchmark "
-			f"{display_benchmark} ({source_label})"
+			f"{display_benchmark} ({self._format_source_label(source_label)})"
 		)
 		label = f"tab:resultados_benchmark_{self._label_safe(benchmark)}_{source_label}"
 
@@ -422,6 +422,23 @@ class DataVisualizer:
 
 			suffix = " \\\\[4pt]" if idx < len(row_order) - 1 else " \\\\"
 			lines.append(" & ".join(row_cells) + suffix)
+
+		col_values: list[list[float]] = [[] for _ in generators]
+		for row in matrix:
+			for col_idx in range(len(generators)):
+				value = row[col_idx] if col_idx < len(row) else None
+				if value is not None:
+					col_values[col_idx].append(value)
+
+		mean_row = ["Media"]
+		std_row = ["Desviación típica"]
+		for values in col_values:
+			mean_row.append(f"{_mean(values):.3f}" if values else "0")
+			std_row.append(f"{_std(values):.3f}" if values else "0")
+
+		lines.append("\\midrule")
+		lines.append(" & ".join(mean_row) + " \\\\")
+		lines.append(" & ".join(std_row) + " \\\\")
 
 		lines.extend(
 			[
@@ -615,10 +632,10 @@ class DataVisualizer:
 		retriever_plot = io.BytesIO()
 		self._plot_accuracy_series(
 			retriever_plot,
-			f"Accuracy {metric_label}por retriever ({source_label.upper()})",
+			f"Accuracy {metric_label}por retriever ({self._format_source_label(source_label)})",
 			x_generators,
 			retriever_series,
-			"Parametros de generadores (billions o indice)",
+			"Parámetros de generadores (billions)",
 			"Accuracy",
 		)
 		zip_file.writestr(f"{file_prefix}_retrievers.png", retriever_plot.getvalue())
@@ -634,10 +651,10 @@ class DataVisualizer:
 		generator_plot = io.BytesIO()
 		self._plot_accuracy_series(
 			generator_plot,
-			f"Accuracy {metric_label}por generator ({source_label.upper()})",
+			f"Accuracy {metric_label}por generator ({self._format_source_label(source_label)})",
 			x_retrievers,
 			generator_series,
-			"Parametros de retrievers (billions o indice)",
+			"Parámetros de retrievers (billions)",
 			"Accuracy",
 		)
 		zip_file.writestr(f"{file_prefix}_generators.png", generator_plot.getvalue())
@@ -649,3 +666,16 @@ class DataVisualizer:
 
 	def _label_safe(self, text: str) -> str:
 		return re.sub(r"[^a-zA-Z0-9]+", "_", text).strip("_") or "benchmark"
+	
+	def _format_source_label(self, source_label: str) -> str:
+	    return "con postprocesamiento" if source_label.lower() == "post" else "sin postprocesamiento"
+	
+def _mean(values: list[float]) -> float:
+	return sum(values) / len(values)
+
+def _std(values: list[float]) -> float:
+	if len(values) <= 1:
+		return 0.0
+	mean = _mean(values)
+	var = sum((v - mean) ** 2 for v in values) / len(values)
+	return var ** 0.5
