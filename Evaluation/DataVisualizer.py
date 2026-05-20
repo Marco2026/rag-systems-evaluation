@@ -310,38 +310,28 @@ class DataVisualizer:
 						f"{safe_benchmark}/{safe_benchmark}_{source_label}",
 					)
 
+			# Global summaries: for each source produce
+			#  - table with mean accuracy per benchmark
+			#  - two global plots (retriever-focused and generator-focused)
 			for source_label in ("raw", "post"):
+				# build and write benchmark mean table
+				bench_table = self._build_benchmarks_mean_table(benchmarks, source_label)
+				zip_file.writestr(f"global/global_benchmarks_mean_{source_label}.md", bench_table + "\n")
+
+				# aggregated matrix across benchmarks
 				aggregate = self._aggregate_matrix(benchmarks, source_label)
 				retrievers = aggregate["retrievers"]
 				generators = aggregate["generators"]
 				matrix = aggregate["matrix"]
-				retriever_params = aggregate["retriever_params_map"]
-				generator_params = aggregate["generator_params_map"]
 
 				if retrievers and generators and matrix:
+					# write plots with source-specific prefix
 					self._write_plot_pair(
 						zip_file,
 						aggregate,
 						source_label,
-						"global/global",
+						f"global/global_{source_label}",
 						"media",
-					)
-
-					global_payload = {
-						"retrievers": retrievers,
-						"generators": generators,
-						"matrix": matrix,
-						"retriever_params_map": retriever_params,
-						"generator_params_map": generator_params,
-					}
-					global_table = self._build_latex_table_from_payload(
-						global_payload,
-						"GLOBAL",
-						source_label.upper(),
-					)
-					zip_file.writestr(
-						f"global/global_{source_label}.md",
-						global_table + "\n",
 					)
 
 		zip_buffer.seek(0)
@@ -539,6 +529,12 @@ class DataVisualizer:
 			"retriever_params_map": retriever_params_map,
 			"generator_params_map": generator_params_map,
 		}
+
+	def _build_benchmarks_mean_table(self, benchmarks: list[str], source_label: str) -> str:
+		# Aggregate across benchmarks and reuse the standard LaTeX table builder
+		aggregate = self._aggregate_matrix(benchmarks, source_label)
+		# _build_latex_table_from_payload expects payload with retrievers/generators/matrix and params maps
+		return self._build_latex_table_from_payload(aggregate, "GLOBAL", source_label.upper())
 
 	def _plot_accuracy_series(
 		self,
