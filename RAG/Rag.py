@@ -145,8 +145,9 @@ class Rag():
 
     def clean_vram(self):
         gc.collect()
-        torch.cuda.empty_cache()
-        torch.cuda.ipc_collect()
+        if torch.cuda.is_available():
+            torch.cuda.empty_cache()
+            torch.cuda.ipc_collect()
 
 
 def build_enriched_prompt(query: str, context: str):
