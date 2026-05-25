@@ -10,7 +10,7 @@ from datetime import datetime
 import json
 import torch
 import gc
-import pandas as pd
+import hashlib
 
 Problem = namedtuple("Problem", "question, options, answer")
 
@@ -124,12 +124,18 @@ class RAGEvaluator:
         metadata: list[str] = list()
         problems: list[Problem] = list()
         hits: int = 0
+
+        seen_chunk_hashes = set()
         
         for d in dataset_sample:
             chunks = chunk_text(d["article"], chunk_size=CHUNK_SIZE, overlap=CHUNK_OVERLAP)
             for c in chunks:
+                h = hashlib.sha256(c.encode("utf-8")).hexdigest()
+                if h in seen_chunk_hashes:
+                    continue
+                seen_chunk_hashes.add(h)
                 articles.append(c)
-                metadata.append({"source": d["article"][:15], "text": c})
+                metadata.append({"source": h, "text": c})
 
             problems.append(Problem(d["question"], d["options"], d["answer"]))
         
@@ -202,11 +208,17 @@ class RAGEvaluator:
         problems: list[Problem] = list()
         hits: int = 0
         
+        seen_chunk_hashes = set()
+        
         for d in dataset_sample:
             chunks = chunk_text(d["article"], chunk_size=CHUNK_SIZE, overlap=CHUNK_OVERLAP)
             for c in chunks:
+                h = hashlib.sha256(c.encode("utf-8")).hexdigest()
+                if h in seen_chunk_hashes:
+                    continue
+                seen_chunk_hashes.add(h)
                 articles.append(c)
-                metadata.append({"source": d["article"][:15], "text": c})
+                metadata.append({"source": h, "text": c})
 
             problems.append(Problem(d["question"], d["options"], d["answer"]))
         
@@ -267,11 +279,17 @@ class RAGEvaluator:
         problems: list[Problem] = list()
         hits: int = 0
         
+        seen_chunk_hashes = set()
+        
         for d in dataset_sample:
             chunks = chunk_text(d["article"], chunk_size=CHUNK_SIZE, overlap=CHUNK_OVERLAP)
             for c in chunks:
+                h = hashlib.sha256(c.encode("utf-8")).hexdigest()
+                if h in seen_chunk_hashes:
+                    continue
+                seen_chunk_hashes.add(h)
                 articles.append(c)
-                metadata.append({"source": d["article"][:15], "text": c})
+                metadata.append({"source": h, "text": c})
 
             problems.append(Problem(d["question"], d["options"], d["answer"]))
         
@@ -332,11 +350,17 @@ class RAGEvaluator:
         problems: list[Problem] = list()
         hits: int = 0
         
+        seen_chunk_hashes = set()
+        
         for d in dataset_sample:
             chunks = chunk_text(d["article"], chunk_size=CHUNK_SIZE, overlap=CHUNK_OVERLAP)
             for c in chunks:
+                h = hashlib.sha256(c.encode("utf-8")).hexdigest()
+                if h in seen_chunk_hashes:
+                    continue
+                seen_chunk_hashes.add(h)
                 articles.append(c)
-                metadata.append({"source": d["article"][:15], "text": c})
+                metadata.append({"source": h, "text": c})
 
             problems.append(Problem(d["question"], d["options"], d["answer"]))
         
@@ -601,11 +625,20 @@ if __name__ == "__main__":
 
     # Evaluation config
     retrievers_to_evaluate = [
-        local_retriever_model_1
+        mock_retriever_model,
+        retriever_model_5,
+        retriever_model_1,
+        retriever_model_4,
+        retriever_model_2,
+        retriever_model_3
     ]
 
     generators_to_evaluate = [
-        local_generator_model_1
+        generator_model_5,
+        generator_model_1,
+        generator_model_4,
+        generator_model_2,
+        generator_model_3
     ]
 
     benchmark_to_evaluate = "Synthetic"
