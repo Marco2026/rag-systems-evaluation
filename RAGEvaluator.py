@@ -5,7 +5,7 @@ from datasets import load_dataset, Dataset
 from RAG.Rag import Rag
 from collections import namedtuple
 from pathlib import Path
-from Config.settings import QUALITY_BENCHMARK_SYSTEM_PROMPT, NO_RETRIEVER_SYSTEM_PROMPT, CHUNK_SIZE, CHUNK_OVERLAP
+from Config.settings import BENCHMARK_SYSTEM_PROMPT, NO_RETRIEVER_SYSTEM_PROMPT, CHUNK_SIZE, CHUNK_OVERLAP
 from datetime import datetime
 import json
 import torch
@@ -642,7 +642,7 @@ if __name__ == "__main__":
     ]
 
     benchmark_to_evaluate = "Synthetic"
-    system_prompt = QUALITY_BENCHMARK_SYSTEM_PROMPT
+    system_prompt = BENCHMARK_SYSTEM_PROMPT
 
     grid_evaluation(
         retrievers=retrievers_to_evaluate,

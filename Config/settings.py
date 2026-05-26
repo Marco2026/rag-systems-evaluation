@@ -6,7 +6,7 @@ K = 5
 
 # GENERATOR
 SYSTEM_PROMPT = "Eres un asistente especializado en pádel. Debes contestar siempre en español. Debes contestar basándote en la información recibida como contexto. Si la información pedida no está en ese contexto debes decirlo. Debes contestar en un máximo de 250 palabras y ser amable."
-QUALITY_BENCHMARK_SYSTEM_PROMPT = """You are an expert reading comprehension assistant. You will be given a text passage and a multiple choice question about it.
+BENCHMARK_SYSTEM_PROMPT = """You are an expert reading comprehension assistant. You will be given a text passage and a multiple choice question about it.
 
 Your task:
 1. Read the passage carefully
