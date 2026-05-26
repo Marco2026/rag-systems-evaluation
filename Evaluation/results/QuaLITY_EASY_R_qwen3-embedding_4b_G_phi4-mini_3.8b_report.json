@@ -6,12 +6,12 @@
   "generator_model": "phi4-mini:3.8b",
   "generator_params": 3.84,
   "generator_size": 2.3,
-  "timestamp": "2026-04-13T21:19:58.925773",
-  "duration": "00:39:09",
-  "duration (seconds)": 2349,
+  "timestamp": "2026-05-21T00:47:05.345546",
+  "duration": "00:18:15",
+  "duration (seconds)": 1095,
   "total": 200,
-  "correct": 2,
-  "accuracy": 0.01,
+  "correct": 1,
+  "accuracy": 0.005,
   "results": [
     {
       "problem_index": 1,
@@ -23,7 +23,7 @@
         "Karate"
       ],
       "correct_answer": 2,
-      "rag_answer": "B) Kung Fu",
+      "rag_answer": "C) Jujitsu",
       "is_correct": false
     },
     {
@@ -36,7 +36,7 @@
         "He asked a local boy to teach him"
       ],
       "correct_answer": 0,
-      "rag_answer": "C) He studied it during his journey through space",
+      "rag_answer": "B) He spent time in the society under a disguise",
       "is_correct": false
     },
     {
@@ -75,7 +75,7 @@
         "He was spared because he foretold the coming of the beings from other dimensions"
       ],
       "correct_answer": 2,
-      "rag_answer": "B) He remained focused on the marine painting on the wall",
+      "rag_answer": "C) He spent so much time in the room that it was ingrained in his psyche.",
       "is_correct": false
     },
     {
@@ -101,7 +101,7 @@
         "Missionary deployments"
       ],
       "correct_answer": 1,
-      "rag_answer": "A) Understanding how to live in so much rain",
+      "rag_answer": "C) Their architectural advances",
       "is_correct": false
     },
     {
@@ -179,7 +179,7 @@
         "It moves on hidden strings."
       ],
       "correct_answer": 3,
-      "rag_answer": "D) It moves on invisible magnetic waves.",
+      "rag_answer": "A) The battery and coils power it.",
       "is_correct": false
     },
     {
@@ -205,7 +205,7 @@
         "Out of their own pocket"
       ],
       "correct_answer": 1,
-      "rag_answer": "B) By using sponsor funding",
+      "rag_answer": "D) Out of their own pocket",
       "is_correct": false
     },
     {
@@ -231,7 +231,7 @@
         "To meet Curt George"
       ],
       "correct_answer": 3,
-      "rag_answer": "D) To meet Curtis George",
+      "rag_answer": "B) To put on a class play",
       "is_correct": false
     },
     {
@@ -257,7 +257,7 @@
         "Eight years"
       ],
       "correct_answer": 0,
-      "rag_answer": "A) Part of a day",
+      "rag_answer": "B) Two years",
       "is_correct": false
     },
     {
@@ -270,7 +270,7 @@
         "Scaring him into believing his life was a dream"
       ],
       "correct_answer": 3,
-      "rag_answer": "B) Persuading the warden to step down from his position",
+      "rag_answer": "D) Scaring him into believing his life was a dream",
       "is_correct": false
     },
     {
@@ -309,7 +309,7 @@
         "The planet makes them forget time."
       ],
       "correct_answer": 2,
-      "rag_answer": "C) They have to take into account getting back to their mother ship and getting it out of the atmosphere during that 13-hour window, as well.",
+      "rag_answer": "B) Time on this planet does not occur the same way they are used to.",
       "is_correct": false
     },
     {
@@ -374,7 +374,7 @@
         "They were discussing the disappearance of objects and places"
       ],
       "correct_answer": 3,
-      "rag_answer": "D) They were discussing the disappearance of objects and places",
+      "rag_answer": "C) They were discussing the war",
       "is_correct": false
     },
     {
@@ -387,7 +387,7 @@
         "Universities are a too small of a portion of publishers markets"
       ],
       "correct_answer": 2,
-      "rag_answer": "C) Publishers already have the ability to protect themselves",
+      "rag_answer": "C) Publishers already have the ability to protect themselves.",
       "is_correct": false
     },
     {
@@ -400,7 +400,7 @@
         "He will get arrested."
       ],
       "correct_answer": 2,
-      "rag_answer": "A) He will continue having hallucinations.",
+      "rag_answer": "C) He will be stuck on Earth in a mental hospital.",
       "is_correct": false
     },
     {
@@ -439,7 +439,7 @@
         "they should be given to the researchers."
       ],
       "correct_answer": 2,
-      "rag_answer": "C) They should be put back into the peer-reviewed OA journals.",
+      "rag_answer": "C) they should be put back into the OA journals themselves.",
       "is_correct": false
     },
     {
@@ -452,7 +452,7 @@
         "He was unsure of how he arrived there"
       ],
       "correct_answer": 1,
-      "rag_answer": "B) He was only there mentally",
+      "rag_answer": "D) He was unsure of how he arrived there",
       "is_correct": false
     },
     {
@@ -478,7 +478,7 @@
         "The island is his room, and the snakes are the other minds."
       ],
       "correct_answer": 3,
-      "rag_answer": "A) The island is his job at the university, and the snakes are the people who fired him.",
+      "rag_answer": "D) The island is his room, and the snakes are the other minds.",
       "is_correct": false
     },
     {
@@ -491,7 +491,7 @@
         "They quickly become enemies"
       ],
       "correct_answer": 2,
-      "rag_answer": "D) They quickly become enemies",
+      "rag_answer": "C) It's a relationship of necessity",
       "is_correct": false
     },
     {
@@ -530,7 +530,7 @@
         "The officer who spoke to him post-battle"
       ],
       "correct_answer": 3,
-      "rag_answer": "D) The officer who spoke to him post-battle",
+      "rag_answer": "B) His peers who spoke to him post-battle",
       "is_correct": false
     },
     {
@@ -595,7 +595,7 @@
         "He was stockpiled"
       ],
       "correct_answer": 1,
-      "rag_answer": "A) He had just finished school",
+      "rag_answer": "B) He wanted to make more money",
       "is_correct": false
     },
     {
@@ -608,7 +608,7 @@
         "to give an example to support the main idea of the passage"
       ],
       "correct_answer": 3,
-      "rag_answer": "B) to make the reader sympathetic towards female politicians",
+      "rag_answer": "B)",
       "is_correct": false
     },
     {
@@ -673,7 +673,7 @@
         "He doesn't like Jewish people"
       ],
       "correct_answer": 1,
-      "rag_answer": "A) He chiseled the walls of Auschwitz",
+      "rag_answer": "B) He tried to disprove the genocide of the Holocaust",
       "is_correct": false
     },
     {
@@ -686,7 +686,7 @@
         "He gets to be valuable and respectable doing what he loves"
       ],
       "correct_answer": 3,
-      "rag_answer": "B) He is free to run for Congress",
+      "rag_answer": "A) He saves his family",
       "is_correct": false
     },
     {
@@ -699,7 +699,7 @@
         "It is so far away from the war that having weapons is unnecessary"
       ],
       "correct_answer": 0,
-      "rag_answer": "A) It is not allowed to have weapons because it has a medical mission",
+      "rag_answer": "A) It is not allowed to have weapons because it has a medical mission.",
       "is_correct": false
     },
     {
@@ -764,7 +764,7 @@
         "He arrived at the building late"
       ],
       "correct_answer": 1,
-      "rag_answer": "C) The boss yelled at him",
+      "rag_answer": "B) The automation unnerved him",
       "is_correct": false
     },
     {
@@ -855,7 +855,7 @@
         "Time warping"
       ],
       "correct_answer": 3,
-      "rag_answer": "A) Interstellar shipping infrastructure",
+      "rag_answer": "B) Games in outer space",
       "is_correct": false
     },
     {
@@ -881,7 +881,7 @@
         "sad and depressing"
       ],
       "correct_answer": 1,
-      "rag_answer": "B) boring and slow",
+      "rag_answer": "D) sad and depressing",
       "is_correct": false
     },
     {
@@ -946,7 +946,7 @@
         "A distorted view"
       ],
       "correct_answer": 3,
-      "rag_answer": "D) A distorted view",
+      "rag_answer": "C) A distorted view",
       "is_correct": false
     },
     {
@@ -959,7 +959,7 @@
         "He was elected as Ruler by the Tr'en."
       ],
       "correct_answer": 0,
-      "rag_answer": "C) He is the biological son of the previous Ruler.",
+      "rag_answer": "A) He was adopted by the previous Ruler.",
       "is_correct": false
     },
     {
@@ -998,7 +998,7 @@
         "His deal with the Martian ambassador"
       ],
       "correct_answer": 1,
-      "rag_answer": "A) His jingle writing ability",
+      "rag_answer": "B) His handling of the crisis at hand",
       "is_correct": false
     },
     {
@@ -1024,7 +1024,7 @@
         "Birmingham"
       ],
       "correct_answer": 1,
-      "rag_answer": "D) Birmingham",
+      "rag_answer": "B) Technological evolution",
       "is_correct": false
     },
     {
@@ -1037,7 +1037,7 @@
         "The concert had been cancelled"
       ],
       "correct_answer": 2,
-      "rag_answer": "B) He had been discovered on his mission",
+      "rag_answer": "C) He discovered that the hunters were coming to the city",
       "is_correct": false
     },
     {
@@ -1050,7 +1050,7 @@
         "Mental illness"
       ],
       "correct_answer": 2,
-      "rag_answer": "C) Secretive experiments",
+      "rag_answer": "D) Mental illness",
       "is_correct": false
     },
     {
@@ -1076,7 +1076,7 @@
         "he is going to work with them until they get it or until it kills them all."
       ],
       "correct_answer": 1,
-      "rag_answer": "B) to annoy them to the point that they do magic out of spite.",
+      "rag_answer": "D) He is going to work with them until they get it or until it kills them all.",
       "is_correct": false
     },
     {
@@ -1102,7 +1102,7 @@
         "R2-D2"
       ],
       "correct_answer": 2,
-      "rag_answer": "C) Special effects",
+      "rag_answer": "A) Pod racing",
       "is_correct": false
     },
     {
@@ -1128,7 +1128,7 @@
         "Both populations succeeded and thrived, but in very different ways"
       ],
       "correct_answer": 0,
-      "rag_answer": "A) One population sealed themselves into cities like Kal-Jmar; they chose to remain static. The other adapted their bodies to new conditions on Mars.",
+      "rag_answer": "C) Both populations eventually combined once more",
       "is_correct": false
     },
     {
@@ -1141,7 +1141,7 @@
         "Shy"
       ],
       "correct_answer": 0,
-      "rag_answer": "A) Habitual",
+      "rag_answer": "B) Mad",
       "is_correct": false
     },
     {
@@ -1154,7 +1154,7 @@
         "University faculty members because they can use the diction in the policies to continue to maintain control of how those policies are perceived."
       ],
       "correct_answer": 1,
-      "rag_answer": "C) Institutions",
+      "rag_answer": "B) Publishers",
       "is_correct": false
     },
     {
@@ -1167,7 +1167,7 @@
         "He quits his job in management."
       ],
       "correct_answer": 1,
-      "rag_answer": "C) He goes on strike to demand better pay and hours.",
+      "rag_answer": "D) He quits his job in management.",
       "is_correct": false
     },
     {
@@ -1180,7 +1180,7 @@
         "They convinced their people to fight back against the Hunters"
       ],
       "correct_answer": 1,
-      "rag_answer": "B) They started a tenuous link with the Hunters via their music",
+      "rag_answer": "B) They started a tentative connection with the Hunters through their art.",
       "is_correct": false
     },
     {
@@ -1206,7 +1206,7 @@
         "A high schooler interested in learning more about family dynamics and the chemical/evolutionary processes with regard to parenting."
       ],
       "correct_answer": 1,
-      "rag_answer": "D) A high schooler interested in learning more about family dynamics and the chemical/evolutionary processes with regard to parenting.",
+      "rag_answer": "B) A potential parent deciding between adopting a child and having a biological child.",
       "is_correct": false
     },
     {
@@ -1245,7 +1245,7 @@
         "We teach and learn collaboratively"
       ],
       "correct_answer": 3,
-      "rag_answer": "C) We need to learn from the article",
+      "rag_answer": "C) We Need to Learn From The Article",
       "is_correct": false
     },
     {
@@ -1284,7 +1284,7 @@
         "It follows ecological processes to slowly transform barren land into arable land over time"
       ],
       "correct_answer": 3,
-      "rag_answer": "C) It can only work on land that has previously contained life",
+      "rag_answer": "D) It follows ecological processes to slowly transform barren land into arable land over time",
       "is_correct": false
     },
     {
@@ -1297,7 +1297,7 @@
         "Charisma, people-pleasing"
       ],
       "correct_answer": 0,
-      "rag_answer": "A) Boldness, confidence",
+      "rag_answer": "C) Inventiveness, shyness",
       "is_correct": false
     },
     {
@@ -1310,7 +1310,7 @@
         "Make fun of her"
       ],
       "correct_answer": 2,
-      "rag_answer": "A) Joke with her",
+      "rag_answer": "B) Avoid her",
       "is_correct": false
     },
     {
@@ -1323,8 +1323,8 @@
         "universities who do nothing but advocate them"
       ],
       "correct_answer": 2,
-      "rag_answer": "C)",
-      "is_correct": true
+      "rag_answer": "C) publishers who speak out against them.",
+      "is_correct": false
     },
     {
       "problem_index": 102,
@@ -1336,7 +1336,7 @@
         "Food and proximity to the sunken ship."
       ],
       "correct_answer": 3,
-      "rag_answer": "C) Deciding where exactly to start building.",
+      "rag_answer": "B) When to start building the encampment.",
       "is_correct": false
     },
     {
@@ -1349,7 +1349,7 @@
         "emotional persuasion was used appropriately to produce the best outcome"
       ],
       "correct_answer": 0,
-      "rag_answer": "D) emotional persuasion was used appropriately to produce the best outcome",
+      "rag_answer": "A) it would have gone differently if people would have been more logical",
       "is_correct": false
     },
     {
@@ -1375,7 +1375,7 @@
         "Tasting a cry for help"
       ],
       "correct_answer": 0,
-      "rag_answer": "C) Hearing the sunlight",
+      "rag_answer": "A) Feeling an earthquake",
       "is_correct": false
     },
     {
@@ -1388,7 +1388,7 @@
         "Children's demands of their parents"
       ],
       "correct_answer": 3,
-      "rag_answer": "B) Government regulation",
+      "rag_answer": "D) Children's demands of their parents",
       "is_correct": false
     },
     {
@@ -1414,7 +1414,7 @@
         "Print media"
       ],
       "correct_answer": 2,
-      "rag_answer": "C) Participary media",
+      "rag_answer": "C) Participatory media",
       "is_correct": false
     },
     {
@@ -1427,7 +1427,7 @@
         "Listening to his large group of employed screenwriters"
       ],
       "correct_answer": 3,
-      "rag_answer": "B) Casting better actors for the roles\n\nD) Listening to his large group of employed screenwriters",
+      "rag_answer": "D) Listening to his large group of employed screenwriters",
       "is_correct": false
     },
     {
@@ -1440,7 +1440,7 @@
         "Quade"
       ],
       "correct_answer": 2,
-      "rag_answer": "C) Gavin",
+      "rag_answer": "C) Gav",
       "is_correct": false
     },
     {
@@ -1479,7 +1479,7 @@
         "A police officer."
       ],
       "correct_answer": 3,
-      "rag_answer": "A) A novelty trader.",
+      "rag_answer": "B) A time machine specialist.",
       "is_correct": false
     },
     {
@@ -1492,7 +1492,7 @@
         "Bobby acts much more mature than his father about the journey."
       ],
       "correct_answer": 2,
-      "rag_answer": "A) Bobby knows much less about flying spaceships than his father, so he is less confident than his father about completing the journey.",
+      "rag_answer": "C) Bobby acts like the journey will be a thrilling adventure, while his father is much more serious about completing the trip.",
       "is_correct": false
     },
     {
@@ -1531,7 +1531,7 @@
         "They are looking to maximize their profits"
       ],
       "correct_answer": 1,
-      "rag_answer": "A) They are seeking to limit the power that private publishers have.",
+      "rag_answer": "B) They want to ensure researchers are able to work in the most effective way possible",
       "is_correct": false
     },
     {
@@ -1622,7 +1622,7 @@
         "It was a good size and provided a smooth ride around the Ozark Mountains."
       ],
       "correct_answer": 0,
-      "rag_answer": "C) He felt it was the only vehicle that fit his personality.",
+      "rag_answer": "A) He was too tall for most models and disliked the business decisions of American automakers.",
       "is_correct": false
     },
     {
@@ -1648,7 +1648,7 @@
         "He did not want to be contacted by the government"
       ],
       "correct_answer": 0,
-      "rag_answer": "A) It meant he could not work in the industry anymore",
+      "rag_answer": "A) It meant he could not work in the industry anymore.",
       "is_correct": false
     },
     {
@@ -1674,7 +1674,7 @@
         "The decisions are made by high officials, in this case the control was given to Bbulas"
       ],
       "correct_answer": 3,
-      "rag_answer": "C) They appear to be made by the will of someone greater than the characters in the story",
+      "rag_answer": "A) There is a branch of Earth’s government that oversees all decisions",
       "is_correct": false
     },
     {
@@ -1700,7 +1700,7 @@
         "He altered course to the south"
       ],
       "correct_answer": 1,
-      "rag_answer": "D) He altered course to the south",
+      "rag_answer": "A) He used emergency retro-drive",
       "is_correct": false
     },
     {
@@ -1713,7 +1713,7 @@
         "They are more physically attractive"
       ],
       "correct_answer": 0,
-      "rag_answer": "D) They are more physically attractive",
+      "rag_answer": "C) All of the other answers are correct",
       "is_correct": false
     },
     {
@@ -1752,7 +1752,7 @@
         "His eye sight"
       ],
       "correct_answer": 3,
-      "rag_answer": "B) His incredible jumping over the wall",
+      "rag_answer": "A) His brute strength",
       "is_correct": false
     },
     {
@@ -1817,7 +1817,7 @@
         "He twists the Flapjacks' tentacles, which is excruciatingly painful to a Flapjack."
       ],
       "correct_answer": 1,
-      "rag_answer": "B) He mashes his thumb into an opening which Retief thought was the eye, but which Hoshick implies is involved in Flapjack reproduction.",
+      "rag_answer": "C) He mashes his thumb into an opening identified by Retief and verified by Hoshick as being the Flapjack's eye, in each case.",
       "is_correct": false
     },
     {
@@ -1921,7 +1921,7 @@
         "The squid were a nearly defeated colony that didn’t have enough members to save every angler"
       ],
       "correct_answer": 2,
-      "rag_answer": "C) The anglers were not the squid's primary interest.",
+      "rag_answer": "C) The anglers were not the squid's primary interest",
       "is_correct": false
     },
     {
@@ -1934,7 +1934,7 @@
         "He was passionate about stopping climate change"
       ],
       "correct_answer": 0,
-      "rag_answer": "A) He wanted be somewhere that was much different than where he grew up",
+      "rag_answer": "A) He wanted be somewhere that was much different than where he grew up.",
       "is_correct": false
     },
     {
@@ -1999,7 +1999,7 @@
         "Ivy Hendricks"
       ],
       "correct_answer": 1,
-      "rag_answer": "C) Commander Strike",
+      "rag_answer": "B) the Cleopatra",
       "is_correct": false
     },
     {
@@ -2012,7 +2012,7 @@
         "He likes to look at the girls in the comics."
       ],
       "correct_answer": 1,
-      "rag_answer": "B) He likes to identify with the pilots and their experiences.",
+      "rag_answer": "B) He likes to escape his real life.",
       "is_correct": false
     },
     {
@@ -2064,7 +2064,7 @@
         "He thought he could escape like a mouse"
       ],
       "correct_answer": 0,
-      "rag_answer": "C) He was starved and ready to eat",
+      "rag_answer": "A) He felt comfortable in familiar surroundings",
       "is_correct": false
     },
     {
@@ -2077,7 +2077,7 @@
         "She like his new body"
       ],
       "correct_answer": 1,
-      "rag_answer": "B) She felt sorry for him",
+      "rag_answer": "A) She was afraid of him",
       "is_correct": false
     },
     {
@@ -2090,7 +2090,7 @@
         "Men have to protect the group regularly"
       ],
       "correct_answer": 3,
-      "rag_answer": "B) Men and women do an equal amount of raising the kids",
+      "rag_answer": "C) Women do a lot of the business on behalf of each family",
       "is_correct": false
     },
     {
@@ -2116,7 +2116,7 @@
         "Food was very scarce"
       ],
       "correct_answer": 3,
-      "rag_answer": "B) He loved apricets",
+      "rag_answer": "B) He loved apricots",
       "is_correct": false
     },
     {
@@ -2155,7 +2155,7 @@
         "There are aliens walking among us."
       ],
       "correct_answer": 1,
-      "rag_answer": "B) The truth does not matter if no one believes it.",
+      "rag_answer": "A) People who tell lies often will eventually get themselves into trouble.",
       "is_correct": false
     },
     {
@@ -2168,7 +2168,7 @@
         "Television"
       ],
       "correct_answer": 3,
-      "rag_answer": "D) Television",
+      "rag_answer": "B) Internet",
       "is_correct": false
     },
     {
@@ -2181,7 +2181,7 @@
         "They are counterfeit of the true Christ"
       ],
       "correct_answer": 1,
-      "rag_answer": "D) They are counterfeit of the true Christ",
+      "rag_answer": "B) The actions of certain atheist Jews historically",
       "is_correct": false
     },
     {
@@ -2194,7 +2194,7 @@
         "They are both con artists."
       ],
       "correct_answer": 1,
-      "rag_answer": "A) They are strangers.",
+      "rag_answer": "B) They are both prisoners.",
       "is_correct": false
     },
     {
@@ -2207,7 +2207,7 @@
         "She thought he was neglectful"
       ],
       "correct_answer": 2,
-      "rag_answer": "C) She known he did not want to remain on Earth",
+      "rag_answer": "C) She thought he wanted to return to Mars.",
       "is_correct": false
     },
     {
@@ -2220,7 +2220,7 @@
         "He is a Martian"
       ],
       "correct_answer": 0,
-      "rag_answer": "A) He is infamous",
+      "rag_answer": "C) He is hiding on Earth",
       "is_correct": false
     },
     {
@@ -2233,7 +2233,7 @@
         "For her husband to fall back in love with her"
       ],
       "correct_answer": 3,
-      "rag_answer": "B) To spy on her husband without him knowing",
+      "rag_answer": "A) To have her baby on the moon",
       "is_correct": false
     },
     {
@@ -2259,7 +2259,7 @@
         "The system malfunctioned because of his tinkering"
       ],
       "correct_answer": 2,
-      "rag_answer": "C) The machine was helping him",
+      "rag_answer": "C) The machine was helping him.",
       "is_correct": false
     },
     {
@@ -2311,7 +2311,7 @@
         "They could not afford clothes"
       ],
       "correct_answer": 0,
-      "rag_answer": "D) They could not afford clothes",
+      "rag_answer": "D) They controlled clothing production and depended on imports.",
       "is_correct": false
     },
     {
@@ -2337,7 +2337,7 @@
         "He comes and goes as he pleases."
       ],
       "correct_answer": 0,
-      "rag_answer": "C) He came early but Bailey did not want him in the office.",
+      "rag_answer": "C) He was late to work by 4 minutes.",
       "is_correct": false
     },
     {
@@ -2363,7 +2363,7 @@
         "He died"
       ],
       "correct_answer": 2,
-      "rag_answer": "C) He went on with his duties",
+      "rag_answer": "B) He was woken up from his dream",
       "is_correct": false
     },
     {
@@ -2389,7 +2389,7 @@
         "He was not allowed"
       ],
       "correct_answer": 0,
-      "rag_answer": "D) He was not allowed",
+      "rag_answer": "A) He liked them too much",
       "is_correct": false
     },
     {
@@ -2402,7 +2402,7 @@
         "17 years"
       ],
       "correct_answer": 0,
-      "rag_answer": "B) 11 years",
+      "rag_answer": "A) unknown",
       "is_correct": false
     },
     {
@@ -2428,7 +2428,7 @@
         "They were interested"
       ],
       "correct_answer": 2,
-      "rag_answer": "C) It was too small-scale",
+      "rag_answer": "A) They didn't know about it",
       "is_correct": false
     },
     {
@@ -2441,7 +2441,7 @@
         "Fashion"
       ],
       "correct_answer": 0,
-      "rag_answer": "A) Political activism",
+      "rag_answer": "A) Political commentary",
       "is_correct": false
     },
     {
@@ -2519,8 +2519,8 @@
         "there is really no difference."
       ],
       "correct_answer": 0,
-      "rag_answer": "B) all OA mandates are gold, but this is often misconstrued.",
-      "is_correct": false
+      "rag_answer": "A)",
+      "is_correct": true
     },
     {
       "problem_index": 194,
@@ -2571,8 +2571,8 @@
         "Fame"
       ],
       "correct_answer": 2,
-      "rag_answer": "C)",
-      "is_correct": true
+      "rag_answer": "C) Revenge",
+      "is_correct": false
     },
     {
       "problem_index": 198,
@@ -2597,7 +2597,7 @@
         "Indestructible"
       ],
       "correct_answer": 0,
-      "rag_answer": "A) Concerned",
+      "rag_answer": "C) Ambivalent",
       "is_correct": false
     },
     {

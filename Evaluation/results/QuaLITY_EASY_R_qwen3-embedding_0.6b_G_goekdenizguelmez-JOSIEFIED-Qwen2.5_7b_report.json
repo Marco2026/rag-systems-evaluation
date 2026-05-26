@@ -6,12 +6,12 @@
   "generator_model": "goekdenizguelmez/JOSIEFIED-Qwen2.5:7b",
   "generator_params": 7.62,
   "generator_size": 4.4,
-  "timestamp": "2026-04-11T13:33:17.986279",
-  "duration": "00:19:49",
-  "duration (seconds)": 1189,
+  "timestamp": "2026-05-21T05:09:40.890611",
+  "duration": "00:11:54",
+  "duration (seconds)": 714,
   "total": 200,
-  "correct": 128,
-  "accuracy": 0.64,
+  "correct": 125,
+  "accuracy": 0.625,
   "results": [
     {
       "problem_index": 1,
@@ -49,8 +49,8 @@
         "It was more intimidating than expected"
       ],
       "correct_answer": 2,
-      "rag_answer": "C",
-      "is_correct": true
+      "rag_answer": "B",
+      "is_correct": false
     },
     {
       "problem_index": 4,
@@ -75,8 +75,8 @@
         "He was spared because he foretold the coming of the beings from other dimensions"
       ],
       "correct_answer": 2,
-      "rag_answer": "C",
-      "is_correct": true
+      "rag_answer": "B",
+      "is_correct": false
     },
     {
       "problem_index": 6,
@@ -88,7 +88,7 @@
         "Get better dental insurance"
       ],
       "correct_answer": 2,
-      "rag_answer": "D",
+      "rag_answer": "A",
       "is_correct": false
     },
     {
@@ -192,8 +192,8 @@
         "Earthmen"
       ],
       "correct_answer": 0,
-      "rag_answer": "A",
-      "is_correct": true
+      "rag_answer": "D",
+      "is_correct": false
     },
     {
       "problem_index": 15,
@@ -257,8 +257,8 @@
         "Eight years"
       ],
       "correct_answer": 0,
-      "rag_answer": "A",
-      "is_correct": true
+      "rag_answer": "B",
+      "is_correct": false
     },
     {
       "problem_index": 20,
@@ -335,8 +335,8 @@
         "It is a non-aggressive martial art"
       ],
       "correct_answer": 2,
-      "rag_answer": "B",
-      "is_correct": false
+      "rag_answer": "C",
+      "is_correct": true
     },
     {
       "problem_index": 26,
@@ -374,8 +374,8 @@
         "They were discussing the disappearance of objects and places"
       ],
       "correct_answer": 3,
-      "rag_answer": "D",
-      "is_correct": true
+      "rag_answer": "C",
+      "is_correct": false
     },
     {
       "problem_index": 29,
@@ -413,8 +413,8 @@
         "The tasters were completely blind to which beers were being used in the experiment"
       ],
       "correct_answer": 3,
-      "rag_answer": "B",
-      "is_correct": false
+      "rag_answer": "D",
+      "is_correct": true
     },
     {
       "problem_index": 32,
@@ -452,8 +452,8 @@
         "He was unsure of how he arrived there"
       ],
       "correct_answer": 1,
-      "rag_answer": "C",
-      "is_correct": false
+      "rag_answer": "B",
+      "is_correct": true
     },
     {
       "problem_index": 35,
@@ -478,8 +478,8 @@
         "The island is his room, and the snakes are the other minds."
       ],
       "correct_answer": 3,
-      "rag_answer": "B",
-      "is_correct": false
+      "rag_answer": "D",
+      "is_correct": true
     },
     {
       "problem_index": 37,
@@ -530,8 +530,8 @@
         "The officer who spoke to him post-battle"
       ],
       "correct_answer": 3,
-      "rag_answer": "D",
-      "is_correct": true
+      "rag_answer": "B",
+      "is_correct": false
     },
     {
       "problem_index": 41,
@@ -543,8 +543,8 @@
         "Being made with hydrogen"
       ],
       "correct_answer": 3,
-      "rag_answer": "D",
-      "is_correct": true
+      "rag_answer": "C",
+      "is_correct": false
     },
     {
       "problem_index": 42,
@@ -816,8 +816,8 @@
         "Earth"
       ],
       "correct_answer": 1,
-      "rag_answer": "B",
-      "is_correct": true
+      "rag_answer": "D",
+      "is_correct": false
     },
     {
       "problem_index": 63,
@@ -829,8 +829,8 @@
         "Make sentences shorter"
       ],
       "correct_answer": 1,
-      "rag_answer": "C",
-      "is_correct": false
+      "rag_answer": "B",
+      "is_correct": true
     },
     {
       "problem_index": 64,
@@ -842,8 +842,8 @@
         "Its reference depends on the political party in power"
       ],
       "correct_answer": 0,
-      "rag_answer": "A",
-      "is_correct": true
+      "rag_answer": "C",
+      "is_correct": false
     },
     {
       "problem_index": 65,
@@ -985,8 +985,8 @@
         "The car models tell him what era he is in at the moment."
       ],
       "correct_answer": 3,
-      "rag_answer": "D",
-      "is_correct": true
+      "rag_answer": "C",
+      "is_correct": false
     },
     {
       "problem_index": 76,
@@ -1076,8 +1076,8 @@
         "he is going to work with them until they get it or until it kills them all."
       ],
       "correct_answer": 1,
-      "rag_answer": "A",
-      "is_correct": false
+      "rag_answer": "B",
+      "is_correct": true
     },
     {
       "problem_index": 83,
@@ -1115,8 +1115,8 @@
         "He wants documentation of how much money the Cubans owe him."
       ],
       "correct_answer": 1,
-      "rag_answer": "B",
-      "is_correct": true
+      "rag_answer": "D",
+      "is_correct": false
     },
     {
       "problem_index": 86,
@@ -1180,8 +1180,8 @@
         "They convinced their people to fight back against the Hunters"
       ],
       "correct_answer": 1,
-      "rag_answer": "C",
-      "is_correct": false
+      "rag_answer": "B",
+      "is_correct": true
     },
     {
       "problem_index": 91,
@@ -1310,8 +1310,8 @@
         "Make fun of her"
       ],
       "correct_answer": 2,
-      "rag_answer": "A",
-      "is_correct": false
+      "rag_answer": "C",
+      "is_correct": true
     },
     {
       "problem_index": 101,
@@ -1570,8 +1570,8 @@
         "The current reality was starting to fade"
       ],
       "correct_answer": 3,
-      "rag_answer": "B",
-      "is_correct": false
+      "rag_answer": "D",
+      "is_correct": true
     },
     {
       "problem_index": 121,
@@ -1635,7 +1635,7 @@
         "A shotgun"
       ],
       "correct_answer": 0,
-      "rag_answer": "B",
+      "rag_answer": "C",
       "is_correct": false
     },
     {
@@ -1661,8 +1661,8 @@
         "It is thinly veiled in confusing language"
       ],
       "correct_answer": 2,
-      "rag_answer": "C",
-      "is_correct": true
+      "rag_answer": "A",
+      "is_correct": false
     },
     {
       "problem_index": 128,
@@ -1765,8 +1765,8 @@
         "Coleman was an impressive figure"
       ],
       "correct_answer": 2,
-      "rag_answer": "B",
-      "is_correct": false
+      "rag_answer": "C",
+      "is_correct": true
     },
     {
       "problem_index": 136,
@@ -1804,8 +1804,8 @@
         "tries to take Martians back to Earth in order to allow them to colonize."
       ],
       "correct_answer": 1,
-      "rag_answer": "C",
-      "is_correct": false
+      "rag_answer": "B",
+      "is_correct": true
     },
     {
       "problem_index": 139,
@@ -1817,8 +1817,8 @@
         "He twists the Flapjacks' tentacles, which is excruciatingly painful to a Flapjack."
       ],
       "correct_answer": 1,
-      "rag_answer": "B",
-      "is_correct": true
+      "rag_answer": "C",
+      "is_correct": false
     },
     {
       "problem_index": 140,
@@ -1869,8 +1869,8 @@
         "They have different expectations"
       ],
       "correct_answer": 3,
-      "rag_answer": "C",
-      "is_correct": false
+      "rag_answer": "D",
+      "is_correct": true
     },
     {
       "problem_index": 144,
@@ -1908,8 +1908,8 @@
         "Rude and beautiful"
       ],
       "correct_answer": 3,
-      "rag_answer": "A",
-      "is_correct": false
+      "rag_answer": "D",
+      "is_correct": true
     },
     {
       "problem_index": 147,
@@ -1973,8 +1973,8 @@
         "Sweden"
       ],
       "correct_answer": 2,
-      "rag_answer": "C",
-      "is_correct": true
+      "rag_answer": "D",
+      "is_correct": false
     },
     {
       "problem_index": 152,
@@ -1986,8 +1986,8 @@
         "Using magnetic poles"
       ],
       "correct_answer": 0,
-      "rag_answer": "A",
-      "is_correct": true
+      "rag_answer": "B",
+      "is_correct": false
     },
     {
       "problem_index": 153,
@@ -2233,7 +2233,7 @@
         "For her husband to fall back in love with her"
       ],
       "correct_answer": 3,
-      "rag_answer": "C",
+      "rag_answer": "A",
       "is_correct": false
     },
     {
@@ -2285,8 +2285,8 @@
         "They liked to do it at least once a day"
       ],
       "correct_answer": 1,
-      "rag_answer": "C",
-      "is_correct": false
+      "rag_answer": "B",
+      "is_correct": true
     },
     {
       "problem_index": 176,
@@ -2311,8 +2311,8 @@
         "They could not afford clothes"
       ],
       "correct_answer": 0,
-      "rag_answer": "A",
-      "is_correct": true
+      "rag_answer": "B",
+      "is_correct": false
     },
     {
       "problem_index": 178,
@@ -2337,8 +2337,8 @@
         "He comes and goes as he pleases."
       ],
       "correct_answer": 0,
-      "rag_answer": "A",
-      "is_correct": true
+      "rag_answer": "C",
+      "is_correct": false
     },
     {
       "problem_index": 180,
@@ -2363,8 +2363,8 @@
         "He died"
       ],
       "correct_answer": 2,
-      "rag_answer": "B",
-      "is_correct": false
+      "rag_answer": "C",
+      "is_correct": true
     },
     {
       "problem_index": 182,
@@ -2545,8 +2545,8 @@
         "They undergo ethical conditioning"
       ],
       "correct_answer": 3,
-      "rag_answer": "D",
-      "is_correct": true
+      "rag_answer": "C",
+      "is_correct": false
     },
     {
       "problem_index": 196,
@@ -2571,7 +2571,7 @@
         "Fame"
       ],
       "correct_answer": 2,
-      "rag_answer": "A",
+      "rag_answer": "B",
       "is_correct": false
     },
     {

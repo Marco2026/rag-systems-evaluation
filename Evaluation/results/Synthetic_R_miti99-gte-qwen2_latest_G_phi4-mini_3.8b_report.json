@@ -6,9 +6,9 @@
   "generator_model": "phi4-mini:3.8b",
   "generator_params": 3.84,
   "generator_size": 2.3,
-  "timestamp": "2026-04-30T04:19:30.950369",
-  "duration": "00:06:33",
-  "duration (seconds)": 393,
+  "timestamp": "2026-05-22T20:06:48.869668",
+  "duration": "00:06:18",
+  "duration (seconds)": 378,
   "total": 200,
   "correct": 0,
   "accuracy": 0.0,
@@ -244,7 +244,7 @@
         "D": "Arvandor"
       },
       "correct_answer": "D",
-      "rag_answer": "D) Arvandor",
+      "rag_answer": "B) Valoria",
       "is_correct": false
     },
     {
@@ -452,7 +452,7 @@
         "D": "To welcome new citizens"
       },
       "correct_answer": "C",
-      "rag_answer": "C) To honor the wind spirits",
+      "rag_answer": "C) To honor the wind spirits.",
       "is_correct": false
     },
     {
@@ -1037,7 +1037,7 @@
         "D": "Mistwood Route"
       },
       "correct_answer": "D",
-      "rag_answer": "D)",
+      "rag_answer": "D) Miswwood Route",
       "is_correct": false
     },
     {
@@ -1336,7 +1336,7 @@
         "D": "1800"
       },
       "correct_answer": "A",
-      "rag_answer": "C) 1753",
+      "rag_answer": "A) 1705",
       "is_correct": false
     },
     {
@@ -1960,7 +1960,7 @@
         "D": "Moonhaven"
       },
       "correct_answer": "C",
-      "rag_answer": "D) Moonhaven",
+      "rag_answer": "C) The Azure Sea",
       "is_correct": false
     },
     {
@@ -1999,7 +1999,7 @@
         "D": "The signing of the Treaty of Silverlake"
       },
       "correct_answer": "D",
-      "rag_answer": "D) The signing of the Treaty of Silverlake",
+      "rag_answer": "C) The founding of Solara",
       "is_correct": false
     },
     {
@@ -2441,7 +2441,7 @@
         "D": "It marks the beginning of significant changes in Eldara"
       },
       "correct_answer": "D",
-      "rag_answer": "A) It initiates a new magical era",
+      "rag_answer": "B) It signals the end of the current age.",
       "is_correct": false
     },
     {
@@ -2571,7 +2571,7 @@
         "D": "Moonwhisper's Staff"
       },
       "correct_answer": "C",
-      "rag_answer": "C) Potion of Strength",
+      "rag_answer": "C)Potion of Strength",
       "is_correct": false
     },
     {
@@ -2610,7 +2610,7 @@
         "D": "1850"
       },
       "correct_answer": "D",
-      "rag_answer": "C) 1200",
+      "rag_answer": "D) 1850",
       "is_correct": false
     }
   ]

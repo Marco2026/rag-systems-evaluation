@@ -6,12 +6,12 @@
   "generator_model": "goekdenizguelmez/JOSIEFIED-Qwen2.5:7b",
   "generator_params": 7.62,
   "generator_size": 4.4,
-  "timestamp": "2026-04-11T13:13:26.782804",
-  "duration": "00:21:50",
-  "duration (seconds)": 1310,
+  "timestamp": "2026-05-21T04:57:44.649431",
+  "duration": "00:14:40",
+  "duration (seconds)": 880,
   "total": 200,
-  "correct": 137,
-  "accuracy": 0.685,
+  "correct": 143,
+  "accuracy": 0.715,
   "results": [
     {
       "problem_index": 1,
@@ -49,8 +49,8 @@
         "It was more intimidating than expected"
       ],
       "correct_answer": 2,
-      "rag_answer": "C",
-      "is_correct": true
+      "rag_answer": "B",
+      "is_correct": false
     },
     {
       "problem_index": 4,
@@ -62,8 +62,8 @@
         "They did not understand the language"
       ],
       "correct_answer": 2,
-      "rag_answer": "D",
-      "is_correct": false
+      "rag_answer": "C",
+      "is_correct": true
     },
     {
       "problem_index": 5,
@@ -101,7 +101,7 @@
         "Missionary deployments"
       ],
       "correct_answer": 1,
-      "rag_answer": "C",
+      "rag_answer": "A",
       "is_correct": false
     },
     {
@@ -140,7 +140,7 @@
         "The passengers have duties to ensure the safe travel of everyone on board, so they must be in top condition"
       ],
       "correct_answer": 0,
-      "rag_answer": "D",
+      "rag_answer": "C",
       "is_correct": false
     },
     {
@@ -179,8 +179,8 @@
         "It moves on hidden strings."
       ],
       "correct_answer": 3,
-      "rag_answer": "A",
-      "is_correct": false
+      "rag_answer": "D",
+      "is_correct": true
     },
     {
       "problem_index": 14,
@@ -374,8 +374,8 @@
         "They were discussing the disappearance of objects and places"
       ],
       "correct_answer": 3,
-      "rag_answer": "D",
-      "is_correct": true
+      "rag_answer": "C",
+      "is_correct": false
     },
     {
       "problem_index": 29,
@@ -478,7 +478,7 @@
         "The island is his room, and the snakes are the other minds."
       ],
       "correct_answer": 3,
-      "rag_answer": "B",
+      "rag_answer": "A",
       "is_correct": false
     },
     {
@@ -543,8 +543,8 @@
         "Being made with hydrogen"
       ],
       "correct_answer": 3,
-      "rag_answer": "A",
-      "is_correct": false
+      "rag_answer": "D",
+      "is_correct": true
     },
     {
       "problem_index": 42,
@@ -595,8 +595,8 @@
         "He was stockpiled"
       ],
       "correct_answer": 1,
-      "rag_answer": "D",
-      "is_correct": false
+      "rag_answer": "B",
+      "is_correct": true
     },
     {
       "problem_index": 46,
@@ -660,8 +660,8 @@
         "A person who illegally lives on the moon"
       ],
       "correct_answer": 1,
-      "rag_answer": "B",
-      "is_correct": true
+      "rag_answer": "C",
+      "is_correct": false
     },
     {
       "problem_index": 51,
@@ -764,8 +764,8 @@
         "He arrived at the building late"
       ],
       "correct_answer": 1,
-      "rag_answer": "C",
-      "is_correct": false
+      "rag_answer": "B",
+      "is_correct": true
     },
     {
       "problem_index": 59,
@@ -842,8 +842,8 @@
         "Its reference depends on the political party in power"
       ],
       "correct_answer": 0,
-      "rag_answer": "C",
-      "is_correct": false
+      "rag_answer": "A",
+      "is_correct": true
     },
     {
       "problem_index": 65,
@@ -907,8 +907,8 @@
         "Kerry"
       ],
       "correct_answer": 3,
-      "rag_answer": "D",
-      "is_correct": true
+      "rag_answer": "C",
+      "is_correct": false
     },
     {
       "problem_index": 70,
@@ -1089,8 +1089,8 @@
         "He believes it is an evil system"
       ],
       "correct_answer": 0,
-      "rag_answer": "B",
-      "is_correct": false
+      "rag_answer": "A",
+      "is_correct": true
     },
     {
       "problem_index": 84,
@@ -1102,8 +1102,8 @@
         "R2-D2"
       ],
       "correct_answer": 2,
-      "rag_answer": "C",
-      "is_correct": true
+      "rag_answer": "A",
+      "is_correct": false
     },
     {
       "problem_index": 85,
@@ -1115,8 +1115,8 @@
         "He wants documentation of how much money the Cubans owe him."
       ],
       "correct_answer": 1,
-      "rag_answer": "D",
-      "is_correct": false
+      "rag_answer": "B",
+      "is_correct": true
     },
     {
       "problem_index": 86,
@@ -1154,8 +1154,8 @@
         "University faculty members because they can use the diction in the policies to continue to maintain control of how those policies are perceived."
       ],
       "correct_answer": 1,
-      "rag_answer": "B",
-      "is_correct": true
+      "rag_answer": "C",
+      "is_correct": false
     },
     {
       "problem_index": 89,
@@ -1167,8 +1167,8 @@
         "He quits his job in management."
       ],
       "correct_answer": 1,
-      "rag_answer": "B",
-      "is_correct": true
+      "rag_answer": "C",
+      "is_correct": false
     },
     {
       "problem_index": 90,
@@ -1219,8 +1219,8 @@
         "Unbiased summary"
       ],
       "correct_answer": 0,
-      "rag_answer": "C",
-      "is_correct": false
+      "rag_answer": "A",
+      "is_correct": true
     },
     {
       "problem_index": 94,
@@ -1245,8 +1245,8 @@
         "We teach and learn collaboratively"
       ],
       "correct_answer": 3,
-      "rag_answer": "D",
-      "is_correct": true
+      "rag_answer": "A",
+      "is_correct": false
     },
     {
       "problem_index": 96,
@@ -1284,8 +1284,8 @@
         "It follows ecological processes to slowly transform barren land into arable land over time"
       ],
       "correct_answer": 3,
-      "rag_answer": "D",
-      "is_correct": true
+      "rag_answer": "C",
+      "is_correct": false
     },
     {
       "problem_index": 99,
@@ -1388,7 +1388,7 @@
         "Children's demands of their parents"
       ],
       "correct_answer": 3,
-      "rag_answer": "A",
+      "rag_answer": "B",
       "is_correct": false
     },
     {
@@ -1427,8 +1427,8 @@
         "Listening to his large group of employed screenwriters"
       ],
       "correct_answer": 3,
-      "rag_answer": "C",
-      "is_correct": false
+      "rag_answer": "D",
+      "is_correct": true
     },
     {
       "problem_index": 110,
@@ -1479,7 +1479,7 @@
         "A police officer."
       ],
       "correct_answer": 3,
-      "rag_answer": "B",
+      "rag_answer": "C",
       "is_correct": false
     },
     {
@@ -1570,8 +1570,8 @@
         "The current reality was starting to fade"
       ],
       "correct_answer": 3,
-      "rag_answer": "B",
-      "is_correct": false
+      "rag_answer": "D",
+      "is_correct": true
     },
     {
       "problem_index": 121,
@@ -1661,8 +1661,8 @@
         "It is thinly veiled in confusing language"
       ],
       "correct_answer": 2,
-      "rag_answer": "C",
-      "is_correct": true
+      "rag_answer": "A",
+      "is_correct": false
     },
     {
       "problem_index": 128,
@@ -1674,8 +1674,8 @@
         "The decisions are made by high officials, in this case the control was given to Bbulas"
       ],
       "correct_answer": 3,
-      "rag_answer": "C",
-      "is_correct": false
+      "rag_answer": "D",
+      "is_correct": true
     },
     {
       "problem_index": 129,
@@ -1908,8 +1908,8 @@
         "Rude and beautiful"
       ],
       "correct_answer": 3,
-      "rag_answer": "A",
-      "is_correct": false
+      "rag_answer": "D",
+      "is_correct": true
     },
     {
       "problem_index": 147,
@@ -2077,8 +2077,8 @@
         "She like his new body"
       ],
       "correct_answer": 1,
-      "rag_answer": "C",
-      "is_correct": false
+      "rag_answer": "B",
+      "is_correct": true
     },
     {
       "problem_index": 160,
@@ -2090,8 +2090,8 @@
         "Men have to protect the group regularly"
       ],
       "correct_answer": 3,
-      "rag_answer": "D",
-      "is_correct": true
+      "rag_answer": "C",
+      "is_correct": false
     },
     {
       "problem_index": 161,
@@ -2181,8 +2181,8 @@
         "They are counterfeit of the true Christ"
       ],
       "correct_answer": 1,
-      "rag_answer": "C",
-      "is_correct": false
+      "rag_answer": "B",
+      "is_correct": true
     },
     {
       "problem_index": 168,
@@ -2285,8 +2285,8 @@
         "They liked to do it at least once a day"
       ],
       "correct_answer": 1,
-      "rag_answer": "C",
-      "is_correct": false
+      "rag_answer": "B",
+      "is_correct": true
     },
     {
       "problem_index": 176,
@@ -2467,8 +2467,8 @@
         "The pills that his therapist perscribed"
       ],
       "correct_answer": 0,
-      "rag_answer": "C",
-      "is_correct": false
+      "rag_answer": "A",
+      "is_correct": true
     },
     {
       "problem_index": 190,

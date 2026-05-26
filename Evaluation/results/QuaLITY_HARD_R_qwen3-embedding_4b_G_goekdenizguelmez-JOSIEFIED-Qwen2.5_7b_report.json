@@ -6,12 +6,12 @@
   "generator_model": "goekdenizguelmez/JOSIEFIED-Qwen2.5:7b",
   "generator_params": 7.62,
   "generator_size": 4.4,
-  "timestamp": "2026-04-13T11:23:03.770712",
-  "duration": "00:37:15",
-  "duration (seconds)": 2235,
+  "timestamp": "2026-05-21T18:02:52.857760",
+  "duration": "00:20:18",
+  "duration (seconds)": 1218,
   "total": 200,
-  "correct": 96,
-  "accuracy": 0.48,
+  "correct": 102,
+  "accuracy": 0.51,
   "results": [
     {
       "problem_index": 1,
@@ -127,7 +127,7 @@
         "A magical Iron Age"
       ],
       "correct_answer": 3,
-      "rag_answer": "B",
+      "rag_answer": "C",
       "is_correct": false
     },
     {
@@ -153,8 +153,8 @@
         "The color changes depending on if he is awake or asleep"
       ],
       "correct_answer": 2,
-      "rag_answer": "D",
-      "is_correct": false
+      "rag_answer": "C",
+      "is_correct": true
     },
     {
       "problem_index": 12,
@@ -166,8 +166,8 @@
         "support OA because they will make more money that way."
       ],
       "correct_answer": 1,
-      "rag_answer": "C",
-      "is_correct": false
+      "rag_answer": "B",
+      "is_correct": true
     },
     {
       "problem_index": 13,
@@ -192,7 +192,7 @@
         "He doesn't think they can look after themselves"
       ],
       "correct_answer": 0,
-      "rag_answer": "C",
+      "rag_answer": "D",
       "is_correct": false
     },
     {
@@ -322,7 +322,7 @@
         "She had to hide her scar"
       ],
       "correct_answer": 0,
-      "rag_answer": "B",
+      "rag_answer": "C",
       "is_correct": false
     },
     {
@@ -387,8 +387,8 @@
         "Capturing aliens"
       ],
       "correct_answer": 0,
-      "rag_answer": "B",
-      "is_correct": false
+      "rag_answer": "A",
+      "is_correct": true
     },
     {
       "problem_index": 30,
@@ -478,7 +478,7 @@
         "To have a plebian contest"
       ],
       "correct_answer": 1,
-      "rag_answer": "A",
+      "rag_answer": "D",
       "is_correct": false
     },
     {
@@ -543,8 +543,8 @@
         "He is killed by the Agents"
       ],
       "correct_answer": 0,
-      "rag_answer": "A",
-      "is_correct": true
+      "rag_answer": "C",
+      "is_correct": false
     },
     {
       "problem_index": 42,
@@ -608,8 +608,8 @@
         "A woman tries to benevolently prove that people can become younger through space travel."
       ],
       "correct_answer": 2,
-      "rag_answer": "A",
-      "is_correct": false
+      "rag_answer": "C",
+      "is_correct": true
     },
     {
       "problem_index": 47,
@@ -647,8 +647,8 @@
         "There is zero life"
       ],
       "correct_answer": 2,
-      "rag_answer": "C",
-      "is_correct": true
+      "rag_answer": "B",
+      "is_correct": false
     },
     {
       "problem_index": 50,
@@ -660,8 +660,8 @@
         "Microphones"
       ],
       "correct_answer": 1,
-      "rag_answer": "B",
-      "is_correct": true
+      "rag_answer": "C",
+      "is_correct": false
     },
     {
       "problem_index": 51,
@@ -712,7 +712,7 @@
         "Three"
       ],
       "correct_answer": 0,
-      "rag_answer": "B",
+      "rag_answer": "C",
       "is_correct": false
     },
     {
@@ -738,8 +738,8 @@
         "Humans were able to discover the secrets of inter-dimensional travel"
       ],
       "correct_answer": 2,
-      "rag_answer": "A",
-      "is_correct": false
+      "rag_answer": "C",
+      "is_correct": true
     },
     {
       "problem_index": 57,
@@ -790,7 +790,7 @@
         "Joyce"
       ],
       "correct_answer": 0,
-      "rag_answer": "C",
+      "rag_answer": "D",
       "is_correct": false
     },
     {
@@ -816,8 +816,8 @@
         "They never actually meet in the story"
       ],
       "correct_answer": 1,
-      "rag_answer": "A",
-      "is_correct": false
+      "rag_answer": "B",
+      "is_correct": true
     },
     {
       "problem_index": 63,
@@ -855,8 +855,8 @@
         "Donald Trump caused its demise."
       ],
       "correct_answer": 1,
-      "rag_answer": "B",
-      "is_correct": true
+      "rag_answer": "C",
+      "is_correct": false
     },
     {
       "problem_index": 66,
@@ -894,8 +894,8 @@
         "She had additional screens installed to withstand combat"
       ],
       "correct_answer": 2,
-      "rag_answer": "D",
-      "is_correct": false
+      "rag_answer": "C",
+      "is_correct": true
     },
     {
       "problem_index": 69,
@@ -933,8 +933,8 @@
         "To appease the local Earthlings"
       ],
       "correct_answer": 0,
-      "rag_answer": "B",
-      "is_correct": false
+      "rag_answer": "A",
+      "is_correct": true
     },
     {
       "problem_index": 72,
@@ -959,8 +959,8 @@
         "Because Ivy requested the ship for the experiment"
       ],
       "correct_answer": 2,
-      "rag_answer": "C",
-      "is_correct": true
+      "rag_answer": "D",
+      "is_correct": false
     },
     {
       "problem_index": 74,
@@ -1024,8 +1024,8 @@
         "With a nuclear weapon"
       ],
       "correct_answer": 1,
-      "rag_answer": "B",
-      "is_correct": true
+      "rag_answer": "C",
+      "is_correct": false
     },
     {
       "problem_index": 79,
@@ -1050,8 +1050,8 @@
         "He prefers their ship to his own"
       ],
       "correct_answer": 2,
-      "rag_answer": "C",
-      "is_correct": true
+      "rag_answer": "B",
+      "is_correct": false
     },
     {
       "problem_index": 81,
@@ -1089,8 +1089,8 @@
         "One wished to conquer the other"
       ],
       "correct_answer": 3,
-      "rag_answer": "D",
-      "is_correct": true
+      "rag_answer": "C",
+      "is_correct": false
     },
     {
       "problem_index": 84,
@@ -1180,8 +1180,8 @@
         "He realized by surrendering, the Alliance could use their ship to sneak into Federation territory unnoticed."
       ],
       "correct_answer": 3,
-      "rag_answer": "D",
-      "is_correct": true
+      "rag_answer": "B",
+      "is_correct": false
     },
     {
       "problem_index": 91,
@@ -1232,7 +1232,7 @@
         "He returned to the fourteenth floor to try again"
       ],
       "correct_answer": 1,
-      "rag_answer": "A",
+      "rag_answer": "C",
       "is_correct": false
     },
     {
@@ -1245,7 +1245,7 @@
         "Ronald"
       ],
       "correct_answer": 2,
-      "rag_answer": "D",
+      "rag_answer": "B",
       "is_correct": false
     },
     {
@@ -1258,8 +1258,8 @@
         "Romance fans, because of her relationship with her superior"
       ],
       "correct_answer": 0,
-      "rag_answer": "A",
-      "is_correct": true
+      "rag_answer": "C",
+      "is_correct": false
     },
     {
       "problem_index": 97,
@@ -1271,8 +1271,8 @@
         "He accidentally saw Ernie using his gift"
       ],
       "correct_answer": 3,
-      "rag_answer": "C",
-      "is_correct": false
+      "rag_answer": "D",
+      "is_correct": true
     },
     {
       "problem_index": 98,
@@ -1505,7 +1505,7 @@
         "Pregnant women sometimes die during the trip to the moon"
       ],
       "correct_answer": 1,
-      "rag_answer": "A",
+      "rag_answer": "D",
       "is_correct": false
     },
     {
@@ -1518,7 +1518,7 @@
         "Dan was nervous to operate the carrier when he first used it, but eventually became confident in controlling it."
       ],
       "correct_answer": 0,
-      "rag_answer": "D",
+      "rag_answer": "C",
       "is_correct": false
     },
     {
@@ -1622,8 +1622,8 @@
         "His experiences made him reflect on how he should have revised his original plan and motive."
       ],
       "correct_answer": 1,
-      "rag_answer": "B",
-      "is_correct": true
+      "rag_answer": "C",
+      "is_correct": false
     },
     {
       "problem_index": 125,
@@ -1674,8 +1674,8 @@
         "He agreed the revolution on earth had been needed"
       ],
       "correct_answer": 1,
-      "rag_answer": "B",
-      "is_correct": true
+      "rag_answer": "C",
+      "is_correct": false
     },
     {
       "problem_index": 129,
@@ -1726,8 +1726,8 @@
         "Because she was going to be separated from Blake."
       ],
       "correct_answer": 3,
-      "rag_answer": "D",
-      "is_correct": true
+      "rag_answer": "B",
+      "is_correct": false
     },
     {
       "problem_index": 133,
@@ -1752,8 +1752,8 @@
         "Duane had been promised $50,000"
       ],
       "correct_answer": 2,
-      "rag_answer": "C",
-      "is_correct": true
+      "rag_answer": "B",
+      "is_correct": false
     },
     {
       "problem_index": 135,
@@ -1765,7 +1765,7 @@
         "commonplace manager of the country"
       ],
       "correct_answer": 3,
-      "rag_answer": "A",
+      "rag_answer": "B",
       "is_correct": false
     },
     {
@@ -1856,8 +1856,8 @@
         "The Tepotkans were leaving it up to George's discretion"
       ],
       "correct_answer": 3,
-      "rag_answer": "B",
-      "is_correct": false
+      "rag_answer": "D",
+      "is_correct": true
     },
     {
       "problem_index": 143,
@@ -1869,8 +1869,8 @@
         "Meek asks questions about space travel"
       ],
       "correct_answer": 3,
-      "rag_answer": "A",
-      "is_correct": false
+      "rag_answer": "D",
+      "is_correct": true
     },
     {
       "problem_index": 144,
@@ -1960,8 +1960,8 @@
         "sees them from afar but tells everyone else they could not be found."
       ],
       "correct_answer": 1,
-      "rag_answer": "C",
-      "is_correct": false
+      "rag_answer": "B",
+      "is_correct": true
     },
     {
       "problem_index": 151,
@@ -2025,8 +2025,8 @@
         "The bankroll was far greater than on other planets."
       ],
       "correct_answer": 0,
-      "rag_answer": "A",
-      "is_correct": true
+      "rag_answer": "B",
+      "is_correct": false
     },
     {
       "problem_index": 156,
@@ -2103,8 +2103,8 @@
         "He asked the tasters to create 3 categories"
       ],
       "correct_answer": 0,
-      "rag_answer": "D",
-      "is_correct": false
+      "rag_answer": "A",
+      "is_correct": true
     },
     {
       "problem_index": 162,
@@ -2116,8 +2116,8 @@
         "He continued to collect bodies until the ship was full"
       ],
       "correct_answer": 0,
-      "rag_answer": "B",
-      "is_correct": false
+      "rag_answer": "A",
+      "is_correct": true
     },
     {
       "problem_index": 163,
@@ -2129,8 +2129,8 @@
         "Low public engagement in the voting process"
       ],
       "correct_answer": 2,
-      "rag_answer": "A",
-      "is_correct": false
+      "rag_answer": "C",
+      "is_correct": true
     },
     {
       "problem_index": 164,
@@ -2142,8 +2142,8 @@
         "He wanted to go home"
       ],
       "correct_answer": 0,
-      "rag_answer": "B",
-      "is_correct": false
+      "rag_answer": "A",
+      "is_correct": true
     },
     {
       "problem_index": 165,
@@ -2168,7 +2168,7 @@
         "Their eyes cut the night."
       ],
       "correct_answer": 0,
-      "rag_answer": "B",
+      "rag_answer": "D",
       "is_correct": false
     },
     {
@@ -2194,8 +2194,8 @@
         "The oases"
       ],
       "correct_answer": 0,
-      "rag_answer": "B",
-      "is_correct": false
+      "rag_answer": "A",
+      "is_correct": true
     },
     {
       "problem_index": 169,
@@ -2246,7 +2246,7 @@
         "The captain is highly attentive to Charlie, but does not accept any deviations to his role"
       ],
       "correct_answer": 3,
-      "rag_answer": "A",
+      "rag_answer": "C",
       "is_correct": false
     },
     {
@@ -2259,8 +2259,8 @@
         "He was told the Kal-Jmar dome sensed Earthling DNA and would explode his body on entry"
       ],
       "correct_answer": 0,
-      "rag_answer": "D",
-      "is_correct": false
+      "rag_answer": "A",
+      "is_correct": true
     },
     {
       "problem_index": 174,
@@ -2272,8 +2272,8 @@
         "A credit card"
       ],
       "correct_answer": 0,
-      "rag_answer": "B",
-      "is_correct": false
+      "rag_answer": "A",
+      "is_correct": true
     },
     {
       "problem_index": 175,
@@ -2298,7 +2298,7 @@
         "8 years"
       ],
       "correct_answer": 3,
-      "rag_answer": "C",
+      "rag_answer": "B",
       "is_correct": false
     },
     {
@@ -2337,8 +2337,8 @@
         "There is much less gravity than Earth"
       ],
       "correct_answer": 2,
-      "rag_answer": "A",
-      "is_correct": false
+      "rag_answer": "C",
+      "is_correct": true
     },
     {
       "problem_index": 180,
@@ -2506,7 +2506,7 @@
         "calculated and cautious"
       ],
       "correct_answer": 1,
-      "rag_answer": "A",
+      "rag_answer": "C",
       "is_correct": false
     },
     {
@@ -2558,8 +2558,8 @@
         "Most of them don't want to get involved with her adventure"
       ],
       "correct_answer": 2,
-      "rag_answer": "A",
-      "is_correct": false
+      "rag_answer": "C",
+      "is_correct": true
     },
     {
       "problem_index": 197,
@@ -2584,8 +2584,8 @@
         "To solve time travel, become an engineer"
       ],
       "correct_answer": 2,
-      "rag_answer": "A",
-      "is_correct": false
+      "rag_answer": "C",
+      "is_correct": true
     },
     {
       "problem_index": 199,
@@ -2610,8 +2610,8 @@
         "certain mandates will limit where authors can publish their works."
       ],
       "correct_answer": 3,
-      "rag_answer": "D",
-      "is_correct": true
+      "rag_answer": "B",
+      "is_correct": false
     }
   ]
 }

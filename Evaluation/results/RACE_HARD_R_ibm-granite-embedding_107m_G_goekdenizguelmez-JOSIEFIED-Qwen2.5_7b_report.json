@@ -6,12 +6,12 @@
   "generator_model": "goekdenizguelmez/JOSIEFIED-Qwen2.5:7b",
   "generator_params": 7.62,
   "generator_size": 4.4,
-  "timestamp": "2026-04-17T16:17:09.535329",
-  "duration": "00:07:48",
-  "duration (seconds)": 468,
+  "timestamp": "2026-05-22T14:02:08.668203",
+  "duration": "00:08:15",
+  "duration (seconds)": 495,
   "total": 200,
-  "correct": 166,
-  "accuracy": 0.83,
+  "correct": 164,
+  "accuracy": 0.82,
   "results": [
     {
       "problem_index": 1,
@@ -62,8 +62,8 @@
         "avoid the happening of traffic accidents"
       ],
       "correct_answer": "D",
-      "rag_answer": "A",
-      "is_correct": false
+      "rag_answer": "D",
+      "is_correct": true
     },
     {
       "problem_index": 5,
@@ -140,8 +140,8 @@
         "Because we had no life jackets"
       ],
       "correct_answer": "C",
-      "rag_answer": "B",
-      "is_correct": false
+      "rag_answer": "C",
+      "is_correct": true
     },
     {
       "problem_index": 11,
@@ -504,8 +504,8 @@
         "A Player of Patience"
       ],
       "correct_answer": "B",
-      "rag_answer": "C",
-      "is_correct": false
+      "rag_answer": "B",
+      "is_correct": true
     },
     {
       "problem_index": 39,
@@ -998,8 +998,8 @@
         "We don't know"
       ],
       "correct_answer": "C",
-      "rag_answer": "C",
-      "is_correct": true
+      "rag_answer": "D",
+      "is_correct": false
     },
     {
       "problem_index": 77,
@@ -1583,8 +1583,8 @@
         "A cure for cancer."
       ],
       "correct_answer": "B",
-      "rag_answer": "B",
-      "is_correct": true
+      "rag_answer": "A",
+      "is_correct": false
     },
     {
       "problem_index": 122,
@@ -1947,8 +1947,8 @@
         "a manager"
       ],
       "correct_answer": "C",
-      "rag_answer": "C",
-      "is_correct": true
+      "rag_answer": "A",
+      "is_correct": false
     },
     {
       "problem_index": 150,
@@ -2103,8 +2103,8 @@
         "help those parents who are worried about their children"
       ],
       "correct_answer": "A",
-      "rag_answer": "A",
-      "is_correct": true
+      "rag_answer": "C",
+      "is_correct": false
     },
     {
       "problem_index": 162,
@@ -2441,7 +2441,7 @@
         "have their own cars"
       ],
       "correct_answer": "D",
-      "rag_answer": "C",
+      "rag_answer": "A",
       "is_correct": false
     },
     {
@@ -2610,8 +2610,8 @@
         "Doubtful."
       ],
       "correct_answer": "A",
-      "rag_answer": "A",
-      "is_correct": true
+      "rag_answer": "B",
+      "is_correct": false
     }
   ]
 }

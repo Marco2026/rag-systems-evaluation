@@ -6,12 +6,12 @@
   "generator_model": "rjmalagon/lamarck-v0.7:14b-bf16",
   "generator_params": 14.8,
   "generator_size": 27.5,
-  "timestamp": "2026-04-14T12:15:05.642910",
-  "duration": "00:14:31",
-  "duration (seconds)": 871,
+  "timestamp": "2026-05-22T15:13:11.699001",
+  "duration": "00:11:51",
+  "duration (seconds)": 711,
   "total": 200,
-  "correct": 174,
-  "accuracy": 0.87,
+  "correct": 175,
+  "accuracy": 0.875,
   "results": [
     {
       "problem_index": 1,
@@ -140,8 +140,8 @@
         "Because we had no life jackets"
       ],
       "correct_answer": "C",
-      "rag_answer": "B",
-      "is_correct": false
+      "rag_answer": "C",
+      "is_correct": true
     },
     {
       "problem_index": 11,
@@ -868,8 +868,8 @@
         "seven to more than ten hours."
       ],
       "correct_answer": "C",
-      "rag_answer": "C",
-      "is_correct": true
+      "rag_answer": "D",
+      "is_correct": false
     },
     {
       "problem_index": 67,
@@ -1674,8 +1674,8 @@
         "A safe shooting."
       ],
       "correct_answer": "D",
-      "rag_answer": "A",
-      "is_correct": false
+      "rag_answer": "D",
+      "is_correct": true
     },
     {
       "problem_index": 129,
@@ -1960,8 +1960,8 @@
         "Laptops will be used in Westlake College in Virginia."
       ],
       "correct_answer": "D",
-      "rag_answer": "D",
-      "is_correct": true
+      "rag_answer": "B",
+      "is_correct": false
     },
     {
       "problem_index": 151,
@@ -2233,7 +2233,7 @@
         "A conservative politician."
       ],
       "correct_answer": "C",
-      "rag_answer": "D",
+      "rag_answer": "A",
       "is_correct": false
     },
     {
@@ -2298,8 +2298,8 @@
         "$123"
       ],
       "correct_answer": "D",
-      "rag_answer": "A",
-      "is_correct": false
+      "rag_answer": "D",
+      "is_correct": true
     },
     {
       "problem_index": 177,

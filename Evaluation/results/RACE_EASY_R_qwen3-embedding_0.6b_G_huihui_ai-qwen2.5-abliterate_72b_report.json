@@ -6,12 +6,12 @@
   "generator_model": "huihui_ai/qwen2.5-abliterate:72b",
   "generator_params": 72.7,
   "generator_size": 44.2,
-  "timestamp": "2026-04-17T20:59:46.196258",
-  "duration": "00:26:17",
-  "duration (seconds)": 1577,
+  "timestamp": "2026-05-21T23:21:48.980382",
+  "duration": "00:24:41",
+  "duration (seconds)": 1481,
   "total": 200,
-  "correct": 184,
-  "accuracy": 0.92,
+  "correct": 187,
+  "accuracy": 0.935,
   "results": [
     {
       "problem_index": 1,
@@ -491,8 +491,8 @@
         "do some shopping online"
       ],
       "correct_answer": "C",
-      "rag_answer": "C",
-      "is_correct": true
+      "rag_answer": "B",
+      "is_correct": false
     },
     {
       "problem_index": 38,
@@ -517,7 +517,7 @@
         "Some don't do and do in schools."
       ],
       "correct_answer": "C",
-      "rag_answer": "B",
+      "rag_answer": "A",
       "is_correct": false
     },
     {
@@ -764,7 +764,7 @@
         "teaches"
       ],
       "correct_answer": "C",
-      "rag_answer": "B",
+      "rag_answer": "D",
       "is_correct": false
     },
     {
@@ -829,8 +829,8 @@
         "A busy family"
       ],
       "correct_answer": "D",
-      "rag_answer": "B",
-      "is_correct": false
+      "rag_answer": "D",
+      "is_correct": true
     },
     {
       "problem_index": 64,
@@ -1388,8 +1388,8 @@
         "Sue's Friend"
       ],
       "correct_answer": "A",
-      "rag_answer": "B",
-      "is_correct": false
+      "rag_answer": "A",
+      "is_correct": true
     },
     {
       "problem_index": 107,
@@ -1752,8 +1752,8 @@
         "Eight"
       ],
       "correct_answer": "C",
-      "rag_answer": "D",
-      "is_correct": false
+      "rag_answer": "C",
+      "is_correct": true
     },
     {
       "problem_index": 135,
@@ -2103,7 +2103,7 @@
         "How to play drums."
       ],
       "correct_answer": "B",
-      "rag_answer": "C",
+      "rag_answer": "A",
       "is_correct": false
     },
     {
@@ -2350,8 +2350,8 @@
         "you have to change the date"
       ],
       "correct_answer": "C",
-      "rag_answer": "A",
-      "is_correct": false
+      "rag_answer": "C",
+      "is_correct": true
     },
     {
       "problem_index": 181,

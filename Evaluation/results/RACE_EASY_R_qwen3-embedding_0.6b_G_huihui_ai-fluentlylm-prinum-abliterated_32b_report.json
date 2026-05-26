@@ -6,9 +6,9 @@
   "generator_model": "huihui_ai/fluentlylm-prinum-abliterated:32b",
   "generator_params": 32.8,
   "generator_size": 18.5,
-  "timestamp": "2026-04-17T22:46:40.348518",
-  "duration": "00:14:54",
-  "duration (seconds)": 894,
+  "timestamp": "2026-05-22T01:29:28.911754",
+  "duration": "00:13:49",
+  "duration (seconds)": 829,
   "total": 200,
   "correct": 185,
   "accuracy": 0.925,
@@ -517,7 +517,7 @@
         "Some don't do and do in schools."
       ],
       "correct_answer": "C",
-      "rag_answer": "B",
+      "rag_answer": "A",
       "is_correct": false
     },
     {
@@ -2103,7 +2103,7 @@
         "How to play drums."
       ],
       "correct_answer": "B",
-      "rag_answer": "C",
+      "rag_answer": "A",
       "is_correct": false
     },
     {
@@ -2207,7 +2207,7 @@
         "cut down too many trees and grass"
       ],
       "correct_answer": "C",
-      "rag_answer": "D",
+      "rag_answer": "A",
       "is_correct": false
     },
     {
@@ -2298,8 +2298,8 @@
         "After she came back from the cinema."
       ],
       "correct_answer": "A",
-      "rag_answer": "A",
-      "is_correct": true
+      "rag_answer": "D",
+      "is_correct": false
     },
     {
       "problem_index": 177,
@@ -2493,8 +2493,8 @@
         "he heard a noise"
       ],
       "correct_answer": "C",
-      "rag_answer": "A",
-      "is_correct": false
+      "rag_answer": "C",
+      "is_correct": true
     },
     {
       "problem_index": 192,

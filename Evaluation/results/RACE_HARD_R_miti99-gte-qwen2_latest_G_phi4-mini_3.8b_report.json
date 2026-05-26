@@ -6,12 +6,12 @@
   "generator_model": "phi4-mini:3.8b",
   "generator_params": 3.84,
   "generator_size": 2.3,
-  "timestamp": "2026-04-14T11:17:14.869728",
-  "duration": "00:07:42",
-  "duration (seconds)": 462,
+  "timestamp": "2026-05-22T11:40:39.184440",
+  "duration": "00:07:19",
+  "duration (seconds)": 439,
   "total": 200,
-  "correct": 1,
-  "accuracy": 0.005,
+  "correct": 0,
+  "accuracy": 0.0,
   "results": [
     {
       "problem_index": 1,
@@ -101,7 +101,7 @@
         "Keep Holding on to This Negative Emotion as Long as Possible."
       ],
       "correct_answer": "A",
-      "rag_answer": "A) Clear Your Mental Space.",
+      "rag_answer": "D) Keep Holding on to This Negative Emotion as Long as Possible.",
       "is_correct": false
     },
     {
@@ -114,7 +114,7 @@
         "being alive is lucky for her"
       ],
       "correct_answer": "D",
-      "rag_answer": "B) God doesn't treat everyone fairly",
+      "rag_answer": "D) being alive is lucky for her",
       "is_correct": false
     },
     {
@@ -140,7 +140,7 @@
         "Because we had no life jackets"
       ],
       "correct_answer": "C",
-      "rag_answer": "B) Because the boat sank.",
+      "rag_answer": "C) Because the boat hit something with force.",
       "is_correct": false
     },
     {
@@ -244,7 +244,7 @@
         "S. H.E. will perform on the CCTV Spring Festival Evening Party."
       ],
       "correct_answer": "D",
-      "rag_answer": "D) S.H.E. will perform on the CCTV Spring Festival Evening Party.",
+      "rag_answer": "A) S.H.E. band will get the old fashioned evening exciting.",
       "is_correct": false
     },
     {
@@ -283,7 +283,7 @@
         "Love to My Brother"
       ],
       "correct_answer": "C",
-      "rag_answer": "B) A Peaceful Death of My Brother",
+      "rag_answer": "C) My Silent Keeper",
       "is_correct": false
     },
     {
@@ -374,7 +374,7 @@
         "you can get to know the latest knowledge in science."
       ],
       "correct_answer": "C",
-      "rag_answer": "C) you can get to know the latest knowledge in science.",
+      "rag_answer": "C) you can live an independent life",
       "is_correct": false
     },
     {
@@ -452,7 +452,7 @@
         "the soil of its foundation was too weak"
       ],
       "correct_answer": "D",
-      "rag_answer": "B) its foundation shook badly",
+      "rag_answer": "B) its foundation shaken badly",
       "is_correct": false
     },
     {
@@ -491,7 +491,7 @@
         "Doubtful"
       ],
       "correct_answer": "A",
-      "rag_answer": "C) Positive",
+      "rag_answer": "B) Negative",
       "is_correct": false
     },
     {
@@ -530,7 +530,7 @@
         "Robby thought his mother would come at last"
       ],
       "correct_answer": "C",
-      "rag_answer": "C) she wanted to do something to save a poor performance.",
+      "rag_answer": "C) she wanted to do something to save a poor performance",
       "is_correct": false
     },
     {
@@ -543,7 +543,7 @@
         "None of them"
       ],
       "correct_answer": "A",
-      "rag_answer": "A) A charming table lamp.",
+      "rag_answer": "C) The lovely coffee table.",
       "is_correct": false
     },
     {
@@ -608,7 +608,7 @@
         "not necessarily be backward"
       ],
       "correct_answer": "D",
-      "rag_answer": "A) have a high IQ",
+      "rag_answer": "D) not necessarily be backward",
       "is_correct": false
     },
     {
@@ -660,7 +660,7 @@
         "The development of power harvesting."
       ],
       "correct_answer": "A",
-      "rag_answer": "D) The development of power harvesting.",
+      "rag_answer": "A) A new technique to create power.",
       "is_correct": false
     },
     {
@@ -712,7 +712,7 @@
         "improving people's understanding of their own or other cultures"
       ],
       "correct_answer": "A",
-      "rag_answer": "C) improving people's understanding of their own or other cultures",
+      "rag_answer": "C) being a way of entertaining culture",
       "is_correct": false
     },
     {
@@ -868,7 +868,7 @@
         "seven to more than ten hours."
       ],
       "correct_answer": "C",
-      "rag_answer": "C) one to more than ten hours",
+      "rag_answer": "D) seven to more than ten hours.",
       "is_correct": false
     },
     {
@@ -881,7 +881,7 @@
         "Shark Brought to Los Angeles for Commercial Dies"
       ],
       "correct_answer": "D",
-      "rag_answer": "C) Sharks Are Sensitve Animals in Captivity",
+      "rag_answer": "C) Sharks Are Sensitive Animals in Captivity",
       "is_correct": false
     },
     {
@@ -920,7 +920,7 @@
         "can check their eyes without paying"
       ],
       "correct_answer": "D",
-      "rag_answer": "D) can check their eyes without paying",
+      "rag_answer": "B) can design their own glasses",
       "is_correct": false
     },
     {
@@ -946,7 +946,7 @@
         "are seldom served in restaurants"
       ],
       "correct_answer": "B",
-      "rag_answer": "B) are gaining popularity in the south of America",
+      "rag_answer": "B) are gaining popularity in the South of America.",
       "is_correct": false
     },
     {
@@ -959,7 +959,7 @@
         "they are having better communication with their parents"
       ],
       "correct_answer": "D",
-      "rag_answer": "B) they are having easier access to the Internet",
+      "rag_answer": "A) they are having more exposure to the television programs",
       "is_correct": false
     },
     {
@@ -1050,7 +1050,7 @@
         "parents with young children"
       ],
       "correct_answer": "D",
-      "rag_answer": "D) parents with young children",
+      "rag_answer": "A) young children",
       "is_correct": false
     },
     {
@@ -1063,7 +1063,7 @@
         "First the author makes an introduction and then draws a conclusion."
       ],
       "correct_answer": "A",
-      "rag_answer": "A) First the author gives some messages and then explain them.",
+      "rag_answer": "D) First the author introduces different perspectives, illustrating with examples, before drawing conclusions about relationships and communication.",
       "is_correct": false
     },
     {
@@ -1076,7 +1076,7 @@
         "He agreed to accept Michael because he was moved by his determination."
       ],
       "correct_answer": "C",
-      "rag_answer": "D) He agreed to accept Michael because he was moved by his determination.",
+      "rag_answer": "C) He decided to accept Michael though he was unwilling to do so.",
       "is_correct": false
     },
     {
@@ -1141,7 +1141,7 @@
         "People should develop a growth mindest."
       ],
       "correct_answer": "D",
-      "rag_answer": "D) People should develop a growth mindst.",
+      "rag_answer": "D) People should develop a growth mindest.",
       "is_correct": false
     },
     {
@@ -1167,7 +1167,7 @@
         "must pay the insurance for the renter"
       ],
       "correct_answer": "B",
-      "rag_answer": "B) will not suffer the consequence",
+      "rag_answer": "B) will not suffer any consequences",
       "is_correct": false
     },
     {
@@ -1258,7 +1258,7 @@
         "all winners' prizes are for their college educations"
       ],
       "correct_answer": "B",
-      "rag_answer": "C) more than half girls took part in the recent competition",
+      "rag_answer": "C) More than half girls took part in the recent competition.",
       "is_correct": false
     },
     {
@@ -1336,7 +1336,7 @@
         "only to in honour of Marie Curie"
       ],
       "correct_answer": "B",
-      "rag_answer": "C)",
+      "rag_answer": "B) equal to Women's Nobel Prize",
       "is_correct": false
     },
     {
@@ -1349,7 +1349,7 @@
         "the guidance of schools on mothers"
       ],
       "correct_answer": "B",
-      "rag_answer": "A) the relationship between a teenager and his/her maternal figure.",
+      "rag_answer": "B) the supervision of mothers on children",
       "is_correct": false
     },
     {
@@ -1505,7 +1505,7 @@
         "the smaller member countries would be pleased"
       ],
       "correct_answer": "B",
-      "rag_answer": "D) the smaller member countries would be displeased",
+      "rag_answer": "D) the smaller member countries would be displeased.",
       "is_correct": false
     },
     {
@@ -1518,7 +1518,7 @@
         "biting nails"
       ],
       "correct_answer": "B",
-      "rag_answer": "B) hurting themselves",
+      "rag_answer": "A) Chewing pens",
       "is_correct": false
     },
     {
@@ -1531,7 +1531,7 @@
         "Cellphone Use Is Spreading"
       ],
       "correct_answer": "D",
-      "rag_answer": "D) Cellphone Use Is Spreading",
+      "rag_answer": "A) Social Acceptance And Rejection",
       "is_correct": false
     },
     {
@@ -1557,7 +1557,7 @@
         "improve the design of their plane's wings"
       ],
       "correct_answer": "D",
-      "rag_answer": "A) test the materials they would use for their plane",
+      "rag_answer": "C) see which shape could support the most weight",
       "is_correct": false
     },
     {
@@ -1609,7 +1609,7 @@
         "all of the above"
       ],
       "correct_answer": "D",
-      "rag_answer": "C) we can now travel in super-fast trains",
+      "rag_answer": "A) We can have a smooth and untroubled journey. ",
       "is_correct": false
     },
     {
@@ -1622,7 +1622,7 @@
         "only a character made up by Arthur Conan Dolye"
       ],
       "correct_answer": "D",
-      "rag_answer": "A) the greatest detective who ever lived",
+      "rag_answer": "C) Arthur Conan Doyle",
       "is_correct": false
     },
     {
@@ -1635,8 +1635,8 @@
         "Because they can express specific meanings."
       ],
       "correct_answer": "D",
-      "rag_answer": "D",
-      "is_correct": true
+      "rag_answer": "D) Because they can express specific meanings.",
+      "is_correct": false
     },
     {
       "problem_index": 126,
@@ -1804,7 +1804,7 @@
         "they know little about American culture and society"
       ],
       "correct_answer": "B",
-      "rag_answer": "B) they are afraid they might meet with unfair judgment in these areas",
+      "rag_answer": "A) their English is not good enough",
       "is_correct": false
     },
     {
@@ -1843,7 +1843,7 @@
         "before cancers began to hit kids"
       ],
       "correct_answer": "B",
-      "rag_answer": "B) when Alex was about four years old",
+      "rag_answer": "B) when Alex was about four years old.",
       "is_correct": false
     },
     {
@@ -1882,7 +1882,7 @@
         "the cows had fed themselves"
       ],
       "correct_answer": "B",
-      "rag_answer": "D) the cows had fed themselves",
+      "rag_answer": "C) they did not have time to feed them",
       "is_correct": false
     },
     {
@@ -1986,7 +1986,7 @@
         "Sichuan and Tibet"
       ],
       "correct_answer": "D",
-      "rag_answer": "C) The Gobi Desert",
+      "rag_answer": "D) Sichuan and Tibet",
       "is_correct": false
     },
     {
@@ -2025,7 +2025,7 @@
         "have a football match"
       ],
       "correct_answer": "D",
-      "rag_answer": "C) Sing songs",
+      "rag_answer": "C) sing songs",
       "is_correct": false
     },
     {
@@ -2038,7 +2038,7 @@
         "are worried about the safety of shopping online"
       ],
       "correct_answer": "D",
-      "rag_answer": "D) are worried about the safety of shopping online",
+      "rag_answer": "D)",
       "is_correct": false
     },
     {
@@ -2103,7 +2103,7 @@
         "help those parents who are worried about their children"
       ],
       "correct_answer": "A",
-      "rag_answer": "C) tell them about the benefits of playing football",
+      "rag_answer": "A) bring in new team members",
       "is_correct": false
     },
     {
@@ -2233,7 +2233,7 @@
         "A conservative politician."
       ],
       "correct_answer": "C",
-      "rag_answer": "C) An important scientist",
+      "rag_answer": "D) A conservative politician.",
       "is_correct": false
     },
     {
@@ -2298,7 +2298,7 @@
         "$123"
       ],
       "correct_answer": "D",
-      "rag_answer": "D) $123",
+      "rag_answer": "B) $189",
       "is_correct": false
     },
     {
@@ -2311,7 +2311,7 @@
         "Symphony."
       ],
       "correct_answer": "B",
-      "rag_answer": "B) Maasdam.",
+      "rag_answer": "C) Divina.",
       "is_correct": false
     },
     {
@@ -2337,7 +2337,7 @@
         "they had problems finding carpenters for putting up Christmas trees"
       ],
       "correct_answer": "C",
-      "rag_answer": "B) they had problems decorating their Christmas trees.",
+      "rag_answer": "B) they had problems decorating their Christmas trees",
       "is_correct": false
     },
     {
@@ -2350,7 +2350,7 @@
         "they have to follow an evolutionary step backward."
       ],
       "correct_answer": "A",
-      "rag_answer": "D) they have to follow an evolutionary step backward.",
+      "rag_answer": "A) they are becoming less patient.",
       "is_correct": false
     },
     {
@@ -2480,7 +2480,7 @@
         "got angry at him for his attitude"
       ],
       "correct_answer": "A",
-      "rag_answer": "C) thought he was joking",
+      "rag_answer": "A) felt a great sense of loss",
       "is_correct": false
     },
     {
@@ -2519,7 +2519,7 @@
         "they feel confused about where to buy safe food"
       ],
       "correct_answer": "D",
-      "rag_answer": "D) they feel confused about where to buy safe food",
+      "rag_answer": "C) they will never go to supermarkets",
       "is_correct": false
     },
     {
@@ -2571,7 +2571,7 @@
         "To offer us some information of both sexes' going online in the US."
       ],
       "correct_answer": "A",
-      "rag_answer": "D) To offer us some information of both sexes' going online in the US.",
+      "rag_answer": "D) To offer us some information on both sexes' going online in the US.",
       "is_correct": false
     },
     {
@@ -2610,7 +2610,7 @@
         "Doubtful."
       ],
       "correct_answer": "A",
-      "rag_answer": "C) Curious.",
+      "rag_answer": "A) Favorable.",
       "is_correct": false
     }
   ]

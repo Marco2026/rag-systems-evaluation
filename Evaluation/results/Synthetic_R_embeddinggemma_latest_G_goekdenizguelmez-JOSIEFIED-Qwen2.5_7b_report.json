@@ -6,12 +6,12 @@
   "generator_model": "goekdenizguelmez/JOSIEFIED-Qwen2.5:7b",
   "generator_params": 7.62,
   "generator_size": 4.4,
-  "timestamp": "2026-04-30T01:13:03.305422",
-  "duration": "00:07:52",
-  "duration (seconds)": 472,
+  "timestamp": "2026-05-22T22:33:56.899828",
+  "duration": "00:07:20",
+  "duration (seconds)": 440,
   "total": 200,
-  "correct": 195,
-  "accuracy": 0.975,
+  "correct": 194,
+  "accuracy": 0.97,
   "results": [
     {
       "problem_index": 1,
@@ -283,8 +283,8 @@
         "D": "Eternal Wind"
       },
       "correct_answer": "C",
-      "rag_answer": "C",
-      "is_correct": true
+      "rag_answer": "A",
+      "is_correct": false
     },
     {
       "problem_index": 22,

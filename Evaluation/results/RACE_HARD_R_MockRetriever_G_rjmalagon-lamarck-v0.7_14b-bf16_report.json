@@ -6,12 +6,12 @@
   "generator_model": "rjmalagon/lamarck-v0.7:14b-bf16",
   "generator_params": 14.8,
   "generator_size": 27.5,
-  "timestamp": "2026-04-14T20:46:28.096532",
-  "duration": "00:03:48",
-  "duration (seconds)": 228,
+  "timestamp": "2026-05-22T14:28:19.205419",
+  "duration": "00:03:25",
+  "duration (seconds)": 205,
   "total": 200,
-  "correct": 116,
-  "accuracy": 0.58,
+  "correct": 112,
+  "accuracy": 0.56,
   "results": [
     {
       "problem_index": 1,
@@ -36,8 +36,8 @@
         "can avoid the burdens of unpleasant or frightening things"
       ],
       "correct_answer": "C",
-      "rag_answer": "C",
-      "is_correct": true
+      "rag_answer": "D",
+      "is_correct": false
     },
     {
       "problem_index": 3,
@@ -153,8 +153,8 @@
         "His beautiful speech"
       ],
       "correct_answer": "C",
-      "rag_answer": "A",
-      "is_correct": false
+      "rag_answer": "C",
+      "is_correct": true
     },
     {
       "problem_index": 12,
@@ -491,8 +491,8 @@
         "Doubtful"
       ],
       "correct_answer": "A",
-      "rag_answer": "B",
-      "is_correct": false
+      "rag_answer": "A",
+      "is_correct": true
     },
     {
       "problem_index": 38,
@@ -647,8 +647,8 @@
         "He hasn't formed his own idea yet."
       ],
       "correct_answer": "B",
-      "rag_answer": "B",
-      "is_correct": true
+      "rag_answer": "D",
+      "is_correct": false
     },
     {
       "problem_index": 50,
@@ -751,8 +751,8 @@
         "Kids change their feelings more easily."
       ],
       "correct_answer": "A",
-      "rag_answer": "A",
-      "is_correct": true
+      "rag_answer": "B",
+      "is_correct": false
     },
     {
       "problem_index": 58,
@@ -842,8 +842,8 @@
         "admired her a lot"
       ],
       "correct_answer": "B",
-      "rag_answer": "A",
-      "is_correct": false
+      "rag_answer": "B",
+      "is_correct": true
     },
     {
       "problem_index": 65,
@@ -920,8 +920,8 @@
         "can check their eyes without paying"
       ],
       "correct_answer": "D",
-      "rag_answer": "C",
-      "is_correct": false
+      "rag_answer": "D",
+      "is_correct": true
     },
     {
       "problem_index": 71,
@@ -946,8 +946,8 @@
         "are seldom served in restaurants"
       ],
       "correct_answer": "B",
-      "rag_answer": "B",
-      "is_correct": true
+      "rag_answer": "D",
+      "is_correct": false
     },
     {
       "problem_index": 73,
@@ -1063,8 +1063,8 @@
         "First the author makes an introduction and then draws a conclusion."
       ],
       "correct_answer": "A",
-      "rag_answer": "A",
-      "is_correct": true
+      "rag_answer": "D",
+      "is_correct": false
     },
     {
       "problem_index": 82,
@@ -1102,8 +1102,8 @@
         "We shouldn't care what kind of situations we're in."
       ],
       "correct_answer": "A",
-      "rag_answer": "B",
-      "is_correct": false
+      "rag_answer": "A",
+      "is_correct": true
     },
     {
       "problem_index": 85,
@@ -1219,8 +1219,8 @@
         "She knew the boy's trouble."
       ],
       "correct_answer": "D",
-      "rag_answer": "D",
-      "is_correct": true
+      "rag_answer": "B",
+      "is_correct": false
     },
     {
       "problem_index": 94,
@@ -1414,8 +1414,8 @@
         "It was more like a girl's"
       ],
       "correct_answer": "B",
-      "rag_answer": "B",
-      "is_correct": true
+      "rag_answer": "D",
+      "is_correct": false
     },
     {
       "problem_index": 109,
@@ -1466,7 +1466,7 @@
         "had a good reputation for its wildlife"
       ],
       "correct_answer": "B",
-      "rag_answer": "C",
+      "rag_answer": "D",
       "is_correct": false
     },
     {
@@ -1583,7 +1583,7 @@
         "A cure for cancer."
       ],
       "correct_answer": "B",
-      "rag_answer": "C",
+      "rag_answer": "D",
       "is_correct": false
     },
     {
@@ -1869,8 +1869,8 @@
         "Taiwanese teens experience more stress than American teens"
       ],
       "correct_answer": "C",
-      "rag_answer": "C",
-      "is_correct": true
+      "rag_answer": "D",
+      "is_correct": false
     },
     {
       "problem_index": 144,
@@ -1895,8 +1895,8 @@
         "ignorant"
       ],
       "correct_answer": "C",
-      "rag_answer": "C",
-      "is_correct": true
+      "rag_answer": "D",
+      "is_correct": false
     },
     {
       "problem_index": 146,
@@ -1986,8 +1986,8 @@
         "Sichuan and Tibet"
       ],
       "correct_answer": "D",
-      "rag_answer": "A",
-      "is_correct": false
+      "rag_answer": "D",
+      "is_correct": true
     },
     {
       "problem_index": 153,
@@ -2233,8 +2233,8 @@
         "A conservative politician."
       ],
       "correct_answer": "C",
-      "rag_answer": "C",
-      "is_correct": true
+      "rag_answer": "D",
+      "is_correct": false
     },
     {
       "problem_index": 172,
@@ -2324,7 +2324,7 @@
         "A strong experience my parents and I had"
       ],
       "correct_answer": "C",
-      "rag_answer": "B",
+      "rag_answer": "D",
       "is_correct": false
     },
     {
@@ -2467,7 +2467,7 @@
         "negative"
       ],
       "correct_answer": "B",
-      "rag_answer": "A",
+      "rag_answer": "C",
       "is_correct": false
     },
     {

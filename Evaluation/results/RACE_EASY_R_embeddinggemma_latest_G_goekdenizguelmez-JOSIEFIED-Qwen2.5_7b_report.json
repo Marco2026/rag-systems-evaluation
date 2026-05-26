@@ -6,12 +6,12 @@
   "generator_model": "goekdenizguelmez/JOSIEFIED-Qwen2.5:7b",
   "generator_params": 7.62,
   "generator_size": 4.4,
-  "timestamp": "2026-04-18T00:27:45.001792",
-  "duration": "00:07:39",
-  "duration (seconds)": 459,
+  "timestamp": "2026-05-22T02:01:48.519482",
+  "duration": "00:07:23",
+  "duration (seconds)": 443,
   "total": 200,
-  "correct": 161,
-  "accuracy": 0.805,
+  "correct": 167,
+  "accuracy": 0.835,
   "results": [
     {
       "problem_index": 1,
@@ -231,8 +231,8 @@
         "low"
       ],
       "correct_answer": "B",
-      "rag_answer": "A",
-      "is_correct": false
+      "rag_answer": "B",
+      "is_correct": true
     },
     {
       "problem_index": 18,
@@ -244,8 +244,8 @@
         "not only on the left but also on the fight"
       ],
       "correct_answer": "A",
-      "rag_answer": "D",
-      "is_correct": false
+      "rag_answer": "A",
+      "is_correct": true
     },
     {
       "problem_index": 19,
@@ -270,8 +270,8 @@
         "six"
       ],
       "correct_answer": "C",
-      "rag_answer": "B",
-      "is_correct": false
+      "rag_answer": "C",
+      "is_correct": true
     },
     {
       "problem_index": 21,
@@ -361,8 +361,8 @@
         "Hill'S father was cruel to him"
       ],
       "correct_answer": "A",
-      "rag_answer": "A",
-      "is_correct": true
+      "rag_answer": "C",
+      "is_correct": false
     },
     {
       "problem_index": 28,
@@ -491,7 +491,7 @@
         "do some shopping online"
       ],
       "correct_answer": "C",
-      "rag_answer": "A",
+      "rag_answer": "B",
       "is_correct": false
     },
     {
@@ -621,8 +621,8 @@
         "the teacher's"
       ],
       "correct_answer": "B",
-      "rag_answer": "A",
-      "is_correct": false
+      "rag_answer": "B",
+      "is_correct": true
     },
     {
       "problem_index": 48,
@@ -699,8 +699,8 @@
         "Spending money wisely at college"
       ],
       "correct_answer": "D",
-      "rag_answer": "D",
-      "is_correct": true
+      "rag_answer": "A",
+      "is_correct": false
     },
     {
       "problem_index": 54,
@@ -725,8 +725,8 @@
         "surprised"
       ],
       "correct_answer": "B",
-      "rag_answer": "D",
-      "is_correct": false
+      "rag_answer": "B",
+      "is_correct": true
     },
     {
       "problem_index": 56,
@@ -816,8 +816,8 @@
         "Functions of mirror neurons."
       ],
       "correct_answer": "D",
-      "rag_answer": "D",
-      "is_correct": true
+      "rag_answer": "C",
+      "is_correct": false
     },
     {
       "problem_index": 63,
@@ -829,8 +829,8 @@
         "A busy family"
       ],
       "correct_answer": "D",
-      "rag_answer": "C",
-      "is_correct": false
+      "rag_answer": "D",
+      "is_correct": true
     },
     {
       "problem_index": 64,
@@ -1375,8 +1375,8 @@
         "do easy chores"
       ],
       "correct_answer": "A",
-      "rag_answer": "D",
-      "is_correct": false
+      "rag_answer": "A",
+      "is_correct": true
     },
     {
       "problem_index": 106,
@@ -1713,8 +1713,8 @@
         "by train"
       ],
       "correct_answer": "C",
-      "rag_answer": "C",
-      "is_correct": true
+      "rag_answer": "A",
+      "is_correct": false
     },
     {
       "problem_index": 132,
@@ -1856,8 +1856,8 @@
         "A professional report"
       ],
       "correct_answer": "A",
-      "rag_answer": "B",
-      "is_correct": false
+      "rag_answer": "A",
+      "is_correct": true
     },
     {
       "problem_index": 143,
@@ -2220,8 +2220,8 @@
         "She goes to the clothes store and changes the coat."
       ],
       "correct_answer": "A",
-      "rag_answer": "D",
-      "is_correct": false
+      "rag_answer": "A",
+      "is_correct": true
     },
     {
       "problem_index": 171,
@@ -2545,8 +2545,8 @@
         "Pilots'- First Class -Club- Economy"
       ],
       "correct_answer": "D",
-      "rag_answer": "B",
-      "is_correct": false
+      "rag_answer": "D",
+      "is_correct": true
     },
     {
       "problem_index": 196,
@@ -2610,7 +2610,7 @@
         "All his friends"
       ],
       "correct_answer": "B",
-      "rag_answer": "C",
+      "rag_answer": "A",
       "is_correct": false
     }
   ]

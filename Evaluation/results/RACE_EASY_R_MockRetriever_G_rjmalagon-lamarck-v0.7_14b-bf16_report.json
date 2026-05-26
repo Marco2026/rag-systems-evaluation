@@ -6,9 +6,9 @@
   "generator_model": "rjmalagon/lamarck-v0.7:14b-bf16",
   "generator_params": 14.8,
   "generator_size": 27.5,
-  "timestamp": "2026-04-18T10:00:06.569079",
-  "duration": "00:04:06",
-  "duration (seconds)": 246,
+  "timestamp": "2026-05-22T02:11:39.172274",
+  "duration": "00:03:18",
+  "duration (seconds)": 198,
   "total": 200,
   "correct": 109,
   "accuracy": 0.545,
@@ -101,8 +101,8 @@
         "He understood his stepmother."
       ],
       "correct_answer": "B",
-      "rag_answer": "B",
-      "is_correct": true
+      "rag_answer": "D",
+      "is_correct": false
     },
     {
       "problem_index": 8,
@@ -192,7 +192,7 @@
         "Old John didn't smoke a cigar a day"
       ],
       "correct_answer": "C",
-      "rag_answer": "D",
+      "rag_answer": "B",
       "is_correct": false
     },
     {
@@ -348,8 +348,8 @@
         "Clothes and books."
       ],
       "correct_answer": "C",
-      "rag_answer": "D",
-      "is_correct": false
+      "rag_answer": "C",
+      "is_correct": true
     },
     {
       "problem_index": 27,
@@ -452,8 +452,8 @@
         "Clothes"
       ],
       "correct_answer": "B",
-      "rag_answer": "D",
-      "is_correct": false
+      "rag_answer": "B",
+      "is_correct": true
     },
     {
       "problem_index": 35,
@@ -647,8 +647,8 @@
         "allows people to walk freely in the fitting room"
       ],
       "correct_answer": "C",
-      "rag_answer": "B",
-      "is_correct": false
+      "rag_answer": "C",
+      "is_correct": true
     },
     {
       "problem_index": 50,
@@ -751,8 +751,8 @@
         "They were frightened and happy"
       ],
       "correct_answer": "A",
-      "rag_answer": "A",
-      "is_correct": true
+      "rag_answer": "B",
+      "is_correct": false
     },
     {
       "problem_index": 58,
@@ -803,8 +803,8 @@
         "supper"
       ],
       "correct_answer": "B",
-      "rag_answer": "B",
-      "is_correct": true
+      "rag_answer": "A",
+      "is_correct": false
     },
     {
       "problem_index": 62,
@@ -1492,7 +1492,7 @@
         "The Doctor"
       ],
       "correct_answer": "C",
-      "rag_answer": "D",
+      "rag_answer": "B",
       "is_correct": false
     },
     {
@@ -1778,8 +1778,8 @@
         "on 2"
       ],
       "correct_answer": "B",
-      "rag_answer": "C",
-      "is_correct": false
+      "rag_answer": "B",
+      "is_correct": true
     },
     {
       "problem_index": 137,
@@ -1960,7 +1960,7 @@
         "clearer and clearer."
       ],
       "correct_answer": "A",
-      "rag_answer": "B",
+      "rag_answer": "D",
       "is_correct": false
     },
     {
@@ -2129,7 +2129,7 @@
         "in a secret place"
       ],
       "correct_answer": "C",
-      "rag_answer": "D",
+      "rag_answer": "A",
       "is_correct": false
     },
     {
@@ -2259,8 +2259,8 @@
         "he refused to change their musical style"
       ],
       "correct_answer": "D",
-      "rag_answer": "D",
-      "is_correct": true
+      "rag_answer": "A",
+      "is_correct": false
     },
     {
       "problem_index": 174,

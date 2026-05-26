@@ -6,12 +6,12 @@
   "generator_model": "huihui_ai/qwen2.5-abliterate:72b",
   "generator_params": 72.7,
   "generator_size": 44.2,
-  "timestamp": "2026-04-14T15:00:48.309804",
-  "duration": "00:27:28",
-  "duration (seconds)": 1648,
+  "timestamp": "2026-05-22T11:11:24.799472",
+  "duration": "00:26:30",
+  "duration (seconds)": 1590,
   "total": 200,
-  "correct": 173,
-  "accuracy": 0.865,
+  "correct": 175,
+  "accuracy": 0.875,
   "results": [
     {
       "problem_index": 1,
@@ -478,8 +478,8 @@
         "ensure the children were always neat and clean"
       ],
       "correct_answer": "B",
-      "rag_answer": "A",
-      "is_correct": false
+      "rag_answer": "B",
+      "is_correct": true
     },
     {
       "problem_index": 37,
@@ -569,8 +569,8 @@
         "It's hard to achieve what we wish."
       ],
       "correct_answer": "D",
-      "rag_answer": "D",
-      "is_correct": true
+      "rag_answer": "B",
+      "is_correct": false
     },
     {
       "problem_index": 44,
@@ -1362,8 +1362,8 @@
         "More and more people die of AIDS now."
       ],
       "correct_answer": "D",
-      "rag_answer": "B",
-      "is_correct": false
+      "rag_answer": "D",
+      "is_correct": true
     },
     {
       "problem_index": 105,
@@ -2324,8 +2324,8 @@
         "A strong experience my parents and I had"
       ],
       "correct_answer": "C",
-      "rag_answer": "D",
-      "is_correct": false
+      "rag_answer": "C",
+      "is_correct": true
     },
     {
       "problem_index": 179,

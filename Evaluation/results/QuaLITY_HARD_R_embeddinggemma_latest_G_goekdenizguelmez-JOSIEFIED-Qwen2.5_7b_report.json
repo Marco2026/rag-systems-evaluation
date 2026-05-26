@@ -6,12 +6,12 @@
   "generator_model": "goekdenizguelmez/JOSIEFIED-Qwen2.5:7b",
   "generator_params": 7.62,
   "generator_size": 4.4,
-  "timestamp": "2026-04-12T11:40:41.110033",
-  "duration": "00:19:41",
-  "duration (seconds)": 1181,
+  "timestamp": "2026-05-21T18:44:26.383299",
+  "duration": "00:14:31",
+  "duration (seconds)": 871,
   "total": 200,
-  "correct": 106,
-  "accuracy": 0.53,
+  "correct": 102,
+  "accuracy": 0.51,
   "results": [
     {
       "problem_index": 1,
@@ -192,8 +192,8 @@
         "He doesn't think they can look after themselves"
       ],
       "correct_answer": 0,
-      "rag_answer": "A",
-      "is_correct": true
+      "rag_answer": "C",
+      "is_correct": false
     },
     {
       "problem_index": 15,
@@ -478,7 +478,7 @@
         "To have a plebian contest"
       ],
       "correct_answer": 1,
-      "rag_answer": "A",
+      "rag_answer": "C",
       "is_correct": false
     },
     {
@@ -608,7 +608,7 @@
         "A woman tries to benevolently prove that people can become younger through space travel."
       ],
       "correct_answer": 2,
-      "rag_answer": "B",
+      "rag_answer": "A",
       "is_correct": false
     },
     {
@@ -647,8 +647,8 @@
         "There is zero life"
       ],
       "correct_answer": 2,
-      "rag_answer": "A",
-      "is_correct": false
+      "rag_answer": "C",
+      "is_correct": true
     },
     {
       "problem_index": 50,
@@ -660,8 +660,8 @@
         "Microphones"
       ],
       "correct_answer": 1,
-      "rag_answer": "B",
-      "is_correct": true
+      "rag_answer": "C",
+      "is_correct": false
     },
     {
       "problem_index": 51,
@@ -673,8 +673,8 @@
         "Angry he had carried Koroby"
       ],
       "correct_answer": 2,
-      "rag_answer": "C",
-      "is_correct": true
+      "rag_answer": "B",
+      "is_correct": false
     },
     {
       "problem_index": 52,
@@ -686,8 +686,8 @@
         "The species live in communities together."
       ],
       "correct_answer": 1,
-      "rag_answer": "A",
-      "is_correct": false
+      "rag_answer": "B",
+      "is_correct": true
     },
     {
       "problem_index": 53,
@@ -712,8 +712,8 @@
         "Three"
       ],
       "correct_answer": 0,
-      "rag_answer": "A",
-      "is_correct": true
+      "rag_answer": "B",
+      "is_correct": false
     },
     {
       "problem_index": 55,
@@ -790,8 +790,8 @@
         "Joyce"
       ],
       "correct_answer": 0,
-      "rag_answer": "D",
-      "is_correct": false
+      "rag_answer": "A",
+      "is_correct": true
     },
     {
       "problem_index": 61,
@@ -842,7 +842,7 @@
         "Andrias would have died"
       ],
       "correct_answer": 1,
-      "rag_answer": "C",
+      "rag_answer": "A",
       "is_correct": false
     },
     {
@@ -855,8 +855,8 @@
         "Donald Trump caused its demise."
       ],
       "correct_answer": 1,
-      "rag_answer": "B",
-      "is_correct": true
+      "rag_answer": "A",
+      "is_correct": false
     },
     {
       "problem_index": 66,
@@ -881,8 +881,8 @@
         "No, Evelyn gets caught"
       ],
       "correct_answer": 0,
-      "rag_answer": "A",
-      "is_correct": true
+      "rag_answer": "C",
+      "is_correct": false
     },
     {
       "problem_index": 68,
@@ -933,8 +933,8 @@
         "To appease the local Earthlings"
       ],
       "correct_answer": 0,
-      "rag_answer": "A",
-      "is_correct": true
+      "rag_answer": "B",
+      "is_correct": false
     },
     {
       "problem_index": 72,
@@ -1024,8 +1024,8 @@
         "With a nuclear weapon"
       ],
       "correct_answer": 1,
-      "rag_answer": "A",
-      "is_correct": false
+      "rag_answer": "B",
+      "is_correct": true
     },
     {
       "problem_index": 79,
@@ -1050,8 +1050,8 @@
         "He prefers their ship to his own"
       ],
       "correct_answer": 2,
-      "rag_answer": "C",
-      "is_correct": true
+      "rag_answer": "B",
+      "is_correct": false
     },
     {
       "problem_index": 81,
@@ -1128,7 +1128,7 @@
         "He was assisted by unnamed parties"
       ],
       "correct_answer": 3,
-      "rag_answer": "C",
+      "rag_answer": "B",
       "is_correct": false
     },
     {
@@ -1414,7 +1414,7 @@
         "A crewmember from Fireball"
       ],
       "correct_answer": 3,
-      "rag_answer": "A",
+      "rag_answer": "B",
       "is_correct": false
     },
     {
@@ -1427,7 +1427,7 @@
         "Discussed the scandal with others."
       ],
       "correct_answer": 0,
-      "rag_answer": "B",
+      "rag_answer": "C",
       "is_correct": false
     },
     {
@@ -1531,8 +1531,8 @@
         "The media"
       ],
       "correct_answer": 2,
-      "rag_answer": "D",
-      "is_correct": false
+      "rag_answer": "C",
+      "is_correct": true
     },
     {
       "problem_index": 118,
@@ -1557,8 +1557,8 @@
         "He wanted less stress at work"
       ],
       "correct_answer": 3,
-      "rag_answer": "D",
-      "is_correct": true
+      "rag_answer": "A",
+      "is_correct": false
     },
     {
       "problem_index": 120,
@@ -1570,7 +1570,7 @@
         "He was a \"senile delinquent\" and had outgrown his ethical conditioning"
       ],
       "correct_answer": 1,
-      "rag_answer": "C",
+      "rag_answer": "D",
       "is_correct": false
     },
     {
@@ -1583,8 +1583,8 @@
         "We don’t know for sure from the story"
       ],
       "correct_answer": 3,
-      "rag_answer": "D",
-      "is_correct": true
+      "rag_answer": "C",
+      "is_correct": false
     },
     {
       "problem_index": 122,
@@ -1622,8 +1622,8 @@
         "His experiences made him reflect on how he should have revised his original plan and motive."
       ],
       "correct_answer": 1,
-      "rag_answer": "A",
-      "is_correct": false
+      "rag_answer": "B",
+      "is_correct": true
     },
     {
       "problem_index": 125,
@@ -1674,8 +1674,8 @@
         "He agreed the revolution on earth had been needed"
       ],
       "correct_answer": 1,
-      "rag_answer": "B",
-      "is_correct": true
+      "rag_answer": "A",
+      "is_correct": false
     },
     {
       "problem_index": 129,
@@ -1713,8 +1713,8 @@
         "The cook was a saboteur"
       ],
       "correct_answer": 1,
-      "rag_answer": "B",
-      "is_correct": true
+      "rag_answer": "A",
+      "is_correct": false
     },
     {
       "problem_index": 132,
@@ -1752,8 +1752,8 @@
         "Duane had been promised $50,000"
       ],
       "correct_answer": 2,
-      "rag_answer": "C",
-      "is_correct": true
+      "rag_answer": "B",
+      "is_correct": false
     },
     {
       "problem_index": 135,
@@ -1869,8 +1869,8 @@
         "Meek asks questions about space travel"
       ],
       "correct_answer": 3,
-      "rag_answer": "D",
-      "is_correct": true
+      "rag_answer": "A",
+      "is_correct": false
     },
     {
       "problem_index": 144,
@@ -1895,7 +1895,7 @@
         "To make it through the asteroid belt"
       ],
       "correct_answer": 1,
-      "rag_answer": "D",
+      "rag_answer": "A",
       "is_correct": false
     },
     {
@@ -2025,8 +2025,8 @@
         "The bankroll was far greater than on other planets."
       ],
       "correct_answer": 0,
-      "rag_answer": "B",
-      "is_correct": false
+      "rag_answer": "A",
+      "is_correct": true
     },
     {
       "problem_index": 156,
@@ -2168,8 +2168,8 @@
         "Their eyes cut the night."
       ],
       "correct_answer": 0,
-      "rag_answer": "D",
-      "is_correct": false
+      "rag_answer": "A",
+      "is_correct": true
     },
     {
       "problem_index": 167,
@@ -2194,8 +2194,8 @@
         "The oases"
       ],
       "correct_answer": 0,
-      "rag_answer": "A",
-      "is_correct": true
+      "rag_answer": "B",
+      "is_correct": false
     },
     {
       "problem_index": 169,
@@ -2272,8 +2272,8 @@
         "A credit card"
       ],
       "correct_answer": 0,
-      "rag_answer": "D",
-      "is_correct": false
+      "rag_answer": "A",
+      "is_correct": true
     },
     {
       "problem_index": 175,
@@ -2298,7 +2298,7 @@
         "8 years"
       ],
       "correct_answer": 3,
-      "rag_answer": "B",
+      "rag_answer": "C",
       "is_correct": false
     },
     {
@@ -2389,8 +2389,8 @@
         "He feels guilty about hurting Deirdre's feelings after her graduation when he ignored their romantic connection, and instead, played the part of a parent."
       ],
       "correct_answer": 3,
-      "rag_answer": "A",
-      "is_correct": false
+      "rag_answer": "D",
+      "is_correct": true
     },
     {
       "problem_index": 184,
@@ -2480,7 +2480,7 @@
         "One"
       ],
       "correct_answer": 3,
-      "rag_answer": "B",
+      "rag_answer": "C",
       "is_correct": false
     },
     {
@@ -2506,8 +2506,8 @@
         "calculated and cautious"
       ],
       "correct_answer": 1,
-      "rag_answer": "C",
-      "is_correct": false
+      "rag_answer": "B",
+      "is_correct": true
     },
     {
       "problem_index": 193,

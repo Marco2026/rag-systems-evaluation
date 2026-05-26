@@ -6,12 +6,12 @@
   "generator_model": "rjmalagon/lamarck-v0.7:14b-bf16",
   "generator_params": 14.8,
   "generator_size": 27.5,
-  "timestamp": "2026-04-17T23:41:12.264014",
-  "duration": "00:10:35",
-  "duration (seconds)": 635,
+  "timestamp": "2026-05-22T02:53:13.876662",
+  "duration": "00:11:22",
+  "duration (seconds)": 682,
   "total": 200,
-  "correct": 181,
-  "accuracy": 0.905,
+  "correct": 182,
+  "accuracy": 0.91,
   "results": [
     {
       "problem_index": 1,
@@ -439,8 +439,8 @@
         "drawing pictures"
       ],
       "correct_answer": "B",
-      "rag_answer": "B",
-      "is_correct": true
+      "rag_answer": "A",
+      "is_correct": false
     },
     {
       "problem_index": 34,
@@ -829,8 +829,8 @@
         "A busy family"
       ],
       "correct_answer": "D",
-      "rag_answer": "C",
-      "is_correct": false
+      "rag_answer": "D",
+      "is_correct": true
     },
     {
       "problem_index": 64,
@@ -920,8 +920,8 @@
         "Jane's friend"
       ],
       "correct_answer": "C",
-      "rag_answer": "C",
-      "is_correct": true
+      "rag_answer": "A",
+      "is_correct": false
     },
     {
       "problem_index": 71,
@@ -1726,8 +1726,8 @@
         "A, B and C"
       ],
       "correct_answer": "D",
-      "rag_answer": "D",
-      "is_correct": true
+      "rag_answer": "C",
+      "is_correct": false
     },
     {
       "problem_index": 133,
@@ -1960,8 +1960,8 @@
         "clearer and clearer."
       ],
       "correct_answer": "A",
-      "rag_answer": "D",
-      "is_correct": false
+      "rag_answer": "A",
+      "is_correct": true
     },
     {
       "problem_index": 151,
@@ -2350,8 +2350,8 @@
         "you have to change the date"
       ],
       "correct_answer": "C",
-      "rag_answer": "A",
-      "is_correct": false
+      "rag_answer": "C",
+      "is_correct": true
     },
     {
       "problem_index": 181,
@@ -2480,8 +2480,8 @@
         "Ted was one year older than Mike."
       ],
       "correct_answer": "C",
-      "rag_answer": "B",
-      "is_correct": false
+      "rag_answer": "C",
+      "is_correct": true
     },
     {
       "problem_index": 191,
@@ -2493,8 +2493,8 @@
         "he heard a noise"
       ],
       "correct_answer": "C",
-      "rag_answer": "C",
-      "is_correct": true
+      "rag_answer": "A",
+      "is_correct": false
     },
     {
       "problem_index": 192,
@@ -2558,8 +2558,8 @@
         "who dislikes to hitchhike"
       ],
       "correct_answer": "C",
-      "rag_answer": "D",
-      "is_correct": false
+      "rag_answer": "C",
+      "is_correct": true
     },
     {
       "problem_index": 197,

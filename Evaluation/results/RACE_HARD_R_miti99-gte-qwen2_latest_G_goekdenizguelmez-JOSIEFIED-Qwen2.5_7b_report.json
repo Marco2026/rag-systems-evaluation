@@ -6,12 +6,12 @@
   "generator_model": "goekdenizguelmez/JOSIEFIED-Qwen2.5:7b",
   "generator_params": 7.62,
   "generator_size": 4.4,
-  "timestamp": "2026-04-14T11:50:49.400028",
-  "duration": "00:08:27",
-  "duration (seconds)": 507,
+  "timestamp": "2026-05-22T14:10:00.324517",
+  "duration": "00:07:49",
+  "duration (seconds)": 469,
   "total": 200,
-  "correct": 159,
-  "accuracy": 0.795,
+  "correct": 164,
+  "accuracy": 0.82,
   "results": [
     {
       "problem_index": 1,
@@ -127,8 +127,8 @@
         "To explain the power of nature at Pacaya."
       ],
       "correct_answer": "B",
-      "rag_answer": "A",
-      "is_correct": false
+      "rag_answer": "B",
+      "is_correct": true
     },
     {
       "problem_index": 10,
@@ -140,8 +140,8 @@
         "Because we had no life jackets"
       ],
       "correct_answer": "C",
-      "rag_answer": "B",
-      "is_correct": false
+      "rag_answer": "C",
+      "is_correct": true
     },
     {
       "problem_index": 11,
@@ -1076,8 +1076,8 @@
         "He agreed to accept Michael because he was moved by his determination."
       ],
       "correct_answer": "C",
-      "rag_answer": "D",
-      "is_correct": false
+      "rag_answer": "C",
+      "is_correct": true
     },
     {
       "problem_index": 83,
@@ -1583,7 +1583,7 @@
         "A cure for cancer."
       ],
       "correct_answer": "B",
-      "rag_answer": "C",
+      "rag_answer": "A",
       "is_correct": false
     },
     {
@@ -1622,8 +1622,8 @@
         "only a character made up by Arthur Conan Dolye"
       ],
       "correct_answer": "D",
-      "rag_answer": "A",
-      "is_correct": false
+      "rag_answer": "D",
+      "is_correct": true
     },
     {
       "problem_index": 125,
@@ -1700,8 +1700,8 @@
         "she changed her mind in hopes of keeping it and increasing its value"
       ],
       "correct_answer": "B",
-      "rag_answer": "A",
-      "is_correct": false
+      "rag_answer": "B",
+      "is_correct": true
     },
     {
       "problem_index": 131,
@@ -1960,8 +1960,8 @@
         "Laptops will be used in Westlake College in Virginia."
       ],
       "correct_answer": "D",
-      "rag_answer": "B",
-      "is_correct": false
+      "rag_answer": "D",
+      "is_correct": true
     },
     {
       "problem_index": 151,
@@ -2103,8 +2103,8 @@
         "help those parents who are worried about their children"
       ],
       "correct_answer": "A",
-      "rag_answer": "A",
-      "is_correct": true
+      "rag_answer": "C",
+      "is_correct": false
     },
     {
       "problem_index": 162,
@@ -2532,8 +2532,8 @@
         "What methods can be used to deflect the asteroid."
       ],
       "correct_answer": "D",
-      "rag_answer": "D",
-      "is_correct": true
+      "rag_answer": "C",
+      "is_correct": false
     },
     {
       "problem_index": 195,
@@ -2558,8 +2558,8 @@
         "Any party member will be given a bag to store rubbish at the party."
       ],
       "correct_answer": "C",
-      "rag_answer": "B",
-      "is_correct": false
+      "rag_answer": "C",
+      "is_correct": true
     },
     {
       "problem_index": 197,

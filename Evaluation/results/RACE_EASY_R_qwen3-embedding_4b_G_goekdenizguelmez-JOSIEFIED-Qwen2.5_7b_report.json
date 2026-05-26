@@ -6,12 +6,12 @@
   "generator_model": "goekdenizguelmez/JOSIEFIED-Qwen2.5:7b",
   "generator_params": 7.62,
   "generator_size": 4.4,
-  "timestamp": "2026-04-18T00:51:33.712561",
-  "duration": "00:08:36",
-  "duration (seconds)": 516,
+  "timestamp": "2026-05-22T01:39:40.768975",
+  "duration": "00:07:20",
+  "duration (seconds)": 440,
   "total": 200,
-  "correct": 167,
-  "accuracy": 0.835,
+  "correct": 165,
+  "accuracy": 0.825,
   "results": [
     {
       "problem_index": 1,
@@ -49,8 +49,8 @@
         "Dinner customs in the US restaurants."
       ],
       "correct_answer": "D",
-      "rag_answer": "D",
-      "is_correct": true
+      "rag_answer": "A",
+      "is_correct": false
     },
     {
       "problem_index": 4,
@@ -231,8 +231,8 @@
         "low"
       ],
       "correct_answer": "B",
-      "rag_answer": "A",
-      "is_correct": false
+      "rag_answer": "B",
+      "is_correct": true
     },
     {
       "problem_index": 18,
@@ -244,7 +244,7 @@
         "not only on the left but also on the fight"
       ],
       "correct_answer": "A",
-      "rag_answer": "D",
+      "rag_answer": "B",
       "is_correct": false
     },
     {
@@ -257,7 +257,7 @@
         "juice"
       ],
       "correct_answer": "D",
-      "rag_answer": "C",
+      "rag_answer": "B",
       "is_correct": false
     },
     {
@@ -270,8 +270,8 @@
         "six"
       ],
       "correct_answer": "C",
-      "rag_answer": "B",
-      "is_correct": false
+      "rag_answer": "C",
+      "is_correct": true
     },
     {
       "problem_index": 21,
@@ -465,8 +465,8 @@
         "live in the school"
       ],
       "correct_answer": "B",
-      "rag_answer": "C",
-      "is_correct": false
+      "rag_answer": "B",
+      "is_correct": true
     },
     {
       "problem_index": 36,
@@ -491,7 +491,7 @@
         "do some shopping online"
       ],
       "correct_answer": "C",
-      "rag_answer": "A",
+      "rag_answer": "D",
       "is_correct": false
     },
     {
@@ -1375,8 +1375,8 @@
         "do easy chores"
       ],
       "correct_answer": "A",
-      "rag_answer": "A",
-      "is_correct": true
+      "rag_answer": "D",
+      "is_correct": false
     },
     {
       "problem_index": 106,
@@ -1492,8 +1492,8 @@
         "The Doctor"
       ],
       "correct_answer": "C",
-      "rag_answer": "C",
-      "is_correct": true
+      "rag_answer": "A",
+      "is_correct": false
     },
     {
       "problem_index": 115,
@@ -2298,7 +2298,7 @@
         "After she came back from the cinema."
       ],
       "correct_answer": "A",
-      "rag_answer": "D",
+      "rag_answer": "B",
       "is_correct": false
     },
     {
@@ -2480,8 +2480,8 @@
         "Ted was one year older than Mike."
       ],
       "correct_answer": "C",
-      "rag_answer": "C",
-      "is_correct": true
+      "rag_answer": "A",
+      "is_correct": false
     },
     {
       "problem_index": 191,
@@ -2545,8 +2545,8 @@
         "Pilots'- First Class -Club- Economy"
       ],
       "correct_answer": "D",
-      "rag_answer": "D",
-      "is_correct": true
+      "rag_answer": "B",
+      "is_correct": false
     },
     {
       "problem_index": 196,
@@ -2584,8 +2584,8 @@
         "hot"
       ],
       "correct_answer": "D",
-      "rag_answer": "C",
-      "is_correct": false
+      "rag_answer": "D",
+      "is_correct": true
     },
     {
       "problem_index": 199,
@@ -2610,8 +2610,8 @@
         "All his friends"
       ],
       "correct_answer": "B",
-      "rag_answer": "B",
-      "is_correct": true
+      "rag_answer": "A",
+      "is_correct": false
     }
   ]
 }

@@ -6,12 +6,12 @@
   "generator_model": "huihui_ai/fluentlylm-prinum-abliterated:32b",
   "generator_params": 32.8,
   "generator_size": 18.5,
-  "timestamp": "2026-04-14T13:41:44.818140",
-  "duration": "00:18:37",
-  "duration (seconds)": 1117,
+  "timestamp": "2026-05-22T13:04:16.034898",
+  "duration": "00:17:57",
+  "duration (seconds)": 1077,
   "total": 200,
-  "correct": 179,
-  "accuracy": 0.895,
+  "correct": 177,
+  "accuracy": 0.885,
   "results": [
     {
       "problem_index": 1,
@@ -62,8 +62,8 @@
         "avoid the happening of traffic accidents"
       ],
       "correct_answer": "D",
-      "rag_answer": "D",
-      "is_correct": true
+      "rag_answer": "C",
+      "is_correct": false
     },
     {
       "problem_index": 5,
@@ -140,8 +140,8 @@
         "Because we had no life jackets"
       ],
       "correct_answer": "C",
-      "rag_answer": "B",
-      "is_correct": false
+      "rag_answer": "C",
+      "is_correct": true
     },
     {
       "problem_index": 11,
@@ -348,8 +348,8 @@
         "Respecting elderly people is a good tradition."
       ],
       "correct_answer": "B",
-      "rag_answer": "B",
-      "is_correct": true
+      "rag_answer": "D",
+      "is_correct": false
     },
     {
       "problem_index": 27,
@@ -556,7 +556,7 @@
         "You could reduce stress by doing nothing."
       ],
       "correct_answer": "B",
-      "rag_answer": "D",
+      "rag_answer": "A",
       "is_correct": false
     },
     {
@@ -595,8 +595,8 @@
         "a drug company"
       ],
       "correct_answer": "A",
-      "rag_answer": "A",
-      "is_correct": true
+      "rag_answer": "A) a medical center",
+      "is_correct": false
     },
     {
       "problem_index": 46,
@@ -1063,8 +1063,8 @@
         "First the author makes an introduction and then draws a conclusion."
       ],
       "correct_answer": "A",
-      "rag_answer": "A) First the author gives some messages and then explain them.\n\nThe passage starts by giving messages about listening to others, being curious rather than certain, and how curiosity and good listening can bring people back together. Then it explains these points through examples and elaboration on why these practices are beneficial for developing better relationships. The structure follows an approach where ideas are first presented and then further developed or explained.\n\nTherefore, the correct answer is A.",
-      "is_correct": false
+      "rag_answer": "A",
+      "is_correct": true
     },
     {
       "problem_index": 82,
@@ -1076,8 +1076,8 @@
         "He agreed to accept Michael because he was moved by his determination."
       ],
       "correct_answer": "C",
-      "rag_answer": "D",
-      "is_correct": false
+      "rag_answer": "C",
+      "is_correct": true
     },
     {
       "problem_index": 83,
@@ -1102,8 +1102,8 @@
         "We shouldn't care what kind of situations we're in."
       ],
       "correct_answer": "A",
-      "rag_answer": "A)",
-      "is_correct": false
+      "rag_answer": "A",
+      "is_correct": true
     },
     {
       "problem_index": 85,
@@ -1284,8 +1284,8 @@
         "The value of a promise"
       ],
       "correct_answer": "D",
-      "rag_answer": "B",
-      "is_correct": false
+      "rag_answer": "D",
+      "is_correct": true
     },
     {
       "problem_index": 99,
@@ -1531,8 +1531,8 @@
         "Cellphone Use Is Spreading"
       ],
       "correct_answer": "D",
-      "rag_answer": "D",
-      "is_correct": true
+      "rag_answer": "B",
+      "is_correct": false
     },
     {
       "problem_index": 118,
@@ -1583,8 +1583,8 @@
         "A cure for cancer."
       ],
       "correct_answer": "B",
-      "rag_answer": "B",
-      "is_correct": true
+      "rag_answer": "A",
+      "is_correct": false
     },
     {
       "problem_index": 122,
@@ -2077,7 +2077,7 @@
         "\"Escape\" from your house by car."
       ],
       "correct_answer": "A",
-      "rag_answer": "B",
+      "rag_answer": "C",
       "is_correct": false
     },
     {
@@ -2181,7 +2181,7 @@
         "A Traditional Program Will Expand"
       ],
       "correct_answer": "A",
-      "rag_answer": "A) Using Apps for Apes\n\nThe passage primarily discusses a program called \"Apps for Apes\" where iPads are introduced to orangutans in zoos across the US and Canada. The text details how these animals interact with various apps designed for children, including games that stimulate activities such as painting, music, and memory games. Given this focus on using technology specifically for apes, option A best encapsulates the main theme of the passage. Options B, C, and D are either too broad or not directly related to the central topic discussed in the text.\n\nA) Using Apps for Apes",
+      "rag_answer": "A) Using Apps for Apes",
       "is_correct": false
     },
     {
@@ -2298,7 +2298,7 @@
         "$123"
       ],
       "correct_answer": "D",
-      "rag_answer": "A",
+      "rag_answer": "B",
       "is_correct": false
     },
     {
@@ -2558,8 +2558,8 @@
         "Any party member will be given a bag to store rubbish at the party."
       ],
       "correct_answer": "C",
-      "rag_answer": "C",
-      "is_correct": true
+      "rag_answer": "A",
+      "is_correct": false
     },
     {
       "problem_index": 197,
@@ -2571,8 +2571,8 @@
         "To offer us some information of both sexes' going online in the US."
       ],
       "correct_answer": "A",
-      "rag_answer": "A",
-      "is_correct": true
+      "rag_answer": "D",
+      "is_correct": false
     },
     {
       "problem_index": 198,

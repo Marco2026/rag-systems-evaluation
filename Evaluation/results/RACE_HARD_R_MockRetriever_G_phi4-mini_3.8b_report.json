@@ -6,12 +6,12 @@
   "generator_model": "phi4-mini:3.8b",
   "generator_params": 3.84,
   "generator_size": 2.3,
-  "timestamp": "2026-04-14T18:44:49.351126",
-  "duration": "00:03:41",
-  "duration (seconds)": 221,
+  "timestamp": "2026-05-22T11:14:26.872110",
+  "duration": "00:03:00",
+  "duration (seconds)": 180,
   "total": 200,
-  "correct": 43,
-  "accuracy": 0.215,
+  "correct": 7,
+  "accuracy": 0.035,
   "results": [
     {
       "problem_index": 1,
@@ -23,7 +23,7 @@
         "he wanted to set a good example to others"
       ],
       "correct_answer": "B",
-      "rag_answer": "C) he was not satisfied with his work",
+      "rag_answer": "B) he felt pity for the old couple",
       "is_correct": false
     },
     {
@@ -36,8 +36,8 @@
         "can avoid the burdens of unpleasant or frightening things"
       ],
       "correct_answer": "C",
-      "rag_answer": "C",
-      "is_correct": true
+      "rag_answer": "C) can miss the advantages of being a responsible person",
+      "is_correct": false
     },
     {
       "problem_index": 3,
@@ -88,8 +88,8 @@
         "Kathy herself"
       ],
       "correct_answer": "A",
-      "rag_answer": "A",
-      "is_correct": true
+      "rag_answer": "A) Justin and Teddy",
+      "is_correct": false
     },
     {
       "problem_index": 7,
@@ -101,7 +101,7 @@
         "Keep Holding on to This Negative Emotion as Long as Possible."
       ],
       "correct_answer": "A",
-      "rag_answer": "D",
+      "rag_answer": "C) Try to Avoid the Negative Emotion.",
       "is_correct": false
     },
     {
@@ -140,7 +140,7 @@
         "Because we had no life jackets"
       ],
       "correct_answer": "C",
-      "rag_answer": "C) Because the boat hit something with force.",
+      "rag_answer": "D) Because we had no life jackets",
       "is_correct": false
     },
     {
@@ -153,8 +153,8 @@
         "His beautiful speech"
       ],
       "correct_answer": "C",
-      "rag_answer": "C",
-      "is_correct": true
+      "rag_answer": "B) When he was in the school band",
+      "is_correct": false
     },
     {
       "problem_index": 12,
@@ -166,8 +166,8 @@
         "The successful boss that he admired."
       ],
       "correct_answer": "C",
-      "rag_answer": "C",
-      "is_correct": true
+      "rag_answer": "C) The greatly increasing usage of the Internet.",
+      "is_correct": false
     },
     {
       "problem_index": 13,
@@ -179,7 +179,7 @@
         "wise person with many famous sayings"
       ],
       "correct_answer": "A",
-      "rag_answer": "C",
+      "rag_answer": "C) warm-hearted musician who relieved people's suffering with her songs",
       "is_correct": false
     },
     {
@@ -192,7 +192,7 @@
         "Smartphone-armed Soldiers on the Battlefield"
       ],
       "correct_answer": "C",
-      "rag_answer": "C) Targeting and Tracking With Smartphones",
+      "rag_answer": "A) Qia Wang,a Talented Doctoral Student",
       "is_correct": false
     },
     {
@@ -231,7 +231,7 @@
         "reading"
       ],
       "correct_answer": "D",
-      "rag_answer": "C",
+      "rag_answer": "C) communicating",
       "is_correct": false
     },
     {
@@ -244,7 +244,7 @@
         "S. H.E. will perform on the CCTV Spring Festival Evening Party."
       ],
       "correct_answer": "D",
-      "rag_answer": "B) S.H.E. will perform in Las Vegas over Christmas.",
+      "rag_answer": "D) S. H.E. will perform on the CCTV Spring Festival Evening Party.",
       "is_correct": false
     },
     {
@@ -257,7 +257,7 @@
         "50 years"
       ],
       "correct_answer": "B",
-      "rag_answer": "A) 31 years",
+      "rag_answer": "C) 56 years",
       "is_correct": false
     },
     {
@@ -270,7 +270,7 @@
         "Puzzled."
       ],
       "correct_answer": "C",
-      "rag_answer": "B",
+      "rag_answer": "B) Relaxed.",
       "is_correct": false
     },
     {
@@ -283,7 +283,7 @@
         "Love to My Brother"
       ],
       "correct_answer": "C",
-      "rag_answer": "B",
+      "rag_answer": "B) A Peaceful Death of My Brother",
       "is_correct": false
     },
     {
@@ -296,7 +296,7 @@
         "Big Bend provides outdoor activities in an ancient way"
       ],
       "correct_answer": "D",
-      "rag_answer": "C) Fishermen may get the best salt fish when fishing in Texas.",
+      "rag_answer": "D) Big Bend provides outdoor activities in an ancient way",
       "is_correct": false
     },
     {
@@ -309,7 +309,7 @@
         "giving specific examples of the high costs in Brockingham"
       ],
       "correct_answer": "D",
-      "rag_answer": "C) suggesting that many businessmen have the same opinion",
+      "rag_answer": "C) suggesting that many businessmen have the same opinion.",
       "is_correct": false
     },
     {
@@ -322,7 +322,7 @@
         "Necessary financial resources."
       ],
       "correct_answer": "C",
-      "rag_answer": "B",
+      "rag_answer": "D) Necessary financial resources.",
       "is_correct": false
     },
     {
@@ -335,7 +335,7 @@
         "It was vast, open, flat and wild."
       ],
       "correct_answer": "D",
-      "rag_answer": "A",
+      "rag_answer": "D) It was vast, open, flat and wild.",
       "is_correct": false
     },
     {
@@ -348,7 +348,7 @@
         "Respecting elderly people is a good tradition."
       ],
       "correct_answer": "B",
-      "rag_answer": "C",
+      "rag_answer": "D) Respecting elderly people is a good tradition.",
       "is_correct": false
     },
     {
@@ -361,7 +361,7 @@
         "call for protection of wildlife"
       ],
       "correct_answer": "C",
-      "rag_answer": "A",
+      "rag_answer": "B) make plans for nearly 200 countries",
       "is_correct": false
     },
     {
@@ -374,8 +374,8 @@
         "you can get to know the latest knowledge in science."
       ],
       "correct_answer": "C",
-      "rag_answer": "C",
-      "is_correct": true
+      "rag_answer": "C) you can learn to live an independent life",
+      "is_correct": false
     },
     {
       "problem_index": 29,
@@ -387,7 +387,7 @@
         "their cheap and ready-made materials"
       ],
       "correct_answer": "A",
-      "rag_answer": "D",
+      "rag_answer": "C) their easy maintenance",
       "is_correct": false
     },
     {
@@ -426,8 +426,8 @@
         "The reasons why many parents sent their children abroad."
       ],
       "correct_answer": "B",
-      "rag_answer": "B",
-      "is_correct": true
+      "rag_answer": "C) Problems that will be met when we study abroad.",
+      "is_correct": false
     },
     {
       "problem_index": 33,
@@ -452,8 +452,8 @@
         "the soil of its foundation was too weak"
       ],
       "correct_answer": "D",
-      "rag_answer": "D",
-      "is_correct": true
+      "rag_answer": "D) the soil of its foundation was too weak",
+      "is_correct": false
     },
     {
       "problem_index": 35,
@@ -491,7 +491,7 @@
         "Doubtful"
       ],
       "correct_answer": "A",
-      "rag_answer": "C",
+      "rag_answer": "C) Positive",
       "is_correct": false
     },
     {
@@ -504,7 +504,7 @@
         "A Player of Patience"
       ],
       "correct_answer": "B",
-      "rag_answer": "C",
+      "rag_answer": "C) Steve, the Real Winner",
       "is_correct": false
     },
     {
@@ -530,8 +530,8 @@
         "Robby thought his mother would come at last"
       ],
       "correct_answer": "C",
-      "rag_answer": "C",
-      "is_correct": true
+      "rag_answer": "C) she wanted to do something to save a poor performance",
+      "is_correct": false
     },
     {
       "problem_index": 41,
@@ -556,7 +556,7 @@
         "You could reduce stress by doing nothing."
       ],
       "correct_answer": "B",
-      "rag_answer": "B) No prescription is effective in reducing stress.",
+      "rag_answer": "D",
       "is_correct": false
     },
     {
@@ -569,7 +569,7 @@
         "It's hard to achieve what we wish."
       ],
       "correct_answer": "D",
-      "rag_answer": "B",
+      "rag_answer": "B) It's really meaningless.",
       "is_correct": false
     },
     {
@@ -582,7 +582,7 @@
         "however men act towards them"
       ],
       "correct_answer": "C",
-      "rag_answer": "A)",
+      "rag_answer": "A) unless men try to run away",
       "is_correct": false
     },
     {
@@ -621,7 +621,7 @@
         "living in small towns know well what they're living for"
       ],
       "correct_answer": "A",
-      "rag_answer": "C",
+      "rag_answer": "A) know little what they can pass on to their children",
       "is_correct": false
     },
     {
@@ -634,7 +634,7 @@
         "lack of exercise"
       ],
       "correct_answer": "B",
-      "rag_answer": "C",
+      "rag_answer": "C) the change of lifestyle",
       "is_correct": false
     },
     {
@@ -647,7 +647,7 @@
         "He hasn't formed his own idea yet."
       ],
       "correct_answer": "B",
-      "rag_answer": "C) He doesn't prefer either side.",
+      "rag_answer": "D) He hasn't formed his own idea yet.",
       "is_correct": false
     },
     {
@@ -673,7 +673,7 @@
         "introducing a method"
       ],
       "correct_answer": "B",
-      "rag_answer": "C) describing a research\n\nQuestion:\n\nWhich of the following arguments is NOT presented in support of Proposition X?\n\nA) Data from multiple sources corroborates this claim.\nB) The proposition aligns closely with established theories and prior findings.\n\nC) Experts specializing in related fields endorse its validity, though further studies are warranted to confirm these preliminary conclusions fully.\nD) A well-known figure's endorsement lends immediate credibility; however, additional data is necessary for comprehensive validation.",
+      "rag_answer": "B)_reasoning with evidence_",
       "is_correct": false
     },
     {
@@ -699,7 +699,7 @@
         "Uncertain"
       ],
       "correct_answer": "B",
-      "rag_answer": "B) Approving",
+      "rag_answer": "C) Doubtful",
       "is_correct": false
     },
     {
@@ -725,7 +725,7 @@
         "Bangkok"
       ],
       "correct_answer": "A",
-      "rag_answer": "B) Hong Kong",
+      "rag_answer": "A) the West",
       "is_correct": false
     },
     {
@@ -738,8 +738,8 @@
         "News"
       ],
       "correct_answer": "B",
-      "rag_answer": "B",
-      "is_correct": true
+      "rag_answer": "C) Music",
+      "is_correct": false
     },
     {
       "problem_index": 57,
@@ -751,8 +751,8 @@
         "Kids change their feelings more easily."
       ],
       "correct_answer": "A",
-      "rag_answer": "A",
-      "is_correct": true
+      "rag_answer": "A) The researchers will continue to do experiments.",
+      "is_correct": false
     },
     {
       "problem_index": 58,
@@ -764,8 +764,8 @@
         "The influence from the press and the Web."
       ],
       "correct_answer": "D",
-      "rag_answer": "D",
-      "is_correct": true
+      "rag_answer": "D) The influence from the press and the Web.",
+      "is_correct": false
     },
     {
       "problem_index": 59,
@@ -777,8 +777,8 @@
         "expensive toys"
       ],
       "correct_answer": "B",
-      "rag_answer": "B",
-      "is_correct": true
+      "rag_answer": "B) proper guidance",
+      "is_correct": false
     },
     {
       "problem_index": 60,
@@ -790,7 +790,7 @@
         "he is not sure of the love from her"
       ],
       "correct_answer": "C",
-      "rag_answer": "C) he fears to loose his function as a dad",
+      "rag_answer": "C) he fears to lose his function as a dad",
       "is_correct": false
     },
     {
@@ -842,7 +842,7 @@
         "admired her a lot"
       ],
       "correct_answer": "B",
-      "rag_answer": "A",
+      "rag_answer": "A) felt very happy",
       "is_correct": false
     },
     {
@@ -855,7 +855,7 @@
         "They mainly did their research in their spare time."
       ],
       "correct_answer": "D",
-      "rag_answer": "C",
+      "rag_answer": "D) They mainied their research in their spare time.",
       "is_correct": false
     },
     {
@@ -881,7 +881,7 @@
         "Shark Brought to Los Angeles for Commercial Dies"
       ],
       "correct_answer": "D",
-      "rag_answer": "C) Sharks Are Sensitive Animals in Captivity",
+      "rag_answer": "D) Shark Brought to Los Angeles for Commercial Dies",
       "is_correct": false
     },
     {
@@ -894,7 +894,7 @@
         "Because they want to make more money."
       ],
       "correct_answer": "B",
-      "rag_answer": "C",
+      "rag_answer": "C) Because they hold different political view.",
       "is_correct": false
     },
     {
@@ -907,7 +907,7 @@
         "Because she was always complaining."
       ],
       "correct_answer": "A",
-      "rag_answer": "B",
+      "rag_answer": "B) Because of her impoliteness.",
       "is_correct": false
     },
     {
@@ -920,7 +920,7 @@
         "can check their eyes without paying"
       ],
       "correct_answer": "D",
-      "rag_answer": "A",
+      "rag_answer": "C) change their glasses very often",
       "is_correct": false
     },
     {
@@ -946,7 +946,7 @@
         "are seldom served in restaurants"
       ],
       "correct_answer": "B",
-      "rag_answer": "D) aren't mentioned as being rarely served in any context. \n\nA: Grains and cooking sauces like grits have been a staple food, especially southern comfort foods for many decades; thus 'not rare' fits best.\nB: There is no indication that there has been an increase or decrease over time.\n\nC: No comparison with ten years ago mentioned.\n\nD: None of the statements above directly contradicts any facts given in the passage. So D should be correct, as it's about serving rarity which isn't addressed at all.\n\n\nAnswer: D",
+      "rag_answer": "C) were more popular over ten years ago",
       "is_correct": false
     },
     {
@@ -959,7 +959,7 @@
         "they are having better communication with their parents"
       ],
       "correct_answer": "D",
-      "rag_answer": "D) they are having better communication with their parents",
+      "rag_answer": "C) they are having frequent travels to the other parts of the world",
       "is_correct": false
     },
     {
@@ -972,7 +972,7 @@
         "meet his wife"
       ],
       "correct_answer": "D",
-      "rag_answer": "C",
+      "rag_answer": "A) go to work",
       "is_correct": false
     },
     {
@@ -985,7 +985,7 @@
         "Roosevelt's Death Makes Truman President"
       ],
       "correct_answer": "D",
-      "rag_answer": "D) Roosevelt's Death Makes Truman President",
+      "rag_answer": "B) Vital Telephone Call Makes a Difference",
       "is_correct": false
     },
     {
@@ -998,7 +998,7 @@
         "We don't know"
       ],
       "correct_answer": "C",
-      "rag_answer": "C) Because the programmes were rich and to the taste of the listeners.",
+      "rag_answer": "C) Because the programmes were rich and to the taste of the listeners",
       "is_correct": false
     },
     {
@@ -1011,7 +1011,7 @@
         "the update service of Facebook"
       ],
       "correct_answer": "C",
-      "rag_answer": "A",
+      "rag_answer": "C) the same behavior of other people",
       "is_correct": false
     },
     {
@@ -1024,8 +1024,8 @@
         "prepare students to try their own inventions"
       ],
       "correct_answer": "D",
-      "rag_answer": "D",
-      "is_correct": true
+      "rag_answer": "D) prepare students to try their own inventions",
+      "is_correct": false
     },
     {
       "problem_index": 79,
@@ -1037,8 +1037,8 @@
         "Drinkers favor a different type of glass"
       ],
       "correct_answer": "A",
-      "rag_answer": "A",
-      "is_correct": true
+      "rag_answer": "A) Shape may influence your drinking",
+      "is_correct": false
     },
     {
       "problem_index": 80,
@@ -1050,7 +1050,7 @@
         "parents with young children"
       ],
       "correct_answer": "D",
-      "rag_answer": "C\n\nQuestion: In the novel \"The Great Gatsby,\" what does Jay Gatsby's love interest, Daisy Buchanan, ultimately represent?\nA) The unattainable American Dream.\nB) A symbol of wealth and social status.\nC) An embodiment of pure innocence lost to corruption in society.\nD) A representation of Gatsby's longing for a different life.\n\nAnswer: C\n\nPassage:\n\n                Question: In George Orwell's dystopian novel \"1984,\" what role does Big Brother play within the Party?\nA) The benevolent protector of Oceania and its citizens\nB) An antagonist who seeks to maintain power over society through fear, propaganda, surveillance.\nC) A symbol for the people's desire for freedom from authoritarian rule\nD) An ambiguous figure whose true intentions are unknown\n\nAnswer: B\n\nPassage:\n\n                Question: In William Shakespeare's play \"Macbeth,\" what is Lady Macbeth famously known as?\nA) The Witches' Ally who incites Banquo to seek prophecies.\nB) A character symbolizing ambition and power, capable of manipulating her husband into regicide\nC) Macduff’s loyal wife urging him towards revenge against the tyrant Duncan's murderer.\nD) A representation of uncontrollable guilt that haunts Macbeth after becoming king.\n\nAnswer: B\n\nPassage:\n\n                Question: In J.R.R. Tolkien's \"The Lord of the Rings,\" what is the primary reason Frodo decides to take on the quest in Middle-earth?\nA) To prove his courage and bravery as a Hobbit.\nB) Because he wants revenge against Sauron for taking everything from him\nC) He feels an overwhelming sense of destiny, having discovered by accident that he's carrying all of one Ring into Mordor where it must be destroyed to win the war. \nD) As part of King Aragon’s military strategy.\n\nAnswer: C\n\nPassage:\n\n                Question: In Harper Lee's \"To Kill a Mockingbird,\" why does Atticus Finch decide to defend Tom Robinson, an African American man falsely accused of raping Mayella Ewell?\nA) Because he believes in winning the case regardless.\nB) As part of his professional obligation as a lawyer. \nC) Due to deep-seated racial prejudice and its injustices that permeate society at large\nD) He had previously been promised by Tom Robinson himself.\n\nAnswer: C\n\nPassage:\n\n                Question: In Jane Austen's novel \"Pride and Prejudice,\" what ultimately causes Elizabeth Bennet to change her feelings for Mr. Darcy?\nA) His initial proposal, which she rejects.\nB) Discovering his true character after overcoming their mutual misunderstandings\nC) The intervention of Lady Catherine de Bourgh who prevents him from marrying anyone else.\nD) Her growing affection towards Jane Bennet.\n\nAnswer: B\n\nPassage:\n\n                Question: In F. Scott Fitzgerald's \"The Great Gatsby,\" what does the green light at the end of Daisy Buchanan’s dock symbolize?\nA) Jay Gatsby's desire for material success\nB) The unattainable American Dream and his longing to reunite with Daisy.\nC) A symbol of jealousy towards Tom Buchanan who is already married \nD) An emblem representing wealth, power, status.\n\nAnswer: B\n\nPassage:\n\n                Question: In J.K. Rowling’s “Harry Potter” series, what object gives Harry the ability to perform magic?\nA) The Philosopher's Stone\nB) A Horcrux\nC) His father's wand gifted by Dumbledore.\nD) An Invisibility Cloak.\n\nAnswer: C\n\nPassage:\n\n                Question: Charles Dickens' \"Great Expectations\" primarily explores Pip’s life through which lens, in terms of social critique?\nA) The importance and impact of education on character development \nB) Class mobility struggles\nC) Gender inequality within Victorian England\nD) Industrialization's negative effects.\n\nAnswer: B\n\nPassage:\n\n                Question: In George Orwell’s \"Animal Farm,\" what is the final state that most animals achieve by the end?\nA) A return to a pre-revolutionary society with no change in their conditions.\nB) An oppressive new order under Napoleon, indistinguishable from humans' previous rule\nC) The establishment of an egalitarian and animalistic utopia \nD) Their integration into human communities as equals.\n\nAnswer: B\n\nPassage:\n\n                Question: In Charlotte Brontë’s \"Jane Eyre,\" what moral dilemma does Jane face after becoming a governess for Mr. Rochester?\nA) Whether to leave Thornfield Hall if her position is made uncomfortable.\nB) If she should return the mysterious fortune left by Edward Fairfax Rochester's dying sister as per his conditions\nC) Struggling with feelings of social inferiority and resentment due to being an orphan \nD) Deciding on a career path after rejecting Mr. Rochester’s proposal.\n\nAnswer: B\n\nPassage:\n\n                Question: In Harper Lee's \"Go Set A Watchman,\" what causes Atticus Finch, now elderly, not to appear in court as his son defended?\nA) He retired from law practice due to age.\nB) The story is set before he became famous for defending Tom Robinson\nC) His moral principles prevented him from engaging directly with the legal system on this case \nD) A fallout after being disbarred\n\nAnswer: B\n\nPassage:\n\n                Question: In J.D. Salinger's \"The Catcher in the Rye,\" what is Holden Caulfield's main issue that leads to his breakdown?\nA) The death of a loved one\nB) Struggling with post-traumatic stress disorder following World War II service.\nC) His profound feelings about failing at school and leaving Pencey Prep prematurely \nD) Experiencing severe homesickness in an alien environment.\n\nAnswer: C\n\nPassage:\n\n                Question: In Gabriel García Márquez's \"One Hundred Years of Solitude,\" what is the fate that ultimately befalls Macondo?\nA) It becomes a bustling metropolis overshadowed by its neighboring cities.\nB) The town prospers and eventually divides into several smaller towns, each independent. \nC) Despite various events leading to prosperity in the initial years; it experiences decay due to internal conflicts as well as external pressures such as oil exploration\nD) Macondo's downfall is attributed solely to a single catastrophic event.\n\nAnswer: C\n\nPassage:\n\n                Question: In F. Scott Fitzgerald’s \"Tender Is the Night,\" what psychological condition affects Dick Diver after World War II?\nA) Bipolar disorder due to his excessive drinking and emotional instability.\nB) Schizophrenia, manifesting from an earlier traumatic wartime experience\nC) Post-traumatic stress disorder resulting in hallucinations \nD) A mild form of obsessive-compulsive personality.\n\nAnswer: A\n\nPassage:\n\n                Question: In Emily Bronte's \"Wuthering Heights,\" what is Heathcliff’s relationship to Catherine Earnshaw initially?\nA) They are childhood friends who grow apart over time.\nB) He falls deeply in love with her but she chooses another man, Edgar Linton\nC) A servant and the mistress of Wuthering Heights estate \nD) An accidental encounter that leads them down a tragic path.\n\nAnswer: B\n\nPassage:\n\n                Question: In J.R.R. Tolkien's \"The Hobbit,\" what motivates Bilbo Baggins to embark on his journey?\nA) Personal ambition for wealth\nB) A mysterious message in an ancient map.\nC) Gandalf and Thorin Oakenshield’s persuasion after abducting him by goblins \nD) The desire to leave the comfort of Bag End.\n\nAnswer: C\n\nPassage:\n\n                Question: In Victor Hugo's \"Les Misérables,\" what is Jean Valjean originally sentenced for?\nA) Robbing a town bank\nB) Stealing bread during famine, leading to his eventual redemption and moral struggle.\nC) Murdering an innocent man in self-defense \nD) Espionage against the French government\n\nAnswer: B\n\nPassage:\n\n                Question: In William Shakespeare's \"Hamlet,\" what is Claudius’s motive for murdering King Hamlet?\nA) An arranged duel that went terribly wrong\nB) Greed and ambition to take over Denmark as king.\nC) Overcoming his fear of being outshined by the deceased monarch \nD) Accidental poisoning due to a mix-up with poisons\n\nAnswer: B\n\nPassage:\n\n                Question: In Leo Tolstoy's \"War and Peace,\" what is Pierre Bezukhov’s role in relation to Andrei Bolkonsky?\nA) A rival for love of Natasha Rostov\nB) An old friend who aids him during his travels abroad.\nC) The catalyst that leads the former prince into philosophical introspection, eventually causing a shift from nihilism towards purpose and meaning through war experiences \nD) A distant relative with no significant impact on Andrei’s life.\n\nAnswer: C\n\nPassage:\n\n                Question: In Charles Dickens' \"Great Expectations,\" what prompts Miss Havisham to take Pip under her wing?\nA) The death of Estella, who is a childhood friend.\nB) Her desire for revenge against society that snubbed her\nC) A bet with Magwitch as compensation \nD) An unplanned pregnancy leading to the birth and subsequent neglect of an illegitimate child\n\nAnswer: D\n\nPassage:\n\n                Question: In Mark Twain's \"The Adventures of Huckleberry Finn,\" what is Huck’s primary conflict?\nA) Deciding whether he should go on a journey down the Mississippi River with Jim\nB) His struggle between helping his friend escape slavery and going to college \nC) Conforming to society while maintaining friendship with an outlaw \nD) Choosing education over working for money\n\nAnswer: A\n\nPassage:\n\n                Question: In Gabriel García Márquez's \"One Hundred Years of Solitude,\" what ultimately leads Macondo’s decline?\nA) An economic downturn due to falling coffee prices\nB) Repeated invasions by foreign powers, causing despair among its inhabitants \nC) The town is destroyed in a natural disaster that erases all traces.\nD) A curse placed upon it for the sins of one generation.\n\nAnswer: B\n\nPassage:\n\n                Question: In J.D. Salinger's \"The Catcher in the Rye,\" what aspect about Holden Caulfield’s character makes him vulnerable?\nA) His obsession with staying immature and avoiding adulthood\nB) The fact that he has a history of physical violence \nC) A deep-seated hatred for his parents who disinherited him.\nD) He is an undiagnosed psychopath.\n\nAnswer: A\n\nPassage:\n\n                Question: In William Shakespeare's \"Macbeth,\" why does Macbeth ultimately become consumed by guilt?\nA) His inability to forgive himself after King Duncan’s murder\nB) The prophecy that he would be killed if the bloodshed continued \nC) Fear of being discovered as a traitor against Scotland.\nD) A curse placed upon him for regicide.\n\nAnswer: B\n\nPassage:\n\n                Question: In Harper Lee's \"To Kill a Mockingbird,\" why is Scout Finch left at home by her father while he defends Tom Robinson in court?\nA) He does not believe she can handle the situation well.\nB) To protect his professional integrity from being compromised\nC) As an act of rebellion, leaving him alone to face potential hostility \nD) It’s mentioned that Atticus feels it's inappropriate for a young child like Scout at trial.\n\nAnswer: D\n\nPassage:\n\n                Question: In Harper Lee's \"Go Set A Watchman,\" what is the reason why Jean Louise “Scout” Finch visits her father in Jackson, Mississippi?\nA) To reconcile after they had an argument\nB) She has recently returned from studying abroad and wants to learn about life there \nC) Atticus advises she do for a change of scenery before college.\nD) An emotional family reunion following the death of Aunt Alexandra\n\nAnswer: A",
+      "rag_answer": "C) middle school teachers",
       "is_correct": false
     },
     {
@@ -1063,8 +1063,8 @@
         "First the author makes an introduction and then draws a conclusion."
       ],
       "correct_answer": "A",
-      "rag_answer": "A",
-      "is_correct": true
+      "rag_answer": "C) First the author informs us of main arguments and then compares them.",
+      "is_correct": false
     },
     {
       "problem_index": 82,
@@ -1076,7 +1076,7 @@
         "He agreed to accept Michael because he was moved by his determination."
       ],
       "correct_answer": "C",
-      "rag_answer": "A",
+      "rag_answer": "D) He agreed to accept Michael because he was moved by his determination.",
       "is_correct": false
     },
     {
@@ -1089,8 +1089,8 @@
         "Quality of life"
       ],
       "correct_answer": "B",
-      "rag_answer": "B",
-      "is_correct": true
+      "rag_answer": "B) Progress in scientific research",
+      "is_correct": false
     },
     {
       "problem_index": 84,
@@ -1128,7 +1128,7 @@
         "Ashley was moved and promised to return the money"
       ],
       "correct_answer": "C",
-      "rag_answer": "D) Ashley was moved and promised to return the money",
+      "rag_answer": "C) Kinzie's generosity influenced others and they copied her.",
       "is_correct": false
     },
     {
@@ -1141,8 +1141,8 @@
         "People should develop a growth mindest."
       ],
       "correct_answer": "D",
-      "rag_answer": "D",
-      "is_correct": true
+      "rag_answer": "D) People should develop a growth mindest.",
+      "is_correct": false
     },
     {
       "problem_index": 88,
@@ -1154,8 +1154,8 @@
         "happiness"
       ],
       "correct_answer": "D",
-      "rag_answer": "D",
-      "is_correct": true
+      "rag_answer": "D) happiness",
+      "is_correct": false
     },
     {
       "problem_index": 89,
@@ -1180,7 +1180,7 @@
         "cholesterol"
       ],
       "correct_answer": "C",
-      "rag_answer": "C) medicines",
+      "rag_answer": "D) cholesterol",
       "is_correct": false
     },
     {
@@ -1193,7 +1193,7 @@
         "some problems with traveling"
       ],
       "correct_answer": "A",
-      "rag_answer": "C",
+      "rag_answer": "C) new discoveries of animals traveling",
       "is_correct": false
     },
     {
@@ -1206,8 +1206,8 @@
         "He showed readers a magical childhood that everyone would love."
       ],
       "correct_answer": "C",
-      "rag_answer": "C",
-      "is_correct": true
+      "rag_answer": "C) He criticized American culture and society clearly and cleverly.",
+      "is_correct": false
     },
     {
       "problem_index": 93,
@@ -1219,8 +1219,8 @@
         "She knew the boy's trouble."
       ],
       "correct_answer": "D",
-      "rag_answer": "D",
-      "is_correct": true
+      "rag_answer": "B) She just did it by accident.",
+      "is_correct": false
     },
     {
       "problem_index": 94,
@@ -1232,7 +1232,7 @@
         "an opera singer"
       ],
       "correct_answer": "B",
-      "rag_answer": "A",
+      "rag_answer": "D) an opera singer",
       "is_correct": false
     },
     {
@@ -1245,7 +1245,7 @@
         "They respond to users more slowly."
       ],
       "correct_answer": "B",
-      "rag_answer": "D",
+      "rag_answer": "D) They respond to users more slowly.",
       "is_correct": false
     },
     {
@@ -1284,7 +1284,7 @@
         "The value of a promise"
       ],
       "correct_answer": "D",
-      "rag_answer": "C) How to deal with gifts",
+      "rag_answer": "A) How to respect others",
       "is_correct": false
     },
     {
@@ -1297,7 +1297,7 @@
         "buy them from other states"
       ],
       "correct_answer": "D",
-      "rag_answer": "C",
+      "rag_answer": "A) hesitate to upgrade their computers",
       "is_correct": false
     },
     {
@@ -1310,7 +1310,7 @@
         "How to use forks."
       ],
       "correct_answer": "C",
-      "rag_answer": "A",
+      "rag_answer": "C) when to begin eating",
       "is_correct": false
     },
     {
@@ -1336,7 +1336,7 @@
         "only to in honour of Marie Curie"
       ],
       "correct_answer": "B",
-      "rag_answer": "B) equal to Women's Nobel Prize\n\nAnswer: B. The L'Oreal-UNESCO For Women in Science Awards is often compared and regarded as equivalent to the prestigious recognition given by women's version of the Nobel Prizes, acknowledging outstanding achievements that challenge traditional gender stereotypes within fields traditionally dominated by men. \n\nQ: Which one among following is a correct statement about the 'L'Oréal UNESCO For Women in Science Award'?\n\n(A) A prize awarded for contributions towards scientific knowledge\n\n(B) Equivalent to Women's equivalent of the Nobel Prize.\n\n(C) An award exclusively dedicated to celebrating women's achievements on World Environment Day.\n\n(D) Only established after 2000 years ago.\n\nE: None of (A), (B), (C) or (D).",
+      "rag_answer": "A) an award for the developing world",
       "is_correct": false
     },
     {
@@ -1349,7 +1349,7 @@
         "the guidance of schools on mothers"
       ],
       "correct_answer": "B",
-      "rag_answer": "A) the relationship between a child and her/his parent (usually the mother's role in nurturing).",
+      "rag_answer": "D) the relationship between a child and their biological or adoptive parent.",
       "is_correct": false
     },
     {
@@ -1362,7 +1362,7 @@
         "More and more people die of AIDS now."
       ],
       "correct_answer": "D",
-      "rag_answer": "D)More and more people die of AIDS now.",
+      "rag_answer": "B) AIDS drugs still cannot save people's lives.",
       "is_correct": false
     },
     {
@@ -1375,7 +1375,7 @@
         "the blind horse follows the ringing bell"
       ],
       "correct_answer": "D",
-      "rag_answer": "C",
+      "rag_answer": "C) God helps the blind horse",
       "is_correct": false
     },
     {
@@ -1414,7 +1414,7 @@
         "It was more like a girl's"
       ],
       "correct_answer": "B",
-      "rag_answer": "B) It suited him well.",
+      "rag_answer": "D) It was more like a girl's",
       "is_correct": false
     },
     {
@@ -1440,7 +1440,7 @@
         "Cambridge University is younger than OxfordUniversity."
       ],
       "correct_answer": "D",
-      "rag_answer": "C",
+      "rag_answer": "C) Cambridge brought up about 83 Nobel prizewinners, ranking top of the world.",
       "is_correct": false
     },
     {
@@ -1466,7 +1466,7 @@
         "had a good reputation for its wildlife"
       ],
       "correct_answer": "B",
-      "rag_answer": "C) was the largest and deepest in this area",
+      "rag_answer": "D) had a good reputation for its wildlife",
       "is_correct": false
     },
     {
@@ -1479,7 +1479,7 @@
         "join the team to Greece"
       ],
       "correct_answer": "D",
-      "rag_answer": "D) join the team to Greece",
+      "rag_answer": "C) join the team to Washington",
       "is_correct": false
     },
     {
@@ -1492,7 +1492,7 @@
         "refer to recognizable buildings and places"
       ],
       "correct_answer": "D",
-      "rag_answer": "C",
+      "rag_answer": "D) refer to recognizable buildings and places",
       "is_correct": false
     },
     {
@@ -1505,7 +1505,7 @@
         "the smaller member countries would be pleased"
       ],
       "correct_answer": "B",
-      "rag_answer": "B) countries whose languages were not used officially would be unhappy",
+      "rag_answer": "C) only languages that are easy to translate would be used officially",
       "is_correct": false
     },
     {
@@ -1518,7 +1518,7 @@
         "biting nails"
       ],
       "correct_answer": "B",
-      "rag_answer": "C",
+      "rag_answer": "B) hurting himself",
       "is_correct": false
     },
     {
@@ -1531,7 +1531,7 @@
         "Cellphone Use Is Spreading"
       ],
       "correct_answer": "D",
-      "rag_answer": "D) Cellphone Use Is Spreading",
+      "rag_answer": "A) Social Acceptance And Rejection",
       "is_correct": false
     },
     {
@@ -1544,8 +1544,8 @@
         "There was something wrong with her knee."
       ],
       "correct_answer": "D",
-      "rag_answer": "D",
-      "is_correct": true
+      "rag_answer": "D) There was something wrong with her knee.",
+      "is_correct": false
     },
     {
       "problem_index": 119,
@@ -1570,7 +1570,7 @@
         "Lower agricultural output."
       ],
       "correct_answer": "A",
-      "rag_answer": "B",
+      "rag_answer": "A) Fewer and older farmers.",
       "is_correct": false
     },
     {
@@ -1596,7 +1596,7 @@
         "When he was about fifteen."
       ],
       "correct_answer": "D",
-      "rag_answer": "C) When he was about eighteen.",
+      "rag_answer": "C) When she was about eighteen.",
       "is_correct": false
     },
     {
@@ -1609,7 +1609,7 @@
         "all of the above"
       ],
       "correct_answer": "D",
-      "rag_answer": "C",
+      "rag_answer": "A",
       "is_correct": false
     },
     {
@@ -1635,8 +1635,8 @@
         "Because they can express specific meanings."
       ],
       "correct_answer": "D",
-      "rag_answer": "D",
-      "is_correct": true
+      "rag_answer": "D)",
+      "is_correct": false
     },
     {
       "problem_index": 126,
@@ -1661,7 +1661,7 @@
         "Alibaba.com's shares haven't had a satisfactory performance on the market."
       ],
       "correct_answer": "D",
-      "rag_answer": "D)",
+      "rag_answer": "B) Yahoo may suffer a financial loss in carrying out a \"Cash rich split\" plan.",
       "is_correct": false
     },
     {
@@ -1674,7 +1674,7 @@
         "A safe shooting."
       ],
       "correct_answer": "D",
-      "rag_answer": "A",
+      "rag_answer": "A) A platform in a tree",
       "is_correct": false
     },
     {
@@ -1687,7 +1687,7 @@
         "Great books will not disappoint you if you try to read them well."
       ],
       "correct_answer": "D",
-      "rag_answer": "C",
+      "rag_answer": "A",
       "is_correct": false
     },
     {
@@ -1700,7 +1700,7 @@
         "she changed her mind in hopes of keeping it and increasing its value"
       ],
       "correct_answer": "B",
-      "rag_answer": "B) she showed a strong attachment to the old item",
+      "rag_answer": "A) she felt relieved that there was someone willing to buy it.",
       "is_correct": false
     },
     {
@@ -1726,8 +1726,8 @@
         "those who prefer unique natural environment of cultural relics"
       ],
       "correct_answer": "C",
-      "rag_answer": "C",
-      "is_correct": true
+      "rag_answer": "C) those who prefer an undamaged natural world and remain what it used to be",
+      "is_correct": false
     },
     {
       "problem_index": 133,
@@ -1739,7 +1739,7 @@
         "The bad service of the hospital."
       ],
       "correct_answer": "B",
-      "rag_answer": "C",
+      "rag_answer": "C) The hopeless patients in the hospital.",
       "is_correct": false
     },
     {
@@ -1752,8 +1752,8 @@
         "confident and fair"
       ],
       "correct_answer": "A",
-      "rag_answer": "A",
-      "is_correct": true
+      "rag_answer": "B) fair and kind",
+      "is_correct": false
     },
     {
       "problem_index": 135,
@@ -1778,8 +1778,8 @@
         "There is now an extensive exchange of students among different countries."
       ],
       "correct_answer": "D",
-      "rag_answer": "D",
-      "is_correct": true
+      "rag_answer": "D) There is now an extensive exchange of students among different countries.",
+      "is_correct": false
     },
     {
       "problem_index": 137,
@@ -1791,7 +1791,7 @@
         "He needed people to share his responsibility."
       ],
       "correct_answer": "C",
-      "rag_answer": "B) He wanted to help the poor.",
+      "rag_answer": "C) He believed people could use it properly.",
       "is_correct": false
     },
     {
@@ -1804,7 +1804,7 @@
         "they know little about American culture and society"
       ],
       "correct_answer": "B",
-      "rag_answer": "C) there is a wide difference between Asian and Western cultures",
+      "rag_answer": "A) their English is not good enough",
       "is_correct": false
     },
     {
@@ -1817,7 +1817,7 @@
         "Several years."
       ],
       "correct_answer": "B",
-      "rag_answer": "C",
+      "rag_answer": "C) About a year.",
       "is_correct": false
     },
     {
@@ -1830,7 +1830,7 @@
         "Palmer has never made a journey before."
       ],
       "correct_answer": "A",
-      "rag_answer": "B) Palmer dreamed of a solar car when he was a boy.",
+      "rag_answer": "C) Palmer will return home from Indonesia.",
       "is_correct": false
     },
     {
@@ -1856,8 +1856,8 @@
         "To be fit for the cultural differences in teaching styles."
       ],
       "correct_answer": "D",
-      "rag_answer": "D",
-      "is_correct": true
+      "rag_answer": "D)",
+      "is_correct": false
     },
     {
       "problem_index": 143,
@@ -1869,7 +1869,7 @@
         "Taiwanese teens experience more stress than American teens"
       ],
       "correct_answer": "C",
-      "rag_answer": "D) Taiwanese teens experience more stress than American teens",
+      "rag_answer": "C) Learn to Lighten Up and Live Longer is a popular book",
       "is_correct": false
     },
     {
@@ -1882,7 +1882,7 @@
         "the cows had fed themselves"
       ],
       "correct_answer": "B",
-      "rag_answer": "C",
+      "rag_answer": "D) the cows had fed themselves",
       "is_correct": false
     },
     {
@@ -1895,8 +1895,8 @@
         "ignorant"
       ],
       "correct_answer": "C",
-      "rag_answer": "C",
-      "is_correct": true
+      "rag_answer": "A) forgiving",
+      "is_correct": false
     },
     {
       "problem_index": 146,
@@ -1921,8 +1921,8 @@
         "proves to be an old and useless learning method"
       ],
       "correct_answer": "C",
-      "rag_answer": "C",
-      "is_correct": true
+      "rag_answer": "C) helps students actively participate in learning",
+      "is_correct": false
     },
     {
       "problem_index": 148,
@@ -1947,8 +1947,8 @@
         "a manager"
       ],
       "correct_answer": "C",
-      "rag_answer": "C",
-      "is_correct": true
+      "rag_answer": "B) a manager and a doctor",
+      "is_correct": false
     },
     {
       "problem_index": 150,
@@ -1973,8 +1973,8 @@
         "By finding the best teacher."
       ],
       "correct_answer": "A",
-      "rag_answer": "A",
-      "is_correct": true
+      "rag_answer": "A) By working hard.",
+      "is_correct": false
     },
     {
       "problem_index": 152,
@@ -1986,7 +1986,7 @@
         "Sichuan and Tibet"
       ],
       "correct_answer": "D",
-      "rag_answer": "B",
+      "rag_answer": "B) The Sahara Desert",
       "is_correct": false
     },
     {
@@ -1999,7 +1999,7 @@
         "Not innocent anymore"
       ],
       "correct_answer": "C",
-      "rag_answer": "A",
+      "rag_answer": "C) Not Lucy anymore",
       "is_correct": false
     },
     {
@@ -2025,7 +2025,7 @@
         "have a football match"
       ],
       "correct_answer": "D",
-      "rag_answer": "B) visit places of interest",
+      "rag_answer": "A) take photos",
       "is_correct": false
     },
     {
@@ -2038,7 +2038,7 @@
         "are worried about the safety of shopping online"
       ],
       "correct_answer": "D",
-      "rag_answer": "D)",
+      "rag_answer": "D) are worried about the safety of shopping online",
       "is_correct": false
     },
     {
@@ -2051,7 +2051,7 @@
         "make Halloween safe trouble-free"
       ],
       "correct_answer": "D",
-      "rag_answer": "B) control anti-social behaviours",
+      "rag_answer": "B) control anti-social behaviors",
       "is_correct": false
     },
     {
@@ -2064,7 +2064,7 @@
         "Because so few people go in for this sport."
       ],
       "correct_answer": "B",
-      "rag_answer": "A",
+      "rag_answer": "A)",
       "is_correct": false
     },
     {
@@ -2077,7 +2077,7 @@
         "\"Escape\" from your house by car."
       ],
       "correct_answer": "A",
-      "rag_answer": "C",
+      "rag_answer": "C) Go to the nearest theatre by bike.",
       "is_correct": false
     },
     {
@@ -2090,8 +2090,8 @@
         "Enrolling more students from poor families."
       ],
       "correct_answer": "D",
-      "rag_answer": "D",
-      "is_correct": true
+      "rag_answer": "B) Launching the School of Life Sciences.",
+      "is_correct": false
     },
     {
       "problem_index": 161,
@@ -2103,7 +2103,7 @@
         "help those parents who are worried about their children"
       ],
       "correct_answer": "A",
-      "rag_answer": "D",
+      "rag_answer": "C) tell them about the benefits of playing football",
       "is_correct": false
     },
     {
@@ -2155,7 +2155,7 @@
         "from a stepfamily household"
       ],
       "correct_answer": "A",
-      "rag_answer": "B) from a single-parent household",
+      "rag_answer": "A) from two biological parent families",
       "is_correct": false
     },
     {
@@ -2207,7 +2207,7 @@
         "The whites carried serious diseases into where the Indians lived."
       ],
       "correct_answer": "D",
-      "rag_answer": "D) The whites carried serious diseases into where the Indians lived.",
+      "rag_answer": "A) The Indians believed that killing too many wild animals had disturbed the balance of nature.",
       "is_correct": false
     },
     {
@@ -2220,7 +2220,7 @@
         "Miser and his Wife"
       ],
       "correct_answer": "B",
-      "rag_answer": "C",
+      "rag_answer": "B) A Promise Cleverly Kept",
       "is_correct": false
     },
     {
@@ -2233,7 +2233,7 @@
         "A conservative politician."
       ],
       "correct_answer": "C",
-      "rag_answer": "C) An important scientist",
+      "rag_answer": "C) An important scientist ",
       "is_correct": false
     },
     {
@@ -2272,7 +2272,7 @@
         "dinner guests"
       ],
       "correct_answer": "D",
-      "rag_answer": "B) companions",
+      "rag_answer": "A) holiday makers",
       "is_correct": false
     },
     {
@@ -2285,7 +2285,7 @@
         "Women can't get the mental and material support from family and society."
       ],
       "correct_answer": "A",
-      "rag_answer": "D",
+      "rag_answer": "C) Women require stability and security.",
       "is_correct": false
     },
     {
@@ -2298,7 +2298,7 @@
         "$123"
       ],
       "correct_answer": "D",
-      "rag_answer": "C",
+      "rag_answer": "A) $114",
       "is_correct": false
     },
     {
@@ -2311,7 +2311,7 @@
         "Symphony."
       ],
       "correct_answer": "B",
-      "rag_answer": "C\n\nD",
+      "rag_answer": "C) Divina.",
       "is_correct": false
     },
     {
@@ -2324,7 +2324,7 @@
         "A strong experience my parents and I had"
       ],
       "correct_answer": "C",
-      "rag_answer": "A",
+      "rag_answer": "C) An adventurous experience my parents and I had",
       "is_correct": false
     },
     {
@@ -2337,7 +2337,7 @@
         "they had problems finding carpenters for putting up Christmas trees"
       ],
       "correct_answer": "C",
-      "rag_answer": "C) they had problems picking suitable Christmas trees",
+      "rag_answer": "C) they had problems picking suitable Christmas trees.",
       "is_correct": false
     },
     {
@@ -2363,8 +2363,8 @@
         "Yang Jiang, Chinese writer died at 105."
       ],
       "correct_answer": "D",
-      "rag_answer": "D",
-      "is_correct": true
+      "rag_answer": "D) Yang Jiang, Chinese writer died at 105.",
+      "is_correct": false
     },
     {
       "problem_index": 182,
@@ -2376,7 +2376,7 @@
         "They were deeply influenced by the dark history."
       ],
       "correct_answer": "D",
-      "rag_answer": "B\n\nD",
+      "rag_answer": "B) They used to think themselves less powerful.",
       "is_correct": false
     },
     {
@@ -2389,7 +2389,7 @@
         "88"
       ],
       "correct_answer": "B",
-      "rag_answer": "A",
+      "rag_answer": "B) 60",
       "is_correct": false
     },
     {
@@ -2402,8 +2402,8 @@
         "become a religious leader"
       ],
       "correct_answer": "C",
-      "rag_answer": "C",
-      "is_correct": true
+      "rag_answer": "C) go back to school",
+      "is_correct": false
     },
     {
       "problem_index": 185,
@@ -2415,8 +2415,8 @@
         "eyesight in air or under water"
       ],
       "correct_answer": "C",
-      "rag_answer": "C",
-      "is_correct": true
+      "rag_answer": "B) shapes",
+      "is_correct": false
     },
     {
       "problem_index": 186,
@@ -2454,7 +2454,7 @@
         "If your challenges are too large or too numerous, give it up first."
       ],
       "correct_answer": "B",
-      "rag_answer": "A",
+      "rag_answer": "B) Since the waters close to Japan have not held many fish for decades, they have to go farther to catch fish.",
       "is_correct": false
     },
     {
@@ -2467,7 +2467,7 @@
         "negative"
       ],
       "correct_answer": "B",
-      "rag_answer": "B)",
+      "rag_answer": "C) neutral",
       "is_correct": false
     },
     {
@@ -2480,7 +2480,7 @@
         "got angry at him for his attitude"
       ],
       "correct_answer": "A",
-      "rag_answer": "A) felt a great sense of loss",
+      "rag_answer": "B) burst into tears",
       "is_correct": false
     },
     {
@@ -2493,8 +2493,8 @@
         "2-3"
       ],
       "correct_answer": "B",
-      "rag_answer": "B",
-      "is_correct": true
+      "rag_answer": "C) 1-3",
+      "is_correct": false
     },
     {
       "problem_index": 192,
@@ -2532,7 +2532,7 @@
         "What methods can be used to deflect the asteroid."
       ],
       "correct_answer": "D",
-      "rag_answer": "C) How the keyhole influences Apophis.",
+      "rag_answer": "A) An Egyptian myth about Apophis.",
       "is_correct": false
     },
     {
@@ -2558,8 +2558,8 @@
         "Any party member will be given a bag to store rubbish at the party."
       ],
       "correct_answer": "C",
-      "rag_answer": "C",
-      "is_correct": true
+      "rag_answer": "D) Any party member will be given a bag to store rubbish at the party.",
+      "is_correct": false
     },
     {
       "problem_index": 197,
@@ -2571,7 +2571,7 @@
         "To offer us some information of both sexes' going online in the US."
       ],
       "correct_answer": "A",
-      "rag_answer": "B) To show why men and women are equally likely to use the Internet.",
+      "rag_answer": "D)",
       "is_correct": false
     },
     {
@@ -2584,7 +2584,7 @@
         "Dia"
       ],
       "correct_answer": "C",
-      "rag_answer": "A",
+      "rag_answer": "B) Lianhua",
       "is_correct": false
     },
     {
@@ -2610,7 +2610,7 @@
         "Doubtful."
       ],
       "correct_answer": "A",
-      "rag_answer": "C",
+      "rag_answer": "C) Curious.",
       "is_correct": false
     }
   ]

@@ -6,9 +6,9 @@
   "generator_model": "phi4-mini:3.8b",
   "generator_params": 3.84,
   "generator_size": 2.3,
-  "timestamp": "2026-04-18T01:05:26.403660",
-  "duration": "00:07:08",
-  "duration (seconds)": 428,
+  "timestamp": "2026-05-21T23:54:41.839607",
+  "duration": "00:09:24",
+  "duration (seconds)": 564,
   "total": 200,
   "correct": 0,
   "accuracy": 0.0,
@@ -75,7 +75,7 @@
         "are terrible ill"
       ],
       "correct_answer": "C",
-      "rag_answer": "C) both A and B",
+      "rag_answer": "C) Both A and B",
       "is_correct": false
     },
     {
@@ -88,7 +88,7 @@
         "get free medicine in the medicine shop"
       ],
       "correct_answer": "B",
-      "rag_answer": "B) get free prescriptions",
+      "rag_answer": "B)",
       "is_correct": false
     },
     {
@@ -244,7 +244,7 @@
         "not only on the left but also on the fight"
       ],
       "correct_answer": "A",
-      "rag_answer": "A) just on the left",
+      "rag_answer": "B) just on the right",
       "is_correct": false
     },
     {
@@ -257,7 +257,7 @@
         "juice"
       ],
       "correct_answer": "D",
-      "rag_answer": "B) milk",
+      "rag_answer": "A) icecream",
       "is_correct": false
     },
     {
@@ -361,7 +361,7 @@
         "Hill'S father was cruel to him"
       ],
       "correct_answer": "A",
-      "rag_answer": "A) children should be praised",
+      "rag_answer": "C) Hill's stepmother warm to him",
       "is_correct": false
     },
     {
@@ -439,7 +439,7 @@
         "drawing pictures"
       ],
       "correct_answer": "B",
-      "rag_answer": "B) doing tricks in planes",
+      "rag_answer": "A) taking small planes",
       "is_correct": false
     },
     {
@@ -465,7 +465,7 @@
         "live in the school"
       ],
       "correct_answer": "B",
-      "rag_answer": "B) come to school late",
+      "rag_answer": "B) come to school on foot.",
       "is_correct": false
     },
     {
@@ -478,7 +478,7 @@
         "Because it was the coldest winter."
       ],
       "correct_answer": "C",
-      "rag_answer": "B) Because he lost a leg and couldn't support the family.",
+      "rag_answer": "B) Because he lost a leg and couldn't work again.",
       "is_correct": false
     },
     {
@@ -491,7 +491,7 @@
         "do some shopping online"
       ],
       "correct_answer": "C",
-      "rag_answer": "A) find a job",
+      "rag_answer": "A) find ajob",
       "is_correct": false
     },
     {
@@ -530,7 +530,7 @@
         "made her fall behind others in studies at school"
       ],
       "correct_answer": "C",
-      "rag_answer": "D) made her fall behind others in studies at school",
+      "rag_answer": "C) didn't influence her studies at school",
       "is_correct": false
     },
     {
@@ -569,7 +569,7 @@
         "we should put our hearts into the book"
       ],
       "correct_answer": "D",
-      "rag_answer": "D) we should put our hearts into the book.",
+      "rag_answer": "D) we should put our hearts into the book",
       "is_correct": false
     },
     {
@@ -582,7 +582,7 @@
         "a mechanical \"foot\""
       ],
       "correct_answer": "C",
-      "rag_answer": "B) a tape recorder",
+      "rag_answer": "C) a TV",
       "is_correct": false
     },
     {
@@ -764,7 +764,7 @@
         "teaches"
       ],
       "correct_answer": "C",
-      "rag_answer": "A) lives",
+      "rag_answer": "D) teaches",
       "is_correct": false
     },
     {
@@ -803,7 +803,7 @@
         "supper"
       ],
       "correct_answer": "B",
-      "rag_answer": "B) lunch",
+      "rag_answer": "C) dinner",
       "is_correct": false
     },
     {
@@ -816,7 +816,7 @@
         "Functions of mirror neurons."
       ],
       "correct_answer": "D",
-      "rag_answer": "D) Functions of mirror neurons.",
+      "rag_answer": "C) Discovery of mirror neurons.",
       "is_correct": false
     },
     {
@@ -829,7 +829,7 @@
         "A busy family"
       ],
       "correct_answer": "D",
-      "rag_answer": "D) A busy family",
+      "rag_answer": "B) Hard-working parents",
       "is_correct": false
     },
     {
@@ -920,7 +920,7 @@
         "Jane's friend"
       ],
       "correct_answer": "C",
-      "rag_answer": "B) Jane's father",
+      "rag_answer": "A) Jane.",
       "is_correct": false
     },
     {
@@ -985,7 +985,7 @@
         "Because the rich man wanted him to do so."
       ],
       "correct_answer": "C",
-      "rag_answer": "C) Because he didn't want other people to fall and get hurt.",
+      "rag_answer": "B) Because he knew there was a bag of money under it.",
       "is_correct": false
     },
     {
@@ -1050,7 +1050,7 @@
         "Mike wants to clean the blackboard"
       ],
       "correct_answer": "C",
-      "rag_answer": "C) Mike doesn't find Miss White behind him.",
+      "rag_answer": "C) Mike doesn't find Miss White behind him",
       "is_correct": false
     },
     {
@@ -1089,7 +1089,7 @@
         "she let the driver earn more money"
       ],
       "correct_answer": "C",
-      "rag_answer": "C) she wanted to see some places for the last time",
+      "rag_answer": "C) she wanted to see some places for the last time.",
       "is_correct": false
     },
     {
@@ -1245,7 +1245,7 @@
         "October 28"
       ],
       "correct_answer": "C",
-      "rag_answer": "C) October 15",
+      "rag_answer": "B) October 7",
       "is_correct": false
     },
     {
@@ -1297,7 +1297,7 @@
         "4000 yuan"
       ],
       "correct_answer": "D",
-      "rag_answer": "C) 1000 yuan",
+      "rag_answer": "B) 800 yuan",
       "is_correct": false
     },
     {
@@ -1310,7 +1310,7 @@
         "info@top-model-agency.uk"
       ],
       "correct_answer": "D",
-      "rag_answer": "C) cathy@cut-above.brighton.com",
+      "rag_answer": "B) info@wowee.com",
       "is_correct": false
     },
     {
@@ -1336,7 +1336,7 @@
         "wants to eat the crow"
       ],
       "correct_answer": "A",
-      "rag_answer": "B) wants to eat the baby",
+      "rag_answer": "A) wants to eat the piece of meat",
       "is_correct": false
     },
     {
@@ -1401,7 +1401,7 @@
         "with neither of her eyes"
       ],
       "correct_answer": "B",
-      "rag_answer": "B) only with the right eye",
+      "rag_answer": "A) only with the left eye",
       "is_correct": false
     },
     {
@@ -1414,7 +1414,7 @@
         "they are lazy"
       ],
       "correct_answer": "B",
-      "rag_answer": "B) they are too young and they can't do difficult chores",
+      "rag_answer": "C) they only want candy",
       "is_correct": false
     },
     {
@@ -1583,7 +1583,7 @@
         "a dog of \"Sleeping Beauty\""
       ],
       "correct_answer": "B",
-      "rag_answer": "B) a rock like a dog",
+      "rag_answer": "D) a dog of \"Sleeping Beauty\"",
       "is_correct": false
     },
     {
@@ -1648,7 +1648,7 @@
         "a big dinner every day"
       ],
       "correct_answer": "C",
-      "rag_answer": "A) a big supper on Sunday",
+      "rag_answer": "B) a big lunch on Sundays",
       "is_correct": false
     },
     {
@@ -1726,7 +1726,7 @@
         "A, B and C"
       ],
       "correct_answer": "D",
-      "rag_answer": "C) play ball games",
+      "rag_answer": "D) A, B and C",
       "is_correct": false
     },
     {
@@ -1739,7 +1739,7 @@
         "How willpower is connected with success and how they affect each other."
       ],
       "correct_answer": "C",
-      "rag_answer": "A) How willpower and muscles are similar and how they can be trained.",
+      "rag_answer": "B) How willpower affects people's lives and how it is similar to muscles.",
       "is_correct": false
     },
     {
@@ -1752,7 +1752,7 @@
         "Eight"
       ],
       "correct_answer": "C",
-      "rag_answer": "B) Six",
+      "rag_answer": "C) Seven",
       "is_correct": false
     },
     {
@@ -1804,7 +1804,7 @@
         "in the microwave oven"
       ],
       "correct_answer": "A",
-      "rag_answer": "A) on the desk",
+      "rag_answer": "B) on the bed",
       "is_correct": false
     },
     {
@@ -1817,7 +1817,7 @@
         "The mother told the teacher about the scat after the meeting."
       ],
       "correct_answer": "D",
-      "rag_answer": "A) The boy knew why his mother got the scar before.",
+      "rag_answer": "D) The mother told the teacher about the scar after the meeting.",
       "is_correct": false
     },
     {
@@ -1843,7 +1843,7 @@
         "Gurdon's science teacher."
       ],
       "correct_answer": "C",
-      "rag_answer": "A) Sir John Gurdon",
+      "rag_answer": "C) Sir John Gurdon and Shinya Yamanaka.",
       "is_correct": false
     },
     {
@@ -1856,7 +1856,7 @@
         "A professional report"
       ],
       "correct_answer": "A",
-      "rag_answer": "B) An interesting lesson",
+      "rag_answer": "A) A special day",
       "is_correct": false
     },
     {
@@ -2012,7 +2012,7 @@
         "they went to college and learned from professors"
       ],
       "correct_answer": "B",
-      "rag_answer": "C) they were so useful",
+      "rag_answer": "B) they knew how to study.",
       "is_correct": false
     },
     {
@@ -2025,7 +2025,7 @@
         "she has done a good job and makes a lot of money as a model"
       ],
       "correct_answer": "C",
-      "rag_answer": "C) she is so old that she has missed the best time in school  ",
+      "rag_answer": "C) she is so old that she has missed the best time in school",
       "is_correct": false
     },
     {
@@ -2129,7 +2129,7 @@
         "in a secret place"
       ],
       "correct_answer": "C",
-      "rag_answer": "C) at Peter's friend's house",
+      "rag_answer": "A) at Peter's house",
       "is_correct": false
     },
     {
@@ -2181,7 +2181,7 @@
         "The names of the four boys"
       ],
       "correct_answer": "D",
-      "rag_answer": "B) WHICH ONE DID IT",
+      "rag_answer": "A) BROWN IS STUPID",
       "is_correct": false
     },
     {
@@ -2194,7 +2194,7 @@
         "on the left of"
       ],
       "correct_answer": "A",
-      "rag_answer": "A) next to",
+      "rag_answer": "B) in front of",
       "is_correct": false
     },
     {
@@ -2207,7 +2207,7 @@
         "cut down too many trees and grass"
       ],
       "correct_answer": "C",
-      "rag_answer": "D) cut down too many trees and grass",
+      "rag_answer": "B) set fires to help people who went fishing home.",
       "is_correct": false
     },
     {
@@ -2350,7 +2350,7 @@
         "you have to change the date"
       ],
       "correct_answer": "C",
-      "rag_answer": "C) you have to wait until the end of show or next showing",
+      "rag_answer": "C) you have to wait until the next showing",
       "is_correct": false
     },
     {
@@ -2493,7 +2493,7 @@
         "he heard a noise"
       ],
       "correct_answer": "C",
-      "rag_answer": "C) he found one of the rails was broken",
+      "rag_answer": "B) he saw the train was coming",
       "is_correct": false
     },
     {
@@ -2519,7 +2519,7 @@
         "Poor People and Money."
       ],
       "correct_answer": "A",
-      "rag_answer": "B) Police and Money.",
+      "rag_answer": "D) Poor People and Money.",
       "is_correct": false
     },
     {
@@ -2545,7 +2545,7 @@
         "Pilots'- First Class -Club- Economy"
       ],
       "correct_answer": "D",
-      "rag_answer": "A) Club-Pilots'-Economy -First Class",
+      "rag_answer": "C) Club-Economy- First Class'",
       "is_correct": false
     },
     {
@@ -2558,7 +2558,7 @@
         "who dislikes to hitchhike"
       ],
       "correct_answer": "C",
-      "rag_answer": "A) who always thinks of others",
+      "rag_answer": "C) who has seen much of the world and is very careful",
       "is_correct": false
     },
     {
@@ -2584,7 +2584,7 @@
         "hot"
       ],
       "correct_answer": "D",
-      "rag_answer": "D) hot",
+      "rag_answer": "A) cold",
       "is_correct": false
     },
     {
@@ -2610,7 +2610,7 @@
         "All his friends"
       ],
       "correct_answer": "B",
-      "rag_answer": "B) Few people",
+      "rag_answer": "A) Many of his friends",
       "is_correct": false
     }
   ]

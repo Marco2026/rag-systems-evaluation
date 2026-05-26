@@ -6,9 +6,9 @@
   "generator_model": "phi4-mini:3.8b",
   "generator_params": 3.84,
   "generator_size": 2.3,
-  "timestamp": "2026-04-30T04:35:52.486076",
-  "duration": "00:06:49",
-  "duration (seconds)": 409,
+  "timestamp": "2026-05-22T20:16:10.749511",
+  "duration": "00:09:21",
+  "duration (seconds)": 561,
   "total": 200,
   "correct": 0,
   "accuracy": 0.0,
@@ -127,7 +127,7 @@
         "D": "Order of the Silver Flame"
       },
       "correct_answer": "D",
-      "rag_answer": "B) Order of the Gold Fire",
+      "rag_answer": "D) Order of the Silver Flame",
       "is_correct": false
     },
     {
@@ -1037,7 +1037,7 @@
         "D": "Mistwood Route"
       },
       "correct_answer": "D",
-      "rag_answer": "D)",
+      "rag_answer": "D) Misthood Route",
       "is_correct": false
     },
     {
@@ -1154,7 +1154,7 @@
         "D": "Elyria, the Earth Mother, Iron Hills"
       },
       "correct_answer": "D",
-      "rag_answer": "D) Elyria, the Earth Mother, Iron Hills",
+      "rag_answer": "Elyria, the Earth Mother",
       "is_correct": false
     },
     {
@@ -1219,7 +1219,7 @@
         "D": "Moonhaven"
       },
       "correct_answer": "A",
-      "rag_answer": "A) Sunhold",
+      "rag_answer": "C) Valoria",
       "is_correct": false
     },
     {
@@ -2077,7 +2077,7 @@
         "D": "Resource competition"
       },
       "correct_answer": "C",
-      "rag_answer": "C) Valdrek accused Veridia of harboring rebels disrupting supply lines",
+      "rag_answer": "C) Valdrek accused Veridia of harboring rebels disrupting supply lines.",
       "is_correct": false
     },
     {
@@ -2116,7 +2116,7 @@
         "D": "Perform a specific spell"
       },
       "correct_answer": "D",
-      "rag_answer": "A) Complete a somatic dance",
+      "rag_answer": "D) Perform a specific spell",
       "is_correct": false
     },
     {
@@ -2298,7 +2298,7 @@
         "D": "Amplified shadow magic"
       },
       "correct_answer": "B",
-      "rag_answer": "D) Amplified shadow magic",
+      "rag_answer": "B) Enhanced power with higher risk of backfire",
       "is_correct": false
     },
     {
@@ -2441,7 +2441,7 @@
         "D": "It marks the beginning of significant changes in Eldara"
       },
       "correct_answer": "D",
-      "rag_answer": "A) It initiates a new magical era",
+      "rag_answer": "B) It signals the end of the current age",
       "is_correct": false
     },
     {
@@ -2480,7 +2480,7 @@
         "D": "It will serve as a symbol of the Council of Elders"
       },
       "correct_answer": "A",
-      "rag_answer": "A) It will guide the Chosen One on their journey.",
+      "rag_answer": "A) It will guide the Chosen One on their journey",
       "is_correct": false
     },
     {
@@ -2571,7 +2571,7 @@
         "D": "Moonwhisper's Staff"
       },
       "correct_answer": "C",
-      "rag_answer": "C)Potion of Strength",
+      "rag_answer": "C) Potion of Strength",
       "is_correct": false
     },
     {

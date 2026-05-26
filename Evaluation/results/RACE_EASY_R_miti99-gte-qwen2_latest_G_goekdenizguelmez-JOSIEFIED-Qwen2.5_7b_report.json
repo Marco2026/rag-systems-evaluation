@@ -6,12 +6,12 @@
   "generator_model": "goekdenizguelmez/JOSIEFIED-Qwen2.5:7b",
   "generator_params": 7.62,
   "generator_size": 4.4,
-  "timestamp": "2026-04-18T00:42:54.850479",
-  "duration": "00:07:33",
-  "duration (seconds)": 453,
+  "timestamp": "2026-05-22T01:54:23.172049",
+  "duration": "00:07:03",
+  "duration (seconds)": 423,
   "total": 200,
-  "correct": 167,
-  "accuracy": 0.835,
+  "correct": 163,
+  "accuracy": 0.815,
   "results": [
     {
       "problem_index": 1,
@@ -49,8 +49,8 @@
         "Dinner customs in the US restaurants."
       ],
       "correct_answer": "D",
-      "rag_answer": "D",
-      "is_correct": true
+      "rag_answer": "B",
+      "is_correct": false
     },
     {
       "problem_index": 4,
@@ -192,8 +192,8 @@
         "Old John didn't smoke a cigar a day"
       ],
       "correct_answer": "C",
-      "rag_answer": "C",
-      "is_correct": true
+      "rag_answer": "A",
+      "is_correct": false
     },
     {
       "problem_index": 15,
@@ -231,8 +231,8 @@
         "low"
       ],
       "correct_answer": "B",
-      "rag_answer": "A",
-      "is_correct": false
+      "rag_answer": "B",
+      "is_correct": true
     },
     {
       "problem_index": 18,
@@ -465,8 +465,8 @@
         "live in the school"
       ],
       "correct_answer": "B",
-      "rag_answer": "B",
-      "is_correct": true
+      "rag_answer": "C",
+      "is_correct": false
     },
     {
       "problem_index": 36,
@@ -491,8 +491,8 @@
         "do some shopping online"
       ],
       "correct_answer": "C",
-      "rag_answer": "C",
-      "is_correct": true
+      "rag_answer": "D",
+      "is_correct": false
     },
     {
       "problem_index": 38,
@@ -504,8 +504,8 @@
         "It came out before she finished school."
       ],
       "correct_answer": "C",
-      "rag_answer": "C",
-      "is_correct": true
+      "rag_answer": "D",
+      "is_correct": false
     },
     {
       "problem_index": 39,
@@ -699,8 +699,8 @@
         "Spending money wisely at college"
       ],
       "correct_answer": "D",
-      "rag_answer": "D",
-      "is_correct": true
+      "rag_answer": "A",
+      "is_correct": false
     },
     {
       "problem_index": 54,
@@ -751,8 +751,8 @@
         "They were frightened and happy"
       ],
       "correct_answer": "A",
-      "rag_answer": "B",
-      "is_correct": false
+      "rag_answer": "A",
+      "is_correct": true
     },
     {
       "problem_index": 58,
@@ -829,8 +829,8 @@
         "A busy family"
       ],
       "correct_answer": "D",
-      "rag_answer": "C",
-      "is_correct": false
+      "rag_answer": "D",
+      "is_correct": true
     },
     {
       "problem_index": 64,
@@ -855,8 +855,8 @@
         "We should pay for other's help."
       ],
       "correct_answer": "B",
-      "rag_answer": "D",
-      "is_correct": false
+      "rag_answer": "B",
+      "is_correct": true
     },
     {
       "problem_index": 66,
@@ -1375,8 +1375,8 @@
         "do easy chores"
       ],
       "correct_answer": "A",
-      "rag_answer": "D",
-      "is_correct": false
+      "rag_answer": "A",
+      "is_correct": true
     },
     {
       "problem_index": 106,
@@ -1492,8 +1492,8 @@
         "The Doctor"
       ],
       "correct_answer": "C",
-      "rag_answer": "C",
-      "is_correct": true
+      "rag_answer": "A",
+      "is_correct": false
     },
     {
       "problem_index": 115,
@@ -1700,7 +1700,7 @@
         "said \"POLICE NOTICE, NO PARKING\""
       ],
       "correct_answer": "D",
-      "rag_answer": "C",
+      "rag_answer": "A",
       "is_correct": false
     },
     {
@@ -2285,8 +2285,8 @@
         "was praised by his teachers and classmates"
       ],
       "correct_answer": "D",
-      "rag_answer": "A",
-      "is_correct": false
+      "rag_answer": "D",
+      "is_correct": true
     },
     {
       "problem_index": 176,
@@ -2350,8 +2350,8 @@
         "you have to change the date"
       ],
       "correct_answer": "C",
-      "rag_answer": "C",
-      "is_correct": true
+      "rag_answer": "A",
+      "is_correct": false
     },
     {
       "problem_index": 181,
@@ -2480,8 +2480,8 @@
         "Ted was one year older than Mike."
       ],
       "correct_answer": "C",
-      "rag_answer": "C",
-      "is_correct": true
+      "rag_answer": "A",
+      "is_correct": false
     },
     {
       "problem_index": 191,
@@ -2545,8 +2545,8 @@
         "Pilots'- First Class -Club- Economy"
       ],
       "correct_answer": "D",
-      "rag_answer": "D",
-      "is_correct": true
+      "rag_answer": "B",
+      "is_correct": false
     },
     {
       "problem_index": 196,
@@ -2558,7 +2558,7 @@
         "who dislikes to hitchhike"
       ],
       "correct_answer": "C",
-      "rag_answer": "A",
+      "rag_answer": "D",
       "is_correct": false
     },
     {

@@ -6,12 +6,12 @@
   "generator_model": "goekdenizguelmez/JOSIEFIED-Qwen2.5:7b",
   "generator_params": 7.62,
   "generator_size": 4.4,
-  "timestamp": "2026-04-17T00:39:12.268025",
-  "duration": "00:12:55",
-  "duration (seconds)": 775,
+  "timestamp": "2026-05-21T04:29:35.692671",
+  "duration": "00:13:51",
+  "duration (seconds)": 831,
   "total": 200,
-  "correct": 119,
-  "accuracy": 0.595,
+  "correct": 137,
+  "accuracy": 0.685,
   "results": [
     {
       "problem_index": 1,
@@ -23,7 +23,7 @@
         "Karate"
       ],
       "correct_answer": 2,
-      "rag_answer": "D",
+      "rag_answer": "A",
       "is_correct": false
     },
     {
@@ -62,8 +62,8 @@
         "They did not understand the language"
       ],
       "correct_answer": 2,
-      "rag_answer": "C",
-      "is_correct": true
+      "rag_answer": "D",
+      "is_correct": false
     },
     {
       "problem_index": 5,
@@ -88,8 +88,8 @@
         "Get better dental insurance"
       ],
       "correct_answer": 2,
-      "rag_answer": "D",
-      "is_correct": false
+      "rag_answer": "C",
+      "is_correct": true
     },
     {
       "problem_index": 7,
@@ -114,8 +114,8 @@
         "Reverent"
       ],
       "correct_answer": 0,
-      "rag_answer": "C",
-      "is_correct": false
+      "rag_answer": "A",
+      "is_correct": true
     },
     {
       "problem_index": 9,
@@ -244,8 +244,8 @@
         "6"
       ],
       "correct_answer": 2,
-      "rag_answer": "B",
-      "is_correct": false
+      "rag_answer": "C",
+      "is_correct": true
     },
     {
       "problem_index": 19,
@@ -309,8 +309,8 @@
         "The planet makes them forget time."
       ],
       "correct_answer": 2,
-      "rag_answer": "B",
-      "is_correct": false
+      "rag_answer": "C",
+      "is_correct": true
     },
     {
       "problem_index": 24,
@@ -374,8 +374,8 @@
         "They were discussing the disappearance of objects and places"
       ],
       "correct_answer": 3,
-      "rag_answer": "B",
-      "is_correct": false
+      "rag_answer": "D",
+      "is_correct": true
     },
     {
       "problem_index": 29,
@@ -465,8 +465,8 @@
         "Not possible to know"
       ],
       "correct_answer": 3,
-      "rag_answer": "C",
-      "is_correct": false
+      "rag_answer": "D",
+      "is_correct": true
     },
     {
       "problem_index": 36,
@@ -478,8 +478,8 @@
         "The island is his room, and the snakes are the other minds."
       ],
       "correct_answer": 3,
-      "rag_answer": "B",
-      "is_correct": false
+      "rag_answer": "D",
+      "is_correct": true
     },
     {
       "problem_index": 37,
@@ -543,8 +543,8 @@
         "Being made with hydrogen"
       ],
       "correct_answer": 3,
-      "rag_answer": "A",
-      "is_correct": false
+      "rag_answer": "D",
+      "is_correct": true
     },
     {
       "problem_index": 42,
@@ -556,7 +556,7 @@
         "His bullet hitting the enemy"
       ],
       "correct_answer": 0,
-      "rag_answer": "B",
+      "rag_answer": "C",
       "is_correct": false
     },
     {
@@ -621,8 +621,8 @@
         "To impress the Free'l"
       ],
       "correct_answer": 1,
-      "rag_answer": "C",
-      "is_correct": false
+      "rag_answer": "B",
+      "is_correct": true
     },
     {
       "problem_index": 48,
@@ -699,7 +699,7 @@
         "It is so far away from the war that having weapons is unnecessary"
       ],
       "correct_answer": 0,
-      "rag_answer": "D",
+      "rag_answer": "B",
       "is_correct": false
     },
     {
@@ -725,8 +725,8 @@
         "A desire to commit fraud"
       ],
       "correct_answer": 2,
-      "rag_answer": "C",
-      "is_correct": true
+      "rag_answer": "B",
+      "is_correct": false
     },
     {
       "problem_index": 56,
@@ -764,8 +764,8 @@
         "He arrived at the building late"
       ],
       "correct_answer": 1,
-      "rag_answer": "D",
-      "is_correct": false
+      "rag_answer": "B",
+      "is_correct": true
     },
     {
       "problem_index": 59,
@@ -816,7 +816,7 @@
         "Earth"
       ],
       "correct_answer": 1,
-      "rag_answer": "D",
+      "rag_answer": "C",
       "is_correct": false
     },
     {
@@ -907,8 +907,8 @@
         "Kerry"
       ],
       "correct_answer": 3,
-      "rag_answer": "C",
-      "is_correct": false
+      "rag_answer": "D",
+      "is_correct": true
     },
     {
       "problem_index": 70,
@@ -985,8 +985,8 @@
         "The car models tell him what era he is in at the moment."
       ],
       "correct_answer": 3,
-      "rag_answer": "C",
-      "is_correct": false
+      "rag_answer": "D",
+      "is_correct": true
     },
     {
       "problem_index": 76,
@@ -1037,8 +1037,8 @@
         "The concert had been cancelled"
       ],
       "correct_answer": 2,
-      "rag_answer": "B",
-      "is_correct": false
+      "rag_answer": "C",
+      "is_correct": true
     },
     {
       "problem_index": 80,
@@ -1050,8 +1050,8 @@
         "Mental illness"
       ],
       "correct_answer": 2,
-      "rag_answer": "B",
-      "is_correct": false
+      "rag_answer": "C",
+      "is_correct": true
     },
     {
       "problem_index": 81,
@@ -1089,8 +1089,8 @@
         "He believes it is an evil system"
       ],
       "correct_answer": 0,
-      "rag_answer": "B",
-      "is_correct": false
+      "rag_answer": "A",
+      "is_correct": true
     },
     {
       "problem_index": 84,
@@ -1102,8 +1102,8 @@
         "R2-D2"
       ],
       "correct_answer": 2,
-      "rag_answer": "C",
-      "is_correct": true
+      "rag_answer": "A",
+      "is_correct": false
     },
     {
       "problem_index": 85,
@@ -1167,8 +1167,8 @@
         "He quits his job in management."
       ],
       "correct_answer": 1,
-      "rag_answer": "D",
-      "is_correct": false
+      "rag_answer": "B",
+      "is_correct": true
     },
     {
       "problem_index": 90,
@@ -1180,8 +1180,8 @@
         "They convinced their people to fight back against the Hunters"
       ],
       "correct_answer": 1,
-      "rag_answer": "C",
-      "is_correct": false
+      "rag_answer": "B",
+      "is_correct": true
     },
     {
       "problem_index": 91,
@@ -1323,8 +1323,8 @@
         "universities who do nothing but advocate them"
       ],
       "correct_answer": 2,
-      "rag_answer": "A",
-      "is_correct": false
+      "rag_answer": "C",
+      "is_correct": true
     },
     {
       "problem_index": 102,
@@ -1466,7 +1466,7 @@
         "To wait for their society to return and pick them up"
       ],
       "correct_answer": 2,
-      "rag_answer": "B",
+      "rag_answer": "A",
       "is_correct": false
     },
     {
@@ -1570,8 +1570,8 @@
         "The current reality was starting to fade"
       ],
       "correct_answer": 3,
-      "rag_answer": "B",
-      "is_correct": false
+      "rag_answer": "D",
+      "is_correct": true
     },
     {
       "problem_index": 121,
@@ -1661,8 +1661,8 @@
         "It is thinly veiled in confusing language"
       ],
       "correct_answer": 2,
-      "rag_answer": "C",
-      "is_correct": true
+      "rag_answer": "A",
+      "is_correct": false
     },
     {
       "problem_index": 128,
@@ -1765,8 +1765,8 @@
         "Coleman was an impressive figure"
       ],
       "correct_answer": 2,
-      "rag_answer": "B",
-      "is_correct": false
+      "rag_answer": "C",
+      "is_correct": true
     },
     {
       "problem_index": 136,
@@ -1791,8 +1791,8 @@
         "lonely and need friends."
       ],
       "correct_answer": 2,
-      "rag_answer": "C",
-      "is_correct": true
+      "rag_answer": "B",
+      "is_correct": false
     },
     {
       "problem_index": 138,
@@ -1817,8 +1817,8 @@
         "He twists the Flapjacks' tentacles, which is excruciatingly painful to a Flapjack."
       ],
       "correct_answer": 1,
-      "rag_answer": "B",
-      "is_correct": true
+      "rag_answer": "C",
+      "is_correct": false
     },
     {
       "problem_index": 140,
@@ -1830,8 +1830,8 @@
         "He was not religious"
       ],
       "correct_answer": 2,
-      "rag_answer": "A",
-      "is_correct": false
+      "rag_answer": "C",
+      "is_correct": true
     },
     {
       "problem_index": 141,
@@ -1973,8 +1973,8 @@
         "Sweden"
       ],
       "correct_answer": 2,
-      "rag_answer": "D",
-      "is_correct": false
+      "rag_answer": "C",
+      "is_correct": true
     },
     {
       "problem_index": 152,
@@ -1986,8 +1986,8 @@
         "Using magnetic poles"
       ],
       "correct_answer": 0,
-      "rag_answer": "A",
-      "is_correct": true
+      "rag_answer": "B",
+      "is_correct": false
     },
     {
       "problem_index": 153,
@@ -2181,8 +2181,8 @@
         "They are counterfeit of the true Christ"
       ],
       "correct_answer": 1,
-      "rag_answer": "C",
-      "is_correct": false
+      "rag_answer": "B",
+      "is_correct": true
     },
     {
       "problem_index": 168,
@@ -2285,8 +2285,8 @@
         "They liked to do it at least once a day"
       ],
       "correct_answer": 1,
-      "rag_answer": "C",
-      "is_correct": false
+      "rag_answer": "B",
+      "is_correct": true
     },
     {
       "problem_index": 176,
@@ -2571,8 +2571,8 @@
         "Fame"
       ],
       "correct_answer": 2,
-      "rag_answer": "A",
-      "is_correct": false
+      "rag_answer": "C",
+      "is_correct": true
     },
     {
       "problem_index": 198,

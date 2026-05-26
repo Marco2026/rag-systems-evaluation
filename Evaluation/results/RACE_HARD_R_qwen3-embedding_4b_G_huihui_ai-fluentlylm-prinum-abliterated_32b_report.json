@@ -6,12 +6,12 @@
   "generator_model": "huihui_ai/fluentlylm-prinum-abliterated:32b",
   "generator_params": 32.8,
   "generator_size": 18.5,
-  "timestamp": "2026-04-14T14:00:06.962383",
-  "duration": "00:18:20",
-  "duration (seconds)": 1100,
+  "timestamp": "2026-05-22T12:26:01.928014",
+  "duration": "00:22:20",
+  "duration (seconds)": 1340,
   "total": 200,
-  "correct": 175,
-  "accuracy": 0.875,
+  "correct": 182,
+  "accuracy": 0.91,
   "results": [
     {
       "problem_index": 1,
@@ -101,8 +101,8 @@
         "Keep Holding on to This Negative Emotion as Long as Possible."
       ],
       "correct_answer": "A",
-      "rag_answer": "A) Clear Your Mental Space.",
-      "is_correct": false
+      "rag_answer": "A",
+      "is_correct": true
     },
     {
       "problem_index": 8,
@@ -543,7 +543,7 @@
         "None of them"
       ],
       "correct_answer": "A",
-      "rag_answer": "B",
+      "rag_answer": "C",
       "is_correct": false
     },
     {
@@ -595,8 +595,8 @@
         "a drug company"
       ],
       "correct_answer": "A",
-      "rag_answer": "A) a medical center",
-      "is_correct": false
+      "rag_answer": "A",
+      "is_correct": true
     },
     {
       "problem_index": 46,
@@ -660,8 +660,8 @@
         "The development of power harvesting."
       ],
       "correct_answer": "A",
-      "rag_answer": "A) A new technique to create power.\n\nThe passage primarily discusses a new research effort at the University of Bedfordshire led by Professor Ben Allen to develop a system that can use radio waves as a source of energy, potentially eliminating the need for traditional batteries in small electronic devices. The focus is on this innovative \"power harvesting\" technology and its potential benefits both environmentally and commercially.\n\nWhile options B, C, and D touch upon elements mentioned in the passage, they do not capture the main idea as comprehensively as option A does. Option A directly addresses the core topic introduced at the beginning of the text and maintained throughout, making it the most appropriate choice for summarizing what the text is mainly about.",
-      "is_correct": false
+      "rag_answer": "A",
+      "is_correct": true
     },
     {
       "problem_index": 51,
@@ -673,8 +673,8 @@
         "introducing a method"
       ],
       "correct_answer": "B",
-      "rag_answer": "C",
-      "is_correct": false
+      "rag_answer": "B",
+      "is_correct": true
     },
     {
       "problem_index": 52,
@@ -1063,8 +1063,8 @@
         "First the author makes an introduction and then draws a conclusion."
       ],
       "correct_answer": "A",
-      "rag_answer": "A) First the author gives some messages and then explain them.\n\nThe answer is A. The passage starts with the author giving messages about different kinds of friends and his personal experiences with cancer, followed by explanations of these topics. There's no clear indication of opinions being presented first (B), arguments being introduced and compared (C), or a formal introduction leading to a conclusion (D). The structure aligns most closely with A, where initial statements are made and then elaborated upon.",
-      "is_correct": false
+      "rag_answer": "A",
+      "is_correct": true
     },
     {
       "problem_index": 82,
@@ -1102,8 +1102,8 @@
         "We shouldn't care what kind of situations we're in."
       ],
       "correct_answer": "A",
-      "rag_answer": "A) We should bear responsibility regardless of situations.\n\nThe passage states George Bernard Shaw's quote, \"People are always blaming their circumstances for what they are... The people who get on in this world are the people who get up and look for the circumstances they want, and, if they can't find them, make them.\" This implies that individuals should not blame their situations but instead take responsibility to create or change their circumstances. Thus, option A is correct as it aligns with taking responsibility regardless of the situation.\n\nB) We shouldn't owe failure to the sense of responsibility.\nThis option is not supported by Shaw's quote in the passage. The focus is on taking initiative rather than attributing failure to a lack of responsibility.\n\nC) We should first step out of our present circumstances.\nWhile this might seem relevant, it doesn't capture the full meaning that Shaw conveys about actively seeking or creating favorable situations through personal action and responsibility.\n\nD) We shouldn't care what kind of situations we're in.\nThis option misinterprets Shaw's message. He emphasizes proactively shaping one's circumstances rather than passively accepting them without concern.\n\nTherefore, based on the information provided in the passage, A is the most accurate interpretation of George Bernard Shaw's saying.\n\nA",
-      "is_correct": false
+      "rag_answer": "A",
+      "is_correct": true
     },
     {
       "problem_index": 85,
@@ -1999,8 +1999,8 @@
         "Not innocent anymore"
       ],
       "correct_answer": "C",
-      "rag_answer": "A",
-      "is_correct": false
+      "rag_answer": "C",
+      "is_correct": true
     },
     {
       "problem_index": 154,
@@ -2324,8 +2324,8 @@
         "A strong experience my parents and I had"
       ],
       "correct_answer": "C",
-      "rag_answer": "A) An exciting experience my parents and I had\n\nThe passage describes a trip across Nemeiben Lake in Northern Saskatchewan with the narrator's parents. The narrator mentions that they had never been on a fishing boat before, indicating a lack of prior experience but an excitement to try something new. The language used to describe the journey is filled with positive emotions like being \"captivated by the speed and grace\" of the boat.\n\nHowever, option A seems the most fitting as it captures both the initial excitement (\"speed and grace\") and the unexpected event (\"Suddenly the boat hit something\"), which together create an exciting experience rather than specifically adventurous or strong. The passage doesn't lean towards disappointment either, so option B is less likely.\n\nThe correct response based on the rules:\nA",
-      "is_correct": false
+      "rag_answer": "C",
+      "is_correct": true
     },
     {
       "problem_index": 179,
@@ -2350,8 +2350,8 @@
         "they have to follow an evolutionary step backward."
       ],
       "correct_answer": "A",
-      "rag_answer": "A",
-      "is_correct": true
+      "rag_answer": "D",
+      "is_correct": false
     },
     {
       "problem_index": 181,

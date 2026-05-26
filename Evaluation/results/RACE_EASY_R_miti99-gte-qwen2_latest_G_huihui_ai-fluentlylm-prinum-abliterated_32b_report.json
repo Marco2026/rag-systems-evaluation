@@ -6,9 +6,9 @@
   "generator_model": "huihui_ai/fluentlylm-prinum-abliterated:32b",
   "generator_params": 32.8,
   "generator_size": 18.5,
-  "timestamp": "2026-04-17T23:03:04.731272",
-  "duration": "00:16:22",
-  "duration (seconds)": 982,
+  "timestamp": "2026-05-22T00:56:21.990065",
+  "duration": "00:16:04",
+  "duration (seconds)": 964,
   "total": 200,
   "correct": 183,
   "accuracy": 0.915,
@@ -257,8 +257,8 @@
         "juice"
       ],
       "correct_answer": "D",
-      "rag_answer": "D)",
-      "is_correct": false
+      "rag_answer": "D",
+      "is_correct": true
     },
     {
       "problem_index": 20,
@@ -699,8 +699,8 @@
         "Spending money wisely at college"
       ],
       "correct_answer": "D",
-      "rag_answer": "D",
-      "is_correct": true
+      "rag_answer": "A",
+      "is_correct": false
     },
     {
       "problem_index": 54,
@@ -751,8 +751,8 @@
         "They were frightened and happy"
       ],
       "correct_answer": "A",
-      "rag_answer": "A",
-      "is_correct": true
+      "rag_answer": "B",
+      "is_correct": false
     },
     {
       "problem_index": 58,
@@ -829,8 +829,8 @@
         "A busy family"
       ],
       "correct_answer": "D",
-      "rag_answer": "C",
-      "is_correct": false
+      "rag_answer": "D",
+      "is_correct": true
     },
     {
       "problem_index": 64,
@@ -894,8 +894,8 @@
         "didn't know all the people they passed"
       ],
       "correct_answer": "A",
-      "rag_answer": "B",
-      "is_correct": false
+      "rag_answer": "A",
+      "is_correct": true
     },
     {
       "problem_index": 69,
@@ -920,8 +920,8 @@
         "Jane's friend"
       ],
       "correct_answer": "C",
-      "rag_answer": "B",
-      "is_correct": false
+      "rag_answer": "C",
+      "is_correct": true
     },
     {
       "problem_index": 71,
@@ -1388,8 +1388,8 @@
         "Sue's Friend"
       ],
       "correct_answer": "A",
-      "rag_answer": "B",
-      "is_correct": false
+      "rag_answer": "A",
+      "is_correct": true
     },
     {
       "problem_index": 107,
@@ -1752,7 +1752,7 @@
         "Eight"
       ],
       "correct_answer": "C",
-      "rag_answer": "A",
+      "rag_answer": "A) Five\n\nExplanation:\n- Dogs (mentioned several times)\n- Cats (mentioned once)\n\nNo other animals are explicitly mentioned. The question asks how many \"kinds\" of animals are mentioned, not individual instances. Therefore, the correct answer is A) Five. However, based on my explanation, it seems like there are only two kinds of animals mentioned in the passage - dogs and cats.\n\nGiven that my initial analysis might be incorrect due to the question's potential for misinterpretation or a mistake in the question itself, I'll stick with the most straightforward answer based on the text:\n\nA) Five\n\nBut considering the actual content of the passage, only two kinds are explicitly mentioned. If forced to choose strictly from the options given and without additional context, \"Five\" is not correct per the literal content of the passages provided.\n\nGiven this analysis, there seems to be an error in either the question or the answer choices, as only two distinct types of animals (dogs and cats) are mentioned across all the provided text snippets. But following your instruction to pick from given options:\n\nA) Five\n\nHowever, if pressed for the most accurate response based solely on what is written:\n\n\"Two kinds of animals are mentioned in the passage.\"\n\nGiven this discrepancy, I'll select the closest option available:\n\nA) Five\n\nBut with the caveat that based strictly on the text provided, only two distinct types (dogs and cats) are actually referenced.",
       "is_correct": false
     },
     {
@@ -1778,8 +1778,8 @@
         "on 2"
       ],
       "correct_answer": "B",
-      "rag_answer": "B",
-      "is_correct": true
+      "rag_answer": "C",
+      "is_correct": false
     },
     {
       "problem_index": 137,
@@ -2103,7 +2103,7 @@
         "How to play drums."
       ],
       "correct_answer": "B",
-      "rag_answer": "B) How to spend free time.\n\nThe passage discusses different students' holiday plans and activities, such as watching TV, playing computer games, making clothes, designing websites, reading books, cooking dinner, doing homework, etc. It also mentions the advice from Aunt Li on how to have a wonderful holiday by balancing relaxation and studying. Therefore, the main idea of the passage is about how to spend free time during holidays.\n\nThus, the answer is B.",
+      "rag_answer": "A",
       "is_correct": false
     },
     {
@@ -2194,8 +2194,8 @@
         "on the left of"
       ],
       "correct_answer": "A",
-      "rag_answer": "A",
-      "is_correct": true
+      "rag_answer": "A) next to\n\nThe passage states, \"On a British Airways flight from Johannesburg, a middle-aged ,rich white South American lady found herself sitting next to a black man.\" Therefore, the correct answer is A. The question asks where the man is seated relative to the woman, and the text explicitly mentions that he was seated next to her on the plane.",
+      "is_correct": false
     },
     {
       "problem_index": 169,
@@ -2207,8 +2207,8 @@
         "cut down too many trees and grass"
       ],
       "correct_answer": "C",
-      "rag_answer": "C",
-      "is_correct": true
+      "rag_answer": "B",
+      "is_correct": false
     },
     {
       "problem_index": 170,
@@ -2298,8 +2298,8 @@
         "After she came back from the cinema."
       ],
       "correct_answer": "A",
-      "rag_answer": "A",
-      "is_correct": true
+      "rag_answer": "D",
+      "is_correct": false
     },
     {
       "problem_index": 177,
@@ -2558,8 +2558,8 @@
         "who dislikes to hitchhike"
       ],
       "correct_answer": "C",
-      "rag_answer": "D",
-      "is_correct": false
+      "rag_answer": "C",
+      "is_correct": true
     },
     {
       "problem_index": 197,

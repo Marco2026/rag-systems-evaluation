@@ -6,12 +6,12 @@
   "generator_model": "huihui_ai/fluentlylm-prinum-abliterated:32b",
   "generator_params": 32.8,
   "generator_size": 18.5,
-  "timestamp": "2026-04-14T18:37:50.015854",
-  "duration": "00:04:29",
-  "duration (seconds)": 269,
+  "timestamp": "2026-05-22T12:03:39.702045",
+  "duration": "00:04:14",
+  "duration (seconds)": 254,
   "total": 200,
-  "correct": 128,
-  "accuracy": 0.64,
+  "correct": 115,
+  "accuracy": 0.575,
   "results": [
     {
       "problem_index": 1,
@@ -36,8 +36,8 @@
         "can avoid the burdens of unpleasant or frightening things"
       ],
       "correct_answer": "C",
-      "rag_answer": "C",
-      "is_correct": true
+      "rag_answer": "D",
+      "is_correct": false
     },
     {
       "problem_index": 3,
@@ -62,8 +62,8 @@
         "avoid the happening of traffic accidents"
       ],
       "correct_answer": "D",
-      "rag_answer": "D",
-      "is_correct": true
+      "rag_answer": "C",
+      "is_correct": false
     },
     {
       "problem_index": 5,
@@ -88,8 +88,8 @@
         "Kathy herself"
       ],
       "correct_answer": "A",
-      "rag_answer": "A",
-      "is_correct": true
+      "rag_answer": "C",
+      "is_correct": false
     },
     {
       "problem_index": 7,
@@ -101,8 +101,8 @@
         "Keep Holding on to This Negative Emotion as Long as Possible."
       ],
       "correct_answer": "A",
-      "rag_answer": "A",
-      "is_correct": true
+      "rag_answer": "B",
+      "is_correct": false
     },
     {
       "problem_index": 8,
@@ -439,7 +439,7 @@
         "Optimistic"
       ],
       "correct_answer": "A",
-      "rag_answer": "C",
+      "rag_answer": "C) Doubtful\n\nThe correct answer is C. The passage uses phrases like \"the movement's supporters are in denial,\" which suggests doubt about the effectiveness or truthfulness of the campaign against \"bossy.\" This indicates a tone of skepticism rather than objective neutrality, anger, or optimism. \n\nAnswer: C",
       "is_correct": false
     },
     {
@@ -556,8 +556,8 @@
         "You could reduce stress by doing nothing."
       ],
       "correct_answer": "B",
-      "rag_answer": "B",
-      "is_correct": true
+      "rag_answer": "A",
+      "is_correct": false
     },
     {
       "problem_index": 43,
@@ -764,8 +764,8 @@
         "The influence from the press and the Web."
       ],
       "correct_answer": "D",
-      "rag_answer": "D",
-      "is_correct": true
+      "rag_answer": "B",
+      "is_correct": false
     },
     {
       "problem_index": 59,
@@ -816,7 +816,7 @@
         "it helped campers feel better about their illness"
       ],
       "correct_answer": "D",
-      "rag_answer": "C",
+      "rag_answer": "B",
       "is_correct": false
     },
     {
@@ -842,8 +842,8 @@
         "admired her a lot"
       ],
       "correct_answer": "B",
-      "rag_answer": "A",
-      "is_correct": false
+      "rag_answer": "B",
+      "is_correct": true
     },
     {
       "problem_index": 65,
@@ -907,7 +907,7 @@
         "Because she was always complaining."
       ],
       "correct_answer": "A",
-      "rag_answer": "B",
+      "rag_answer": "D",
       "is_correct": false
     },
     {
@@ -972,8 +972,8 @@
         "meet his wife"
       ],
       "correct_answer": "D",
-      "rag_answer": "A",
-      "is_correct": false
+      "rag_answer": "D",
+      "is_correct": true
     },
     {
       "problem_index": 75,
@@ -998,8 +998,8 @@
         "We don't know"
       ],
       "correct_answer": "C",
-      "rag_answer": "C",
-      "is_correct": true
+      "rag_answer": "D",
+      "is_correct": false
     },
     {
       "problem_index": 77,
@@ -1024,8 +1024,8 @@
         "prepare students to try their own inventions"
       ],
       "correct_answer": "D",
-      "rag_answer": "D",
-      "is_correct": true
+      "rag_answer": "A",
+      "is_correct": false
     },
     {
       "problem_index": 79,
@@ -1115,8 +1115,8 @@
         "there must be many houses and buildings not far away"
       ],
       "correct_answer": "D",
-      "rag_answer": "D",
-      "is_correct": true
+      "rag_answer": "C",
+      "is_correct": false
     },
     {
       "problem_index": 86,
@@ -1232,8 +1232,8 @@
         "an opera singer"
       ],
       "correct_answer": "B",
-      "rag_answer": "B",
-      "is_correct": true
+      "rag_answer": "D",
+      "is_correct": false
     },
     {
       "problem_index": 95,
@@ -1297,7 +1297,7 @@
         "buy them from other states"
       ],
       "correct_answer": "D",
-      "rag_answer": "C",
+      "rag_answer": "A",
       "is_correct": false
     },
     {
@@ -1479,8 +1479,8 @@
         "join the team to Greece"
       ],
       "correct_answer": "D",
-      "rag_answer": "D",
-      "is_correct": true
+      "rag_answer": "B",
+      "is_correct": false
     },
     {
       "problem_index": 114,
@@ -1557,8 +1557,8 @@
         "improve the design of their plane's wings"
       ],
       "correct_answer": "D",
-      "rag_answer": "D",
-      "is_correct": true
+      "rag_answer": "B",
+      "is_correct": false
     },
     {
       "problem_index": 120,
@@ -1765,8 +1765,8 @@
         "might not have moved to Atlanta"
       ],
       "correct_answer": "A",
-      "rag_answer": "A",
-      "is_correct": true
+      "rag_answer": "B",
+      "is_correct": false
     },
     {
       "problem_index": 136,
@@ -1895,8 +1895,8 @@
         "ignorant"
       ],
       "correct_answer": "C",
-      "rag_answer": "B",
-      "is_correct": false
+      "rag_answer": "C",
+      "is_correct": true
     },
     {
       "problem_index": 146,
@@ -1947,8 +1947,8 @@
         "a manager"
       ],
       "correct_answer": "C",
-      "rag_answer": "C",
-      "is_correct": true
+      "rag_answer": "D",
+      "is_correct": false
     },
     {
       "problem_index": 150,
@@ -1986,7 +1986,7 @@
         "Sichuan and Tibet"
       ],
       "correct_answer": "D",
-      "rag_answer": "A",
+      "rag_answer": "C",
       "is_correct": false
     },
     {
@@ -2168,8 +2168,8 @@
         "will email photos to the learners"
       ],
       "correct_answer": "A",
-      "rag_answer": "A",
-      "is_correct": true
+      "rag_answer": "C",
+      "is_correct": false
     },
     {
       "problem_index": 167,
@@ -2246,7 +2246,7 @@
         "Snake Doctor"
       ],
       "correct_answer": "D",
-      "rag_answer": "B",
+      "rag_answer": "C",
       "is_correct": false
     },
     {
@@ -2259,8 +2259,8 @@
         "Hamlet."
       ],
       "correct_answer": "C",
-      "rag_answer": "A",
-      "is_correct": false
+      "rag_answer": "C",
+      "is_correct": true
     },
     {
       "problem_index": 174,
@@ -2285,8 +2285,8 @@
         "Women can't get the mental and material support from family and society."
       ],
       "correct_answer": "A",
-      "rag_answer": "A",
-      "is_correct": true
+      "rag_answer": "B",
+      "is_correct": false
     },
     {
       "problem_index": 176,
@@ -2311,7 +2311,7 @@
         "Symphony."
       ],
       "correct_answer": "B",
-      "rag_answer": "A",
+      "rag_answer": "C",
       "is_correct": false
     },
     {
@@ -2389,7 +2389,7 @@
         "88"
       ],
       "correct_answer": "B",
-      "rag_answer": "A",
+      "rag_answer": "C",
       "is_correct": false
     },
     {
@@ -2467,7 +2467,7 @@
         "negative"
       ],
       "correct_answer": "B",
-      "rag_answer": "C",
+      "rag_answer": "C) neutral\n\nExplanation: Since there are no explicit statements expressing a clear opinion or emotion towards the \"digital society,\" and assuming the passage doesn't provide any other context to infer an attitude, the most appropriate answer would be that the writer's attitude is neutral.\n\nHowever, please note that without the actual passage content, it’s challenging to definitively determine the writer's attitude. The answer provided is based solely on the assumption derived from the question given. If more specific details were present in the passage that indicated a certain sentiment or viewpoint towards digital society, then another option might be more suitable.\n\nIn this scenario, I must choose \"C\" as it's the safest choice given no additional context.",
       "is_correct": false
     },
     {
@@ -2480,8 +2480,8 @@
         "got angry at him for his attitude"
       ],
       "correct_answer": "A",
-      "rag_answer": "A",
-      "is_correct": true
+      "rag_answer": "C",
+      "is_correct": false
     },
     {
       "problem_index": 191,

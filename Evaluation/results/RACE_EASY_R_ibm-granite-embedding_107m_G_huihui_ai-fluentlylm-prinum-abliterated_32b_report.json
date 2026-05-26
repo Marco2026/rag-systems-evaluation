@@ -6,9 +6,9 @@
   "generator_model": "huihui_ai/fluentlylm-prinum-abliterated:32b",
   "generator_params": 32.8,
   "generator_size": 18.5,
-  "timestamp": "2026-04-17T22:14:42.570248",
-  "duration": "00:16:52",
-  "duration (seconds)": 1012,
+  "timestamp": "2026-05-22T00:40:15.337881",
+  "duration": "00:19:26",
+  "duration (seconds)": 1166,
   "total": 200,
   "correct": 182,
   "accuracy": 0.91,
@@ -270,8 +270,8 @@
         "six"
       ],
       "correct_answer": "C",
-      "rag_answer": "A",
-      "is_correct": false
+      "rag_answer": "C",
+      "is_correct": true
     },
     {
       "problem_index": 21,
@@ -543,8 +543,8 @@
         "let the young man have a good look at the city"
       ],
       "correct_answer": "C",
-      "rag_answer": "B",
-      "is_correct": false
+      "rag_answer": "C",
+      "is_correct": true
     },
     {
       "problem_index": 42,
@@ -621,8 +621,8 @@
         "the teacher's"
       ],
       "correct_answer": "B",
-      "rag_answer": "B",
-      "is_correct": true
+      "rag_answer": "A",
+      "is_correct": false
     },
     {
       "problem_index": 48,
@@ -699,8 +699,8 @@
         "Spending money wisely at college"
       ],
       "correct_answer": "D",
-      "rag_answer": "D) Spending money wisely at college\n\nThe passage primarily discusses how students can manage their finances carefully while in college. It covers the various costs associated with higher education but focuses more on strategies and advice for budgeting and avoiding financial trouble, making option D the most accurate summary of its main topic. While options A and B touch on elements mentioned in the text, they do not capture the primary emphasis on wise spending habits throughout the passage. Option C is only briefly touched upon at the end as an alternative that might be less preferable compared to good money management skills.",
-      "is_correct": false
+      "rag_answer": "D",
+      "is_correct": true
     },
     {
       "problem_index": 54,
@@ -829,7 +829,7 @@
         "A busy family"
       ],
       "correct_answer": "D",
-      "rag_answer": "A",
+      "rag_answer": "C",
       "is_correct": false
     },
     {
@@ -1024,8 +1024,8 @@
         "I know most of these people"
       ],
       "correct_answer": "B",
-      "rag_answer": "C",
-      "is_correct": false
+      "rag_answer": "B",
+      "is_correct": true
     },
     {
       "problem_index": 79,
@@ -1193,8 +1193,8 @@
         "150ml"
       ],
       "correct_answer": "B",
-      "rag_answer": "B",
-      "is_correct": true
+      "rag_answer": "C",
+      "is_correct": false
     },
     {
       "problem_index": 92,
@@ -1752,8 +1752,8 @@
         "Eight"
       ],
       "correct_answer": "C",
-      "rag_answer": "C",
-      "is_correct": true
+      "rag_answer": "D) Eight\n\nExplanation:\nThe passage mentions eight different kinds of animals:\n1. Crow\n2. Fox\n3. Lion\n4. African elephant\n5. African leopard\n6. Black rhinoceros\n7. African buffalo\n8. Wildebeest\n9. Zebra\n\nSince the question asks for how many kinds of animals are mentioned, and eight different species are listed in the passage, the correct answer is D) Eight.\n\nNote: The passage mentions wildebeests and zebras as part of the migration event in Serengeti National Park, so they should also be counted.",
+      "is_correct": false
     },
     {
       "problem_index": 135,
@@ -1765,8 +1765,8 @@
         "harmful"
       ],
       "correct_answer": "A",
-      "rag_answer": "A",
-      "is_correct": true
+      "rag_answer": "B",
+      "is_correct": false
     },
     {
       "problem_index": 136,
@@ -2103,7 +2103,7 @@
         "How to play drums."
       ],
       "correct_answer": "B",
-      "rag_answer": "A",
+      "rag_answer": "C",
       "is_correct": false
     },
     {
@@ -2194,7 +2194,7 @@
         "on the left of"
       ],
       "correct_answer": "A",
-      "rag_answer": "A) next to\n\nThe passage states, \"On a British Airways flight from Johannesburg, a middle-aged ,rich white South American lady found herself sitting next to a black man.\" This clearly indicates that the man was seated next to the woman.",
+      "rag_answer": "A) next to\n\nThe passage states that the woman is at the cinema and there is a man \"in the next seat,\" indicating he is sitting next to her. Therefore, the correct answer is A) next to.",
       "is_correct": false
     },
     {
@@ -2350,8 +2350,8 @@
         "you have to change the date"
       ],
       "correct_answer": "C",
-      "rag_answer": "B",
-      "is_correct": false
+      "rag_answer": "C",
+      "is_correct": true
     },
     {
       "problem_index": 181,
@@ -2519,8 +2519,8 @@
         "Poor People and Money."
       ],
       "correct_answer": "A",
-      "rag_answer": "A",
-      "is_correct": true
+      "rag_answer": "A) Money from the Sky.",
+      "is_correct": false
     },
     {
       "problem_index": 194,

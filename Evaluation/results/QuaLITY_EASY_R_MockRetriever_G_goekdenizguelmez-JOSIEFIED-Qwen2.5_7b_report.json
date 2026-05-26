@@ -6,12 +6,12 @@
   "generator_model": "goekdenizguelmez/JOSIEFIED-Qwen2.5:7b",
   "generator_params": 7.62,
   "generator_size": 4.4,
-  "timestamp": "2026-04-14T17:35:21.219063",
-  "duration": "00:03:25",
-  "duration (seconds)": 205,
+  "timestamp": "2026-05-21T03:56:38.696452",
+  "duration": "00:02:45",
+  "duration (seconds)": 165,
   "total": 200,
-  "correct": 77,
-  "accuracy": 0.385,
+  "correct": 81,
+  "accuracy": 0.405,
   "results": [
     {
       "problem_index": 1,
@@ -49,7 +49,7 @@
         "It was more intimidating than expected"
       ],
       "correct_answer": 2,
-      "rag_answer": "A",
+      "rag_answer": "D",
       "is_correct": false
     },
     {
@@ -62,8 +62,8 @@
         "They did not understand the language"
       ],
       "correct_answer": 2,
-      "rag_answer": "A",
-      "is_correct": false
+      "rag_answer": "C",
+      "is_correct": true
     },
     {
       "problem_index": 5,
@@ -426,8 +426,8 @@
         "Untrustworthy"
       ],
       "correct_answer": 1,
-      "rag_answer": "B",
-      "is_correct": true
+      "rag_answer": "A",
+      "is_correct": false
     },
     {
       "problem_index": 33,
@@ -465,8 +465,8 @@
         "Not possible to know"
       ],
       "correct_answer": 3,
-      "rag_answer": "B",
-      "is_correct": false
+      "rag_answer": "D",
+      "is_correct": true
     },
     {
       "problem_index": 36,
@@ -530,7 +530,7 @@
         "The officer who spoke to him post-battle"
       ],
       "correct_answer": 3,
-      "rag_answer": "B",
+      "rag_answer": "A",
       "is_correct": false
     },
     {
@@ -595,7 +595,7 @@
         "He was stockpiled"
       ],
       "correct_answer": 1,
-      "rag_answer": "C",
+      "rag_answer": "A",
       "is_correct": false
     },
     {
@@ -725,8 +725,8 @@
         "A desire to commit fraud"
       ],
       "correct_answer": 2,
-      "rag_answer": "B",
-      "is_correct": false
+      "rag_answer": "C",
+      "is_correct": true
     },
     {
       "problem_index": 56,
@@ -881,7 +881,7 @@
         "sad and depressing"
       ],
       "correct_answer": 1,
-      "rag_answer": "A",
+      "rag_answer": "C",
       "is_correct": false
     },
     {
@@ -907,8 +907,8 @@
         "Kerry"
       ],
       "correct_answer": 3,
-      "rag_answer": "D",
-      "is_correct": true
+      "rag_answer": "C",
+      "is_correct": false
     },
     {
       "problem_index": 70,
@@ -972,8 +972,8 @@
         "They could not read the instructions that Neeshan wrote for them"
       ],
       "correct_answer": 1,
-      "rag_answer": "C",
-      "is_correct": false
+      "rag_answer": "B",
+      "is_correct": true
     },
     {
       "problem_index": 75,
@@ -985,8 +985,8 @@
         "The car models tell him what era he is in at the moment."
       ],
       "correct_answer": 3,
-      "rag_answer": "C",
-      "is_correct": false
+      "rag_answer": "D",
+      "is_correct": true
     },
     {
       "problem_index": 76,
@@ -1167,7 +1167,7 @@
         "He quits his job in management."
       ],
       "correct_answer": 1,
-      "rag_answer": "A",
+      "rag_answer": "C",
       "is_correct": false
     },
     {
@@ -1193,8 +1193,8 @@
         "He was jealous of his relationship with the woman"
       ],
       "correct_answer": 3,
-      "rag_answer": "D",
-      "is_correct": true
+      "rag_answer": "C",
+      "is_correct": false
     },
     {
       "problem_index": 92,
@@ -1219,8 +1219,8 @@
         "Unbiased summary"
       ],
       "correct_answer": 0,
-      "rag_answer": "C",
-      "is_correct": false
+      "rag_answer": "A",
+      "is_correct": true
     },
     {
       "problem_index": 94,
@@ -1232,8 +1232,8 @@
         "He does not have proper transportation because the city has no fuel to power an aircraft."
       ],
       "correct_answer": 3,
-      "rag_answer": "C",
-      "is_correct": false
+      "rag_answer": "D",
+      "is_correct": true
     },
     {
       "problem_index": 95,
@@ -1479,8 +1479,8 @@
         "A police officer."
       ],
       "correct_answer": 3,
-      "rag_answer": "D",
-      "is_correct": true
+      "rag_answer": "C",
+      "is_correct": false
     },
     {
       "problem_index": 114,
@@ -1596,7 +1596,7 @@
         "He wanted to see more of her smile"
       ],
       "correct_answer": 1,
-      "rag_answer": "A",
+      "rag_answer": "C",
       "is_correct": false
     },
     {
@@ -1609,7 +1609,7 @@
         "Parting patients with their money"
       ],
       "correct_answer": 3,
-      "rag_answer": "A",
+      "rag_answer": "B",
       "is_correct": false
     },
     {
@@ -1648,7 +1648,7 @@
         "He did not want to be contacted by the government"
       ],
       "correct_answer": 0,
-      "rag_answer": "D",
+      "rag_answer": "C",
       "is_correct": false
     },
     {
@@ -1843,8 +1843,8 @@
         "A lack of real estate for individual offices"
       ],
       "correct_answer": 0,
-      "rag_answer": "C",
-      "is_correct": false
+      "rag_answer": "A",
+      "is_correct": true
     },
     {
       "problem_index": 142,
@@ -1947,8 +1947,8 @@
         "He would stay longer for more money"
       ],
       "correct_answer": 2,
-      "rag_answer": "C",
-      "is_correct": true
+      "rag_answer": "A",
+      "is_correct": false
     },
     {
       "problem_index": 150,
@@ -1986,8 +1986,8 @@
         "Using magnetic poles"
       ],
       "correct_answer": 0,
-      "rag_answer": "B",
-      "is_correct": false
+      "rag_answer": "A",
+      "is_correct": true
     },
     {
       "problem_index": 153,
@@ -2077,8 +2077,8 @@
         "She like his new body"
       ],
       "correct_answer": 1,
-      "rag_answer": "C",
-      "is_correct": false
+      "rag_answer": "B",
+      "is_correct": true
     },
     {
       "problem_index": 160,
@@ -2116,8 +2116,8 @@
         "Food was very scarce"
       ],
       "correct_answer": 3,
-      "rag_answer": "B",
-      "is_correct": false
+      "rag_answer": "D",
+      "is_correct": true
     },
     {
       "problem_index": 163,
@@ -2246,8 +2246,8 @@
         "62"
       ],
       "correct_answer": 0,
-      "rag_answer": "A",
-      "is_correct": true
+      "rag_answer": "B",
+      "is_correct": false
     },
     {
       "problem_index": 173,
@@ -2571,8 +2571,8 @@
         "Fame"
       ],
       "correct_answer": 2,
-      "rag_answer": "C",
-      "is_correct": true
+      "rag_answer": "A",
+      "is_correct": false
     },
     {
       "problem_index": 198,

@@ -6,12 +6,12 @@
   "generator_model": "huihui_ai/fluentlylm-prinum-abliterated:32b",
   "generator_params": 32.8,
   "generator_size": 18.5,
-  "timestamp": "2026-04-17T16:09:19.208372",
-  "duration": "00:18:27",
-  "duration (seconds)": 1107,
+  "timestamp": "2026-05-22T12:46:16.412988",
+  "duration": "00:20:12",
+  "duration (seconds)": 1212,
   "total": 200,
-  "correct": 172,
-  "accuracy": 0.86,
+  "correct": 170,
+  "accuracy": 0.85,
   "results": [
     {
       "problem_index": 1,
@@ -49,8 +49,8 @@
         "Suggestions from students."
       ],
       "correct_answer": "D",
-      "rag_answer": "D",
-      "is_correct": true
+      "rag_answer": "D)",
+      "is_correct": false
     },
     {
       "problem_index": 4,
@@ -140,8 +140,8 @@
         "Because we had no life jackets"
       ],
       "correct_answer": "C",
-      "rag_answer": "B",
-      "is_correct": false
+      "rag_answer": "C",
+      "is_correct": true
     },
     {
       "problem_index": 11,
@@ -439,7 +439,7 @@
         "Optimistic"
       ],
       "correct_answer": "A",
-      "rag_answer": "A) Objective\n\nThe passage presents information about the \"Ban Bossy\" campaign without expressing a strong positive or negative opinion. The author mainly provides facts and quotes from various sources, maintaining an objective tone throughout the text. There is no indication of anger, doubt, or optimism towards the campaign itself.",
+      "rag_answer": "A) Objective\n\nThe passage presents information about the \"Ban Bossy\" campaign and includes quotes from various individuals discussing their perspectives on the term. The author's tone seems to be neutral and informative, without expressing strong personal opinions or emotions such as anger or doubt. Therefore, the most appropriate answer based on the given options is A) Objective.",
       "is_correct": false
     },
     {
@@ -543,7 +543,7 @@
         "None of them"
       ],
       "correct_answer": "A",
-      "rag_answer": "C",
+      "rag_answer": "B",
       "is_correct": false
     },
     {
@@ -673,8 +673,8 @@
         "introducing a method"
       ],
       "correct_answer": "B",
-      "rag_answer": "C",
-      "is_correct": false
+      "rag_answer": "B",
+      "is_correct": true
     },
     {
       "problem_index": 52,
@@ -1063,7 +1063,7 @@
         "First the author makes an introduction and then draws a conclusion."
       ],
       "correct_answer": "A",
-      "rag_answer": "B",
+      "rag_answer": "A) First the author gives some messages and then explain them.\n\nThe passage starts by presenting messages about responsibility, literature, digital devices usage, saying \"I love you\", talking to fathers, and renting a car independently. The author then explains or elaborates on these messages in subsequent paragraphs.\nB)",
       "is_correct": false
     },
     {
@@ -1531,8 +1531,8 @@
         "Cellphone Use Is Spreading"
       ],
       "correct_answer": "D",
-      "rag_answer": "B",
-      "is_correct": false
+      "rag_answer": "D",
+      "is_correct": true
     },
     {
       "problem_index": 118,
@@ -1583,8 +1583,8 @@
         "A cure for cancer."
       ],
       "correct_answer": "B",
-      "rag_answer": "B",
-      "is_correct": true
+      "rag_answer": "A",
+      "is_correct": false
     },
     {
       "problem_index": 122,
@@ -1830,8 +1830,8 @@
         "Palmer has never made a journey before."
       ],
       "correct_answer": "A",
-      "rag_answer": "C",
-      "is_correct": false
+      "rag_answer": "A",
+      "is_correct": true
     },
     {
       "problem_index": 141,
@@ -1882,8 +1882,8 @@
         "the cows had fed themselves"
       ],
       "correct_answer": "B",
-      "rag_answer": "B",
-      "is_correct": true
+      "rag_answer": "C",
+      "is_correct": false
     },
     {
       "problem_index": 145,
@@ -1895,7 +1895,7 @@
         "ignorant"
       ],
       "correct_answer": "C",
-      "rag_answer": "A",
+      "rag_answer": "B",
       "is_correct": false
     },
     {
@@ -2194,8 +2194,8 @@
         "It's impossible for them to use the new operating system."
       ],
       "correct_answer": "A",
-      "rag_answer": "A",
-      "is_correct": true
+      "rag_answer": "B",
+      "is_correct": false
     },
     {
       "problem_index": 169,
@@ -2298,7 +2298,7 @@
         "$123"
       ],
       "correct_answer": "D",
-      "rag_answer": "A",
+      "rag_answer": "B",
       "is_correct": false
     },
     {
@@ -2350,8 +2350,8 @@
         "they have to follow an evolutionary step backward."
       ],
       "correct_answer": "A",
-      "rag_answer": "A",
-      "is_correct": true
+      "rag_answer": "C",
+      "is_correct": false
     },
     {
       "problem_index": 181,
@@ -2610,8 +2610,8 @@
         "Doubtful."
       ],
       "correct_answer": "A",
-      "rag_answer": "A",
-      "is_correct": true
+      "rag_answer": "C",
+      "is_correct": false
     }
   ]
 }

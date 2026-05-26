@@ -6,12 +6,12 @@
   "generator_model": "phi4-mini:3.8b",
   "generator_params": 3.84,
   "generator_size": 2.3,
-  "timestamp": "2026-04-18T09:47:50.335229",
-  "duration": "00:03:07",
-  "duration (seconds)": 187,
+  "timestamp": "2026-05-21T23:24:54.533973",
+  "duration": "00:03:03",
+  "duration (seconds)": 183,
   "total": 200,
-  "correct": 4,
-  "accuracy": 0.02,
+  "correct": 3,
+  "accuracy": 0.015,
   "results": [
     {
       "problem_index": 1,
@@ -23,8 +23,8 @@
         "he couldn't find the young man's hat"
       ],
       "correct_answer": "A",
-      "rag_answer": "A",
-      "is_correct": true
+      "rag_answer": "A) Dick couldn't take him out for a walk at the usual time",
+      "is_correct": false
     },
     {
       "problem_index": 2,
@@ -101,7 +101,7 @@
         "He understood his stepmother."
       ],
       "correct_answer": "B",
-      "rag_answer": "B) He failed to do as he was expected.",
+      "rag_answer": "D)",
       "is_correct": false
     },
     {
@@ -114,7 +114,7 @@
         "England"
       ],
       "correct_answer": "D",
-      "rag_answer": "B) Australia",
+      "rag_answer": "A) Yangzhou",
       "is_correct": false
     },
     {
@@ -166,7 +166,7 @@
         "was reading a newspaper"
       ],
       "correct_answer": "C",
-      "rag_answer": "C) was still in an upstairs room",
+      "rag_answer": "C) was still in an upstairs room.",
       "is_correct": false
     },
     {
@@ -192,7 +192,7 @@
         "Old John didn't smoke a cigar a day"
       ],
       "correct_answer": "C",
-      "rag_answer": "C) Old John didn't smoke before",
+      "rag_answer": "A) Old John smoked before",
       "is_correct": false
     },
     {
@@ -205,8 +205,8 @@
         "9%"
       ],
       "correct_answer": "D",
-      "rag_answer": "C) 15%",
-      "is_correct": false
+      "rag_answer": "D",
+      "is_correct": true
     },
     {
       "problem_index": 16,
@@ -244,7 +244,7 @@
         "not only on the left but also on the fight"
       ],
       "correct_answer": "A",
-      "rag_answer": "B) just on the right",
+      "rag_answer": "A) just on the left",
       "is_correct": false
     },
     {
@@ -309,7 +309,7 @@
         "activities are organized once a week"
       ],
       "correct_answer": "C",
-      "rag_answer": "B) there are only ten people in it",
+      "rag_answer": "A) its members aren't interested in music",
       "is_correct": false
     },
     {
@@ -322,7 +322,7 @@
         "animals; sports"
       ],
       "correct_answer": "A",
-      "rag_answer": "C",
+      "rag_answer": "B) music; animals",
       "is_correct": false
     },
     {
@@ -335,7 +335,7 @@
         "pears"
       ],
       "correct_answer": "B",
-      "rag_answer": "A) bananas",
+      "rag_answer": "B) apples",
       "is_correct": false
     },
     {
@@ -361,7 +361,7 @@
         "Hill'S father was cruel to him"
       ],
       "correct_answer": "A",
-      "rag_answer": "A) children should be praised",
+      "rag_answer": "C) Hill's stepmother warm to him",
       "is_correct": false
     },
     {
@@ -374,7 +374,7 @@
         "We must be careful with matches."
       ],
       "correct_answer": "B",
-      "rag_answer": "B) Fire can be both helpful and harmful.",
+      "rag_answer": "B) ",
       "is_correct": false
     },
     {
@@ -387,7 +387,7 @@
         "Four."
       ],
       "correct_answer": "B",
-      "rag_answer": "C) Three.",
+      "rag_answer": "A) One.",
       "is_correct": false
     },
     {
@@ -413,7 +413,7 @@
         "his father didn't love him"
       ],
       "correct_answer": "C",
-      "rag_answer": "A",
+      "rag_answer": "C) he thought his father only gave him a Bible",
       "is_correct": false
     },
     {
@@ -426,7 +426,7 @@
         "Kids should try to talk face to face with people, not just micro blogging."
       ],
       "correct_answer": "D",
-      "rag_answer": "D) Kids should try to talk face to face with people, not just micro blogging.",
+      "rag_answer": "D)",
       "is_correct": false
     },
     {
@@ -465,7 +465,7 @@
         "live in the school"
       ],
       "correct_answer": "B",
-      "rag_answer": "A) come to school by bike",
+      "rag_answer": "B) come to school late",
       "is_correct": false
     },
     {
@@ -491,7 +491,7 @@
         "do some shopping online"
       ],
       "correct_answer": "C",
-      "rag_answer": "A) find a job",
+      "rag_answer": "B) meet people",
       "is_correct": false
     },
     {
@@ -530,7 +530,7 @@
         "made her fall behind others in studies at school"
       ],
       "correct_answer": "C",
-      "rag_answer": "D) made her fall behind others in studies at school",
+      "rag_answer": "C) didn't influence her studies at school",
       "is_correct": false
     },
     {
@@ -582,7 +582,7 @@
         "a mechanical \"foot\""
       ],
       "correct_answer": "C",
-      "rag_answer": "A) an alarm clock",
+      "rag_answer": "B) a tape recorder",
       "is_correct": false
     },
     {
@@ -595,7 +595,7 @@
         "He likes art very much."
       ],
       "correct_answer": "D",
-      "rag_answer": "B) He is warm hearted.",
+      "rag_answer": "C) He is good at maths.",
       "is_correct": false
     },
     {
@@ -634,7 +634,7 @@
         "30"
       ],
       "correct_answer": "B",
-      "rag_answer": "C) 29",
+      "rag_answer": "B) 28.",
       "is_correct": false
     },
     {
@@ -660,7 +660,7 @@
         "45"
       ],
       "correct_answer": "D",
-      "rag_answer": "C) 12",
+      "rag_answer": "D)",
       "is_correct": false
     },
     {
@@ -686,7 +686,7 @@
         "Running helps you set realistic goals in your life."
       ],
       "correct_answer": "B",
-      "rag_answer": "B) ",
+      "rag_answer": "D)",
       "is_correct": false
     },
     {
@@ -738,7 +738,7 @@
         "classmate"
       ],
       "correct_answer": "C",
-      "rag_answer": "A) brother",
+      "rag_answer": "C) sister",
       "is_correct": false
     },
     {
@@ -790,8 +790,8 @@
         "food"
       ],
       "correct_answer": "A",
-      "rag_answer": "A",
-      "is_correct": true
+      "rag_answer": "A) tuition",
+      "is_correct": false
     },
     {
       "problem_index": 61,
@@ -803,7 +803,7 @@
         "supper"
       ],
       "correct_answer": "B",
-      "rag_answer": "C) dinner",
+      "rag_answer": "B) lunch",
       "is_correct": false
     },
     {
@@ -868,7 +868,7 @@
         "There is vaccine now."
       ],
       "correct_answer": "C",
-      "rag_answer": "B) It first appeared in China.",
+      "rag_answer": "C) Adults can be infected too.",
       "is_correct": false
     },
     {
@@ -894,7 +894,7 @@
         "didn't know all the people they passed"
       ],
       "correct_answer": "A",
-      "rag_answer": "D) didn't know all the people they passed",
+      "rag_answer": "C) said hello to everyone",
       "is_correct": false
     },
     {
@@ -907,7 +907,7 @@
         "They were killed by people."
       ],
       "correct_answer": "C",
-      "rag_answer": "B) They have moved to other places before the ants come.",
+      "rag_answer": "A",
       "is_correct": false
     },
     {
@@ -946,7 +946,7 @@
         "The old lady got happy because of the writer's kindness."
       ],
       "correct_answer": "B",
-      "rag_answer": "D) The old lady got happy because of the writer's kindness.",
+      "rag_answer": "B) The old lady was the writer's relative.",
       "is_correct": false
     },
     {
@@ -959,7 +959,7 @@
         "People who tell white lies want to be kind."
       ],
       "correct_answer": "D",
-      "rag_answer": "C) People who tell white lies are not kind.",
+      "rag_answer": "D) People who tell white lies want to be kind.",
       "is_correct": false
     },
     {
@@ -1011,7 +1011,7 @@
         "clearing heat inside your body"
       ],
       "correct_answer": "C",
-      "rag_answer": "D)",
+      "rag_answer": "C) having a strong wish for food",
       "is_correct": false
     },
     {
@@ -1102,7 +1102,7 @@
         "80765465"
       ],
       "correct_answer": "B",
-      "rag_answer": "C) 87765465",
+      "rag_answer": "A) 806-8027",
       "is_correct": false
     },
     {
@@ -1128,7 +1128,7 @@
         "She grew well by eating fish and clams from the river."
       ],
       "correct_answer": "B",
-      "rag_answer": "D) She grew well by eating fish and clams from the river.",
+      "rag_answer": "B) She spent much time playing around the river.",
       "is_correct": false
     },
     {
@@ -1154,7 +1154,7 @@
         "the oldest paper was made 1,500 years ago"
       ],
       "correct_answer": "C",
-      "rag_answer": "B) a German made the best paper",
+      "rag_answer": "C) wood could be made into the best paper",
       "is_correct": false
     },
     {
@@ -1180,7 +1180,7 @@
         "Music and P.E"
       ],
       "correct_answer": "A",
-      "rag_answer": "A) Science and math",
+      "rag_answer": "B) Languages and art",
       "is_correct": false
     },
     {
@@ -1206,7 +1206,7 @@
         "very often"
       ],
       "correct_answer": "D",
-      "rag_answer": "D) very often",
+      "rag_answer": "A) in the evening",
       "is_correct": false
     },
     {
@@ -1232,7 +1232,7 @@
         "Ten"
       ],
       "correct_answer": "D",
-      "rag_answer": "C) Thirty-eight",
+      "rag_answer": "D) Ten",
       "is_correct": false
     },
     {
@@ -1271,7 +1271,7 @@
         "He kisses people to show his thanks."
       ],
       "correct_answer": "C",
-      "rag_answer": "C) He talks a lot but little.",
+      "rag_answer": "C) He talks a lot but does little.",
       "is_correct": false
     },
     {
@@ -1284,7 +1284,7 @@
         "How to avoid a disaster."
       ],
       "correct_answer": "C",
-      "rag_answer": "C) What to do for a disaster.",
+      "rag_answer": "B) Why disasters are dangerous.",
       "is_correct": false
     },
     {
@@ -1297,7 +1297,7 @@
         "4000 yuan"
       ],
       "correct_answer": "D",
-      "rag_answer": "A) 200 yuan",
+      "rag_answer": "B) 800 yuan",
       "is_correct": false
     },
     {
@@ -1362,7 +1362,7 @@
         "Seven"
       ],
       "correct_answer": "A",
-      "rag_answer": "C) Six",
+      "rag_answer": "B) Five",
       "is_correct": false
     },
     {
@@ -1388,7 +1388,7 @@
         "Sue's Friend"
       ],
       "correct_answer": "A",
-      "rag_answer": "D) Sue's Friend",
+      "rag_answer": "C) A Pleasant Talk",
       "is_correct": false
     },
     {
@@ -1453,7 +1453,7 @@
         "Food and clothes."
       ],
       "correct_answer": "C",
-      "rag_answer": "A) A basket of food and a book.",
+      "rag_answer": "D) Food and clothes.",
       "is_correct": false
     },
     {
@@ -1479,7 +1479,7 @@
         "She made a historiccomeback."
       ],
       "correct_answer": "D",
-      "rag_answer": "B) She met a doctor.",
+      "rag_answer": "C) She left Bombay.",
       "is_correct": false
     },
     {
@@ -1505,7 +1505,7 @@
         "Xiao Ming's mother doesn't like the woman."
       ],
       "correct_answer": "C",
-      "rag_answer": "B) Xiao Ming 's mother doesn't want to see her.",
+      "rag_answer": "C) Nobody opens the door.",
       "is_correct": false
     },
     {
@@ -1544,7 +1544,7 @@
         "2,000"
       ],
       "correct_answer": "B",
-      "rag_answer": "B) 4,000",
+      "rag_answer": "C) 40,000",
       "is_correct": false
     },
     {
@@ -1570,7 +1570,7 @@
         "250"
       ],
       "correct_answer": "C",
-      "rag_answer": "C) 200",
+      "rag_answer": "B) 100",
       "is_correct": false
     },
     {
@@ -1583,7 +1583,7 @@
         "a dog of \"Sleeping Beauty\""
       ],
       "correct_answer": "B",
-      "rag_answer": "B) a rock like a dog",
+      "rag_answer": "C) a dogshaped plant",
       "is_correct": false
     },
     {
@@ -1596,7 +1596,7 @@
         "There were many more fish in the river."
       ],
       "correct_answer": "A",
-      "rag_answer": "A) The pollution in the river was very serious.",
+      "rag_answer": "C) Bird-watching was more and more popular along the river.",
       "is_correct": false
     },
     {
@@ -1609,7 +1609,7 @@
         "Sea lions blowing instruments."
       ],
       "correct_answer": "B",
-      "rag_answer": "B) Dolphins dancing to the music.",
+      "rag_answer": "D) Sea lions blowing instruments.",
       "is_correct": false
     },
     {
@@ -1622,7 +1622,7 @@
         "seem much harder"
       ],
       "correct_answer": "D",
-      "rag_answer": "D) seem much harder",
+      "rag_answer": "C) become a bit hard",
       "is_correct": false
     },
     {
@@ -1635,7 +1635,7 @@
         "your book"
       ],
       "correct_answer": "C",
-      "rag_answer": "C) your dream",
+      "rag_answer": "A) your idea",
       "is_correct": false
     },
     {
@@ -1700,7 +1700,7 @@
         "said \"POLICE NOTICE, NO PARKING\""
       ],
       "correct_answer": "D",
-      "rag_answer": "C) just looked like a police notice",
+      "rag_answer": "C) just looked like a police notice.",
       "is_correct": false
     },
     {
@@ -1817,7 +1817,7 @@
         "The mother told the teacher about the scat after the meeting."
       ],
       "correct_answer": "D",
-      "rag_answer": "A) The boy knew why his mother got the scar before.",
+      "rag_answer": "C) The mother told the boy about the scar many times.",
       "is_correct": false
     },
     {
@@ -1843,7 +1843,7 @@
         "Gurdon's science teacher."
       ],
       "correct_answer": "C",
-      "rag_answer": "C) Sir John Gurdon and Shinya Yamanaka",
+      "rag_answer": "A) Sir John Gurdon",
       "is_correct": false
     },
     {
@@ -1856,8 +1856,8 @@
         "A professional report"
       ],
       "correct_answer": "A",
-      "rag_answer": "B) An interesting lesson",
-      "is_correct": false
+      "rag_answer": "A",
+      "is_correct": true
     },
     {
       "problem_index": 143,
@@ -1869,7 +1869,7 @@
         "future cars will be much smaller"
       ],
       "correct_answer": "D",
-      "rag_answer": "A) there will be fewer cars",
+      "rag_answer": "B) there will be fewer people in the street",
       "is_correct": false
     },
     {
@@ -1882,8 +1882,8 @@
         "Playing games with the child is nesessary."
       ],
       "correct_answer": "C",
-      "rag_answer": "C",
-      "is_correct": true
+      "rag_answer": "C) Father and child bonding is very important",
+      "is_correct": false
     },
     {
       "problem_index": 145,
@@ -1895,7 +1895,7 @@
         "healthy"
       ],
       "correct_answer": "D",
-      "rag_answer": "C) cold",
+      "rag_answer": "B) sweet",
       "is_correct": false
     },
     {
@@ -1908,7 +1908,7 @@
         "black"
       ],
       "correct_answer": "C",
-      "rag_answer": "B) red",
+      "rag_answer": "A) green",
       "is_correct": false
     },
     {
@@ -1973,7 +1973,7 @@
         "five"
       ],
       "correct_answer": "C",
-      "rag_answer": "C) four",
+      "rag_answer": "A) two",
       "is_correct": false
     },
     {
@@ -1999,7 +1999,7 @@
         "board-skating"
       ],
       "correct_answer": "C",
-      "rag_answer": "B) swimming",
+      "rag_answer": "A) skating",
       "is_correct": false
     },
     {
@@ -2012,7 +2012,7 @@
         "they went to college and learned from professors"
       ],
       "correct_answer": "B",
-      "rag_answer": "B) they learned everything inside and outside school.",
+      "rag_answer": "B) they learned everything inside and outside school",
       "is_correct": false
     },
     {
@@ -2025,7 +2025,7 @@
         "she has done a good job and makes a lot of money as a model"
       ],
       "correct_answer": "C",
-      "rag_answer": "C) she is so old that she has missed the best time in school",
+      "rag_answer": "D) she has done a good job and makes a lot of money as a model",
       "is_correct": false
     },
     {
@@ -2051,7 +2051,7 @@
         "Alexandra's stories appeared often on the radio and TV"
       ],
       "correct_answer": "B",
-      "rag_answer": "B) Alexandra's success changed her family's life.",
+      "rag_answer": "D) Alexandra's stories appeared often on the radio and TV",
       "is_correct": false
     },
     {
@@ -2090,7 +2090,7 @@
         "You can put your own fork, knife and spoon into serving bowl."
       ],
       "correct_answer": "D",
-      "rag_answer": "D) You can put your own fork, knife and spoon into serving bowl.",
+      "rag_answer": "A)",
       "is_correct": false
     },
     {
@@ -2142,7 +2142,7 @@
         "One"
       ],
       "correct_answer": "C",
-      "rag_answer": "C) Two",
+      "rag_answer": "C) two",
       "is_correct": false
     },
     {
@@ -2155,7 +2155,7 @@
         "does not really love her."
       ],
       "correct_answer": "B",
-      "rag_answer": "B) is the best father in the world.",
+      "rag_answer": "D) does not really love her.",
       "is_correct": false
     },
     {
@@ -2168,7 +2168,7 @@
         "a middle school"
       ],
       "correct_answer": "B",
-      "rag_answer": "B) Mary's family",
+      "rag_answer": "C) Mary's father",
       "is_correct": false
     },
     {
@@ -2181,7 +2181,7 @@
         "The names of the four boys"
       ],
       "correct_answer": "D",
-      "rag_answer": "D) The names of the four boys",
+      "rag_answer": "C) The rules of the class",
       "is_correct": false
     },
     {
@@ -2207,7 +2207,7 @@
         "cut down too many trees and grass"
       ],
       "correct_answer": "C",
-      "rag_answer": "B) set fires to get warm",
+      "rag_answer": "C) make a living by fishing",
       "is_correct": false
     },
     {
@@ -2220,7 +2220,7 @@
         "She goes to the clothes store and changes the coat."
       ],
       "correct_answer": "A",
-      "rag_answer": "D) She goes to the clothes store and changes the coat.",
+      "rag_answer": "C) She buys a button in the clothes store.",
       "is_correct": false
     },
     {
@@ -2246,7 +2246,7 @@
         "they can live longer"
       ],
       "correct_answer": "B",
-      "rag_answer": "B) they share similar genes with humans",
+      "rag_answer": "B) they share similar genes with humans.",
       "is_correct": false
     },
     {
@@ -2259,7 +2259,7 @@
         "he refused to change their musical style"
       ],
       "correct_answer": "D",
-      "rag_answer": "D) he refused to change their musical style",
+      "rag_answer": "C) he had too much pressure in university.",
       "is_correct": false
     },
     {
@@ -2298,7 +2298,7 @@
         "After she came back from the cinema."
       ],
       "correct_answer": "A",
-      "rag_answer": "D) After she came back from the cinema.",
+      "rag_answer": "A) In the evening.",
       "is_correct": false
     },
     {
@@ -2311,7 +2311,7 @@
         "they have lots of things to do at home"
       ],
       "correct_answer": "D",
-      "rag_answer": "B) they like playing games better than studying",
+      "rag_answer": "A) they have to go out and make money",
       "is_correct": false
     },
     {
@@ -2324,7 +2324,7 @@
         "Henry's"
       ],
       "correct_answer": "C",
-      "rag_answer": "A) Peter's",
+      "rag_answer": "C) Mike's",
       "is_correct": false
     },
     {
@@ -2363,7 +2363,7 @@
         "explain why people rush in some situations"
       ],
       "correct_answer": "B",
-      "rag_answer": "B) compare queiring in two cultures",
+      "rag_answer": "B) compare queuing in two cultures",
       "is_correct": false
     },
     {
@@ -2389,7 +2389,7 @@
         "are too young to look after themselves"
       ],
       "correct_answer": "C",
-      "rag_answer": "B) need their parents to be with them",
+      "rag_answer": "C) don't have their best friends around",
       "is_correct": false
     },
     {
@@ -2402,7 +2402,7 @@
         "those birds were bleeding while flying"
       ],
       "correct_answer": "C",
-      "rag_answer": "C) flying birds were torn into pieces by strong winds",
+      "rag_answer": "A) the tornado picked up the birds' blood",
       "is_correct": false
     },
     {
@@ -2428,7 +2428,7 @@
         "Millie enjoys her life in Ketton."
       ],
       "correct_answer": "D",
-      "rag_answer": "A) Millie is an English teacher.",
+      "rag_answer": "C) Millie's house is very big.",
       "is_correct": false
     },
     {
@@ -2441,7 +2441,7 @@
         "people's yard"
       ],
       "correct_answer": "C",
-      "rag_answer": "C) timberlands",
+      "rag_answer": "B) rainforests",
       "is_correct": false
     },
     {
@@ -2454,7 +2454,7 @@
         "It will turn white."
       ],
       "correct_answer": "C",
-      "rag_answer": "C) It will turn dark.",
+      "rag_answer": "A) It will take in light.",
       "is_correct": false
     },
     {
@@ -2467,7 +2467,7 @@
         "Some robots' brains are sensors."
       ],
       "correct_answer": "D",
-      "rag_answer": "A",
+      "rag_answer": "B) Some robots are like big machines.",
       "is_correct": false
     },
     {
@@ -2506,7 +2506,7 @@
         "1999"
       ],
       "correct_answer": "A",
-      "rag_answer": "B) 1990",
+      "rag_answer": "D) 1999",
       "is_correct": false
     },
     {
@@ -2519,7 +2519,7 @@
         "Poor People and Money."
       ],
       "correct_answer": "A",
-      "rag_answer": "C) A Truck of Money.",
+      "rag_answer": "D) Poor People and Money.",
       "is_correct": false
     },
     {
@@ -2558,7 +2558,7 @@
         "who dislikes to hitchhike"
       ],
       "correct_answer": "C",
-      "rag_answer": "C) who has seen much of the world and is very careful",
+      "rag_answer": "B) who has been kidnapped   by hitchhikers",
       "is_correct": false
     },
     {
@@ -2571,7 +2571,7 @@
         "Four."
       ],
       "correct_answer": "D",
-      "rag_answer": "B) Two.",
+      "rag_answer": "C) Three.",
       "is_correct": false
     },
     {
@@ -2610,7 +2610,7 @@
         "All his friends"
       ],
       "correct_answer": "B",
-      "rag_answer": "C) Everyone",
+      "rag_answer": "A) Many of his friends",
       "is_correct": false
     }
   ]

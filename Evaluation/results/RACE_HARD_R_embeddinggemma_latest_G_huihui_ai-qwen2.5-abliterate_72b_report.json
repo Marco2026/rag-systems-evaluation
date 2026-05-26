@@ -6,9 +6,9 @@
   "generator_model": "huihui_ai/qwen2.5-abliterate:72b",
   "generator_params": 72.7,
   "generator_size": 44.2,
-  "timestamp": "2026-04-14T14:33:17.946052",
-  "duration": "00:33:08",
-  "duration (seconds)": 1988,
+  "timestamp": "2026-05-22T10:44:52.436764",
+  "duration": "00:34:35",
+  "duration (seconds)": 2075,
   "total": 200,
   "correct": 175,
   "accuracy": 0.875,
@@ -140,8 +140,8 @@
         "Because we had no life jackets"
       ],
       "correct_answer": "C",
-      "rag_answer": "B",
-      "is_correct": false
+      "rag_answer": "C",
+      "is_correct": true
     },
     {
       "problem_index": 11,
@@ -1102,8 +1102,8 @@
         "We shouldn't care what kind of situations we're in."
       ],
       "correct_answer": "A",
-      "rag_answer": "C",
-      "is_correct": false
+      "rag_answer": "A",
+      "is_correct": true
     },
     {
       "problem_index": 85,
@@ -1583,8 +1583,8 @@
         "A cure for cancer."
       ],
       "correct_answer": "B",
-      "rag_answer": "B",
-      "is_correct": true
+      "rag_answer": "C",
+      "is_correct": false
     },
     {
       "problem_index": 122,
@@ -1882,8 +1882,8 @@
         "the cows had fed themselves"
       ],
       "correct_answer": "B",
-      "rag_answer": "C",
-      "is_correct": false
+      "rag_answer": "B",
+      "is_correct": true
     },
     {
       "problem_index": 145,
@@ -1960,8 +1960,8 @@
         "Laptops will be used in Westlake College in Virginia."
       ],
       "correct_answer": "D",
-      "rag_answer": "D",
-      "is_correct": true
+      "rag_answer": "B",
+      "is_correct": false
     },
     {
       "problem_index": 151,
@@ -2610,8 +2610,8 @@
         "Doubtful."
       ],
       "correct_answer": "A",
-      "rag_answer": "A",
-      "is_correct": true
+      "rag_answer": "C",
+      "is_correct": false
     }
   ]
 }

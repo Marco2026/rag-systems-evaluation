@@ -6,12 +6,12 @@
   "generator_model": "huihui_ai/qwen2.5-abliterate:72b",
   "generator_params": 72.7,
   "generator_size": 44.2,
-  "timestamp": "2026-04-11T21:39:35.341489",
-  "duration": "00:52:19",
-  "duration (seconds)": 3139,
+  "timestamp": "2026-05-20T22:53:45.005093",
+  "duration": "00:44:08",
+  "duration (seconds)": 2648,
   "total": 200,
-  "correct": 157,
-  "accuracy": 0.785,
+  "correct": 166,
+  "accuracy": 0.83,
   "results": [
     {
       "problem_index": 1,
@@ -49,8 +49,8 @@
         "It was more intimidating than expected"
       ],
       "correct_answer": 2,
-      "rag_answer": "C",
-      "is_correct": true
+      "rag_answer": "B",
+      "is_correct": false
     },
     {
       "problem_index": 4,
@@ -166,8 +166,8 @@
         "He hates Blane for stealing his spotlight"
       ],
       "correct_answer": 0,
-      "rag_answer": "B",
-      "is_correct": false
+      "rag_answer": "A",
+      "is_correct": true
     },
     {
       "problem_index": 13,
@@ -179,8 +179,8 @@
         "It moves on hidden strings."
       ],
       "correct_answer": 3,
-      "rag_answer": "A",
-      "is_correct": false
+      "rag_answer": "D",
+      "is_correct": true
     },
     {
       "problem_index": 14,
@@ -231,8 +231,8 @@
         "To meet Curt George"
       ],
       "correct_answer": 3,
-      "rag_answer": "C",
-      "is_correct": false
+      "rag_answer": "D",
+      "is_correct": true
     },
     {
       "problem_index": 18,
@@ -426,8 +426,8 @@
         "Untrustworthy"
       ],
       "correct_answer": 1,
-      "rag_answer": "C",
-      "is_correct": false
+      "rag_answer": "B",
+      "is_correct": true
     },
     {
       "problem_index": 33,
@@ -478,8 +478,8 @@
         "The island is his room, and the snakes are the other minds."
       ],
       "correct_answer": 3,
-      "rag_answer": "C",
-      "is_correct": false
+      "rag_answer": "D",
+      "is_correct": true
     },
     {
       "problem_index": 37,
@@ -504,8 +504,8 @@
         "To look like he is catching butterflies"
       ],
       "correct_answer": 3,
-      "rag_answer": "D",
-      "is_correct": true
+      "rag_answer": "A",
+      "is_correct": false
     },
     {
       "problem_index": 39,
@@ -543,8 +543,8 @@
         "Being made with hydrogen"
       ],
       "correct_answer": 3,
-      "rag_answer": "A",
-      "is_correct": false
+      "rag_answer": "D",
+      "is_correct": true
     },
     {
       "problem_index": 42,
@@ -595,8 +595,8 @@
         "He was stockpiled"
       ],
       "correct_answer": 1,
-      "rag_answer": "D",
-      "is_correct": false
+      "rag_answer": "B",
+      "is_correct": true
     },
     {
       "problem_index": 46,
@@ -621,8 +621,8 @@
         "To impress the Free'l"
       ],
       "correct_answer": 1,
-      "rag_answer": "C",
-      "is_correct": false
+      "rag_answer": "B",
+      "is_correct": true
     },
     {
       "problem_index": 48,
@@ -699,8 +699,8 @@
         "It is so far away from the war that having weapons is unnecessary"
       ],
       "correct_answer": 0,
-      "rag_answer": "D",
-      "is_correct": false
+      "rag_answer": "A",
+      "is_correct": true
     },
     {
       "problem_index": 54,
@@ -829,8 +829,8 @@
         "Make sentences shorter"
       ],
       "correct_answer": 1,
-      "rag_answer": "D",
-      "is_correct": false
+      "rag_answer": "B",
+      "is_correct": true
     },
     {
       "problem_index": 64,
@@ -868,8 +868,8 @@
         "capture, solitary imprisonment, examinations, escape"
       ],
       "correct_answer": 0,
-      "rag_answer": "A",
-      "is_correct": true
+      "rag_answer": "B",
+      "is_correct": false
     },
     {
       "problem_index": 67,
@@ -1141,8 +1141,8 @@
         "Shy"
       ],
       "correct_answer": 0,
-      "rag_answer": "B",
-      "is_correct": false
+      "rag_answer": "A",
+      "is_correct": true
     },
     {
       "problem_index": 88,
@@ -1154,7 +1154,7 @@
         "University faculty members because they can use the diction in the policies to continue to maintain control of how those policies are perceived."
       ],
       "correct_answer": 1,
-      "rag_answer": "C",
+      "rag_answer": "D",
       "is_correct": false
     },
     {
@@ -1271,8 +1271,8 @@
         "So he would feel like he was important to her"
       ],
       "correct_answer": 2,
-      "rag_answer": "C",
-      "is_correct": true
+      "rag_answer": "D",
+      "is_correct": false
     },
     {
       "problem_index": 98,
@@ -1388,8 +1388,8 @@
         "Children's demands of their parents"
       ],
       "correct_answer": 3,
-      "rag_answer": "B",
-      "is_correct": false
+      "rag_answer": "D",
+      "is_correct": true
     },
     {
       "problem_index": 107,
@@ -1401,7 +1401,7 @@
         "More than a dozen"
       ],
       "correct_answer": 3,
-      "rag_answer": "A",
+      "rag_answer": "B",
       "is_correct": false
     },
     {
@@ -1466,7 +1466,7 @@
         "To wait for their society to return and pick them up"
       ],
       "correct_answer": 2,
-      "rag_answer": "B",
+      "rag_answer": "A",
       "is_correct": false
     },
     {
@@ -1804,8 +1804,8 @@
         "tries to take Martians back to Earth in order to allow them to colonize."
       ],
       "correct_answer": 1,
-      "rag_answer": "B",
-      "is_correct": true
+      "rag_answer": "C",
+      "is_correct": false
     },
     {
       "problem_index": 139,
@@ -1817,8 +1817,8 @@
         "He twists the Flapjacks' tentacles, which is excruciatingly painful to a Flapjack."
       ],
       "correct_answer": 1,
-      "rag_answer": "B",
-      "is_correct": true
+      "rag_answer": "C",
+      "is_correct": false
     },
     {
       "problem_index": 140,
@@ -2012,8 +2012,8 @@
         "He likes to look at the girls in the comics."
       ],
       "correct_answer": 1,
-      "rag_answer": "C",
-      "is_correct": false
+      "rag_answer": "B",
+      "is_correct": true
     },
     {
       "problem_index": 155,
@@ -2155,8 +2155,8 @@
         "There are aliens walking among us."
       ],
       "correct_answer": 1,
-      "rag_answer": "C",
-      "is_correct": false
+      "rag_answer": "B",
+      "is_correct": true
     },
     {
       "problem_index": 166,
@@ -2181,8 +2181,8 @@
         "They are counterfeit of the true Christ"
       ],
       "correct_answer": 1,
-      "rag_answer": "C",
-      "is_correct": false
+      "rag_answer": "B",
+      "is_correct": true
     },
     {
       "problem_index": 168,
@@ -2220,8 +2220,8 @@
         "He is a Martian"
       ],
       "correct_answer": 0,
-      "rag_answer": "D",
-      "is_correct": false
+      "rag_answer": "A",
+      "is_correct": true
     },
     {
       "problem_index": 171,
@@ -2233,8 +2233,8 @@
         "For her husband to fall back in love with her"
       ],
       "correct_answer": 3,
-      "rag_answer": "D",
-      "is_correct": true
+      "rag_answer": "C",
+      "is_correct": false
     },
     {
       "problem_index": 172,
@@ -2272,7 +2272,7 @@
         "Crimes"
       ],
       "correct_answer": 2,
-      "rag_answer": "D",
+      "rag_answer": "A",
       "is_correct": false
     },
     {
@@ -2389,8 +2389,8 @@
         "He was not allowed"
       ],
       "correct_answer": 0,
-      "rag_answer": "C",
-      "is_correct": false
+      "rag_answer": "A",
+      "is_correct": true
     },
     {
       "problem_index": 184,
@@ -2467,8 +2467,8 @@
         "The pills that his therapist perscribed"
       ],
       "correct_answer": 0,
-      "rag_answer": "C",
-      "is_correct": false
+      "rag_answer": "A",
+      "is_correct": true
     },
     {
       "problem_index": 190,
@@ -2493,7 +2493,7 @@
         "He does not feel anything"
       ],
       "correct_answer": 0,
-      "rag_answer": "C",
+      "rag_answer": "B",
       "is_correct": false
     },
     {
@@ -2558,8 +2558,8 @@
         "are very desirable to the Martian men, and they worry about their safety around the humans."
       ],
       "correct_answer": 0,
-      "rag_answer": "A",
-      "is_correct": true
+      "rag_answer": "D",
+      "is_correct": false
     },
     {
       "problem_index": 197,
@@ -2571,8 +2571,8 @@
         "Fame"
       ],
       "correct_answer": 2,
-      "rag_answer": "C",
-      "is_correct": true
+      "rag_answer": "A",
+      "is_correct": false
     },
     {
       "problem_index": 198,

@@ -6,12 +6,12 @@
   "generator_model": "goekdenizguelmez/JOSIEFIED-Qwen2.5:7b",
   "generator_params": 7.62,
   "generator_size": 4.4,
-  "timestamp": "2026-04-14T11:34:38.454876",
-  "duration": "00:08:37",
-  "duration (seconds)": 517,
+  "timestamp": "2026-05-22T14:17:48.098036",
+  "duration": "00:07:45",
+  "duration (seconds)": 465,
   "total": 200,
-  "correct": 160,
-  "accuracy": 0.8,
+  "correct": 161,
+  "accuracy": 0.805,
   "results": [
     {
       "problem_index": 1,
@@ -140,8 +140,8 @@
         "Because we had no life jackets"
       ],
       "correct_answer": "C",
-      "rag_answer": "B",
-      "is_correct": false
+      "rag_answer": "C",
+      "is_correct": true
     },
     {
       "problem_index": 11,
@@ -400,8 +400,8 @@
         "We should be selective when showing attitude toward other human beings."
       ],
       "correct_answer": "B",
-      "rag_answer": "D",
-      "is_correct": false
+      "rag_answer": "B",
+      "is_correct": true
     },
     {
       "problem_index": 31,
@@ -504,8 +504,8 @@
         "A Player of Patience"
       ],
       "correct_answer": "B",
-      "rag_answer": "B",
-      "is_correct": true
+      "rag_answer": "A",
+      "is_correct": false
     },
     {
       "problem_index": 39,
@@ -985,8 +985,8 @@
         "Roosevelt's Death Makes Truman President"
       ],
       "correct_answer": "D",
-      "rag_answer": "B",
-      "is_correct": false
+      "rag_answer": "D",
+      "is_correct": true
     },
     {
       "problem_index": 76,
@@ -1427,8 +1427,8 @@
         "Learning the visible as well as the hidden differences of culture."
       ],
       "correct_answer": "D",
-      "rag_answer": "D",
-      "is_correct": true
+      "rag_answer": "B",
+      "is_correct": false
     },
     {
       "problem_index": 110,
@@ -1583,7 +1583,7 @@
         "A cure for cancer."
       ],
       "correct_answer": "B",
-      "rag_answer": "C",
+      "rag_answer": "A",
       "is_correct": false
     },
     {
@@ -1622,8 +1622,8 @@
         "only a character made up by Arthur Conan Dolye"
       ],
       "correct_answer": "D",
-      "rag_answer": "A",
-      "is_correct": false
+      "rag_answer": "D",
+      "is_correct": true
     },
     {
       "problem_index": 125,
@@ -2103,8 +2103,8 @@
         "help those parents who are worried about their children"
       ],
       "correct_answer": "A",
-      "rag_answer": "A",
-      "is_correct": true
+      "rag_answer": "C",
+      "is_correct": false
     },
     {
       "problem_index": 162,
@@ -2194,8 +2194,8 @@
         "It's impossible for them to use the new operating system."
       ],
       "correct_answer": "A",
-      "rag_answer": "B",
-      "is_correct": false
+      "rag_answer": "A",
+      "is_correct": true
     },
     {
       "problem_index": 169,
@@ -2558,8 +2558,8 @@
         "Any party member will be given a bag to store rubbish at the party."
       ],
       "correct_answer": "C",
-      "rag_answer": "C",
-      "is_correct": true
+      "rag_answer": "B",
+      "is_correct": false
     },
     {
       "problem_index": 197,

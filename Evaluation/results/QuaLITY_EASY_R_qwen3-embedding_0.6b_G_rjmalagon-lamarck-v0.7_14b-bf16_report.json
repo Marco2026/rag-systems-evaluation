@@ -6,12 +6,12 @@
   "generator_model": "rjmalagon/lamarck-v0.7:14b-bf16",
   "generator_params": 14.8,
   "generator_size": 27.5,
-  "timestamp": "2026-04-11T15:21:35.974654",
-  "duration": "00:20:31",
-  "duration (seconds)": 1231,
+  "timestamp": "2026-05-21T06:44:28.199326",
+  "duration": "00:15:38",
+  "duration (seconds)": 938,
   "total": 200,
-  "correct": 154,
-  "accuracy": 0.77,
+  "correct": 162,
+  "accuracy": 0.81,
   "results": [
     {
       "problem_index": 1,
@@ -127,8 +127,8 @@
         "They have evolved into a new species of cyborgs"
       ],
       "correct_answer": 1,
-      "rag_answer": "C",
-      "is_correct": false
+      "rag_answer": "B",
+      "is_correct": true
     },
     {
       "problem_index": 10,
@@ -166,8 +166,8 @@
         "He hates Blane for stealing his spotlight"
       ],
       "correct_answer": 0,
-      "rag_answer": "B",
-      "is_correct": false
+      "rag_answer": "A",
+      "is_correct": true
     },
     {
       "problem_index": 13,
@@ -179,7 +179,7 @@
         "It moves on hidden strings."
       ],
       "correct_answer": 3,
-      "rag_answer": "B",
+      "rag_answer": "C",
       "is_correct": false
     },
     {
@@ -244,8 +244,8 @@
         "6"
       ],
       "correct_answer": 2,
-      "rag_answer": "C",
-      "is_correct": true
+      "rag_answer": "A",
+      "is_correct": false
     },
     {
       "problem_index": 19,
@@ -257,8 +257,8 @@
         "Eight years"
       ],
       "correct_answer": 0,
-      "rag_answer": "A",
-      "is_correct": true
+      "rag_answer": "B",
+      "is_correct": false
     },
     {
       "problem_index": 20,
@@ -452,8 +452,8 @@
         "He was unsure of how he arrived there"
       ],
       "correct_answer": 1,
-      "rag_answer": "C",
-      "is_correct": false
+      "rag_answer": "B",
+      "is_correct": true
     },
     {
       "problem_index": 35,
@@ -478,8 +478,8 @@
         "The island is his room, and the snakes are the other minds."
       ],
       "correct_answer": 3,
-      "rag_answer": "C",
-      "is_correct": false
+      "rag_answer": "D",
+      "is_correct": true
     },
     {
       "problem_index": 37,
@@ -504,8 +504,8 @@
         "To look like he is catching butterflies"
       ],
       "correct_answer": 3,
-      "rag_answer": "A",
-      "is_correct": false
+      "rag_answer": "D",
+      "is_correct": true
     },
     {
       "problem_index": 39,
@@ -530,8 +530,8 @@
         "The officer who spoke to him post-battle"
       ],
       "correct_answer": 3,
-      "rag_answer": "D",
-      "is_correct": true
+      "rag_answer": "A",
+      "is_correct": false
     },
     {
       "problem_index": 41,
@@ -621,8 +621,8 @@
         "To impress the Free'l"
       ],
       "correct_answer": 1,
-      "rag_answer": "C",
-      "is_correct": false
+      "rag_answer": "B",
+      "is_correct": true
     },
     {
       "problem_index": 48,
@@ -816,8 +816,8 @@
         "Earth"
       ],
       "correct_answer": 1,
-      "rag_answer": "A",
-      "is_correct": false
+      "rag_answer": "B",
+      "is_correct": true
     },
     {
       "problem_index": 63,
@@ -868,7 +868,7 @@
         "capture, solitary imprisonment, examinations, escape"
       ],
       "correct_answer": 0,
-      "rag_answer": "D",
+      "rag_answer": "C",
       "is_correct": false
     },
     {
@@ -894,8 +894,8 @@
         "A wildfire from the Jungle was coming"
       ],
       "correct_answer": 0,
-      "rag_answer": "C",
-      "is_correct": false
+      "rag_answer": "A",
+      "is_correct": true
     },
     {
       "problem_index": 69,
@@ -1076,8 +1076,8 @@
         "he is going to work with them until they get it or until it kills them all."
       ],
       "correct_answer": 1,
-      "rag_answer": "A",
-      "is_correct": false
+      "rag_answer": "B",
+      "is_correct": true
     },
     {
       "problem_index": 83,
@@ -1167,8 +1167,8 @@
         "He quits his job in management."
       ],
       "correct_answer": 1,
-      "rag_answer": "D",
-      "is_correct": false
+      "rag_answer": "B",
+      "is_correct": true
     },
     {
       "problem_index": 90,
@@ -1245,8 +1245,8 @@
         "We teach and learn collaboratively"
       ],
       "correct_answer": 3,
-      "rag_answer": "A",
-      "is_correct": false
+      "rag_answer": "D",
+      "is_correct": true
     },
     {
       "problem_index": 96,
@@ -1388,8 +1388,8 @@
         "Children's demands of their parents"
       ],
       "correct_answer": 3,
-      "rag_answer": "A",
-      "is_correct": false
+      "rag_answer": "D",
+      "is_correct": true
     },
     {
       "problem_index": 107,
@@ -1466,7 +1466,7 @@
         "To wait for their society to return and pick them up"
       ],
       "correct_answer": 2,
-      "rag_answer": "A",
+      "rag_answer": "B",
       "is_correct": false
     },
     {
@@ -1570,8 +1570,8 @@
         "The current reality was starting to fade"
       ],
       "correct_answer": 3,
-      "rag_answer": "B",
-      "is_correct": false
+      "rag_answer": "D",
+      "is_correct": true
     },
     {
       "problem_index": 121,
@@ -1583,8 +1583,8 @@
         "She was surprised to see that he had returned"
       ],
       "correct_answer": 0,
-      "rag_answer": "D",
-      "is_correct": false
+      "rag_answer": "A",
+      "is_correct": true
     },
     {
       "problem_index": 122,
@@ -1713,7 +1713,7 @@
         "They are more physically attractive"
       ],
       "correct_answer": 0,
-      "rag_answer": "D",
+      "rag_answer": "C",
       "is_correct": false
     },
     {
@@ -1791,8 +1791,8 @@
         "lonely and need friends."
       ],
       "correct_answer": 2,
-      "rag_answer": "C",
-      "is_correct": true
+      "rag_answer": "B",
+      "is_correct": false
     },
     {
       "problem_index": 138,
@@ -1817,8 +1817,8 @@
         "He twists the Flapjacks' tentacles, which is excruciatingly painful to a Flapjack."
       ],
       "correct_answer": 1,
-      "rag_answer": "B",
-      "is_correct": true
+      "rag_answer": "C",
+      "is_correct": false
     },
     {
       "problem_index": 140,
@@ -1986,8 +1986,8 @@
         "Using magnetic poles"
       ],
       "correct_answer": 0,
-      "rag_answer": "A",
-      "is_correct": true
+      "rag_answer": "B",
+      "is_correct": false
     },
     {
       "problem_index": 153,
@@ -2038,8 +2038,8 @@
         "He is completely calm and tells Splinter not to worry"
       ],
       "correct_answer": 0,
-      "rag_answer": "B",
-      "is_correct": false
+      "rag_answer": "A",
+      "is_correct": true
     },
     {
       "problem_index": 157,
@@ -2168,8 +2168,8 @@
         "Television"
       ],
       "correct_answer": 3,
-      "rag_answer": "D",
-      "is_correct": true
+      "rag_answer": "B",
+      "is_correct": false
     },
     {
       "problem_index": 167,
@@ -2233,7 +2233,7 @@
         "For her husband to fall back in love with her"
       ],
       "correct_answer": 3,
-      "rag_answer": "C",
+      "rag_answer": "A",
       "is_correct": false
     },
     {
@@ -2324,8 +2324,8 @@
         "Funding groups do not allow waivers for the authors to not release their work"
       ],
       "correct_answer": 3,
-      "rag_answer": "B",
-      "is_correct": false
+      "rag_answer": "D",
+      "is_correct": true
     },
     {
       "problem_index": 179,
@@ -2337,8 +2337,8 @@
         "He comes and goes as he pleases."
       ],
       "correct_answer": 0,
-      "rag_answer": "A",
-      "is_correct": true
+      "rag_answer": "C",
+      "is_correct": false
     },
     {
       "problem_index": 180,
@@ -2493,7 +2493,7 @@
         "He does not feel anything"
       ],
       "correct_answer": 0,
-      "rag_answer": "B",
+      "rag_answer": "C",
       "is_correct": false
     },
     {
@@ -2506,8 +2506,8 @@
         "The haphazard way the granite was harvested and the bloody scene nearby reminded him of it."
       ],
       "correct_answer": 3,
-      "rag_answer": "B",
-      "is_correct": false
+      "rag_answer": "D",
+      "is_correct": true
     },
     {
       "problem_index": 193,
@@ -2545,8 +2545,8 @@
         "They undergo ethical conditioning"
       ],
       "correct_answer": 3,
-      "rag_answer": "D",
-      "is_correct": true
+      "rag_answer": "C",
+      "is_correct": false
     },
     {
       "problem_index": 196,

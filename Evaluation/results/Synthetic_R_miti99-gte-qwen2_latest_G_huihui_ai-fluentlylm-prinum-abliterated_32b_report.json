@@ -6,12 +6,12 @@
   "generator_model": "huihui_ai/fluentlylm-prinum-abliterated:32b",
   "generator_params": 32.8,
   "generator_size": 18.5,
-  "timestamp": "2026-04-30T02:02:51.755978",
-  "duration": "00:18:09",
-  "duration (seconds)": 1089,
+  "timestamp": "2026-05-22T21:23:04.538255",
+  "duration": "00:18:08",
+  "duration (seconds)": 1088,
   "total": 200,
-  "correct": 197,
-  "accuracy": 0.985,
+  "correct": 196,
+  "accuracy": 0.98,
   "results": [
     {
       "problem_index": 1,
@@ -1310,8 +1310,8 @@
         "D": "Silver Forest"
       },
       "correct_answer": "A",
-      "rag_answer": "A",
-      "is_correct": true
+      "rag_answer": "B",
+      "is_correct": false
     },
     {
       "problem_index": 101,

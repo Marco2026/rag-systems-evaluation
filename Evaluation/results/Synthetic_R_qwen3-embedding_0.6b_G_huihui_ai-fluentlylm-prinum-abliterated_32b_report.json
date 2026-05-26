@@ -6,12 +6,12 @@
   "generator_model": "huihui_ai/fluentlylm-prinum-abliterated:32b",
   "generator_params": 32.8,
   "generator_size": 18.5,
-  "timestamp": "2026-04-30T02:22:28.455361",
-  "duration": "00:19:36",
-  "duration (seconds)": 1176,
+  "timestamp": "2026-05-22T22:00:16.514585",
+  "duration": "00:16:49",
+  "duration (seconds)": 1009,
   "total": 200,
-  "correct": 191,
-  "accuracy": 0.955,
+  "correct": 192,
+  "accuracy": 0.96,
   "results": [
     {
       "problem_index": 1,
@@ -868,8 +868,8 @@
         "D": "Clan of the Deep Waters"
       },
       "correct_answer": "C",
-      "rag_answer": "D",
-      "is_correct": false
+      "rag_answer": "C",
+      "is_correct": true
     },
     {
       "problem_index": 67,

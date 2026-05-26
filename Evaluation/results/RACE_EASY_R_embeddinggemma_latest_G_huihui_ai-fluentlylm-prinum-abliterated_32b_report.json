@@ -6,12 +6,12 @@
   "generator_model": "huihui_ai/fluentlylm-prinum-abliterated:32b",
   "generator_params": 32.8,
   "generator_size": 18.5,
-  "timestamp": "2026-04-17T22:31:44.334106",
-  "duration": "00:16:59",
-  "duration (seconds)": 1019,
+  "timestamp": "2026-05-22T01:15:37.102837",
+  "duration": "00:19:13",
+  "duration (seconds)": 1153,
   "total": 200,
-  "correct": 185,
-  "accuracy": 0.925,
+  "correct": 189,
+  "accuracy": 0.945,
   "results": [
     {
       "problem_index": 1,
@@ -829,8 +829,8 @@
         "A busy family"
       ],
       "correct_answer": "D",
-      "rag_answer": "C",
-      "is_correct": false
+      "rag_answer": "D",
+      "is_correct": true
     },
     {
       "problem_index": 64,
@@ -894,8 +894,8 @@
         "didn't know all the people they passed"
       ],
       "correct_answer": "A",
-      "rag_answer": "A",
-      "is_correct": true
+      "rag_answer": "B",
+      "is_correct": false
     },
     {
       "problem_index": 69,
@@ -1752,8 +1752,8 @@
         "Eight"
       ],
       "correct_answer": "C",
-      "rag_answer": "D",
-      "is_correct": false
+      "rag_answer": "C",
+      "is_correct": true
     },
     {
       "problem_index": 135,
@@ -1778,8 +1778,8 @@
         "on 2"
       ],
       "correct_answer": "B",
-      "rag_answer": "C",
-      "is_correct": false
+      "rag_answer": "B",
+      "is_correct": true
     },
     {
       "problem_index": 137,
@@ -1960,7 +1960,7 @@
         "clearer and clearer."
       ],
       "correct_answer": "A",
-      "rag_answer": "A) more and more scared.\n\nThe passage indicates that the writer's emotional state changed from being surprised to sad when she saw the polluted river. However, none of the given options exactly match this progression. Among the provided choices, \"more and more scared\" (option A) could be inferred as a possible emotional response due to the stark contrast between her childhood memories and the current state of the river.\n\nTherefore, based on the information in the passage and the available choices:\n\nA) more and more scared.",
+      "rag_answer": "C",
       "is_correct": false
     },
     {
@@ -2103,8 +2103,8 @@
         "How to play drums."
       ],
       "correct_answer": "B",
-      "rag_answer": "C",
-      "is_correct": false
+      "rag_answer": "B",
+      "is_correct": true
     },
     {
       "problem_index": 162,
@@ -2207,8 +2207,8 @@
         "cut down too many trees and grass"
       ],
       "correct_answer": "C",
-      "rag_answer": "C",
-      "is_correct": true
+      "rag_answer": "B",
+      "is_correct": false
     },
     {
       "problem_index": 170,
@@ -2519,8 +2519,8 @@
         "Poor People and Money."
       ],
       "correct_answer": "A",
-      "rag_answer": "A) Money from the Sky.",
-      "is_correct": false
+      "rag_answer": "A",
+      "is_correct": true
     },
     {
       "problem_index": 194,
@@ -2558,8 +2558,8 @@
         "who dislikes to hitchhike"
       ],
       "correct_answer": "C",
-      "rag_answer": "D",
-      "is_correct": false
+      "rag_answer": "C",
+      "is_correct": true
     },
     {
       "problem_index": 197,

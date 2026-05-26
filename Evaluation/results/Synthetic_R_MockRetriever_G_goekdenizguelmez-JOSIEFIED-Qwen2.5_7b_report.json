@@ -6,12 +6,12 @@
   "generator_model": "goekdenizguelmez/JOSIEFIED-Qwen2.5:7b",
   "generator_params": 7.62,
   "generator_size": 4.4,
-  "timestamp": "2026-04-30T01:24:00.286980",
-  "duration": "00:03:03",
-  "duration (seconds)": 183,
+  "timestamp": "2026-05-22T22:03:02.714016",
+  "duration": "00:02:46",
+  "duration (seconds)": 166,
   "total": 200,
-  "correct": 100,
-  "accuracy": 0.5,
+  "correct": 96,
+  "accuracy": 0.48,
   "results": [
     {
       "problem_index": 1,
@@ -36,7 +36,7 @@
         "D": "Emperor Alaric I"
       },
       "correct_answer": "D",
-      "rag_answer": "B",
+      "rag_answer": "A",
       "is_correct": false
     },
     {
@@ -127,7 +127,7 @@
         "D": "Order of the Silver Flame"
       },
       "correct_answer": "D",
-      "rag_answer": "B",
+      "rag_answer": "A",
       "is_correct": false
     },
     {
@@ -218,8 +218,8 @@
         "D": "Moonhaven"
       },
       "correct_answer": "D",
-      "rag_answer": "B",
-      "is_correct": false
+      "rag_answer": "D",
+      "is_correct": true
     },
     {
       "problem_index": 17,
@@ -309,8 +309,8 @@
         "D": "Sunhold"
       },
       "correct_answer": "C",
-      "rag_answer": "C",
-      "is_correct": true
+      "rag_answer": "A",
+      "is_correct": false
     },
     {
       "problem_index": 24,
@@ -725,8 +725,8 @@
         "D": "1150 CE"
       },
       "correct_answer": "A",
-      "rag_answer": "A",
-      "is_correct": true
+      "rag_answer": "B",
+      "is_correct": false
     },
     {
       "problem_index": 56,
@@ -751,8 +751,8 @@
         "D": "1750 CE"
       },
       "correct_answer": "A",
-      "rag_answer": "A",
-      "is_correct": true
+      "rag_answer": "B",
+      "is_correct": false
     },
     {
       "problem_index": 58,
@@ -803,8 +803,8 @@
         "D": "-1600"
       },
       "correct_answer": "C",
-      "rag_answer": "C",
-      "is_correct": true
+      "rag_answer": "B",
+      "is_correct": false
     },
     {
       "problem_index": 62,
@@ -816,8 +816,8 @@
         "D": "Talor Wavecaller"
       },
       "correct_answer": "A",
-      "rag_answer": "C",
-      "is_correct": false
+      "rag_answer": "A",
+      "is_correct": true
     },
     {
       "problem_index": 63,
@@ -855,8 +855,8 @@
         "D": "1350"
       },
       "correct_answer": "C",
-      "rag_answer": "C",
-      "is_correct": true
+      "rag_answer": "B",
+      "is_correct": false
     },
     {
       "problem_index": 66,
@@ -881,8 +881,8 @@
         "D": "The Rise of the Dwarves"
       },
       "correct_answer": "C",
-      "rag_answer": "B",
-      "is_correct": false
+      "rag_answer": "C",
+      "is_correct": true
     },
     {
       "problem_index": 68,
@@ -1076,8 +1076,8 @@
         "D": "-1800"
       },
       "correct_answer": "A",
-      "rag_answer": "A",
-      "is_correct": true
+      "rag_answer": "C",
+      "is_correct": false
     },
     {
       "problem_index": 83,
@@ -1310,8 +1310,8 @@
         "D": "Silver Forest"
       },
       "correct_answer": "A",
-      "rag_answer": "C",
-      "is_correct": false
+      "rag_answer": "A",
+      "is_correct": true
     },
     {
       "problem_index": 101,
@@ -1375,8 +1375,8 @@
         "D": "100,000"
       },
       "correct_answer": "B",
-      "rag_answer": "A",
-      "is_correct": false
+      "rag_answer": "B",
+      "is_correct": true
     },
     {
       "problem_index": 106,
@@ -1427,7 +1427,7 @@
         "D": "Thalor Ironheart"
       },
       "correct_answer": "C",
-      "rag_answer": "B",
+      "rag_answer": "A",
       "is_correct": false
     },
     {
@@ -1466,8 +1466,8 @@
         "D": "Moonhaven"
       },
       "correct_answer": "B",
-      "rag_answer": "B",
-      "is_correct": true
+      "rag_answer": "A",
+      "is_correct": false
     },
     {
       "problem_index": 113,
@@ -1583,8 +1583,8 @@
         "D": "1260"
       },
       "correct_answer": "A",
-      "rag_answer": "A",
-      "is_correct": true
+      "rag_answer": "B",
+      "is_correct": false
     },
     {
       "problem_index": 122,
@@ -1596,8 +1596,8 @@
         "D": "Emperor Eldric Valdrek"
       },
       "correct_answer": "C",
-      "rag_answer": "B",
-      "is_correct": false
+      "rag_answer": "C",
+      "is_correct": true
     },
     {
       "problem_index": 123,
@@ -1635,8 +1635,8 @@
         "D": "Lornia"
       },
       "correct_answer": "B",
-      "rag_answer": "B",
-      "is_correct": true
+      "rag_answer": "A",
+      "is_correct": false
     },
     {
       "problem_index": 126,
@@ -1713,7 +1713,7 @@
         "D": "Mount Drakon"
       },
       "correct_answer": "D",
-      "rag_answer": "C",
+      "rag_answer": "A",
       "is_correct": false
     },
     {
@@ -1726,8 +1726,8 @@
         "D": "-1700"
       },
       "correct_answer": "A",
-      "rag_answer": "C",
-      "is_correct": false
+      "rag_answer": "A",
+      "is_correct": true
     },
     {
       "problem_index": 133,
@@ -1778,7 +1778,7 @@
         "D": "Azure Sea"
       },
       "correct_answer": "D",
-      "rag_answer": "A",
+      "rag_answer": "C",
       "is_correct": false
     },
     {
@@ -1791,8 +1791,8 @@
         "D": "1400"
       },
       "correct_answer": "A",
-      "rag_answer": "C",
-      "is_correct": false
+      "rag_answer": "A",
+      "is_correct": true
     },
     {
       "problem_index": 138,
@@ -1817,7 +1817,7 @@
         "D": "Glimmerpaw"
       },
       "correct_answer": "A",
-      "rag_answer": "C",
+      "rag_answer": "B",
       "is_correct": false
     },
     {
@@ -1830,8 +1830,8 @@
         "D": "15th day of the ninth month in 750"
       },
       "correct_answer": "A",
-      "rag_answer": "A",
-      "is_correct": true
+      "rag_answer": "B",
+      "is_correct": false
     },
     {
       "problem_index": 141,
@@ -1934,8 +1934,8 @@
         "D": "The grand fireworks display"
       },
       "correct_answer": "C",
-      "rag_answer": "C",
-      "is_correct": true
+      "rag_answer": "A",
+      "is_correct": false
     },
     {
       "problem_index": 149,
@@ -1947,8 +1947,8 @@
         "D": "30th"
       },
       "correct_answer": "B",
-      "rag_answer": "B",
-      "is_correct": true
+      "rag_answer": "A",
+      "is_correct": false
     },
     {
       "problem_index": 150,
@@ -1973,7 +1973,7 @@
         "D": "1350 AR"
       },
       "correct_answer": "A",
-      "rag_answer": "C",
+      "rag_answer": "B",
       "is_correct": false
     },
     {
@@ -2051,7 +2051,7 @@
         "D": "1850 AR"
       },
       "correct_answer": "D",
-      "rag_answer": "B",
+      "rag_answer": "A",
       "is_correct": false
     },
     {
@@ -2116,7 +2116,7 @@
         "D": "Perform a specific spell"
       },
       "correct_answer": "D",
-      "rag_answer": "A",
+      "rag_answer": "C",
       "is_correct": false
     },
     {
@@ -2194,8 +2194,8 @@
         "D": "Apprentice"
       },
       "correct_answer": "D",
-      "rag_answer": "D",
-      "is_correct": true
+      "rag_answer": "B",
+      "is_correct": false
     },
     {
       "problem_index": 169,
@@ -2233,8 +2233,8 @@
         "D": "1623"
       },
       "correct_answer": "A",
-      "rag_answer": "B",
-      "is_correct": false
+      "rag_answer": "A",
+      "is_correct": true
     },
     {
       "problem_index": 172,

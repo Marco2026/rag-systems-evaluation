@@ -6,12 +6,12 @@
   "generator_model": "rjmalagon/lamarck-v0.7:14b-bf16",
   "generator_params": 14.8,
   "generator_size": 27.5,
-  "timestamp": "2026-04-17T23:30:34.000754",
-  "duration": "00:10:21",
-  "duration (seconds)": 621,
+  "timestamp": "2026-05-22T02:32:07.274346",
+  "duration": "00:10:20",
+  "duration (seconds)": 620,
   "total": 200,
-  "correct": 178,
-  "accuracy": 0.89,
+  "correct": 181,
+  "accuracy": 0.905,
   "results": [
     {
       "problem_index": 1,
@@ -270,8 +270,8 @@
         "six"
       ],
       "correct_answer": "C",
-      "rag_answer": "D",
-      "is_correct": false
+      "rag_answer": "C",
+      "is_correct": true
     },
     {
       "problem_index": 21,
@@ -621,8 +621,8 @@
         "the teacher's"
       ],
       "correct_answer": "B",
-      "rag_answer": "B",
-      "is_correct": true
+      "rag_answer": "A",
+      "is_correct": false
     },
     {
       "problem_index": 48,
@@ -751,8 +751,8 @@
         "They were frightened and happy"
       ],
       "correct_answer": "A",
-      "rag_answer": "B",
-      "is_correct": false
+      "rag_answer": "A",
+      "is_correct": true
     },
     {
       "problem_index": 58,
@@ -803,8 +803,8 @@
         "supper"
       ],
       "correct_answer": "B",
-      "rag_answer": "A",
-      "is_correct": false
+      "rag_answer": "B",
+      "is_correct": true
     },
     {
       "problem_index": 62,
@@ -1050,8 +1050,8 @@
         "Mike wants to clean the blackboard"
       ],
       "correct_answer": "C",
-      "rag_answer": "B",
-      "is_correct": false
+      "rag_answer": "C",
+      "is_correct": true
     },
     {
       "problem_index": 81,
@@ -2350,8 +2350,8 @@
         "you have to change the date"
       ],
       "correct_answer": "C",
-      "rag_answer": "B",
-      "is_correct": false
+      "rag_answer": "C",
+      "is_correct": true
     },
     {
       "problem_index": 181,
@@ -2493,8 +2493,8 @@
         "he heard a noise"
       ],
       "correct_answer": "C",
-      "rag_answer": "C",
-      "is_correct": true
+      "rag_answer": "A",
+      "is_correct": false
     },
     {
       "problem_index": 192,

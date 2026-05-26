@@ -6,12 +6,12 @@
   "generator_model": "rjmalagon/lamarck-v0.7:14b-bf16",
   "generator_params": 14.8,
   "generator_size": 27.5,
-  "timestamp": "2026-04-12T15:39:39.875347",
-  "duration": "00:22:27",
-  "duration (seconds)": 1347,
+  "timestamp": "2026-05-21T20:32:47.523622",
+  "duration": "00:15:27",
+  "duration (seconds)": 927,
   "total": 200,
-  "correct": 102,
-  "accuracy": 0.51,
+  "correct": 114,
+  "accuracy": 0.57,
   "results": [
     {
       "problem_index": 1,
@@ -62,8 +62,8 @@
         "They're disconnected"
       ],
       "correct_answer": 0,
-      "rag_answer": "A",
-      "is_correct": true
+      "rag_answer": "D",
+      "is_correct": false
     },
     {
       "problem_index": 5,
@@ -127,7 +127,7 @@
         "A magical Iron Age"
       ],
       "correct_answer": 3,
-      "rag_answer": "A",
+      "rag_answer": "C",
       "is_correct": false
     },
     {
@@ -140,8 +140,8 @@
         "Bob Barr, Erskine Bowles, James Carville, Lanny Davis"
       ],
       "correct_answer": 1,
-      "rag_answer": "B",
-      "is_correct": true
+      "rag_answer": "A",
+      "is_correct": false
     },
     {
       "problem_index": 11,
@@ -192,8 +192,8 @@
         "He doesn't think they can look after themselves"
       ],
       "correct_answer": 0,
-      "rag_answer": "C",
-      "is_correct": false
+      "rag_answer": "A",
+      "is_correct": true
     },
     {
       "problem_index": 15,
@@ -270,7 +270,7 @@
         "Three"
       ],
       "correct_answer": 3,
-      "rag_answer": "C",
+      "rag_answer": "B",
       "is_correct": false
     },
     {
@@ -309,8 +309,8 @@
         "He takes pride in feeling that he is serving his community"
       ],
       "correct_answer": 2,
-      "rag_answer": "D",
-      "is_correct": false
+      "rag_answer": "C",
+      "is_correct": true
     },
     {
       "problem_index": 24,
@@ -400,8 +400,8 @@
         "He is estranged from his real family"
       ],
       "correct_answer": 2,
-      "rag_answer": "C",
-      "is_correct": true
+      "rag_answer": "A",
+      "is_correct": false
     },
     {
       "problem_index": 31,
@@ -452,8 +452,8 @@
         "Traits for kinship are throughout the entire human population now, thus supporting only kin is less important in the modern world for kinship to persist"
       ],
       "correct_answer": 3,
-      "rag_answer": "C",
-      "is_correct": false
+      "rag_answer": "D",
+      "is_correct": true
     },
     {
       "problem_index": 35,
@@ -491,8 +491,8 @@
         "Low cost beers actually rate pretty well when people don’t know what they’re drinking"
       ],
       "correct_answer": 3,
-      "rag_answer": "C",
-      "is_correct": false
+      "rag_answer": "D",
+      "is_correct": true
     },
     {
       "problem_index": 38,
@@ -660,7 +660,7 @@
         "Microphones"
       ],
       "correct_answer": 1,
-      "rag_answer": "C",
+      "rag_answer": "A",
       "is_correct": false
     },
     {
@@ -673,7 +673,7 @@
         "Angry he had carried Koroby"
       ],
       "correct_answer": 2,
-      "rag_answer": "B",
+      "rag_answer": "A",
       "is_correct": false
     },
     {
@@ -686,8 +686,8 @@
         "The species live in communities together."
       ],
       "correct_answer": 1,
-      "rag_answer": "B",
-      "is_correct": true
+      "rag_answer": "A",
+      "is_correct": false
     },
     {
       "problem_index": 53,
@@ -790,8 +790,8 @@
         "Joyce"
       ],
       "correct_answer": 0,
-      "rag_answer": "C",
-      "is_correct": false
+      "rag_answer": "A",
+      "is_correct": true
     },
     {
       "problem_index": 61,
@@ -972,8 +972,8 @@
         "The anglers threatened him"
       ],
       "correct_answer": 0,
-      "rag_answer": "B",
-      "is_correct": false
+      "rag_answer": "A",
+      "is_correct": true
     },
     {
       "problem_index": 75,
@@ -1011,8 +1011,8 @@
         "The express did not stop at the 167th floor"
       ],
       "correct_answer": 2,
-      "rag_answer": "A",
-      "is_correct": false
+      "rag_answer": "C",
+      "is_correct": true
     },
     {
       "problem_index": 78,
@@ -1115,8 +1115,8 @@
         "She hadn't seen a man in 3 years"
       ],
       "correct_answer": 3,
-      "rag_answer": "D",
-      "is_correct": true
+      "rag_answer": "C",
+      "is_correct": false
     },
     {
       "problem_index": 86,
@@ -1180,7 +1180,7 @@
         "He realized by surrendering, the Alliance could use their ship to sneak into Federation territory unnoticed."
       ],
       "correct_answer": 3,
-      "rag_answer": "B",
+      "rag_answer": "C",
       "is_correct": false
     },
     {
@@ -1232,7 +1232,7 @@
         "He returned to the fourteenth floor to try again"
       ],
       "correct_answer": 1,
-      "rag_answer": "A",
+      "rag_answer": "D",
       "is_correct": false
     },
     {
@@ -1284,8 +1284,8 @@
         "Unknown"
       ],
       "correct_answer": 3,
-      "rag_answer": "B",
-      "is_correct": false
+      "rag_answer": "D",
+      "is_correct": true
     },
     {
       "problem_index": 99,
@@ -1297,8 +1297,8 @@
         "So Meek can meet some of the locals"
       ],
       "correct_answer": 2,
-      "rag_answer": "D",
-      "is_correct": false
+      "rag_answer": "C",
+      "is_correct": true
     },
     {
       "problem_index": 100,
@@ -1336,7 +1336,7 @@
         "The crew made a careful reconnaissance of the planet before choosing a landing site, and saw the opening in the city's globe covering and aimed for that."
       ],
       "correct_answer": 2,
-      "rag_answer": "B",
+      "rag_answer": "D",
       "is_correct": false
     },
     {
@@ -1362,8 +1362,8 @@
         "They are eager to learn from him"
       ],
       "correct_answer": 3,
-      "rag_answer": "B",
-      "is_correct": false
+      "rag_answer": "D",
+      "is_correct": true
     },
     {
       "problem_index": 105,
@@ -1388,7 +1388,7 @@
         "He wanted them to negotiate a surrender"
       ],
       "correct_answer": 0,
-      "rag_answer": "C",
+      "rag_answer": "B",
       "is_correct": false
     },
     {
@@ -1427,8 +1427,8 @@
         "Discussed the scandal with others."
       ],
       "correct_answer": 0,
-      "rag_answer": "D",
-      "is_correct": false
+      "rag_answer": "A",
+      "is_correct": true
     },
     {
       "problem_index": 110,
@@ -1453,7 +1453,7 @@
         "They tried to kill him."
       ],
       "correct_answer": 0,
-      "rag_answer": "C",
+      "rag_answer": "B",
       "is_correct": false
     },
     {
@@ -1609,7 +1609,7 @@
         "Farmer"
       ],
       "correct_answer": 0,
-      "rag_answer": "B",
+      "rag_answer": "C",
       "is_correct": false
     },
     {
@@ -1635,8 +1635,8 @@
         "She was a controlling person"
       ],
       "correct_answer": 2,
-      "rag_answer": "B",
-      "is_correct": false
+      "rag_answer": "C",
+      "is_correct": true
     },
     {
       "problem_index": 126,
@@ -1674,8 +1674,8 @@
         "He agreed the revolution on earth had been needed"
       ],
       "correct_answer": 1,
-      "rag_answer": "B",
-      "is_correct": true
+      "rag_answer": "D",
+      "is_correct": false
     },
     {
       "problem_index": 129,
@@ -1700,8 +1700,8 @@
         "A person trying to escape the project"
       ],
       "correct_answer": 1,
-      "rag_answer": "B",
-      "is_correct": true
+      "rag_answer": "D",
+      "is_correct": false
     },
     {
       "problem_index": 131,
@@ -1817,7 +1817,7 @@
         "1"
       ],
       "correct_answer": 1,
-      "rag_answer": "A",
+      "rag_answer": "D",
       "is_correct": false
     },
     {
@@ -1856,8 +1856,8 @@
         "The Tepotkans were leaving it up to George's discretion"
       ],
       "correct_answer": 3,
-      "rag_answer": "A",
-      "is_correct": false
+      "rag_answer": "D",
+      "is_correct": true
     },
     {
       "problem_index": 143,
@@ -1960,7 +1960,7 @@
         "sees them from afar but tells everyone else they could not be found."
       ],
       "correct_answer": 1,
-      "rag_answer": "C",
+      "rag_answer": "D",
       "is_correct": false
     },
     {
@@ -2025,8 +2025,8 @@
         "The bankroll was far greater than on other planets."
       ],
       "correct_answer": 0,
-      "rag_answer": "A",
-      "is_correct": true
+      "rag_answer": "D",
+      "is_correct": false
     },
     {
       "problem_index": 156,
@@ -2103,8 +2103,8 @@
         "He asked the tasters to create 3 categories"
       ],
       "correct_answer": 0,
-      "rag_answer": "D",
-      "is_correct": false
+      "rag_answer": "A",
+      "is_correct": true
     },
     {
       "problem_index": 162,
@@ -2116,8 +2116,8 @@
         "He continued to collect bodies until the ship was full"
       ],
       "correct_answer": 0,
-      "rag_answer": "B",
-      "is_correct": false
+      "rag_answer": "A",
+      "is_correct": true
     },
     {
       "problem_index": 163,
@@ -2142,8 +2142,8 @@
         "He wanted to go home"
       ],
       "correct_answer": 0,
-      "rag_answer": "D",
-      "is_correct": false
+      "rag_answer": "A",
+      "is_correct": true
     },
     {
       "problem_index": 165,
@@ -2220,8 +2220,8 @@
         "He published in several Western magazines"
       ],
       "correct_answer": 3,
-      "rag_answer": "B",
-      "is_correct": false
+      "rag_answer": "D",
+      "is_correct": true
     },
     {
       "problem_index": 171,
@@ -2272,8 +2272,8 @@
         "A credit card"
       ],
       "correct_answer": 0,
-      "rag_answer": "D",
-      "is_correct": false
+      "rag_answer": "A",
+      "is_correct": true
     },
     {
       "problem_index": 175,
@@ -2285,8 +2285,8 @@
         "They turn simply grow larger."
       ],
       "correct_answer": 0,
-      "rag_answer": "C",
-      "is_correct": false
+      "rag_answer": "A",
+      "is_correct": true
     },
     {
       "problem_index": 176,
@@ -2363,8 +2363,8 @@
         "Only the private quarters or the office restroom"
       ],
       "correct_answer": 3,
-      "rag_answer": "D",
-      "is_correct": true
+      "rag_answer": "B",
+      "is_correct": false
     },
     {
       "problem_index": 182,
@@ -2376,7 +2376,7 @@
         "Cackle"
       ],
       "correct_answer": 1,
-      "rag_answer": "D",
+      "rag_answer": "A",
       "is_correct": false
     },
     {
@@ -2389,8 +2389,8 @@
         "He feels guilty about hurting Deirdre's feelings after her graduation when he ignored their romantic connection, and instead, played the part of a parent."
       ],
       "correct_answer": 3,
-      "rag_answer": "D",
-      "is_correct": true
+      "rag_answer": "B",
+      "is_correct": false
     },
     {
       "problem_index": 184,
@@ -2402,7 +2402,7 @@
         "He told his coworker about his girlfriend"
       ],
       "correct_answer": 2,
-      "rag_answer": "D",
+      "rag_answer": "A",
       "is_correct": false
     },
     {
@@ -2506,8 +2506,8 @@
         "calculated and cautious"
       ],
       "correct_answer": 1,
-      "rag_answer": "D",
-      "is_correct": false
+      "rag_answer": "B",
+      "is_correct": true
     },
     {
       "problem_index": 193,
@@ -2519,8 +2519,8 @@
         "Ravdin and Dana's plan to stay behind and speak with the Hunters"
       ],
       "correct_answer": 3,
-      "rag_answer": "A",
-      "is_correct": false
+      "rag_answer": "D",
+      "is_correct": true
     },
     {
       "problem_index": 194,
@@ -2558,8 +2558,8 @@
         "Most of them don't want to get involved with her adventure"
       ],
       "correct_answer": 2,
-      "rag_answer": "D",
-      "is_correct": false
+      "rag_answer": "C",
+      "is_correct": true
     },
     {
       "problem_index": 197,

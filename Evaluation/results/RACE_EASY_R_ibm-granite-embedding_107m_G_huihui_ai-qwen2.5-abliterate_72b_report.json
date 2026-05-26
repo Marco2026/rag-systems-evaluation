@@ -6,9 +6,9 @@
   "generator_model": "huihui_ai/qwen2.5-abliterate:72b",
   "generator_params": 72.7,
   "generator_size": 44.2,
-  "timestamp": "2026-04-17T20:01:31.547845",
-  "duration": "00:31:00",
-  "duration (seconds)": 1860,
+  "timestamp": "2026-05-21T21:53:21.996874",
+  "duration": "00:32:28",
+  "duration (seconds)": 1948,
   "total": 200,
   "correct": 182,
   "accuracy": 0.91,
@@ -270,8 +270,8 @@
         "six"
       ],
       "correct_answer": "C",
-      "rag_answer": "A",
-      "is_correct": false
+      "rag_answer": "C",
+      "is_correct": true
     },
     {
       "problem_index": 21,
@@ -517,7 +517,7 @@
         "Some don't do and do in schools."
       ],
       "correct_answer": "C",
-      "rag_answer": "A",
+      "rag_answer": "D",
       "is_correct": false
     },
     {
@@ -621,8 +621,8 @@
         "the teacher's"
       ],
       "correct_answer": "B",
-      "rag_answer": "B",
-      "is_correct": true
+      "rag_answer": "A",
+      "is_correct": false
     },
     {
       "problem_index": 48,
@@ -1700,8 +1700,8 @@
         "said \"POLICE NOTICE, NO PARKING\""
       ],
       "correct_answer": "D",
-      "rag_answer": "D",
-      "is_correct": true
+      "rag_answer": "C",
+      "is_correct": false
     },
     {
       "problem_index": 131,
@@ -1752,7 +1752,7 @@
         "Eight"
       ],
       "correct_answer": "C",
-      "rag_answer": "B",
+      "rag_answer": "A",
       "is_correct": false
     },
     {
@@ -1960,7 +1960,7 @@
         "clearer and clearer."
       ],
       "correct_answer": "A",
-      "rag_answer": "B",
+      "rag_answer": "D",
       "is_correct": false
     },
     {
@@ -2077,8 +2077,8 @@
         "out"
       ],
       "correct_answer": "B",
-      "rag_answer": "B",
-      "is_correct": true
+      "rag_answer": "D",
+      "is_correct": false
     },
     {
       "problem_index": 160,
@@ -2103,7 +2103,7 @@
         "How to play drums."
       ],
       "correct_answer": "B",
-      "rag_answer": "A",
+      "rag_answer": "C",
       "is_correct": false
     },
     {
@@ -2350,8 +2350,8 @@
         "you have to change the date"
       ],
       "correct_answer": "C",
-      "rag_answer": "B",
-      "is_correct": false
+      "rag_answer": "C",
+      "is_correct": true
     },
     {
       "problem_index": 181,
@@ -2545,8 +2545,8 @@
         "Pilots'- First Class -Club- Economy"
       ],
       "correct_answer": "D",
-      "rag_answer": "B",
-      "is_correct": false
+      "rag_answer": "D",
+      "is_correct": true
     },
     {
       "problem_index": 196,

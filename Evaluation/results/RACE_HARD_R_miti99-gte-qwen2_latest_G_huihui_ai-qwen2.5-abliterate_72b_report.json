@@ -6,12 +6,12 @@
   "generator_model": "huihui_ai/qwen2.5-abliterate:72b",
   "generator_params": 72.7,
   "generator_size": 44.2,
-  "timestamp": "2026-04-14T15:33:50.736951",
-  "duration": "00:33:00",
-  "duration (seconds)": 1980,
+  "timestamp": "2026-05-22T10:10:15.252363",
+  "duration": "00:32:21",
+  "duration (seconds)": 1941,
   "total": 200,
-  "correct": 172,
-  "accuracy": 0.86,
+  "correct": 177,
+  "accuracy": 0.885,
   "results": [
     {
       "problem_index": 1,
@@ -140,8 +140,8 @@
         "Because we had no life jackets"
       ],
       "correct_answer": "C",
-      "rag_answer": "B",
-      "is_correct": false
+      "rag_answer": "C",
+      "is_correct": true
     },
     {
       "problem_index": 11,
@@ -348,8 +348,8 @@
         "Respecting elderly people is a good tradition."
       ],
       "correct_answer": "B",
-      "rag_answer": "B",
-      "is_correct": true
+      "rag_answer": "D",
+      "is_correct": false
     },
     {
       "problem_index": 27,
@@ -816,8 +816,8 @@
         "it helped campers feel better about their illness"
       ],
       "correct_answer": "D",
-      "rag_answer": "B",
-      "is_correct": false
+      "rag_answer": "D",
+      "is_correct": true
     },
     {
       "problem_index": 63,
@@ -1076,8 +1076,8 @@
         "He agreed to accept Michael because he was moved by his determination."
       ],
       "correct_answer": "C",
-      "rag_answer": "D",
-      "is_correct": false
+      "rag_answer": "C",
+      "is_correct": true
     },
     {
       "problem_index": 83,
@@ -1583,8 +1583,8 @@
         "A cure for cancer."
       ],
       "correct_answer": "B",
-      "rag_answer": "B",
-      "is_correct": true
+      "rag_answer": "C",
+      "is_correct": false
     },
     {
       "problem_index": 122,
@@ -1960,8 +1960,8 @@
         "Laptops will be used in Westlake College in Virginia."
       ],
       "correct_answer": "D",
-      "rag_answer": "B",
-      "is_correct": false
+      "rag_answer": "D",
+      "is_correct": true
     },
     {
       "problem_index": 151,
@@ -2233,7 +2233,7 @@
         "A conservative politician."
       ],
       "correct_answer": "C",
-      "rag_answer": "B",
+      "rag_answer": "A",
       "is_correct": false
     },
     {
@@ -2298,8 +2298,8 @@
         "$123"
       ],
       "correct_answer": "D",
-      "rag_answer": "A",
-      "is_correct": false
+      "rag_answer": "D",
+      "is_correct": true
     },
     {
       "problem_index": 177,
@@ -2350,8 +2350,8 @@
         "they have to follow an evolutionary step backward."
       ],
       "correct_answer": "A",
-      "rag_answer": "C",
-      "is_correct": false
+      "rag_answer": "A",
+      "is_correct": true
     },
     {
       "problem_index": 181,
@@ -2558,8 +2558,8 @@
         "Any party member will be given a bag to store rubbish at the party."
       ],
       "correct_answer": "C",
-      "rag_answer": "A",
-      "is_correct": false
+      "rag_answer": "C",
+      "is_correct": true
     },
     {
       "problem_index": 197,

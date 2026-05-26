@@ -6,12 +6,12 @@
   "generator_model": "huihui_ai/fluentlylm-prinum-abliterated:32b",
   "generator_params": 32.8,
   "generator_size": 18.5,
-  "timestamp": "2026-04-12T17:59:53.260975",
-  "duration": "00:31:57",
-  "duration (seconds)": 1917,
+  "timestamp": "2026-05-21T17:39:43.169438",
+  "duration": "00:27:44",
+  "duration (seconds)": 1664,
   "total": 200,
-  "correct": 112,
-  "accuracy": 0.56,
+  "correct": 125,
+  "accuracy": 0.625,
   "results": [
     {
       "problem_index": 1,
@@ -88,8 +88,8 @@
         "Breathing pure oxygen"
       ],
       "correct_answer": 3,
-      "rag_answer": "C",
-      "is_correct": false
+      "rag_answer": "D",
+      "is_correct": true
     },
     {
       "problem_index": 7,
@@ -114,8 +114,8 @@
         "Mathematicians were wowed by his game theory proof"
       ],
       "correct_answer": 2,
-      "rag_answer": "D",
-      "is_correct": false
+      "rag_answer": "C",
+      "is_correct": true
     },
     {
       "problem_index": 9,
@@ -140,8 +140,8 @@
         "Bob Barr, Erskine Bowles, James Carville, Lanny Davis"
       ],
       "correct_answer": 1,
-      "rag_answer": "A",
-      "is_correct": false
+      "rag_answer": "B",
+      "is_correct": true
     },
     {
       "problem_index": 11,
@@ -283,8 +283,8 @@
         "They are allies."
       ],
       "correct_answer": 2,
-      "rag_answer": "C",
-      "is_correct": true
+      "rag_answer": "B",
+      "is_correct": false
     },
     {
       "problem_index": 22,
@@ -309,7 +309,7 @@
         "He takes pride in feeling that he is serving his community"
       ],
       "correct_answer": 2,
-      "rag_answer": "B",
+      "rag_answer": "D",
       "is_correct": false
     },
     {
@@ -361,8 +361,8 @@
         "Their biology is not understood well, and mistakes can be made"
       ],
       "correct_answer": 3,
-      "rag_answer": "D",
-      "is_correct": true
+      "rag_answer": "C",
+      "is_correct": false
     },
     {
       "problem_index": 28,
@@ -452,8 +452,8 @@
         "Traits for kinship are throughout the entire human population now, thus supporting only kin is less important in the modern world for kinship to persist"
       ],
       "correct_answer": 3,
-      "rag_answer": "C",
-      "is_correct": false
+      "rag_answer": "D",
+      "is_correct": true
     },
     {
       "problem_index": 35,
@@ -569,7 +569,7 @@
         "They are crafted planets made to be much like Earth with spaceship components within to propel them"
       ],
       "correct_answer": 3,
-      "rag_answer": "B",
+      "rag_answer": "C",
       "is_correct": false
     },
     {
@@ -582,8 +582,8 @@
         "He organizes impeachment, eventually resigns"
       ],
       "correct_answer": 3,
-      "rag_answer": "D",
-      "is_correct": true
+      "rag_answer": "C",
+      "is_correct": false
     },
     {
       "problem_index": 45,
@@ -686,8 +686,8 @@
         "The species live in communities together."
       ],
       "correct_answer": 1,
-      "rag_answer": "B",
-      "is_correct": true
+      "rag_answer": "A",
+      "is_correct": false
     },
     {
       "problem_index": 53,
@@ -712,8 +712,8 @@
         "Three"
       ],
       "correct_answer": 0,
-      "rag_answer": "A",
-      "is_correct": true
+      "rag_answer": "B",
+      "is_correct": false
     },
     {
       "problem_index": 55,
@@ -972,8 +972,8 @@
         "The anglers threatened him"
       ],
       "correct_answer": 0,
-      "rag_answer": "D",
-      "is_correct": false
+      "rag_answer": "A",
+      "is_correct": true
     },
     {
       "problem_index": 75,
@@ -1128,8 +1128,8 @@
         "He was assisted by unnamed parties"
       ],
       "correct_answer": 3,
-      "rag_answer": "A",
-      "is_correct": false
+      "rag_answer": "D",
+      "is_correct": true
     },
     {
       "problem_index": 87,
@@ -1167,8 +1167,8 @@
         "Brotherly from their Boyar childhood together"
       ],
       "correct_answer": 2,
-      "rag_answer": "B",
-      "is_correct": false
+      "rag_answer": "C",
+      "is_correct": true
     },
     {
       "problem_index": 90,
@@ -1180,7 +1180,7 @@
         "He realized by surrendering, the Alliance could use their ship to sneak into Federation territory unnoticed."
       ],
       "correct_answer": 3,
-      "rag_answer": "B",
+      "rag_answer": "C",
       "is_correct": false
     },
     {
@@ -1193,8 +1193,8 @@
         "He was in charge of the project"
       ],
       "correct_answer": 0,
-      "rag_answer": "B",
-      "is_correct": false
+      "rag_answer": "A",
+      "is_correct": true
     },
     {
       "problem_index": 92,
@@ -1401,8 +1401,8 @@
         "He is seeking revenge."
       ],
       "correct_answer": 3,
-      "rag_answer": "D",
-      "is_correct": true
+      "rag_answer": "C",
+      "is_correct": false
     },
     {
       "problem_index": 108,
@@ -1531,8 +1531,8 @@
         "The media"
       ],
       "correct_answer": 2,
-      "rag_answer": "A",
-      "is_correct": false
+      "rag_answer": "C",
+      "is_correct": true
     },
     {
       "problem_index": 118,
@@ -1596,8 +1596,8 @@
         "It was an accident"
       ],
       "correct_answer": 0,
-      "rag_answer": "B",
-      "is_correct": false
+      "rag_answer": "A",
+      "is_correct": true
     },
     {
       "problem_index": 123,
@@ -1635,8 +1635,8 @@
         "She was a controlling person"
       ],
       "correct_answer": 2,
-      "rag_answer": "A",
-      "is_correct": false
+      "rag_answer": "C",
+      "is_correct": true
     },
     {
       "problem_index": 126,
@@ -1765,7 +1765,7 @@
         "commonplace manager of the country"
       ],
       "correct_answer": 3,
-      "rag_answer": "A",
+      "rag_answer": "B",
       "is_correct": false
     },
     {
@@ -1791,7 +1791,7 @@
         "No"
       ],
       "correct_answer": 3,
-      "rag_answer": "C",
+      "rag_answer": "A",
       "is_correct": false
     },
     {
@@ -1856,8 +1856,8 @@
         "The Tepotkans were leaving it up to George's discretion"
       ],
       "correct_answer": 3,
-      "rag_answer": "B",
-      "is_correct": false
+      "rag_answer": "D",
+      "is_correct": true
     },
     {
       "problem_index": 143,
@@ -1973,8 +1973,8 @@
         "Both followed intuition"
       ],
       "correct_answer": 1,
-      "rag_answer": "A",
-      "is_correct": false
+      "rag_answer": "B",
+      "is_correct": true
     },
     {
       "problem_index": 152,
@@ -2025,8 +2025,8 @@
         "The bankroll was far greater than on other planets."
       ],
       "correct_answer": 0,
-      "rag_answer": "A",
-      "is_correct": true
+      "rag_answer": "D",
+      "is_correct": false
     },
     {
       "problem_index": 156,
@@ -2103,8 +2103,8 @@
         "He asked the tasters to create 3 categories"
       ],
       "correct_answer": 0,
-      "rag_answer": "D",
-      "is_correct": false
+      "rag_answer": "A",
+      "is_correct": true
     },
     {
       "problem_index": 162,
@@ -2129,8 +2129,8 @@
         "Low public engagement in the voting process"
       ],
       "correct_answer": 2,
-      "rag_answer": "A",
-      "is_correct": false
+      "rag_answer": "C",
+      "is_correct": true
     },
     {
       "problem_index": 164,
@@ -2142,8 +2142,8 @@
         "He wanted to go home"
       ],
       "correct_answer": 0,
-      "rag_answer": "B",
-      "is_correct": false
+      "rag_answer": "A",
+      "is_correct": true
     },
     {
       "problem_index": 165,
@@ -2181,8 +2181,8 @@
         "Typewriter"
       ],
       "correct_answer": 1,
-      "rag_answer": "B",
-      "is_correct": true
+      "rag_answer": "D",
+      "is_correct": false
     },
     {
       "problem_index": 168,
@@ -2194,8 +2194,8 @@
         "The oases"
       ],
       "correct_answer": 0,
-      "rag_answer": "A",
-      "is_correct": true
+      "rag_answer": "B",
+      "is_correct": false
     },
     {
       "problem_index": 169,
@@ -2259,8 +2259,8 @@
         "He was told the Kal-Jmar dome sensed Earthling DNA and would explode his body on entry"
       ],
       "correct_answer": 0,
-      "rag_answer": "B",
-      "is_correct": false
+      "rag_answer": "A",
+      "is_correct": true
     },
     {
       "problem_index": 174,
@@ -2272,8 +2272,8 @@
         "A credit card"
       ],
       "correct_answer": 0,
-      "rag_answer": "D",
-      "is_correct": false
+      "rag_answer": "A",
+      "is_correct": true
     },
     {
       "problem_index": 175,
@@ -2285,8 +2285,8 @@
         "They turn simply grow larger."
       ],
       "correct_answer": 0,
-      "rag_answer": "C",
-      "is_correct": false
+      "rag_answer": "A",
+      "is_correct": true
     },
     {
       "problem_index": 176,
@@ -2389,7 +2389,7 @@
         "He feels guilty about hurting Deirdre's feelings after her graduation when he ignored their romantic connection, and instead, played the part of a parent."
       ],
       "correct_answer": 3,
-      "rag_answer": "A",
+      "rag_answer": "B",
       "is_correct": false
     },
     {
@@ -2402,8 +2402,8 @@
         "He told his coworker about his girlfriend"
       ],
       "correct_answer": 2,
-      "rag_answer": "D",
-      "is_correct": false
+      "rag_answer": "C",
+      "is_correct": true
     },
     {
       "problem_index": 185,
@@ -2428,8 +2428,8 @@
         "He was trying to sneak off the ship"
       ],
       "correct_answer": 3,
-      "rag_answer": "B",
-      "is_correct": false
+      "rag_answer": "D",
+      "is_correct": true
     },
     {
       "problem_index": 187,
@@ -2558,8 +2558,8 @@
         "Most of them don't want to get involved with her adventure"
       ],
       "correct_answer": 2,
-      "rag_answer": "D",
-      "is_correct": false
+      "rag_answer": "C",
+      "is_correct": true
     },
     {
       "problem_index": 197,
@@ -2584,7 +2584,7 @@
         "To solve time travel, become an engineer"
       ],
       "correct_answer": 2,
-      "rag_answer": "A",
+      "rag_answer": "B",
       "is_correct": false
     },
     {

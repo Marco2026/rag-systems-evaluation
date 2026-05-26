@@ -6,9 +6,9 @@
   "generator_model": "phi4-mini:3.8b",
   "generator_params": 3.84,
   "generator_size": 2.3,
-  "timestamp": "2026-04-18T00:58:15.813080",
-  "duration": "00:06:40",
-  "duration (seconds)": 400,
+  "timestamp": "2026-05-21T23:38:37.516620",
+  "duration": "00:06:49",
+  "duration (seconds)": 409,
   "total": 200,
   "correct": 1,
   "accuracy": 0.005,
@@ -75,7 +75,7 @@
         "are terrible ill"
       ],
       "correct_answer": "C",
-      "rag_answer": "B) wanted to watch the football final on TV",
+      "rag_answer": "C) both A and B",
       "is_correct": false
     },
     {
@@ -101,7 +101,7 @@
         "He understood his stepmother."
       ],
       "correct_answer": "B",
-      "rag_answer": "B) He failed to do as well as she expected.",
+      "rag_answer": "B) He failed to do as he was expected.",
       "is_correct": false
     },
     {
@@ -153,7 +153,7 @@
         "out of the work"
       ],
       "correct_answer": "A",
-      "rag_answer": "A) in the office",
+      "rag_answer": "C) out of the office",
       "is_correct": false
     },
     {
@@ -166,7 +166,7 @@
         "was reading a newspaper"
       ],
       "correct_answer": "C",
-      "rag_answer": "C) was still in an upstairs room.",
+      "rag_answer": "C) was still in bed.",
       "is_correct": false
     },
     {
@@ -231,7 +231,7 @@
         "low"
       ],
       "correct_answer": "B",
-      "rag_answer": "B) small",
+      "rag_answer": "A) big",
       "is_correct": false
     },
     {
@@ -270,7 +270,7 @@
         "six"
       ],
       "correct_answer": "C",
-      "rag_answer": "C) five",
+      "rag_answer": "B) four",
       "is_correct": false
     },
     {
@@ -361,7 +361,7 @@
         "Hill'S father was cruel to him"
       ],
       "correct_answer": "A",
-      "rag_answer": "C) Hill's stepmother wa nice to him",
+      "rag_answer": "C) Hill's stepmother warm to him",
       "is_correct": false
     },
     {
@@ -491,7 +491,7 @@
         "do some shopping online"
       ],
       "correct_answer": "C",
-      "rag_answer": "C) sell your old things",
+      "rag_answer": "A) find a job",
       "is_correct": false
     },
     {
@@ -530,7 +530,7 @@
         "made her fall behind others in studies at school"
       ],
       "correct_answer": "C",
-      "rag_answer": "C) didn't influence her studies at school",
+      "rag_answer": "D)",
       "is_correct": false
     },
     {
@@ -569,7 +569,7 @@
         "we should put our hearts into the book"
       ],
       "correct_answer": "D",
-      "rag_answer": "D) we should put our hearts into the book",
+      "rag_answer": "D) we should put our hearts into the book.",
       "is_correct": false
     },
     {
@@ -582,7 +582,7 @@
         "a mechanical \"foot\""
       ],
       "correct_answer": "C",
-      "rag_answer": "A) an alarm clock",
+      "rag_answer": "C) a TV",
       "is_correct": false
     },
     {
@@ -660,7 +660,7 @@
         "45"
       ],
       "correct_answer": "D",
-      "rag_answer": "A) 23",
+      "rag_answer": "B) 22",
       "is_correct": false
     },
     {
@@ -803,7 +803,7 @@
         "supper"
       ],
       "correct_answer": "B",
-      "rag_answer": "C) dinner",
+      "rag_answer": "B) lunch",
       "is_correct": false
     },
     {
@@ -829,7 +829,7 @@
         "A busy family"
       ],
       "correct_answer": "D",
-      "rag_answer": "A) Lovely kids",
+      "rag_answer": "C) Family wishes",
       "is_correct": false
     },
     {
@@ -907,7 +907,7 @@
         "They were killed by people."
       ],
       "correct_answer": "C",
-      "rag_answer": "C) They can be killed and eaten up by the ants.",
+      "rag_answer": "B) They move to other places before the ants come.",
       "is_correct": false
     },
     {
@@ -920,7 +920,7 @@
         "Jane's friend"
       ],
       "correct_answer": "C",
-      "rag_answer": "C) Jane's mother.",
+      "rag_answer": "A) Found",
       "is_correct": false
     },
     {
@@ -933,7 +933,7 @@
         "all English-Chinese dictionary are the same"
       ],
       "correct_answer": "A",
-      "rag_answer": "C) an English-Chinese dictionary can help us a lot in our English study",
+      "rag_answer": "C) an English-Chinese dictionary can help us a lot in our English study.",
       "is_correct": false
     },
     {
@@ -985,7 +985,7 @@
         "Because the rich man wanted him to do so."
       ],
       "correct_answer": "C",
-      "rag_answer": "B) Because he knew there was a bag of money under it.",
+      "rag_answer": "C) Because he didn't want other people to fall and get hurt.",
       "is_correct": false
     },
     {
@@ -1050,7 +1050,7 @@
         "Mike wants to clean the blackboard"
       ],
       "correct_answer": "C",
-      "rag_answer": "C) Mike doesn't find Miss White behind him",
+      "rag_answer": "B) Mike draws a cat on the teacher's desk",
       "is_correct": false
     },
     {
@@ -1076,7 +1076,7 @@
         "Project Hope"
       ],
       "correct_answer": "D",
-      "rag_answer": "C) WHO",
+      "rag_answer": "D) Project Hope",
       "is_correct": false
     },
     {
@@ -1089,7 +1089,7 @@
         "she let the driver earn more money"
       ],
       "correct_answer": "C",
-      "rag_answer": "C) she wanted to see some places for the last time",
+      "rag_answer": "C) she wanted to see some places for the last time.",
       "is_correct": false
     },
     {
@@ -1154,7 +1154,7 @@
         "the oldest paper was made 1,500 years ago"
       ],
       "correct_answer": "C",
-      "rag_answer": "C) wood could be made into the best paper",
+      "rag_answer": "C) wood could be made into the best paper.",
       "is_correct": false
     },
     {
@@ -1297,7 +1297,7 @@
         "4000 yuan"
       ],
       "correct_answer": "D",
-      "rag_answer": "A) 200 yuan",
+      "rag_answer": "B) 800 yuan",
       "is_correct": false
     },
     {
@@ -1401,7 +1401,7 @@
         "with neither of her eyes"
       ],
       "correct_answer": "B",
-      "rag_answer": "A) only with the right eye",
+      "rag_answer": "B) only with the left eye",
       "is_correct": false
     },
     {
@@ -1531,7 +1531,7 @@
         "She made herself look like a rock."
       ],
       "correct_answer": "C",
-      "rag_answer": "C) She jumped into a water pool.",
+      "rag_answer": "C) She jumpsed into a water pool.",
       "is_correct": false
     },
     {
@@ -1557,7 +1557,7 @@
         "quite poor and alone"
       ],
       "correct_answer": "D",
-      "rag_answer": "A) short of money",
+      "rag_answer": "B) quite poor and alone",
       "is_correct": false
     },
     {
@@ -1570,7 +1570,7 @@
         "250"
       ],
       "correct_answer": "C",
-      "rag_answer": "D) 250",
+      "rag_answer": "A) 80",
       "is_correct": false
     },
     {
@@ -1583,7 +1583,7 @@
         "a dog of \"Sleeping Beauty\""
       ],
       "correct_answer": "B",
-      "rag_answer": "B) a rock like a dog",
+      "rag_answer": "D) a dog of \"Sleeping Beauty\"",
       "is_correct": false
     },
     {
@@ -1687,7 +1687,7 @@
         "his parents wanted him to do so"
       ],
       "correct_answer": "A",
-      "rag_answer": "A) he wanted to realize his dream",
+      "rag_answer": "A) he wanted to realize his dream.",
       "is_correct": false
     },
     {
@@ -1713,7 +1713,7 @@
         "by train"
       ],
       "correct_answer": "C",
-      "rag_answer": "C) by boat",
+      "rag_answer": "A) on foot",
       "is_correct": false
     },
     {
@@ -1739,7 +1739,7 @@
         "How willpower is connected with success and how they affect each other."
       ],
       "correct_answer": "C",
-      "rag_answer": "A) How willpower and muscles are similar and how they can be trained.",
+      "rag_answer": "B) How willpower affects people's lives and how it is similar to muscles.",
       "is_correct": false
     },
     {
@@ -1817,7 +1817,7 @@
         "The mother told the teacher about the scat after the meeting."
       ],
       "correct_answer": "D",
-      "rag_answer": "D) The mother told the teacher about the scar after the meeting.",
+      "rag_answer": "A) The boy knowned why his mother get the scar before, because it happened when he was a baby and she saved him from fire.",
       "is_correct": false
     },
     {
@@ -1856,7 +1856,7 @@
         "A professional report"
       ],
       "correct_answer": "A",
-      "rag_answer": "A) A special day",
+      "rag_answer": "B) An interesting lesson",
       "is_correct": false
     },
     {
@@ -1895,7 +1895,7 @@
         "healthy"
       ],
       "correct_answer": "D",
-      "rag_answer": "B) healthy",
+      "rag_answer": "D) healthy",
       "is_correct": false
     },
     {
@@ -1973,7 +1973,7 @@
         "five"
       ],
       "correct_answer": "C",
-      "rag_answer": "C) four",
+      "rag_answer": "B) three",
       "is_correct": false
     },
     {
@@ -2012,7 +2012,7 @@
         "they went to college and learned from professors"
       ],
       "correct_answer": "B",
-      "rag_answer": "C) they invented so many things for mankind.",
+      "rag_answer": "C) they were so useful",
       "is_correct": false
     },
     {
@@ -2181,7 +2181,7 @@
         "The names of the four boys"
       ],
       "correct_answer": "D",
-      "rag_answer": "A) BROWN IS STUPID",
+      "rag_answer": "B) WHICH ONE DID IT",
       "is_correct": false
     },
     {
@@ -2207,7 +2207,7 @@
         "cut down too many trees and grass"
       ],
       "correct_answer": "C",
-      "rag_answer": "B) set fires to help people who went fishing home",
+      "rag_answer": "B) set fires to help people who went fishing home.",
       "is_correct": false
     },
     {
@@ -2298,7 +2298,7 @@
         "After she came back from the cinema."
       ],
       "correct_answer": "A",
-      "rag_answer": "D) After she came back from the cinema.",
+      "rag_answer": "B) Before she finished the washing.",
       "is_correct": false
     },
     {
@@ -2493,7 +2493,7 @@
         "he heard a noise"
       ],
       "correct_answer": "C",
-      "rag_answer": "A) he thought there was something wrong with it",
+      "rag_answer": "B) he saw the train was coming",
       "is_correct": false
     },
     {
@@ -2519,7 +2519,7 @@
         "Poor People and Money."
       ],
       "correct_answer": "A",
-      "rag_answer": "D) Poor People and Money.",
+      "rag_answer": "B) Police and Money.",
       "is_correct": false
     },
     {
@@ -2610,7 +2610,7 @@
         "All his friends"
       ],
       "correct_answer": "B",
-      "rag_answer": "C) Everyone",
+      "rag_answer": "B) Few people",
       "is_correct": false
     }
   ]

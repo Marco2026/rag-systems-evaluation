@@ -6,12 +6,12 @@
   "generator_model": "phi4-mini:3.8b",
   "generator_params": 3.84,
   "generator_size": 2.3,
-  "timestamp": "2026-04-30T04:42:56.431392",
-  "duration": "00:07:03",
-  "duration (seconds)": 423,
+  "timestamp": "2026-05-22T20:00:30.284203",
+  "duration": "00:06:34",
+  "duration (seconds)": 394,
   "total": 200,
-  "correct": 0,
-  "accuracy": 0.0,
+  "correct": 2,
+  "accuracy": 0.01,
   "results": [
     {
       "problem_index": 1,
@@ -127,7 +127,7 @@
         "D": "Order of the Silver Flame"
       },
       "correct_answer": "D",
-      "rag_answer": "B) Order of the Golden Sun\n\nThe correct answer is not explicitly stated in this passage, so based on available information:\n\nA) Order of the Radiant Star - Incorrect. Not mentioned.\nB) Order of the Golden Sun (implied by \"the Temple of the Sun\") - Closest match but incorrect as specified name must be used here given choices are specific to options provided not implied names or titles.\nC) Order of the Celestial Shield - Correctly spelled, however does not fit with context clues from text that indicates a direct connection between Elowen III and this group\nD) Order of the Silver Flame (Correct as per passage details.) This is actually mentioned correctly in relation to Emperor Thalion II's actions; thus incorrect for answer choice here.\n\nGiven options presented directly provided, no accurate match based on context clues. However:\nThe closest implied would be B), however technically not stated outright from given choices.\nActual correct name: Order of the Silver Flame per text, so D) as true according to passage content is appropriate despite option mismatch in direct query format listed above.\n\nDirect answer per actual named entity within provided choice list:\n\nD) Order of the Celestial Shield - Incorrect based on available context directly stated but most logically closest implied from choices given. Actual correct name: Order of the Silver Flame, not as an exact match here though technically accurate by passage content.",
+      "rag_answer": "B) Order of the Gold Sun",
       "is_correct": false
     },
     {
@@ -166,7 +166,7 @@
         "D": "Sunhold"
       },
       "correct_answer": "D",
-      "rag_answer": "C) Valoria\n\nD) Sunhold",
+      "rag_answer": "C) Valoria",
       "is_correct": false
     },
     {
@@ -244,7 +244,7 @@
         "D": "Arvandor"
       },
       "correct_answer": "D",
-      "rag_answer": "B) Valoria",
+      "rag_answer": "A) Sunhold",
       "is_correct": false
     },
     {
@@ -569,7 +569,7 @@
         "D": "Oakheart Clan"
       },
       "correct_answer": "D",
-      "rag_answer": "D) Oakheart Clan",
+      "rag_answer": "B) Willowwind Clan",
       "is_correct": false
     },
     {
@@ -660,8 +660,8 @@
         "D": "Merfolk conflicts and kraken threats"
       },
       "correct_answer": "A",
-      "rag_answer": "A) Encroaching human settlements and trolls from Stonefang Pass",
-      "is_correct": false
+      "rag_answer": "A",
+      "is_correct": true
     },
     {
       "problem_index": 51,
@@ -1037,7 +1037,7 @@
         "D": "Mistwood Route"
       },
       "correct_answer": "D",
-      "rag_answer": "C) Silver Forest Route",
+      "rag_answer": "D) Misstree Wood Route",
       "is_correct": false
     },
     {
@@ -1323,7 +1323,7 @@
         "D": "Thalor Ironheart"
       },
       "correct_answer": "A",
-      "rag_answer": "D) Thalor Ironheart",
+      "rag_answer": "B) Brondur Stonefist",
       "is_correct": false
     },
     {
@@ -1674,8 +1674,8 @@
         "D": "A state of emergency"
       },
       "correct_answer": "D",
-      "rag_answer": "D) A state of emergency",
-      "is_correct": false
+      "rag_answer": "D",
+      "is_correct": true
     },
     {
       "problem_index": 129,
@@ -1960,7 +1960,7 @@
         "D": "Moonhaven"
       },
       "correct_answer": "C",
-      "rag_answer": "C) The Azure Sea",
+      "rag_answer": "D) Moonhaven",
       "is_correct": false
     },
     {
@@ -2077,7 +2077,7 @@
         "D": "Resource competition"
       },
       "correct_answer": "C",
-      "rag_answer": "C) Valdrek accused Veridia of harboring rebels disrupting supply lines.",
+      "rag_answer": "C) Valdrek accused Veridia of harboring rebels disrupting supply lines",
       "is_correct": false
     },
     {
@@ -2142,7 +2142,7 @@
         "D": "She initiated the first Bonding Ceremony"
       },
       "correct_answer": "B",
-      "rag_answer": "B) She defended the Firewatch Tower against a goblin raid.",
+      "rag_answer": "B) She defended the Firewatch Tower against a goblin raid",
       "is_correct": false
     },
     {
@@ -2480,7 +2480,7 @@
         "D": "It will serve as a symbol of the Council of Elders"
       },
       "correct_answer": "A",
-      "rag_answer": "A) It will guide the Chosen One on their journey.",
+      "rag_answer": "A) It will guide the Chosen One on their journey",
       "is_correct": false
     },
     {

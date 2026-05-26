@@ -6,12 +6,12 @@
   "generator_model": "huihui_ai/qwen2.5-abliterate:72b",
   "generator_params": 72.7,
   "generator_size": 44.2,
-  "timestamp": "2026-04-13T17:31:07.228587",
-  "duration": "00:49:44",
-  "duration (seconds)": 2984,
+  "timestamp": "2026-05-21T12:25:59.769825",
+  "duration": "00:48:18",
+  "duration (seconds)": 2898,
   "total": 200,
-  "correct": 111,
-  "accuracy": 0.555,
+  "correct": 118,
+  "accuracy": 0.59,
   "results": [
     {
       "problem_index": 1,
@@ -62,8 +62,8 @@
         "They're disconnected"
       ],
       "correct_answer": 0,
-      "rag_answer": "D",
-      "is_correct": false
+      "rag_answer": "A",
+      "is_correct": true
     },
     {
       "problem_index": 5,
@@ -114,8 +114,8 @@
         "Mathematicians were wowed by his game theory proof"
       ],
       "correct_answer": 2,
-      "rag_answer": "C",
-      "is_correct": true
+      "rag_answer": "D",
+      "is_correct": false
     },
     {
       "problem_index": 9,
@@ -127,7 +127,7 @@
         "A magical Iron Age"
       ],
       "correct_answer": 3,
-      "rag_answer": "B",
+      "rag_answer": "A",
       "is_correct": false
     },
     {
@@ -166,8 +166,8 @@
         "support OA because they will make more money that way."
       ],
       "correct_answer": 1,
-      "rag_answer": "B",
-      "is_correct": true
+      "rag_answer": "C",
+      "is_correct": false
     },
     {
       "problem_index": 13,
@@ -192,7 +192,7 @@
         "He doesn't think they can look after themselves"
       ],
       "correct_answer": 0,
-      "rag_answer": "C",
+      "rag_answer": "D",
       "is_correct": false
     },
     {
@@ -205,7 +205,7 @@
         "About the size of a small beetle"
       ],
       "correct_answer": 3,
-      "rag_answer": "C",
+      "rag_answer": "B",
       "is_correct": false
     },
     {
@@ -270,7 +270,7 @@
         "Three"
       ],
       "correct_answer": 3,
-      "rag_answer": "B",
+      "rag_answer": "C",
       "is_correct": false
     },
     {
@@ -283,8 +283,8 @@
         "They are allies."
       ],
       "correct_answer": 2,
-      "rag_answer": "C",
-      "is_correct": true
+      "rag_answer": "B",
+      "is_correct": false
     },
     {
       "problem_index": 22,
@@ -309,8 +309,8 @@
         "He takes pride in feeling that he is serving his community"
       ],
       "correct_answer": 2,
-      "rag_answer": "B",
-      "is_correct": false
+      "rag_answer": "C",
+      "is_correct": true
     },
     {
       "problem_index": 24,
@@ -322,8 +322,8 @@
         "She had to hide her scar"
       ],
       "correct_answer": 0,
-      "rag_answer": "A",
-      "is_correct": true
+      "rag_answer": "D",
+      "is_correct": false
     },
     {
       "problem_index": 25,
@@ -452,8 +452,8 @@
         "Traits for kinship are throughout the entire human population now, thus supporting only kin is less important in the modern world for kinship to persist"
       ],
       "correct_answer": 3,
-      "rag_answer": "C",
-      "is_correct": false
+      "rag_answer": "D",
+      "is_correct": true
     },
     {
       "problem_index": 35,
@@ -491,8 +491,8 @@
         "Low cost beers actually rate pretty well when people don’t know what they’re drinking"
       ],
       "correct_answer": 3,
-      "rag_answer": "B",
-      "is_correct": false
+      "rag_answer": "D",
+      "is_correct": true
     },
     {
       "problem_index": 38,
@@ -647,7 +647,7 @@
         "There is zero life"
       ],
       "correct_answer": 2,
-      "rag_answer": "D",
+      "rag_answer": "B",
       "is_correct": false
     },
     {
@@ -686,8 +686,8 @@
         "The species live in communities together."
       ],
       "correct_answer": 1,
-      "rag_answer": "B",
-      "is_correct": true
+      "rag_answer": "C",
+      "is_correct": false
     },
     {
       "problem_index": 53,
@@ -790,8 +790,8 @@
         "Joyce"
       ],
       "correct_answer": 0,
-      "rag_answer": "B",
-      "is_correct": false
+      "rag_answer": "A",
+      "is_correct": true
     },
     {
       "problem_index": 61,
@@ -894,7 +894,7 @@
         "She had additional screens installed to withstand combat"
       ],
       "correct_answer": 2,
-      "rag_answer": "B",
+      "rag_answer": "D",
       "is_correct": false
     },
     {
@@ -959,7 +959,7 @@
         "Because Ivy requested the ship for the experiment"
       ],
       "correct_answer": 2,
-      "rag_answer": "D",
+      "rag_answer": "B",
       "is_correct": false
     },
     {
@@ -998,8 +998,8 @@
         "They can commit lawless acts without punishment"
       ],
       "correct_answer": 3,
-      "rag_answer": "C",
-      "is_correct": false
+      "rag_answer": "D",
+      "is_correct": true
     },
     {
       "problem_index": 77,
@@ -1089,8 +1089,8 @@
         "One wished to conquer the other"
       ],
       "correct_answer": 3,
-      "rag_answer": "A",
-      "is_correct": false
+      "rag_answer": "D",
+      "is_correct": true
     },
     {
       "problem_index": 84,
@@ -1115,8 +1115,8 @@
         "She hadn't seen a man in 3 years"
       ],
       "correct_answer": 3,
-      "rag_answer": "C",
-      "is_correct": false
+      "rag_answer": "D",
+      "is_correct": true
     },
     {
       "problem_index": 86,
@@ -1128,8 +1128,8 @@
         "He was assisted by unnamed parties"
       ],
       "correct_answer": 3,
-      "rag_answer": "D",
-      "is_correct": true
+      "rag_answer": "B",
+      "is_correct": false
     },
     {
       "problem_index": 87,
@@ -1245,8 +1245,8 @@
         "Ronald"
       ],
       "correct_answer": 2,
-      "rag_answer": "C",
-      "is_correct": true
+      "rag_answer": "B",
+      "is_correct": false
     },
     {
       "problem_index": 96,
@@ -1388,8 +1388,8 @@
         "He wanted them to negotiate a surrender"
       ],
       "correct_answer": 0,
-      "rag_answer": "A",
-      "is_correct": true
+      "rag_answer": "B",
+      "is_correct": false
     },
     {
       "problem_index": 107,
@@ -1453,8 +1453,8 @@
         "They tried to kill him."
       ],
       "correct_answer": 0,
-      "rag_answer": "C",
-      "is_correct": false
+      "rag_answer": "A",
+      "is_correct": true
     },
     {
       "problem_index": 112,
@@ -1596,7 +1596,7 @@
         "It was an accident"
       ],
       "correct_answer": 0,
-      "rag_answer": "B",
+      "rag_answer": "D",
       "is_correct": false
     },
     {
@@ -1609,8 +1609,8 @@
         "Farmer"
       ],
       "correct_answer": 0,
-      "rag_answer": "B",
-      "is_correct": false
+      "rag_answer": "A",
+      "is_correct": true
     },
     {
       "problem_index": 124,
@@ -1700,7 +1700,7 @@
         "A person trying to escape the project"
       ],
       "correct_answer": 1,
-      "rag_answer": "A",
+      "rag_answer": "C",
       "is_correct": false
     },
     {
@@ -1921,8 +1921,8 @@
         "4000 guns"
       ],
       "correct_answer": 3,
-      "rag_answer": "A",
-      "is_correct": false
+      "rag_answer": "D",
+      "is_correct": true
     },
     {
       "problem_index": 148,
@@ -2025,8 +2025,8 @@
         "The bankroll was far greater than on other planets."
       ],
       "correct_answer": 0,
-      "rag_answer": "D",
-      "is_correct": false
+      "rag_answer": "A",
+      "is_correct": true
     },
     {
       "problem_index": 156,
@@ -2103,8 +2103,8 @@
         "He asked the tasters to create 3 categories"
       ],
       "correct_answer": 0,
-      "rag_answer": "D",
-      "is_correct": false
+      "rag_answer": "A",
+      "is_correct": true
     },
     {
       "problem_index": 162,
@@ -2142,8 +2142,8 @@
         "He wanted to go home"
       ],
       "correct_answer": 0,
-      "rag_answer": "A",
-      "is_correct": true
+      "rag_answer": "D",
+      "is_correct": false
     },
     {
       "problem_index": 165,
@@ -2155,8 +2155,8 @@
         "his mother"
       ],
       "correct_answer": 2,
-      "rag_answer": "B",
-      "is_correct": false
+      "rag_answer": "C",
+      "is_correct": true
     },
     {
       "problem_index": 166,
@@ -2220,8 +2220,8 @@
         "He published in several Western magazines"
       ],
       "correct_answer": 3,
-      "rag_answer": "D",
-      "is_correct": true
+      "rag_answer": "B",
+      "is_correct": false
     },
     {
       "problem_index": 171,
@@ -2259,8 +2259,8 @@
         "He was told the Kal-Jmar dome sensed Earthling DNA and would explode his body on entry"
       ],
       "correct_answer": 0,
-      "rag_answer": "B",
-      "is_correct": false
+      "rag_answer": "A",
+      "is_correct": true
     },
     {
       "problem_index": 174,
@@ -2272,8 +2272,8 @@
         "A credit card"
       ],
       "correct_answer": 0,
-      "rag_answer": "B",
-      "is_correct": false
+      "rag_answer": "A",
+      "is_correct": true
     },
     {
       "problem_index": 175,
@@ -2298,8 +2298,8 @@
         "8 years"
       ],
       "correct_answer": 3,
-      "rag_answer": "C",
-      "is_correct": false
+      "rag_answer": "D",
+      "is_correct": true
     },
     {
       "problem_index": 177,
@@ -2389,8 +2389,8 @@
         "He feels guilty about hurting Deirdre's feelings after her graduation when he ignored their romantic connection, and instead, played the part of a parent."
       ],
       "correct_answer": 3,
-      "rag_answer": "B",
-      "is_correct": false
+      "rag_answer": "D",
+      "is_correct": true
     },
     {
       "problem_index": 184,
@@ -2480,8 +2480,8 @@
         "One"
       ],
       "correct_answer": 3,
-      "rag_answer": "D",
-      "is_correct": true
+      "rag_answer": "A",
+      "is_correct": false
     },
     {
       "problem_index": 191,
@@ -2558,8 +2558,8 @@
         "Most of them don't want to get involved with her adventure"
       ],
       "correct_answer": 2,
-      "rag_answer": "C",
-      "is_correct": true
+      "rag_answer": "D",
+      "is_correct": false
     },
     {
       "problem_index": 197,
@@ -2584,8 +2584,8 @@
         "To solve time travel, become an engineer"
       ],
       "correct_answer": 2,
-      "rag_answer": "A",
-      "is_correct": false
+      "rag_answer": "C",
+      "is_correct": true
     },
     {
       "problem_index": 199,

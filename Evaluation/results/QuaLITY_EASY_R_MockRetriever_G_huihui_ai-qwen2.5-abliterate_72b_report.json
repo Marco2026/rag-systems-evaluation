@@ -6,12 +6,12 @@
   "generator_model": "huihui_ai/qwen2.5-abliterate:72b",
   "generator_params": 72.7,
   "generator_size": 44.2,
-  "timestamp": "2026-04-14T17:48:18.142899",
-  "duration": "00:06:17",
-  "duration (seconds)": 377,
+  "timestamp": "2026-05-20T20:31:30.197373",
+  "duration": "00:06:36",
+  "duration (seconds)": 396,
   "total": 200,
-  "correct": 108,
-  "accuracy": 0.54,
+  "correct": 113,
+  "accuracy": 0.565,
   "results": [
     {
       "problem_index": 1,
@@ -75,8 +75,8 @@
         "He was spared because he foretold the coming of the beings from other dimensions"
       ],
       "correct_answer": 2,
-      "rag_answer": "C",
-      "is_correct": true
+      "rag_answer": "B",
+      "is_correct": false
     },
     {
       "problem_index": 6,
@@ -413,8 +413,8 @@
         "The tasters were completely blind to which beers were being used in the experiment"
       ],
       "correct_answer": 3,
-      "rag_answer": "D",
-      "is_correct": true
+      "rag_answer": "B",
+      "is_correct": false
     },
     {
       "problem_index": 32,
@@ -712,8 +712,8 @@
         "His leg was broken in his initial crash on the planet"
       ],
       "correct_answer": 3,
-      "rag_answer": "D",
-      "is_correct": true
+      "rag_answer": "A",
+      "is_correct": false
     },
     {
       "problem_index": 55,
@@ -868,8 +868,8 @@
         "capture, solitary imprisonment, examinations, escape"
       ],
       "correct_answer": 0,
-      "rag_answer": "B",
-      "is_correct": false
+      "rag_answer": "A",
+      "is_correct": true
     },
     {
       "problem_index": 67,
@@ -1024,8 +1024,8 @@
         "Birmingham"
       ],
       "correct_answer": 1,
-      "rag_answer": "C",
-      "is_correct": false
+      "rag_answer": "B",
+      "is_correct": true
     },
     {
       "problem_index": 79,
@@ -1076,7 +1076,7 @@
         "he is going to work with them until they get it or until it kills them all."
       ],
       "correct_answer": 1,
-      "rag_answer": "A",
+      "rag_answer": "D",
       "is_correct": false
     },
     {
@@ -1115,8 +1115,8 @@
         "He wants documentation of how much money the Cubans owe him."
       ],
       "correct_answer": 1,
-      "rag_answer": "D",
-      "is_correct": false
+      "rag_answer": "B",
+      "is_correct": true
     },
     {
       "problem_index": 86,
@@ -1219,7 +1219,7 @@
         "Unbiased summary"
       ],
       "correct_answer": 0,
-      "rag_answer": "C",
+      "rag_answer": "B",
       "is_correct": false
     },
     {
@@ -1310,8 +1310,8 @@
         "Make fun of her"
       ],
       "correct_answer": 2,
-      "rag_answer": "C",
-      "is_correct": true
+      "rag_answer": "A",
+      "is_correct": false
     },
     {
       "problem_index": 101,
@@ -1440,7 +1440,7 @@
         "Quade"
       ],
       "correct_answer": 2,
-      "rag_answer": "B",
+      "rag_answer": "A",
       "is_correct": false
     },
     {
@@ -1453,8 +1453,8 @@
         "Decreased subscriptions to journals"
       ],
       "correct_answer": 3,
-      "rag_answer": "C",
-      "is_correct": false
+      "rag_answer": "D",
+      "is_correct": true
     },
     {
       "problem_index": 112,
@@ -1843,8 +1843,8 @@
         "A lack of real estate for individual offices"
       ],
       "correct_answer": 0,
-      "rag_answer": "A",
-      "is_correct": true
+      "rag_answer": "B",
+      "is_correct": false
     },
     {
       "problem_index": 142,
@@ -1947,8 +1947,8 @@
         "He would stay longer for more money"
       ],
       "correct_answer": 2,
-      "rag_answer": "B",
-      "is_correct": false
+      "rag_answer": "C",
+      "is_correct": true
     },
     {
       "problem_index": 150,
@@ -2051,8 +2051,8 @@
         "No"
       ],
       "correct_answer": 3,
-      "rag_answer": "B",
-      "is_correct": false
+      "rag_answer": "D",
+      "is_correct": true
     },
     {
       "problem_index": 158,
@@ -2155,8 +2155,8 @@
         "There are aliens walking among us."
       ],
       "correct_answer": 1,
-      "rag_answer": "A",
-      "is_correct": false
+      "rag_answer": "B",
+      "is_correct": true
     },
     {
       "problem_index": 166,
@@ -2181,8 +2181,8 @@
         "They are counterfeit of the true Christ"
       ],
       "correct_answer": 1,
-      "rag_answer": "C",
-      "is_correct": false
+      "rag_answer": "B",
+      "is_correct": true
     },
     {
       "problem_index": 168,
@@ -2246,8 +2246,8 @@
         "62"
       ],
       "correct_answer": 0,
-      "rag_answer": "D",
-      "is_correct": false
+      "rag_answer": "A",
+      "is_correct": true
     },
     {
       "problem_index": 173,
@@ -2532,8 +2532,8 @@
         "If the skills are useful for self-defense."
       ],
       "correct_answer": 1,
-      "rag_answer": "D",
-      "is_correct": false
+      "rag_answer": "B",
+      "is_correct": true
     },
     {
       "problem_index": 195,

@@ -6,12 +6,12 @@
   "generator_model": "huihui_ai/fluentlylm-prinum-abliterated:32b",
   "generator_params": 32.8,
   "generator_size": 18.5,
-  "timestamp": "2026-04-11T18:10:48.323231",
-  "duration": "00:33:10",
-  "duration (seconds)": 1990,
+  "timestamp": "2026-05-21T03:03:44.430707",
+  "duration": "00:25:36",
+  "duration (seconds)": 1536,
   "total": 200,
-  "correct": 151,
-  "accuracy": 0.755,
+  "correct": 163,
+  "accuracy": 0.815,
   "results": [
     {
       "problem_index": 1,
@@ -23,7 +23,7 @@
         "Karate"
       ],
       "correct_answer": 2,
-      "rag_answer": "B",
+      "rag_answer": "A",
       "is_correct": false
     },
     {
@@ -88,8 +88,8 @@
         "Get better dental insurance"
       ],
       "correct_answer": 2,
-      "rag_answer": "D",
-      "is_correct": false
+      "rag_answer": "C",
+      "is_correct": true
     },
     {
       "problem_index": 7,
@@ -140,8 +140,8 @@
         "The passengers have duties to ensure the safe travel of everyone on board, so they must be in top condition"
       ],
       "correct_answer": 0,
-      "rag_answer": "A",
-      "is_correct": true
+      "rag_answer": "D",
+      "is_correct": false
     },
     {
       "problem_index": 11,
@@ -179,8 +179,8 @@
         "It moves on hidden strings."
       ],
       "correct_answer": 3,
-      "rag_answer": "B",
-      "is_correct": false
+      "rag_answer": "D",
+      "is_correct": true
     },
     {
       "problem_index": 14,
@@ -192,8 +192,8 @@
         "Earthmen"
       ],
       "correct_answer": 0,
-      "rag_answer": "D",
-      "is_correct": false
+      "rag_answer": "A",
+      "is_correct": true
     },
     {
       "problem_index": 15,
@@ -426,8 +426,8 @@
         "Untrustworthy"
       ],
       "correct_answer": 1,
-      "rag_answer": "C",
-      "is_correct": false
+      "rag_answer": "B",
+      "is_correct": true
     },
     {
       "problem_index": 33,
@@ -478,8 +478,8 @@
         "The island is his room, and the snakes are the other minds."
       ],
       "correct_answer": 3,
-      "rag_answer": "C",
-      "is_correct": false
+      "rag_answer": "D",
+      "is_correct": true
     },
     {
       "problem_index": 37,
@@ -543,8 +543,8 @@
         "Being made with hydrogen"
       ],
       "correct_answer": 3,
-      "rag_answer": "A",
-      "is_correct": false
+      "rag_answer": "D",
+      "is_correct": true
     },
     {
       "problem_index": 42,
@@ -595,8 +595,8 @@
         "He was stockpiled"
       ],
       "correct_answer": 1,
-      "rag_answer": "D",
-      "is_correct": false
+      "rag_answer": "B",
+      "is_correct": true
     },
     {
       "problem_index": 46,
@@ -621,8 +621,8 @@
         "To impress the Free'l"
       ],
       "correct_answer": 1,
-      "rag_answer": "C",
-      "is_correct": false
+      "rag_answer": "B",
+      "is_correct": true
     },
     {
       "problem_index": 48,
@@ -699,8 +699,8 @@
         "It is so far away from the war that having weapons is unnecessary"
       ],
       "correct_answer": 0,
-      "rag_answer": "A",
-      "is_correct": true
+      "rag_answer": "D",
+      "is_correct": false
     },
     {
       "problem_index": 54,
@@ -829,8 +829,8 @@
         "Make sentences shorter"
       ],
       "correct_answer": 1,
-      "rag_answer": "D",
-      "is_correct": false
+      "rag_answer": "B",
+      "is_correct": true
     },
     {
       "problem_index": 64,
@@ -868,7 +868,7 @@
         "capture, solitary imprisonment, examinations, escape"
       ],
       "correct_answer": 0,
-      "rag_answer": "C",
+      "rag_answer": "B",
       "is_correct": false
     },
     {
@@ -1063,8 +1063,8 @@
         "20 years"
       ],
       "correct_answer": 0,
-      "rag_answer": "C",
-      "is_correct": false
+      "rag_answer": "A",
+      "is_correct": true
     },
     {
       "problem_index": 82,
@@ -1128,8 +1128,8 @@
         "Both populations succeeded and thrived, but in very different ways"
       ],
       "correct_answer": 0,
-      "rag_answer": "A",
-      "is_correct": true
+      "rag_answer": "D",
+      "is_correct": false
     },
     {
       "problem_index": 87,
@@ -1141,7 +1141,7 @@
         "Shy"
       ],
       "correct_answer": 0,
-      "rag_answer": "B",
+      "rag_answer": "D",
       "is_correct": false
     },
     {
@@ -1154,8 +1154,8 @@
         "University faculty members because they can use the diction in the policies to continue to maintain control of how those policies are perceived."
       ],
       "correct_answer": 1,
-      "rag_answer": "C",
-      "is_correct": false
+      "rag_answer": "B",
+      "is_correct": true
     },
     {
       "problem_index": 89,
@@ -1271,8 +1271,8 @@
         "So he would feel like he was important to her"
       ],
       "correct_answer": 2,
-      "rag_answer": "C",
-      "is_correct": true
+      "rag_answer": "D",
+      "is_correct": false
     },
     {
       "problem_index": 98,
@@ -1388,8 +1388,8 @@
         "Children's demands of their parents"
       ],
       "correct_answer": 3,
-      "rag_answer": "B",
-      "is_correct": false
+      "rag_answer": "D",
+      "is_correct": true
     },
     {
       "problem_index": 107,
@@ -1401,7 +1401,7 @@
         "More than a dozen"
       ],
       "correct_answer": 3,
-      "rag_answer": "B",
+      "rag_answer": "A",
       "is_correct": false
     },
     {
@@ -1427,7 +1427,7 @@
         "Listening to his large group of employed screenwriters"
       ],
       "correct_answer": 3,
-      "rag_answer": "B",
+      "rag_answer": "C",
       "is_correct": false
     },
     {
@@ -1466,7 +1466,7 @@
         "To wait for their society to return and pick them up"
       ],
       "correct_answer": 2,
-      "rag_answer": "A",
+      "rag_answer": "B",
       "is_correct": false
     },
     {
@@ -1531,8 +1531,8 @@
         "They are looking to maximize their profits"
       ],
       "correct_answer": 1,
-      "rag_answer": "B",
-      "is_correct": true
+      "rag_answer": "A",
+      "is_correct": false
     },
     {
       "problem_index": 118,
@@ -1583,8 +1583,8 @@
         "She was surprised to see that he had returned"
       ],
       "correct_answer": 0,
-      "rag_answer": "B",
-      "is_correct": false
+      "rag_answer": "A",
+      "is_correct": true
     },
     {
       "problem_index": 122,
@@ -1609,8 +1609,8 @@
         "Parting patients with their money"
       ],
       "correct_answer": 3,
-      "rag_answer": "D",
-      "is_correct": true
+      "rag_answer": "C",
+      "is_correct": false
     },
     {
       "problem_index": 124,
@@ -1713,7 +1713,7 @@
         "They are more physically attractive"
       ],
       "correct_answer": 0,
-      "rag_answer": "C",
+      "rag_answer": "D",
       "is_correct": false
     },
     {
@@ -1765,8 +1765,8 @@
         "Coleman was an impressive figure"
       ],
       "correct_answer": 2,
-      "rag_answer": "C",
-      "is_correct": true
+      "rag_answer": "B",
+      "is_correct": false
     },
     {
       "problem_index": 136,
@@ -2012,8 +2012,8 @@
         "He likes to look at the girls in the comics."
       ],
       "correct_answer": 1,
-      "rag_answer": "C",
-      "is_correct": false
+      "rag_answer": "B",
+      "is_correct": true
     },
     {
       "problem_index": 155,
@@ -2090,8 +2090,8 @@
         "Men have to protect the group regularly"
       ],
       "correct_answer": 3,
-      "rag_answer": "B",
-      "is_correct": false
+      "rag_answer": "D",
+      "is_correct": true
     },
     {
       "problem_index": 161,
@@ -2155,8 +2155,8 @@
         "There are aliens walking among us."
       ],
       "correct_answer": 1,
-      "rag_answer": "C",
-      "is_correct": false
+      "rag_answer": "B",
+      "is_correct": true
     },
     {
       "problem_index": 166,
@@ -2220,8 +2220,8 @@
         "He is a Martian"
       ],
       "correct_answer": 0,
-      "rag_answer": "A) He is infamous\n\nThe passage mentions that \"I'm looking for the man you saw me talking with this morning,\" I went on. \"Lady, he's wanted.\" This implies that Harry Smythe is someone of interest to authorities and could be considered infamous.\n\nC) He is hiding on Earth\n\nThis answer is not supported by the text. The passage mentions searching for him on Mars: \"I spent the remainder of the afternoon trying to get a lead on him,\" suggesting the search was taking place on Mars, not Earth.\n\nB) He does not like the protagonist\nD) He is a Martian\n\nThese answers are not directly supported by any statements in the text. The passage does not provide information about Harry Smythe's feelings toward the narrator or his origin beyond that he is an \"Earthman.\"\n\nTherefore, based solely on the provided passage, option A (He is infamous) is most strongly supported as it aligns with him being a wanted individual.",
-      "is_correct": false
+      "rag_answer": "A",
+      "is_correct": true
     },
     {
       "problem_index": 171,
@@ -2233,7 +2233,7 @@
         "For her husband to fall back in love with her"
       ],
       "correct_answer": 3,
-      "rag_answer": "C",
+      "rag_answer": "B",
       "is_correct": false
     },
     {
@@ -2285,8 +2285,8 @@
         "They liked to do it at least once a day"
       ],
       "correct_answer": 1,
-      "rag_answer": "D",
-      "is_correct": false
+      "rag_answer": "B",
+      "is_correct": true
     },
     {
       "problem_index": 176,
@@ -2363,8 +2363,8 @@
         "He died"
       ],
       "correct_answer": 2,
-      "rag_answer": "C",
-      "is_correct": true
+      "rag_answer": "B",
+      "is_correct": false
     },
     {
       "problem_index": 182,
@@ -2389,8 +2389,8 @@
         "He was not allowed"
       ],
       "correct_answer": 0,
-      "rag_answer": "C",
-      "is_correct": false
+      "rag_answer": "A",
+      "is_correct": true
     },
     {
       "problem_index": 184,
@@ -2493,7 +2493,7 @@
         "He does not feel anything"
       ],
       "correct_answer": 0,
-      "rag_answer": "C",
+      "rag_answer": "B",
       "is_correct": false
     },
     {
@@ -2597,8 +2597,8 @@
         "Indestructible"
       ],
       "correct_answer": 0,
-      "rag_answer": "B",
-      "is_correct": false
+      "rag_answer": "A",
+      "is_correct": true
     },
     {
       "problem_index": 200,

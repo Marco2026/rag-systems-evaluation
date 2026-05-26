@@ -6,12 +6,12 @@
   "generator_model": "huihui_ai/fluentlylm-prinum-abliterated:32b",
   "generator_params": 32.8,
   "generator_size": 18.5,
-  "timestamp": "2026-04-14T13:07:21.034290",
-  "duration": "00:18:56",
-  "duration (seconds)": 1136,
+  "timestamp": "2026-05-22T13:27:35.731373",
+  "duration": "00:23:17",
+  "duration (seconds)": 1397,
   "total": 200,
-  "correct": 175,
-  "accuracy": 0.875,
+  "correct": 179,
+  "accuracy": 0.895,
   "results": [
     {
       "problem_index": 1,
@@ -140,8 +140,8 @@
         "Because we had no life jackets"
       ],
       "correct_answer": "C",
-      "rag_answer": "B",
-      "is_correct": false
+      "rag_answer": "C",
+      "is_correct": true
     },
     {
       "problem_index": 11,
@@ -556,7 +556,7 @@
         "You could reduce stress by doing nothing."
       ],
       "correct_answer": "B",
-      "rag_answer": "D",
+      "rag_answer": "A",
       "is_correct": false
     },
     {
@@ -660,8 +660,8 @@
         "The development of power harvesting."
       ],
       "correct_answer": "A",
-      "rag_answer": "D",
-      "is_correct": false
+      "rag_answer": "A",
+      "is_correct": true
     },
     {
       "problem_index": 51,
@@ -1622,8 +1622,8 @@
         "only a character made up by Arthur Conan Dolye"
       ],
       "correct_answer": "D",
-      "rag_answer": "D) only a character made up by Arthur Conan Dolye\n\nThe passage states that Sherlock Holmes is considered by many people as the greatest detective in fictional literature, indicating he exists within stories created by Sir Arthur Conan Doyle. It mentions how visitors sometimes search for 221-B Baker Street in London but notes \"there never was really any such address,\" suggesting Holmes' existence is confined to fiction. The passage also describes how Doyle based his character on a real person (Dr Joseph Bell), implying that while inspired by reality, Sherlock Holmes himself remains a fictional creation. Therefore, the most accurate answer from the given options is D) only a character made up by Arthur Conan Dolye.\n\nNote: Given the specific instruction to respond with just one letter:\nD",
-      "is_correct": false
+      "rag_answer": "D",
+      "is_correct": true
     },
     {
       "problem_index": 125,
@@ -1830,8 +1830,8 @@
         "Palmer has never made a journey before."
       ],
       "correct_answer": "A",
-      "rag_answer": "B",
-      "is_correct": false
+      "rag_answer": "A",
+      "is_correct": true
     },
     {
       "problem_index": 141,
@@ -1960,8 +1960,8 @@
         "Laptops will be used in Westlake College in Virginia."
       ],
       "correct_answer": "D",
-      "rag_answer": "D",
-      "is_correct": true
+      "rag_answer": "B",
+      "is_correct": false
     },
     {
       "problem_index": 151,
@@ -2233,7 +2233,7 @@
         "A conservative politician."
       ],
       "correct_answer": "C",
-      "rag_answer": "D",
+      "rag_answer": "B",
       "is_correct": false
     },
     {
@@ -2298,7 +2298,7 @@
         "$123"
       ],
       "correct_answer": "D",
-      "rag_answer": "A) $114\n\nThe passage states that the halfday tours cost $41 for adults and $32 for children under 12. Since they are a couple (two adults) and their 13-year-old son, the total would be $41 x 2 + $41 = $82 + $32 = $114. \n\nTherefore, A is the correct answer.",
+      "rag_answer": "A",
       "is_correct": false
     },
     {
@@ -2324,7 +2324,7 @@
         "A strong experience my parents and I had"
       ],
       "correct_answer": "C",
-      "rag_answer": "D) A strong experience my parents and I had\n\nThe passage describes a dangerous boat accident where the narrator, along with their parents, faces life-threatening situations such as cold water immersion, inability to start the engine, and severe weather conditions. The emotional intensity and physical peril suggest it was indeed a strong experience for all involved. While \"adventurous\" could apply to some parts of the narrative, the overall tone conveys more danger than excitement or disappointment, making option D the most fitting choice based on the information given in the passage.\n\nGiven my analysis, I'll confirm the answer:\n\nD",
+      "rag_answer": "D) A strong experience my parents and I had\n\nThe passage describes a boat trip across Nemeiben Lake that takes a dramatic turn when the boat hits something and starts taking on water. The family has to deal with the cold, waves, and potential sinking of their boat, making it an intense and memorable experience.\n\nWhile \"exciting\" or \"adventurous\" could apply, \"strong\" seems most appropriate because of the challenging circumstances they face. It's not necessarily disappointing since overcoming adversity can also be seen as a positive experience in retrospect.",
       "is_correct": false
     },
     {
@@ -2558,8 +2558,8 @@
         "Any party member will be given a bag to store rubbish at the party."
       ],
       "correct_answer": "C",
-      "rag_answer": "A",
-      "is_correct": false
+      "rag_answer": "C",
+      "is_correct": true
     },
     {
       "problem_index": 197,

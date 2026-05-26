@@ -6,12 +6,12 @@
   "generator_model": "goekdenizguelmez/JOSIEFIED-Qwen2.5:7b",
   "generator_params": 7.62,
   "generator_size": 4.4,
-  "timestamp": "2026-04-18T09:55:58.455150",
-  "duration": "00:03:32",
-  "duration (seconds)": 212,
+  "timestamp": "2026-05-22T01:32:17.769478",
+  "duration": "00:02:46",
+  "duration (seconds)": 166,
   "total": 200,
-  "correct": 107,
-  "accuracy": 0.535,
+  "correct": 106,
+  "accuracy": 0.53,
   "results": [
     {
       "problem_index": 1,
@@ -140,7 +140,7 @@
         "thank Becky's kindness for Jessica"
       ],
       "correct_answer": "D",
-      "rag_answer": "C",
+      "rag_answer": "B",
       "is_correct": false
     },
     {
@@ -530,8 +530,8 @@
         "made her fall behind others in studies at school"
       ],
       "correct_answer": "C",
-      "rag_answer": "A",
-      "is_correct": false
+      "rag_answer": "C",
+      "is_correct": true
     },
     {
       "problem_index": 41,
@@ -634,8 +634,8 @@
         "30"
       ],
       "correct_answer": "B",
-      "rag_answer": "C",
-      "is_correct": false
+      "rag_answer": "B",
+      "is_correct": true
     },
     {
       "problem_index": 49,
@@ -712,8 +712,8 @@
         "None of them."
       ],
       "correct_answer": "B",
-      "rag_answer": "B",
-      "is_correct": true
+      "rag_answer": "C",
+      "is_correct": false
     },
     {
       "problem_index": 55,
@@ -803,8 +803,8 @@
         "supper"
       ],
       "correct_answer": "B",
-      "rag_answer": "A",
-      "is_correct": false
+      "rag_answer": "B",
+      "is_correct": true
     },
     {
       "problem_index": 62,
@@ -842,8 +842,8 @@
         "a little larger than"
       ],
       "correct_answer": "C",
-      "rag_answer": "B",
-      "is_correct": false
+      "rag_answer": "C",
+      "is_correct": true
     },
     {
       "problem_index": 65,
@@ -1427,8 +1427,8 @@
         "Because he thought John could help his mother."
       ],
       "correct_answer": "A",
-      "rag_answer": "A",
-      "is_correct": true
+      "rag_answer": "C",
+      "is_correct": false
     },
     {
       "problem_index": 110,
@@ -1479,7 +1479,7 @@
         "She made a historiccomeback."
       ],
       "correct_answer": "D",
-      "rag_answer": "A",
+      "rag_answer": "C",
       "is_correct": false
     },
     {
@@ -1518,8 +1518,8 @@
         "Beijing"
       ],
       "correct_answer": "D",
-      "rag_answer": "D",
-      "is_correct": true
+      "rag_answer": "B",
+      "is_correct": false
     },
     {
       "problem_index": 117,
@@ -1596,8 +1596,8 @@
         "There were many more fish in the river."
       ],
       "correct_answer": "A",
-      "rag_answer": "A",
-      "is_correct": true
+      "rag_answer": "B",
+      "is_correct": false
     },
     {
       "problem_index": 123,
@@ -1817,7 +1817,7 @@
         "The mother told the teacher about the scat after the meeting."
       ],
       "correct_answer": "D",
-      "rag_answer": "C",
+      "rag_answer": "A",
       "is_correct": false
     },
     {
@@ -2103,8 +2103,8 @@
         "How to play drums."
       ],
       "correct_answer": "B",
-      "rag_answer": "B",
-      "is_correct": true
+      "rag_answer": "A",
+      "is_correct": false
     },
     {
       "problem_index": 162,
@@ -2168,7 +2168,7 @@
         "a middle school"
       ],
       "correct_answer": "B",
-      "rag_answer": "C",
+      "rag_answer": "A",
       "is_correct": false
     },
     {
@@ -2298,7 +2298,7 @@
         "After she came back from the cinema."
       ],
       "correct_answer": "A",
-      "rag_answer": "C",
+      "rag_answer": "B",
       "is_correct": false
     },
     {
@@ -2545,7 +2545,7 @@
         "Pilots'- First Class -Club- Economy"
       ],
       "correct_answer": "D",
-      "rag_answer": "B",
+      "rag_answer": "A",
       "is_correct": false
     },
     {

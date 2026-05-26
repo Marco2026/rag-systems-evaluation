@@ -6,9 +6,9 @@
   "generator_model": "huihui_ai/qwen2.5-abliterate:72b",
   "generator_params": 72.7,
   "generator_size": 44.2,
-  "timestamp": "2026-04-30T00:02:06.031547",
-  "duration": "00:34:20",
-  "duration (seconds)": 2060,
+  "timestamp": "2026-05-22T19:12:55.991221",
+  "duration": "00:36:03",
+  "duration (seconds)": 2163,
   "total": 200,
   "correct": 197,
   "accuracy": 0.985,
@@ -868,7 +868,7 @@
         "D": "Clan of the Deep Waters"
       },
       "correct_answer": "C",
-      "rag_answer": "D",
+      "rag_answer": "A",
       "is_correct": false
     },
     {

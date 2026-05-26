@@ -6,12 +6,12 @@
   "generator_model": "rjmalagon/lamarck-v0.7:14b-bf16",
   "generator_params": 14.8,
   "generator_size": 27.5,
-  "timestamp": "2026-04-18T00:12:15.573149",
-  "duration": "00:10:55",
-  "duration (seconds)": 655,
+  "timestamp": "2026-05-22T02:21:44.980625",
+  "duration": "00:10:03",
+  "duration (seconds)": 603,
   "total": 200,
-  "correct": 178,
-  "accuracy": 0.89,
+  "correct": 176,
+  "accuracy": 0.88,
   "results": [
     {
       "problem_index": 1,
@@ -517,8 +517,8 @@
         "Some don't do and do in schools."
       ],
       "correct_answer": "C",
-      "rag_answer": "C",
-      "is_correct": true
+      "rag_answer": "B",
+      "is_correct": false
     },
     {
       "problem_index": 40,
@@ -1752,7 +1752,7 @@
         "Eight"
       ],
       "correct_answer": "C",
-      "rag_answer": "D",
+      "rag_answer": "A",
       "is_correct": false
     },
     {
@@ -1778,8 +1778,8 @@
         "on 2"
       ],
       "correct_answer": "B",
-      "rag_answer": "C",
-      "is_correct": false
+      "rag_answer": "B",
+      "is_correct": true
     },
     {
       "problem_index": 137,
@@ -2077,8 +2077,8 @@
         "out"
       ],
       "correct_answer": "B",
-      "rag_answer": "B",
-      "is_correct": true
+      "rag_answer": "A",
+      "is_correct": false
     },
     {
       "problem_index": 160,
@@ -2181,8 +2181,8 @@
         "The names of the four boys"
       ],
       "correct_answer": "D",
-      "rag_answer": "D",
-      "is_correct": true
+      "rag_answer": "B",
+      "is_correct": false
     },
     {
       "problem_index": 168,

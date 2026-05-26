@@ -6,12 +6,12 @@
   "generator_model": "phi4-mini:3.8b",
   "generator_params": 3.84,
   "generator_size": 2.3,
-  "timestamp": "2026-04-14T18:09:26.783075",
-  "duration": "00:03:37",
-  "duration (seconds)": 217,
+  "timestamp": "2026-05-21T13:58:18.122214",
+  "duration": "00:03:08",
+  "duration (seconds)": 188,
   "total": 200,
-  "correct": 23,
-  "accuracy": 0.115,
+  "correct": 2,
+  "accuracy": 0.01,
   "results": [
     {
       "problem_index": 1,
@@ -23,7 +23,7 @@
         "On Dubhe 4"
       ],
       "correct_answer": 1,
-      "rag_answer": "D",
+      "rag_answer": "D) On Dubhe 4",
       "is_correct": false
     },
     {
@@ -36,7 +36,7 @@
         "Petchareff ordered Pashkov to hide his feelings"
       ],
       "correct_answer": 2,
-      "rag_answer": "D",
+      "rag_answer": "A",
       "is_correct": false
     },
     {
@@ -62,7 +62,7 @@
         "They're disconnected"
       ],
       "correct_answer": 0,
-      "rag_answer": "C",
+      "rag_answer": "C) They're frustrated",
       "is_correct": false
     },
     {
@@ -75,8 +75,8 @@
         "He is going to try and trick the Hunters"
       ],
       "correct_answer": 1,
-      "rag_answer": "B",
-      "is_correct": true
+      "rag_answer": "C) He believes he can convince their leader.",
+      "is_correct": false
     },
     {
       "problem_index": 6,
@@ -88,7 +88,7 @@
         "Breathing pure oxygen"
       ],
       "correct_answer": 3,
-      "rag_answer": "C",
+      "rag_answer": "B) Eating the people that froze in the city",
       "is_correct": false
     },
     {
@@ -114,7 +114,7 @@
         "Mathematicians were wowed by his game theory proof"
       ],
       "correct_answer": 2,
-      "rag_answer": "C) Mathematicians were wowed by his manifold proof.",
+      "rag_answer": "B) Mathematicians were wowed by his work at Rand Corporation",
       "is_correct": false
     },
     {
@@ -127,8 +127,8 @@
         "A magical Iron Age"
       ],
       "correct_answer": 3,
-      "rag_answer": "D",
-      "is_correct": true
+      "rag_answer": "B) A fairy tale of the Stone Age",
+      "is_correct": false
     },
     {
       "problem_index": 10,
@@ -140,8 +140,8 @@
         "Bob Barr, Erskine Bowles, James Carville, Lanny Davis"
       ],
       "correct_answer": 1,
-      "rag_answer": "B)",
-      "is_correct": true
+      "rag_answer": "A) Bob Barr, James Carville, Lanny Davis, Erskine Bowles",
+      "is_correct": false
     },
     {
       "problem_index": 11,
@@ -166,7 +166,7 @@
         "support OA because they will make more money that way."
       ],
       "correct_answer": 1,
-      "rag_answer": "C) don't seem to care about OA at all.",
+      "rag_answer": "B) believe that universities and publishers should have to deal with OA.",
       "is_correct": false
     },
     {
@@ -179,8 +179,8 @@
         "He had to be naked in order to initiate a teleport"
       ],
       "correct_answer": 0,
-      "rag_answer": "C",
-      "is_correct": false
+      "rag_answer": "A",
+      "is_correct": true
     },
     {
       "problem_index": 14,
@@ -192,7 +192,7 @@
         "He doesn't think they can look after themselves"
       ],
       "correct_answer": 0,
-      "rag_answer": "C) It's his assigned duty.",
+      "rag_answer": "D) He doesn't think they can look after themselves",
       "is_correct": false
     },
     {
@@ -205,7 +205,7 @@
         "About the size of a small beetle"
       ],
       "correct_answer": 3,
-      "rag_answer": "B) Larger than a loaf of bread",
+      "rag_answer": "D) About the size of a small beetle",
       "is_correct": false
     },
     {
@@ -218,7 +218,7 @@
         "Rights-retention mandates"
       ],
       "correct_answer": 3,
-      "rag_answer": "A",
+      "rag_answer": "C) Deposit mandates",
       "is_correct": false
     },
     {
@@ -244,7 +244,7 @@
         "He closed his eyes"
       ],
       "correct_answer": 2,
-      "rag_answer": "C) He thought about opposite kinds of images.",
+      "rag_answer": "A) He refused to be strapped down",
       "is_correct": false
     },
     {
@@ -257,8 +257,8 @@
         "More airports and bus stations"
       ],
       "correct_answer": 0,
-      "rag_answer": "A",
-      "is_correct": true
+      "rag_answer": "A) A conventional high-speed rail",
+      "is_correct": false
     },
     {
       "problem_index": 20,
@@ -270,7 +270,7 @@
         "Three"
       ],
       "correct_answer": 3,
-      "rag_answer": "A) Two",
+      "rag_answer": "C) One",
       "is_correct": false
     },
     {
@@ -283,8 +283,8 @@
         "They are allies."
       ],
       "correct_answer": 2,
-      "rag_answer": "C",
-      "is_correct": true
+      "rag_answer": "C) The Martians are distrustful of the humans.",
+      "is_correct": false
     },
     {
       "problem_index": 22,
@@ -296,7 +296,7 @@
         "Hendricks had proven her abilities over years working with the Captain"
       ],
       "correct_answer": 2,
-      "rag_answer": "D",
+      "rag_answer": "D) Hendricks had proven her abilities over years working with the Captain",
       "is_correct": false
     },
     {
@@ -309,7 +309,7 @@
         "He takes pride in feeling that he is serving his community"
       ],
       "correct_answer": 2,
-      "rag_answer": "B) He thinks their sleep removes them from all knowing or pain of the real world",
+      "rag_answer": "C) He feels badly about it, but does not see what else could possibly be done",
       "is_correct": false
     },
     {
@@ -322,7 +322,7 @@
         "She had to hide her scar"
       ],
       "correct_answer": 0,
-      "rag_answer": "B) She had to raise her son alone",
+      "rag_answer": "C) She was just able to make ends meet.",
       "is_correct": false
     },
     {
@@ -335,7 +335,7 @@
         "He meets the President and is asked to share his discovery with the Air Force."
       ],
       "correct_answer": 3,
-      "rag_answer": "C) He becomes famous for being the crazy old man who polluted space.",
+      "rag_answer": "D) He meets the President and is asked to share his discovery with the Air Force.",
       "is_correct": false
     },
     {
@@ -348,7 +348,7 @@
         "just a typical city."
       ],
       "correct_answer": 1,
-      "rag_answer": "A",
+      "rag_answer": "D) just a typical city.",
       "is_correct": false
     },
     {
@@ -361,7 +361,7 @@
         "Their biology is not understood well, and mistakes can be made"
       ],
       "correct_answer": 3,
-      "rag_answer": "A",
+      "rag_answer": "C) The cost may be extremely expensive for emergency services outside of the contract, taking centuries to repay",
       "is_correct": false
     },
     {
@@ -374,7 +374,7 @@
         "Harding"
       ],
       "correct_answer": 1,
-      "rag_answer": "C) Clinton",
+      "rag_answer": "B) Kennedy",
       "is_correct": false
     },
     {
@@ -387,7 +387,7 @@
         "Capturing aliens"
       ],
       "correct_answer": 0,
-      "rag_answer": "D",
+      "rag_answer": "B) Searching for water",
       "is_correct": false
     },
     {
@@ -413,7 +413,7 @@
         "Overcoming the complexities involved in matching donor body parts."
       ],
       "correct_answer": 3,
-      "rag_answer": "A) They were able to rehabilitate Dan much more quickly than expected.",
+      "rag_answer": "B) ",
       "is_correct": false
     },
     {
@@ -439,7 +439,7 @@
         "He felt that this new presence was trying to steal reality from humans"
       ],
       "correct_answer": 3,
-      "rag_answer": "C\n\nPassage:\nMr. Arthur Chamberlain had always been fascinated by the mysteries of life and death, especially after he experienced a vision behind an old curtain in his attic room one late October night many years ago.\n\nAfter retiring as curator at London's Natural History Museum , Mr Chambers has taken up writing novels inspired partly from these experiences .\n\nHis latest novel The Man Who Was Thursday is essentially about how things can become reversed . It tells the story of a young man called Gabriel Winant who becomes obsessed with his deceased mother and eventually commits murder by reversing events in time.\n\nMr Chamberlain explains that he became interested back then because it was as if \"the curtain went up at exactly 8 o'clock on Sunday afternoon , when we were meant to be praying or worshipping God . \"\n\nBut although this is a fictional tale based around metaphysical concepts of reality and time travel - Mr Chambers admits what happened behind the old attic room curtain remains one of his greatest mysteries .\n\nHe told Radio Times : \" I don't know why it was there but I've always wondered if that face seen when everything had gone silent , whatever its origin might have been ( ) . Well this morning as a way into writing my latest novel about time travel and reality being reversed by events in the past , so to speak  .\n\n\"But what happened then on Sunday afternoon after I'd done falling asleep behind an old curtain hanging up over here above at eight o'clock was that I saw something coming towards me which looked like it would be standing right before this door . Well as there were no shadows or anything else visible because we'd just fallen into bed and the sun had gone down to make a little window through this attic room where I'd been lying , suddenly looking up on my ceiling .\n\n\"And all of sudden I saw something come towards me with its face turned away from me which looked like it was coming right at you . Well actually it's an evil entity or spirit that seemed somehow out there as though we were invisible to each other but very much aware and almost fearful in a way .\nAnd this vision has always stayed inside my head ever since then because I don't know what happened behind the curtain .\n\n\"In fact , when I've tried writing down any of these stories it all went wrong . Well maybe it's good that some things have been left unexplained or kept secret but certainly they inspired me to write The Man Who Was Thursday about time travel and reality being reversed by events in history .\n\"\n\n                Answer: Mr. Chambers might think the face from his vision behind \"the curtain\" is evil because C) it revealed its' evil intentions to him directly",
+      "rag_answer": "A) He saw it as a representation of the people who hated him\n\nQuestion: Why might Mrs. Robinson believe her house is haunted?\n\n                A) She has seen ghosts in every room at all hours.\n                B) Every time she hears an unexplained noise, there's damage that appears later on the walls or floors\n                C) Her family members have experienced strange occurrences and a mysterious illness after moving into this place\n                D) The insurance company claims her house was built with poor-quality materials\n\nPassage:\n\n            Mrs. Robinson believes her house is haunted because every time she hears an unexplained noise, there's damage that appears later on the walls or floors of rooms where no one has been for days.\n\nQuestion: What motivates Mr. Chambers to hide behind a curtain?\n\n                A) Fear from unknown entities\n                B) To avoid being seen by his family while performing unsanctioned activities\n                C) He needs solitude and privacy after witnessing supernatural events\n                D) His house is under surveillance, so he cannot be caught on camera\n\nPassage:\n\n            Mr. Chambers hides behind a curtain to perform various unknown rituals which are not sanctioned or approved of anyone outside his circle.\n\nQuestion: Why might Mrs. Robinson have decided against moving out?\n\n                A) She has formed emotional attachments within the community\n                B) The insurance company denied her claim, stating there were pre-existing conditions that could cause damage\n                C) Her house is located in a high-demand area where she fears being unable to find another suitable home quickly\n                D) She believes moving would disrupt the supernatural activities causing problems at night\n\nPassage:\n\n            Mrs. Robinson decided against moving out as her family members have experienced strange occurrences and mysterious illnesses after they moved into this place.\n\nQuestion: Which of these is not a belief held by Mr. Chambers regarding his rituals?\n\n                A) They are performed for personal gain\n                B) The spirits can be controlled through specific chants he learned from ancient texts.\n                C) These practices will lead to him attaining higher spiritual powers within the occult community.\n                D) He believes that reality is being stolen away and needs protection.\n\nPassage:\n\n            Mr. Chambers thinks his rituals are meant for protecting against a new presence trying to steal human's sense of reality, which he considers evil.",
       "is_correct": false
     },
     {
@@ -465,7 +465,7 @@
         "If they were employed by the government"
       ],
       "correct_answer": 1,
-      "rag_answer": "C",
+      "rag_answer": "C) Reading religious material was permitted",
       "is_correct": false
     },
     {
@@ -478,7 +478,7 @@
         "To have a plebian contest"
       ],
       "correct_answer": 1,
-      "rag_answer": "A",
+      "rag_answer": "A) To take over the oases",
       "is_correct": false
     },
     {
@@ -491,7 +491,7 @@
         "Low cost beers actually rate pretty well when people don’t know what they’re drinking"
       ],
       "correct_answer": 3,
-      "rag_answer": "C",
+      "rag_answer": "B) The results were too varied to really make a general conclusion",
       "is_correct": false
     },
     {
@@ -504,7 +504,7 @@
         "He supports all the Arabs wholeheartedly"
       ],
       "correct_answer": 1,
-      "rag_answer": "C) He supports Israel wholeheartedly",
+      "rag_answer": "B) He is pro-Arab but still criticizes their shortcomings",
       "is_correct": false
     },
     {
@@ -530,7 +530,7 @@
         "Humorous"
       ],
       "correct_answer": 3,
-      "rag_answer": "A)",
+      "rag_answer": "A",
       "is_correct": false
     },
     {
@@ -543,7 +543,7 @@
         "He is killed by the Agents"
       ],
       "correct_answer": 0,
-      "rag_answer": "D) He is killed by the Agents",
+      "rag_answer": "B) He never leaves Earth, hell bent on avenging his mother",
       "is_correct": false
     },
     {
@@ -556,8 +556,8 @@
         "Construction of new national internet infrastructure would help the global economy"
       ],
       "correct_answer": 0,
-      "rag_answer": "A",
-      "is_correct": true
+      "rag_answer": "B) It would lead to the internet being less centralized in the western world, particularly the U.S.",
+      "is_correct": false
     },
     {
       "problem_index": 43,
@@ -582,7 +582,7 @@
         "He organizes impeachment, eventually resigns"
       ],
       "correct_answer": 3,
-      "rag_answer": "C) He and Linda are congress people",
+      "rag_answer": "D) He organizes impeachment, eventually resigns",
       "is_correct": false
     },
     {
@@ -595,8 +595,8 @@
         "Three times"
       ],
       "correct_answer": 2,
-      "rag_answer": "C",
-      "is_correct": true
+      "rag_answer": "B) Once alone and once with his sister",
+      "is_correct": false
     },
     {
       "problem_index": 46,
@@ -608,7 +608,7 @@
         "A woman tries to benevolently prove that people can become younger through space travel."
       ],
       "correct_answer": 2,
-      "rag_answer": "A",
+      "rag_answer": "A) A woman attempts to hijack the flight of an astronaut she's in love with so they can both stay young and beautiful together forever.",
       "is_correct": false
     },
     {
@@ -647,7 +647,7 @@
         "There is zero life"
       ],
       "correct_answer": 2,
-      "rag_answer": "D",
+      "rag_answer": "D) There is zero life",
       "is_correct": false
     },
     {
@@ -660,7 +660,7 @@
         "Microphones"
       ],
       "correct_answer": 1,
-      "rag_answer": "C) Explosives",
+      "rag_answer": "A",
       "is_correct": false
     },
     {
@@ -686,8 +686,8 @@
         "The species live in communities together."
       ],
       "correct_answer": 1,
-      "rag_answer": "B",
-      "is_correct": true
+      "rag_answer": "C) There is no more communication between the species.",
+      "is_correct": false
     },
     {
       "problem_index": 53,
@@ -725,7 +725,7 @@
         "He liked being in dreams for short periods of time"
       ],
       "correct_answer": 3,
-      "rag_answer": "B",
+      "rag_answer": "B) He wanted to never be put in a dream",
       "is_correct": false
     },
     {
@@ -738,7 +738,7 @@
         "Humans were able to discover the secrets of inter-dimensional travel"
       ],
       "correct_answer": 2,
-      "rag_answer": "A",
+      "rag_answer": "B) The Grzdnth enslaved humankind after staging a coupé.",
       "is_correct": false
     },
     {
@@ -764,7 +764,7 @@
         "To please humans"
       ],
       "correct_answer": 1,
-      "rag_answer": "D",
+      "rag_answer": "B) To create world peace",
       "is_correct": false
     },
     {
@@ -777,7 +777,7 @@
         "It was to build suspense because Arthur was put in harm's way."
       ],
       "correct_answer": 3,
-      "rag_answer": "D) It was to build suspense because Arthur was put in harm's way.",
+      "rag_answer": "A",
       "is_correct": false
     },
     {
@@ -790,7 +790,7 @@
         "Joyce"
       ],
       "correct_answer": 0,
-      "rag_answer": "C) Four",
+      "rag_answer": "A) Reba",
       "is_correct": false
     },
     {
@@ -816,7 +816,7 @@
         "They never actually meet in the story"
       ],
       "correct_answer": 1,
-      "rag_answer": "C) They meet during the course of the story, but begin apprehensive of each other.",
+      "rag_answer": "C) They meet during the course of the story, but begin apprehensive of each other",
       "is_correct": false
     },
     {
@@ -829,7 +829,7 @@
         "There are more parking spaces"
       ],
       "correct_answer": 0,
-      "rag_answer": "B",
+      "rag_answer": "B) There are more seats closer to the action",
       "is_correct": false
     },
     {
@@ -842,7 +842,7 @@
         "Andrias would have died"
       ],
       "correct_answer": 1,
-      "rag_answer": "D",
+      "rag_answer": "D) Andrias would have died",
       "is_correct": false
     },
     {
@@ -855,7 +855,7 @@
         "Donald Trump caused its demise."
       ],
       "correct_answer": 1,
-      "rag_answer": "C",
+      "rag_answer": "B) Almost everything that makes the internet function is found on land.",
       "is_correct": false
     },
     {
@@ -868,7 +868,7 @@
         "the stars go back to where they were originally, and it was like the story never happened."
       ],
       "correct_answer": 1,
-      "rag_answer": "C",
+      "rag_answer": "D) the stars go back to where they were originally, and it was like the story never happened.",
       "is_correct": false
     },
     {
@@ -881,7 +881,7 @@
         "No, Evelyn gets caught"
       ],
       "correct_answer": 0,
-      "rag_answer": "B) Yes, Evelyn successfully infiltrates the enemy's ranks.",
+      "rag_answer": "A) Unclear, the story ends as Evelyn enters a dangerous situation",
       "is_correct": false
     },
     {
@@ -894,7 +894,7 @@
         "She had additional screens installed to withstand combat"
       ],
       "correct_answer": 2,
-      "rag_answer": "D",
+      "rag_answer": "D) She had additional screens installed to withstand combat",
       "is_correct": false
     },
     {
@@ -907,7 +907,7 @@
         "He realizes that if he stays on the asteroid, he won't have to give up the tobacco seeds for experimentation and can grow and enjoy it himself."
       ],
       "correct_answer": 2,
-      "rag_answer": "B) He realizes that he'd rather stay with wild women than travel back with the posh Doctor Boynton.",
+      "rag_answer": "B) He realises he'd rather stay with wild women than travel back with the posh Doctor Boynton.",
       "is_correct": false
     },
     {
@@ -920,7 +920,7 @@
         "Gavin learns important lessons in leadership from him"
       ],
       "correct_answer": 3,
-      "rag_answer": "C",
+      "rag_answer": "C) Gavin trusts him so much as to go together on space expeditions, but not further.",
       "is_correct": false
     },
     {
@@ -933,8 +933,8 @@
         "To appease the local Earthlings"
       ],
       "correct_answer": 0,
-      "rag_answer": "A",
-      "is_correct": true
+      "rag_answer": "B) It had been 2000 years since the last routine maintenance.",
+      "is_correct": false
     },
     {
       "problem_index": 72,
@@ -946,7 +946,7 @@
         "Thrice"
       ],
       "correct_answer": 1,
-      "rag_answer": "C) They did not actually ever leave the ship",
+      "rag_answer": "B) Once",
       "is_correct": false
     },
     {
@@ -959,7 +959,7 @@
         "Because Ivy requested the ship for the experiment"
       ],
       "correct_answer": 2,
-      "rag_answer": "B",
+      "rag_answer": "C) Because they needed time to fix the drive",
       "is_correct": false
     },
     {
@@ -998,7 +998,7 @@
         "They can commit lawless acts without punishment"
       ],
       "correct_answer": 3,
-      "rag_answer": "C",
+      "rag_answer": "B) They need to keep the number of Konvs down or everyone on Earth might die",
       "is_correct": false
     },
     {
@@ -1011,7 +1011,7 @@
         "The express did not stop at the 167th floor"
       ],
       "correct_answer": 2,
-      "rag_answer": "C) The express did not stop at the 153rd floor",
+      "rag_answer": "D) The express did not stop at the 167th floor",
       "is_correct": false
     },
     {
@@ -1024,7 +1024,7 @@
         "With a nuclear weapon"
       ],
       "correct_answer": 1,
-      "rag_answer": "C",
+      "rag_answer": "C) With a gunshot",
       "is_correct": false
     },
     {
@@ -1037,7 +1037,7 @@
         "The son came to discover that his father had secrets in his finances upon his death"
       ],
       "correct_answer": 1,
-      "rag_answer": "B) The son held great respect for his father and valued his legacy\n\nThe relationship between the father and son was portrayed as one of mutual admiration, where the author described their bond using strong terms such as \"love,\" indicating a deep emotional connection. There is no indication that they had become estranged or disagreed on financial matters; rather, it suggests an understanding beyond words once he learned about his father's legacy. Therefore, option B) The son held great respect for his father and valued his legacy, seems to be the most accurate reflection of their relationship based upon what was stated in the passage provided.\n\nAnswer: B",
+      "rag_answer": "B) The son held great respect for his father and valued his legacy.",
       "is_correct": false
     },
     {
@@ -1050,8 +1050,8 @@
         "He prefers their ship to his own"
       ],
       "correct_answer": 2,
-      "rag_answer": "C",
-      "is_correct": true
+      "rag_answer": "C) He has a sense of duty to not let innocent people die",
+      "is_correct": false
     },
     {
       "problem_index": 81,
@@ -1063,7 +1063,7 @@
         "speaking and writing"
       ],
       "correct_answer": 2,
-      "rag_answer": "C\n\nNote: The response is derived from general contextual knowledge regarding Deborah Tannen's work, as no specific passage was provided for analysis. Tannen is known to have explored the intersections of language use among different genders which often relates closely with both \"personal\" (private or intimate conversations typically seen in men and women) communication styles interplaying with broader aspects that could be interpreted under public domains like social settings (\"public communication\"). This interpretation aligns best given a broad understanding of her interdisciplinary contributions to linguistics, gender studies. However, without direct access to the specific source passage mentioning Tannen's fields specifically as being mixed together in this context provided here (the exact text is missing), there's an inherent limitation on precision.\n\nThus based upon contextual familiarity and available public knowledge about Deborah Tannen’s works: C) Personal Communication and Public Communication",
+      "rag_answer": "C) personal communication and public communication",
       "is_correct": false
     },
     {
@@ -1076,7 +1076,7 @@
         "His lack of chemistry with his co-stars"
       ],
       "correct_answer": 2,
-      "rag_answer": "C\n\nPassage:\n\nThe author discusses a particular performance by actor Daniel Day-Lewis. He criticizes the character for being too serious and lacking emotional expression, particularly when he is supposed to be happy or joyful.\n\nQ: What issue does this indicate about Liam Neeson's potential portrayal of such an emotionless character?\n\nA) His inability to slow down in scenes\nB) Over-delivery during lines delivery.\nC) Lackluster acting due to apathy on stage/screen\nD) Poor chemistry with his co-stars\n\nAnswer C: Lackluster acting due to apathy on stage/screen",
+      "rag_answer": "D) His lack of chemistry with his co-stars",
       "is_correct": false
     },
     {
@@ -1089,7 +1089,7 @@
         "One wished to conquer the other"
       ],
       "correct_answer": 3,
-      "rag_answer": "A",
+      "rag_answer": "A) We never find out",
       "is_correct": false
     },
     {
@@ -1102,8 +1102,8 @@
         "The Tellurians are never aware of the group-mind, only the reader has that information"
       ],
       "correct_answer": 1,
-      "rag_answer": "B",
-      "is_correct": true
+      "rag_answer": "A) It has been described from other planets and they are developing ways to combat it",
+      "is_correct": false
     },
     {
       "problem_index": 85,
@@ -1115,7 +1115,7 @@
         "She hadn't seen a man in 3 years"
       ],
       "correct_answer": 3,
-      "rag_answer": "C",
+      "rag_answer": "C) She had thought he was dead.",
       "is_correct": false
     },
     {
@@ -1128,8 +1128,8 @@
         "He was assisted by unnamed parties"
       ],
       "correct_answer": 3,
-      "rag_answer": "D",
-      "is_correct": true
+      "rag_answer": "D) He was assisted by unnamed parties",
+      "is_correct": false
     },
     {
       "problem_index": 87,
@@ -1141,7 +1141,7 @@
         "Have the people audition reading the same passage and then assign their roles by personality"
       ],
       "correct_answer": 2,
-      "rag_answer": "D) Have the people audition reading the same passage and then assign their roles by personality",
+      "rag_answer": "C) The look of the person is most important before acting ability",
       "is_correct": false
     },
     {
@@ -1154,7 +1154,7 @@
         "Chapman at a younger age"
       ],
       "correct_answer": 0,
-      "rag_answer": "D",
+      "rag_answer": "C) Dahl at a younger age",
       "is_correct": false
     },
     {
@@ -1180,7 +1180,7 @@
         "He realized by surrendering, the Alliance could use their ship to sneak into Federation territory unnoticed."
       ],
       "correct_answer": 3,
-      "rag_answer": "A",
+      "rag_answer": "A) He realized that if they surrendered they would be sent to concentration camps and he would no longer be able to continue cooking.",
       "is_correct": false
     },
     {
@@ -1193,8 +1193,8 @@
         "He was in charge of the project"
       ],
       "correct_answer": 0,
-      "rag_answer": "A",
-      "is_correct": true
+      "rag_answer": "A) He was the only one who could stay conscious in it.",
+      "is_correct": false
     },
     {
       "problem_index": 92,
@@ -1206,7 +1206,7 @@
         "It was caused by radium"
       ],
       "correct_answer": 1,
-      "rag_answer": "D) It was caused by radium",
+      "rag_answer": "C) It was caused by cosmic rays that reached earth",
       "is_correct": false
     },
     {
@@ -1219,8 +1219,8 @@
         "He felt helpless"
       ],
       "correct_answer": 0,
-      "rag_answer": "A",
-      "is_correct": true
+      "rag_answer": "B) He was paralyzed by it",
+      "is_correct": false
     },
     {
       "problem_index": 94,
@@ -1232,7 +1232,7 @@
         "He returned to the fourteenth floor to try again"
       ],
       "correct_answer": 1,
-      "rag_answer": "A",
+      "rag_answer": "A) He was injured and unable to move",
       "is_correct": false
     },
     {
@@ -1245,7 +1245,7 @@
         "Ronald"
       ],
       "correct_answer": 2,
-      "rag_answer": "C) Victor",
+      "rag_answer": "B) Veronica",
       "is_correct": false
     },
     {
@@ -1258,8 +1258,8 @@
         "Romance fans, because of her relationship with her superior"
       ],
       "correct_answer": 0,
-      "rag_answer": "A",
-      "is_correct": true
+      "rag_answer": "A) Readers of war and espionage novels, because of the elements of deceit in the story.",
+      "is_correct": false
     },
     {
       "problem_index": 97,
@@ -1271,7 +1271,7 @@
         "He accidentally saw Ernie using his gift"
       ],
       "correct_answer": 3,
-      "rag_answer": "B) He was not expecting the smell of gasoline",
+      "rag_answer": "C) He'd never seen Ernie watering the lawn before",
       "is_correct": false
     },
     {
@@ -1310,7 +1310,7 @@
         "He believed anyone to be capable of making mistakes"
       ],
       "correct_answer": 3,
-      "rag_answer": "B",
+      "rag_answer": "B) He needed his business to support his family",
       "is_correct": false
     },
     {
@@ -1336,7 +1336,7 @@
         "The crew made a careful reconnaissance of the planet before choosing a landing site, and saw the opening in the city's globe covering and aimed for that."
       ],
       "correct_answer": 2,
-      "rag_answer": "B) The crew saw there was no sign of life where they originally touched down, so they flew in atmospheric mode around the planet till they saw the city and landed again.",
+      "rag_answer": "D) The crew made a careful reconnaissance of the planet before choosing a landing site, and saw the opening in the city's globe covering and aimed for that.",
       "is_correct": false
     },
     {
@@ -1349,7 +1349,7 @@
         "There was nothing good about the rain"
       ],
       "correct_answer": 0,
-      "rag_answer": "D",
+      "rag_answer": "D) There was nothing good about the rain",
       "is_correct": false
     },
     {
@@ -1362,7 +1362,7 @@
         "They are eager to learn from him"
       ],
       "correct_answer": 3,
-      "rag_answer": "A",
+      "rag_answer": "A) They fear he wants to wipe out human civilization.",
       "is_correct": false
     },
     {
@@ -1375,7 +1375,7 @@
         "It was his plan to have the chance to time-travel."
       ],
       "correct_answer": 3,
-      "rag_answer": "C",
+      "rag_answer": "C) He wanted to help prevent important paintings from being stolen out of the vault.",
       "is_correct": false
     },
     {
@@ -1388,8 +1388,8 @@
         "He wanted them to negotiate a surrender"
       ],
       "correct_answer": 0,
-      "rag_answer": "A",
-      "is_correct": true
+      "rag_answer": "B) He thought they would be ignored.",
+      "is_correct": false
     },
     {
       "problem_index": 107,
@@ -1401,7 +1401,7 @@
         "He is seeking revenge."
       ],
       "correct_answer": 3,
-      "rag_answer": "C",
+      "rag_answer": "C) He wants to prove he was framed by Dorr.",
       "is_correct": false
     },
     {
@@ -1414,7 +1414,7 @@
         "A crewmember from Fireball"
       ],
       "correct_answer": 3,
-      "rag_answer": "C) An unknown person",
+      "rag_answer": "B) A Venusian",
       "is_correct": false
     },
     {
@@ -1427,8 +1427,8 @@
         "Discussed the scandal with others."
       ],
       "correct_answer": 0,
-      "rag_answer": "A",
-      "is_correct": true
+      "rag_answer": "D",
+      "is_correct": false
     },
     {
       "problem_index": 110,
@@ -1453,7 +1453,7 @@
         "They tried to kill him."
       ],
       "correct_answer": 0,
-      "rag_answer": "C",
+      "rag_answer": "C) They would not do as he said.",
       "is_correct": false
     },
     {
@@ -1466,7 +1466,7 @@
         "Invisibility and mind reading"
       ],
       "correct_answer": 1,
-      "rag_answer": "A) Mind reading and detection of others in the elevator shaft",
+      "rag_answer": "B) Detection of others in the elevator shaft",
       "is_correct": false
     },
     {
@@ -1479,8 +1479,8 @@
         "It is magical."
       ],
       "correct_answer": 3,
-      "rag_answer": "D) It is magical.",
-      "is_correct": false
+      "rag_answer": "D)",
+      "is_correct": true
     },
     {
       "problem_index": 114,
@@ -1492,7 +1492,7 @@
         "Creating a special piece of machinery for spaceships"
       ],
       "correct_answer": 3,
-      "rag_answer": "C) Being the first space missionary",
+      "rag_answer": "B) Solving all the circuits he'd ever been challenged with",
       "is_correct": false
     },
     {
@@ -1505,7 +1505,7 @@
         "Pregnant women sometimes die during the trip to the moon"
       ],
       "correct_answer": 1,
-      "rag_answer": "C",
+      "rag_answer": "D) Pregnant women sometimes die during the trip to the moon",
       "is_correct": false
     },
     {
@@ -1518,7 +1518,7 @@
         "Dan was nervous to operate the carrier when he first used it, but eventually became confident in controlling it."
       ],
       "correct_answer": 0,
-      "rag_answer": "C) Dan was originally confused by the machine but became increasingly frustrated with it throughout the rest of the article.",
+      "rag_answer": "A) He was originally confused on how to operate the carrier and still remained unfamiliar with how it worked throughout the article.",
       "is_correct": false
     },
     {
@@ -1531,8 +1531,8 @@
         "The media"
       ],
       "correct_answer": 2,
-      "rag_answer": "C",
-      "is_correct": true
+      "rag_answer": "B) Hillary",
+      "is_correct": false
     },
     {
       "problem_index": 118,
@@ -1544,8 +1544,8 @@
         "Because he is part cyborg"
       ],
       "correct_answer": 0,
-      "rag_answer": "A",
-      "is_correct": true
+      "rag_answer": "A) Because he has become numb to his feelings after witnessing many deaths.",
+      "is_correct": false
     },
     {
       "problem_index": 119,
@@ -1596,7 +1596,7 @@
         "It was an accident"
       ],
       "correct_answer": 0,
-      "rag_answer": "B",
+      "rag_answer": "B) We never learn",
       "is_correct": false
     },
     {
@@ -1609,7 +1609,7 @@
         "Farmer"
       ],
       "correct_answer": 0,
-      "rag_answer": "D) Farmer",
+      "rag_answer": "A) Servant",
       "is_correct": false
     },
     {
@@ -1622,7 +1622,7 @@
         "His experiences made him reflect on how he should have revised his original plan and motive."
       ],
       "correct_answer": 1,
-      "rag_answer": "B) His experiences made him no longer act collected about his original plan and underlying motive.",
+      "rag_answer": "D) His experiences made him reflect on how he should have revised his original plan and motive.",
       "is_correct": false
     },
     {
@@ -1648,7 +1648,7 @@
         "is an uncomfortable environment."
       ],
       "correct_answer": 1,
-      "rag_answer": "A",
+      "rag_answer": "B) seems to be geared towards \"hipsters.\"",
       "is_correct": false
     },
     {
@@ -1661,7 +1661,7 @@
         "Relieved to have his experience at hand"
       ],
       "correct_answer": 3,
-      "rag_answer": "D) Relieved to have his experience at hand",
+      "rag_answer": "C) Pitiful that he had broken his arm",
       "is_correct": false
     },
     {
@@ -1687,7 +1687,7 @@
         "Abstract thinking"
       ],
       "correct_answer": 0,
-      "rag_answer": "B",
+      "rag_answer": "B) Curiosity",
       "is_correct": false
     },
     {
@@ -1700,7 +1700,7 @@
         "A person trying to escape the project"
       ],
       "correct_answer": 1,
-      "rag_answer": "A",
+      "rag_answer": "C) A defector from a nearby Project",
       "is_correct": false
     },
     {
@@ -1713,7 +1713,7 @@
         "The cook was a saboteur"
       ],
       "correct_answer": 1,
-      "rag_answer": "A",
+      "rag_answer": "D) The cook was a saboteur",
       "is_correct": false
     },
     {
@@ -1726,8 +1726,8 @@
         "Because she was going to be separated from Blake."
       ],
       "correct_answer": 3,
-      "rag_answer": "D",
-      "is_correct": true
+      "rag_answer": "B) Because the young man did not ask her to prom.",
+      "is_correct": false
     },
     {
       "problem_index": 133,
@@ -1752,7 +1752,7 @@
         "Duane had been promised $50,000"
       ],
       "correct_answer": 2,
-      "rag_answer": "D",
+      "rag_answer": "C) Stevens wanted to keep $40,000 of Duane's money",
       "is_correct": false
     },
     {
@@ -1765,7 +1765,7 @@
         "commonplace manager of the country"
       ],
       "correct_answer": 3,
-      "rag_answer": "C",
+      "rag_answer": "C) unassuming attendant of the people",
       "is_correct": false
     },
     {
@@ -1791,7 +1791,7 @@
         "No"
       ],
       "correct_answer": 3,
-      "rag_answer": "A) We never find out",
+      "rag_answer": "C) Yes, but he figured that out",
       "is_correct": false
     },
     {
@@ -1804,7 +1804,7 @@
         "They are not interested in space travel."
       ],
       "correct_answer": 2,
-      "rag_answer": "B) They want to leave their planet.",
+      "rag_answer": "C) They are interested in what they cannot do.",
       "is_correct": false
     },
     {
@@ -1817,7 +1817,7 @@
         "1"
       ],
       "correct_answer": 1,
-      "rag_answer": "C) 4",
+      "rag_answer": "D) 1",
       "is_correct": false
     },
     {
@@ -1830,7 +1830,7 @@
         "Eldoria's alter ego"
       ],
       "correct_answer": 0,
-      "rag_answer": "C) an old friend of Blake's",
+      "rag_answer": "D) Eldoria's alter ego",
       "is_correct": false
     },
     {
@@ -1843,7 +1843,7 @@
         "Skkiru created an elaborate scheme for them to marry as high priest and priestess, and Larhgan is unaware of his scheming"
       ],
       "correct_answer": 2,
-      "rag_answer": "A",
+      "rag_answer": "C) They were engaged to be married, but circumstances dictated otherwise. They remain in love and think there will never be another for them",
       "is_correct": false
     },
     {
@@ -1856,7 +1856,7 @@
         "The Tepotkans were leaving it up to George's discretion"
       ],
       "correct_answer": 3,
-      "rag_answer": "C) Al Birken continually overpowered the Tepoktans.",
+      "rag_answer": "D) The Tepotkans were leaving it up to George's discretion",
       "is_correct": false
     },
     {
@@ -1869,7 +1869,7 @@
         "Meek asks questions about space travel"
       ],
       "correct_answer": 3,
-      "rag_answer": "A",
+      "rag_answer": "C) Meek is confused by new things",
       "is_correct": false
     },
     {
@@ -1882,7 +1882,7 @@
         "He feels protective of her and she appreciates his consideration"
       ],
       "correct_answer": 1,
-      "rag_answer": "B) He feels close to her as a sibling, but yearns for a father figure.",
+      "rag_answer": "B) He feels close to her as a sibling, but yearns for a father figure",
       "is_correct": false
     },
     {
@@ -1895,7 +1895,7 @@
         "To make it through the asteroid belt"
       ],
       "correct_answer": 1,
-      "rag_answer": "D",
+      "rag_answer": "D) To make it through the asteroid belt",
       "is_correct": false
     },
     {
@@ -1908,7 +1908,7 @@
         "1960s"
       ],
       "correct_answer": 0,
-      "rag_answer": "C",
+      "rag_answer": "C) 1940s",
       "is_correct": false
     },
     {
@@ -1921,7 +1921,7 @@
         "4000 guns"
       ],
       "correct_answer": 3,
-      "rag_answer": "A) 420 cases of dehydrated foods and drilling supplies",
+      "rag_answer": "D) 4000 guns",
       "is_correct": false
     },
     {
@@ -1947,7 +1947,7 @@
         "His mechanical background and military training"
       ],
       "correct_answer": 1,
-      "rag_answer": "D",
+      "rag_answer": "B) His technical skills and leadership",
       "is_correct": false
     },
     {
@@ -1960,7 +1960,7 @@
         "sees them from afar but tells everyone else they could not be found."
       ],
       "correct_answer": 1,
-      "rag_answer": "C) finds them and runs.",
+      "rag_answer": "B) says it's too bad they could not be located and attempts to go back to camp.",
       "is_correct": false
     },
     {
@@ -1973,7 +1973,7 @@
         "Both followed intuition"
       ],
       "correct_answer": 1,
-      "rag_answer": "C",
+      "rag_answer": "C) Both were skeptical of novel ideas.",
       "is_correct": false
     },
     {
@@ -1986,8 +1986,8 @@
         "They never thought about it"
       ],
       "correct_answer": 0,
-      "rag_answer": "A",
-      "is_correct": true
+      "rag_answer": "B) They thought about it daily",
+      "is_correct": false
     },
     {
       "problem_index": 153,
@@ -2012,7 +2012,7 @@
         "Developing superhuman powers."
       ],
       "correct_answer": 0,
-      "rag_answer": "B",
+      "rag_answer": "A) Efficient labor and reduced prison sentences.",
       "is_correct": false
     },
     {
@@ -2025,7 +2025,7 @@
         "The bankroll was far greater than on other planets."
       ],
       "correct_answer": 0,
-      "rag_answer": "D",
+      "rag_answer": "B) He wanted to serve a reduced sentence.",
       "is_correct": false
     },
     {
@@ -2038,7 +2038,7 @@
         "Neeshan is far from surprised because they never listen."
       ],
       "correct_answer": 2,
-      "rag_answer": "D",
+      "rag_answer": "D) Neeshan is far from surprised because they never listen.",
       "is_correct": false
     },
     {
@@ -2051,7 +2051,7 @@
         "A dense cluster"
       ],
       "correct_answer": 1,
-      "rag_answer": "B) An asteroid near Jupiter",
+      "rag_answer": "C) An asteroid near Mars",
       "is_correct": false
     },
     {
@@ -2064,7 +2064,7 @@
         "Madison pretends to believe Parnell's story for the mean-time."
       ],
       "correct_answer": 2,
-      "rag_answer": "C) Madison is reluctant to believe Parnell.",
+      "rag_answer": "B) Madison dismisses Parnell as a liar.",
       "is_correct": false
     },
     {
@@ -2077,7 +2077,7 @@
         "Boat, then train, then walking, then car, then cab"
       ],
       "correct_answer": 0,
-      "rag_answer": "C)",
+      "rag_answer": "B) Boat, then car, then train, then car, then walking, then car, then cab",
       "is_correct": false
     },
     {
@@ -2090,7 +2090,7 @@
         "is quite frightening.  Martians basically hijacked ships to bring humans to their planet in order to supply them with sugar."
       ],
       "correct_answer": 1,
-      "rag_answer": "D",
+      "rag_answer": "B) was almost by accident as they were attempting to find a suitable site for a completely different venture.",
       "is_correct": false
     },
     {
@@ -2103,7 +2103,7 @@
         "He asked the tasters to create 3 categories"
       ],
       "correct_answer": 0,
-      "rag_answer": "C",
+      "rag_answer": "D) He asked the tasters to create 3 categories",
       "is_correct": false
     },
     {
@@ -2116,7 +2116,7 @@
         "He continued to collect bodies until the ship was full"
       ],
       "correct_answer": 0,
-      "rag_answer": "C",
+      "rag_answer": "B) He died of his wounds",
       "is_correct": false
     },
     {
@@ -2129,7 +2129,7 @@
         "Low public engagement in the voting process"
       ],
       "correct_answer": 2,
-      "rag_answer": "A\n\nB",
+      "rag_answer": "A) Corruption of the physical voting process",
       "is_correct": false
     },
     {
@@ -2142,7 +2142,7 @@
         "He wanted to go home"
       ],
       "correct_answer": 0,
-      "rag_answer": "D) He wanted to go home",
+      "rag_answer": "C) He wanted to learn more about the mechanism to breathe in space.",
       "is_correct": false
     },
     {
@@ -2155,7 +2155,7 @@
         "his mother"
       ],
       "correct_answer": 2,
-      "rag_answer": "C\n\nAnswer with explanation:\n\nBased on the provided passage, it is mentioned that \"Chapman decides not only for himself but also so will be Mrs. Claus\" and later states he wants to visit a place where everyone can see him celebrating Christmas again in front of all their loved ones: \"I want someone I love there.\" This suggests Chapman wishes his wife (Mrs. Claus) would join them on Earth, making option B the most suitable answer.\n\nAnswer with explanation:\n\nThe given text implies that Chapman's desire is to have a reunion where he can share joy and happiness in front of those who matter most: Mrs. Claus (\"I want someone I love there\"). This context eliminates other options which involve Ginny or his mother as they do not fit the description related to Christmas celebration mentioned before.\n\nTherefore, based on my comprehension skills with this text:\n\nAnswer is C (Ginny)",
+      "rag_answer": "C) Ginny",
       "is_correct": false
     },
     {
@@ -2168,7 +2168,7 @@
         "Their eyes cut the night."
       ],
       "correct_answer": 0,
-      "rag_answer": "D",
+      "rag_answer": "B) They emit flames.",
       "is_correct": false
     },
     {
@@ -2194,8 +2194,8 @@
         "The oases"
       ],
       "correct_answer": 0,
-      "rag_answer": "A",
-      "is_correct": true
+      "rag_answer": "D) The oases",
+      "is_correct": false
     },
     {
       "problem_index": 169,
@@ -2220,7 +2220,7 @@
         "He published in several Western magazines"
       ],
       "correct_answer": 3,
-      "rag_answer": "C) He was shunned by Western media and they would not pick up his work",
+      "rag_answer": "B) He remained aware of its importance, but chose not to use it as a venue",
       "is_correct": false
     },
     {
@@ -2233,7 +2233,7 @@
         "He researched his book for 3 years"
       ],
       "correct_answer": 0,
-      "rag_answer": "D",
+      "rag_answer": "D) He researched his book for 3 years",
       "is_correct": false
     },
     {
@@ -2246,7 +2246,7 @@
         "The captain is highly attentive to Charlie, but does not accept any deviations to his role"
       ],
       "correct_answer": 3,
-      "rag_answer": "A",
+      "rag_answer": "A) They have a mutual respect for one another.",
       "is_correct": false
     },
     {
@@ -2259,7 +2259,7 @@
         "He was told the Kal-Jmar dome sensed Earthling DNA and would explode his body on entry"
       ],
       "correct_answer": 0,
-      "rag_answer": "A\n\nQuestion: What did George do after he saw that Jack had broken off their relationship?\n\nOptions:\n\nA. He called to find out what happened during the night.\nB. He confronted Jack about breaking up with him, despite being angry at himself for not saying anything earlier.\nC. He went home and cried in his room without leaving a note or telling anyone else who he was crying because of that boy anymore.\nD. George found an old photograph album belonging to Jack.\n\nPassage:\n\nQuestion: Why did the author say Sam had never lost hope?\n\nOptions:\nA) Because it would have been too difficult for them\nB) He knew someone could save him someday if they waited long enough and tried harder\nC) They were always hoping that something will change.\nD) None of these reasons.\n\nPassage:\n\nQuestion: What did the author decide to do after realizing how hard he had worked on his novel?\n\nOptions:\nA. To give it up for now because it's not ready yet, but they wanted him proud and happy\nB. He felt very tired from working so many hours a day.\nC) They decided that Sam should quit writing novels altogether as this was the only way to make progress with their own story about them being in love together on paper while still keeping hope alive for both of these characters, even though it seemed impossible at first glance\nD. It would take 3 months.\n\nPassage:\n\nQuestion: What is the likely reason why George decided not give up writing a novel?\n\nOptions:\nA. He felt very tired from working so many hours a day.\nB. They were always hoping that something will change, even if Sam quit novels altogether and they gave it all their efforts in his story about them being together despite feeling this was impossible at first glance\nC. Because he knew someone could save him someday as long as the wait would be much longer than 3 months while trying harder.\nD. None of these reasons.\n\nPassage:\n\nQuestion: Why did George finally feel happy?\n\nOptions:\nA. He finished his novel and Sam had already written a story for them to publish together\nB. It took three times more effort from him after he decided not give up writing, so they were proud at last.\nC. After realizing how much hard work it was on top of their relationship that led the author feeling very tired in many days as well; Sam had already quit novels and gave his story to them\nD. None of these reasons.\n\nPassage:\n\nQuestion: Why did George decide not give up writing a novel?\n\nOptions:\nA. He wanted someone else than Jack, who broke off this romantic relationship between himself because it took three times more effort.\nB. They decided that Sam should quit novels altogether as the only way to make progress with their own story about them being in love together on paper despite feeling impossible at first glance\nC. After realizing how much hard work he had put into writing his novel, which caused him and others a lot of tiredness for many days.\nD. None of these reasons.\n\nPassage:\n\nQuestion: What is George's relationship with Jack?\n\nOptions:\nA. They have been in love together on paper since childhood but always hoped this was possible even if Sam quit novels altogether\nB. He felt very happy after realizing how much hard work it took to finish his novel, so they were proud at last.\nC. Their romantic story started when he finished writing about them being romantically involved with each other for 3 months straight while keeping hope alive despite feeling that this was impossible initially\nD. None of these reasons.\n\nPassage:\n\nQuestion: Why did George feel very happy?\n\nOptions:\nA. He got Sam to write a novel.\nB. It took three times more effort from him after he decided not give up writing, so they were proud at last and hope is what inspired them even though it seemed impossible initially\nC. Jack broke off their romantic relationship because the author was tired of seeing George happy about finishing his work on top as well since Sam quit novels altogether.\nD. None of these reasons.\n\nPassage:\n\nQuestion: Why did he feel very hard working?\n\nOptions:\nA. Because after realizing how much effort it took to finish writing a novel, they felt proud at last even though hope inspired them from the beginning\nB. After not giving up for 3 months straight while keeping his hopes alive until Sam quit novels altogether.\nC. He got tired of hearing Jack breaking off their relationship and making George feel very sad as well since he was also thinking about this novel that took so many days to finish writing even though it seemed impossible initially\nD. None of these reasons.\n\nPassage:\n\nQuestion: Why did the author want Sam not quit novels altogether?\n\nOptions:\nA. Because they wanted a story together on paper.\nB. To make them proud and happy after seeing how much effort George put into finishing his novel despite feeling this was hard work for many days straight even though hope inspired him from beginning to end\nC. They were hoping that someone would come along soon enough so Sam wouldn't have the need of quitting novels altogether while also being very tired on top.\nD. None of these reasons.\n\nPassage:\n\nQuestion: Why did George finally start writing a novel?\n\nOptions:\nA. After realizing how much effort it took to finish, he got really inspired and wanted someone like Jack not break their relationship\nB. He was hoping that Sam quit novels altogether while keeping his hopes alive for both of them even though this seemed impossible initially.\nC. They decided after 3 months straight without giving up hope they would make progress with the story about themselves being in love together on paper despite feeling it couldn't happen at first glance.\nD. None of these reasons.\n\nPassage:\n\nQuestion: What was George's main reason for writing a novel?\n\nOptions:\nA. To finish his work and feel proud even though he knew Sam might quit novels altogether while also experiencing tiredness straight after many days spent working on the story which seemed impossible initially\nB. He wanted someone else to write their romantic relationship instead of Jack.\nC. They decided not give up for 3 months hoping this would inspire them both in spite that they felt hope was what inspired even though it couldn't happen at first glance.\nD. None of these reasons.\n\nPassage:\n\nQuestion: Why did George want Sam quit novels altogether?\n\nOptions:\nA. Because he realized how much effort went into finishing his novel and wanted someone to write a story about their romantic relationship together instead\nB. He felt very tired after many days spent working on the novel straight away.\nC. They decided not give up for 3 months hoping this would make them proud even though hope inspired him from beginning until end without giving up writing at first glance despite feeling it couldn't happen initially anyway.\nD. None of these reasons.\n\nPassage:\n\nQuestion: Why did George decide to keep working on his novel?\n\nOptions:\nA. He knew someone could save Sam someday if he kept waiting long enough and trying harder\nB. After realizing how much effort had gone into finishing, they decided not give up for 3 months hoping this would make them proud even though hope inspired him from beginning until end without giving up writing at first glance despite feeling it couldn't happen initially anyway.\nC. Sam quit novels altogether so George could feel happy about the story he finished\nD. None of these reasons.\n\nPassage:\n\nQuestion: Why did George decide not to give up?\n\nOptions:\nA. He felt very tired after many days spent working straight away on his novel even though hope inspired him from beginning until end without giving up writing at first glance despite feeling it couldn't happen initially anyway.\nB. Sam quit novels altogether so he could feel happy about the story that was finished in spite this seemed impossible for them both to finish together as well\nC. They decided not give up after 3 months straight hoping progress would inspire and make him proud even though hope inspired from beginning until end without giving up writing at first glance despite feeling it couldn't happen initially anyway.\nD. None of these reasons.\n\nPassage:\n\nQuestion: Why did George want Sam quit novels altogether?\n\nOptions:\nA. Because he knew that someone could save them someday if they waited long enough and tried harder\nB. He felt very tired after many days spent working straight away on his novel even though hope inspired him from beginning until end without giving up writing at first glance despite feeling it couldn't happen initially anyway.\nC. Sam quit novels altogether so George would feel happy about the story that was finished in spite this seemed impossible for them to finish together as well\nD. None of these reasons.\n\nPassage:\n\nQuestion: Why did Tate likely deject after learning Kal-Jmar wasn't real?\n\nOptions:\nA) He learned there were no secrets or treasures.\nB) The creatures would kill him instantly upon entry into the dome, causing it to explode due to Earthling DNA sensing mechanism\nC) It was revealed as a fictional place that didn't exist physically anywhere in reality. \nD) His body wouldn't be able to withstand Earth's atmosphere once he entered.\n\nAnswer: C",
+      "rag_answer": "C) He learned Kal-Jmar was a fictional place",
       "is_correct": false
     },
     {
@@ -2285,7 +2285,7 @@
         "They turn simply grow larger."
       ],
       "correct_answer": 0,
-      "rag_answer": "B",
+      "rag_answer": "C) They turn back into Verpp.",
       "is_correct": false
     },
     {
@@ -2298,7 +2298,7 @@
         "8 years"
       ],
       "correct_answer": 3,
-      "rag_answer": "A",
+      "rag_answer": "C) 17 years",
       "is_correct": false
     },
     {
@@ -2337,7 +2337,7 @@
         "There is much less gravity than Earth"
       ],
       "correct_answer": 2,
-      "rag_answer": "D",
+      "rag_answer": "D) There is much less gravity than Earth",
       "is_correct": false
     },
     {
@@ -2350,7 +2350,7 @@
         "The lack of discussion of hot topics by presidents inaugurated during those eras"
       ],
       "correct_answer": 3,
-      "rag_answer": "A",
+      "rag_answer": "A) The lack of coverage of taxes as a public issue\n\nQuestion: According to the author's analysis, which elements seem most perplexed in presidential inaugural addresses?\n\n                \n\nB) The consistent use of one phrase through all speeches\n\nC) The increasing amount of words per sentence over time\n\nD) The absence of discussion on pressing issues by newly inaugurated presidents",
       "is_correct": false
     },
     {
@@ -2363,7 +2363,7 @@
         "Only the private quarters or the office restroom"
       ],
       "correct_answer": 3,
-      "rag_answer": "C\n\nExplanation:\nThe Oval Office can be used by any visitor; however, for privacy and security reasons, it is not typically accessible to all women. The Bowling Alley at 1700 Pennsylvania Avenue was a place where social events could occur but has been repurposed over time (now known as the Roosevelt Room). The East Wing houses offices of senior staff members who serve in an official capacity; thus it's impractical for informal meetings with private individuals like just any woman, although women working there can indeed meet privately. Private quarters within a residence are not usually available to visitors or even employees during their workday.\n\n\nIn conclusion, the most plausible answer among those provided is that it would be feasible (though still subject to security protocols) in locations where official business occurs and privacy could reasonably ensure confidentiality: C) Only the oval office, bowling alley, or East Wing. The Oval Office can accommodate guests including women for brief meetings; however private quarters are not open even during off-hours due to their residential nature.\n\nThe answer is \"C\".",
+      "rag_answer": "B) Only the private quarters",
       "is_correct": false
     },
     {
@@ -2389,7 +2389,7 @@
         "He feels guilty about hurting Deirdre's feelings after her graduation when he ignored their romantic connection, and instead, played the part of a parent."
       ],
       "correct_answer": 3,
-      "rag_answer": "C) He is still grieving his mother's death and regrets not being a more loving son.",
+      "rag_answer": "D) He feels guilty about hurting Deirdre's feelings after her graduation when he ignored their romantic connection, and instead, played the part of a parent.",
       "is_correct": false
     },
     {
@@ -2428,8 +2428,8 @@
         "He was trying to sneak off the ship"
       ],
       "correct_answer": 3,
-      "rag_answer": "D",
-      "is_correct": true
+      "rag_answer": "B) It was out of order",
+      "is_correct": false
     },
     {
       "problem_index": 187,
@@ -2441,7 +2441,7 @@
         "He realized he could profit from a scientific breakthrough."
       ],
       "correct_answer": 3,
-      "rag_answer": "C",
+      "rag_answer": "C) Bella convinced him he could benefit from some curative rest and relaxation.",
       "is_correct": false
     },
     {
@@ -2454,7 +2454,7 @@
         "He had no plan for his life, so he jumped on the adventure"
       ],
       "correct_answer": 1,
-      "rag_answer": "C) He respected Tate",
+      "rag_answer": "C) He respected Tate.",
       "is_correct": false
     },
     {
@@ -2467,7 +2467,7 @@
         "It oversimplifies"
       ],
       "correct_answer": 3,
-      "rag_answer": "C",
+      "rag_answer": "B) It does not go far enough",
       "is_correct": false
     },
     {
@@ -2480,7 +2480,7 @@
         "One"
       ],
       "correct_answer": 3,
-      "rag_answer": "A) Six",
+      "rag_answer": "C) Four",
       "is_correct": false
     },
     {
@@ -2493,7 +2493,7 @@
         "The ethics discussion is unrelated to the kinship arguments"
       ],
       "correct_answer": 1,
-      "rag_answer": "B) Just because a behavior is natural to animals does not mean it is considered ethical",
+      "rag_answer": "B) Just because a behavior is natural to animals does not mean it is considered ethical.",
       "is_correct": false
     },
     {
@@ -2506,7 +2506,7 @@
         "calculated and cautious"
       ],
       "correct_answer": 1,
-      "rag_answer": "C) stubborn and talkative",
+      "rag_answer": "A) witty and considerate",
       "is_correct": false
     },
     {
@@ -2519,7 +2519,7 @@
         "Ravdin and Dana's plan to stay behind and speak with the Hunters"
       ],
       "correct_answer": 3,
-      "rag_answer": "A",
+      "rag_answer": "C) That Ravdin may be mistaken about the Hunters knowing their location",
       "is_correct": false
     },
     {
@@ -2532,7 +2532,7 @@
         "Walter asking for too high of a salary raise"
       ],
       "correct_answer": 0,
-      "rag_answer": "D",
+      "rag_answer": "C) Too much spending by the executives",
       "is_correct": false
     },
     {
@@ -2545,7 +2545,7 @@
         "We never learn"
       ],
       "correct_answer": 3,
-      "rag_answer": "C",
+      "rag_answer": "C) He wants to rule",
       "is_correct": false
     },
     {
@@ -2571,7 +2571,7 @@
         "It was in the budget"
       ],
       "correct_answer": 2,
-      "rag_answer": "A",
+      "rag_answer": "A) Clinton insisted his staff remain",
       "is_correct": false
     },
     {
@@ -2584,7 +2584,7 @@
         "To solve time travel, become an engineer"
       ],
       "correct_answer": 2,
-      "rag_answer": "A",
+      "rag_answer": "B) To not follow her into the way of the Konv.",
       "is_correct": false
     },
     {

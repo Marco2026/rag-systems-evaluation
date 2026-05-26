@@ -6,12 +6,12 @@
   "generator_model": "huihui_ai/qwen2.5-abliterate:72b",
   "generator_params": 72.7,
   "generator_size": 44.2,
-  "timestamp": "2026-04-29T23:27:45.537293",
-  "duration": "00:34:19",
-  "duration (seconds)": 2059,
+  "timestamp": "2026-05-22T19:44:32.800536",
+  "duration": "00:31:36",
+  "duration (seconds)": 1896,
   "total": 200,
-  "correct": 190,
-  "accuracy": 0.95,
+  "correct": 189,
+  "accuracy": 0.945,
   "results": [
     {
       "problem_index": 1,
@@ -1219,8 +1219,8 @@
         "D": "Moonhaven"
       },
       "correct_answer": "A",
-      "rag_answer": "A",
-      "is_correct": true
+      "rag_answer": "B",
+      "is_correct": false
     },
     {
       "problem_index": 94,

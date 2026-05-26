@@ -6,12 +6,12 @@
   "generator_model": "goekdenizguelmez/JOSIEFIED-Qwen2.5:7b",
   "generator_params": 7.62,
   "generator_size": 4.4,
-  "timestamp": "2026-04-14T11:42:19.865728",
-  "duration": "00:07:39",
-  "duration (seconds)": 459,
+  "timestamp": "2026-05-22T14:24:51.526836",
+  "duration": "00:07:01",
+  "duration (seconds)": 421,
   "total": 200,
-  "correct": 170,
-  "accuracy": 0.85,
+  "correct": 165,
+  "accuracy": 0.825,
   "results": [
     {
       "problem_index": 1,
@@ -478,8 +478,8 @@
         "ensure the children were always neat and clean"
       ],
       "correct_answer": "B",
-      "rag_answer": "B",
-      "is_correct": true
+      "rag_answer": "A",
+      "is_correct": false
     },
     {
       "problem_index": 37,
@@ -504,8 +504,8 @@
         "A Player of Patience"
       ],
       "correct_answer": "B",
-      "rag_answer": "B",
-      "is_correct": true
+      "rag_answer": "C",
+      "is_correct": false
     },
     {
       "problem_index": 39,
@@ -556,8 +556,8 @@
         "You could reduce stress by doing nothing."
       ],
       "correct_answer": "B",
-      "rag_answer": "B",
-      "is_correct": true
+      "rag_answer": "A",
+      "is_correct": false
     },
     {
       "problem_index": 43,
@@ -1505,8 +1505,8 @@
         "the smaller member countries would be pleased"
       ],
       "correct_answer": "B",
-      "rag_answer": "B",
-      "is_correct": true
+      "rag_answer": "D",
+      "is_correct": false
     },
     {
       "problem_index": 116,
@@ -1583,8 +1583,8 @@
         "A cure for cancer."
       ],
       "correct_answer": "B",
-      "rag_answer": "B",
-      "is_correct": true
+      "rag_answer": "C",
+      "is_correct": false
     },
     {
       "problem_index": 122,
@@ -1622,8 +1622,8 @@
         "only a character made up by Arthur Conan Dolye"
       ],
       "correct_answer": "D",
-      "rag_answer": "A",
-      "is_correct": false
+      "rag_answer": "D",
+      "is_correct": true
     },
     {
       "problem_index": 125,
@@ -2233,8 +2233,8 @@
         "A conservative politician."
       ],
       "correct_answer": "C",
-      "rag_answer": "C",
-      "is_correct": true
+      "rag_answer": "B",
+      "is_correct": false
     },
     {
       "problem_index": 172,

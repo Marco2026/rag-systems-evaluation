@@ -6,12 +6,12 @@
   "generator_model": "huihui_ai/qwen2.5-abliterate:72b",
   "generator_params": 72.7,
   "generator_size": 44.2,
-  "timestamp": "2026-04-14T18:29:55.083914",
-  "duration": "00:05:54",
-  "duration (seconds)": 354,
+  "timestamp": "2026-05-22T08:33:47.073577",
+  "duration": "00:05:50",
+  "duration (seconds)": 350,
   "total": 200,
-  "correct": 128,
-  "accuracy": 0.64,
+  "correct": 130,
+  "accuracy": 0.65,
   "results": [
     {
       "problem_index": 1,
@@ -179,8 +179,8 @@
         "wise person with many famous sayings"
       ],
       "correct_answer": "A",
-      "rag_answer": "A",
-      "is_correct": true
+      "rag_answer": "B",
+      "is_correct": false
     },
     {
       "problem_index": 14,
@@ -218,8 +218,8 @@
         "the 19th century science and technology"
       ],
       "correct_answer": "B",
-      "rag_answer": "D",
-      "is_correct": false
+      "rag_answer": "B",
+      "is_correct": true
     },
     {
       "problem_index": 17,
@@ -439,8 +439,8 @@
         "Optimistic"
       ],
       "correct_answer": "A",
-      "rag_answer": "C",
-      "is_correct": false
+      "rag_answer": "A",
+      "is_correct": true
     },
     {
       "problem_index": 34,
@@ -569,8 +569,8 @@
         "It's hard to achieve what we wish."
       ],
       "correct_answer": "D",
-      "rag_answer": "D",
-      "is_correct": true
+      "rag_answer": "B",
+      "is_correct": false
     },
     {
       "problem_index": 44,
@@ -790,8 +790,8 @@
         "he is not sure of the love from her"
       ],
       "correct_answer": "C",
-      "rag_answer": "A",
-      "is_correct": false
+      "rag_answer": "C",
+      "is_correct": true
     },
     {
       "problem_index": 61,
@@ -855,8 +855,8 @@
         "They mainly did their research in their spare time."
       ],
       "correct_answer": "D",
-      "rag_answer": "B",
-      "is_correct": false
+      "rag_answer": "D",
+      "is_correct": true
     },
     {
       "problem_index": 66,
@@ -972,8 +972,8 @@
         "meet his wife"
       ],
       "correct_answer": "D",
-      "rag_answer": "A",
-      "is_correct": false
+      "rag_answer": "D",
+      "is_correct": true
     },
     {
       "problem_index": 75,
@@ -1063,7 +1063,7 @@
         "First the author makes an introduction and then draws a conclusion."
       ],
       "correct_answer": "A",
-      "rag_answer": "B",
+      "rag_answer": "D",
       "is_correct": false
     },
     {
@@ -1076,8 +1076,8 @@
         "He agreed to accept Michael because he was moved by his determination."
       ],
       "correct_answer": "C",
-      "rag_answer": "D",
-      "is_correct": false
+      "rag_answer": "C",
+      "is_correct": true
     },
     {
       "problem_index": 83,
@@ -1102,7 +1102,7 @@
         "We shouldn't care what kind of situations we're in."
       ],
       "correct_answer": "A",
-      "rag_answer": "B",
+      "rag_answer": "C",
       "is_correct": false
     },
     {
@@ -1115,7 +1115,7 @@
         "there must be many houses and buildings not far away"
       ],
       "correct_answer": "D",
-      "rag_answer": "C",
+      "rag_answer": "B",
       "is_correct": false
     },
     {
@@ -1219,8 +1219,8 @@
         "She knew the boy's trouble."
       ],
       "correct_answer": "D",
-      "rag_answer": "D",
-      "is_correct": true
+      "rag_answer": "B",
+      "is_correct": false
     },
     {
       "problem_index": 94,
@@ -1362,8 +1362,8 @@
         "More and more people die of AIDS now."
       ],
       "correct_answer": "D",
-      "rag_answer": "D",
-      "is_correct": true
+      "rag_answer": "B",
+      "is_correct": false
     },
     {
       "problem_index": 105,
@@ -1440,8 +1440,8 @@
         "Cambridge University is younger than OxfordUniversity."
       ],
       "correct_answer": "D",
-      "rag_answer": "C",
-      "is_correct": false
+      "rag_answer": "D",
+      "is_correct": true
     },
     {
       "problem_index": 111,
@@ -1583,7 +1583,7 @@
         "A cure for cancer."
       ],
       "correct_answer": "B",
-      "rag_answer": "C",
+      "rag_answer": "A",
       "is_correct": false
     },
     {
@@ -1609,8 +1609,8 @@
         "all of the above"
       ],
       "correct_answer": "D",
-      "rag_answer": "D",
-      "is_correct": true
+      "rag_answer": "C",
+      "is_correct": false
     },
     {
       "problem_index": 124,
@@ -1700,8 +1700,8 @@
         "she changed her mind in hopes of keeping it and increasing its value"
       ],
       "correct_answer": "B",
-      "rag_answer": "A",
-      "is_correct": false
+      "rag_answer": "B",
+      "is_correct": true
     },
     {
       "problem_index": 131,
@@ -1791,8 +1791,8 @@
         "He needed people to share his responsibility."
       ],
       "correct_answer": "C",
-      "rag_answer": "B",
-      "is_correct": false
+      "rag_answer": "C",
+      "is_correct": true
     },
     {
       "problem_index": 138,
@@ -2350,8 +2350,8 @@
         "they have to follow an evolutionary step backward."
       ],
       "correct_answer": "A",
-      "rag_answer": "A",
-      "is_correct": true
+      "rag_answer": "C",
+      "is_correct": false
     },
     {
       "problem_index": 181,
@@ -2467,7 +2467,7 @@
         "negative"
       ],
       "correct_answer": "B",
-      "rag_answer": "A",
+      "rag_answer": "C",
       "is_correct": false
     },
     {
@@ -2493,8 +2493,8 @@
         "2-3"
       ],
       "correct_answer": "B",
-      "rag_answer": "B",
-      "is_correct": true
+      "rag_answer": "D",
+      "is_correct": false
     },
     {
       "problem_index": 192,
@@ -2545,7 +2545,7 @@
         "tell the readers where New York lies"
       ],
       "correct_answer": "C",
-      "rag_answer": "A",
+      "rag_answer": "B",
       "is_correct": false
     },
     {

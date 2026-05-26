@@ -6,12 +6,12 @@
   "generator_model": "huihui_ai/fluentlylm-prinum-abliterated:32b",
   "generator_params": 32.8,
   "generator_size": 18.5,
-  "timestamp": "2026-04-17T23:20:10.685893",
-  "duration": "00:17:03",
-  "duration (seconds)": 1023,
+  "timestamp": "2026-05-22T00:20:46.678454",
+  "duration": "00:15:54",
+  "duration (seconds)": 954,
   "total": 200,
-  "correct": 184,
-  "accuracy": 0.92,
+  "correct": 183,
+  "accuracy": 0.915,
   "results": [
     {
       "problem_index": 1,
@@ -257,8 +257,8 @@
         "juice"
       ],
       "correct_answer": "D",
-      "rag_answer": "D",
-      "is_correct": true
+      "rag_answer": "D) Juice\n\nExplanation:\n- The passage provides a list of ingredients required to make the milkshake, which includes bananas, ice cream, and milk.\n- It also mentions that you need a blender to mix these ingredients.\n- There is no mention of needing juice for this recipe.\n\nTherefore, based on the information given in the passage, the correct answer is D) Juice.",
+      "is_correct": false
     },
     {
       "problem_index": 20,
@@ -517,8 +517,8 @@
         "Some don't do and do in schools."
       ],
       "correct_answer": "C",
-      "rag_answer": "B",
-      "is_correct": false
+      "rag_answer": "C",
+      "is_correct": true
     },
     {
       "problem_index": 40,
@@ -829,7 +829,7 @@
         "A busy family"
       ],
       "correct_answer": "D",
-      "rag_answer": "D) A busy family\n\nThe passage describes how all members of Josh and Amy's family are occupied with various responsibilities, including their jobs, school activities, and household chores. It portrays a picture of a family where everyone is engaged in different tasks throughout the day, making \"A busy family\" the most appropriate title based on the content provided.",
+      "rag_answer": "C",
       "is_correct": false
     },
     {
@@ -894,8 +894,8 @@
         "didn't know all the people they passed"
       ],
       "correct_answer": "A",
-      "rag_answer": "A",
-      "is_correct": true
+      "rag_answer": "B",
+      "is_correct": false
     },
     {
       "problem_index": 69,
@@ -1388,8 +1388,8 @@
         "Sue's Friend"
       ],
       "correct_answer": "A",
-      "rag_answer": "A",
-      "is_correct": true
+      "rag_answer": "A) A Wrong Question",
+      "is_correct": false
     },
     {
       "problem_index": 107,
@@ -1700,8 +1700,8 @@
         "said \"POLICE NOTICE, NO PARKING\""
       ],
       "correct_answer": "D",
-      "rag_answer": "D",
-      "is_correct": true
+      "rag_answer": "C",
+      "is_correct": false
     },
     {
       "problem_index": 131,
@@ -1960,8 +1960,8 @@
         "clearer and clearer."
       ],
       "correct_answer": "A",
-      "rag_answer": "B",
-      "is_correct": false
+      "rag_answer": "A",
+      "is_correct": true
     },
     {
       "problem_index": 151,
@@ -2194,8 +2194,8 @@
         "on the left of"
       ],
       "correct_answer": "A",
-      "rag_answer": "A) next to",
-      "is_correct": false
+      "rag_answer": "A",
+      "is_correct": true
     },
     {
       "problem_index": 169,
@@ -2519,7 +2519,7 @@
         "Poor People and Money."
       ],
       "correct_answer": "A",
-      "rag_answer": "A) Money from the Sky.",
+      "rag_answer": "A) Money from the Sky. \n\nThe passage primarily focuses on a large amount of money falling from the sky due to an accident involving a truck in Overtown, Florida. It describes how people responded by taking the money and police efforts to recover it. The central theme is the unexpected arrival of money from above, making \"Money from the Sky\" the most appropriate title.\n\nB) Police and Money - While the police play a role in trying to retrieve the money, this isn't the main focus.\nC) A Truck of Money - Although the money came from a truck accident, the passage doesn't emphasize the truck itself.\nD) Poor People and Money - The passage mentions poor people taking the money but doesn't center on their poverty.\n\nGiven these options, \"Money from the Sky\" best encapsulates the core event described in the passage.",
       "is_correct": false
     },
     {

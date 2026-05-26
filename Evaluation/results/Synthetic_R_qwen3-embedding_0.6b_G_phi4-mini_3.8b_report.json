@@ -6,9 +6,9 @@
   "generator_model": "phi4-mini:3.8b",
   "generator_params": 3.84,
   "generator_size": 2.3,
-  "timestamp": "2026-04-30T04:29:02.773504",
-  "duration": "00:09:31",
-  "duration (seconds)": 571,
+  "timestamp": "2026-05-22T20:22:27.994090",
+  "duration": "00:06:17",
+  "duration (seconds)": 377,
   "total": 200,
   "correct": 0,
   "accuracy": 0.0,
@@ -179,7 +179,7 @@
         "D": "Firewatch Tower"
       },
       "correct_answer": "C",
-      "rag_answer": "D) Firewatch Tower",
+      "rag_answer": "A) Mount Drakon",
       "is_correct": false
     },
     {
@@ -465,7 +465,7 @@
         "D": "Fishing"
       },
       "correct_answer": "D",
-      "rag_answer": "D) Fishing",
+      "rag_answer": "B) Mining",
       "is_correct": false
     },
     {
@@ -946,7 +946,7 @@
         "D": "Mithril"
       },
       "correct_answer": "D",
-      "rag_answer": "D) Mithril",
+      "rag_answer": "B) Silver",
       "is_correct": false
     },
     {
@@ -1219,7 +1219,7 @@
         "D": "Moonhaven"
       },
       "correct_answer": "A",
-      "rag_answer": "B) Arvindor",
+      "rag_answer": "B) Arvandor",
       "is_correct": false
     },
     {
@@ -1232,7 +1232,7 @@
         "D": "20,000"
       },
       "correct_answer": "C",
-      "rag_answer": "C) 10,000",
+      "rag_answer": "B) 5,000",
       "is_correct": false
     },
     {
@@ -1583,7 +1583,7 @@
         "D": "1260"
       },
       "correct_answer": "A",
-      "rag_answer": "D) 1260",
+      "rag_answer": "B) 1320",
       "is_correct": false
     },
     {
@@ -1778,7 +1778,7 @@
         "D": "Azure Sea"
       },
       "correct_answer": "D",
-      "rag_answer": "D) Azure Sea",
+      "rag_answer": "A) None of these options are correct. The passage does not provide a specific alternative to \"Azure Sea\" as an answer. Therefore, by process of elimination and based on the information given in option D), it is safe to choose: \n\nD) Azure Sea",
       "is_correct": false
     },
     {
@@ -1999,7 +1999,7 @@
         "D": "The signing of the Treaty of Silverlake"
       },
       "correct_answer": "D",
-      "rag_answer": "D) The signing of the Treaty of Silverlake",
+      "rag_answer": "D) The signing of the Treaty of SilverLake",
       "is_correct": false
     },
     {
@@ -2077,7 +2077,7 @@
         "D": "Resource competition"
       },
       "correct_answer": "C",
-      "rag_answer": "C) Valdrek accused Veridia of harboring rebels disrupting supply lines.",
+      "rag_answer": "C) Valdrek accused Veridia of harboring rebels disrupting supply lines",
       "is_correct": false
     },
     {
@@ -2376,7 +2376,7 @@
         "D": "An ancient obelisk in the center of a circular clearing"
       },
       "correct_answer": "D",
-      "rag_answer": "C) A sword wielded by the Swordbearer",
+      "rag_answer": "D) An ancient obelisk in the center of a circular clearing",
       "is_correct": false
     },
     {
@@ -2610,7 +2610,7 @@
         "D": "1850"
       },
       "correct_answer": "D",
-      "rag_answer": "A) 500",
+      "rag_answer": "B) 850",
       "is_correct": false
     }
   ]

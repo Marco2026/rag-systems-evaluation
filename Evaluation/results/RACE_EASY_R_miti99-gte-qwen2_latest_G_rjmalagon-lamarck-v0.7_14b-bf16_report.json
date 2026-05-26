@@ -6,12 +6,12 @@
   "generator_model": "rjmalagon/lamarck-v0.7:14b-bf16",
   "generator_params": 14.8,
   "generator_size": 27.5,
-  "timestamp": "2026-04-18T00:01:18.344493",
-  "duration": "00:10:21",
-  "duration (seconds)": 621,
+  "timestamp": "2026-05-22T02:41:49.427619",
+  "duration": "00:09:39",
+  "duration (seconds)": 579,
   "total": 200,
-  "correct": 182,
-  "accuracy": 0.91,
+  "correct": 180,
+  "accuracy": 0.9,
   "results": [
     {
       "problem_index": 1,
@@ -270,8 +270,8 @@
         "six"
       ],
       "correct_answer": "C",
-      "rag_answer": "C",
-      "is_correct": true
+      "rag_answer": "B",
+      "is_correct": false
     },
     {
       "problem_index": 21,
@@ -829,8 +829,8 @@
         "A busy family"
       ],
       "correct_answer": "D",
-      "rag_answer": "C",
-      "is_correct": false
+      "rag_answer": "D",
+      "is_correct": true
     },
     {
       "problem_index": 64,
@@ -920,8 +920,8 @@
         "Jane's friend"
       ],
       "correct_answer": "C",
-      "rag_answer": "D",
-      "is_correct": false
+      "rag_answer": "C",
+      "is_correct": true
     },
     {
       "problem_index": 71,
@@ -1297,8 +1297,8 @@
         "4000 yuan"
       ],
       "correct_answer": "D",
-      "rag_answer": "D",
-      "is_correct": true
+      "rag_answer": "C",
+      "is_correct": false
     },
     {
       "problem_index": 100,
@@ -1856,8 +1856,8 @@
         "A professional report"
       ],
       "correct_answer": "A",
-      "rag_answer": "A",
-      "is_correct": true
+      "rag_answer": "B",
+      "is_correct": false
     },
     {
       "problem_index": 143,
@@ -2298,8 +2298,8 @@
         "After she came back from the cinema."
       ],
       "correct_answer": "A",
-      "rag_answer": "A",
-      "is_correct": true
+      "rag_answer": "D",
+      "is_correct": false
     },
     {
       "problem_index": 177,

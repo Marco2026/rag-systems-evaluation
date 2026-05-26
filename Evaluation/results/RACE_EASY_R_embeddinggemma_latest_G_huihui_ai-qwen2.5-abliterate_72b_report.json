@@ -6,12 +6,12 @@
   "generator_model": "huihui_ai/qwen2.5-abliterate:72b",
   "generator_params": 72.7,
   "generator_size": 44.2,
-  "timestamp": "2026-04-17T20:33:26.838899",
-  "duration": "00:31:53",
-  "duration (seconds)": 1913,
+  "timestamp": "2026-05-21T22:57:05.694840",
+  "duration": "00:33:04",
+  "duration (seconds)": 1984,
   "total": 200,
-  "correct": 185,
-  "accuracy": 0.925,
+  "correct": 186,
+  "accuracy": 0.93,
   "results": [
     {
       "problem_index": 1,
@@ -296,7 +296,7 @@
         "in classroom"
       ],
       "correct_answer": "B",
-      "rag_answer": "C",
+      "rag_answer": "A",
       "is_correct": false
     },
     {
@@ -829,8 +829,8 @@
         "A busy family"
       ],
       "correct_answer": "D",
-      "rag_answer": "C",
-      "is_correct": false
+      "rag_answer": "D",
+      "is_correct": true
     },
     {
       "problem_index": 64,
@@ -1700,8 +1700,8 @@
         "said \"POLICE NOTICE, NO PARKING\""
       ],
       "correct_answer": "D",
-      "rag_answer": "C",
-      "is_correct": false
+      "rag_answer": "D",
+      "is_correct": true
     },
     {
       "problem_index": 131,
@@ -1752,8 +1752,8 @@
         "Eight"
       ],
       "correct_answer": "C",
-      "rag_answer": "C",
-      "is_correct": true
+      "rag_answer": "A",
+      "is_correct": false
     },
     {
       "problem_index": 135,
@@ -1778,8 +1778,8 @@
         "on 2"
       ],
       "correct_answer": "B",
-      "rag_answer": "C",
-      "is_correct": false
+      "rag_answer": "B",
+      "is_correct": true
     },
     {
       "problem_index": 137,
@@ -1856,8 +1856,8 @@
         "A professional report"
       ],
       "correct_answer": "A",
-      "rag_answer": "B",
-      "is_correct": false
+      "rag_answer": "A",
+      "is_correct": true
     },
     {
       "problem_index": 143,
@@ -2077,8 +2077,8 @@
         "out"
       ],
       "correct_answer": "B",
-      "rag_answer": "B",
-      "is_correct": true
+      "rag_answer": "D",
+      "is_correct": false
     },
     {
       "problem_index": 160,
@@ -2545,8 +2545,8 @@
         "Pilots'- First Class -Club- Economy"
       ],
       "correct_answer": "D",
-      "rag_answer": "D",
-      "is_correct": true
+      "rag_answer": "B",
+      "is_correct": false
     },
     {
       "problem_index": 196,

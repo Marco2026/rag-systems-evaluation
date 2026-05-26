@@ -6,9 +6,9 @@
   "generator_model": "phi4-mini:3.8b",
   "generator_params": 3.84,
   "generator_size": 2.3,
-  "timestamp": "2026-04-14T11:25:58.863297",
-  "duration": "00:08:42",
-  "duration (seconds)": 522,
+  "timestamp": "2026-05-22T11:22:15.881214",
+  "duration": "00:07:46",
+  "duration (seconds)": 466,
   "total": 200,
   "correct": 1,
   "accuracy": 0.005,
@@ -23,7 +23,7 @@
         "he wanted to set a good example to others"
       ],
       "correct_answer": "B",
-      "rag_answer": "B) he felt pity for the old couple",
+      "rag_answer": "A) he didn't need that money.",
       "is_correct": false
     },
     {
@@ -140,7 +140,7 @@
         "Because we had no life jackets"
       ],
       "correct_answer": "C",
-      "rag_answer": "B) Because the boat sank.",
+      "rag_answer": "D) Because there were too many passengers on board.",
       "is_correct": false
     },
     {
@@ -244,7 +244,7 @@
         "S. H.E. will perform on the CCTV Spring Festival Evening Party."
       ],
       "correct_answer": "D",
-      "rag_answer": "D) S. H.E. will perform on the CCTV Spring Festival Evening Party.",
+      "rag_answer": "D) S.H.E. will perform on the CCTV Spring Festival Evening Party.",
       "is_correct": false
     },
     {
@@ -374,7 +374,7 @@
         "you can get to know the latest knowledge in science."
       ],
       "correct_answer": "C",
-      "rag_answer": "C) you can live an independent life",
+      "rag_answer": "C) you can get to know the latest knowledge in science.",
       "is_correct": false
     },
     {
@@ -439,7 +439,7 @@
         "Optimistic"
       ],
       "correct_answer": "A",
-      "rag_answer": "A)",
+      "rag_answer": "A) Objective",
       "is_correct": false
     },
     {
@@ -491,7 +491,7 @@
         "Doubtful"
       ],
       "correct_answer": "A",
-      "rag_answer": "B) Negative",
+      "rag_answer": "A) Objective",
       "is_correct": false
     },
     {
@@ -543,8 +543,8 @@
         "None of them"
       ],
       "correct_answer": "A",
-      "rag_answer": "A",
-      "is_correct": true
+      "rag_answer": "B) The Home Office Desk",
+      "is_correct": false
     },
     {
       "problem_index": 42,
@@ -569,7 +569,7 @@
         "It's hard to achieve what we wish."
       ],
       "correct_answer": "D",
-      "rag_answer": "B) It's really meaningless.",
+      "rag_answer": "D) It's hard to achieve what we wish.",
       "is_correct": false
     },
     {
@@ -608,7 +608,7 @@
         "not necessarily be backward"
       ],
       "correct_answer": "D",
-      "rag_answer": "B) be less intelligent",
+      "rag_answer": "A) have a high IQ",
       "is_correct": false
     },
     {
@@ -660,7 +660,7 @@
         "The development of power harvesting."
       ],
       "correct_answer": "A",
-      "rag_answer": "D) The development of power harvesting.",
+      "rag_answer": "A) A new technique to create power.",
       "is_correct": false
     },
     {
@@ -725,7 +725,7 @@
         "Bangkok"
       ],
       "correct_answer": "A",
-      "rag_answer": "A) the West",
+      "rag_answer": "C) Asian countries",
       "is_correct": false
     },
     {
@@ -790,7 +790,7 @@
         "he is not sure of the love from her"
       ],
       "correct_answer": "C",
-      "rag_answer": "C) he fears to lose his function as a dad",
+      "rag_answer": "A) he wants to continue to earn money",
       "is_correct": false
     },
     {
@@ -803,7 +803,7 @@
         "having the parents help their children with their lessons"
       ],
       "correct_answer": "C",
-      "rag_answer": "A) father's helping his son with his study",
+      "rag_answer": "C) talking about children's shortcomings",
       "is_correct": false
     },
     {
@@ -816,7 +816,7 @@
         "it helped campers feel better about their illness"
       ],
       "correct_answer": "D",
-      "rag_answer": "B) it had campers know the difficulty to face against illnesses",
+      "rag_answer": "B) it had campers know the difficulty to face against illness",
       "is_correct": false
     },
     {
@@ -829,7 +829,7 @@
         "help children learn basic knowledge of computer"
       ],
       "correct_answer": "B",
-      "rag_answer": "B) help children say and learn phrases.",
+      "rag_answer": "B) help children say and learn phrases",
       "is_correct": false
     },
     {
@@ -868,7 +868,7 @@
         "seven to more than ten hours."
       ],
       "correct_answer": "C",
-      "rag_answer": "C) one to more than ten hours.",
+      "rag_answer": "D) seven to more than ten hours.",
       "is_correct": false
     },
     {
@@ -920,7 +920,7 @@
         "can check their eyes without paying"
       ],
       "correct_answer": "D",
-      "rag_answer": "D) can check their eyes without paying",
+      "rag_answer": "B) can design their own glasses",
       "is_correct": false
     },
     {
@@ -959,7 +959,7 @@
         "they are having better communication with their parents"
       ],
       "correct_answer": "D",
-      "rag_answer": "B) they are having easier access to the Internet",
+      "rag_answer": "A) they are having more exposure to the television programs",
       "is_correct": false
     },
     {
@@ -985,7 +985,7 @@
         "Roosevelt's Death Makes Truman President"
       ],
       "correct_answer": "D",
-      "rag_answer": "D) Roosevelt's Death Makes Truman President",
+      "rag_answer": "A) An Unforgettable Afternoon",
       "is_correct": false
     },
     {
@@ -1050,7 +1050,7 @@
         "parents with young children"
       ],
       "correct_answer": "D",
-      "rag_answer": "C) middle school teachers",
+      "rag_answer": "D) parents with young children",
       "is_correct": false
     },
     {
@@ -1063,7 +1063,7 @@
         "First the author makes an introduction and then draws a conclusion."
       ],
       "correct_answer": "A",
-      "rag_answer": "B) First the author presents his opinions and then describes them.",
+      "rag_answer": "C) First the author informs us of main arguments and then compares them.",
       "is_correct": false
     },
     {
@@ -1115,7 +1115,7 @@
         "there must be many houses and buildings not far away"
       ],
       "correct_answer": "D",
-      "rag_answer": "C) there must be a town thirty kilometres away",
+      "rag_answer": "A) you are already out of a town",
       "is_correct": false
     },
     {
@@ -1141,7 +1141,7 @@
         "People should develop a growth mindest."
       ],
       "correct_answer": "D",
-      "rag_answer": "D) People should develop a growth mindest.",
+      "rag_answer": "D) People should develop a growth mindset.",
       "is_correct": false
     },
     {
@@ -1167,7 +1167,7 @@
         "must pay the insurance for the renter"
       ],
       "correct_answer": "B",
-      "rag_answer": "B) will not suffer the consequences",
+      "rag_answer": "B) will not suffer the consequence",
       "is_correct": false
     },
     {
@@ -1180,7 +1180,7 @@
         "cholesterol"
       ],
       "correct_answer": "C",
-      "rag_answer": "B) side effects",
+      "rag_answer": "C) medicines",
       "is_correct": false
     },
     {
@@ -1219,7 +1219,7 @@
         "She knew the boy's trouble."
       ],
       "correct_answer": "D",
-      "rag_answer": "D) She knows the boy's trouble.",
+      "rag_answer": "B) She just did it by accident.",
       "is_correct": false
     },
     {
@@ -1258,7 +1258,7 @@
         "all winners' prizes are for their college educations"
       ],
       "correct_answer": "B",
-      "rag_answer": "C) more than half girls took part in the recent competition",
+      "rag_answer": "C) more than half girls took part in the recent competition.",
       "is_correct": false
     },
     {
@@ -1323,7 +1323,7 @@
         "still call for great concern"
       ],
       "correct_answer": "D",
-      "rag_answer": "C) are attractive topics in talk shows",
+      "rag_answer": "D) still call for great concern",
       "is_correct": false
     },
     {
@@ -1440,7 +1440,7 @@
         "Cambridge University is younger than OxfordUniversity."
       ],
       "correct_answer": "D",
-      "rag_answer": "C) Cambridge brought up about 83 Nobel prizewinners, ranking top of the world.",
+      "rag_answer": "D) Cambridge University is older than Oxford University.",
       "is_correct": false
     },
     {
@@ -1531,7 +1531,7 @@
         "Cellphone Use Is Spreading"
       ],
       "correct_answer": "D",
-      "rag_answer": "B) Females Use Mobiles More than Men",
+      "rag_answer": "A) Social Acceptance And Rejection",
       "is_correct": false
     },
     {
@@ -1557,7 +1557,7 @@
         "improve the design of their plane's wings"
       ],
       "correct_answer": "D",
-      "rag_answer": "B) prove that building a flying machine was possible",
+      "rag_answer": "A) test the materials they would use for their plane",
       "is_correct": false
     },
     {
@@ -1583,7 +1583,7 @@
         "A cure for cancer."
       ],
       "correct_answer": "B",
-      "rag_answer": "A) Forest plants.",
+      "rag_answer": "B) Animal doctors.",
       "is_correct": false
     },
     {
@@ -1609,7 +1609,7 @@
         "all of the above"
       ],
       "correct_answer": "D",
-      "rag_answer": "D) all of the above",
+      "rag_answer": "A) we can have a smooth and untroubled journey",
       "is_correct": false
     },
     {
@@ -1687,7 +1687,7 @@
         "Great books will not disappoint you if you try to read them well."
       ],
       "correct_answer": "D",
-      "rag_answer": "B) A great book can be read without any effort.",
+      "rag_answer": "C) Great books are never out of date.",
       "is_correct": false
     },
     {
@@ -1700,7 +1700,7 @@
         "she changed her mind in hopes of keeping it and increasing its value"
       ],
       "correct_answer": "B",
-      "rag_answer": "A) she felt relieved that there was someone willing to buy it",
+      "rag_answer": "B) she showed a strong attachment to the old item",
       "is_correct": false
     },
     {
@@ -1765,7 +1765,7 @@
         "might not have moved to Atlanta"
       ],
       "correct_answer": "A",
-      "rag_answer": "A) might have ended up that way, too.",
+      "rag_answer": "B) might not have won the prize",
       "is_correct": false
     },
     {
@@ -1817,7 +1817,7 @@
         "Several years."
       ],
       "correct_answer": "B",
-      "rag_answer": "A) Three months.",
+      "rag_answer": "D) Several years.",
       "is_correct": false
     },
     {
@@ -1882,7 +1882,7 @@
         "the cows had fed themselves"
       ],
       "correct_answer": "B",
-      "rag_answer": "C) they did not have time to feed them",
+      "rag_answer": "B) Mr. Jones wasn't at home",
       "is_correct": false
     },
     {
@@ -1986,7 +1986,7 @@
         "Sichuan and Tibet"
       ],
       "correct_answer": "D",
-      "rag_answer": "B) The Sahara Desert",
+      "rag_answer": "C) The Gobi Desert",
       "is_correct": false
     },
     {
@@ -2038,8 +2038,8 @@
         "are worried about the safety of shopping online"
       ],
       "correct_answer": "D",
-      "rag_answer": "D) are worried about the safety of shopping online",
-      "is_correct": false
+      "rag_answer": "D",
+      "is_correct": true
     },
     {
       "problem_index": 157,
@@ -2077,7 +2077,7 @@
         "\"Escape\" from your house by car."
       ],
       "correct_answer": "A",
-      "rag_answer": "A) Just watch a DVD at home.",
+      "rag_answer": "C) Go to the nearest theatre by bike.",
       "is_correct": false
     },
     {
@@ -2129,7 +2129,7 @@
         "+90 212 520 00 53"
       ],
       "correct_answer": "A",
-      "rag_answer": "B) +351 220 409 620",
+      "rag_answer": "A) 800-967-9033",
       "is_correct": false
     },
     {
@@ -2259,7 +2259,7 @@
         "Hamlet."
       ],
       "correct_answer": "C",
-      "rag_answer": "C) James Cameron",
+      "rag_answer": "C) James Cameron.",
       "is_correct": false
     },
     {
@@ -2298,7 +2298,7 @@
         "$123"
       ],
       "correct_answer": "D",
-      "rag_answer": "B) $189",
+      "rag_answer": "C) $177",
       "is_correct": false
     },
     {
@@ -2324,7 +2324,7 @@
         "A strong experience my parents and I had"
       ],
       "correct_answer": "C",
-      "rag_answer": "C) An adventurous experience my parents and I had",
+      "rag_answer": "B) A disappointing experience my parents and I had",
       "is_correct": false
     },
     {
@@ -2337,7 +2337,7 @@
         "they had problems finding carpenters for putting up Christmas trees"
       ],
       "correct_answer": "C",
-      "rag_answer": "A) the family bought big Christmas trees",
+      "rag_answer": "C) they had problems picking suitable Christmas trees",
       "is_correct": false
     },
     {
@@ -2350,7 +2350,7 @@
         "they have to follow an evolutionary step backward."
       ],
       "correct_answer": "A",
-      "rag_answer": "A) they are becoming less patient",
+      "rag_answer": "A) they are becoming less patient.",
       "is_correct": false
     },
     {
@@ -2389,7 +2389,7 @@
         "88"
       ],
       "correct_answer": "B",
-      "rag_answer": "D) 88",
+      "rag_answer": "C) 68",
       "is_correct": false
     },
     {
@@ -2480,7 +2480,7 @@
         "got angry at him for his attitude"
       ],
       "correct_answer": "A",
-      "rag_answer": "C) thought he was joking",
+      "rag_answer": "A) felt a great sense of loss",
       "is_correct": false
     },
     {
@@ -2519,7 +2519,7 @@
         "they feel confused about where to buy safe food"
       ],
       "correct_answer": "D",
-      "rag_answer": "C) they won't go to supermarkets soon",
+      "rag_answer": "D) they feel confused about where to buy safe food",
       "is_correct": false
     },
     {
@@ -2532,7 +2532,7 @@
         "What methods can be used to deflect the asteroid."
       ],
       "correct_answer": "D",
-      "rag_answer": "C) How the keyhole influences Apophis.",
+      "rag_answer": "B) NASA's study on NEOs.",
       "is_correct": false
     },
     {
@@ -2571,7 +2571,7 @@
         "To offer us some information of both sexes' going online in the US."
       ],
       "correct_answer": "A",
-      "rag_answer": "D) To offer us some information of both sexes' going online in the US.",
+      "rag_answer": "A) To tell us the different aims of men and women in the US who go online.",
       "is_correct": false
     },
     {
@@ -2584,7 +2584,7 @@
         "Dia"
       ],
       "correct_answer": "C",
-      "rag_answer": "A) Hualian",
+      "rag_answer": "B) Lianhua",
       "is_correct": false
     },
     {

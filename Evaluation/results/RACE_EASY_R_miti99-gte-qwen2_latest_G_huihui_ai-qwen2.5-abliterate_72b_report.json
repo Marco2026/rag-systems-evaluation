@@ -6,12 +6,12 @@
   "generator_model": "huihui_ai/qwen2.5-abliterate:72b",
   "generator_params": 72.7,
   "generator_size": 44.2,
-  "timestamp": "2026-04-17T21:29:08.847843",
-  "duration": "00:29:20",
-  "duration (seconds)": 1760,
+  "timestamp": "2026-05-21T22:23:56.684320",
+  "duration": "00:30:32",
+  "duration (seconds)": 1832,
   "total": 200,
-  "correct": 182,
-  "accuracy": 0.91,
+  "correct": 186,
+  "accuracy": 0.93,
   "results": [
     {
       "problem_index": 1,
@@ -517,8 +517,8 @@
         "Some don't do and do in schools."
       ],
       "correct_answer": "C",
-      "rag_answer": "D",
-      "is_correct": false
+      "rag_answer": "C",
+      "is_correct": true
     },
     {
       "problem_index": 40,
@@ -829,8 +829,8 @@
         "A busy family"
       ],
       "correct_answer": "D",
-      "rag_answer": "C",
-      "is_correct": false
+      "rag_answer": "D",
+      "is_correct": true
     },
     {
       "problem_index": 64,
@@ -920,8 +920,8 @@
         "Jane's friend"
       ],
       "correct_answer": "C",
-      "rag_answer": "D",
-      "is_correct": false
+      "rag_answer": "C",
+      "is_correct": true
     },
     {
       "problem_index": 71,
@@ -1778,8 +1778,8 @@
         "on 2"
       ],
       "correct_answer": "B",
-      "rag_answer": "C",
-      "is_correct": false
+      "rag_answer": "B",
+      "is_correct": true
     },
     {
       "problem_index": 137,

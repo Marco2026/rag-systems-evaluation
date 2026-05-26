@@ -6,12 +6,12 @@
   "generator_model": "huihui_ai/qwen2.5-abliterate:72b",
   "generator_params": 72.7,
   "generator_size": 44.2,
-  "timestamp": "2026-04-17T08:59:53.651875",
-  "duration": "00:31:36",
-  "duration (seconds)": 1896,
+  "timestamp": "2026-05-22T09:37:51.450135",
+  "duration": "00:34:27",
+  "duration (seconds)": 2067,
   "total": 200,
-  "correct": 173,
-  "accuracy": 0.865,
+  "correct": 174,
+  "accuracy": 0.87,
   "results": [
     {
       "problem_index": 1,
@@ -140,8 +140,8 @@
         "Because we had no life jackets"
       ],
       "correct_answer": "C",
-      "rag_answer": "B",
-      "is_correct": false
+      "rag_answer": "C",
+      "is_correct": true
     },
     {
       "problem_index": 11,
@@ -283,8 +283,8 @@
         "Love to My Brother"
       ],
       "correct_answer": "C",
-      "rag_answer": "C",
-      "is_correct": true
+      "rag_answer": "A",
+      "is_correct": false
     },
     {
       "problem_index": 22,
@@ -816,8 +816,8 @@
         "it helped campers feel better about their illness"
       ],
       "correct_answer": "D",
-      "rag_answer": "B",
-      "is_correct": false
+      "rag_answer": "D",
+      "is_correct": true
     },
     {
       "problem_index": 63,
@@ -1102,8 +1102,8 @@
         "We shouldn't care what kind of situations we're in."
       ],
       "correct_answer": "A",
-      "rag_answer": "A",
-      "is_correct": true
+      "rag_answer": "C",
+      "is_correct": false
     },
     {
       "problem_index": 85,
@@ -1830,8 +1830,8 @@
         "Palmer has never made a journey before."
       ],
       "correct_answer": "A",
-      "rag_answer": "B",
-      "is_correct": false
+      "rag_answer": "A",
+      "is_correct": true
     },
     {
       "problem_index": 141,
@@ -2233,7 +2233,7 @@
         "A conservative politician."
       ],
       "correct_answer": "C",
-      "rag_answer": "D",
+      "rag_answer": "B",
       "is_correct": false
     },
     {
@@ -2298,8 +2298,8 @@
         "$123"
       ],
       "correct_answer": "D",
-      "rag_answer": "A",
-      "is_correct": false
+      "rag_answer": "D",
+      "is_correct": true
     },
     {
       "problem_index": 177,
@@ -2350,8 +2350,8 @@
         "they have to follow an evolutionary step backward."
       ],
       "correct_answer": "A",
-      "rag_answer": "A",
-      "is_correct": true
+      "rag_answer": "C",
+      "is_correct": false
     },
     {
       "problem_index": 181,
@@ -2493,7 +2493,7 @@
         "2-3"
       ],
       "correct_answer": "B",
-      "rag_answer": "D",
+      "rag_answer": "A",
       "is_correct": false
     },
     {

@@ -6,9 +6,9 @@
   "generator_model": "goekdenizguelmez/JOSIEFIED-Qwen2.5:7b",
   "generator_params": 7.62,
   "generator_size": 4.4,
-  "timestamp": "2026-04-18T00:35:18.954730",
-  "duration": "00:07:31",
-  "duration (seconds)": 451,
+  "timestamp": "2026-05-22T02:08:18.361370",
+  "duration": "00:06:27",
+  "duration (seconds)": 387,
   "total": 200,
   "correct": 162,
   "accuracy": 0.81,
@@ -192,8 +192,8 @@
         "Old John didn't smoke a cigar a day"
       ],
       "correct_answer": "C",
-      "rag_answer": "C",
-      "is_correct": true
+      "rag_answer": "A",
+      "is_correct": false
     },
     {
       "problem_index": 15,
@@ -231,8 +231,8 @@
         "low"
       ],
       "correct_answer": "B",
-      "rag_answer": "A",
-      "is_correct": false
+      "rag_answer": "B",
+      "is_correct": true
     },
     {
       "problem_index": 18,
@@ -244,7 +244,7 @@
         "not only on the left but also on the fight"
       ],
       "correct_answer": "A",
-      "rag_answer": "D",
+      "rag_answer": "B",
       "is_correct": false
     },
     {
@@ -491,7 +491,7 @@
         "do some shopping online"
       ],
       "correct_answer": "C",
-      "rag_answer": "D",
+      "rag_answer": "A",
       "is_correct": false
     },
     {
@@ -517,7 +517,7 @@
         "Some don't do and do in schools."
       ],
       "correct_answer": "C",
-      "rag_answer": "B",
+      "rag_answer": "A",
       "is_correct": false
     },
     {
@@ -543,8 +543,8 @@
         "let the young man have a good look at the city"
       ],
       "correct_answer": "C",
-      "rag_answer": "B",
-      "is_correct": false
+      "rag_answer": "C",
+      "is_correct": true
     },
     {
       "problem_index": 42,
@@ -699,8 +699,8 @@
         "Spending money wisely at college"
       ],
       "correct_answer": "D",
-      "rag_answer": "D",
-      "is_correct": true
+      "rag_answer": "A",
+      "is_correct": false
     },
     {
       "problem_index": 54,
@@ -1232,8 +1232,8 @@
         "Ten"
       ],
       "correct_answer": "D",
-      "rag_answer": "D",
-      "is_correct": true
+      "rag_answer": "B",
+      "is_correct": false
     },
     {
       "problem_index": 95,
@@ -1700,7 +1700,7 @@
         "said \"POLICE NOTICE, NO PARKING\""
       ],
       "correct_answer": "D",
-      "rag_answer": "A",
+      "rag_answer": "C",
       "is_correct": false
     },
     {
@@ -2298,7 +2298,7 @@
         "After she came back from the cinema."
       ],
       "correct_answer": "A",
-      "rag_answer": "B",
+      "rag_answer": "D",
       "is_correct": false
     },
     {
@@ -2610,8 +2610,8 @@
         "All his friends"
       ],
       "correct_answer": "B",
-      "rag_answer": "C",
-      "is_correct": false
+      "rag_answer": "B",
+      "is_correct": true
     }
   ]
 }

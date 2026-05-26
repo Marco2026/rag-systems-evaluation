@@ -6,9 +6,9 @@
   "generator_model": "phi4-mini:3.8b",
   "generator_params": 3.84,
   "generator_size": 2.3,
-  "timestamp": "2026-04-30T04:46:06.484295",
-  "duration": "00:03:09",
-  "duration (seconds)": 189,
+  "timestamp": "2026-05-22T19:47:24.944820",
+  "duration": "00:02:51",
+  "duration (seconds)": 171,
   "total": 200,
   "correct": 2,
   "accuracy": 0.01,
@@ -36,7 +36,7 @@
         "D": "Emperor Alaric I"
       },
       "correct_answer": "D",
-      "rag_answer": "B) Emperor Thalion II",
+      "rag_answer": "C) Emperor Elowen III",
       "is_correct": false
     },
     {
@@ -49,7 +49,7 @@
         "D": "The Grand Road"
       },
       "correct_answer": "D",
-      "rag_answer": "D) The Great Wall",
+      "rag_answer": "D) The Grand Road",
       "is_correct": false
     },
     {
@@ -88,7 +88,7 @@
         "D": "40"
       },
       "correct_answer": "B",
-      "rag_answer": "C) 30",
+      "rag_answer": "B) 20",
       "is_correct": false
     },
     {
@@ -153,7 +153,7 @@
         "D": "Silver Channel"
       },
       "correct_answer": "D",
-      "rag_answer": "C) Ember Passage",
+      "rag_answer": "B) Azure Strait",
       "is_correct": false
     },
     {
@@ -166,7 +166,7 @@
         "D": "Sunhold"
       },
       "correct_answer": "D",
-      "rag_answer": "C) Valoria",
+      "rag_answer": "A) Arvandor",
       "is_correct": false
     },
     {
@@ -283,7 +283,7 @@
         "D": "Eternal Wind"
       },
       "correct_answer": "C",
-      "rag_answer": "A) Living Flame",
+      "rag_answer": "B) Deep Tide",
       "is_correct": false
     },
     {
@@ -335,8 +335,8 @@
         "D": "Eternal Wind"
       },
       "correct_answer": "A",
-      "rag_answer": "A) Living Flame",
-      "is_correct": false
+      "rag_answer": "A",
+      "is_correct": true
     },
     {
       "problem_index": 26,
@@ -348,7 +348,7 @@
         "D": "The Sundering"
       },
       "correct_answer": "B",
-      "rag_answer": "C) The Rise of the Drakonar",
+      "rag_answer": "D) The Sundering",
       "is_correct": false
     },
     {
@@ -387,7 +387,7 @@
         "D": "Moonhaven"
       },
       "correct_answer": "C",
-      "rag_answer": "C) Sunhold",
+      "rag_answer": "A) Arvandor",
       "is_correct": false
     },
     {
@@ -478,7 +478,7 @@
         "D": "Shadow Vale Cult"
       },
       "correct_answer": "D",
-      "rag_answer": "A) Whispering Plains Tribe",
+      "rag_answer": "D) Shadow Vale Cult",
       "is_correct": false
     },
     {
@@ -517,7 +517,7 @@
         "D": "1500 A.E."
       },
       "correct_answer": "D",
-      "rag_answer": "B) 1300 A.E.",
+      "rag_answer": "A",
       "is_correct": false
     },
     {
@@ -543,8 +543,8 @@
         "D": "-2700"
       },
       "correct_answer": "A",
-      "rag_answer": "A) -2400",
-      "is_correct": false
+      "rag_answer": "A",
+      "is_correct": true
     },
     {
       "problem_index": 42,
@@ -556,7 +556,7 @@
         "D": "Eryndur"
       },
       "correct_answer": "D",
-      "rag_answer": "B) Thuun Oak",
+      "rag_answer": "D) Eryndur",
       "is_correct": false
     },
     {
@@ -569,7 +569,7 @@
         "D": "Oakheart Clan"
       },
       "correct_answer": "D",
-      "rag_answer": "A) Maplebark Clan",
+      "rag_answer": "B) Willowwind Clan",
       "is_correct": false
     },
     {
@@ -582,7 +582,7 @@
         "D": "Leading the clan and maintaining tree-homes"
       },
       "correct_answer": "D",
-      "rag_answer": "D) Leading the clan and maintaining tree-homes",
+      "rag_answer": "B) Guarding the forest against intruders",
       "is_correct": false
     },
     {
@@ -608,7 +608,7 @@
         "D": "Every 50 years"
       },
       "correct_answer": "D",
-      "rag_answer": "A) Every 75 years",
+      "rag_answer": "B) Every 25 years",
       "is_correct": false
     },
     {
@@ -621,7 +621,7 @@
         "D": "Moon Chirps"
       },
       "correct_answer": "A",
-      "rag_answer": "D) Moon Chirps",
+      "rag_answer": "B) Forest Echoes",
       "is_correct": false
     },
     {
@@ -634,7 +634,7 @@
         "D": "Moonstag Hunt"
       },
       "correct_answer": "D",
-      "rag_answer": "C) Tree Blessing",
+      "rag_answer": "B) Sun Festival",
       "is_correct": false
     },
     {
@@ -647,7 +647,7 @@
         "D": "Arathorn"
       },
       "correct_answer": "D",
-      "rag_answer": "A",
+      "rag_answer": "B) Eldorin",
       "is_correct": false
     },
     {
@@ -712,7 +712,7 @@
         "D": "500 BCE"
       },
       "correct_answer": "D",
-      "rag_answer": "D) 500 BCE",
+      "rag_answer": "B) 1000 CE",
       "is_correct": false
     },
     {
@@ -725,7 +725,7 @@
         "D": "1150 CE"
       },
       "correct_answer": "A",
-      "rag_answer": "B) 1300 CE",
+      "rag_answer": "A) 1250 CE",
       "is_correct": false
     },
     {
@@ -738,7 +738,7 @@
         "D": "Deep beneath Mount Drakon"
       },
       "correct_answer": "D",
-      "rag_answer": "B) In the Iron Hills",
+      "rag_answer": "A) On Ember Island",
       "is_correct": false
     },
     {
@@ -777,7 +777,7 @@
         "D": "Luminescent crystals that enhance communication with earth spirits"
       },
       "correct_answer": "D",
-      "rag_answer": "B) Ancient runes that tell the history of the Gorrak",
+      "rag_answer": "D) Luminescent crystals that enhance communication with earth spirits",
       "is_correct": false
     },
     {
@@ -790,7 +790,7 @@
         "D": "Firewatch Tower"
       },
       "correct_answer": "D",
-      "rag_answer": "C) Stonefist Forge",
+      "rag_answer": "B) Great Stone Hall",
       "is_correct": false
     },
     {
@@ -816,7 +816,7 @@
         "D": "Talor Wavecaller"
       },
       "correct_answer": "A",
-      "rag_answer": "A) Elara Moonwhisper",
+      "rag_answer": "B) Lira Stormsong",
       "is_correct": false
     },
     {
@@ -842,7 +842,7 @@
         "D": "Air magic"
       },
       "correct_answer": "B",
-      "rag_answer": "C) Earth magic",
+      "rag_answer": "A",
       "is_correct": false
     },
     {
@@ -855,7 +855,7 @@
         "D": "1350"
       },
       "correct_answer": "C",
-      "rag_answer": "C) 1300",
+      "rag_answer": "B) 1250",
       "is_correct": false
     },
     {
@@ -907,7 +907,7 @@
         "D": "Festival of the Tides"
       },
       "correct_answer": "D",
-      "rag_answer": "B) Festival of the Sun",
+      "rag_answer": "C) Festival of the Moon",
       "is_correct": false
     },
     {
@@ -920,7 +920,7 @@
         "D": "Water-resistant ships"
       },
       "correct_answer": "B",
-      "rag_answer": "D) Water-resistant ships",
+      "rag_answer": "B) Durable fabrics",
       "is_correct": false
     },
     {
@@ -1037,7 +1037,7 @@
         "D": "Mistwood Route"
       },
       "correct_answer": "D",
-      "rag_answer": "C) Silver Forest Route",
+      "rag_answer": "D) Mistwood Route",
       "is_correct": false
     },
     {
@@ -1063,7 +1063,7 @@
         "D": "Drakonar, the Sky Lord"
       },
       "correct_answer": "A",
-      "rag_answer": "A) Aldorin, the Creator",
+      "rag_answer": "D) Drakonar, the Sky Lord",
       "is_correct": false
     },
     {
@@ -1076,8 +1076,8 @@
         "D": "-1800"
       },
       "correct_answer": "A",
-      "rag_answer": "A",
-      "is_correct": true
+      "rag_answer": "C) -2000",
+      "is_correct": false
     },
     {
       "problem_index": 83,
@@ -1141,7 +1141,7 @@
         "D": "Storms and magic, Thundertop"
       },
       "correct_answer": "A",
-      "rag_answer": "C) Life and fertility, Silver Forest",
+      "rag_answer": "B) Light and wisdom, Arvandor",
       "is_correct": false
     },
     {
@@ -1193,7 +1193,7 @@
         "D": "1756"
       },
       "correct_answer": "A",
-      "rag_answer": "D) 1756",
+      "rag_answer": "B) 1768",
       "is_correct": false
     },
     {
@@ -1232,7 +1232,7 @@
         "D": "20,000"
       },
       "correct_answer": "C",
-      "rag_answer": "C) 10,000",
+      "rag_answer": "B) 5,000",
       "is_correct": false
     },
     {
@@ -1271,7 +1271,7 @@
         "D": "Divine Magic"
       },
       "correct_answer": "C",
-      "rag_answer": "A) Fire Magic",
+      "rag_answer": "C) Elemental Magic",
       "is_correct": false
     },
     {
@@ -1284,7 +1284,7 @@
         "D": "The fall of Sunhold"
       },
       "correct_answer": "A",
-      "rag_answer": "D) The fall of Sunhold",
+      "rag_answer": "B) The start of the Great Fracture war",
       "is_correct": false
     },
     {
@@ -1310,7 +1310,7 @@
         "D": "Silver Forest"
       },
       "correct_answer": "A",
-      "rag_answer": "C) Sunhold",
+      "rag_answer": "A) Whispering Plains",
       "is_correct": false
     },
     {
@@ -1336,7 +1336,7 @@
         "D": "1800"
       },
       "correct_answer": "A",
-      "rag_answer": "D) 1800",
+      "rag_answer": "C) 1753",
       "is_correct": false
     },
     {
@@ -1427,7 +1427,7 @@
         "D": "Thalor Ironheart"
       },
       "correct_answer": "C",
-      "rag_answer": "B) Brondur Stonefist",
+      "rag_answer": "C) Elara Nightshade",
       "is_correct": false
     },
     {
@@ -1440,7 +1440,7 @@
         "D": "Flying machines and magi-lamps"
       },
       "correct_answer": "B",
-      "rag_answer": "A",
+      "rag_answer": "B) Airships and automated factories",
       "is_correct": false
     },
     {
@@ -1505,7 +1505,7 @@
         "D": "100"
       },
       "correct_answer": "A",
-      "rag_answer": "A) 92",
+      "rag_answer": "C) 78",
       "is_correct": false
     },
     {
@@ -1518,7 +1518,7 @@
         "D": "1080"
       },
       "correct_answer": "C",
-      "rag_answer": "A",
+      "rag_answer": "C) 1067",
       "is_correct": false
     },
     {
@@ -1531,7 +1531,7 @@
         "D": "Fire elemental presence"
       },
       "correct_answer": "B",
-      "rag_answer": "C) Amplification of shadow magic",
+      "rag_answer": "B) High concentration of lunar magic",
       "is_correct": false
     },
     {
@@ -1596,7 +1596,7 @@
         "D": "Emperor Eldric Valdrek"
       },
       "correct_answer": "C",
-      "rag_answer": "A) Emperor Alaric Valdrek I",
+      "rag_answer": "C) Emperor Thalor Valdrek II",
       "is_correct": false
     },
     {
@@ -1609,7 +1609,7 @@
         "D": "House Grendar"
       },
       "correct_answer": "B",
-      "rag_answer": "B) House Draven",
+      "rag_answer": "C) House Aldorath",
       "is_correct": false
     },
     {
@@ -1674,7 +1674,7 @@
         "D": "A state of emergency"
       },
       "correct_answer": "D",
-      "rag_answer": "D) A state of emergency",
+      "rag_answer": "B) A state of war",
       "is_correct": false
     },
     {
@@ -1713,7 +1713,7 @@
         "D": "Mount Drakon"
       },
       "correct_answer": "D",
-      "rag_answer": "C) Ember Island",
+      "rag_answer": "A) Silver Forest",
       "is_correct": false
     },
     {
@@ -1726,7 +1726,7 @@
         "D": "-1700"
       },
       "correct_answer": "A",
-      "rag_answer": "B) -1500",
+      "rag_answer": "C) -1600",
       "is_correct": false
     },
     {
@@ -1765,7 +1765,7 @@
         "D": "Thalor Sunheart"
       },
       "correct_answer": "A",
-      "rag_answer": "A) Eryndor Silverwind",
+      "rag_answer": "C) Lyrin Nightshade",
       "is_correct": false
     },
     {
@@ -1817,7 +1817,7 @@
         "D": "Glimmerpaw"
       },
       "correct_answer": "A",
-      "rag_answer": "A) Luminos",
+      "rag_answer": "B) Silverfang",
       "is_correct": false
     },
     {
@@ -1843,7 +1843,7 @@
         "D": "25th"
       },
       "correct_answer": "D",
-      "rag_answer": "B) 10th",
+      "rag_answer": "C) 15th",
       "is_correct": false
     },
     {
@@ -1869,8 +1869,8 @@
         "D": "The grand fireworks display"
       },
       "correct_answer": "A",
-      "rag_answer": "A",
-      "is_correct": true
+      "rag_answer": "A) The Blessing of the Fleet ceremony",
+      "is_correct": false
     },
     {
       "problem_index": 144,
@@ -1882,7 +1882,7 @@
         "D": "Firewatch Tower"
       },
       "correct_answer": "D",
-      "rag_answer": "A) Stonefang Pass",
+      "rag_answer": "C) Moonhaven",
       "is_correct": false
     },
     {
@@ -1895,7 +1895,7 @@
         "D": "30th"
       },
       "correct_answer": "C",
-      "rag_answer": "A",
+      "rag_answer": "B) 25th",
       "is_correct": false
     },
     {
@@ -1908,7 +1908,7 @@
         "D": "The first magical artifacts created by the Eldari"
       },
       "correct_answer": "B",
-      "rag_answer": "B) An ancient Eldari philosopher's enlightenment in Mistwood.",
+      "rag_answer": "B) An ancient Eldari philosopher's enlightenment in Mistwood",
       "is_correct": false
     },
     {
@@ -1934,7 +1934,7 @@
         "D": "The grand fireworks display"
       },
       "correct_answer": "C",
-      "rag_answer": "C) The Whispering of the Ancients",
+      "rag_answer": "B) The Blessing of the Fleet",
       "is_correct": false
     },
     {
@@ -1947,7 +1947,7 @@
         "D": "30th"
       },
       "correct_answer": "B",
-      "rag_answer": "A) 25th",
+      "rag_answer": "B) 15th",
       "is_correct": false
     },
     {
@@ -1973,7 +1973,7 @@
         "D": "1350 AR"
       },
       "correct_answer": "A",
-      "rag_answer": "B) 1257 AR",
+      "rag_answer": "C) 1123 AR",
       "is_correct": false
     },
     {
@@ -1999,7 +1999,7 @@
         "D": "The signing of the Treaty of Silverlake"
       },
       "correct_answer": "D",
-      "rag_answer": "B) The Battle of Stonefang Pass",
+      "rag_answer": "D) The signing of the Treaty of Silverlake",
       "is_correct": false
     },
     {
@@ -2025,7 +2025,7 @@
         "D": "The Battle of Mistwood"
       },
       "correct_answer": "B",
-      "rag_answer": "B) The Battle of Silverlake",
+      "rag_answer": "C) The Battle of Ember Island",
       "is_correct": false
     },
     {
@@ -2038,7 +2038,7 @@
         "D": "Merfolk and Krakens"
       },
       "correct_answer": "A",
-      "rag_answer": "A) Kael'thys and Dwarves of Iron Hills",
+      "rag_answer": "B) Eldari and Drakonar",
       "is_correct": false
     },
     {
@@ -2064,7 +2064,7 @@
         "D": "Sunhold"
       },
       "correct_answer": "D",
-      "rag_answer": "C) Valoria",
+      "rag_answer": "B) Arvandor",
       "is_correct": false
     },
     {
@@ -2077,7 +2077,7 @@
         "D": "Resource competition"
       },
       "correct_answer": "C",
-      "rag_answer": "C) Valdrek accused Veridia of harboring rebels disrupting supply lines.",
+      "rag_answer": "C) Valdrek accused Veridia of harboring rebels disrupting supply lines",
       "is_correct": false
     },
     {
@@ -2142,7 +2142,7 @@
         "D": "She initiated the first Bonding Ceremony"
       },
       "correct_answer": "B",
-      "rag_answer": "B) She defended the Firewatch Tower against a goblin raid",
+      "rag_answer": "B) She defended the Firewatch Tower against a goblin raid.",
       "is_correct": false
     },
     {
@@ -2155,7 +2155,7 @@
         "D": "Mind reading"
       },
       "correct_answer": "B",
-      "rag_answer": "C",
+      "rag_answer": "C) Shape-shifting",
       "is_correct": false
     },
     {
@@ -2194,7 +2194,7 @@
         "D": "Apprentice"
       },
       "correct_answer": "D",
-      "rag_answer": "B) Adept",
+      "rag_answer": "D) Apprentice",
       "is_correct": false
     },
     {
@@ -2207,7 +2207,7 @@
         "D": "Building the Firewatch Tower"
       },
       "correct_answer": "C",
-      "rag_answer": "B) Defending the Firewatch Tower against a goblin raid",
+      "rag_answer": "B) Defending the firewatch tower against a goblin raid",
       "is_correct": false
     },
     {
@@ -2298,7 +2298,7 @@
         "D": "Amplified shadow magic"
       },
       "correct_answer": "B",
-      "rag_answer": "D) Amplified shadow magic",
+      "rag_answer": "B) Enhanced power with higher risk of backfire",
       "is_correct": false
     },
     {
@@ -2311,7 +2311,7 @@
         "D": "1598"
       },
       "correct_answer": "A",
-      "rag_answer": "C) 1789",
+      "rag_answer": "B) 1623",
       "is_correct": false
     },
     {
@@ -2337,7 +2337,7 @@
         "D": "Eclipse Island Fracture Zone"
       },
       "correct_answer": "C",
-      "rag_answer": "C) Shadow Vale Fracture Zone",
+      "rag_answer": "B) Mistwood Fracture Zone",
       "is_correct": false
     },
     {
@@ -2441,7 +2441,7 @@
         "D": "It marks the beginning of significant changes in Eldara"
       },
       "correct_answer": "D",
-      "rag_answer": "B) It signals the end of the current age",
+      "rag_answer": "D) It marks the beginning of significant changes in Eldara",
       "is_correct": false
     },
     {
@@ -2480,7 +2480,7 @@
         "D": "It will serve as a symbol of the Council of Elders"
       },
       "correct_answer": "A",
-      "rag_answer": "A) It will guide the Chosen One on their journey.",
+      "rag_answer": "B) It will be used to awaken the Elemental Spirits.",
       "is_correct": false
     },
     {
@@ -2493,7 +2493,7 @@
         "D": "School of Elemental Magic"
       },
       "correct_answer": "A",
-      "rag_answer": "B) School of Transmutation",
+      "rag_answer": "C) School of Enchantment",
       "is_correct": false
     },
     {
@@ -2519,7 +2519,7 @@
         "D": "Starlight Dust"
       },
       "correct_answer": "A",
-      "rag_answer": "C) Phoenix Feather",
+      "rag_answer": "B) Eldarian Blue Lotus",
       "is_correct": false
     },
     {
@@ -2610,7 +2610,7 @@
         "D": "1850"
       },
       "correct_answer": "D",
-      "rag_answer": "D) 1850",
+      "rag_answer": "B) 850",
       "is_correct": false
     }
   ]

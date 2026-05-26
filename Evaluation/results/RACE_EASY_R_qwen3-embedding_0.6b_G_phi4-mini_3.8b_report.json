@@ -6,9 +6,9 @@
   "generator_model": "phi4-mini:3.8b",
   "generator_params": 3.84,
   "generator_size": 2.3,
-  "timestamp": "2026-04-18T01:11:56.965544",
-  "duration": "00:06:28",
-  "duration (seconds)": 388,
+  "timestamp": "2026-05-22T00:00:48.435077",
+  "duration": "00:06:04",
+  "duration (seconds)": 364,
   "total": 200,
   "correct": 0,
   "accuracy": 0.0,
@@ -23,7 +23,7 @@
         "he couldn't find the young man's hat"
       ],
       "correct_answer": "A",
-      "rag_answer": "B) a young man came to visit Dick that afternoon",
+      "rag_answer": "A) Dick couldn't take him out for a usual time",
       "is_correct": false
     },
     {
@@ -75,7 +75,7 @@
         "are terrible ill"
       ],
       "correct_answer": "C",
-      "rag_answer": "C) both A and B",
+      "rag_answer": "D) are terrible ill",
       "is_correct": false
     },
     {
@@ -101,7 +101,7 @@
         "He understood his stepmother."
       ],
       "correct_answer": "B",
-      "rag_answer": "B) He failed to do as he was expected.",
+      "rag_answer": "C) He started writing to a national newspaper.",
       "is_correct": false
     },
     {
@@ -166,7 +166,7 @@
         "was reading a newspaper"
       ],
       "correct_answer": "C",
-      "rag_answer": "C) was still in an upstairs room.",
+      "rag_answer": "C) was still in an upstairs room",
       "is_correct": false
     },
     {
@@ -270,7 +270,7 @@
         "six"
       ],
       "correct_answer": "C",
-      "rag_answer": "B) four",
+      "rag_answer": "A) three",
       "is_correct": false
     },
     {
@@ -296,7 +296,7 @@
         "in classroom"
       ],
       "correct_answer": "B",
-      "rag_answer": "D) in classroom",
+      "rag_answer": "B) at home",
       "is_correct": false
     },
     {
@@ -465,7 +465,7 @@
         "live in the school"
       ],
       "correct_answer": "B",
-      "rag_answer": "B) come to school on foot",
+      "rag_answer": "A) come to school by bike",
       "is_correct": false
     },
     {
@@ -491,7 +491,7 @@
         "do some shopping online"
       ],
       "correct_answer": "C",
-      "rag_answer": "B) meet people",
+      "rag_answer": "A) find a job",
       "is_correct": false
     },
     {
@@ -517,7 +517,7 @@
         "Some don't do and do in schools."
       ],
       "correct_answer": "C",
-      "rag_answer": "D) Some don't do and do in schools.",
+      "rag_answer": "B) Some good habits at home.",
       "is_correct": false
     },
     {
@@ -530,7 +530,7 @@
         "made her fall behind others in studies at school"
       ],
       "correct_answer": "C",
-      "rag_answer": "C) didn't influence her studies at school",
+      "rag_answer": "D) made her fall behind others in studies at school",
       "is_correct": false
     },
     {
@@ -543,7 +543,7 @@
         "let the young man have a good look at the city"
       ],
       "correct_answer": "C",
-      "rag_answer": "B) get more than twenty dollars",
+      "rag_answer": "C) let the young man think it was very far from the bus station to the hotel",
       "is_correct": false
     },
     {
@@ -595,7 +595,7 @@
         "He likes art very much."
       ],
       "correct_answer": "D",
-      "rag_answer": "B) He is warm-hearted.",
+      "rag_answer": "B) He is warm hearted.",
       "is_correct": false
     },
     {
@@ -647,7 +647,7 @@
         "allows people to walk freely in the fitting room"
       ],
       "correct_answer": "C",
-      "rag_answer": "C) can help people choose clothes without having to try them on",
+      "rag_answer": "C) can help people choose clothes without having to try them on.",
       "is_correct": false
     },
     {
@@ -816,7 +816,7 @@
         "Functions of mirror neurons."
       ],
       "correct_answer": "D",
-      "rag_answer": "D) Functions of mirror neurons.",
+      "rag_answer": "C) Discovery of mirror neurons.",
       "is_correct": false
     },
     {
@@ -842,7 +842,7 @@
         "a little larger than"
       ],
       "correct_answer": "C",
-      "rag_answer": "A) smaller than",
+      "rag_answer": "C) three times as large as",
       "is_correct": false
     },
     {
@@ -881,7 +881,7 @@
         "loved his job in the church"
       ],
       "correct_answer": "C",
-      "rag_answer": "B) was very hard-working",
+      "rag_answer": "C) was good at creative thinking",
       "is_correct": false
     },
     {
@@ -920,7 +920,7 @@
         "Jane's friend"
       ],
       "correct_answer": "C",
-      "rag_answer": "C) Jane's mother",
+      "rag_answer": "A) Jane.",
       "is_correct": false
     },
     {
@@ -1089,7 +1089,7 @@
         "she let the driver earn more money"
       ],
       "correct_answer": "C",
-      "rag_answer": "C) she wanted to see some places for the last time",
+      "rag_answer": "B) she didn't want to reach the hospice early",
       "is_correct": false
     },
     {
@@ -1180,7 +1180,7 @@
         "Music and P.E"
       ],
       "correct_answer": "A",
-      "rag_answer": "D) Music and P.E.",
+      "rag_answer": "C) Math and languages",
       "is_correct": false
     },
     {
@@ -1297,7 +1297,7 @@
         "4000 yuan"
       ],
       "correct_answer": "D",
-      "rag_answer": "C) 1000 yuan",
+      "rag_answer": "B) 800 yuan",
       "is_correct": false
     },
     {
@@ -1375,7 +1375,7 @@
         "do easy chores"
       ],
       "correct_answer": "A",
-      "rag_answer": "D) do easy chores",
+      "rag_answer": "A) walk the family dog",
       "is_correct": false
     },
     {
@@ -1388,7 +1388,7 @@
         "Sue's Friend"
       ],
       "correct_answer": "A",
-      "rag_answer": "A) A Wrong Question",
+      "rag_answer": "B) Sue's Dog",
       "is_correct": false
     },
     {
@@ -1401,7 +1401,7 @@
         "with neither of her eyes"
       ],
       "correct_answer": "B",
-      "rag_answer": "A) only with the right eye",
+      "rag_answer": "B) only with the right eye",
       "is_correct": false
     },
     {
@@ -1427,7 +1427,7 @@
         "Because he thought John could help his mother."
       ],
       "correct_answer": "A",
-      "rag_answer": "A) Because he thought John earned appreciation.",
+      "rag_answer": "C) Because he thought John worked very hard.",
       "is_correct": false
     },
     {
@@ -1531,7 +1531,7 @@
         "She made herself look like a rock."
       ],
       "correct_answer": "C",
-      "rag_answer": "D) She made herself look like a rock.",
+      "rag_answer": "A) She covered her face with her hands.",
       "is_correct": false
     },
     {
@@ -1557,7 +1557,7 @@
         "quite poor and alone"
       ],
       "correct_answer": "D",
-      "rag_answer": "A) short of money",
+      "rag_answer": "B) quite poor and alone",
       "is_correct": false
     },
     {
@@ -1648,7 +1648,7 @@
         "a big dinner every day"
       ],
       "correct_answer": "C",
-      "rag_answer": "B) a big lunch on Sundays",
+      "rag_answer": "A) a big supper on Sunday",
       "is_correct": false
     },
     {
@@ -1726,7 +1726,7 @@
         "A, B and C"
       ],
       "correct_answer": "D",
-      "rag_answer": "C) play ball games",
+      "rag_answer": "D) A, B and C",
       "is_correct": false
     },
     {
@@ -1752,7 +1752,7 @@
         "Eight"
       ],
       "correct_answer": "C",
-      "rag_answer": "C) Seven",
+      "rag_answer": "D) Eight",
       "is_correct": false
     },
     {
@@ -1791,7 +1791,7 @@
         "go to the park"
       ],
       "correct_answer": "B",
-      "rag_answer": "B) teach English",
+      "rag_answer": "D) go to the park",
       "is_correct": false
     },
     {
@@ -1817,7 +1817,7 @@
         "The mother told the teacher about the scat after the meeting."
       ],
       "correct_answer": "D",
-      "rag_answer": "A) The boy knew why his mother's face was scarred before the incident with John and telling John's story, as indicated by \"The little boy never talked about it with his mother.\" He later learned more from seeing bruises on her hands when helping to clean them for a job interview.\n\nAnswer: A) The boy knew why his mother got the scar before.",
+      "rag_answer": "A) The boy knew why his mother got the scar before.",
       "is_correct": false
     },
     {
@@ -1843,7 +1843,7 @@
         "Gurdon's science teacher."
       ],
       "correct_answer": "C",
-      "rag_answer": "C) Sir John Gurdon and Shinya Yamanaka",
+      "rag_answer": "C) Sir John Gurdon and Shinya Yamanaka.",
       "is_correct": false
     },
     {
@@ -2051,7 +2051,7 @@
         "Alexandra's stories appeared often on the radio and TV"
       ],
       "correct_answer": "B",
-      "rag_answer": "B) Alexandra's success changed her family's life.",
+      "rag_answer": "B) Alexandra's success changed her family's life",
       "is_correct": false
     },
     {
@@ -2142,7 +2142,7 @@
         "One"
       ],
       "correct_answer": "C",
-      "rag_answer": "C) two",
+      "rag_answer": "C) Two",
       "is_correct": false
     },
     {
@@ -2207,7 +2207,7 @@
         "cut down too many trees and grass"
       ],
       "correct_answer": "C",
-      "rag_answer": "B) set fires to help people who went fishing home.",
+      "rag_answer": "B) set fires to get warm",
       "is_correct": false
     },
     {
@@ -2246,7 +2246,7 @@
         "they can live longer"
       ],
       "correct_answer": "B",
-      "rag_answer": "B) they share similar genes with humans",
+      "rag_answer": "B) they share similar genes with humans.",
       "is_correct": false
     },
     {
@@ -2285,7 +2285,7 @@
         "was praised by his teachers and classmates"
       ],
       "correct_answer": "D",
-      "rag_answer": "D) was praised by his teachers and classmates",
+      "rag_answer": "A) was good at going door-to-door",
       "is_correct": false
     },
     {
@@ -2298,7 +2298,7 @@
         "After she came back from the cinema."
       ],
       "correct_answer": "A",
-      "rag_answer": "B) Before he went to school.",
+      "rag_answer": "B) Before she finished the washing.",
       "is_correct": false
     },
     {
@@ -2311,7 +2311,7 @@
         "they have lots of things to do at home"
       ],
       "correct_answer": "D",
-      "rag_answer": "D) they have lots of things to do at home.",
+      "rag_answer": "B) they like playing games better than studying",
       "is_correct": false
     },
     {
@@ -2402,7 +2402,7 @@
         "those birds were bleeding while flying"
       ],
       "correct_answer": "C",
-      "rag_answer": "A) the tornado picked up the birds' blood",
+      "rag_answer": "B) there were no strong winds that day",
       "is_correct": false
     },
     {
@@ -2467,7 +2467,7 @@
         "Some robots' brains are sensors."
       ],
       "correct_answer": "D",
-      "rag_answer": "D) Some robots' brains are sensors.",
+      "rag_answer": "D) Some robots' brains are not sensors; they are computers.",
       "is_correct": false
     },
     {
@@ -2493,7 +2493,7 @@
         "he heard a noise"
       ],
       "correct_answer": "C",
-      "rag_answer": "A) he thought there was something wrong with it",
+      "rag_answer": "C) he found one of the rails was broken",
       "is_correct": false
     },
     {
@@ -2519,7 +2519,7 @@
         "Poor People and Money."
       ],
       "correct_answer": "A",
-      "rag_answer": "B) Police and Money.",
+      "rag_answer": "D) Poor People and Money.",
       "is_correct": false
     },
     {
@@ -2545,7 +2545,7 @@
         "Pilots'- First Class -Club- Economy"
       ],
       "correct_answer": "D",
-      "rag_answer": "A) Club-Pilots'-Economy -First Class",
+      "rag_answer": "A) Club-Pilot's-Economy -First Class",
       "is_correct": false
     },
     {
@@ -2610,7 +2610,7 @@
         "All his friends"
       ],
       "correct_answer": "B",
-      "rag_answer": "A) Many of his friends",
+      "rag_answer": "B) Few people",
       "is_correct": false
     }
   ]

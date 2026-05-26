@@ -6,12 +6,12 @@
   "generator_model": "goekdenizguelmez/JOSIEFIED-Qwen2.5:7b",
   "generator_params": 7.62,
   "generator_size": 4.4,
-  "timestamp": "2026-04-30T01:20:56.368291",
-  "duration": "00:07:52",
-  "duration (seconds)": 472,
+  "timestamp": "2026-05-22T22:18:06.108303",
+  "duration": "00:07:38",
+  "duration (seconds)": 458,
   "total": 200,
-  "correct": 191,
-  "accuracy": 0.955,
+  "correct": 190,
+  "accuracy": 0.95,
   "results": [
     {
       "problem_index": 1,
@@ -1375,8 +1375,8 @@
         "D": "100,000"
       },
       "correct_answer": "B",
-      "rag_answer": "B",
-      "is_correct": true
+      "rag_answer": "D",
+      "is_correct": false
     },
     {
       "problem_index": 106,

@@ -6,12 +6,12 @@
   "generator_model": "rjmalagon/lamarck-v0.7:14b-bf16",
   "generator_params": 14.8,
   "generator_size": 27.5,
-  "timestamp": "2026-04-30T03:25:11.138007",
-  "duration": "00:10:46",
-  "duration (seconds)": 646,
+  "timestamp": "2026-05-22T23:16:23.729391",
+  "duration": "00:10:23",
+  "duration (seconds)": 623,
   "total": 200,
-  "correct": 195,
-  "accuracy": 0.975,
+  "correct": 196,
+  "accuracy": 0.98,
   "results": [
     {
       "problem_index": 1,
@@ -1271,8 +1271,8 @@
         "D": "Divine Magic"
       },
       "correct_answer": "C",
-      "rag_answer": "A",
-      "is_correct": false
+      "rag_answer": "C",
+      "is_correct": true
     },
     {
       "problem_index": 98,

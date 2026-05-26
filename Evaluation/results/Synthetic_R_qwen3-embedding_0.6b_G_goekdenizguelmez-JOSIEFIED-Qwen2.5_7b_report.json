@@ -6,12 +6,12 @@
   "generator_model": "goekdenizguelmez/JOSIEFIED-Qwen2.5:7b",
   "generator_params": 7.62,
   "generator_size": 4.4,
-  "timestamp": "2026-04-30T01:05:11.089680",
-  "duration": "00:07:44",
-  "duration (seconds)": 464,
+  "timestamp": "2026-05-22T22:40:52.335976",
+  "duration": "00:06:55",
+  "duration (seconds)": 415,
   "total": 200,
-  "correct": 191,
-  "accuracy": 0.955,
+  "correct": 189,
+  "accuracy": 0.945,
   "results": [
     {
       "problem_index": 1,
@@ -283,7 +283,7 @@
         "D": "Eternal Wind"
       },
       "correct_answer": "C",
-      "rag_answer": "A",
+      "rag_answer": "B",
       "is_correct": false
     },
     {
@@ -907,8 +907,8 @@
         "D": "Festival of the Tides"
       },
       "correct_answer": "D",
-      "rag_answer": "D",
-      "is_correct": true
+      "rag_answer": "C",
+      "is_correct": false
     },
     {
       "problem_index": 70,
@@ -2610,8 +2610,8 @@
         "D": "1850"
       },
       "correct_answer": "D",
-      "rag_answer": "D",
-      "is_correct": true
+      "rag_answer": "B",
+      "is_correct": false
     }
   ]
 }

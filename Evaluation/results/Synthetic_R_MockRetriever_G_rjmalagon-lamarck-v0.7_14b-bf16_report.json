@@ -6,12 +6,12 @@
   "generator_model": "rjmalagon/lamarck-v0.7:14b-bf16",
   "generator_params": 14.8,
   "generator_size": 27.5,
-  "timestamp": "2026-04-30T04:02:49.438884",
-  "duration": "00:03:26",
-  "duration (seconds)": 206,
+  "timestamp": "2026-05-22T22:44:17.238121",
+  "duration": "00:03:24",
+  "duration (seconds)": 204,
   "total": 200,
-  "correct": 104,
-  "accuracy": 0.52,
+  "correct": 103,
+  "accuracy": 0.515,
   "results": [
     {
       "problem_index": 1,
@@ -465,7 +465,7 @@
         "D": "Fishing"
       },
       "correct_answer": "D",
-      "rag_answer": "B",
+      "rag_answer": "A",
       "is_correct": false
     },
     {
@@ -608,8 +608,8 @@
         "D": "Every 50 years"
       },
       "correct_answer": "D",
-      "rag_answer": "D",
-      "is_correct": true
+      "rag_answer": "C",
+      "is_correct": false
     },
     {
       "problem_index": 47,
@@ -725,8 +725,8 @@
         "D": "1150 CE"
       },
       "correct_answer": "A",
-      "rag_answer": "A",
-      "is_correct": true
+      "rag_answer": "B",
+      "is_correct": false
     },
     {
       "problem_index": 56,
@@ -985,8 +985,8 @@
         "D": "Magical Herbs"
       },
       "correct_answer": "B",
-      "rag_answer": "D",
-      "is_correct": false
+      "rag_answer": "B",
+      "is_correct": true
     },
     {
       "problem_index": 76,
@@ -998,8 +998,8 @@
         "D": "Firewatch Tower Route"
       },
       "correct_answer": "C",
-      "rag_answer": "C",
-      "is_correct": true
+      "rag_answer": "A",
+      "is_correct": false
     },
     {
       "problem_index": 77,
@@ -1128,8 +1128,8 @@
         "D": "Kael'thys, the Lightbringer"
       },
       "correct_answer": "D",
-      "rag_answer": "D",
-      "is_correct": true
+      "rag_answer": "B",
+      "is_correct": false
     },
     {
       "problem_index": 87,
@@ -1219,8 +1219,8 @@
         "D": "Moonhaven"
       },
       "correct_answer": "A",
-      "rag_answer": "C",
-      "is_correct": false
+      "rag_answer": "A",
+      "is_correct": true
     },
     {
       "problem_index": 94,
@@ -1232,7 +1232,7 @@
         "D": "20,000"
       },
       "correct_answer": "C",
-      "rag_answer": "D",
+      "rag_answer": "B",
       "is_correct": false
     },
     {
@@ -1284,7 +1284,7 @@
         "D": "The fall of Sunhold"
       },
       "correct_answer": "A",
-      "rag_answer": "B",
+      "rag_answer": "D",
       "is_correct": false
     },
     {
@@ -1388,8 +1388,8 @@
         "D": "Sunhold"
       },
       "correct_answer": "C",
-      "rag_answer": "C",
-      "is_correct": true
+      "rag_answer": "B",
+      "is_correct": false
     },
     {
       "problem_index": 107,
@@ -1440,7 +1440,7 @@
         "D": "Flying machines and magi-lamps"
       },
       "correct_answer": "B",
-      "rag_answer": "D",
+      "rag_answer": "A",
       "is_correct": false
     },
     {
@@ -1765,8 +1765,8 @@
         "D": "Thalor Sunheart"
       },
       "correct_answer": "A",
-      "rag_answer": "B",
-      "is_correct": false
+      "rag_answer": "A",
+      "is_correct": true
     },
     {
       "problem_index": 136,
@@ -1791,7 +1791,7 @@
         "D": "1400"
       },
       "correct_answer": "A",
-      "rag_answer": "B",
+      "rag_answer": "D",
       "is_correct": false
     },
     {
@@ -1843,7 +1843,7 @@
         "D": "25th"
       },
       "correct_answer": "D",
-      "rag_answer": "A",
+      "rag_answer": "C",
       "is_correct": false
     },
     {
@@ -1856,8 +1856,8 @@
         "D": "Moonhaven"
       },
       "correct_answer": "B",
-      "rag_answer": "C",
-      "is_correct": false
+      "rag_answer": "B",
+      "is_correct": true
     },
     {
       "problem_index": 143,
@@ -1947,8 +1947,8 @@
         "D": "30th"
       },
       "correct_answer": "B",
-      "rag_answer": "B",
-      "is_correct": true
+      "rag_answer": "A",
+      "is_correct": false
     },
     {
       "problem_index": 150,
@@ -2051,8 +2051,8 @@
         "D": "1850 AR"
       },
       "correct_answer": "D",
-      "rag_answer": "C",
-      "is_correct": false
+      "rag_answer": "D",
+      "is_correct": true
     },
     {
       "problem_index": 158,
@@ -2090,8 +2090,8 @@
         "D": "The War of the Verdant Plains"
       },
       "correct_answer": "B",
-      "rag_answer": "A",
-      "is_correct": false
+      "rag_answer": "B",
+      "is_correct": true
     },
     {
       "problem_index": 161,
@@ -2259,8 +2259,8 @@
         "D": "Eclipse Island Fracture Zone"
       },
       "correct_answer": "C",
-      "rag_answer": "C",
-      "is_correct": true
+      "rag_answer": "D",
+      "is_correct": false
     },
     {
       "problem_index": 174,

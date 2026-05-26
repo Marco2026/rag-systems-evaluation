@@ -6,9 +6,9 @@
   "generator_model": "phi4-mini:3.8b",
   "generator_params": 3.84,
   "generator_size": 2.3,
-  "timestamp": "2026-04-30T04:12:57.301092",
-  "duration": "00:10:07",
-  "duration (seconds)": 607,
+  "timestamp": "2026-05-22T19:53:55.722472",
+  "duration": "00:06:30",
+  "duration (seconds)": 390,
   "total": 200,
   "correct": 0,
   "accuracy": 0.0,
@@ -127,7 +127,7 @@
         "D": "Order of the Silver Flame"
       },
       "correct_answer": "D",
-      "rag_answer": "B) Order of the Gold Sun",
+      "rag_answer": "D) Order of the Silver Flame",
       "is_correct": false
     },
     {
@@ -842,7 +842,7 @@
         "D": "Air magic"
       },
       "correct_answer": "B",
-      "rag_answer": "C) Earth magic",
+      "rag_answer": "A) Fire magic",
       "is_correct": false
     },
     {
@@ -868,7 +868,7 @@
         "D": "Clan of the Deep Waters"
       },
       "correct_answer": "C",
-      "rag_answer": "A) Clan of the Silver Tide",
+      "rag_answer": "C) Clan of the Coral Reef",
       "is_correct": false
     },
     {
@@ -946,7 +946,7 @@
         "D": "Mithril"
       },
       "correct_answer": "D",
-      "rag_answer": "C) Gold",
+      "rag_answer": "B) Silver",
       "is_correct": false
     },
     {
@@ -1037,7 +1037,7 @@
         "D": "Mistwood Route"
       },
       "correct_answer": "D",
-      "rag_answer": "D)",
+      "rag_answer": "D) Miswwood Route",
       "is_correct": false
     },
     {
@@ -1219,7 +1219,7 @@
         "D": "Moonhaven"
       },
       "correct_answer": "A",
-      "rag_answer": "B) Arvandor",
+      "rag_answer": "B) Arvindor",
       "is_correct": false
     },
     {
@@ -1232,7 +1232,7 @@
         "D": "20,000"
       },
       "correct_answer": "C",
-      "rag_answer": "B) 5,000",
+      "rag_answer": "C) 10,000",
       "is_correct": false
     },
     {
@@ -1583,7 +1583,7 @@
         "D": "1260"
       },
       "correct_answer": "A",
-      "rag_answer": "B) 1320",
+      "rag_answer": "A) 1257",
       "is_correct": false
     },
     {
@@ -1960,7 +1960,7 @@
         "D": "Moonhaven"
       },
       "correct_answer": "C",
-      "rag_answer": "C) The Azure Sea",
+      "rag_answer": "B) Moonhaven",
       "is_correct": false
     },
     {
@@ -2116,7 +2116,7 @@
         "D": "Perform a specific spell"
       },
       "correct_answer": "D",
-      "rag_answer": "C) Craft a magical focus",
+      "rag_answer": "D) Perform a specific spell",
       "is_correct": false
     },
     {
@@ -2181,7 +2181,7 @@
         "D": "Sealing the bond with the elemental creature"
       },
       "correct_answer": "D",
-      "rag_answer": "C) Crafting a magical focus",
+      "rag_answer": "D) Sealing the bond with the elemental creature",
       "is_correct": false
     },
     {
@@ -2298,7 +2298,7 @@
         "D": "Amplified shadow magic"
       },
       "correct_answer": "B",
-      "rag_answer": "D) Amplified shadow magic",
+      "rag_answer": "B) Enhanced power with higher risk of backfire",
       "is_correct": false
     },
     {
@@ -2610,7 +2610,7 @@
         "D": "1850"
       },
       "correct_answer": "D",
-      "rag_answer": "C) 1200",
+      "rag_answer": "A) 500",
       "is_correct": false
     }
   ]

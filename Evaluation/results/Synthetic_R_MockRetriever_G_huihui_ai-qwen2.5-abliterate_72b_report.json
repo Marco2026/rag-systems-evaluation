@@ -6,12 +6,12 @@
   "generator_model": "huihui_ai/qwen2.5-abliterate:72b",
   "generator_params": 72.7,
   "generator_size": 44.2,
-  "timestamp": "2026-04-30T00:41:44.064421",
-  "duration": "00:05:35",
-  "duration (seconds)": 335,
+  "timestamp": "2026-05-22T16:51:34.741521",
+  "duration": "00:05:29",
+  "duration (seconds)": 329,
   "total": 200,
-  "correct": 110,
-  "accuracy": 0.55,
+  "correct": 111,
+  "accuracy": 0.555,
   "results": [
     {
       "problem_index": 1,
@@ -36,8 +36,8 @@
         "D": "Emperor Alaric I"
       },
       "correct_answer": "D",
-      "rag_answer": "B",
-      "is_correct": false
+      "rag_answer": "D",
+      "is_correct": true
     },
     {
       "problem_index": 3,
@@ -400,8 +400,8 @@
         "D": "The War of the Three Cities"
       },
       "correct_answer": "B",
-      "rag_answer": "B",
-      "is_correct": true
+      "rag_answer": "A",
+      "is_correct": false
     },
     {
       "problem_index": 31,
@@ -803,8 +803,8 @@
         "D": "-1600"
       },
       "correct_answer": "C",
-      "rag_answer": "C",
-      "is_correct": true
+      "rag_answer": "B",
+      "is_correct": false
     },
     {
       "problem_index": 62,
@@ -1050,8 +1050,8 @@
         "D": "Firewatch Tower Route"
       },
       "correct_answer": "C",
-      "rag_answer": "C",
-      "is_correct": true
+      "rag_answer": "A",
+      "is_correct": false
     },
     {
       "problem_index": 81,
@@ -1388,8 +1388,8 @@
         "D": "Sunhold"
       },
       "correct_answer": "C",
-      "rag_answer": "C",
-      "is_correct": true
+      "rag_answer": "B",
+      "is_correct": false
     },
     {
       "problem_index": 107,
@@ -1401,8 +1401,8 @@
         "D": "50 miles per hour"
       },
       "correct_answer": "B",
-      "rag_answer": "B",
-      "is_correct": true
+      "rag_answer": "A",
+      "is_correct": false
     },
     {
       "problem_index": 108,
@@ -1765,8 +1765,8 @@
         "D": "Thalor Sunheart"
       },
       "correct_answer": "A",
-      "rag_answer": "B",
-      "is_correct": false
+      "rag_answer": "A",
+      "is_correct": true
     },
     {
       "problem_index": 136,
@@ -1791,8 +1791,8 @@
         "D": "1400"
       },
       "correct_answer": "A",
-      "rag_answer": "B",
-      "is_correct": false
+      "rag_answer": "A",
+      "is_correct": true
     },
     {
       "problem_index": 138,
@@ -1882,8 +1882,8 @@
         "D": "Firewatch Tower"
       },
       "correct_answer": "D",
-      "rag_answer": "B",
-      "is_correct": false
+      "rag_answer": "D",
+      "is_correct": true
     },
     {
       "problem_index": 145,
@@ -1947,8 +1947,8 @@
         "D": "30th"
       },
       "correct_answer": "B",
-      "rag_answer": "A",
-      "is_correct": false
+      "rag_answer": "B",
+      "is_correct": true
     },
     {
       "problem_index": 150,
@@ -2129,8 +2129,8 @@
         "D": "The creator of the Silverlake Observatory"
       },
       "correct_answer": "C",
-      "rag_answer": "A",
-      "is_correct": false
+      "rag_answer": "C",
+      "is_correct": true
     },
     {
       "problem_index": 164,

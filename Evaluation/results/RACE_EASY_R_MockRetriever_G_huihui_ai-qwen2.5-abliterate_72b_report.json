@@ -6,12 +6,12 @@
   "generator_model": "huihui_ai/qwen2.5-abliterate:72b",
   "generator_params": 72.7,
   "generator_size": 44.2,
-  "timestamp": "2026-04-18T09:44:40.375178",
-  "duration": "00:06:04",
-  "duration (seconds)": 364,
+  "timestamp": "2026-05-21T20:53:46.158316",
+  "duration": "00:05:22",
+  "duration (seconds)": 322,
   "total": 200,
-  "correct": 120,
-  "accuracy": 0.6,
+  "correct": 126,
+  "accuracy": 0.63,
   "results": [
     {
       "problem_index": 1,
@@ -205,7 +205,7 @@
         "9%"
       ],
       "correct_answer": "D",
-      "rag_answer": "B",
+      "rag_answer": "A",
       "is_correct": false
     },
     {
@@ -270,8 +270,8 @@
         "six"
       ],
       "correct_answer": "C",
-      "rag_answer": "B",
-      "is_correct": false
+      "rag_answer": "C",
+      "is_correct": true
     },
     {
       "problem_index": 21,
@@ -335,8 +335,8 @@
         "pears"
       ],
       "correct_answer": "B",
-      "rag_answer": "A",
-      "is_correct": false
+      "rag_answer": "B",
+      "is_correct": true
     },
     {
       "problem_index": 26,
@@ -504,8 +504,8 @@
         "It came out before she finished school."
       ],
       "correct_answer": "C",
-      "rag_answer": "D",
-      "is_correct": false
+      "rag_answer": "C",
+      "is_correct": true
     },
     {
       "problem_index": 39,
@@ -595,8 +595,8 @@
         "He likes art very much."
       ],
       "correct_answer": "D",
-      "rag_answer": "C",
-      "is_correct": false
+      "rag_answer": "D",
+      "is_correct": true
     },
     {
       "problem_index": 46,
@@ -816,8 +816,8 @@
         "Functions of mirror neurons."
       ],
       "correct_answer": "D",
-      "rag_answer": "D",
-      "is_correct": true
+      "rag_answer": "C",
+      "is_correct": false
     },
     {
       "problem_index": 63,
@@ -894,7 +894,7 @@
         "didn't know all the people they passed"
       ],
       "correct_answer": "A",
-      "rag_answer": "D",
+      "rag_answer": "B",
       "is_correct": false
     },
     {
@@ -1609,8 +1609,8 @@
         "Sea lions blowing instruments."
       ],
       "correct_answer": "B",
-      "rag_answer": "B",
-      "is_correct": true
+      "rag_answer": "D",
+      "is_correct": false
     },
     {
       "problem_index": 124,
@@ -1934,7 +1934,7 @@
         "All the students must have high grades."
       ],
       "correct_answer": "A",
-      "rag_answer": "B",
+      "rag_answer": "C",
       "is_correct": false
     },
     {
@@ -1960,8 +1960,8 @@
         "clearer and clearer."
       ],
       "correct_answer": "A",
-      "rag_answer": "B",
-      "is_correct": false
+      "rag_answer": "A",
+      "is_correct": true
     },
     {
       "problem_index": 151,
@@ -2168,7 +2168,7 @@
         "a middle school"
       ],
       "correct_answer": "B",
-      "rag_answer": "D",
+      "rag_answer": "A",
       "is_correct": false
     },
     {
@@ -2285,8 +2285,8 @@
         "was praised by his teachers and classmates"
       ],
       "correct_answer": "D",
-      "rag_answer": "A",
-      "is_correct": false
+      "rag_answer": "D",
+      "is_correct": true
     },
     {
       "problem_index": 176,
@@ -2493,8 +2493,8 @@
         "he heard a noise"
       ],
       "correct_answer": "C",
-      "rag_answer": "B",
-      "is_correct": false
+      "rag_answer": "C",
+      "is_correct": true
     },
     {
       "problem_index": 192,
@@ -2571,8 +2571,8 @@
         "Four."
       ],
       "correct_answer": "D",
-      "rag_answer": "B",
-      "is_correct": false
+      "rag_answer": "D",
+      "is_correct": true
     },
     {
       "problem_index": 198,

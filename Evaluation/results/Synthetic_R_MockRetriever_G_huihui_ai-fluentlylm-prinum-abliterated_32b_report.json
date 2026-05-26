@@ -6,12 +6,12 @@
   "generator_model": "huihui_ai/fluentlylm-prinum-abliterated:32b",
   "generator_params": 32.8,
   "generator_size": 18.5,
-  "timestamp": "2026-04-30T03:03:10.207525",
-  "duration": "00:04:09",
-  "duration (seconds)": 249,
+  "timestamp": "2026-05-22T20:26:23.312857",
+  "duration": "00:03:55",
+  "duration (seconds)": 235,
   "total": 200,
-  "correct": 112,
-  "accuracy": 0.56,
+  "correct": 118,
+  "accuracy": 0.59,
   "results": [
     {
       "problem_index": 1,
@@ -88,8 +88,8 @@
         "D": "40"
       },
       "correct_answer": "B",
-      "rag_answer": "C",
-      "is_correct": false
+      "rag_answer": "B",
+      "is_correct": true
     },
     {
       "problem_index": 7,
@@ -127,7 +127,7 @@
         "D": "Order of the Silver Flame"
       },
       "correct_answer": "D",
-      "rag_answer": "A",
+      "rag_answer": "B",
       "is_correct": false
     },
     {
@@ -296,8 +296,8 @@
         "D": "The Founding of the Mage Guilds"
       },
       "correct_answer": "B",
-      "rag_answer": "A",
-      "is_correct": false
+      "rag_answer": "B",
+      "is_correct": true
     },
     {
       "problem_index": 23,
@@ -374,7 +374,7 @@
         "D": "The Pact of the Three Races"
       },
       "correct_answer": "C",
-      "rag_answer": "A",
+      "rag_answer": "B",
       "is_correct": false
     },
     {
@@ -387,7 +387,7 @@
         "D": "Moonhaven"
       },
       "correct_answer": "C",
-      "rag_answer": "A",
+      "rag_answer": "B",
       "is_correct": false
     },
     {
@@ -400,8 +400,8 @@
         "D": "The War of the Three Cities"
       },
       "correct_answer": "B",
-      "rag_answer": "A",
-      "is_correct": false
+      "rag_answer": "B",
+      "is_correct": true
     },
     {
       "problem_index": 31,
@@ -465,7 +465,7 @@
         "D": "Fishing"
       },
       "correct_answer": "D",
-      "rag_answer": "A",
+      "rag_answer": "B",
       "is_correct": false
     },
     {
@@ -556,7 +556,7 @@
         "D": "Eryndur"
       },
       "correct_answer": "D",
-      "rag_answer": "A",
+      "rag_answer": "B",
       "is_correct": false
     },
     {
@@ -595,8 +595,8 @@
         "D": "Moonberries"
       },
       "correct_answer": "D",
-      "rag_answer": "D",
-      "is_correct": true
+      "rag_answer": "B",
+      "is_correct": false
     },
     {
       "problem_index": 46,
@@ -608,7 +608,7 @@
         "D": "Every 50 years"
       },
       "correct_answer": "D",
-      "rag_answer": "A",
+      "rag_answer": "C",
       "is_correct": false
     },
     {
@@ -621,8 +621,8 @@
         "D": "Moon Chirps"
       },
       "correct_answer": "A",
-      "rag_answer": "C",
-      "is_correct": false
+      "rag_answer": "A",
+      "is_correct": true
     },
     {
       "problem_index": 48,
@@ -647,7 +647,7 @@
         "D": "Arathorn"
       },
       "correct_answer": "D",
-      "rag_answer": "B",
+      "rag_answer": "A",
       "is_correct": false
     },
     {
@@ -725,8 +725,8 @@
         "D": "1150 CE"
       },
       "correct_answer": "A",
-      "rag_answer": "A",
-      "is_correct": true
+      "rag_answer": "C",
+      "is_correct": false
     },
     {
       "problem_index": 56,
@@ -751,8 +751,8 @@
         "D": "1750 CE"
       },
       "correct_answer": "A",
-      "rag_answer": "A",
-      "is_correct": true
+      "rag_answer": "C",
+      "is_correct": false
     },
     {
       "problem_index": 58,
@@ -829,8 +829,8 @@
         "D": "Lighthouse of Ember Island"
       },
       "correct_answer": "B",
-      "rag_answer": "B",
-      "is_correct": true
+      "rag_answer": "A",
+      "is_correct": false
     },
     {
       "problem_index": 64,
@@ -985,8 +985,8 @@
         "D": "Magical Herbs"
       },
       "correct_answer": "B",
-      "rag_answer": "B",
-      "is_correct": true
+      "rag_answer": "A",
+      "is_correct": false
     },
     {
       "problem_index": 76,
@@ -1050,7 +1050,7 @@
         "D": "Firewatch Tower Route"
       },
       "correct_answer": "C",
-      "rag_answer": "A",
+      "rag_answer": "B",
       "is_correct": false
     },
     {
@@ -1089,7 +1089,7 @@
         "D": "Storms and magic, Thundertop"
       },
       "correct_answer": "C",
-      "rag_answer": "C) Life and fertility, Silver Forest\n\nAnswer: C",
+      "rag_answer": "A",
       "is_correct": false
     },
     {
@@ -1193,7 +1193,7 @@
         "D": "1756"
       },
       "correct_answer": "A",
-      "rag_answer": "D",
+      "rag_answer": "C",
       "is_correct": false
     },
     {
@@ -1310,8 +1310,8 @@
         "D": "Silver Forest"
       },
       "correct_answer": "A",
-      "rag_answer": "D",
-      "is_correct": false
+      "rag_answer": "A",
+      "is_correct": true
     },
     {
       "problem_index": 101,
@@ -1323,8 +1323,8 @@
         "D": "Thalor Ironheart"
       },
       "correct_answer": "A",
-      "rag_answer": "C",
-      "is_correct": false
+      "rag_answer": "A",
+      "is_correct": true
     },
     {
       "problem_index": 102,
@@ -1336,8 +1336,8 @@
         "D": "1800"
       },
       "correct_answer": "A",
-      "rag_answer": "C",
-      "is_correct": false
+      "rag_answer": "A",
+      "is_correct": true
     },
     {
       "problem_index": 103,
@@ -1375,8 +1375,8 @@
         "D": "100,000"
       },
       "correct_answer": "B",
-      "rag_answer": "B",
-      "is_correct": true
+      "rag_answer": "A",
+      "is_correct": false
     },
     {
       "problem_index": 106,
@@ -1466,8 +1466,8 @@
         "D": "Moonhaven"
       },
       "correct_answer": "B",
-      "rag_answer": "B",
-      "is_correct": true
+      "rag_answer": "A",
+      "is_correct": false
     },
     {
       "problem_index": 113,
@@ -1492,8 +1492,8 @@
         "D": "Sunhold University"
       },
       "correct_answer": "B",
-      "rag_answer": "A",
-      "is_correct": false
+      "rag_answer": "B",
+      "is_correct": true
     },
     {
       "problem_index": 115,
@@ -1583,8 +1583,8 @@
         "D": "1260"
       },
       "correct_answer": "A",
-      "rag_answer": "C",
-      "is_correct": false
+      "rag_answer": "A",
+      "is_correct": true
     },
     {
       "problem_index": 122,
@@ -1596,8 +1596,8 @@
         "D": "Emperor Eldric Valdrek"
       },
       "correct_answer": "C",
-      "rag_answer": "C",
-      "is_correct": true
+      "rag_answer": "A",
+      "is_correct": false
     },
     {
       "problem_index": 123,
@@ -1622,7 +1622,7 @@
         "D": "1260"
       },
       "correct_answer": "A",
-      "rag_answer": "B",
+      "rag_answer": "D",
       "is_correct": false
     },
     {
@@ -1700,8 +1700,8 @@
         "D": "1260"
       },
       "correct_answer": "A",
-      "rag_answer": "B",
-      "is_correct": false
+      "rag_answer": "A",
+      "is_correct": true
     },
     {
       "problem_index": 131,
@@ -1765,8 +1765,8 @@
         "D": "Thalor Sunheart"
       },
       "correct_answer": "A",
-      "rag_answer": "B",
-      "is_correct": false
+      "rag_answer": "A",
+      "is_correct": true
     },
     {
       "problem_index": 136,
@@ -1791,8 +1791,8 @@
         "D": "1400"
       },
       "correct_answer": "A",
-      "rag_answer": "B",
-      "is_correct": false
+      "rag_answer": "A",
+      "is_correct": true
     },
     {
       "problem_index": 138,
@@ -1947,8 +1947,8 @@
         "D": "30th"
       },
       "correct_answer": "B",
-      "rag_answer": "A",
-      "is_correct": false
+      "rag_answer": "B",
+      "is_correct": true
     },
     {
       "problem_index": 150,
@@ -2038,8 +2038,8 @@
         "D": "Merfolk and Krakens"
       },
       "correct_answer": "A",
-      "rag_answer": "B",
-      "is_correct": false
+      "rag_answer": "A",
+      "is_correct": true
     },
     {
       "problem_index": 157,
@@ -2103,8 +2103,8 @@
         "D": "Starfall Caverns"
       },
       "correct_answer": "B",
-      "rag_answer": "B",
-      "is_correct": true
+      "rag_answer": "D",
+      "is_correct": false
     },
     {
       "problem_index": 162,
@@ -2129,8 +2129,8 @@
         "D": "The creator of the Silverlake Observatory"
       },
       "correct_answer": "C",
-      "rag_answer": "B",
-      "is_correct": false
+      "rag_answer": "C",
+      "is_correct": true
     },
     {
       "problem_index": 164,
@@ -2142,8 +2142,8 @@
         "D": "She initiated the first Bonding Ceremony"
       },
       "correct_answer": "B",
-      "rag_answer": "C",
-      "is_correct": false
+      "rag_answer": "B",
+      "is_correct": true
     },
     {
       "problem_index": 165,
@@ -2233,8 +2233,8 @@
         "D": "1623"
       },
       "correct_answer": "A",
-      "rag_answer": "A",
-      "is_correct": true
+      "rag_answer": "B",
+      "is_correct": false
     },
     {
       "problem_index": 172,
@@ -2311,8 +2311,8 @@
         "D": "1598"
       },
       "correct_answer": "A",
-      "rag_answer": "B",
-      "is_correct": false
+      "rag_answer": "A",
+      "is_correct": true
     },
     {
       "problem_index": 178,
@@ -2467,8 +2467,8 @@
         "D": "In the depths of the Starfall Caverns"
       },
       "correct_answer": "C",
-      "rag_answer": "C",
-      "is_correct": true
+      "rag_answer": "A",
+      "is_correct": false
     },
     {
       "problem_index": 190,

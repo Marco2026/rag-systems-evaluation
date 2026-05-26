@@ -6,12 +6,12 @@
   "generator_model": "phi4-mini:3.8b",
   "generator_params": 3.84,
   "generator_size": 2.3,
-  "timestamp": "2026-04-12T10:11:05.469550",
-  "duration": "00:20:00",
-  "duration (seconds)": 1200,
+  "timestamp": "2026-05-21T14:59:15.622663",
+  "duration": "00:13:24",
+  "duration (seconds)": 804,
   "total": 200,
-  "correct": 1,
-  "accuracy": 0.005,
+  "correct": 0,
+  "accuracy": 0.0,
   "results": [
     {
       "problem_index": 1,
@@ -36,7 +36,7 @@
         "Petchareff ordered Pashkov to hide his feelings"
       ],
       "correct_answer": 2,
-      "rag_answer": "A) Medvedev is too talented for Pashkov to be angry with him",
+      "rag_answer": "D) Petchareff ordered Pashkov to hide his feelings",
       "is_correct": false
     },
     {
@@ -49,7 +49,7 @@
         "He would end up nearby a camp of dangerous humans"
       ],
       "correct_answer": 2,
-      "rag_answer": "C) He wouldn't be able to reach land",
+      "rag_answer": "D) He would end up nearby a camp of dangerous humans",
       "is_correct": false
     },
     {
@@ -62,7 +62,7 @@
         "They're disconnected"
       ],
       "correct_answer": 0,
-      "rag_answer": "B) They're disconnecte",
+      "rag_answer": "B) They're disconnected",
       "is_correct": false
     },
     {
@@ -101,7 +101,7 @@
         "Being the leader of a continent"
       ],
       "correct_answer": 3,
-      "rag_answer": "D) Being the leader of a continent",
+      "rag_answer": "A) Being a refugee from Europe",
       "is_correct": false
     },
     {
@@ -114,7 +114,7 @@
         "Mathematicians were wowed by his game theory proof"
       ],
       "correct_answer": 2,
-      "rag_answer": "B) Mathematicians were wowed by his work at Rand Corporation",
+      "rag_answer": "C) Mathematicians were wowed by his manifold proof.",
       "is_correct": false
     },
     {
@@ -127,7 +127,7 @@
         "A magical Iron Age"
       ],
       "correct_answer": 3,
-      "rag_answer": "B) A fairytale of the Stone Age",
+      "rag_answer": "C) A society on the edge of an industrial revolution",
       "is_correct": false
     },
     {
@@ -153,7 +153,7 @@
         "The color changes depending on if he is awake or asleep"
       ],
       "correct_answer": 2,
-      "rag_answer": "C) The color changes based on the emotions he feels",
+      "rag_answer": "A) The color changes when he is speaking different languages",
       "is_correct": false
     },
     {
@@ -166,7 +166,7 @@
         "support OA because they will make more money that way."
       ],
       "correct_answer": 1,
-      "rag_answer": "C) don't seem to care about OA at all.",
+      "rag_answer": "A) believe that they should be profiting off of OA just as much as the publishers.",
       "is_correct": false
     },
     {
@@ -179,7 +179,7 @@
         "He had to be naked in order to initiate a teleport"
       ],
       "correct_answer": 0,
-      "rag_answer": "C) Being naked was a last resort way to distract the Agents from recognizing their cylinders",
+      "rag_answer": "A) He would always arrive to his teleported location naked",
       "is_correct": false
     },
     {
@@ -192,7 +192,7 @@
         "He doesn't think they can look after themselves"
       ],
       "correct_answer": 0,
-      "rag_answer": "D",
+      "rag_answer": "C) He's got that way of always inspecting their gear. ",
       "is_correct": false
     },
     {
@@ -244,7 +244,7 @@
         "He closed his eyes"
       ],
       "correct_answer": 2,
-      "rag_answer": "C) He thought about opposite kinds of images",
+      "rag_answer": "C) He thought about opposites images",
       "is_correct": false
     },
     {
@@ -296,7 +296,7 @@
         "Hendricks had proven her abilities over years working with the Captain"
       ],
       "correct_answer": 2,
-      "rag_answer": "C) Hendricks' father built the ship and trained her on it.",
+      "rag_answer": "C) Hendricks’ father built the ship and trained her on it",
       "is_correct": false
     },
     {
@@ -361,7 +361,7 @@
         "Their biology is not understood well, and mistakes can be made"
       ],
       "correct_answer": 3,
-      "rag_answer": "D) Their biology is not understood well, and mistakes can be made",
+      "rag_answer": "C) The cost may be extremely expensive for emergency services outside of the contract, taking centuries to repay",
       "is_correct": false
     },
     {
@@ -387,7 +387,7 @@
         "Capturing aliens"
       ],
       "correct_answer": 0,
-      "rag_answer": "D) Capturing aliens",
+      "rag_answer": "C) Testing colonization of distant planets by cannibalizing parts from spaceships",
       "is_correct": false
     },
     {
@@ -439,7 +439,7 @@
         "He felt that this new presence was trying to steal reality from humans"
       ],
       "correct_answer": 3,
-      "rag_answer": "D) He felt that this new presence was trying to steal reality from humans",
+      "rag_answer": "C) It revealed it's 'evil intentions to Mr. Chambers directly",
       "is_correct": false
     },
     {
@@ -478,7 +478,7 @@
         "To have a plebian contest"
       ],
       "correct_answer": 1,
-      "rag_answer": "B) To be a farmer",
+      "rag_answer": "A) To take over the oases",
       "is_correct": false
     },
     {
@@ -491,7 +491,7 @@
         "Low cost beers actually rate pretty well when people don’t know what they’re drinking"
       ],
       "correct_answer": 3,
-      "rag_answer": "D) Low cost beers actualy rate pretty well when people don't know what they're drinking",
+      "rag_answer": "C) A low cost beer was actually ranked the best overall",
       "is_correct": false
     },
     {
@@ -517,7 +517,7 @@
         "Earth provided technologies to his planet early on and is checking back in on the status of their progress"
       ],
       "correct_answer": 0,
-      "rag_answer": "B) Earth evaluates planets across the galaxy for their resources, and his planet is of particular interest.",
+      "rag_answer": "B) Earth evaluations planets across the galaxy. His planet is being checked for resources by them.",
       "is_correct": false
     },
     {
@@ -569,7 +569,7 @@
         "They are crafted planets made to be much like Earth with spaceship components within to propel them"
       ],
       "correct_answer": 3,
-      "rag_answer": "C) They outwardly appear as streamlined torpedo spaceships with interior rooms containing similar plant life to Earth's.",
+      "rag_answer": "C) They outwardly appear as streamlined torpedo spaceships with interior rooms containing similar plant life to Earth",
       "is_correct": false
     },
     {
@@ -582,7 +582,7 @@
         "He organizes impeachment, eventually resigns"
       ],
       "correct_answer": 3,
-      "rag_answer": "C) He and Linda are congress people.",
+      "rag_answer": "C) He organizes impeachment, eventually resigns",
       "is_correct": false
     },
     {
@@ -608,7 +608,7 @@
         "A woman tries to benevolently prove that people can become younger through space travel."
       ],
       "correct_answer": 2,
-      "rag_answer": "A) A woman attempts to hijack the flight of an astronaut she's in love with so they can both stay young and beautiful together forever.",
+      "rag_answer": "A) ",
       "is_correct": false
     },
     {
@@ -660,7 +660,7 @@
         "Microphones"
       ],
       "correct_answer": 1,
-      "rag_answer": "C) Explosives",
+      "rag_answer": "A) Robots",
       "is_correct": false
     },
     {
@@ -686,7 +686,7 @@
         "The species live in communities together."
       ],
       "correct_answer": 1,
-      "rag_answer": "C) There is no more communication between the species.",
+      "rag_answer": "B) The relationship is cordial.",
       "is_correct": false
     },
     {
@@ -712,7 +712,7 @@
         "Three"
       ],
       "correct_answer": 0,
-      "rag_answer": "B) One",
+      "rag_answer": "A) Zero",
       "is_correct": false
     },
     {
@@ -777,8 +777,8 @@
         "It was to build suspense because Arthur was put in harm's way."
       ],
       "correct_answer": 3,
-      "rag_answer": "D)",
-      "is_correct": true
+      "rag_answer": "D) It was to build suspense because Arthur was put in harm's way.",
+      "is_correct": false
     },
     {
       "problem_index": 60,
@@ -790,7 +790,7 @@
         "Joyce"
       ],
       "correct_answer": 0,
-      "rag_answer": "C) Four",
+      "rag_answer": "A) Reba",
       "is_correct": false
     },
     {
@@ -829,7 +829,7 @@
         "There are more parking spaces"
       ],
       "correct_answer": 0,
-      "rag_answer": "C) There is a greater diversity of dining",
+      "rag_answer": "B) There are more amenities like elevators and concourses.",
       "is_correct": false
     },
     {
@@ -842,7 +842,7 @@
         "Andrias would have died"
       ],
       "correct_answer": 1,
-      "rag_answer": "B) Duane would not have escaped",
+      "rag_answer": "D) Andrias would have died",
       "is_correct": false
     },
     {
@@ -855,7 +855,7 @@
         "Donald Trump caused its demise."
       ],
       "correct_answer": 1,
-      "rag_answer": "B) Almost everything that makes the internet function is found on land.",
+      "rag_answer": "C) Major corporations have corrupted it just like the corporate world.",
       "is_correct": false
     },
     {
@@ -868,7 +868,7 @@
         "the stars go back to where they were originally, and it was like the story never happened."
       ],
       "correct_answer": 1,
-      "rag_answer": "C) Doc and Roy stay in touch with Ethel and Joey for many years.",
+      "rag_answer": "B) Roy never hears from Joey and his mom again.",
       "is_correct": false
     },
     {
@@ -881,7 +881,7 @@
         "No, Evelyn gets caught"
       ],
       "correct_answer": 0,
-      "rag_answer": "A) Unclear, the story ends as Evelyn enters a dangerous situation",
+      "rag_answer": "C) Unclear, Evelyn will likely succeed but the ending fails to confirm this",
       "is_correct": false
     },
     {
@@ -907,7 +907,7 @@
         "He realizes that if he stays on the asteroid, he won't have to give up the tobacco seeds for experimentation and can grow and enjoy it himself."
       ],
       "correct_answer": 2,
-      "rag_answer": "D) He realizes that if he stays on the asteroid, he won't have to give up the tobacco seeds for experimentation and can grow and enjoy it himself.",
+      "rag_answer": "B) He realizes that he'd rather stay with wild women than travel back with the posh Doctor Boynton.",
       "is_correct": false
     },
     {
@@ -920,7 +920,7 @@
         "Gavin learns important lessons in leadership from him"
       ],
       "correct_answer": 3,
-      "rag_answer": "B) The First Officer only interacts with Gavin using Quade as an intermediary",
+      "rag_answer": "C) Gavin trusts him so much as to go together on space expeditions, but not further",
       "is_correct": false
     },
     {
@@ -933,7 +933,7 @@
         "To appease the local Earthlings"
       ],
       "correct_answer": 0,
-      "rag_answer": "A) It was causing disruptions in hyperspace travel",
+      "rag_answer": "C) It was on one of the main routes.",
       "is_correct": false
     },
     {
@@ -946,7 +946,7 @@
         "Thrice"
       ],
       "correct_answer": 1,
-      "rag_answer": "B) Once",
+      "rag_answer": "C) They did not actually ever leave the ship",
       "is_correct": false
     },
     {
@@ -959,7 +959,7 @@
         "Because Ivy requested the ship for the experiment"
       ],
       "correct_answer": 2,
-      "rag_answer": "B) Because Gorman appointed them to the experiment",
+      "rag_answer": "A) Because Cob gave the order",
       "is_correct": false
     },
     {
@@ -998,7 +998,7 @@
         "They can commit lawless acts without punishment"
       ],
       "correct_answer": 3,
-      "rag_answer": "D) They can't commit lawless acts without punishment",
+      "rag_answer": "B) They need to keep the number of Konvs down or everyone on Earth might die",
       "is_correct": false
     },
     {
@@ -1024,7 +1024,7 @@
         "With a nuclear weapon"
       ],
       "correct_answer": 1,
-      "rag_answer": "D) With a nuclear weapon",
+      "rag_answer": "B) With a children's rhyme",
       "is_correct": false
     },
     {
@@ -1037,7 +1037,7 @@
         "The son came to discover that his father had secrets in his finances upon his death"
       ],
       "correct_answer": 1,
-      "rag_answer": "B) The son held great respect for his father and valued his legacy",
+      "rag_answer": "B) The son held great respect for his father and valued his legacy.",
       "is_correct": false
     },
     {
@@ -1102,7 +1102,7 @@
         "The Tellurians are never aware of the group-mind, only the reader has that information"
       ],
       "correct_answer": 1,
-      "rag_answer": "B) It is foreign to them and not understood",
+      "rag_answer": "A) It has been described from other planets and they are developing ways to combat it",
       "is_correct": false
     },
     {
@@ -1115,7 +1115,7 @@
         "She hadn't seen a man in 3 years"
       ],
       "correct_answer": 3,
-      "rag_answer": "B) She knew he thought she was pretty",
+      "rag_answer": "C) She had thought he was dead",
       "is_correct": false
     },
     {
@@ -1141,7 +1141,7 @@
         "Have the people audition reading the same passage and then assign their roles by personality"
       ],
       "correct_answer": 2,
-      "rag_answer": "A) Acting ability is most important before looks",
+      "rag_answer": "C) The look of the person is most important before acting ability",
       "is_correct": false
     },
     {
@@ -1154,7 +1154,7 @@
         "Chapman at a younger age"
       ],
       "correct_answer": 0,
-      "rag_answer": "D) Chapman at a younger age",
+      "rag_answer": "C) Dahl at a younger age",
       "is_correct": false
     },
     {
@@ -1180,7 +1180,7 @@
         "He realized by surrendering, the Alliance could use their ship to sneak into Federation territory unnoticed."
       ],
       "correct_answer": 3,
-      "rag_answer": "A) He realized that if they surrendered they would be sent to concentration camps and he would no longer be able to continue cooking.",
+      "rag_answer": "B) He realized that Skipper was more devoted to his own survival than to the Federation.",
       "is_correct": false
     },
     {
@@ -1193,7 +1193,7 @@
         "He was in charge of the project"
       ],
       "correct_answer": 0,
-      "rag_answer": "D) He was in charge of the project",
+      "rag_answer": "B) He had built it",
       "is_correct": false
     },
     {
@@ -1206,7 +1206,7 @@
         "It was caused by radium"
       ],
       "correct_answer": 1,
-      "rag_answer": "B) It was a form of contagious cancer.",
+      "rag_answer": "B) It was a form of contagious cancer",
       "is_correct": false
     },
     {
@@ -1232,7 +1232,7 @@
         "He returned to the fourteenth floor to try again"
       ],
       "correct_answer": 1,
-      "rag_answer": "A) He was injured and unable to move",
+      "rag_answer": "B) He fled the scene",
       "is_correct": false
     },
     {
@@ -1245,7 +1245,7 @@
         "Ronald"
       ],
       "correct_answer": 2,
-      "rag_answer": "B) Veronica",
+      "rag_answer": "A) Trader Tom",
       "is_correct": false
     },
     {
@@ -1258,7 +1258,7 @@
         "Romance fans, because of her relationship with her superior"
       ],
       "correct_answer": 0,
-      "rag_answer": "A) Readers of war and espionage novels, because of the elements of deceit in the story",
+      "rag_answer": "C) Sci-fi nerds, because of the battle ship and space components of the story.",
       "is_correct": false
     },
     {
@@ -1310,7 +1310,7 @@
         "He believed anyone to be capable of making mistakes"
       ],
       "correct_answer": 3,
-      "rag_answer": "D) He believed anyone to be capable of making mistakes",
+      "rag_answer": "B) He needed his business to support his family",
       "is_correct": false
     },
     {
@@ -1336,7 +1336,7 @@
         "The crew made a careful reconnaissance of the planet before choosing a landing site, and saw the opening in the city's globe covering and aimed for that."
       ],
       "correct_answer": 2,
-      "rag_answer": "B) The crew saw there was no sign of life where they originally touched down, so they flew in atmospheric mode around the planet till they saw the city and landed again.",
+      "rag_answer": "D) The crew made a careful reconnaissance of the planet before choosing a landing site, and saw the opening in the city's globe covering and aimed for that.",
       "is_correct": false
     },
     {
@@ -1388,7 +1388,7 @@
         "He wanted them to negotiate a surrender"
       ],
       "correct_answer": 0,
-      "rag_answer": "B) He thought they would be ignored",
+      "rag_answer": "A) He wanted to report their crimes against him",
       "is_correct": false
     },
     {
@@ -1479,7 +1479,7 @@
         "It is magical."
       ],
       "correct_answer": 3,
-      "rag_answer": "D) It is magical.",
+      "rag_answer": "A) It is confusing.",
       "is_correct": false
     },
     {
@@ -1492,7 +1492,7 @@
         "Creating a special piece of machinery for spaceships"
       ],
       "correct_answer": 3,
-      "rag_answer": "A) Striking radioactive deposits on far flung planets that can be sold back on Earth for a fortune",
+      "rag_answer": "B) Solving all the pircuits he’d ever been challenged with",
       "is_correct": false
     },
     {
@@ -1518,7 +1518,7 @@
         "Dan was nervous to operate the carrier when he first used it, but eventually became confident in controlling it."
       ],
       "correct_answer": 0,
-      "rag_answer": "D) Dan was nervous to operate the carrier when he first used it, but eventually became confident in controlling it.",
+      "rag_answer": "A) He was originally confused on how to operate the carrier and still remained unfamiliar with how it worked throughout the article.",
       "is_correct": false
     },
     {
@@ -1531,7 +1531,7 @@
         "The media"
       ],
       "correct_answer": 2,
-      "rag_answer": "B) Hillary",
+      "rag_answer": "C) Monica",
       "is_correct": false
     },
     {
@@ -1557,7 +1557,7 @@
         "He wanted less stress at work"
       ],
       "correct_answer": 3,
-      "rag_answer": "D) He wanted less stress at work",
+      "rag_answer": "C) He had only wanted to do it for a few years",
       "is_correct": false
     },
     {
@@ -1635,7 +1635,7 @@
         "She was a controlling person"
       ],
       "correct_answer": 2,
-      "rag_answer": "C) She was conditioned by her work",
+      "rag_answer": "C) She was conditioned by her work.",
       "is_correct": false
     },
     {
@@ -1661,7 +1661,7 @@
         "Relieved to have his experience at hand"
       ],
       "correct_answer": 3,
-      "rag_answer": "D) Relieved to have his experience at hand",
+      "rag_answer": "C) Pitiful that he had broken his arm",
       "is_correct": false
     },
     {
@@ -1674,7 +1674,7 @@
         "He agreed the revolution on earth had been needed"
       ],
       "correct_answer": 1,
-      "rag_answer": "B) He gave up trying to respond to her accusations",
+      "rag_answer": "A) He got angry",
       "is_correct": false
     },
     {
@@ -1700,7 +1700,7 @@
         "A person trying to escape the project"
       ],
       "correct_answer": 1,
-      "rag_answer": "D) A person trying to escape the project",
+      "rag_answer": "A) He insisted he wasn’t a spy but actually was",
       "is_correct": false
     },
     {
@@ -1713,7 +1713,7 @@
         "The cook was a saboteur"
       ],
       "correct_answer": 1,
-      "rag_answer": "A) The cook was female",
+      "rag_answer": "D) The cook was a saboteur",
       "is_correct": false
     },
     {
@@ -1739,7 +1739,7 @@
         "They are the standard to hold the president accountable to"
       ],
       "correct_answer": 1,
-      "rag_answer": "B) They present a snapshot of the time's views and beliefs.",
+      "rag_answer": "B) They present a snapshot of the views and beliefs of their time",
       "is_correct": false
     },
     {
@@ -1778,7 +1778,7 @@
         "Embracing distributed consensus created by blockchain"
       ],
       "correct_answer": 1,
-      "rag_answer": "C) A desire for a peer to peer networked democracy",
+      "rag_answer": "B) Lack of state or national delegation",
       "is_correct": false
     },
     {
@@ -1791,7 +1791,7 @@
         "No"
       ],
       "correct_answer": 3,
-      "rag_answer": "A) We never find out",
+      "rag_answer": "B) Yes, and he never figured it out",
       "is_correct": false
     },
     {
@@ -1804,7 +1804,7 @@
         "They are not interested in space travel."
       ],
       "correct_answer": 2,
-      "rag_answer": "A) They do not know anything about the stars.",
+      "rag_answer": "C) They are interested in what they cannot do.",
       "is_correct": false
     },
     {
@@ -1830,7 +1830,7 @@
         "Eldoria's alter ego"
       ],
       "correct_answer": 0,
-      "rag_answer": "A) a criminal that Blake is hunting",
+      "rag_answer": "C) an old friend of Blake's",
       "is_correct": false
     },
     {
@@ -1843,7 +1843,7 @@
         "Skkiru created an elaborate scheme for them to marry as high priest and priestess, and Larhgan is unaware of his scheming"
       ],
       "correct_answer": 2,
-      "rag_answer": "C) They were once engaged to be married, but circumstances dictate otherwise. They are still deeply connected and believe they may not meet again under equal conditions.",
+      "rag_answer": "C) They were once engaged to be married, but circumstances dictated otherwise. They remain in love and think there will never be another for them.",
       "is_correct": false
     },
     {
@@ -1856,7 +1856,7 @@
         "The Tepotkans were leaving it up to George's discretion"
       ],
       "correct_answer": 3,
-      "rag_answer": "A) The Tepoktans were afraid Al Birken would kill more people",
+      "rag_answer": "D) The Tepoktans were leaving it up to George's discretion.",
       "is_correct": false
     },
     {
@@ -1869,7 +1869,7 @@
         "Meek asks questions about space travel"
       ],
       "correct_answer": 3,
-      "rag_answer": "D) Meek asks questions about space travel",
+      "rag_answer": "C) Meek is confused by new things",
       "is_correct": false
     },
     {
@@ -1895,7 +1895,7 @@
         "To make it through the asteroid belt"
       ],
       "correct_answer": 1,
-      "rag_answer": "D) To make it through the asteroid belt",
+      "rag_answer": "C) Maintenance during a twenty-day leave",
       "is_correct": false
     },
     {
@@ -1934,7 +1934,7 @@
         "A century"
       ],
       "correct_answer": 0,
-      "rag_answer": "B) Since Earthlings discovered interplanetary travel",
+      "rag_answer": "D) A century",
       "is_correct": false
     },
     {
@@ -1973,7 +1973,7 @@
         "Both followed intuition"
       ],
       "correct_answer": 1,
-      "rag_answer": "B) Neither allowed nuance",
+      "rag_answer": "C) Both were skeptical of novel ideas",
       "is_correct": false
     },
     {
@@ -2025,7 +2025,7 @@
         "The bankroll was far greater than on other planets."
       ],
       "correct_answer": 0,
-      "rag_answer": "D) The bankroll was far greater than on other planets.",
+      "rag_answer": "A) Studying Slider eggs in their natural habitat.",
       "is_correct": false
     },
     {
@@ -2077,7 +2077,7 @@
         "Boat, then train, then walking, then car, then cab"
       ],
       "correct_answer": 0,
-      "rag_answer": "B) Boat, then car, then train, then car, then walking, then car, then cab",
+      "rag_answer": "C) Boat, then car, then train, then walking, then cab",
       "is_correct": false
     },
     {
@@ -2103,7 +2103,7 @@
         "He asked the tasters to create 3 categories"
       ],
       "correct_answer": 0,
-      "rag_answer": "B) He used nationwide average prices.",
+      "rag_answer": "B) He used Nationwide average prices",
       "is_correct": false
     },
     {
@@ -2116,7 +2116,7 @@
         "He continued to collect bodies until the ship was full"
       ],
       "correct_answer": 0,
-      "rag_answer": "B) He died of his wounds",
+      "rag_answer": "A) He returned to Earth",
       "is_correct": false
     },
     {
@@ -2129,7 +2129,7 @@
         "Low public engagement in the voting process"
       ],
       "correct_answer": 2,
-      "rag_answer": "D) Low public engagement in the voting process",
+      "rag_answer": "C) Time constraints of the voting public",
       "is_correct": false
     },
     {
@@ -2155,7 +2155,7 @@
         "his mother"
       ],
       "correct_answer": 2,
-      "rag_answer": "C) Ginny",
+      "rag_answer": "A) no one - he wants to sit alone in a room over Times Square",
       "is_correct": false
     },
     {
@@ -2168,7 +2168,7 @@
         "Their eyes cut the night."
       ],
       "correct_answer": 0,
-      "rag_answer": "B) They emit flames.",
+      "rag_answer": "D) Their eyes cut the night.",
       "is_correct": false
     },
     {
@@ -2207,7 +2207,7 @@
         "An old colony turned into a small city by Spanish laborers."
       ],
       "correct_answer": 3,
-      "rag_answer": "A) A small city of former Spanish slaves who were taken to Venus by the Dutch.",
+      "rag_answer": "D) An old colony turned into a small city by Spanish laborers.",
       "is_correct": false
     },
     {
@@ -2272,7 +2272,7 @@
         "A credit card"
       ],
       "correct_answer": 0,
-      "rag_answer": "B) Whiskey",
+      "rag_answer": "A) A companion",
       "is_correct": false
     },
     {
@@ -2285,7 +2285,7 @@
         "They turn simply grow larger."
       ],
       "correct_answer": 0,
-      "rag_answer": "C) They turn simpley grow larger.",
+      "rag_answer": "A) No one knows because they have never lived that long.",
       "is_correct": false
     },
     {
@@ -2311,7 +2311,7 @@
         "The gravitational pull was too strong."
       ],
       "correct_answer": 2,
-      "rag_answer": "B) Dick had failed to fix essential broken parts on the ship.",
+      "rag_answer": "D) The gravitational pull was too strong.",
       "is_correct": false
     },
     {
@@ -2337,7 +2337,7 @@
         "There is much less gravity than Earth"
       ],
       "correct_answer": 2,
-      "rag_answer": "C) It is not the straight-line kind of gravity",
+      "rag_answer": "A) There is much more gravity than Earth",
       "is_correct": false
     },
     {
@@ -2389,7 +2389,7 @@
         "He feels guilty about hurting Deirdre's feelings after her graduation when he ignored their romantic connection, and instead, played the part of a parent."
       ],
       "correct_answer": 3,
-      "rag_answer": "A) He feels guilty about having slept with Eldoria which perpetuated the demand for female prostitution.",
+      "rag_answer": "D) He feels guilty about ignoring Deirdre's romantic interests and playing parental roles.",
       "is_correct": false
     },
     {
@@ -2402,7 +2402,7 @@
         "He told his coworker about his girlfriend"
       ],
       "correct_answer": 2,
-      "rag_answer": "C) He shared that he wanted to be naked outdoors",
+      "rag_answer": "A) He shared that he wanted to go to a burlesque house",
       "is_correct": false
     },
     {
@@ -2415,7 +2415,7 @@
         "To find out about Peter's past job experience"
       ],
       "correct_answer": 0,
-      "rag_answer": "C) To see what Peter knew about the work",
+      "rag_answer": "A) To see if Peter was trainable",
       "is_correct": false
     },
     {
@@ -2480,7 +2480,7 @@
         "One"
       ],
       "correct_answer": 3,
-      "rag_answer": "D) One",
+      "rag_answer": "B) Two",
       "is_correct": false
     },
     {
@@ -2493,7 +2493,7 @@
         "The ethics discussion is unrelated to the kinship arguments"
       ],
       "correct_answer": 1,
-      "rag_answer": "B) Just because a behavior is natural to animals does not mean it is considered ethical.",
+      "rag_answer": "B) Just because a behavior is natural to animals does not mean it is considered ethical",
       "is_correct": false
     },
     {
@@ -2519,7 +2519,7 @@
         "Ravdin and Dana's plan to stay behind and speak with the Hunters"
       ],
       "correct_answer": 3,
-      "rag_answer": "A) The society not being able to leave quickly enough to avoid the hunts.",
+      "rag_answer": "C) That Ravdin may be mistaken about the Hunters knowing their location",
       "is_correct": false
     },
     {
@@ -2558,7 +2558,7 @@
         "Most of them don't want to get involved with her adventure"
       ],
       "correct_answer": 2,
-      "rag_answer": "C) Most of them died.",
+      "rag_answer": "A) Most of them are live prisoners",
       "is_correct": false
     },
     {
@@ -2571,7 +2571,7 @@
         "It was in the budget"
       ],
       "correct_answer": 2,
-      "rag_answer": "C) Due to the government shutdown",
+      "rag_answer": "B) She was a secretary",
       "is_correct": false
     },
     {
@@ -2584,7 +2584,7 @@
         "To solve time travel, become an engineer"
       ],
       "correct_answer": 2,
-      "rag_answer": "A) Singularly revenge of his father's death",
+      "rag_answer": "A) Singularly revenge of his father’s death",
       "is_correct": false
     },
     {

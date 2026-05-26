@@ -6,12 +6,12 @@
   "generator_model": "phi4-mini:3.8b",
   "generator_params": 3.84,
   "generator_size": 2.3,
-  "timestamp": "2026-04-17T09:08:25.143086",
-  "duration": "00:08:29",
-  "duration (seconds)": 509,
+  "timestamp": "2026-05-22T11:33:18.014181",
+  "duration": "00:10:59",
+  "duration (seconds)": 659,
   "total": 200,
-  "correct": 0,
-  "accuracy": 0.0,
+  "correct": 2,
+  "accuracy": 0.01,
   "results": [
     {
       "problem_index": 1,
@@ -23,7 +23,7 @@
         "he wanted to set a good example to others"
       ],
       "correct_answer": "B",
-      "rag_answer": "A) he didn't need that money",
+      "rag_answer": "B) he felt pity for the old couple",
       "is_correct": false
     },
     {
@@ -88,7 +88,7 @@
         "Kathy herself"
       ],
       "correct_answer": "A",
-      "rag_answer": "B) Kathy and Victor",
+      "rag_answer": "A) Justin and Teddy",
       "is_correct": false
     },
     {
@@ -101,7 +101,7 @@
         "Keep Holding on to This Negative Emotion as Long as Possible."
       ],
       "correct_answer": "A",
-      "rag_answer": "A) Clear Your Mental Space.",
+      "rag_answer": "C) Try to Avoid the Negative Emotion.",
       "is_correct": false
     },
     {
@@ -140,7 +140,7 @@
         "Because we had no life jackets"
       ],
       "correct_answer": "C",
-      "rag_answer": "B) Because the boat sank.",
+      "rag_answer": "C) Because the boat hit something with force.",
       "is_correct": false
     },
     {
@@ -231,7 +231,7 @@
         "reading"
       ],
       "correct_answer": "D",
-      "rag_answer": "C) reading",
+      "rag_answer": "B) imagining",
       "is_correct": false
     },
     {
@@ -374,7 +374,7 @@
         "you can get to know the latest knowledge in science."
       ],
       "correct_answer": "C",
-      "rag_answer": "C) you can get to know the latest knowledge in science.",
+      "rag_answer": "C) you can live an independent life",
       "is_correct": false
     },
     {
@@ -439,7 +439,7 @@
         "Optimistic"
       ],
       "correct_answer": "A",
-      "rag_answer": "A) Objective",
+      "rag_answer": "A) Objectiv",
       "is_correct": false
     },
     {
@@ -504,7 +504,7 @@
         "A Player of Patience"
       ],
       "correct_answer": "B",
-      "rag_answer": "C) Steve, the Real Winner",
+      "rag_answer": "B) Heart of a Champion",
       "is_correct": false
     },
     {
@@ -543,7 +543,7 @@
         "None of them"
       ],
       "correct_answer": "A",
-      "rag_answer": "A) ",
+      "rag_answer": "B) The Home Office Desk",
       "is_correct": false
     },
     {
@@ -556,7 +556,7 @@
         "You could reduce stress by doing nothing."
       ],
       "correct_answer": "B",
-      "rag_answer": "A) No one can stay on the same job for long.",
+      "rag_answer": "D) You could reduce stress by doing nothing.",
       "is_correct": false
     },
     {
@@ -660,7 +660,7 @@
         "The development of power harvesting."
       ],
       "correct_answer": "A",
-      "rag_answer": "D) The development of power harvesting.",
+      "rag_answer": "B) A big problem concerning conventional batteries.",
       "is_correct": false
     },
     {
@@ -725,7 +725,7 @@
         "Bangkok"
       ],
       "correct_answer": "A",
-      "rag_answer": "C) Asian countries",
+      "rag_answer": "A) the west",
       "is_correct": false
     },
     {
@@ -790,7 +790,7 @@
         "he is not sure of the love from her"
       ],
       "correct_answer": "C",
-      "rag_answer": "A) he wants to continue to provide support and feel needed in some way.",
+      "rag_answer": "C) he fears to lose his function as a dad",
       "is_correct": false
     },
     {
@@ -868,7 +868,7 @@
         "seven to more than ten hours."
       ],
       "correct_answer": "C",
-      "rag_answer": "C) one to more than ten hours",
+      "rag_answer": "C) one to more than ten hours.",
       "is_correct": false
     },
     {
@@ -959,7 +959,7 @@
         "they are having better communication with their parents"
       ],
       "correct_answer": "D",
-      "rag_answer": "A) they are having more exposure to the television programs.",
+      "rag_answer": "C) they are having frequent travels to the other parts of the world",
       "is_correct": false
     },
     {
@@ -1063,7 +1063,7 @@
         "First the author makes an introduction and then draws a conclusion."
       ],
       "correct_answer": "A",
-      "rag_answer": "C) First the author informs us of main arguments and then compares them.",
+      "rag_answer": "A) First the author gives some messages and then explain them.",
       "is_correct": false
     },
     {
@@ -1115,7 +1115,7 @@
         "there must be many houses and buildings not far away"
       ],
       "correct_answer": "D",
-      "rag_answer": "A) you are already out of a town",
+      "rag_answer": "C) there must be a town thirty kilometres away",
       "is_correct": false
     },
     {
@@ -1128,7 +1128,7 @@
         "Ashley was moved and promised to return the money"
       ],
       "correct_answer": "C",
-      "rag_answer": "C) Kinzie's generosity influenced others and they did something similar.",
+      "rag_answer": "C) Kinzie's generosity influenced others and they cried, did something similar.",
       "is_correct": false
     },
     {
@@ -1154,7 +1154,7 @@
         "happiness"
       ],
       "correct_answer": "D",
-      "rag_answer": "D) happiness",
+      "rag_answer": "B) to have her own parents",
       "is_correct": false
     },
     {
@@ -1167,7 +1167,7 @@
         "must pay the insurance for the renter"
       ],
       "correct_answer": "B",
-      "rag_answer": "B) will not suffer the consequence",
+      "rag_answer": "B) will not suffer any consequences",
       "is_correct": false
     },
     {
@@ -1258,7 +1258,7 @@
         "all winners' prizes are for their college educations"
       ],
       "correct_answer": "B",
-      "rag_answer": "C) more than half girls took part in the recent competition",
+      "rag_answer": "D) all winners' prizes are for their college educations",
       "is_correct": false
     },
     {
@@ -1323,7 +1323,7 @@
         "still call for great concern"
       ],
       "correct_answer": "D",
-      "rag_answer": "A) have attracted little attention",
+      "rag_answer": "C) are attractive topics in talk shows",
       "is_correct": false
     },
     {
@@ -1349,7 +1349,7 @@
         "the guidance of schools on mothers"
       ],
       "correct_answer": "B",
-      "rag_answer": "B) the supervision of mothers on children",
+      "rag_answer": "D) the relationship between a child and their maternal parent(s)",
       "is_correct": false
     },
     {
@@ -1518,7 +1518,7 @@
         "biting nails"
       ],
       "correct_answer": "B",
-      "rag_answer": "B) hurting himself",
+      "rag_answer": "A) chewing pens",
       "is_correct": false
     },
     {
@@ -1583,7 +1583,7 @@
         "A cure for cancer."
       ],
       "correct_answer": "B",
-      "rag_answer": "A) Forest plants.",
+      "rag_answer": "B) Animal doctors.",
       "is_correct": false
     },
     {
@@ -1609,7 +1609,7 @@
         "all of the above"
       ],
       "correct_answer": "D",
-      "rag_answer": "C) we can now travel in super-fast trains",
+      "rag_answer": "A) we can have a smooth and untroubled journey",
       "is_correct": false
     },
     {
@@ -1622,7 +1622,7 @@
         "only a character made up by Arthur Conan Dolye"
       ],
       "correct_answer": "D",
-      "rag_answer": "A) the greatest detective who ever lived",
+      "rag_answer": "C) Arthur Conan Doyle",
       "is_correct": false
     },
     {
@@ -1687,7 +1687,7 @@
         "Great books will not disappoint you if you try to read them well."
       ],
       "correct_answer": "D",
-      "rag_answer": "C) Great books are never out of date.",
+      "rag_answer": "B) A great book can be read without any effort.",
       "is_correct": false
     },
     {
@@ -1713,7 +1713,7 @@
         "Why there are different kinds of friends."
       ],
       "correct_answer": "B",
-      "rag_answer": "B) three kinds of friends in our life.",
+      "rag_answer": "B) Three kinds of friends in our life.",
       "is_correct": false
     },
     {
@@ -1739,7 +1739,7 @@
         "The bad service of the hospital."
       ],
       "correct_answer": "B",
-      "rag_answer": "C) The hopeless patients in the hospital.",
+      "rag_answer": "B) The sight he saw in the hospital.",
       "is_correct": false
     },
     {
@@ -1843,7 +1843,7 @@
         "before cancers began to hit kids"
       ],
       "correct_answer": "B",
-      "rag_answer": "B) when Alex was about four years old",
+      "rag_answer": "C) shortly after Alex died of cancer",
       "is_correct": false
     },
     {
@@ -1869,7 +1869,7 @@
         "Taiwanese teens experience more stress than American teens"
       ],
       "correct_answer": "C",
-      "rag_answer": "C) Learn to Lighten Up and Live Longer is a popular book.",
+      "rag_answer": "C) Learn to Lighten Up and Live Longer is a popular book",
       "is_correct": false
     },
     {
@@ -1882,7 +1882,7 @@
         "the cows had fed themselves"
       ],
       "correct_answer": "B",
-      "rag_answer": "B) he wasn't there.",
+      "rag_answer": "B) Mr. Jones wasn't at home",
       "is_correct": false
     },
     {
@@ -1895,7 +1895,7 @@
         "ignorant"
       ],
       "correct_answer": "C",
-      "rag_answer": "B) doubtful",
+      "rag_answer": "D) ignorant",
       "is_correct": false
     },
     {
@@ -1986,7 +1986,7 @@
         "Sichuan and Tibet"
       ],
       "correct_answer": "D",
-      "rag_answer": "B) The Sahara Desert",
+      "rag_answer": "C) The Gobi Desert",
       "is_correct": false
     },
     {
@@ -2012,7 +2012,7 @@
         "To advocate healthy food choices among readers."
       ],
       "correct_answer": "B",
-      "rag_answer": "C) To appeal to readers not to fall into others' habits.",
+      "rag_answer": "B) To introduce behavioral mimicry and its influence.",
       "is_correct": false
     },
     {
@@ -2038,8 +2038,8 @@
         "are worried about the safety of shopping online"
       ],
       "correct_answer": "D",
-      "rag_answer": "D) are worried about the safety of shopping online",
-      "is_correct": false
+      "rag_answer": "D",
+      "is_correct": true
     },
     {
       "problem_index": 157,
@@ -2103,7 +2103,7 @@
         "help those parents who are worried about their children"
       ],
       "correct_answer": "A",
-      "rag_answer": "C) tell them about the benefits of playing football",
+      "rag_answer": "A) bring in new team members",
       "is_correct": false
     },
     {
@@ -2194,7 +2194,7 @@
         "It's impossible for them to use the new operating system."
       ],
       "correct_answer": "A",
-      "rag_answer": "D) It's impossible for them to use the new operating system.",
+      "rag_answer": "A) Microsoft hasn't offered any discount for it.",
       "is_correct": false
     },
     {
@@ -2233,7 +2233,7 @@
         "A conservative politician."
       ],
       "correct_answer": "C",
-      "rag_answer": "B) An international diplomat.",
+      "rag_answer": "B) An international diplomat .",
       "is_correct": false
     },
     {
@@ -2246,7 +2246,7 @@
         "Snake Doctor"
       ],
       "correct_answer": "D",
-      "rag_answer": "B) Farmer Loses Arm",
+      "rag_answer": "D) Snake Doctor",
       "is_correct": false
     },
     {
@@ -2324,7 +2324,7 @@
         "A strong experience my parents and I had"
       ],
       "correct_answer": "C",
-      "rag_answer": "B) A disappointing experience my parents and I had",
+      "rag_answer": "D) A strong experience my parents and I had",
       "is_correct": false
     },
     {
@@ -2337,7 +2337,7 @@
         "they had problems finding carpenters for putting up Christmas trees"
       ],
       "correct_answer": "C",
-      "rag_answer": "B) they had problems decorating their Christmas trees",
+      "rag_answer": "A) the family bought big Christmas trees",
       "is_correct": false
     },
     {
@@ -2350,7 +2350,7 @@
         "they have to follow an evolutionary step backward."
       ],
       "correct_answer": "A",
-      "rag_answer": "D) they have to follow an evolutionary step backward.",
+      "rag_answer": "C) they have to handle many important messages.",
       "is_correct": false
     },
     {
@@ -2376,8 +2376,8 @@
         "They were deeply influenced by the dark history."
       ],
       "correct_answer": "D",
-      "rag_answer": "D) They were deeply influenced by the dark history.",
-      "is_correct": false
+      "rag_answer": "D",
+      "is_correct": true
     },
     {
       "problem_index": 183,
@@ -2610,7 +2610,7 @@
         "Doubtful."
       ],
       "correct_answer": "A",
-      "rag_answer": "C) Curious.",
+      "rag_answer": "A) Favorable.",
       "is_correct": false
     }
   ]

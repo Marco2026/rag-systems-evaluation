@@ -6,9 +6,9 @@
   "generator_model": "rjmalagon/lamarck-v0.7:14b-bf16",
   "generator_params": 14.8,
   "generator_size": 27.5,
-  "timestamp": "2026-04-14T12:48:23.095253",
-  "duration": "00:11:47",
-  "duration (seconds)": 707,
+  "timestamp": "2026-05-22T14:39:26.980751",
+  "duration": "00:11:05",
+  "duration (seconds)": 665,
   "total": 200,
   "correct": 177,
   "accuracy": 0.885,
@@ -140,7 +140,7 @@
         "Because we had no life jackets"
       ],
       "correct_answer": "C",
-      "rag_answer": "B",
+      "rag_answer": "A",
       "is_correct": false
     },
     {
@@ -2324,8 +2324,8 @@
         "A strong experience my parents and I had"
       ],
       "correct_answer": "C",
-      "rag_answer": "C",
-      "is_correct": true
+      "rag_answer": "A",
+      "is_correct": false
     },
     {
       "problem_index": 179,
@@ -2337,8 +2337,8 @@
         "they had problems finding carpenters for putting up Christmas trees"
       ],
       "correct_answer": "C",
-      "rag_answer": "B",
-      "is_correct": false
+      "rag_answer": "C",
+      "is_correct": true
     },
     {
       "problem_index": 180,

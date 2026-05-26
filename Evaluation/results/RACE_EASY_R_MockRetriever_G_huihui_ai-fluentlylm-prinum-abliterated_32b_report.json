@@ -6,12 +6,12 @@
   "generator_model": "huihui_ai/fluentlylm-prinum-abliterated:32b",
   "generator_params": 32.8,
   "generator_size": 18.5,
-  "timestamp": "2026-04-18T09:52:24.550046",
-  "duration": "00:04:32",
-  "duration (seconds)": 272,
+  "timestamp": "2026-05-22T00:04:49.618096",
+  "duration": "00:03:58",
+  "duration (seconds)": 238,
   "total": 200,
-  "correct": 116,
-  "accuracy": 0.58,
+  "correct": 122,
+  "accuracy": 0.61,
   "results": [
     {
       "problem_index": 1,
@@ -166,8 +166,8 @@
         "was reading a newspaper"
       ],
       "correct_answer": "C",
-      "rag_answer": "B",
-      "is_correct": false
+      "rag_answer": "C",
+      "is_correct": true
     },
     {
       "problem_index": 13,
@@ -270,8 +270,8 @@
         "six"
       ],
       "correct_answer": "C",
-      "rag_answer": "A",
-      "is_correct": false
+      "rag_answer": "C",
+      "is_correct": true
     },
     {
       "problem_index": 21,
@@ -296,7 +296,7 @@
         "in classroom"
       ],
       "correct_answer": "B",
-      "rag_answer": "C",
+      "rag_answer": "A",
       "is_correct": false
     },
     {
@@ -309,8 +309,8 @@
         "activities are organized once a week"
       ],
       "correct_answer": "C",
-      "rag_answer": "B",
-      "is_correct": false
+      "rag_answer": "C",
+      "is_correct": true
     },
     {
       "problem_index": 24,
@@ -322,8 +322,8 @@
         "animals; sports"
       ],
       "correct_answer": "A",
-      "rag_answer": "A) sports; animals",
-      "is_correct": false
+      "rag_answer": "A",
+      "is_correct": true
     },
     {
       "problem_index": 25,
@@ -335,8 +335,8 @@
         "pears"
       ],
       "correct_answer": "B",
-      "rag_answer": "A",
-      "is_correct": false
+      "rag_answer": "B",
+      "is_correct": true
     },
     {
       "problem_index": 26,
@@ -400,8 +400,8 @@
         "There are more boy truants than girl truants."
       ],
       "correct_answer": "D",
-      "rag_answer": "A",
-      "is_correct": false
+      "rag_answer": "D",
+      "is_correct": true
     },
     {
       "problem_index": 31,
@@ -439,8 +439,8 @@
         "drawing pictures"
       ],
       "correct_answer": "B",
-      "rag_answer": "A",
-      "is_correct": false
+      "rag_answer": "B",
+      "is_correct": true
     },
     {
       "problem_index": 34,
@@ -517,7 +517,7 @@
         "Some don't do and do in schools."
       ],
       "correct_answer": "C",
-      "rag_answer": "D",
+      "rag_answer": "B",
       "is_correct": false
     },
     {
@@ -556,8 +556,8 @@
         "slow; big"
       ],
       "correct_answer": "C",
-      "rag_answer": "C",
-      "is_correct": true
+      "rag_answer": "A",
+      "is_correct": false
     },
     {
       "problem_index": 43,
@@ -582,8 +582,8 @@
         "a mechanical \"foot\""
       ],
       "correct_answer": "C",
-      "rag_answer": "A",
-      "is_correct": false
+      "rag_answer": "C",
+      "is_correct": true
     },
     {
       "problem_index": 45,
@@ -621,8 +621,8 @@
         "the teacher's"
       ],
       "correct_answer": "B",
-      "rag_answer": "B",
-      "is_correct": true
+      "rag_answer": "A",
+      "is_correct": false
     },
     {
       "problem_index": 48,
@@ -777,8 +777,8 @@
         "55"
       ],
       "correct_answer": "B",
-      "rag_answer": "C",
-      "is_correct": false
+      "rag_answer": "B",
+      "is_correct": true
     },
     {
       "problem_index": 60,
@@ -920,7 +920,7 @@
         "Jane's friend"
       ],
       "correct_answer": "C",
-      "rag_answer": "B",
+      "rag_answer": "A",
       "is_correct": false
     },
     {
@@ -1141,7 +1141,7 @@
         "Restaurants."
       ],
       "correct_answer": "B",
-      "rag_answer": "A)",
+      "rag_answer": "B) Food.\n\nThe correct answer is B) Food, as per the information provided in the passage. The other options (A) Farms, (C) Business, and (D) Restaurants are not supported by the text given. \n\nHowever, due to the instruction format required:\n\nB",
       "is_correct": false
     },
     {
@@ -1258,8 +1258,8 @@
         "A window"
       ],
       "correct_answer": "A",
-      "rag_answer": "B",
-      "is_correct": false
+      "rag_answer": "A",
+      "is_correct": true
     },
     {
       "problem_index": 97,
@@ -1297,7 +1297,7 @@
         "4000 yuan"
       ],
       "correct_answer": "D",
-      "rag_answer": "A",
+      "rag_answer": "B",
       "is_correct": false
     },
     {
@@ -1375,7 +1375,7 @@
         "do easy chores"
       ],
       "correct_answer": "A",
-      "rag_answer": "D",
+      "rag_answer": "C",
       "is_correct": false
     },
     {
@@ -1427,7 +1427,7 @@
         "Because he thought John could help his mother."
       ],
       "correct_answer": "A",
-      "rag_answer": "B",
+      "rag_answer": "C",
       "is_correct": false
     },
     {
@@ -1453,8 +1453,8 @@
         "Food and clothes."
       ],
       "correct_answer": "C",
-      "rag_answer": "A",
-      "is_correct": false
+      "rag_answer": "C",
+      "is_correct": true
     },
     {
       "problem_index": 112,
@@ -1531,8 +1531,8 @@
         "She made herself look like a rock."
       ],
       "correct_answer": "C",
-      "rag_answer": "B",
-      "is_correct": false
+      "rag_answer": "C",
+      "is_correct": true
     },
     {
       "problem_index": 118,
@@ -1557,7 +1557,7 @@
         "quite poor and alone"
       ],
       "correct_answer": "D",
-      "rag_answer": "A",
+      "rag_answer": "B",
       "is_correct": false
     },
     {
@@ -1739,8 +1739,8 @@
         "How willpower is connected with success and how they affect each other."
       ],
       "correct_answer": "C",
-      "rag_answer": "C",
-      "is_correct": true
+      "rag_answer": "A",
+      "is_correct": false
     },
     {
       "problem_index": 134,
@@ -1856,8 +1856,8 @@
         "A professional report"
       ],
       "correct_answer": "A",
-      "rag_answer": "A",
-      "is_correct": true
+      "rag_answer": "B",
+      "is_correct": false
     },
     {
       "problem_index": 143,
@@ -1921,8 +1921,8 @@
         "All the lions"
       ],
       "correct_answer": "A",
-      "rag_answer": "A",
-      "is_correct": true
+      "rag_answer": "D",
+      "is_correct": false
     },
     {
       "problem_index": 148,
@@ -1934,7 +1934,7 @@
         "All the students must have high grades."
       ],
       "correct_answer": "A",
-      "rag_answer": "B",
+      "rag_answer": "C",
       "is_correct": false
     },
     {
@@ -1973,8 +1973,8 @@
         "five"
       ],
       "correct_answer": "C",
-      "rag_answer": "A",
-      "is_correct": false
+      "rag_answer": "C",
+      "is_correct": true
     },
     {
       "problem_index": 152,
@@ -2077,8 +2077,8 @@
         "out"
       ],
       "correct_answer": "B",
-      "rag_answer": "B",
-      "is_correct": true
+      "rag_answer": "A",
+      "is_correct": false
     },
     {
       "problem_index": 160,
@@ -2220,8 +2220,8 @@
         "She goes to the clothes store and changes the coat."
       ],
       "correct_answer": "A",
-      "rag_answer": "C",
-      "is_correct": false
+      "rag_answer": "A",
+      "is_correct": true
     },
     {
       "problem_index": 171,
@@ -2233,8 +2233,8 @@
         "Because they can skate."
       ],
       "correct_answer": "C",
-      "rag_answer": "C",
-      "is_correct": true
+      "rag_answer": "D",
+      "is_correct": false
     },
     {
       "problem_index": 172,
@@ -2597,8 +2597,8 @@
         "It was good to wear sunglasses when watching TV."
       ],
       "correct_answer": "B",
-      "rag_answer": "B",
-      "is_correct": true
+      "rag_answer": "C",
+      "is_correct": false
     },
     {
       "problem_index": 200,

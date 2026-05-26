@@ -6,12 +6,12 @@
   "generator_model": "phi4-mini:3.8b",
   "generator_params": 3.84,
   "generator_size": 2.3,
-  "timestamp": "2026-04-18T01:26:42.548522",
-  "duration": "00:07:36",
-  "duration (seconds)": 456,
+  "timestamp": "2026-05-21T23:31:45.771215",
+  "duration": "00:06:49",
+  "duration (seconds)": 409,
   "total": 200,
-  "correct": 1,
-  "accuracy": 0.005,
+  "correct": 0,
+  "accuracy": 0.0,
   "results": [
     {
       "problem_index": 1,
@@ -23,7 +23,7 @@
         "he couldn't find the young man's hat"
       ],
       "correct_answer": "A",
-      "rag_answer": "B) a young man came to visit Dick that afternoon.",
+      "rag_answer": "A) Dick couldn't take him out for a usual time  ",
       "is_correct": false
     },
     {
@@ -49,7 +49,7 @@
         "Dinner customs in the US restaurants."
       ],
       "correct_answer": "D",
-      "rag_answer": "D) Dinner customs in the US restaurants.",
+      "rag_answer": "A) Rules for US bars and restaurants.",
       "is_correct": false
     },
     {
@@ -75,7 +75,7 @@
         "are terrible ill"
       ],
       "correct_answer": "C",
-      "rag_answer": "C) Both A and B",
+      "rag_answer": "A) were not ill at all",
       "is_correct": false
     },
     {
@@ -166,7 +166,7 @@
         "was reading a newspaper"
       ],
       "correct_answer": "C",
-      "rag_answer": "C) was still in an upstairs room",
+      "rag_answer": "C) was still downstairs",
       "is_correct": false
     },
     {
@@ -257,7 +257,7 @@
         "juice"
       ],
       "correct_answer": "D",
-      "rag_answer": "C) a blender",
+      "rag_answer": "A) icecream",
       "is_correct": false
     },
     {
@@ -361,7 +361,7 @@
         "Hill'S father was cruel to him"
       ],
       "correct_answer": "A",
-      "rag_answer": "A) children should be praised",
+      "rag_answer": "C) Hill's stepmother wanted kindness towards him.",
       "is_correct": false
     },
     {
@@ -465,7 +465,7 @@
         "live in the school"
       ],
       "correct_answer": "B",
-      "rag_answer": "D) live in the school",
+      "rag_answer": "B) come to school late",
       "is_correct": false
     },
     {
@@ -491,7 +491,7 @@
         "do some shopping online"
       ],
       "correct_answer": "C",
-      "rag_answer": "A) find a job",
+      "rag_answer": "B) meet people",
       "is_correct": false
     },
     {
@@ -517,7 +517,7 @@
         "Some don't do and do in schools."
       ],
       "correct_answer": "C",
-      "rag_answer": "B) Some good habits at home.",
+      "rag_answer": "C) How to do your homework.",
       "is_correct": false
     },
     {
@@ -582,7 +582,7 @@
         "a mechanical \"foot\""
       ],
       "correct_answer": "C",
-      "rag_answer": "C) a TV",
+      "rag_answer": "A) an alarm clock",
       "is_correct": false
     },
     {
@@ -634,7 +634,7 @@
         "30"
       ],
       "correct_answer": "B",
-      "rag_answer": "C) 29",
+      "rag_answer": "C) 29.",
       "is_correct": false
     },
     {
@@ -803,7 +803,7 @@
         "supper"
       ],
       "correct_answer": "B",
-      "rag_answer": "A) breakfast",
+      "rag_answer": "C) Dinner",
       "is_correct": false
     },
     {
@@ -842,7 +842,7 @@
         "a little larger than"
       ],
       "correct_answer": "C",
-      "rag_answer": "A) smaller than",
+      "rag_answer": "B) the same as",
       "is_correct": false
     },
     {
@@ -894,7 +894,7 @@
         "didn't know all the people they passed"
       ],
       "correct_answer": "A",
-      "rag_answer": "A) waved to everybody they passed",
+      "rag_answer": "B) knew everybody there",
       "is_correct": false
     },
     {
@@ -920,7 +920,7 @@
         "Jane's friend"
       ],
       "correct_answer": "C",
-      "rag_answer": "B) Jane's father",
+      "rag_answer": "C) Jane's mother",
       "is_correct": false
     },
     {
@@ -933,7 +933,7 @@
         "all English-Chinese dictionary are the same"
       ],
       "correct_answer": "A",
-      "rag_answer": "A) we have to use a dictionary when we read something in English",
+      "rag_answer": "C) an English-Chinese dictionary can help us a lot in our English study.",
       "is_correct": false
     },
     {
@@ -985,7 +985,7 @@
         "Because the rich man wanted him to do so."
       ],
       "correct_answer": "C",
-      "rag_answer": "C) Because he didn't want other people to fall and get hurt.",
+      "rag_answer": "B) Because he knew there was a bag of money under it.",
       "is_correct": false
     },
     {
@@ -1011,7 +1011,7 @@
         "clearing heat inside your body"
       ],
       "correct_answer": "C",
-      "rag_answer": "C) having a strong wish for food",
+      "rag_answer": "C] having a strong wish for food",
       "is_correct": false
     },
     {
@@ -1063,7 +1063,7 @@
         "There were about two inches shorter."
       ],
       "correct_answer": "A",
-      "rag_answer": "A) They were a bit too long.",
+      "rag_answer": "D) There were about two inches longer.",
       "is_correct": false
     },
     {
@@ -1154,7 +1154,7 @@
         "the oldest paper was made 1,500 years ago"
       ],
       "correct_answer": "C",
-      "rag_answer": "C) wood could be made into the best paper",
+      "rag_answer": "B) a German made the best paper",
       "is_correct": false
     },
     {
@@ -1193,7 +1193,7 @@
         "150ml"
       ],
       "correct_answer": "B",
-      "rag_answer": "B) two spoons",
+      "rag_answer": "C) 125g",
       "is_correct": false
     },
     {
@@ -1232,7 +1232,7 @@
         "Ten"
       ],
       "correct_answer": "D",
-      "rag_answer": "D) Ten",
+      "rag_answer": "B) Twenty",
       "is_correct": false
     },
     {
@@ -1310,7 +1310,7 @@
         "info@top-model-agency.uk"
       ],
       "correct_answer": "D",
-      "rag_answer": "C) cathy@cut-above.brighton.com",
+      "rag_answer": "B) info@wowee.com",
       "is_correct": false
     },
     {
@@ -1401,7 +1401,7 @@
         "with neither of her eyes"
       ],
       "correct_answer": "B",
-      "rag_answer": "A) only with the right eye",
+      "rag_answer": "A) only with the left eye",
       "is_correct": false
     },
     {
@@ -1427,7 +1427,7 @@
         "Because he thought John could help his mother."
       ],
       "correct_answer": "A",
-      "rag_answer": "B) Because he thought John had a good education.",
+      "rag_answer": "A) Because he thought John earned appreciation.",
       "is_correct": false
     },
     {
@@ -1596,8 +1596,8 @@
         "There were many more fish in the river."
       ],
       "correct_answer": "A",
-      "rag_answer": "A",
-      "is_correct": true
+      "rag_answer": "A) The pollution in the river was very serious.",
+      "is_correct": false
     },
     {
       "problem_index": 123,
@@ -1713,7 +1713,7 @@
         "by train"
       ],
       "correct_answer": "C",
-      "rag_answer": "A) on foot",
+      "rag_answer": "C) by boat",
       "is_correct": false
     },
     {
@@ -1726,7 +1726,7 @@
         "A, B and C"
       ],
       "correct_answer": "D",
-      "rag_answer": "A",
+      "rag_answer": "A, B and C",
       "is_correct": false
     },
     {
@@ -1739,7 +1739,7 @@
         "How willpower is connected with success and how they affect each other."
       ],
       "correct_answer": "C",
-      "rag_answer": "A) How willpower and muscles are similar and how they can be trained.",
+      "rag_answer": "B) How willpower affects people's lives and how it is similar to muscles.",
       "is_correct": false
     },
     {
@@ -1752,7 +1752,7 @@
         "Eight"
       ],
       "correct_answer": "C",
-      "rag_answer": "D) Eight",
+      "rag_answer": "B) Six",
       "is_correct": false
     },
     {
@@ -1804,7 +1804,7 @@
         "in the microwave oven"
       ],
       "correct_answer": "A",
-      "rag_answer": "A) on the desk",
+      "rag_answer": "C) under the bed",
       "is_correct": false
     },
     {
@@ -1817,7 +1817,7 @@
         "The mother told the teacher about the scat after the meeting."
       ],
       "correct_answer": "D",
-      "rag_answer": "A) The boy knew why his mother got the scar before.",
+      "rag_answer": "A) The boy knew why his mother's face had been scarred before the schoolteacher asked about it.",
       "is_correct": false
     },
     {
@@ -1843,7 +1843,7 @@
         "Gurdon's science teacher."
       ],
       "correct_answer": "C",
-      "rag_answer": "C) Sir John Gurdon and Shinya Yamanaka.",
+      "rag_answer": "C) Sir John Gurdon and Shinya Yamanaka",
       "is_correct": false
     },
     {
@@ -2012,7 +2012,7 @@
         "they went to college and learned from professors"
       ],
       "correct_answer": "B",
-      "rag_answer": "B) they read books that were not taught at school. They worked hard all their lives, wasting not a single moment. They would ask many questions at what they read and they did thousands of experiments.  ",
+      "rag_answer": "B) they knew how to study.",
       "is_correct": false
     },
     {
@@ -2051,7 +2051,7 @@
         "Alexandra's stories appeared often on the radio and TV"
       ],
       "correct_answer": "B",
-      "rag_answer": "B) Alexandra's success changed her family's life",
+      "rag_answer": "B) Alexandra's success changed her family's life.",
       "is_correct": false
     },
     {
@@ -2103,7 +2103,7 @@
         "How to play drums."
       ],
       "correct_answer": "B",
-      "rag_answer": "D) How to start a new group or club.",
+      "rag_answer": "C) How to make friends.",
       "is_correct": false
     },
     {
@@ -2298,7 +2298,7 @@
         "After she came back from the cinema."
       ],
       "correct_answer": "A",
-      "rag_answer": "B) Before he went to bed.",
+      "rag_answer": "A) In the evening.",
       "is_correct": false
     },
     {
@@ -2311,7 +2311,7 @@
         "they have lots of things to do at home"
       ],
       "correct_answer": "D",
-      "rag_answer": "D) they have lots of things to do at home",
+      "rag_answer": "D) they have lots of things to do at home.",
       "is_correct": false
     },
     {
@@ -2324,7 +2324,7 @@
         "Henry's"
       ],
       "correct_answer": "C",
-      "rag_answer": "B) Mr Wang's",
+      "rag_answer": "A) Peter's",
       "is_correct": false
     },
     {
@@ -2350,7 +2350,7 @@
         "you have to change the date"
       ],
       "correct_answer": "C",
-      "rag_answer": "C) you have to wait until the interval",
+      "rag_answer": "C) you have to wait until the interval.",
       "is_correct": false
     },
     {
@@ -2415,7 +2415,7 @@
         "Mr Jordan"
       ],
       "correct_answer": "A",
-      "rag_answer": "A) Sandy",
+      "rag_answer": "B) Ken",
       "is_correct": false
     },
     {
@@ -2493,7 +2493,7 @@
         "he heard a noise"
       ],
       "correct_answer": "C",
-      "rag_answer": "B) he saw the train was coming",
+      "rag_answer": "A) he thought there was something wrong with it",
       "is_correct": false
     },
     {
@@ -2584,7 +2584,7 @@
         "hot"
       ],
       "correct_answer": "D",
-      "rag_answer": "A) cold",
+      "rag_answer": "D) hot",
       "is_correct": false
     },
     {
@@ -2597,7 +2597,7 @@
         "It was good to wear sunglasses when watching TV."
       ],
       "correct_answer": "B",
-      "rag_answer": "D) It was good to watch TV.",
+      "rag_answer": "D) It was good to wear sunglasses when watching TV.",
       "is_correct": false
     },
     {

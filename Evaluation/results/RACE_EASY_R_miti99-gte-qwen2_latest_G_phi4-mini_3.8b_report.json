@@ -6,9 +6,9 @@
   "generator_model": "phi4-mini:3.8b",
   "generator_params": 3.84,
   "generator_size": 2.3,
-  "timestamp": "2026-04-18T01:19:04.186545",
-  "duration": "00:07:05",
-  "duration (seconds)": 425,
+  "timestamp": "2026-05-21T23:45:15.038144",
+  "duration": "00:06:34",
+  "duration (seconds)": 394,
   "total": 200,
   "correct": 0,
   "accuracy": 0.0,
@@ -75,7 +75,7 @@
         "are terrible ill"
       ],
       "correct_answer": "C",
-      "rag_answer": "A) were not ill at all",
+      "rag_answer": "C) both A and B",
       "is_correct": false
     },
     {
@@ -166,7 +166,7 @@
         "was reading a newspaper"
       ],
       "correct_answer": "C",
-      "rag_answer": "C) was still in an upstairs room.",
+      "rag_answer": "C) was still in an upstairs room",
       "is_correct": false
     },
     {
@@ -231,7 +231,7 @@
         "low"
       ],
       "correct_answer": "B",
-      "rag_answer": "B) small",
+      "rag_answer": "A) big",
       "is_correct": false
     },
     {
@@ -361,7 +361,7 @@
         "Hill'S father was cruel to him"
       ],
       "correct_answer": "A",
-      "rag_answer": "A) children should be praised",
+      "rag_answer": "C) Hill's stepmother wanted kindness towards him.",
       "is_correct": false
     },
     {
@@ -374,7 +374,7 @@
         "We must be careful with matches."
       ],
       "correct_answer": "B",
-      "rag_answer": "B)",
+      "rag_answer": "B) Fire can be both helpful and harmful.",
       "is_correct": false
     },
     {
@@ -491,7 +491,7 @@
         "do some shopping online"
       ],
       "correct_answer": "C",
-      "rag_answer": "A) find a job",
+      "rag_answer": "A",
       "is_correct": false
     },
     {
@@ -530,7 +530,7 @@
         "made her fall behind others in studies at school"
       ],
       "correct_answer": "C",
-      "rag_answer": "C) didn't influence her studies at school",
+      "rag_answer": "D) made her fall behind others in studies at school",
       "is_correct": false
     },
     {
@@ -556,7 +556,7 @@
         "slow; big"
       ],
       "correct_answer": "C",
-      "rag_answer": "B) little; small",
+      "rag_answer": "C) big; quick",
       "is_correct": false
     },
     {
@@ -595,7 +595,7 @@
         "He likes art very much."
       ],
       "correct_answer": "D",
-      "rag_answer": "B) He is warm-hearted.",
+      "rag_answer": "D) He likes art very much.",
       "is_correct": false
     },
     {
@@ -660,7 +660,7 @@
         "45"
       ],
       "correct_answer": "D",
-      "rag_answer": "D) 45",
+      "rag_answer": "A) 23",
       "is_correct": false
     },
     {
@@ -842,7 +842,7 @@
         "a little larger than"
       ],
       "correct_answer": "C",
-      "rag_answer": "B) the same as",
+      "rag_answer": "A) smaller than",
       "is_correct": false
     },
     {
@@ -894,7 +894,7 @@
         "didn't know all the people they passed"
       ],
       "correct_answer": "A",
-      "rag_answer": "A)_wave to everybody they passed_",
+      "rag_answer": "A) waved to everybody they passed",
       "is_correct": false
     },
     {
@@ -920,7 +920,7 @@
         "Jane's friend"
       ],
       "correct_answer": "C",
-      "rag_answer": "D) Jane's friend.",
+      "rag_answer": "A) Jane.",
       "is_correct": false
     },
     {
@@ -1024,7 +1024,7 @@
         "I know most of these people"
       ],
       "correct_answer": "B",
-      "rag_answer": "C) I don't know any of these people.",
+      "rag_answer": "C) I don't know any of these people",
       "is_correct": false
     },
     {
@@ -1050,7 +1050,7 @@
         "Mike wants to clean the blackboard"
       ],
       "correct_answer": "C",
-      "rag_answer": "C) Mike doesn't find Miss White behind him.",
+      "rag_answer": "C) Mike doesn't find Miss White behind him",
       "is_correct": false
     },
     {
@@ -1154,7 +1154,7 @@
         "the oldest paper was made 1,500 years ago"
       ],
       "correct_answer": "C",
-      "rag_answer": "C) wood could be made into the best paper",
+      "rag_answer": "B) a German made the best paper",
       "is_correct": false
     },
     {
@@ -1180,7 +1180,7 @@
         "Music and P.E"
       ],
       "correct_answer": "A",
-      "rag_answer": "B) Languages and art",
+      "rag_answer": "C) Math and languages",
       "is_correct": false
     },
     {
@@ -1193,7 +1193,7 @@
         "150ml"
       ],
       "correct_answer": "B",
-      "rag_answer": "B) two spoons",
+      "rag_answer": "C) 125g",
       "is_correct": false
     },
     {
@@ -1297,7 +1297,7 @@
         "4000 yuan"
       ],
       "correct_answer": "D",
-      "rag_answer": "C) 1000 yuan",
+      "rag_answer": "A) 200 yuan",
       "is_correct": false
     },
     {
@@ -1375,7 +1375,7 @@
         "do easy chores"
       ],
       "correct_answer": "A",
-      "rag_answer": "C) feed the family dog",
+      "rag_answer": "A) walk the family dog",
       "is_correct": false
     },
     {
@@ -1401,7 +1401,7 @@
         "with neither of her eyes"
       ],
       "correct_answer": "B",
-      "rag_answer": "A) only with the right eye",
+      "rag_answer": "B) only with the right eye",
       "is_correct": false
     },
     {
@@ -1414,7 +1414,7 @@
         "they are lazy"
       ],
       "correct_answer": "B",
-      "rag_answer": "B) they are too young and they can't do difficult chores",
+      "rag_answer": "C) they only want candy",
       "is_correct": false
     },
     {
@@ -1427,7 +1427,7 @@
         "Because he thought John could help his mother."
       ],
       "correct_answer": "A",
-      "rag_answer": "A) Because he thought John knew what appreciation was.",
+      "rag_answer": "A) Because he thought John knew what appreciation is and that helping him would get the job back.",
       "is_correct": false
     },
     {
@@ -1583,7 +1583,7 @@
         "a dog of \"Sleeping Beauty\""
       ],
       "correct_answer": "B",
-      "rag_answer": "B) a rock like a dog",
+      "rag_answer": "D) a dog of \"Sleeping Beauty\"",
       "is_correct": false
     },
     {
@@ -1687,7 +1687,7 @@
         "his parents wanted him to do so"
       ],
       "correct_answer": "A",
-      "rag_answer": "A) he wanted to realize his dream",
+      "rag_answer": "A) he wanted to realize his dream.",
       "is_correct": false
     },
     {
@@ -1713,7 +1713,7 @@
         "by train"
       ],
       "correct_answer": "C",
-      "rag_answer": "C) by boat",
+      "rag_answer": "A) on foot",
       "is_correct": false
     },
     {
@@ -1739,7 +1739,7 @@
         "How willpower is connected with success and how they affect each other."
       ],
       "correct_answer": "C",
-      "rag_answer": "A) How willpower and muscles are similar and how they can be trained.",
+      "rag_answer": "B) How willpower affects people's lives and how it is similar to muscles.",
       "is_correct": false
     },
     {
@@ -1752,7 +1752,7 @@
         "Eight"
       ],
       "correct_answer": "C",
-      "rag_answer": "B) Six",
+      "rag_answer": "C) Seven",
       "is_correct": false
     },
     {
@@ -1765,7 +1765,7 @@
         "harmful"
       ],
       "correct_answer": "A",
-      "rag_answer": "A) dangerous",
+      "rag_answer": "B) safe",
       "is_correct": false
     },
     {
@@ -1856,7 +1856,7 @@
         "A professional report"
       ],
       "correct_answer": "A",
-      "rag_answer": "B) An interesting lesson",
+      "rag_answer": "D) A professional report",
       "is_correct": false
     },
     {
@@ -1960,7 +1960,7 @@
         "clearer and clearer."
       ],
       "correct_answer": "A",
-      "rag_answer": "B) calmer and calmer.",
+      "rag_answer": "C) more and more boring.",
       "is_correct": false
     },
     {
@@ -2012,7 +2012,7 @@
         "they went to college and learned from professors"
       ],
       "correct_answer": "B",
-      "rag_answer": "C) they invented so many things for mankind.",
+      "rag_answer": "B) they knew how to study. They read books that were not taught at school. They worked hard all their lives, wasting not a single moment. They would ask many questions at what they read and they did thousands of experiments.",
       "is_correct": false
     },
     {
@@ -2025,7 +2025,7 @@
         "she has done a good job and makes a lot of money as a model"
       ],
       "correct_answer": "C",
-      "rag_answer": "C) she is so old that she has missed the best time in school",
+      "rag_answer": "C) she is so old that she has missed the best time in school.",
       "is_correct": false
     },
     {
@@ -2051,7 +2051,7 @@
         "Alexandra's stories appeared often on the radio and TV"
       ],
       "correct_answer": "B",
-      "rag_answer": "B) Alexandra's success changed her family's life",
+      "rag_answer": "B) Alexandra's success changed her family's life.",
       "is_correct": false
     },
     {
@@ -2103,7 +2103,7 @@
         "How to play drums."
       ],
       "correct_answer": "B",
-      "rag_answer": "A) How to recycle paper.",
+      "rag_answer": "B) How to spend free time.",
       "is_correct": false
     },
     {
@@ -2116,7 +2116,7 @@
         "a news website"
       ],
       "correct_answer": "C",
-      "rag_answer": "C)",
+      "rag_answer": "C) a travel magazine",
       "is_correct": false
     },
     {
@@ -2129,7 +2129,7 @@
         "in a secret place"
       ],
       "correct_answer": "C",
-      "rag_answer": "A) at Peter's house",
+      "rag_answer": "B) in a large hall",
       "is_correct": false
     },
     {
@@ -2181,7 +2181,7 @@
         "The names of the four boys"
       ],
       "correct_answer": "D",
-      "rag_answer": "B) WHICH ONE DID IT",
+      "rag_answer": "A) BROWN IS STUPID",
       "is_correct": false
     },
     {
@@ -2207,7 +2207,7 @@
         "cut down too many trees and grass"
       ],
       "correct_answer": "C",
-      "rag_answer": "C) make a living by fishing",
+      "rag_answer": "B) set fires to get warm",
       "is_correct": false
     },
     {
@@ -2298,7 +2298,7 @@
         "After she came back from the cinema."
       ],
       "correct_answer": "A",
-      "rag_answer": "D) After she come back from the cinema.",
+      "rag_answer": "B) Before she finished the washing.",
       "is_correct": false
     },
     {
@@ -2415,7 +2415,7 @@
         "Mr Jordan"
       ],
       "correct_answer": "A",
-      "rag_answer": "B) Ken",
+      "rag_answer": "A) Sandy",
       "is_correct": false
     },
     {
@@ -2519,7 +2519,7 @@
         "Poor People and Money."
       ],
       "correct_answer": "A",
-      "rag_answer": "D) Poor People and Money.",
+      "rag_answer": "B) Police and Money.",
       "is_correct": false
     },
     {
@@ -2545,7 +2545,7 @@
         "Pilots'- First Class -Club- Economy"
       ],
       "correct_answer": "D",
-      "rag_answer": "C) Club-Economy- First Class- Pilots'",
+      "rag_answer": "A) Club-Pilot's’-Economy – First Class",
       "is_correct": false
     },
     {
@@ -2558,7 +2558,7 @@
         "who dislikes to hitchhike"
       ],
       "correct_answer": "C",
-      "rag_answer": "D) who dislikes to hitchhike",
+      "rag_answer": "A) who always thinks of others",
       "is_correct": false
     },
     {
@@ -2584,7 +2584,7 @@
         "hot"
       ],
       "correct_answer": "D",
-      "rag_answer": "A) cold",
+      "rag_answer": "B) cool",
       "is_correct": false
     },
     {
@@ -2597,7 +2597,7 @@
         "It was good to wear sunglasses when watching TV."
       ],
       "correct_answer": "B",
-      "rag_answer": "D) It was good to watch TV.",
+      "rag_answer": "D) It was good to wear sunglasses when watching TV.",
       "is_correct": false
     },
     {

@@ -6,12 +6,12 @@
   "generator_model": "huihui_ai/qwen2.5-abliterate:72b",
   "generator_params": 72.7,
   "generator_size": 44.2,
-  "timestamp": "2026-04-17T21:57:48.484821",
-  "duration": "00:28:37",
-  "duration (seconds)": 1717,
+  "timestamp": "2026-05-21T21:20:51.586998",
+  "duration": "00:27:03",
+  "duration (seconds)": 1623,
   "total": 200,
-  "correct": 185,
-  "accuracy": 0.925,
+  "correct": 182,
+  "accuracy": 0.91,
   "results": [
     {
       "problem_index": 1,
@@ -764,8 +764,8 @@
         "teaches"
       ],
       "correct_answer": "C",
-      "rag_answer": "C",
-      "is_correct": true
+      "rag_answer": "D",
+      "is_correct": false
     },
     {
       "problem_index": 59,
@@ -1960,7 +1960,7 @@
         "clearer and clearer."
       ],
       "correct_answer": "A",
-      "rag_answer": "D",
+      "rag_answer": "B",
       "is_correct": false
     },
     {
@@ -2077,8 +2077,8 @@
         "out"
       ],
       "correct_answer": "B",
-      "rag_answer": "B",
-      "is_correct": true
+      "rag_answer": "D",
+      "is_correct": false
     },
     {
       "problem_index": 160,
@@ -2103,8 +2103,8 @@
         "How to play drums."
       ],
       "correct_answer": "B",
-      "rag_answer": "B",
-      "is_correct": true
+      "rag_answer": "C",
+      "is_correct": false
     },
     {
       "problem_index": 162,
@@ -2298,8 +2298,8 @@
         "After she came back from the cinema."
       ],
       "correct_answer": "A",
-      "rag_answer": "A",
-      "is_correct": true
+      "rag_answer": "D",
+      "is_correct": false
     },
     {
       "problem_index": 177,
@@ -2480,8 +2480,8 @@
         "Ted was one year older than Mike."
       ],
       "correct_answer": "C",
-      "rag_answer": "D",
-      "is_correct": false
+      "rag_answer": "C",
+      "is_correct": true
     },
     {
       "problem_index": 191,

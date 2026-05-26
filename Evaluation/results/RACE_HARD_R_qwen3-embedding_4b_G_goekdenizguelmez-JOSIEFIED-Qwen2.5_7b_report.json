@@ -6,12 +6,12 @@
   "generator_model": "goekdenizguelmez/JOSIEFIED-Qwen2.5:7b",
   "generator_params": 7.62,
   "generator_size": 4.4,
-  "timestamp": "2026-04-14T12:00:32.465046",
-  "duration": "00:09:41",
-  "duration (seconds)": 581,
+  "timestamp": "2026-05-22T13:53:50.652274",
+  "duration": "00:08:25",
+  "duration (seconds)": 505,
   "total": 200,
-  "correct": 165,
-  "accuracy": 0.825,
+  "correct": 167,
+  "accuracy": 0.835,
   "results": [
     {
       "problem_index": 1,
@@ -1622,8 +1622,8 @@
         "only a character made up by Arthur Conan Dolye"
       ],
       "correct_answer": "D",
-      "rag_answer": "A",
-      "is_correct": false
+      "rag_answer": "D",
+      "is_correct": true
     },
     {
       "problem_index": 125,
@@ -1986,8 +1986,8 @@
         "Sichuan and Tibet"
       ],
       "correct_answer": "D",
-      "rag_answer": "D",
-      "is_correct": true
+      "rag_answer": "A",
+      "is_correct": false
     },
     {
       "problem_index": 153,
@@ -2324,8 +2324,8 @@
         "A strong experience my parents and I had"
       ],
       "correct_answer": "C",
-      "rag_answer": "A",
-      "is_correct": false
+      "rag_answer": "C",
+      "is_correct": true
     },
     {
       "problem_index": 179,
@@ -2558,8 +2558,8 @@
         "Any party member will be given a bag to store rubbish at the party."
       ],
       "correct_answer": "C",
-      "rag_answer": "B",
-      "is_correct": false
+      "rag_answer": "C",
+      "is_correct": true
     },
     {
       "problem_index": 197,
