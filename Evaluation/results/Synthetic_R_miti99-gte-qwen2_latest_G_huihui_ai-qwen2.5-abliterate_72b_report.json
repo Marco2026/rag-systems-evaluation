@@ -1,0 +1,2617 @@
+{
+  "benchmark": "Synthetic",
+  "retriever_model": "miti99/gte-qwen2:latest",
+  "retriever_params": 1.8,
+  "retriever_size": 3.3,
+  "generator_model": "huihui_ai/qwen2.5-abliterate:72b",
+  "generator_params": 72.7,
+  "generator_size": 44.2,
+  "timestamp": "2026-04-29T22:53:26.096378",
+  "duration": "00:34:02",
+  "duration (seconds)": 2042,
+  "total": 200,
+  "correct": 196,
+  "accuracy": 0.98,
+  "results": [
+    {
+      "problem_index": 1,
+      "question": "In which year was the Valdrek Empire founded?",
+      "options": {
+        "A": "1050",
+        "B": "1075",
+        "C": "1080",
+        "D": "1095"
+      },
+      "correct_answer": "A",
+      "rag_answer": "A",
+      "is_correct": true
+    },
+    {
+      "problem_index": 2,
+      "question": "Who ascended to power on the first day of the year 1050?",
+      "options": {
+        "A": "Emperor Solara",
+        "B": "Emperor Thalion II",
+        "C": "Emperor Elowen III",
+        "D": "Emperor Alaric I"
+      },
+      "correct_answer": "D",
+      "rag_answer": "D",
+      "is_correct": true
+    },
+    {
+      "problem_index": 3,
+      "question": "What significant infrastructure did Emperor Alaric I build during his reign?",
+      "options": {
+        "A": "The Temple of the Sun",
+        "B": "The Imperial Academy",
+        "C": "The Imperial Navy",
+        "D": "The Grand Road"
+      },
+      "correct_answer": "D",
+      "rag_answer": "D",
+      "is_correct": true
+    },
+    {
+      "problem_index": 4,
+      "question": "In what year was the Imperial Academy founded?",
+      "options": {
+        "A": "1053",
+        "B": "1075",
+        "C": "1080",
+        "D": "1097"
+      },
+      "correct_answer": "A",
+      "rag_answer": "A",
+      "is_correct": true
+    },
+    {
+      "problem_index": 5,
+      "question": "What treaty did Emperor Thalion II sign in 1080?",
+      "options": {
+        "A": "Treaty of Silver Forest",
+        "B": "Treaty of the Silver Flame",
+        "C": "Treaty of Silverlake",
+        "D": "Treaty of the Silver Sea"
+      },
+      "correct_answer": "C",
+      "rag_answer": "C",
+      "is_correct": true
+    },
+    {
+      "problem_index": 6,
+      "question": "How many warships were initially established in the Imperial Navy?",
+      "options": {
+        "A": "10",
+        "B": "20",
+        "C": "30",
+        "D": "40"
+      },
+      "correct_answer": "B",
+      "rag_answer": "B",
+      "is_correct": true
+    },
+    {
+      "problem_index": 7,
+      "question": "What was the primary mission of the Imperial Navy?",
+      "options": {
+        "A": "To explore new lands",
+        "B": "To conquer coastal cities",
+        "C": "To protect trade routes and deter piracy",
+        "D": "To transport troops"
+      },
+      "correct_answer": "C",
+      "rag_answer": "C",
+      "is_correct": true
+    },
+    {
+      "problem_index": 8,
+      "question": "In which city was the Temple of the Sun constructed?",
+      "options": {
+        "A": "Valoria",
+        "B": "Sunhold",
+        "C": "Moonhaven",
+        "D": "Arvandor"
+      },
+      "correct_answer": "C",
+      "rag_answer": "C",
+      "is_correct": true
+    },
+    {
+      "problem_index": 9,
+      "question": "What was the name of the elite group of paladins established by Emperor Elowen III?",
+      "options": {
+        "A": "Order of the Radiant Star",
+        "B": "Order of the Golden Sun",
+        "C": "Order of the Celestial Shield",
+        "D": "Order of the Silver Flame"
+      },
+      "correct_answer": "D",
+      "rag_answer": "D",
+      "is_correct": true
+    },
+    {
+      "problem_index": 10,
+      "question": "Which emperor initiated the construction of the Imperial Navy?",
+      "options": {
+        "A": "Emperor Alaric I",
+        "B": "Emperor Thalion II",
+        "C": "Emperor Elowen III",
+        "D": "Emperor Solara"
+      },
+      "correct_answer": "B",
+      "rag_answer": "B",
+      "is_correct": true
+    },
+    {
+      "problem_index": 11,
+      "question": "What is the name of the strait that separates Elyria Proper from Elyria Minor?",
+      "options": {
+        "A": "Mistwood Gap",
+        "B": "Azure Strait",
+        "C": "Ember Passage",
+        "D": "Silver Channel"
+      },
+      "correct_answer": "D",
+      "rag_answer": "D",
+      "is_correct": true
+    },
+    {
+      "problem_index": 12,
+      "question": "Which city in Eldara is known for its sunny climate and vibrant marketplaces?",
+      "options": {
+        "A": "Arvandor",
+        "B": "Moonhaven",
+        "C": "Valoria",
+        "D": "Sunhold"
+      },
+      "correct_answer": "D",
+      "rag_answer": "D",
+      "is_correct": true
+    },
+    {
+      "problem_index": 13,
+      "question": "What is the primary stronghold of the Mage Guilds located on?",
+      "options": {
+        "A": "Mount Drakon",
+        "B": "Iron Hills",
+        "C": "Thundertop",
+        "D": "Firewatch Tower"
+      },
+      "correct_answer": "C",
+      "rag_answer": "C",
+      "is_correct": true
+    },
+    {
+      "problem_index": 14,
+      "question": "Which continent is known for its lush tropical forests and pristine beaches?",
+      "options": {
+        "A": "Elyria Minor",
+        "B": "Arvandor",
+        "C": "Thalassia",
+        "D": "Nordheim"
+      },
+      "correct_answer": "C",
+      "rag_answer": "C",
+      "is_correct": true
+    },
+    {
+      "problem_index": 15,
+      "question": "What is the name of the mountain range rich in minerals where the Dwarves have established their largest underground cities?",
+      "options": {
+        "A": "Silver Mountains",
+        "B": "Stonefang Pass",
+        "C": "Iron Hills",
+        "D": "Mount Drakon"
+      },
+      "correct_answer": "C",
+      "rag_answer": "C",
+      "is_correct": true
+    },
+    {
+      "problem_index": 16,
+      "question": "Which city is shaped like a crescent moon and has been a center of magical study for over 3,200 years?",
+      "options": {
+        "A": "Sunhold",
+        "B": "Arvandor",
+        "C": "Valoria",
+        "D": "Moonhaven"
+      },
+      "correct_answer": "D",
+      "rag_answer": "D",
+      "is_correct": true
+    },
+    {
+      "problem_index": 17,
+      "question": "What is the name of the enchanted forest where time flows differently, located on Elyria Minor?",
+      "options": {
+        "A": "Silver Forest",
+        "B": "Whispering Plains",
+        "C": "Mistwood",
+        "D": "Moonhaven"
+      },
+      "correct_answer": "C",
+      "rag_answer": "C",
+      "is_correct": true
+    },
+    {
+      "problem_index": 18,
+      "question": "Which city was founded by the Kael'thys and is renowned for its beautiful architecture and magical gardens?",
+      "options": {
+        "A": "Sunhold",
+        "B": "Valoria",
+        "C": "Moonhaven",
+        "D": "Arvandor"
+      },
+      "correct_answer": "D",
+      "rag_answer": "D",
+      "is_correct": true
+    },
+    {
+      "problem_index": 19,
+      "question": "What is the name of the extensive network of caves where meteors are said to have fallen long ago?",
+      "options": {
+        "A": "Silverlake Caverns",
+        "B": "Mistwood Caves",
+        "C": "Starfall Caverns",
+        "D": "Firewatch Tunnels"
+      },
+      "correct_answer": "C",
+      "rag_answer": "C",
+      "is_correct": true
+    },
+    {
+      "problem_index": 20,
+      "question": "Which island is known for its connection to lunar magic and frequent lunar eclipses?",
+      "options": {
+        "A": "Ember Island",
+        "B": "Azure Isle",
+        "C": "Eclipse Island",
+        "D": "Moonhaven"
+      },
+      "correct_answer": "C",
+      "rag_answer": "C",
+      "is_correct": true
+    },
+    {
+      "problem_index": 21,
+      "question": "Which source of magic is associated with the Whispering Plains?",
+      "options": {
+        "A": "Living Flame",
+        "B": "Deep Tide",
+        "C": "Cold Void",
+        "D": "Eternal Wind"
+      },
+      "correct_answer": "C",
+      "rag_answer": "C",
+      "is_correct": true
+    },
+    {
+      "problem_index": 22,
+      "question": "What significant event occurred in 1600 involving the Cold Void?",
+      "options": {
+        "A": "The Great Forging",
+        "B": "The Awakening of the Giants",
+        "C": "The First Human Kingdom",
+        "D": "The Founding of the Mage Guilds"
+      },
+      "correct_answer": "B",
+      "rag_answer": "B",
+      "is_correct": true
+    },
+    {
+      "problem_index": 23,
+      "question": "Which city is often shrouded in a layer of frost due to its proximity to the Cold Void?",
+      "options": {
+        "A": "Arvandor",
+        "B": "Valoria",
+        "C": "Moonhaven",
+        "D": "Sunhold"
+      },
+      "correct_answer": "C",
+      "rag_answer": "C",
+      "is_correct": true
+    },
+    {
+      "problem_index": 24,
+      "question": "What significant event involving the Deep Tide occurred in 1200?",
+      "options": {
+        "A": "The First Human Kingdom",
+        "B": "The War of the Three Cities",
+        "C": "The Great Migration",
+        "D": "The Treaty of the Silver Forest"
+      },
+      "correct_answer": "B",
+      "rag_answer": "B",
+      "is_correct": true
+    },
+    {
+      "problem_index": 25,
+      "question": "Which source of magic is associated with Ember Island?",
+      "options": {
+        "A": "Living Flame",
+        "B": "Cold Void",
+        "C": "Deep Tide",
+        "D": "Eternal Wind"
+      },
+      "correct_answer": "A",
+      "rag_answer": "A",
+      "is_correct": true
+    },
+    {
+      "problem_index": 26,
+      "question": "What significant event involving the Living Flame occurred in -1800?",
+      "options": {
+        "A": "The First Life",
+        "B": "The Great Forging",
+        "C": "The Rise of the Drakonar",
+        "D": "The Sundering"
+      },
+      "correct_answer": "B",
+      "rag_answer": "B",
+      "is_correct": true
+    },
+    {
+      "problem_index": 27,
+      "question": "Which source of magic is centered around the Azure Sea?",
+      "options": {
+        "A": "Living Flame",
+        "B": "Cold Void",
+        "C": "Deep Tide",
+        "D": "Eternal Wind"
+      },
+      "correct_answer": "C",
+      "rag_answer": "C",
+      "is_correct": true
+    },
+    {
+      "problem_index": 28,
+      "question": "What significant event involving the Eternal Wind occurred in -1500?",
+      "options": {
+        "A": "The First Dawn",
+        "B": "he Great War of the Ancients",
+        "C": "The Rise of the DrakonarT",
+        "D": "The Pact of the Three Races"
+      },
+      "correct_answer": "C",
+      "rag_answer": "C",
+      "is_correct": true
+    },
+    {
+      "problem_index": 29,
+      "question": "Which city is often blessed by the Eternal Wind?",
+      "options": {
+        "A": "Arvandor",
+        "B": "Valoria",
+        "C": "Sunhold",
+        "D": "Moonhaven"
+      },
+      "correct_answer": "C",
+      "rag_answer": "C",
+      "is_correct": true
+    },
+    {
+      "problem_index": 30,
+      "question": "What significant event involving the Eternal Wind occurred in 1800?",
+      "options": {
+        "A": "The Great Migration",
+        "B": "The Founding of the Mage Guilds",
+        "C": "The Rise of the Dark Lord",
+        "D": "The War of the Three Cities"
+      },
+      "correct_answer": "B",
+      "rag_answer": "B",
+      "is_correct": true
+    },
+    {
+      "problem_index": 31,
+      "question": "In which year was the human kingdom of Valoria established?",
+      "options": {
+        "A": "500 A.E.",
+        "B": "750 A.E.",
+        "C": "1000 A.E.",
+        "D": "1200 A.E."
+      },
+      "correct_answer": "A",
+      "rag_answer": "A",
+      "is_correct": true
+    },
+    {
+      "problem_index": 32,
+      "question": "What is the main economic activity of Sunhold?",
+      "options": {
+        "A": "Fishing",
+        "B": "Mining",
+        "C": "Trade and marketplaces",
+        "D": "Craftsmanship"
+      },
+      "correct_answer": "C",
+      "rag_answer": "C",
+      "is_correct": true
+    },
+    {
+      "problem_index": 33,
+      "question": "Which faction maintains control over Stonefang Pass?",
+      "options": {
+        "A": "Whispering Plains Tribe",
+        "B": "Stonefang Pass Guard",
+        "C": "Silverlake Federation",
+        "D": "Shadow Vale Cult"
+      },
+      "correct_answer": "B",
+      "rag_answer": "B",
+      "is_correct": true
+    },
+    {
+      "problem_index": 34,
+      "question": "What is the primary purpose of the Wind Spirit Ceremony?",
+      "options": {
+        "A": "To celebrate a bountiful harvest",
+        "B": "To mark the summer solstice",
+        "C": "To honor the wind spirits",
+        "D": "To welcome new citizens"
+      },
+      "correct_answer": "C",
+      "rag_answer": "C",
+      "is_correct": true
+    },
+    {
+      "problem_index": 35,
+      "question": "What is the main industry of the Silverlake Federation?",
+      "options": {
+        "A": "Trade and marketplaces",
+        "B": "Mining",
+        "C": "Craftsmanship",
+        "D": "Fishing"
+      },
+      "correct_answer": "D",
+      "rag_answer": "D",
+      "is_correct": true
+    },
+    {
+      "problem_index": 36,
+      "question": "Which human faction worships the deity of shadows?",
+      "options": {
+        "A": "Whispering Plains Tribe",
+        "B": "Stonefang Pass Guard",
+        "C": "Silverlake Federation",
+        "D": "Shadow Vale Cult"
+      },
+      "correct_answer": "D",
+      "rag_answer": "D",
+      "is_correct": true
+    },
+    {
+      "problem_index": 37,
+      "question": "Who is credited with establishing the kingdom of Valoria?",
+      "options": {
+        "A": "Queen Elyria",
+        "B": "Captain Elara Stormwind",
+        "C": "High Priestess Lyra Shadowveil",
+        "D": "King Alaric I"
+      },
+      "correct_answer": "D",
+      "rag_answer": "D",
+      "is_correct": true
+    },
+    {
+      "problem_index": 38,
+      "question": "What significant event does the Harvest Moon Feast celebrate?",
+      "options": {
+        "A": "The summer solstice",
+        "B": "The bountiful harvest",
+        "C": "The founding of Sunhold",
+        "D": "The first full moon of spring"
+      },
+      "correct_answer": "B",
+      "rag_answer": "B",
+      "is_correct": true
+    },
+    {
+      "problem_index": 39,
+      "question": "In which year was the Shadow Vale Cult founded?",
+      "options": {
+        "A": "1200 A.E.",
+        "B": "1300 A.E.",
+        "C": "1400 A.E.",
+        "D": "1500 A.E."
+      },
+      "correct_answer": "D",
+      "rag_answer": "D",
+      "is_correct": true
+    },
+    {
+      "problem_index": 40,
+      "question": "What is the primary function of Cragstone Keep?",
+      "options": {
+        "A": "Fishing hub",
+        "B": "Religious temple",
+        "C": "Military fortress",
+        "D": "Trade center"
+      },
+      "correct_answer": "C",
+      "rag_answer": "C",
+      "is_correct": true
+    },
+    {
+      "problem_index": 41,
+      "question": "In which year did the Selvari first appear in Eldara?",
+      "options": {
+        "A": "-2400",
+        "B": "-2500",
+        "C": "-2600",
+        "D": "-2700"
+      },
+      "correct_answer": "A",
+      "rag_answer": "A",
+      "is_correct": true
+    },
+    {
+      "problem_index": 42,
+      "question": "What is the name of the sacred tree at the heart of Thuun?",
+      "options": {
+        "A": "Moonwood",
+        "B": "Thuun Oak",
+        "C": "Great Elm",
+        "D": "Eryndur"
+      },
+      "correct_answer": "D",
+      "rag_answer": "D",
+      "is_correct": true
+    },
+    {
+      "problem_index": 43,
+      "question": "Which clan is responsible for maintaining the High Canopy?",
+      "options": {
+        "A": "Maplebark Clan",
+        "B": "Willowwind Clan",
+        "C": "Pinecrest Clan",
+        "D": "Oakheart Clan"
+      },
+      "correct_answer": "D",
+      "rag_answer": "D",
+      "is_correct": true
+    },
+    {
+      "problem_index": 44,
+      "question": "What is the primary role of a Treeward?",
+      "options": {
+        "A": "Conducting annual hunts",
+        "B": "Guarding the forest against intruders",
+        "C": "Cultivating medicinal plants",
+        "D": "Leading the clan and maintaining tree-homes"
+      },
+      "correct_answer": "D",
+      "rag_answer": "D",
+      "is_correct": true
+    },
+    {
+      "problem_index": 45,
+      "question": "What rare fruit do the Selvari use for its healing properties?",
+      "options": {
+        "A": "Sunseeds",
+        "B": "Silverfruits",
+        "C": "Goldenapples",
+        "D": "Moonberries"
+      },
+      "correct_answer": "D",
+      "rag_answer": "D",
+      "is_correct": true
+    },
+    {
+      "problem_index": 46,
+      "question": "How often is the High Treeward elected?",
+      "options": {
+        "A": "Every 75 years",
+        "B": "Every 25 years",
+        "C": "Every 100 years",
+        "D": "Every 50 years"
+      },
+      "correct_answer": "D",
+      "rag_answer": "D",
+      "is_correct": true
+    },
+    {
+      "problem_index": 47,
+      "question": "What method do the Selvari use to communicate over long distances?",
+      "options": {
+        "A": "Whispering Wind",
+        "B": "Forest Echoes",
+        "C": "Tree Whistles",
+        "D": "Moon Chirps"
+      },
+      "correct_answer": "A",
+      "rag_answer": "A",
+      "is_correct": true
+    },
+    {
+      "problem_index": 48,
+      "question": "What event do the Selvari hold annually to celebrate their connection to nature?",
+      "options": {
+        "A": "Forest Feast",
+        "B": "Sun Festival",
+        "C": "Tree Blessing",
+        "D": "Moonstag Hunt"
+      },
+      "correct_answer": "D",
+      "rag_answer": "D",
+      "is_correct": true
+    },
+    {
+      "problem_index": 49,
+      "question": "Which forest spirit is believed to be the guardian of Eryndur?",
+      "options": {
+        "A": "Lynara",
+        "B": "Eldorin",
+        "C": "Thunor",
+        "D": "Arathorn"
+      },
+      "correct_answer": "D",
+      "rag_answer": "D",
+      "is_correct": true
+    },
+    {
+      "problem_index": 50,
+      "question": "What are some challenges the Selvari face in recent years?",
+      "options": {
+        "A": "Encroaching human settlements and trolls from Stonefang Pass",
+        "B": "Dragon attacks and orc raids",
+        "C": "Goblin invasions and giant migrations",
+        "D": "Merfolk conflicts and kraken threats"
+      },
+      "correct_answer": "A",
+      "rag_answer": "A",
+      "is_correct": true
+    },
+    {
+      "problem_index": 51,
+      "question": "How long do the Eternal Mountains stretch across Eldara?",
+      "options": {
+        "A": "Over 500 miles",
+        "B": "Over 300 miles",
+        "C": "Over 700 miles",
+        "D": "Over 400 miles"
+      },
+      "correct_answer": "A",
+      "rag_answer": "A",
+      "is_correct": true
+    },
+    {
+      "problem_index": 52,
+      "question": "Who is the leader of the Stonefist Clan?",
+      "options": {
+        "A": "Chieftain Gromm Rockhide",
+        "B": "Chieftain Thorgar Ironback",
+        "C": "Chieftain Vrok Thunderfist",
+        "D": "Chieftain Grorim Stonefist"
+      },
+      "correct_answer": "D",
+      "rag_answer": "D",
+      "is_correct": true
+    },
+    {
+      "problem_index": 53,
+      "question": "How many Gorrak can the Great Stone Hall house at once?",
+      "options": {
+        "A": "Up to 500",
+        "B": "Up to 400",
+        "C": "Up to 600",
+        "D": "Up to 300"
+      },
+      "correct_answer": "A",
+      "rag_answer": "A",
+      "is_correct": true
+    },
+    {
+      "problem_index": 54,
+      "question": "Since when has the Stonefist Forge been in operation?",
+      "options": {
+        "A": "700 CE",
+        "B": "1000 CE",
+        "C": "300 BCE",
+        "D": "500 BCE"
+      },
+      "correct_answer": "D",
+      "rag_answer": "D",
+      "is_correct": true
+    },
+    {
+      "problem_index": 55,
+      "question": "In which year did the Gorrak play a crucial role in the defense of Thundertop during the War of the Three Cities?",
+      "options": {
+        "A": "1250 CE",
+        "B": "1300 CE",
+        "C": "1200 CE",
+        "D": "1150 CE"
+      },
+      "correct_answer": "A",
+      "rag_answer": "A",
+      "is_correct": true
+    },
+    {
+      "problem_index": 56,
+      "question": "Where is the Crystal Cavern located?",
+      "options": {
+        "A": "On Ember Island",
+        "B": "In the Iron Hills",
+        "C": "Within the Great Stone Hall",
+        "D": "Deep beneath Mount Drakon"
+      },
+      "correct_answer": "D",
+      "rag_answer": "D",
+      "is_correct": true
+    },
+    {
+      "problem_index": 57,
+      "question": "In which year did the Gorrak form an alliance with the Mage Guilds of Thundertop?",
+      "options": {
+        "A": "1850 CE",
+        "B": "1900 CE",
+        "C": "1800 CE",
+        "D": "1750 CE"
+      },
+      "correct_answer": "A",
+      "rag_answer": "A",
+      "is_correct": true
+    },
+    {
+      "problem_index": 58,
+      "question": "What is the height of the Firewatch Tower?",
+      "options": {
+        "A": "300 feet",
+        "B": "400 feet",
+        "C": "250 feet",
+        "D": "350 feet"
+      },
+      "correct_answer": "A",
+      "rag_answer": "A",
+      "is_correct": true
+    },
+    {
+      "problem_index": 59,
+      "question": "What are the Crystal Caverns known for?",
+      "options": {
+        "A": "Enchanted stones that grant wishes",
+        "B": "Ancient runes that tell the history of the Gorrak",
+        "C": "Mystical pools that heal the wounded",
+        "D": "Luminescent crystals that enhance communication with earth spirits"
+      },
+      "correct_answer": "D",
+      "rag_answer": "D",
+      "is_correct": true
+    },
+    {
+      "problem_index": 60,
+      "question": "What is one of the notable structures created through the alliance between the Gorrak and the Mage Guilds of Thundertop?",
+      "options": {
+        "A": "Crystal Cavern",
+        "B": "Great Stone Hall",
+        "C": "Stonefist Forge",
+        "D": "Firewatch Tower"
+      },
+      "correct_answer": "D",
+      "rag_answer": "D",
+      "is_correct": true
+    },
+    {
+      "problem_index": 61,
+      "question": "When did the Mereidi originate?",
+      "options": {
+        "A": "-2000",
+        "B": "-1800",
+        "C": "-1750",
+        "D": "-1600"
+      },
+      "correct_answer": "C",
+      "rag_answer": "C",
+      "is_correct": true
+    },
+    {
+      "problem_index": 62,
+      "question": "Who is the current chieftain of the Silver Tide clan?",
+      "options": {
+        "A": "Elara Moonwhisper",
+        "B": "Lira Stormsong",
+        "C": "Kael'thys Sunweaver",
+        "D": "Talor Wavecaller"
+      },
+      "correct_answer": "A",
+      "rag_answer": "A",
+      "is_correct": true
+    },
+    {
+      "problem_index": 63,
+      "question": "What is the name of the largest and most renowned lighthouse built by the Mereidi?",
+      "options": {
+        "A": "Lighthouse of Sunhold",
+        "B": "Lighthouse of Moonhaven",
+        "C": "Lighthouse of Mistwood",
+        "D": "Lighthouse of Ember Island"
+      },
+      "correct_answer": "B",
+      "rag_answer": "B",
+      "is_correct": true
+    },
+    {
+      "problem_index": 64,
+      "question": "What is the primary magical ability of the Mereidi?",
+      "options": {
+        "A": "Fire magic",
+        "B": "Water magic",
+        "C": "Earth magic",
+        "D": "Air magic"
+      },
+      "correct_answer": "B",
+      "rag_answer": "B",
+      "is_correct": true
+    },
+    {
+      "problem_index": 65,
+      "question": "In which year was the first lighthouse built by the Mereidi?",
+      "options": {
+        "A": "1200",
+        "B": "1250",
+        "C": "1300",
+        "D": "1350"
+      },
+      "correct_answer": "C",
+      "rag_answer": "C",
+      "is_correct": true
+    },
+    {
+      "problem_index": 66,
+      "question": "Which clan controls the underwater caverns near Ember Island?",
+      "options": {
+        "A": "Clan of the Silver Tide",
+        "B": "Clan of the Stormy Sea",
+        "C": "Clan of the Coral Reef",
+        "D": "Clan of the Deep Waters"
+      },
+      "correct_answer": "C",
+      "rag_answer": "D",
+      "is_correct": false
+    },
+    {
+      "problem_index": 67,
+      "question": "What event marks the beginning of the Mereidi's amphibious nature?",
+      "options": {
+        "A": "The Great Forging",
+        "B": "The Sundering",
+        "C": "The Blessing of the Tides",
+        "D": "The Rise of the Dwarves"
+      },
+      "correct_answer": "C",
+      "rag_answer": "C",
+      "is_correct": true
+    },
+    {
+      "problem_index": 68,
+      "question": "In which city is the largest and most renowned lighthouse located?",
+      "options": {
+        "A": "Sunhold",
+        "B": "Arvandor",
+        "C": "Moonhaven",
+        "D": "Thundertop"
+      },
+      "correct_answer": "C",
+      "rag_answer": "C",
+      "is_correct": true
+    },
+    {
+      "problem_index": 69,
+      "question": "What significant event do the Mereidi celebrate annually on the 15th day of the lunar month?",
+      "options": {
+        "A": "Festival of the Stars",
+        "B": "Festival of the Sun",
+        "C": "Festival of the Moon",
+        "D": "Festival of the Tides"
+      },
+      "correct_answer": "D",
+      "rag_answer": "D",
+      "is_correct": true
+    },
+    {
+      "problem_index": 70,
+      "question": "What are the Mereidi known for crafting with seaweed fibers?",
+      "options": {
+        "A": "Magical crystals",
+        "B": "Durable fabrics",
+        "C": "Decorative sculptures",
+        "D": "Water-resistant ships"
+      },
+      "correct_answer": "B",
+      "rag_answer": "B",
+      "is_correct": true
+    },
+    {
+      "problem_index": 71,
+      "question": "What is the primary medium of exchange in Eldara's economy?",
+      "options": {
+        "A": "Gold Coins",
+        "B": "Silver Tokens",
+        "C": "Draken",
+        "D": "Barter System"
+      },
+      "correct_answer": "C",
+      "rag_answer": "C",
+      "is_correct": true
+    },
+    {
+      "problem_index": 72,
+      "question": "What precious metal, mined primarily from the Iron Hills, is used to make the Draken?",
+      "options": {
+        "A": "Copper",
+        "B": "Silver",
+        "C": "Gold",
+        "D": "Mithril"
+      },
+      "correct_answer": "D",
+      "rag_answer": "D",
+      "is_correct": true
+    },
+    {
+      "problem_index": 73,
+      "question": "In which year was the standardization of the Draken currency established?",
+      "options": {
+        "A": "500",
+        "B": "800",
+        "C": "1200",
+        "D": "1400"
+      },
+      "correct_answer": "D",
+      "rag_answer": "D",
+      "is_correct": true
+    },
+    {
+      "problem_index": 74,
+      "question": "Which city is known for its sunny climate and bustling marketplaces?",
+      "options": {
+        "A": "Arvandor",
+        "B": "Valoria",
+        "C": "Sunhold",
+        "D": "Moonhaven"
+      },
+      "correct_answer": "C",
+      "rag_answer": "C",
+      "is_correct": true
+    },
+    {
+      "problem_index": 75,
+      "question": "What is the primary good transported along the Mountain Pass Route?",
+      "options": {
+        "A": "Silk",
+        "B": "Iron Ore",
+        "C": "Spices",
+        "D": "Magical Herbs"
+      },
+      "correct_answer": "B",
+      "rag_answer": "B",
+      "is_correct": true
+    },
+    {
+      "problem_index": 76,
+      "question": "Which trade route connects the volcanic island with the coastal city of Sunhold?",
+      "options": {
+        "A": "Azure Trade Route",
+        "B": "Whispering Plains Route",
+        "C": "Ember Island Route",
+        "D": "Firewatch Tower Route"
+      },
+      "correct_answer": "C",
+      "rag_answer": "C",
+      "is_correct": true
+    },
+    {
+      "problem_index": 77,
+      "question": "What is the main feature of the Whispering Plains?",
+      "options": {
+        "A": "Ancient Forests",
+        "B": "Fertile Soil",
+        "C": "Volcanic Fields",
+        "D": "Silver Sheen"
+      },
+      "correct_answer": "B",
+      "rag_answer": "B",
+      "is_correct": true
+    },
+    {
+      "problem_index": 78,
+      "question": "What is the primary good transported along the Silver Forest Route?",
+      "options": {
+        "A": "Enchanted Metals",
+        "B": "Silk",
+        "C": "Rare Woods and Magical Flora",
+        "D": "Spices"
+      },
+      "correct_answer": "C",
+      "rag_answer": "C",
+      "is_correct": true
+    },
+    {
+      "problem_index": 79,
+      "question": "Which route is known for its transport of magical artifacts and ancient knowledge?",
+      "options": {
+        "A": "Azure Trade Route",
+        "B": "Whispering Plains Route",
+        "C": "Silver Forest Route",
+        "D": "Mistwood Route"
+      },
+      "correct_answer": "D",
+      "rag_answer": "D",
+      "is_correct": true
+    },
+    {
+      "problem_index": 80,
+      "question": "Which trade route was established in 1600?",
+      "options": {
+        "A": "Azure Trade Route",
+        "B": "Whispering Plains Route",
+        "C": "Ember Island Route",
+        "D": "Firewatch Tower Route"
+      },
+      "correct_answer": "C",
+      "rag_answer": "C",
+      "is_correct": true
+    },
+    {
+      "problem_index": 81,
+      "question": "Which god is revered as the chief deity of Eldara and is associated with shaping the land and sea?",
+      "options": {
+        "A": "Aldorin, the Creator",
+        "B": "Elara, the Lifegiver",
+        "C": "Thalor, the Forger",
+        "D": "Drakonar, the Sky Lord"
+      },
+      "correct_answer": "A",
+      "rag_answer": "A",
+      "is_correct": true
+    },
+    {
+      "problem_index": 82,
+      "question": "In which year did Aldorin awaken to begin the process of creation?",
+      "options": {
+        "A": "-3000",
+        "B": "-2500",
+        "C": "-2000",
+        "D": "-1800"
+      },
+      "correct_answer": "A",
+      "rag_answer": "A",
+      "is_correct": true
+    },
+    {
+      "problem_index": 83,
+      "question": "What is Elara's domain and where is her most sacred site located?",
+      "options": {
+        "A": "Light and wisdom, Arvandor",
+        "B": "Water and healing, Azure Sea",
+        "C": "Life and fertility, Silver Forest",
+        "D": "Storms and magic, Thundertop"
+      },
+      "correct_answer": "C",
+      "rag_answer": "C",
+      "is_correct": true
+    },
+    {
+      "problem_index": 84,
+      "question": "Which god is associated with The Great Forging and is particularly revered by the Dwarves?",
+      "options": {
+        "A": "Kael'thys, the Lightbringer",
+        "B": "Drakonar, the Sky Lord",
+        "C": "Elara, the Lifegiver",
+        "D": "Thalor, the Forger"
+      },
+      "correct_answer": "D",
+      "rag_answer": "D",
+      "is_correct": true
+    },
+    {
+      "problem_index": 85,
+      "question": "What is Drakonar's domain, and where is his most sacred site located?",
+      "options": {
+        "A": "Air and lightning, Mount Drakon",
+        "B": "Earth and sky, Iron Hills",
+        "C": "Water and healing, Azure Sea",
+        "D": "Storms and magic, Thundertop"
+      },
+      "correct_answer": "A",
+      "rag_answer": "A",
+      "is_correct": true
+    },
+    {
+      "problem_index": 86,
+      "question": "Which god guided the Kael'thys people to Eldara during The Coming of the Kael'thys?",
+      "options": {
+        "A": "Thalor, the Forger",
+        "B": "Elara, the Lifegiver",
+        "C": "Drakonar, the Sky Lord",
+        "D": "Kael'thys, the Lightbringer"
+      },
+      "correct_answer": "D",
+      "rag_answer": "D",
+      "is_correct": true
+    },
+    {
+      "problem_index": 87,
+      "question": "What is Valoria's domain, and which city is a significant site for her followers?",
+      "options": {
+        "A": "Courage and defense, Sunhold",
+        "B": "Light and wisdom, Arvandor",
+        "C": "Life and fertility, Silver Forest",
+        "D": "Storms and magic, Thundertop"
+      },
+      "correct_answer": "A",
+      "rag_answer": "A",
+      "is_correct": true
+    },
+    {
+      "problem_index": 88,
+      "question": "Which goddess is associated with the earth and stability, and where is she particularly revered?",
+      "options": {
+        "A": "Kael'thys, the Lightbringer, Arvandor",
+        "B": "Elara, the Lifegiver, Silver Forest",
+        "C": "Thalor, the Forger, Cragstone Keep",
+        "D": "Elyria, the Earth Mother, Iron Hills"
+      },
+      "correct_answer": "D",
+      "rag_answer": "D",
+      "is_correct": true
+    },
+    {
+      "problem_index": 89,
+      "question": "What is Thundertop's domain, and where is his most sacred site located?",
+      "options": {
+        "A": "Storms and magic, Starfall Caverns",
+        "B": "Air and lightning, Mount Drakon",
+        "C": "Light and wisdom, Arvandor",
+        "D": "Life and fertility, Silver Forest"
+      },
+      "correct_answer": "A",
+      "rag_answer": "A",
+      "is_correct": true
+    },
+    {
+      "problem_index": 90,
+      "question": "Which god is often depicted holding a glowing orb symbolizing enlightenment?",
+      "options": {
+        "A": "Elara, the Lifegiver",
+        "B": "Thalor, the Forger",
+        "C": "Drakonar, the Sky Lord",
+        "D": "Kael'thys, the Lightbringer"
+      },
+      "correct_answer": "D",
+      "rag_answer": "D",
+      "is_correct": true
+    },
+    {
+      "problem_index": 91,
+      "question": "In which year did the Great Fracture war begin?",
+      "options": {
+        "A": "1752",
+        "B": "1768",
+        "C": "1750",
+        "D": "1756"
+      },
+      "correct_answer": "A",
+      "rag_answer": "A",
+      "is_correct": true
+    },
+    {
+      "problem_index": 92,
+      "question": "Who launched the initial attack that started the Great Fracture?",
+      "options": {
+        "A": "Zephyrion, the High Drake of Mount Drakon",
+        "B": "King Althorin of Valoria",
+        "C": "High Mage Elara Sunshadow",
+        "D": "The Giants and Trolls"
+      },
+      "correct_answer": "A",
+      "rag_answer": "A",
+      "is_correct": true
+    },
+    {
+      "problem_index": 93,
+      "question": "Which city was attacked first by Zephyrion?",
+      "options": {
+        "A": "Sunhold",
+        "B": "Arvandor",
+        "C": "Valoria",
+        "D": "Moonhaven"
+      },
+      "correct_answer": "A",
+      "rag_answer": "A",
+      "is_correct": true
+    },
+    {
+      "problem_index": 94,
+      "question": "How many lives were lost in Sunhold within the first day of the attack?",
+      "options": {
+        "A": "1,000",
+        "B": "5,000",
+        "C": "10,000",
+        "D": "20,000"
+      },
+      "correct_answer": "C",
+      "rag_answer": "C",
+      "is_correct": true
+    },
+    {
+      "problem_index": 95,
+      "question": "Who was the leader of the Kael'thys alliance during the Great Fracture?",
+      "options": {
+        "A": "King Althorin of Valoria",
+        "B": "High Mage Elara Sunshadow",
+        "C": "Zephyrion, the High Drake",
+        "D": "The Dwarven King"
+      },
+      "correct_answer": "A",
+      "rag_answer": "A",
+      "is_correct": true
+    },
+    {
+      "problem_index": 96,
+      "question": "Where did one of the most significant battles of the war take place?",
+      "options": {
+        "A": "Whispering Plains",
+        "B": "Stonefang Pass",
+        "C": "Sunhold",
+        "D": "Arvandor"
+      },
+      "correct_answer": "A",
+      "rag_answer": "A",
+      "is_correct": true
+    },
+    {
+      "problem_index": 97,
+      "question": "What type of magic was prominently used during the battle in the Whispering Plains?",
+      "options": {
+        "A": "Fire Magic",
+        "B": "Water Magic",
+        "C": "Elemental Magic",
+        "D": "Divine Magic"
+      },
+      "correct_answer": "C",
+      "rag_answer": "C",
+      "is_correct": true
+    },
+    {
+      "problem_index": 98,
+      "question": "What significant event happened on the 15th of Autumn, 1768?",
+      "options": {
+        "A": "The final confrontation between High Mage Elara Sunshadow and Zephyrion",
+        "B": "The start of the Great Fracture war",
+        "C": "The battle in the Whispering Plains",
+        "D": "The fall of Sunhold"
+      },
+      "correct_answer": "A",
+      "rag_answer": "A",
+      "is_correct": true
+    },
+    {
+      "problem_index": 99,
+      "question": "What did the Kael'thys establish on Mount Drakon after the war?",
+      "options": {
+        "A": "A new city",
+        "B": "A garrison",
+        "C": "A temple",
+        "D": "A trade post"
+      },
+      "correct_answer": "B",
+      "rag_answer": "B",
+      "is_correct": true
+    },
+    {
+      "problem_index": 100,
+      "question": "What is now known for enhanced earth magic as a result of the Great Fracture?",
+      "options": {
+        "A": "Whispering Plains",
+        "B": "Mount Drakon",
+        "C": "Sunhold",
+        "D": "Silver Forest"
+      },
+      "correct_answer": "A",
+      "rag_answer": "B",
+      "is_correct": false
+    },
+    {
+      "problem_index": 101,
+      "question": "Who discovered the method to harness and store magical energy in crystalline structures?",
+      "options": {
+        "A": "Alaric Thorne",
+        "B": "Brondur Stonefist",
+        "C": "Elara Nightshade",
+        "D": "Thalor Ironheart"
+      },
+      "correct_answer": "A",
+      "rag_answer": "A",
+      "is_correct": true
+    },
+    {
+      "problem_index": 102,
+      "question": "In which year did the Valdrek Foundry become a leading manufacturer of artifices?",
+      "options": {
+        "A": "1705",
+        "B": "1650",
+        "C": "1753",
+        "D": "1800"
+      },
+      "correct_answer": "A",
+      "rag_answer": "A",
+      "is_correct": true
+    },
+    {
+      "problem_index": 103,
+      "question": "What significant innovation did the magi-furnace introduce to metalworking?",
+      "options": {
+        "A": "Automated mining",
+        "B": "Higher temperatures",
+        "C": "Faster smelting",
+        "D": "Cheaper materials"
+      },
+      "correct_answer": "B",
+      "rag_answer": "B",
+      "is_correct": true
+    },
+    {
+      "problem_index": 104,
+      "question": "How did the introduction of magi-pumps in 1780 affect Valdrek's water supply?",
+      "options": {
+        "A": "Increased water temperature",
+        "B": "Reduced incidence of waterborne diseases",
+        "C": "Improved taste of water",
+        "D": "Decreased water pressure"
+      },
+      "correct_answer": "B",
+      "rag_answer": "B",
+      "is_correct": true
+    },
+    {
+      "problem_index": 105,
+      "question": "What was the population of Valdrek in 1850?",
+      "options": {
+        "A": "25,000",
+        "B": "50,000",
+        "C": "75,000",
+        "D": "100,000"
+      },
+      "correct_answer": "B",
+      "rag_answer": "B",
+      "is_correct": true
+    },
+    {
+      "problem_index": 106,
+      "question": "Which city is known for its high-quality steel production?",
+      "options": {
+        "A": "Arvandor",
+        "B": "Valoria",
+        "C": "Valdrek",
+        "D": "Sunhold"
+      },
+      "correct_answer": "C",
+      "rag_answer": "C",
+      "is_correct": true
+    },
+    {
+      "problem_index": 107,
+      "question": "What was the speed of the first magi-carriage introduced in 1820?",
+      "options": {
+        "A": "20 miles per hour",
+        "B": "30 miles per hour",
+        "C": "40 miles per hour",
+        "D": "50 miles per hour"
+      },
+      "correct_answer": "B",
+      "rag_answer": "B",
+      "is_correct": true
+    },
+    {
+      "problem_index": 108,
+      "question": "What is the name of the institution that offers specialized programs in artifice engineering?",
+      "options": {
+        "A": "Valdrek Foundry",
+        "B": "Valdrek Academy of Magic and Engineering",
+        "C": "Arvandor University",
+        "D": "Moonhaven College"
+      },
+      "correct_answer": "B",
+      "rag_answer": "B",
+      "is_correct": true
+    },
+    {
+      "problem_index": 109,
+      "question": "Who designed the magi-furnace?",
+      "options": {
+        "A": "Alaric Thorne",
+        "B": "Brondur Stonefist",
+        "C": "Elara Nightshade",
+        "D": "Thalor Ironheart"
+      },
+      "correct_answer": "C",
+      "rag_answer": "C",
+      "is_correct": true
+    },
+    {
+      "problem_index": 110,
+      "question": "What are some future applications of magical energy being explored at the Valdrek Academy?",
+      "options": {
+        "A": "Automated farms and magi-ships",
+        "B": "Airships and automated factories",
+        "C": "Magi-trains and enchanted bridges",
+        "D": "Flying machines and magi-lamps"
+      },
+      "correct_answer": "B",
+      "rag_answer": "B",
+      "is_correct": true
+    },
+    {
+      "problem_index": 111,
+      "question": "In which year was the Order of Custodians founded?",
+      "options": {
+        "A": "1023",
+        "B": "1050",
+        "C": "1067",
+        "D": "1095"
+      },
+      "correct_answer": "A",
+      "rag_answer": "A",
+      "is_correct": true
+    },
+    {
+      "problem_index": 112,
+      "question": "Where is the headquarters of the Order of Custodians located?",
+      "options": {
+        "A": "Arvandor",
+        "B": "Thundertop",
+        "C": "Valoria",
+        "D": "Moonhaven"
+      },
+      "correct_answer": "B",
+      "rag_answer": "B",
+      "is_correct": true
+    },
+    {
+      "problem_index": 113,
+      "question": "What is one of the primary responsibilities of the Custodians?",
+      "options": {
+        "A": "Training healers",
+        "B": "Leading military expeditions",
+        "C": "Building fortresses",
+        "D": "Regulating the use of magical artifacts"
+      },
+      "correct_answer": "D",
+      "rag_answer": "D",
+      "is_correct": true
+    },
+    {
+      "problem_index": 114,
+      "question": "Which institution, founded by the Custodians, specializes in elemental magic?",
+      "options": {
+        "A": "Moonhaven Academy",
+        "B": "Elemental Academy",
+        "C": "Mage Guilds",
+        "D": "Sunhold University"
+      },
+      "correct_answer": "B",
+      "rag_answer": "B",
+      "is_correct": true
+    },
+    {
+      "problem_index": 115,
+      "question": "What is the potency of the Staff of Eldrin on the Custodian scale?",
+      "options": {
+        "A": "92",
+        "B": "85",
+        "C": "78",
+        "D": "100"
+      },
+      "correct_answer": "A",
+      "rag_answer": "A",
+      "is_correct": true
+    },
+    {
+      "problem_index": 116,
+      "question": "In which year did the Custodians facilitate peace negotiations between the Dwarves and Giants?",
+      "options": {
+        "A": "1023",
+        "B": "1050",
+        "C": "1067",
+        "D": "1080"
+      },
+      "correct_answer": "C",
+      "rag_answer": "C",
+      "is_correct": true
+    },
+    {
+      "problem_index": 117,
+      "question": "What is the unique property of Silverlake that affects magical practices?",
+      "options": {
+        "A": "Time dilation",
+        "B": "High concentration of lunar magic",
+        "C": "Amplification of shadow magic",
+        "D": "Fire elemental presence"
+      },
+      "correct_answer": "B",
+      "rag_answer": "B",
+      "is_correct": true
+    },
+    {
+      "problem_index": 118,
+      "question": "In which year did the Custodians conduct a study on the effects of time dilation in Mistwood?",
+      "options": {
+        "A": "1023",
+        "B": "1050",
+        "C": "1067",
+        "D": "1080"
+      },
+      "correct_answer": "D",
+      "rag_answer": "D",
+      "is_correct": true
+    },
+    {
+      "problem_index": 119,
+      "question": "What is the primary function of the Firewatch Tower?",
+      "options": {
+        "A": "Military lookout",
+        "B": "Trade hub",
+        "C": "Observatory and center for astronomical studies",
+        "D": "Magical artifact storage"
+      },
+      "correct_answer": "C",
+      "rag_answer": "C",
+      "is_correct": true
+    },
+    {
+      "problem_index": 120,
+      "question": "In which year did the Custodians discover a hidden portal leading to the Shadow Vale?",
+      "options": {
+        "A": "1023",
+        "B": "1050",
+        "C": "1072",
+        "D": "1095"
+      },
+      "correct_answer": "D",
+      "rag_answer": "D",
+      "is_correct": true
+    },
+    {
+      "problem_index": 121,
+      "question": "In what year was the Arc Council established?",
+      "options": {
+        "A": "1257",
+        "B": "1320",
+        "C": "1985",
+        "D": "1260"
+      },
+      "correct_answer": "A",
+      "rag_answer": "A",
+      "is_correct": true
+    },
+    {
+      "problem_index": 122,
+      "question": "Who currently occupies the Solar Throne?",
+      "options": {
+        "A": "Emperor Alaric Valdrek I",
+        "B": "Empress Valeria Valdrek",
+        "C": "Emperor Thalor Valdrek II",
+        "D": "Emperor Eldric Valdrek"
+      },
+      "correct_answer": "C",
+      "rag_answer": "C",
+      "is_correct": true
+    },
+    {
+      "problem_index": 123,
+      "question": "Which noble house controls the rich iron mines of the Iron Hills?",
+      "options": {
+        "A": "House Solara",
+        "B": "House Draven",
+        "C": "House Aldorath",
+        "D": "House Grendar"
+      },
+      "correct_answer": "B",
+      "rag_answer": "B",
+      "is_correct": true
+    },
+    {
+      "problem_index": 124,
+      "question": "In which year was the Treaty of Solara signed?",
+      "options": {
+        "A": "1320",
+        "B": "1257",
+        "C": "1985",
+        "D": "1260"
+      },
+      "correct_answer": "A",
+      "rag_answer": "B",
+      "is_correct": false
+    },
+    {
+      "problem_index": 125,
+      "question": "What is the primary residence of the Solar Throne?",
+      "options": {
+        "A": "Thaloria",
+        "B": "Solara",
+        "C": "Vessaria",
+        "D": "Lornia"
+      },
+      "correct_answer": "B",
+      "rag_answer": "B",
+      "is_correct": true
+    },
+    {
+      "problem_index": 126,
+      "question": "What event marks every five years and serves as a platform for discussing regional concerns?",
+      "options": {
+        "A": "The Solar Throne Ceremony",
+        "B": "The Treaty of Solara",
+        "C": "The Arc Council Meeting",
+        "D": "The Grand Assembly"
+      },
+      "correct_answer": "D",
+      "rag_answer": "D",
+      "is_correct": true
+    },
+    {
+      "problem_index": 127,
+      "question": "Which noble house is known for its wealth from maritime trade?",
+      "options": {
+        "A": "House Draven",
+        "B": "House Solara",
+        "C": "House Thaloria",
+        "D": "House Grendar"
+      },
+      "correct_answer": "B",
+      "rag_answer": "B",
+      "is_correct": true
+    },
+    {
+      "problem_index": 128,
+      "question": "What can the Arc Council declare during a crisis to grant additional powers to the Solar Throne?",
+      "options": {
+        "A": "A state of prosperity",
+        "B": "A state of war",
+        "C": "A state of peace",
+        "D": "A state of emergency"
+      },
+      "correct_answer": "D",
+      "rag_answer": "D",
+      "is_correct": true
+    },
+    {
+      "problem_index": 129,
+      "question": "What is the function of the Grand Hall of Governance?",
+      "options": {
+        "A": "It serves as a marketplace for trade.",
+        "B": "It houses the Arc Council's meetings.",
+        "C": "It is the residence of the Solar Throne.",
+        "D": "It is a military training ground."
+      },
+      "correct_answer": "B",
+      "rag_answer": "B",
+      "is_correct": true
+    },
+    {
+      "problem_index": 130,
+      "question": "In what year was the last state of emergency declared by the Arc Council?",
+      "options": {
+        "A": "1790",
+        "B": "1320",
+        "C": "1985",
+        "D": "1260"
+      },
+      "correct_answer": "A",
+      "rag_answer": "A",
+      "is_correct": true
+    },
+    {
+      "problem_index": 131,
+      "question": "What is the primary habitat of the Ash Dragon?",
+      "options": {
+        "A": "Silver Forest",
+        "B": "Iron Hills",
+        "C": "Ember Island",
+        "D": "Mount Drakon"
+      },
+      "correct_answer": "D",
+      "rag_answer": "D",
+      "is_correct": true
+    },
+    {
+      "problem_index": 132,
+      "question": "In what year was the first recorded sighting of an Ash Dragon?",
+      "options": {
+        "A": "-1450",
+        "B": "-1500",
+        "C": "-1600",
+        "D": "-1700"
+      },
+      "correct_answer": "A",
+      "rag_answer": "A",
+      "is_correct": true
+    },
+    {
+      "problem_index": 133,
+      "question": "What is the name of the most famous Ash Dragon?",
+      "options": {
+        "A": "Ignis Dracorax",
+        "B": "Emberwing",
+        "C": "Flametail",
+        "D": "Fireheart"
+      },
+      "correct_answer": "A",
+      "rag_answer": "A",
+      "is_correct": true
+    },
+    {
+      "problem_index": 134,
+      "question": "What is the primary habitat of the Mist Wolf?",
+      "options": {
+        "A": "Mistwood",
+        "B": "Whispering Plains",
+        "C": "Silver Forest",
+        "D": "Moonhaven"
+      },
+      "correct_answer": "A",
+      "rag_answer": "A",
+      "is_correct": true
+    },
+    {
+      "problem_index": 135,
+      "question": "Who was the Kael'thys hunter who first encountered a Mist Wolf?",
+      "options": {
+        "A": "Eryndor Silverwind",
+        "B": "Elara Moonwhisper",
+        "C": "Lyrin Nightshade",
+        "D": "Thalor Sunheart"
+      },
+      "correct_answer": "A",
+      "rag_answer": "A",
+      "is_correct": true
+    },
+    {
+      "problem_index": 136,
+      "question": "What is the primary habitat of the Glimmerfish?",
+      "options": {
+        "A": "Mistwood",
+        "B": "Silverlake",
+        "C": "Ember Island",
+        "D": "Azure Sea"
+      },
+      "correct_answer": "D",
+      "rag_answer": "D",
+      "is_correct": true
+    },
+    {
+      "problem_index": 137,
+      "question": "In what year did a massive school of Glimmerfish form an intricate pattern resembling a star in the sky?",
+      "options": {
+        "A": "1250",
+        "B": "1200",
+        "C": "1300",
+        "D": "1400"
+      },
+      "correct_answer": "A",
+      "rag_answer": "A",
+      "is_correct": true
+    },
+    {
+      "problem_index": 138,
+      "question": "What is the name of the Merfolk sea god?",
+      "options": {
+        "A": "Triton",
+        "B": "Aquariel",
+        "C": "Neptunus",
+        "D": "Luminara"
+      },
+      "correct_answer": "D",
+      "rag_answer": "D",
+      "is_correct": true
+    },
+    {
+      "problem_index": 139,
+      "question": "What is the name of the notable pack leader of Mist Wolves observed in 1025?",
+      "options": {
+        "A": "Luminos",
+        "B": "Silverfang",
+        "C": "Moonshadow",
+        "D": "Glimmerpaw"
+      },
+      "correct_answer": "A",
+      "rag_answer": "A",
+      "is_correct": true
+    },
+    {
+      "problem_index": 140,
+      "question": "On what date was the first recorded observation of Glimmerfish made?",
+      "options": {
+        "A": "5th day of the seventh month in 700",
+        "B": "3rd day of the sixth month in 650",
+        "C": "10th day of the eighth month in 800",
+        "D": "15th day of the ninth month in 750"
+      },
+      "correct_answer": "A",
+      "rag_answer": "A",
+      "is_correct": true
+    },
+    {
+      "problem_index": 141,
+      "question": "On which day of the Fire Moon is the Night of Flames celebrated?",
+      "options": {
+        "A": "30th",
+        "B": "10th",
+        "C": "15th",
+        "D": "25th"
+      },
+      "correct_answer": "D",
+      "rag_answer": "D",
+      "is_correct": true
+    },
+    {
+      "problem_index": 142,
+      "question": "Where were the first flames ignited during The Shaping?",
+      "options": {
+        "A": "Sunhold",
+        "B": "Ember Island",
+        "C": "Valoria",
+        "D": "Moonhaven"
+      },
+      "correct_answer": "B",
+      "rag_answer": "B",
+      "is_correct": true
+    },
+    {
+      "problem_index": 143,
+      "question": "What is the highlight of High Tide?",
+      "options": {
+        "A": "The Blessing of the Fleet ceremony",
+        "B": "The Flame Waltz dance",
+        "C": "The Whispering of the Ancients",
+        "D": "The grand fireworks display"
+      },
+      "correct_answer": "A",
+      "rag_answer": "A",
+      "is_correct": true
+    },
+    {
+      "problem_index": 144,
+      "question": "Where does Sunhold host its grand fireworks display during the Night of Flames?",
+      "options": {
+        "A": "Stonefang Pass",
+        "B": "Silverlake",
+        "C": "Moonhaven",
+        "D": "Firewatch Tower"
+      },
+      "correct_answer": "D",
+      "rag_answer": "D",
+      "is_correct": true
+    },
+    {
+      "problem_index": 145,
+      "question": "On which day of the Water Moon is High Tide celebrated?",
+      "options": {
+        "A": "15th",
+        "B": "25th",
+        "C": "10th",
+        "D": "30th"
+      },
+      "correct_answer": "C",
+      "rag_answer": "C",
+      "is_correct": true
+    },
+    {
+      "problem_index": 146,
+      "question": "What inspired the festival of The Silence?",
+      "options": {
+        "A": "The creation of fire by the gods",
+        "B": "An ancient Eldari philosopher's enlightenment in Mistwood",
+        "C": "The founding of Sunhold by human settlers",
+        "D": "The first magical artifacts created by the Eldari"
+      },
+      "correct_answer": "B",
+      "rag_answer": "B",
+      "is_correct": true
+    },
+    {
+      "problem_index": 147,
+      "question": "Where do people typically seek out secluded spots during The Silence?",
+      "options": {
+        "A": "Sunhold's main square",
+        "B": "Silverlake or Stonefang Pass",
+        "C": "Firewatch Tower",
+        "D": "Ember Island"
+      },
+      "correct_answer": "B",
+      "rag_answer": "B",
+      "is_correct": true
+    },
+    {
+      "problem_index": 148,
+      "question": "What ceremony do the Eldari hold during The Silence?",
+      "options": {
+        "A": "The Flame Waltz dance",
+        "B": "The Blessing of the Fleet",
+        "C": "The Whispering of the Ancients",
+        "D": "The grand fireworks display"
+      },
+      "correct_answer": "C",
+      "rag_answer": "C",
+      "is_correct": true
+    },
+    {
+      "problem_index": 149,
+      "question": "On which day of the Air Moon is The Silence observed?",
+      "options": {
+        "A": "25th",
+        "B": "15th",
+        "C": "10th",
+        "D": "30th"
+      },
+      "correct_answer": "B",
+      "rag_answer": "B",
+      "is_correct": true
+    },
+    {
+      "problem_index": 150,
+      "question": "Where do Merfolk perform underwater dances during High Tide?",
+      "options": {
+        "A": "Silverlake",
+        "B": "Ember Island",
+        "C": "The Azure Sea",
+        "D": "Moonhaven"
+      },
+      "correct_answer": "C",
+      "rag_answer": "C",
+      "is_correct": true
+    },
+    {
+      "problem_index": 151,
+      "question": "In what year was the Kingdom of Solara founded?",
+      "options": {
+        "A": "1045 AR",
+        "B": "1257 AR",
+        "C": "1123 AR",
+        "D": "1350 AR"
+      },
+      "correct_answer": "A",
+      "rag_answer": "A",
+      "is_correct": true
+    },
+    {
+      "problem_index": 152,
+      "question": "Which kingdom is known for its lush forests and skilled woodsmen?",
+      "options": {
+        "A": "Sunhold",
+        "B": "Solara",
+        "C": "Veridia",
+        "D": "Valdrek"
+      },
+      "correct_answer": "C",
+      "rag_answer": "C",
+      "is_correct": true
+    },
+    {
+      "problem_index": 153,
+      "question": "What event marked the formal recognition of the Southern Free Kingdoms?",
+      "options": {
+        "A": "The War of the Verdant Plains",
+        "B": "The Battle of Stonefang Pass",
+        "C": "The founding of Solara",
+        "D": "The signing of the Treaty of Silverlake"
+      },
+      "correct_answer": "D",
+      "rag_answer": "D",
+      "is_correct": true
+    },
+    {
+      "problem_index": 154,
+      "question": "In which year did Valdrek and the Southern Free Kingdoms sign a peace treaty at the Firewatch Tower?",
+      "options": {
+        "A": "1507 AR",
+        "B": "1697 AR",
+        "C": "1700 AR",
+        "D": "1850 AR"
+      },
+      "correct_answer": "C",
+      "rag_answer": "C",
+      "is_correct": true
+    },
+    {
+      "problem_index": 155,
+      "question": "What significant battle marked a turning point in the War of the Verdant Plains?",
+      "options": {
+        "A": "The Battle of Stonefang Pass",
+        "B": "The Battle of Silverlake",
+        "C": "The Battle of Ember Island",
+        "D": "The Battle of Mistwood"
+      },
+      "correct_answer": "B",
+      "rag_answer": "B",
+      "is_correct": true
+    },
+    {
+      "problem_index": 156,
+      "question": "Which factions provided significant support to the Southern Free Kingdoms during their military campaign against the Orc invasion?",
+      "options": {
+        "A": "Kael'thys and Dwarves of Iron Hills",
+        "B": "Eldari and Drakonar",
+        "C": "Giants and Trolls",
+        "D": "Merfolk and Krakens"
+      },
+      "correct_answer": "A",
+      "rag_answer": "A",
+      "is_correct": true
+    },
+    {
+      "problem_index": 157,
+      "question": "In which year did King Aldric III of Solara initiate a series of reforms?",
+      "options": {
+        "A": "1257 AR",
+        "B": "1350 AR",
+        "C": "1697 AR",
+        "D": "1850 AR"
+      },
+      "correct_answer": "D",
+      "rag_answer": "D",
+      "is_correct": true
+    },
+    {
+      "problem_index": 158,
+      "question": "What is the capital city of the Kingdom of Solara?",
+      "options": {
+        "A": "Moonhaven",
+        "B": "Arvandor",
+        "C": "Valoria",
+        "D": "Sunhold"
+      },
+      "correct_answer": "D",
+      "rag_answer": "D",
+      "is_correct": true
+    },
+    {
+      "problem_index": 159,
+      "question": "What was the primary reason for the conflict between Valdrek and Veridia in 1689 AR?",
+      "options": {
+        "A": "Territorial disputes",
+        "B": "Trade route control",
+        "C": "Valdrek accused Veridia of harboring rebels disrupting supply lines",
+        "D": "Resource competition"
+      },
+      "correct_answer": "C",
+      "rag_answer": "C",
+      "is_correct": true
+    },
+    {
+      "problem_index": 160,
+      "question": "What significant event occurred in 1507 AR?",
+      "options": {
+        "A": "The founding of Solara",
+        "B": "The signing of the Treaty of Silver Forest",
+        "C": "The Battle of Stonefang Pass",
+        "D": "The War of the Verdant Plains"
+      },
+      "correct_answer": "B",
+      "rag_answer": "B",
+      "is_correct": true
+    },
+    {
+      "problem_index": 161,
+      "question": "Where does the Bonding Ceremony for Bound Sorcerers take place?",
+      "options": {
+        "A": "Silver Forest",
+        "B": "Mistwood",
+        "C": "Whispering Plains",
+        "D": "Starfall Caverns"
+      },
+      "correct_answer": "B",
+      "rag_answer": "B",
+      "is_correct": true
+    },
+    {
+      "problem_index": 162,
+      "question": "What is the first task initiates must complete during the Elemental Challenge?",
+      "options": {
+        "A": "Complete a somatic dance",
+        "B": "Recite an ancient incantation",
+        "C": "Craft a magical focus",
+        "D": "Perform a specific spell"
+      },
+      "correct_answer": "D",
+      "rag_answer": "D",
+      "is_correct": true
+    },
+    {
+      "problem_index": 163,
+      "question": "Who is High Mage Alarion Sunweaver?",
+      "options": {
+        "A": "The first Bound Sorcerer to bond with a fire elemental",
+        "B": "The founder of the Firewatch Tower",
+        "C": "The initiator of the first Bonding Ceremony",
+        "D": "The creator of the Silverlake Observatory"
+      },
+      "correct_answer": "C",
+      "rag_answer": "C",
+      "is_correct": true
+    },
+    {
+      "problem_index": 164,
+      "question": "What is a notable achievement of Aria Moonwhisper?",
+      "options": {
+        "A": "She completed the Firewatch Tower’s construction",
+        "B": "She defended the Firewatch Tower against a goblin raid",
+        "C": "She created the Silverlake Observatory",
+        "D": "She initiated the first Bonding Ceremony"
+      },
+      "correct_answer": "B",
+      "rag_answer": "B",
+      "is_correct": true
+    },
+    {
+      "problem_index": 165,
+      "question": "What is one of the common powers of Bound Sorcerers?",
+      "options": {
+        "A": "Time manipulation",
+        "B": "Enhanced attributes",
+        "C": "Shape-shifting",
+        "D": "Mind reading"
+      },
+      "correct_answer": "B",
+      "rag_answer": "B",
+      "is_correct": true
+    },
+    {
+      "problem_index": 166,
+      "question": "What is the purpose of the Firewatch Tower?",
+      "options": {
+        "A": "It serves as a trade hub",
+        "B": "It amplifies fire-based spells",
+        "C": "It houses the Mage Guilds",
+        "D": "It is a ritual ground for elemental bonding"
+      },
+      "correct_answer": "B",
+      "rag_answer": "B",
+      "is_correct": true
+    },
+    {
+      "problem_index": 167,
+      "question": "What is the final step in the Bonding Ceremony?",
+      "options": {
+        "A": "Performing a ritual dance",
+        "B": "Reciting an ancient incantation",
+        "C": "Crafting a magical focus",
+        "D": "Sealing the bond with the elemental creature"
+      },
+      "correct_answer": "D",
+      "rag_answer": "D",
+      "is_correct": true
+    },
+    {
+      "problem_index": 168,
+      "question": "What is the rank given to initiates who have just completed their Bonding Ceremony?",
+      "options": {
+        "A": "High Mage",
+        "B": "Adept",
+        "C": "Master",
+        "D": "Apprentice"
+      },
+      "correct_answer": "D",
+      "rag_answer": "D",
+      "is_correct": true
+    },
+    {
+      "problem_index": 169,
+      "question": "What is a notable example of Master Elyon Stormrider's contribution?",
+      "options": {
+        "A": "Initiating the first Bonding Ceremony",
+        "B": "Defending the Firewatch Tower against a goblin raid",
+        "C": "Creating the Silverlake Observatory",
+        "D": "Building the Firewatch Tower"
+      },
+      "correct_answer": "C",
+      "rag_answer": "C",
+      "is_correct": true
+    },
+    {
+      "problem_index": 170,
+      "question": "How long must an Adept serve as an Apprentice before achieving their rank?",
+      "options": {
+        "A": "At least three years",
+        "B": "At least five years",
+        "C": "At least seven years",
+        "D": "At least ten years"
+      },
+      "correct_answer": "B",
+      "rag_answer": "B",
+      "is_correct": true
+    },
+    {
+      "problem_index": 171,
+      "question": "In which year was the first recorded observation of a Fracture Zone documented?",
+      "options": {
+        "A": "1257",
+        "B": "1387",
+        "C": "1450",
+        "D": "1623"
+      },
+      "correct_answer": "A",
+      "rag_answer": "A",
+      "is_correct": true
+    },
+    {
+      "problem_index": 172,
+      "question": "What is the central feature of the Silverlake Anomaly?",
+      "options": {
+        "A": "A mountain peak",
+        "B": "A silver sheen lake",
+        "C": "An ancient temple",
+        "D": "A volcanic crater"
+      },
+      "correct_answer": "B",
+      "rag_answer": "B",
+      "is_correct": true
+    },
+    {
+      "problem_index": 173,
+      "question": "Which region has been known to disrupt spellcasting for over 200 years, specifically affecting fire-based spells?",
+      "options": {
+        "A": "Whispering Plains",
+        "B": "Silverlake Anomaly",
+        "C": "Firewatch Tower Fracture Zone",
+        "D": "Eclipse Island Fracture Zone"
+      },
+      "correct_answer": "C",
+      "rag_answer": "C",
+      "is_correct": true
+    },
+    {
+      "problem_index": 174,
+      "question": "What is the primary characteristic of the Mistwood Fracture Zone?",
+      "options": {
+        "A": "Delayed spell effects",
+        "B": "Spontaneous combustion",
+        "C": "Enhanced shadow magic",
+        "D": "Glowing meteors"
+      },
+      "correct_answer": "A",
+      "rag_answer": "A",
+      "is_correct": true
+    },
+    {
+      "problem_index": 175,
+      "question": "Which Fracture Zone has a 2-mile radius of instability and is known for its strategic location?",
+      "options": {
+        "A": "Silverlake Anomaly",
+        "B": "Stonefang Pass Fracture Zone",
+        "C": "Mistwood Fracture Zone",
+        "D": "Ember Island Fracture Zone"
+      },
+      "correct_answer": "B",
+      "rag_answer": "B",
+      "is_correct": true
+    },
+    {
+      "problem_index": 176,
+      "question": "What phenomenon was observed in the Ember Island Fracture Zone during a lunar eclipse?",
+      "options": {
+        "A": "Spontaneous creation of miniature fire elementals",
+        "B": "Enhanced power with higher risk of backfire",
+        "C": "Delayed spell effects",
+        "D": "Amplified shadow magic"
+      },
+      "correct_answer": "B",
+      "rag_answer": "B",
+      "is_correct": true
+    },
+    {
+      "problem_index": 177,
+      "question": "In which year did an expedition led by Eldari scholars discover the delayed spell effects in Mistwood?",
+      "options": {
+        "A": "1530",
+        "B": "1623",
+        "C": "1789",
+        "D": "1598"
+      },
+      "correct_answer": "A",
+      "rag_answer": "A",
+      "is_correct": true
+    },
+    {
+      "problem_index": 178,
+      "question": "What is the central feature of the Eclipse Island Fracture Zone?",
+      "options": {
+        "A": "A volcanic crater",
+        "B": "An ancient temple",
+        "C": "A silver sheen lake",
+        "D": "A mountain peak"
+      },
+      "correct_answer": "B",
+      "rag_answer": "B",
+      "is_correct": true
+    },
+    {
+      "problem_index": 179,
+      "question": "Which region has been known to have magical properties affecting shadow-based spells for over 300 years?",
+      "options": {
+        "A": "Silverlake Anomaly",
+        "B": "Mistwood Fracture Zone",
+        "C": "Shadow Vale Fracture Zone",
+        "D": "Eclipse Island Fracture Zone"
+      },
+      "correct_answer": "C",
+      "rag_answer": "C",
+      "is_correct": true
+    },
+    {
+      "problem_index": 180,
+      "question": "What is the primary characteristic of the Starfall Caverns Fracture Zone?",
+      "options": {
+        "A": "Delayed spell effects",
+        "B": "Enhanced elemental effects and creation of glowing meteors",
+        "C": "Spontaneous combustion",
+        "D": "Amplified shadow magic"
+      },
+      "correct_answer": "B",
+      "rag_answer": "B",
+      "is_correct": true
+    },
+    {
+      "problem_index": 181,
+      "question": "According to the Dawn Prophecy, where will the Chosen One emerge from?",
+      "options": {
+        "A": "Silverlake",
+        "B": "Mistwood",
+        "C": "Ember Island",
+        "D": "Moonhaven"
+      },
+      "correct_answer": "B",
+      "rag_answer": "B",
+      "is_correct": true
+    },
+    {
+      "problem_index": 182,
+      "question": "What is the Stone of Destiny?",
+      "options": {
+        "A": "A volcanic heart on Ember Island",
+        "B": "A magical amulet crafted by Seer Alarion",
+        "C": "A sword wielded by the Swordbearer",
+        "D": "An ancient obelisk in the center of a circular clearing"
+      },
+      "correct_answer": "D",
+      "rag_answer": "D",
+      "is_correct": true
+    },
+    {
+      "problem_index": 183,
+      "question": "What significant event is predicted to occur during the Celestial Conjunction?",
+      "options": {
+        "A": "The awakening of the Elemental Spirits",
+        "B": "The rediscovery of the Amulet of Alarion",
+        "C": "The formation of the Council of Elders",
+        "D": "The return of the Swordbearer"
+      },
+      "correct_answer": "A",
+      "rag_answer": "A",
+      "is_correct": true
+    },
+    {
+      "problem_index": 184,
+      "question": "Where is the Amulet of Alarion predicted to be rediscovered?",
+      "options": {
+        "A": "Silverlake Library",
+        "B": "Starfall Caverns",
+        "C": "Mistwood",
+        "D": "Moonhaven"
+      },
+      "correct_answer": "B",
+      "rag_answer": "B",
+      "is_correct": true
+    },
+    {
+      "problem_index": 185,
+      "question": "Who is predicted to return from the ruins of Moonhaven?",
+      "options": {
+        "A": "The Chosen One",
+        "B": "Seer Alarion",
+        "C": "The Swordbearer",
+        "D": "The Elemental Spirits"
+      },
+      "correct_answer": "C",
+      "rag_answer": "C",
+      "is_correct": true
+    },
+    {
+      "problem_index": 186,
+      "question": "What is the Council of Elders?",
+      "options": {
+        "A": "A group of Elemental Spirits",
+        "B": "An alliance of the major factions in Eldara",
+        "C": "A council of ancient scholars",
+        "D": "A gathering of magical creatures"
+      },
+      "correct_answer": "B",
+      "rag_answer": "B",
+      "is_correct": true
+    },
+    {
+      "problem_index": 187,
+      "question": "What is the significance of the Celestial Conjunction?",
+      "options": {
+        "A": "It initiates a new magical era",
+        "B": "It signals the end of the current age",
+        "C": "It heralds the return of Seer Alarion",
+        "D": "It marks the beginning of significant changes in Eldara"
+      },
+      "correct_answer": "D",
+      "rag_answer": "D",
+      "is_correct": true
+    },
+    {
+      "problem_index": 188,
+      "question": "Where will the final confrontation between light and darkness take place?",
+      "options": {
+        "A": "Ember Island",
+        "B": "Silverlake",
+        "C": "Shadow Vale",
+        "D": "Mistwood"
+      },
+      "correct_answer": "C",
+      "rag_answer": "C",
+      "is_correct": true
+    },
+    {
+      "problem_index": 189,
+      "question": "What is the last Celestial Conjunction said to have occurred?",
+      "options": {
+        "A": "On the night of the Winter Solstice in 1600",
+        "B": "During a lunar eclipse on Eclipse Island",
+        "C": "On the night of the Summer Solstice in 1600",
+        "D": "In the depths of the Starfall Caverns"
+      },
+      "correct_answer": "C",
+      "rag_answer": "C",
+      "is_correct": true
+    },
+    {
+      "problem_index": 190,
+      "question": "What is the role of the Amulet of Alarion in the prophecy?",
+      "options": {
+        "A": "It will guide the Chosen One on their journey",
+        "B": "It will be used to awaken the Elemental Spirits",
+        "C": "It will be wielded by the Swordbearer",
+        "D": "It will serve as a symbol of the Council of Elders"
+      },
+      "correct_answer": "A",
+      "rag_answer": "A",
+      "is_correct": true
+    },
+    {
+      "problem_index": 191,
+      "question": "Which school of alchemy is the oldest and most widely recognized in Eldara?",
+      "options": {
+        "A": "School of Potions",
+        "B": "School of Transmutation",
+        "C": "School of Enchantment",
+        "D": "School of Elemental Magic"
+      },
+      "correct_answer": "A",
+      "rag_answer": "A",
+      "is_correct": true
+    },
+    {
+      "problem_index": 192,
+      "question": "What is the *Eldarian Blue Lotus* primarily used for?",
+      "options": {
+        "A": "Creating the Elixir of Longevity",
+        "B": "Enhancing physical strength",
+        "C": "Imbuing objects with magical properties",
+        "D": "Transforming common metals into gold"
+      },
+      "correct_answer": "A",
+      "rag_answer": "A",
+      "is_correct": true
+    },
+    {
+      "problem_index": 193,
+      "question": "Which legendary alchemical ingredient must be harvested within 30 minutes of the creature's death?",
+      "options": {
+        "A": "Dragon's Heart",
+        "B": "Eldarian Blue Lotus",
+        "C": "Phoenix Feather",
+        "D": "Starlight Dust"
+      },
+      "correct_answer": "A",
+      "rag_answer": "A",
+      "is_correct": true
+    },
+    {
+      "problem_index": 194,
+      "question": "What is the primary focus of the School of Enchantment?",
+      "options": {
+        "A": "Creating potions and elixirs",
+        "B": "Transforming substances into other forms",
+        "C": "Imbuing objects with magical properties",
+        "D": "Studying elemental forces"
+      },
+      "correct_answer": "C",
+      "rag_answer": "C",
+      "is_correct": true
+    },
+    {
+      "problem_index": 195,
+      "question": "Which city is known for its advanced magical research and houses the *Voss's Golden Flask*?",
+      "options": {
+        "A": "Valoria",
+        "B": "Moonhaven",
+        "C": "Thundertop",
+        "D": "Arvandor"
+      },
+      "correct_answer": "C",
+      "rag_answer": "C",
+      "is_correct": true
+    },
+    {
+      "problem_index": 196,
+      "question": "What can the *Phoenix Feather* be used for?",
+      "options": {
+        "A": "Creating the Elixir of Longevity",
+        "B": "Rejuvenating and restoring life force",
+        "C": "Transforming common metals into gold",
+        "D": "Imbuing objects with shadow magic"
+      },
+      "correct_answer": "B",
+      "rag_answer": "B",
+      "is_correct": true
+    },
+    {
+      "problem_index": 197,
+      "question": "Which alchemical potion is commonly sold in the marketplaces of Valoria?",
+      "options": {
+        "A": "Elixir of Longevity",
+        "B": "Voss's Golden Flask",
+        "C": "Potion of Strength",
+        "D": "Moonwhisper's Staff"
+      },
+      "correct_answer": "C",
+      "rag_answer": "C",
+      "is_correct": true
+    },
+    {
+      "problem_index": 198,
+      "question": "Where do Phoenixes nest in Eldara?",
+      "options": {
+        "A": "Silver Forest",
+        "B": "Ember Island",
+        "C": "Mistwood",
+        "D": "Azure Sea"
+      },
+      "correct_answer": "B",
+      "rag_answer": "B",
+      "is_correct": true
+    },
+    {
+      "problem_index": 199,
+      "question": "What is the *Festival of Lights* celebrated every 10 years in Moonhaven?",
+      "options": {
+        "A": "A festival of alchemical potions and elixirs",
+        "B": "A celebration using enchanted lanterns to illuminate the night sky",
+        "C": "A gathering to honor the creation of *Moonwhisper's Staff*",
+        "D": "A festival of magical constructs and elemental guardians"
+      },
+      "correct_answer": "B",
+      "rag_answer": "B",
+      "is_correct": true
+    },
+    {
+      "problem_index": 200,
+      "question": "When was the Great Library of Thundertop established?",
+      "options": {
+        "A": "500",
+        "B": "850",
+        "C": "1200",
+        "D": "1850"
+      },
+      "correct_answer": "D",
+      "rag_answer": "B",
+      "is_correct": false
+    }
+  ]
+}

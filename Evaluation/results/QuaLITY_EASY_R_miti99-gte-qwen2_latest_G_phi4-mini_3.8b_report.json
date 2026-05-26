@@ -1,0 +1,2617 @@
+{
+  "benchmark": "QuaLITY_EASY",
+  "retriever_model": "miti99/gte-qwen2:latest",
+  "retriever_params": 1.8,
+  "retriever_size": 3.3,
+  "generator_model": "phi4-mini:3.8b",
+  "generator_params": 3.84,
+  "generator_size": 2.3,
+  "timestamp": "2026-04-10T19:39:01.205400",
+  "duration": "00:18:03",
+  "duration (seconds)": 1083,
+  "total": 200,
+  "correct": 1,
+  "accuracy": 0.005,
+  "results": [
+    {
+      "problem_index": 1,
+      "question": "Which martial art did the author think was the hardest workout?",
+      "options": [
+        "Tae Kwon Do",
+        "Kung Fu",
+        "Jujistui",
+        "Karate"
+      ],
+      "correct_answer": 2,
+      "rag_answer": "B) Kung Fu",
+      "is_correct": false
+    },
+    {
+      "problem_index": 2,
+      "question": "How did the narrator learn the local language?",
+      "options": [
+        "He left a recorder in a busy area and fed it to a computer",
+        "He spent time in the society under a disguise",
+        "He studied it during his journey through space",
+        "He asked a local boy to teach him"
+      ],
+      "correct_answer": 0,
+      "rag_answer": "C) He studied it during his journey through space.",
+      "is_correct": false
+    },
+    {
+      "problem_index": 3,
+      "question": "What was unusual the author about the Kung Fu class?",
+      "options": [
+        "It was easier than expected",
+        "She had to undergo an interview for the class she went to o",
+        "It was an all women's class instead of women and men",
+        "It was more intimidating than expected"
+      ],
+      "correct_answer": 2,
+      "rag_answer": "C) It was an all women's class instead of women and men",
+      "is_correct": false
+    },
+    {
+      "problem_index": 4,
+      "question": "Why did the truth not make sense to the Tr'en?",
+      "options": [
+        "They weren't listening carefully",
+        "The machine was faulty",
+        "They were too logical",
+        "They did not understand the language"
+      ],
+      "correct_answer": 2,
+      "rag_answer": "D) They did not understand the language",
+      "is_correct": false
+    },
+    {
+      "problem_index": 5,
+      "question": "Why was Mr. Chambers able to remain in his room after most of reality had disappeared?",
+      "options": [
+        "No one else knew he was there, allowing him to hide",
+        "He remained focused on the marine painting on the wall",
+        "He spent so much time in the room that it was ingrained in his psyche",
+        "He was spared because he foretold the coming of the beings from other dimensions"
+      ],
+      "correct_answer": 2,
+      "rag_answer": "B) He remained focused on the marine painting on the wall",
+      "is_correct": false
+    },
+    {
+      "problem_index": 6,
+      "question": "How can patients improve the dental industry?",
+      "options": [
+        "Pay more out-of-pocket for services",
+        "Follow any advice given by the dentist",
+        "Change values from cosmetic to health",
+        "Get better dental insurance"
+      ],
+      "correct_answer": 2,
+      "rag_answer": "C) Change values from cosmetic to health",
+      "is_correct": false
+    },
+    {
+      "problem_index": 7,
+      "question": "Why are the people of Earth interested in visiting Snaddra?",
+      "options": [
+        "Understanding how to live in so much rain",
+        "Social studies of the creatures",
+        "Their architectural advances",
+        "Missionary deployments"
+      ],
+      "correct_answer": 1,
+      "rag_answer": "B) Social studies of the creatures",
+      "is_correct": false
+    },
+    {
+      "problem_index": 8,
+      "question": "Which of the following words best describes the main character's personality?",
+      "options": [
+        "Sarcastic",
+        "Good-natured",
+        "Serious",
+        "Reverent"
+      ],
+      "correct_answer": 0,
+      "rag_answer": "A) Sarcastic",
+      "is_correct": false
+    },
+    {
+      "problem_index": 9,
+      "question": "What is revealed about the fate of humans on Earth at the end of the story?",
+      "options": [
+        "They have all left for other planets",
+        "Robots have subjugated them",
+        "Robert is the last human left since all the others died out due to disease",
+        "They have evolved into a new species of cyborgs"
+      ],
+      "correct_answer": 1,
+      "rag_answer": "C) Robert is the last human left since all the others died out due to disease",
+      "is_correct": false
+    },
+    {
+      "problem_index": 10,
+      "question": "Why do the flight attendants check if the passengers are feeling well?",
+      "options": [
+        "Those with certain maladies are unable to travel in space without dying",
+        "Feeling ill is an indication of not being emotionally prepared to go into space",
+        "They need to be extra cautious not to transfer viruses from Earth to the Moon",
+        "The passengers have duties to ensure the safe travel of everyone on board, so they must be in top condition"
+      ],
+      "correct_answer": 0,
+      "rag_answer": "C) They need to be extra cautious not to transfer viruses from Earth to the Moon",
+      "is_correct": false
+    },
+    {
+      "problem_index": 11,
+      "question": "What is a symbol of the Antichrist?",
+      "options": [
+        "The numbers 666",
+        "The European Union",
+        "A star",
+        "Royalty"
+      ],
+      "correct_answer": 0,
+      "rag_answer": "A) The numbers 666",
+      "is_correct": false
+    },
+    {
+      "problem_index": 12,
+      "question": "How does Splinter Wood view Kerry Blane?",
+      "options": [
+        "He admires Blane but also views him as a friend",
+        "He is angry at Blane for being stuck in his ways",
+        "He is afraid of Blane",
+        "He hates Blane for stealing his spotlight"
+      ],
+      "correct_answer": 0,
+      "rag_answer": "A) He admires Blane but also views him as a friend",
+      "is_correct": false
+    },
+    {
+      "problem_index": 13,
+      "question": "What is the secret to how the gadget works?",
+      "options": [
+        "The battery and coils power it.",
+        "It's real magic.",
+        "There is a hidden motor inside.",
+        "It moves on hidden strings."
+      ],
+      "correct_answer": 3,
+      "rag_answer": "D) It moves on hidden strings.",
+      "is_correct": false
+    },
+    {
+      "problem_index": 14,
+      "question": "Who are \"reddies\"?",
+      "options": [
+        "Martians",
+        "Tourists",
+        "Venusians",
+        "Earthmen"
+      ],
+      "correct_answer": 0,
+      "rag_answer": "A) Martians",
+      "is_correct": false
+    },
+    {
+      "problem_index": 15,
+      "question": "How are authors expected to pay publishing fees for journals?",
+      "options": [
+        "By crowdfunding from end users",
+        "By using sponsor funding",
+        "Journals are barred from charging publishing fees",
+        "Out of their own pocket"
+      ],
+      "correct_answer": 1,
+      "rag_answer": "B) By using sponsor funding",
+      "is_correct": false
+    },
+    {
+      "problem_index": 16,
+      "question": "Where does the family live?",
+      "options": [
+        "In a suburb in Illinois",
+        "In an apartment in the city",
+        "In Washington, DC for Dad’s work",
+        "In a small town near the countryside"
+      ],
+      "correct_answer": 3,
+      "rag_answer": "D) In a small town near the countryside",
+      "is_correct": false
+    },
+    {
+      "problem_index": 17,
+      "question": "Why was the class of girls at the zoo?",
+      "options": [
+        "To study the lions",
+        "To put on a class play",
+        "To see the polar bears, grizzlies, and penguins",
+        "To meet Curt George"
+      ],
+      "correct_answer": 3,
+      "rag_answer": "B) To put on a class play",
+      "is_correct": false
+    },
+    {
+      "problem_index": 18,
+      "question": "How many years passed between moving to Wisconsin and her son becoming a Konv?",
+      "options": [
+        "2",
+        "5",
+        "7",
+        "6"
+      ],
+      "correct_answer": 2,
+      "rag_answer": "C) 7",
+      "is_correct": false
+    },
+    {
+      "problem_index": 19,
+      "question": "How much time passes during the story?",
+      "options": [
+        "Part of a day",
+        "Two years",
+        "A month",
+        "Eight years"
+      ],
+      "correct_answer": 0,
+      "rag_answer": "D) Eight years",
+      "is_correct": false
+    },
+    {
+      "problem_index": 20,
+      "question": "What were Coleman’s motivations in visiting the warden?",
+      "options": [
+        "Providing the warden with his annual raise announcement",
+        "Persuading the warden to step down from his position",
+        "Gathering information to bring down the warden’s compound",
+        "Scaring him into believing his life was a dream"
+      ],
+      "correct_answer": 3,
+      "rag_answer": "D) Scaring him into believing his life was a dream",
+      "is_correct": false
+    },
+    {
+      "problem_index": 21,
+      "question": "What was the advantage of muck men being shaped like frogs?",
+      "options": [
+        "A frog-shaped body warded off Sliders.",
+        "A frog-shaped body helped better cross the terrain on Jordan's Planet.",
+        "A frog-shaped body would ensure prisoners could not leave Jordan's Planet.",
+        "The frog body would be so grotesque that it would make it nearly impossible for prisoners to finish their sentence."
+      ],
+      "correct_answer": 1,
+      "rag_answer": "B) A frog-shaped body helped better cross the terrain on Jordan's Planet.",
+      "is_correct": false
+    },
+    {
+      "problem_index": 22,
+      "question": "What is a major benefit of having an office at Second Home?",
+      "options": [
+        "Having on site apartments so that one does not have to commute to work",
+        "Having an office space completely to your own company",
+        "It is an incredibly affordable work space for the price",
+        "Having access to a large network of businesses to collaborate with"
+      ],
+      "correct_answer": 3,
+      "rag_answer": "A) Having on-site apartments so that one does not have to commute to work",
+      "is_correct": false
+    },
+    {
+      "problem_index": 23,
+      "question": "The crew has thirteen hours to explore the area. Concerning that time, what do they not always take into account?",
+      "options": [
+        "They lost an hour when crossing into a different time zone.",
+        "Time on this planet does not occur the same way they are used to.",
+        "They have to take into account getting back to their mother ship and getting it out of the atmosphere during that 13-hour window, as well.",
+        "The planet makes them forget time."
+      ],
+      "correct_answer": 2,
+      "rag_answer": "B) Time on this planet does not occur the same way they are used to.",
+      "is_correct": false
+    },
+    {
+      "problem_index": 24,
+      "question": "What is the main goal of the EU?",
+      "options": [
+        "Bribery",
+        "Increase financial gain and power",
+        "Simplify immigration",
+        "Take care of the environment"
+      ],
+      "correct_answer": 1,
+      "rag_answer": "B) Increase financial gain and power",
+      "is_correct": false
+    },
+    {
+      "problem_index": 25,
+      "question": "Why does the author think that Akido could explain why Steven Seagal is not in good shape?",
+      "options": [
+        "It does not need to be practiced often",
+        "It is not a good self-defense martial art",
+        "There is little aerobic exercise involved",
+        "It is a non-aggressive martial art"
+      ],
+      "correct_answer": 2,
+      "rag_answer": "C) There is little aerobic exercise involved",
+      "is_correct": false
+    },
+    {
+      "problem_index": 26,
+      "question": "Where is Broom from?",
+      "options": [
+        "Venice, Italy",
+        "Paris, France",
+        "London, England",
+        "New York City, U.S.A."
+      ],
+      "correct_answer": 2,
+      "rag_answer": "A) Venice, Italy",
+      "is_correct": false
+    },
+    {
+      "problem_index": 27,
+      "question": "What bothered Kenneth most about Clinton's actions?",
+      "options": [
+        "Telling lies",
+        "Having sex with an intern",
+        "Refusing to speak",
+        "Moaning and whining"
+      ],
+      "correct_answer": 0,
+      "rag_answer": "A) Telling lies",
+      "is_correct": false
+    },
+    {
+      "problem_index": 28,
+      "question": "Why was there a crowd of people surrounding the drugstore?",
+      "options": [
+        "Because the store was getting ready to close",
+        "They were trying to get medicine for the plague",
+        "They were discussing the news surrounding the war",
+        "They were discussing the disappearance of objects and places"
+      ],
+      "correct_answer": 3,
+      "rag_answer": "D) They were discussing the disappearance of objects and places",
+      "is_correct": false
+    },
+    {
+      "problem_index": 29,
+      "question": "Why does the author believe that universities should not worry about the effects of their OA practices?",
+      "options": [
+        "Universities do not publish enough material that the public would want to access",
+        "University OA practices have been proven to increase revenue for publishers",
+        "Publishers already have the ability to protect themselves",
+        "Universities are a too small of a portion of publishers markets"
+      ],
+      "correct_answer": 2,
+      "rag_answer": "C) Publishers already have the ability to protect themselves",
+      "is_correct": false
+    },
+    {
+      "problem_index": 30,
+      "question": "What will likely happen to Parks if no one believes him?",
+      "options": [
+        "He will continue having hallucinations.",
+        "The government will use him for experiments.",
+        "He will be stuck on Earth in a mental hospital.",
+        "He will get arrested."
+      ],
+      "correct_answer": 2,
+      "rag_answer": "C) He will be stuck on Earth in a mental hospital.",
+      "is_correct": false
+    },
+    {
+      "problem_index": 31,
+      "question": "What was the general set up of the experiment?",
+      "options": [
+        "The tasters each brought their favorite beer and poured it into 10 different cups to be blindly dispersed to the rest of the participants",
+        "The tasters had a list of the names of the beers and had to assign them to cups labelled only with letters based on how they tasted",
+        "The tasters chose the best and worst out of a set of 5 beers, and the author ran statistics to come out with rankings",
+        "The tasters were completely blind to which beers were being used in the experiment"
+      ],
+      "correct_answer": 3,
+      "rag_answer": "B) The tasters had a list of the names of the beers and had to assign them to cups labelled only with letters based on how they tasted",
+      "is_correct": false
+    },
+    {
+      "problem_index": 32,
+      "question": "What best describes Solomon?",
+      "options": [
+        "Extravagant",
+        "Clever",
+        "Naïve",
+        "Untrustworthy"
+      ],
+      "correct_answer": 1,
+      "rag_answer": "C) Naïve",
+      "is_correct": false
+    },
+    {
+      "problem_index": 33,
+      "question": "When funds are freed up",
+      "options": [
+        "they should go to the publishers",
+        "they should go to the universites.",
+        "they should be put back into the OA journals themselves.",
+        "they should be given to the researchers."
+      ],
+      "correct_answer": 2,
+      "rag_answer": "D) they should be given to the researchers.",
+      "is_correct": false
+    },
+    {
+      "problem_index": 34,
+      "question": "How was Mr. Partch transported to the forest?",
+      "options": [
+        "On a fire engine",
+        "He was only there mentally",
+        "By helicopter",
+        "He was unsure of how he arrived there"
+      ],
+      "correct_answer": 1,
+      "rag_answer": "B) He was only there mentally",
+      "is_correct": false
+    },
+    {
+      "problem_index": 35,
+      "question": "What happened to Linda in the end?",
+      "options": [
+        "She went insane with worry",
+        "She left with her partner to explore the Outside",
+        "She broke off the engagement",
+        "Not possible to know"
+      ],
+      "correct_answer": 3,
+      "rag_answer": "D) Not possible to know",
+      "is_correct": false
+    },
+    {
+      "problem_index": 36,
+      "question": "How do Mr. Chambers' dreams connect with the events of the story?",
+      "options": [
+        "The island is his job at the university, and the snakes are the people who fired him.",
+        "The island is his solitude, and the snakes are people who want to talk to him.",
+        "The dreams are unrelated.",
+        "The island is his room, and the snakes are the other minds."
+      ],
+      "correct_answer": 3,
+      "rag_answer": "D) The island is his room, and the snakes are the other minds.",
+      "is_correct": false
+    },
+    {
+      "problem_index": 37,
+      "question": "How would you describe Syme's and Harold's relationship?",
+      "options": [
+        "It's a genuinely friendly relationship",
+        "It's a beautiful relationship",
+        "It's a relationship of necessity",
+        "They quickly become enemies"
+      ],
+      "correct_answer": 2,
+      "rag_answer": "C) It's a relationship of necessity",
+      "is_correct": false
+    },
+    {
+      "problem_index": 38,
+      "question": "Why does the boy likely carry a net?",
+      "options": [
+        "To try to catch butterflies",
+        "To defend himself",
+        "To help him whistle",
+        "To look like he is catching butterflies"
+      ],
+      "correct_answer": 3,
+      "rag_answer": "A) To try to catch butterflies",
+      "is_correct": false
+    },
+    {
+      "problem_index": 39,
+      "question": "Why did the addresses change in style over time?",
+      "options": [
+        "The presidents had different problems to address",
+        "They were adapting to the changing populace",
+        "They deteriorated over time",
+        "They got less wordy"
+      ],
+      "correct_answer": 1,
+      "rag_answer": "B) They were adapting to the changing populace",
+      "is_correct": false
+    },
+    {
+      "problem_index": 40,
+      "question": "Who is Kirk most mad at in this story?",
+      "options": [
+        "His younger sister",
+        "His peers who spoke to him post-battle",
+        "His friend on the battlefield",
+        "The officer who spoke to him post-battle"
+      ],
+      "correct_answer": 3,
+      "rag_answer": "B) His peers who spoke to him post-battle",
+      "is_correct": false
+    },
+    {
+      "problem_index": 41,
+      "question": "What production process caused the Puffyloaves to float away?",
+      "options": [
+        "Being made with Helium",
+        "Being made with yeast",
+        "Being made with Carbon Dioxide",
+        "Being made with hydrogen"
+      ],
+      "correct_answer": 3,
+      "rag_answer": "A) Being made with Helium",
+      "is_correct": false
+    },
+    {
+      "problem_index": 42,
+      "question": "What was the ping sound that Coulter heard?",
+      "options": [
+        "An enemy bullet hitting his ship",
+        "The enemy ship barely scraping his",
+        "A command from Johnson, the navigator",
+        "His bullet hitting the enemy"
+      ],
+      "correct_answer": 0,
+      "rag_answer": "B) The enemy ship barely scraping his ship",
+      "is_correct": false
+    },
+    {
+      "problem_index": 43,
+      "question": "Why did Roy not sign on with the commercial fishing companies?",
+      "options": [
+        "They did not pay a high enough percentage",
+        "They only fished for Snapper which was very difficult",
+        "They only worked out of Fort Meyers",
+        "They did not allow him to move around as he pleased"
+      ],
+      "correct_answer": 3,
+      "rag_answer": "A) They did not pay a high enough percentage",
+      "is_correct": false
+    },
+    {
+      "problem_index": 44,
+      "question": "What does the author think will be in the future of Europe?",
+      "options": [
+        "enlightened politics",
+        "costly decline",
+        "efficient government",
+        "lack of bureaucracy"
+      ],
+      "correct_answer": 1,
+      "rag_answer": "B) costly decline",
+      "is_correct": false
+    },
+    {
+      "problem_index": 45,
+      "question": "Why was Peter looking for a job?",
+      "options": [
+        "He had just finished school",
+        "He wanted to make more money",
+        "He got fired",
+        "He was stockpiled"
+      ],
+      "correct_answer": 1,
+      "rag_answer": "D) He was stockpiled",
+      "is_correct": false
+    },
+    {
+      "problem_index": 46,
+      "question": "Why was Sophie Walker's speech described at the beginning?",
+      "options": [
+        "to show the danger of using emotions in politics",
+        "to make the reader sympathetic towards female politicians",
+        "to show the reader how the author feels about the topic",
+        "to give an example to support the main idea of the passage"
+      ],
+      "correct_answer": 3,
+      "rag_answer": "C) to show the reader how the author feels about the topic.",
+      "is_correct": false
+    },
+    {
+      "problem_index": 47,
+      "question": "What did Neeshan originally use his tooter for?",
+      "options": [
+        "As a weapon",
+        "Contacting the magical headquarters",
+        "To conduct his magic spells",
+        "To impress the Free'l"
+      ],
+      "correct_answer": 1,
+      "rag_answer": "C) To conduct his magic spells",
+      "is_correct": false
+    },
+    {
+      "problem_index": 48,
+      "question": "What did Dennis' crew do with their spare time while they were trying to find the pirate ship?",
+      "options": [
+        "The new ship was also the first with ship-to-shore internet, so they could watch videos in their spare time.",
+        "They didn't have any spare time. They ran training exercises on procedures and weapons over and over to be ready.",
+        "All the hands spent their spare time doing exercises to keep their muscles strong in space.",
+        "The crew was kept busy in their spare time fixing all the systems that didn't really work right on this brand new ship."
+      ],
+      "correct_answer": 1,
+      "rag_answer": "B) They didn't have any spare time. They ran training exercises on procedures and weapons over and over to be ready.",
+      "is_correct": false
+    },
+    {
+      "problem_index": 49,
+      "question": "How did Manet feel about his last creation?",
+      "options": [
+        "He was upset the man was a friend",
+        "He was happy the man was an antagonist",
+        "He was upset the man was an antagonist",
+        "He was happy the man was a friend"
+      ],
+      "correct_answer": 1,
+      "rag_answer": "C) He was upset the man was an antagonist",
+      "is_correct": false
+    },
+    {
+      "problem_index": 50,
+      "question": "What does \"jaywalker\" refer to in this story?",
+      "options": [
+        "A person who does an illegal spacewalk",
+        "A person who illegally gains passage into space",
+        "A person who crosses the street illegally",
+        "A person who illegally lives on the moon"
+      ],
+      "correct_answer": 1,
+      "rag_answer": "C) A person who crosses the street illegally",
+      "is_correct": false
+    },
+    {
+      "problem_index": 51,
+      "question": "Why is Leuchter a hero to neo-Nazis?",
+      "options": [
+        "He chiseled the walls of Auschwitz",
+        "He tried to disprove the genocide of the Holocaust",
+        "He advocates for better capital punishment practices",
+        "He doesn't like Jewish people"
+      ],
+      "correct_answer": 1,
+      "rag_answer": "B) He tries to disprove the genocide of the Holocaust",
+      "is_correct": false
+    },
+    {
+      "problem_index": 52,
+      "question": "Why is Braun at peace?",
+      "options": [
+        "He saved his family",
+        "He is free to run for Congress",
+        "He finally has a job",
+        "He gets to be valuable and respectable doing what he loves"
+      ],
+      "correct_answer": 3,
+      "rag_answer": "C) He finally has a job",
+      "is_correct": false
+    },
+    {
+      "problem_index": 53,
+      "question": "Why doesn’t the Constellation have weapons?",
+      "options": [
+        "It is not allowed to have weapons because it has a medical mission",
+        "It lost its weapons in a recent battle",
+        "It had its weapons stolen by Kriere",
+        "It is so far away from the war that having weapons is unnecessary"
+      ],
+      "correct_answer": 0,
+      "rag_answer": "B) It lost its weapons in a recent battle",
+      "is_correct": false
+    },
+    {
+      "problem_index": 54,
+      "question": "Why was Birken limping during his approach to the space ship?",
+      "options": [
+        "His leg was hurt in a crash duringthe chase with the authorities",
+        "The Tepoktans had shot his leg while he was running towards the ship",
+        "The Tepoktans had operated on his leg to study his physiology",
+        "His leg was broken in his initial crash on the planet"
+      ],
+      "correct_answer": 3,
+      "rag_answer": "D) His leg was broken in his initial crash on the planet",
+      "is_correct": false
+    },
+    {
+      "problem_index": 55,
+      "question": "What does the captain think causes people like Baxter to exist?",
+      "options": [
+        "Extra-sensory perception",
+        "An inability to worry",
+        "high intelligence and low self-confidence",
+        "A desire to commit fraud"
+      ],
+      "correct_answer": 2,
+      "rag_answer": "C) high intelligence and low self-confidence",
+      "is_correct": false
+    },
+    {
+      "problem_index": 56,
+      "question": "Why didn't the Skipper follow the new cook's advice about avoiding Vesta?",
+      "options": [
+        "Because Lieutenant Dugan convinced Skipper not to follow the new cook's advice.",
+        "Because the Skipper considered himself smarter and more experienced than the new cook.",
+        "Because the new cook didn't bring up any reasons to support his advice.",
+        "Because the new cook asked for a heat-cannon which made the Skipper suspicious of the new cook's intentions."
+      ],
+      "correct_answer": 1,
+      "rag_answer": "A) Because Lieutenant Dugan convinced Skipper not to follow the new cook's advice.",
+      "is_correct": false
+    },
+    {
+      "problem_index": 57,
+      "question": "What does the article posit as the main factor leading to humans running faster and faster over time (as measured in athletic events)?",
+      "options": [
+        "Humans try harder when there is a goal, and now that there is so much money to be had from sponsorships, athletes just try harder to compete for the money.",
+        "Being raised under conditions that allow humans to get a lot closer to their genetic performance potential.",
+        "A lot more athletes use steroids as part of their training regimes now, legally or illegally. Same reason why some baseball players hit more home runs.",
+        "Natural selection is at work here. The athletes are self-selected, but these improved genes are passed down as the foundation for the next generation."
+      ],
+      "correct_answer": 1,
+      "rag_answer": "B) Being raised under conditions that allow humans to get a lot closer to their genetic performance potential.",
+      "is_correct": false
+    },
+    {
+      "problem_index": 58,
+      "question": "Why did Peter feel so nervous when he arrived for his interview?",
+      "options": [
+        "He couldn't open the door",
+        "The automation unnerved him",
+        "The boss yelled at him",
+        "He arrived at the building late"
+      ],
+      "correct_answer": 1,
+      "rag_answer": "B) The automation unnerved him",
+      "is_correct": false
+    },
+    {
+      "problem_index": 59,
+      "question": "What is the Venus Shadow?",
+      "options": [
+        "The time of day when travel is impossible because there is no light.",
+        "The name of Jan's aircraft.",
+        "A deadly disease that can only be cured by traveling to Earth.",
+        "The quakes that shake the ground."
+      ],
+      "correct_answer": 2,
+      "rag_answer": "C) A deadly disease that can only be cured by traveling to Earth.",
+      "is_correct": false
+    },
+    {
+      "problem_index": 60,
+      "question": "Would Captain Maxwell's attitude toward Mr. Ranson and the murder been different if he had known about the hypnotizing melody, and why?",
+      "options": [
+        "No, because the murder would not have been excused whether it was intentional or not.",
+        "Yes, because Captain Maxwell currently believes that Mr. Ranson intentionally killed Jared Haller.",
+        "No, because Captain Maxwell would not further investigate the murder regardless of it being intentional or not.",
+        "Yes, because a part of Captain Maxwell was already convinced that Mr. Ranson was wrongfully accused."
+      ],
+      "correct_answer": 1,
+      "rag_answer": "A) No, because the murder would not have been excused whether it was intentional or not.",
+      "is_correct": false
+    },
+    {
+      "problem_index": 61,
+      "question": "What was really making Joseph Partch feel so irritable?",
+      "options": [
+        "His long commute to work",
+        "The constant noise he was exposed to",
+        "His wife's overly-social tendencies",
+        "Being behind schedule at work"
+      ],
+      "correct_answer": 1,
+      "rag_answer": "B) The constant noise he was exposed to",
+      "is_correct": false
+    },
+    {
+      "problem_index": 62,
+      "question": "Which planet is not known to be colonized in the story?",
+      "options": [
+        "Saturn",
+        "Venus",
+        "Mars",
+        "Earth"
+      ],
+      "correct_answer": 1,
+      "rag_answer": "A) Saturn",
+      "is_correct": false
+    },
+    {
+      "problem_index": 63,
+      "question": "What power did the warden not have?",
+      "options": [
+        "Put people into dreams",
+        "Make sentences longer",
+        "Keep innocent people out of incarceration",
+        "Make sentences shorter"
+      ],
+      "correct_answer": 1,
+      "rag_answer": "B) Make sentences shorter",
+      "is_correct": false
+    },
+    {
+      "problem_index": 64,
+      "question": "How is the topic of slavery treated in inaugural speeches?",
+      "options": [
+        "It is not treated with proper gravity, and referred to only in terms of progress",
+        "Is was mentioned 17 times in the Roosevelt address",
+        "It is often referenced in inaugural speeches from the 1850s through the 1960s",
+        "Its reference depends on the political party in power"
+      ],
+      "correct_answer": 0,
+      "rag_answer": "C) It is often referenced in inaugural speeches from the 1850s through the 1960s",
+      "is_correct": false
+    },
+    {
+      "problem_index": 65,
+      "question": "Which of the following is not a technology included in this story?",
+      "options": [
+        "Interstellar shipping infrastructure",
+        "Games in outer space",
+        "Highly advanced space travel",
+        "Time warping"
+      ],
+      "correct_answer": 3,
+      "rag_answer": "B) Games in outer space",
+      "is_correct": false
+    },
+    {
+      "problem_index": 66,
+      "question": "The chronology of Korvin's time with the Tr'en is:",
+      "options": [
+        "capture, solitary imprisonment, lie detector, examinations, escape",
+        "capture, examinations, solitary imprisonment, lie detector, escape",
+        "capture, solitary imprisonment, lie detector, solitary confinement, escape",
+        "capture, solitary imprisonment, examinations, escape"
+      ],
+      "correct_answer": 0,
+      "rag_answer": "C) capture, solitary imprisonment, lie detector, solitary confinement, escape",
+      "is_correct": false
+    },
+    {
+      "problem_index": 67,
+      "question": "How is the beginning of Topsy-Turvy described?",
+      "options": [
+        "exciting and fast paced",
+        "boring and slow",
+        "dramatic and interesting",
+        "sad and depressing"
+      ],
+      "correct_answer": 1,
+      "rag_answer": "B) boring and slow",
+      "is_correct": false
+    },
+    {
+      "problem_index": 68,
+      "question": "Why was the city going to be burned?",
+      "options": [
+        "Ravdin's society would burn it to hide from the Hunters",
+        "The hunters would burn it when they discovered it",
+        "The warp-passage was malfunctioning and would explode",
+        "A wildfire from the Jungle was coming"
+      ],
+      "correct_answer": 0,
+      "rag_answer": "B) The hunters would burn it when they discovered it",
+      "is_correct": false
+    },
+    {
+      "problem_index": 69,
+      "question": "Which of the characters receives the most medical intervention during the course of the story?",
+      "options": [
+        "The unnamed space warriors",
+        "Kerry and Splinter receive about equal medical intervention",
+        "Splinter",
+        "Kerry"
+      ],
+      "correct_answer": 3,
+      "rag_answer": "C) Splinter",
+      "is_correct": false
+    },
+    {
+      "problem_index": 70,
+      "question": "Why is Adrian's office so long and narrow, and why there a long carpet leading up to Adrian's desk?",
+      "options": [
+        "The layout of the office is a psychological trick meant to intimidate those who enter.",
+        "It's the standard design for the offices of League deputies.",
+        "The design is luxurious and makes Adrian feel like a successful governor.",
+        "The layout imitates the design of the League's president's office, and Adrian aspires to become president of the League."
+      ],
+      "correct_answer": 0,
+      "rag_answer": "A) The layout of the office is a psychological trick meant to intimidate those who enter.",
+      "is_correct": false
+    },
+    {
+      "problem_index": 71,
+      "question": "Why does Bo say that rockhounds will never become rich?",
+      "options": [
+        "He says that they spend their money on women rather than saving it.",
+        "He says that they spend all of their money.",
+        "He does not say that at all because he is aware that they make a lot of money.",
+        "He knows that the government takes huge taxes from their wages."
+      ],
+      "correct_answer": 1,
+      "rag_answer": "B) He says that they spend all of their money.",
+      "is_correct": false
+    },
+    {
+      "problem_index": 72,
+      "question": "How does the author use the word vulgar in the piece? To mean:",
+      "options": [
+        "An accident",
+        "Danger",
+        "A partisan understanding",
+        "A distorted view"
+      ],
+      "correct_answer": 3,
+      "rag_answer": "C) A distorted view",
+      "is_correct": false
+    },
+    {
+      "problem_index": 73,
+      "question": "How did the Ruler become the Ruler?",
+      "options": [
+        "He was adopted by the previous Ruler.",
+        "He overthrew the previous Ruler.",
+        "He is the biological son of the previous Ruler.",
+        "He was elected as Ruler by the Tr'en."
+      ],
+      "correct_answer": 0,
+      "rag_answer": "A) He was adopted by the previous Ruler.",
+      "is_correct": false
+    },
+    {
+      "problem_index": 74,
+      "question": "Why were the Free'l unable to perform magic?",
+      "options": [
+        "Neeshan was teaching them wrong on purpose",
+        "They were not accurate enough with the steps",
+        "They did not posses any magical ability",
+        "They could not read the instructions that Neeshan wrote for them"
+      ],
+      "correct_answer": 1,
+      "rag_answer": "B) They were not accurate enough with the steps",
+      "is_correct": false
+    },
+    {
+      "problem_index": 75,
+      "question": "Why is Mr. Turner so observant of cars?",
+      "options": [
+        "He is a car mechanic.",
+        "He was a car thief in a past life.",
+        "He loves cars.",
+        "The car models tell him what era he is in at the moment."
+      ],
+      "correct_answer": 3,
+      "rag_answer": "D) The car models tell him what era he is in at the moment.",
+      "is_correct": false
+    },
+    {
+      "problem_index": 76,
+      "question": "What changes Meg's mind about a relationship with Roger?",
+      "options": [
+        "His jingle writing ability",
+        "His handling of the crisis at hand",
+        "His thoroughbred nerves",
+        "His deal with the Martian ambassador"
+      ],
+      "correct_answer": 1,
+      "rag_answer": "B) His handling of the crisis at hand",
+      "is_correct": false
+    },
+    {
+      "problem_index": 77,
+      "question": "What was the relationship like between the son and his mother?",
+      "options": [
+        "His mother needed to make decisions about the estate when his father passed and he was in disagreement about how they should be made",
+        "Their relationship seems to have been pleasant and he knows how much she meant to his father",
+        "His mother needed a lot of help when his father passed away and he was happy to be there for her",
+        "She passed away early in her son’s life"
+      ],
+      "correct_answer": 1,
+      "rag_answer": "B) Their relationship seems to have been pleasant and he knows how much she meant to his father.",
+      "is_correct": false
+    },
+    {
+      "problem_index": 78,
+      "question": "Which of the following most accurately describes the topic of the article?",
+      "options": [
+        "Magnetic technology",
+        "Technological evolution",
+        "Trains",
+        "Birmingham"
+      ],
+      "correct_answer": 1,
+      "rag_answer": "D) Birmingham",
+      "is_correct": false
+    },
+    {
+      "problem_index": 79,
+      "question": "What was the bad news that Ravdin was eager to deliver?",
+      "options": [
+        "His ship had been destroyed",
+        "He had been discovered on his mission",
+        "He discovered that the hunters were coming to the city",
+        "The concert had been cancelled"
+      ],
+      "correct_answer": 2,
+      "rag_answer": "C) He discovered that the hunters were coming to the city",
+      "is_correct": false
+    },
+    {
+      "problem_index": 80,
+      "question": "What ends up being the cause of the protagonist's issues?",
+      "options": [
+        "Drug addiction",
+        "War-related trauma",
+        "Secretive experiments",
+        "Mental illness"
+      ],
+      "correct_answer": 2,
+      "rag_answer": "D) Mental illness",
+      "is_correct": false
+    },
+    {
+      "problem_index": 81,
+      "question": "How long did the Birmingham maglev line run?",
+      "options": [
+        "11 years",
+        "29 years",
+        "6 years",
+        "20 years"
+      ],
+      "correct_answer": 0,
+      "rag_answer": "C) 6 years",
+      "is_correct": false
+    },
+    {
+      "problem_index": 82,
+      "question": "Neeshan's plan to get the Free'l to actually perform magic is ",
+      "options": [
+        "to get Rhn to do magic, then the rest will follow his lead.",
+        "to annoy them to the point that they do magic out of spite.",
+        "put one of them in danger, then they will be forced to do magic to save that person.",
+        "he is going to work with them until they get it or until it kills them all."
+      ],
+      "correct_answer": 1,
+      "rag_answer": "B) to annoy them to the point that they do magic out of spite.",
+      "is_correct": false
+    },
+    {
+      "problem_index": 83,
+      "question": "How does the author likely feel about global capitalism?",
+      "options": [
+        "He believes it sacrifices the environment for higher quality of life for some people",
+        "It is impossible to know from the article",
+        "He thinks it will bring valuable money into the fight against climate change",
+        "He believes it is an evil system"
+      ],
+      "correct_answer": 0,
+      "rag_answer": "D) He believes it is an evil system",
+      "is_correct": false
+    },
+    {
+      "problem_index": 84,
+      "question": "What does the critic likely view as the best part of the movie?",
+      "options": [
+        "Pod racing",
+        "Darth Maul",
+        "Special effects",
+        "R2-D2"
+      ],
+      "correct_answer": 2,
+      "rag_answer": "C) Special effects",
+      "is_correct": false
+    },
+    {
+      "problem_index": 85,
+      "question": "Why did Pashkov take the invoice from the Cubans?",
+      "options": [
+        "The invoice has the address of the hospital on it.",
+        "He uses the invoice to frame them.",
+        "Their phone number is on the invoice.",
+        "He wants documentation of how much money the Cubans owe him."
+      ],
+      "correct_answer": 1,
+      "rag_answer": "D) He wants documentation of how much money the Cubans owe him.",
+      "is_correct": false
+    },
+    {
+      "problem_index": 86,
+      "question": "What happened when the Martians initially split into two populations?",
+      "options": [
+        "One population thrived and the other died out",
+        "Both populations suffered as a result of the split",
+        "Both populations eventually combined once more",
+        "Both populations succeeded and thrived, but in very different ways"
+      ],
+      "correct_answer": 0,
+      "rag_answer": "C) Both populations eventually combined once more",
+      "is_correct": false
+    },
+    {
+      "problem_index": 87,
+      "question": "Which of the following words best describes Mr. Jonathan Chambers?",
+      "options": [
+        "Habitual",
+        "Mad",
+        "Mean",
+        "Shy"
+      ],
+      "correct_answer": 0,
+      "rag_answer": "B) Mad",
+      "is_correct": false
+    },
+    {
+      "problem_index": 88,
+      "question": "Who seems to be taking advantage of the diction used in OA policies and why?",
+      "options": [
+        "Researchers because they are able to hide behind the wording of the policies in order to stay out of controversies.",
+        "Publishers because they can use the diction as a scare tactic to those looking to publish their work.",
+        "Institutions because they can skew the policies to their advantage.",
+        "University faculty members because they can use the diction in the policies to continue to maintain control of how those policies are perceived."
+      ],
+      "correct_answer": 1,
+      "rag_answer": "B) Publishers",
+      "is_correct": false
+    },
+    {
+      "problem_index": 89,
+      "question": "How does Walter change his situation?",
+      "options": [
+        "He runs for public office.",
+        "He turns the workers against Torkleson.",
+        "He goes on strike to demand better pay and hours.",
+        "He quits his job in management."
+      ],
+      "correct_answer": 1,
+      "rag_answer": "B) He turns the workers against Torkleson.",
+      "is_correct": false
+    },
+    {
+      "problem_index": 90,
+      "question": "What did Ravdin and Dana accomplish by staying behind?",
+      "options": [
+        "They successfully hid from the Hunters",
+        "They started a tenuous link with the Hunters via their music",
+        "They finally completed the perfect concert",
+        "They convinced their people to fight back against the Hunters"
+      ],
+      "correct_answer": 1,
+      "rag_answer": "A) They successfully hid from the Hunters",
+      "is_correct": false
+    },
+    {
+      "problem_index": 91,
+      "question": "Why did Grimm dislike Carlson?",
+      "options": [
+        "He hit him with a rock",
+        "He hit him with a fist to the face",
+        "He bossed him around",
+        "He was jealous of his relationship with the woman"
+      ],
+      "correct_answer": 3,
+      "rag_answer": "B) He hit him with a fist to the face",
+      "is_correct": false
+    },
+    {
+      "problem_index": 92,
+      "question": "Of the following options, who might enjoy reading this the most?",
+      "options": [
+        "A creationist who wants to prove that evolution isn't real through the ways in which adopted and biological children are treated differently.",
+        "A potential parent deciding between adopting a child and having a biological child.",
+        "A preteen who's adopted and wants to learn more about the differences between parenting of adopted and biological children.",
+        "A high schooler interested in learning more about family dynamics and the chemical/evolutionary processes with regard to parenting."
+      ],
+      "correct_answer": 1,
+      "rag_answer": "D) A high schooler interested in learning more about family dynamics and the chemical/evolutionary processes with regard to parenting.",
+      "is_correct": false
+    },
+    {
+      "problem_index": 93,
+      "question": "What context does the author write the article in?",
+      "options": [
+        "Adversarial commentary",
+        "Constructive feedback",
+        "Objective review",
+        "Unbiased summary"
+      ],
+      "correct_answer": 0,
+      "rag_answer": "B) Constructive feedback",
+      "is_correct": false
+    },
+    {
+      "problem_index": 94,
+      "question": "What hinders Jan from leaving Rathole?",
+      "options": [
+        "He does not want to help the Spaniards.",
+        "The weather on Venus makes it impossible to travel long distances.",
+        "He wants to stay to start a relationship with Diego's mother.",
+        "He does not have proper transportation because the city has no fuel to power an aircraft."
+      ],
+      "correct_answer": 3,
+      "rag_answer": "D) He does not have proper transportation because the city has no fuel to power an aircraft.",
+      "is_correct": false
+    },
+    {
+      "problem_index": 95,
+      "question": "What does the title of the article mean?",
+      "options": [
+        "It is simply a clever use of alliteration",
+        "Reading is important",
+        "We need to learn from the article",
+        "We teach and learn collaboratively"
+      ],
+      "correct_answer": 3,
+      "rag_answer": "C) We need to learn from the article",
+      "is_correct": false
+    },
+    {
+      "problem_index": 96,
+      "question": "How does Georges feel about the Aga Kagans?",
+      "options": [
+        "He thinks they are uncivilized thieves",
+        "He thinks they are a primitive people who are easily manipulated",
+        "He respects them for their advanced technology and wisdom",
+        "He feels that they are misunderstood heroes"
+      ],
+      "correct_answer": 0,
+      "rag_answer": "A) He thinks they are uncivilized thieves",
+      "is_correct": false
+    },
+    {
+      "problem_index": 97,
+      "question": "Why did the woman wish she had listened more carefully to her husband talking about his job?",
+      "options": [
+        "So he would not be attracted to the flight attendant",
+        "So he wouldn't fight with her",
+        "So she would know exactly when to enact her plan",
+        "So he would feel like he was important to her"
+      ],
+      "correct_answer": 2,
+      "rag_answer": "C) So she would know exactly when to enact her plan",
+      "is_correct": false
+    },
+    {
+      "problem_index": 98,
+      "question": "How does the terraforming technology work?",
+      "options": [
+        "It instantly transforms bare planets into planets that can support life",
+        "It infects organisms on the planet with a virus that changes their DNA to make them more suitable for human consumption",
+        "It can only work on land that has previously contained life",
+        "It follows ecological processes to slowly transform barren land into arable land over time"
+      ],
+      "correct_answer": 3,
+      "rag_answer": "C) It can only work on land that has previously contained life",
+      "is_correct": false
+    },
+    {
+      "problem_index": 99,
+      "question": "What does the author suggest are some traits Said possesses?",
+      "options": [
+        "Boldness, confidence",
+        "Vanity, disorganization",
+        "Inventiveness, shyness",
+        "Charisma, people-pleasing"
+      ],
+      "correct_answer": 0,
+      "rag_answer": "A) Boldness, confidence",
+      "is_correct": false
+    },
+    {
+      "problem_index": 100,
+      "question": "What is Ernie likely to do next time he sees Vivian?",
+      "options": [
+        "Joke with her",
+        "Avoid her",
+        "Ask her to lunch",
+        "Make fun of her"
+      ],
+      "correct_answer": 2,
+      "rag_answer": "B) Avoid her",
+      "is_correct": false
+    },
+    {
+      "problem_index": 101,
+      "question": "Whose opinion should be avoided when it comes to OA journals",
+      "options": [
+        "researchers who are indifferent.",
+        "libraries who do not want to convert.",
+        "publishers who speak out against them.",
+        "universities who do nothing but advocate them"
+      ],
+      "correct_answer": 2,
+      "rag_answer": "C) publishers who speak out against them.",
+      "is_correct": false
+    },
+    {
+      "problem_index": 102,
+      "question": "What was Dick's main concern about moving their camp to the river?",
+      "options": [
+        "What the weather would be in the new location.",
+        "When to start building the encampment.",
+        "Deciding where exactly to start building.",
+        "Food and proximity to the sunken ship."
+      ],
+      "correct_answer": 3,
+      "rag_answer": "C) Deciding where exactly to start building.",
+      "is_correct": false
+    },
+    {
+      "problem_index": 103,
+      "question": "How does the author feel about Brexit?",
+      "options": [
+        "it would have gone differently if people would have been more logical",
+        "it was backed by research and an iconic move",
+        "it was a turning point for Britain",
+        "emotional persuasion was used appropriately to produce the best outcome"
+      ],
+      "correct_answer": 0,
+      "rag_answer": "A) it would have gone differently if people would have been more logical",
+      "is_correct": false
+    },
+    {
+      "problem_index": 104,
+      "question": "What did Keynes teach?",
+      "options": [
+        "There is no connection between savings and investment",
+        "Saving a lot is always a good thing",
+        "Interest rates are independent of the actions of the populace",
+        "Saving a lot leads to an economic downturn"
+      ],
+      "correct_answer": 3,
+      "rag_answer": "D) Saving a lot leads to an economic downturn",
+      "is_correct": false
+    },
+    {
+      "problem_index": 105,
+      "question": "Which of the following could not be caused by transphasia?",
+      "options": [
+        "Feeling an earthquake",
+        "Smelling the color red",
+        "Hearing the sunlight",
+        "Tasting a cry for help"
+      ],
+      "correct_answer": 0,
+      "rag_answer": "A) Feeling an earthquake",
+      "is_correct": false
+    },
+    {
+      "problem_index": 106,
+      "question": "What made Roger decide to sell Puffyloaves like balloons?",
+      "options": [
+        "Shipping constraints",
+        "Government regulation",
+        "Cheaper packaging materials",
+        "Children's demands of their parents"
+      ],
+      "correct_answer": 3,
+      "rag_answer": "D) Children's demands of their parents",
+      "is_correct": false
+    },
+    {
+      "problem_index": 107,
+      "question": "How many titles does Zen have? Choose the one best answer.",
+      "options": [
+        "More than eight",
+        "More than five",
+        "More than ten",
+        "More than a dozen"
+      ],
+      "correct_answer": 3,
+      "rag_answer": "A) More than eight",
+      "is_correct": false
+    },
+    {
+      "problem_index": 108,
+      "question": "What type of media does the author believe will be the most influential on the immediate future?",
+      "options": [
+        "Government-approved media",
+        "Visual media",
+        "Participatory media",
+        "Print media"
+      ],
+      "correct_answer": 2,
+      "rag_answer": "C) Participatory media",
+      "is_correct": false
+    },
+    {
+      "problem_index": 109,
+      "question": "How does the author think that George Lucas could have made the movie better?",
+      "options": [
+        "Relying more heavily on CGI",
+        "Casting better actors for the rolls",
+        "Delaying the release and taking more time",
+        "Listening to his large group of employed screenwriters"
+      ],
+      "correct_answer": 3,
+      "rag_answer": "D) Listening to his large group of employed screenwriters",
+      "is_correct": false
+    },
+    {
+      "problem_index": 110,
+      "question": "From whose point of view is the story told?",
+      "options": [
+        "Multiple people",
+        "Nagurski",
+        "Gavin",
+        "Quade"
+      ],
+      "correct_answer": 2,
+      "rag_answer": "C) Gavin",
+      "is_correct": false
+    },
+    {
+      "problem_index": 111,
+      "question": "What is the main concern of publishers about green OA policies?",
+      "options": [
+        "Increased number of downloads of journals",
+        "A replacement of the standard Gold OA policies",
+        "Negatively affecting the relationship between publishers and academia",
+        "Decreased subscriptions to journals"
+      ],
+      "correct_answer": 3,
+      "rag_answer": "C) Neg.Age O doesn't directly cause decreased overall readings or fewer readers. Instead, it shifts access from publisher's websites to other platforms like institutional repositories.\n\nQuestion: What is the main concern of publishers about green OA policies?\n\nA) Increased number of downloads of journals\nB) A replacement of the standard Gold OA policies\nC) Negatively affecting the relationship between publishers and academia\nD) Decreased subscriptions to journals\n\nAnswer: C) Neg. The passage explains that concerns exist among some stakeholders (publishers who fear a \"yes\" answer, activists hoping for one), but it also suggests there isn't an unequivocal yes-or-no outcome regarding whether increased green OA will lead directly to cancellations of toll-access journal subscriptions.\n\nKey Points:\n- Green OA does not necessarily equate with fewer overall readers.\n- Concerns are more about the potential impact on publisher-subscription relationships rather than direct decreases in downloads or a full replacement for Gold OA policies.",
+      "is_correct": false
+    },
+    {
+      "problem_index": 112,
+      "question": "Why did Ravdin and Dana enter a cave in the jungle at the end of the story?",
+      "options": [
+        "To hide from their society so they could meet the Hunters",
+        "To flee from the Hunters' inquisition",
+        "They had wiped their own minds, becoming uncivilized",
+        "To wait for their society to return and pick them up"
+      ],
+      "correct_answer": 2,
+      "rag_answer": "A) To hide from their society so they could meet the Hunter",
+      "is_correct": false
+    },
+    {
+      "problem_index": 113,
+      "question": "Dzhackoon’s job is most similar to what human job?",
+      "options": [
+        "A novelty trader.",
+        "A time machine specialist.",
+        "An art collector.",
+        "A police officer."
+      ],
+      "correct_answer": 3,
+      "rag_answer": "B) A time machine specialist.",
+      "is_correct": false
+    },
+    {
+      "problem_index": 114,
+      "question": "How is Bobby's attitude towards flying the spaceship different than Pop's in the beginning of the article?",
+      "options": [
+        "Bobby knows much less about flying spaceships than his father, so he is less confident than his father about completing the journey.",
+        "Bobby is worried about flying on the spaceship, while Pop is upset about leaving Earth for an uncertain future on Eros.",
+        "Bobby acts like the journey will be a thrilling adventure, while his father is much more serious about completing the trip.",
+        "Bobby acts much more mature than his father about the journey."
+      ],
+      "correct_answer": 2,
+      "rag_answer": "C) Bobby acts like the journey will be a thrilling adventure, while his father is much more serious about completing the trip.",
+      "is_correct": false
+    },
+    {
+      "problem_index": 115,
+      "question": "Why is Dameri’s interest in horseback riding important?",
+      "options": [
+        "It reveals how something that is mundane to one person can be astonishing to another",
+        "It shows how primitive the alien’s technology is",
+        "It shows that he is only interested in pack animals",
+        "It reveals that he views horses as the reason why Earth is still uncivilized"
+      ],
+      "correct_answer": 0,
+      "rag_answer": "A) It reveals how something that is mundane to one person can be astonishing to another",
+      "is_correct": false
+    },
+    {
+      "problem_index": 116,
+      "question": "What is the main necessity in mass public transit?",
+      "options": [
+        "Higher speed of travel",
+        "Convenience of station locations",
+        "Increased number of passengers",
+        "Low cost of operation"
+      ],
+      "correct_answer": 2,
+      "rag_answer": "C) Increased number of passengers",
+      "is_correct": false
+    },
+    {
+      "problem_index": 117,
+      "question": "Why are funding agencies and universities concerned with OA policy?",
+      "options": [
+        "They are seeking to limit the power that private publishers have",
+        "They want to ensure researchers are able to work in the most effective way possible",
+        "They want to influence the content of the authors’ works",
+        "They are looking to maximize their profits"
+      ],
+      "correct_answer": 1,
+      "rag_answer": "A) They are seeking to limit the power that private publishers have",
+      "is_correct": false
+    },
+    {
+      "problem_index": 118,
+      "question": "What about the situation made Westover feel the most upset?",
+      "options": [
+        "The thought of losing the people he cared about",
+        "The thought of dying",
+        "The thought of humanity falling at the hands of mindless creatures",
+        "The thought of starving to death"
+      ],
+      "correct_answer": 2,
+      "rag_answer": "C) The thought of humanity falling at the hands of mindless creatures",
+      "is_correct": false
+    },
+    {
+      "problem_index": 119,
+      "question": "What did the Ludmilla drop?",
+      "options": [
+        "Nothing",
+        "An egg",
+        "A live bomb",
+        "A dead bomb"
+      ],
+      "correct_answer": 3,
+      "rag_answer": "B) An egg",
+      "is_correct": false
+    },
+    {
+      "problem_index": 120,
+      "question": "Why was Mr. Chambers unable to see the apple tree by his window?",
+      "options": [
+        "The apple tree had be chopped down",
+        "There was a thick layer of fog outside",
+        "His eyesight was failing him",
+        "The current reality was starting to fade"
+      ],
+      "correct_answer": 3,
+      "rag_answer": "B) There was a thick layer of fog outside",
+      "is_correct": false
+    },
+    {
+      "problem_index": 121,
+      "question": "Why did the receptionist at the hospital laugh at the Dan?",
+      "options": [
+        "His physical appearance was comical",
+        "His request to see the Dr. without an appointment was absurd",
+        "He clumsily brushed her on the shoulder.",
+        "She was surprised to see that he had returned"
+      ],
+      "correct_answer": 0,
+      "rag_answer": "C) He clumsely brushed her on the shoulder.",
+      "is_correct": false
+    },
+    {
+      "problem_index": 122,
+      "question": "What did Frankle mean when he asked to see Dana's magic?",
+      "options": [
+        "He would allow Dana to use the warp-passage",
+        "He would allow them to show him music",
+        "He would allow them to contact their people",
+        "He wanted to see more of her smile"
+      ],
+      "correct_answer": 1,
+      "rag_answer": "B) He would allow them to show him music",
+      "is_correct": false
+    },
+    {
+      "problem_index": 123,
+      "question": "What is the best definition for \"treatment acceptance\"?",
+      "options": [
+        "Optimum care",
+        "Contentment with cheaper treatment plans",
+        "Dental care marketing",
+        "Parting patients with their money"
+      ],
+      "correct_answer": 3,
+      "rag_answer": "D) Parting patients with their money",
+      "is_correct": false
+    },
+    {
+      "problem_index": 124,
+      "question": "Why did Madison drive a Rolls?",
+      "options": [
+        "He was too tall for most models and disliked the business decisions of American automakers.",
+        "The manual gears were simpler to operate on the hills of Granite City.",
+        "He felt it was the only vehicle that fit his personality.",
+        "It was a good size and provided a smooth ride around the Ozark Mountains."
+      ],
+      "correct_answer": 0,
+      "rag_answer": "A) He was too tall for most models and disliked the business decisions of American automakers.",
+      "is_correct": false
+    },
+    {
+      "problem_index": 125,
+      "question": "What is the white tube?",
+      "options": [
+        "A cigarette",
+        "We don't know",
+        "A narvoon",
+        "A shotgun"
+      ],
+      "correct_answer": 0,
+      "rag_answer": "B) We don't know",
+      "is_correct": false
+    },
+    {
+      "problem_index": 126,
+      "question": "Why was Walter concerned about being put on a white-list?",
+      "options": [
+        "It meant he could not work in the industry anymore",
+        "His salary would be decreased",
+        "He wouldn't be eligible for dividends any longer",
+        "He did not want to be contacted by the government"
+      ],
+      "correct_answer": 0,
+      "rag_answer": "A) It meant he could not work in the industry anymore.",
+      "is_correct": false
+    },
+    {
+      "problem_index": 127,
+      "question": "What is the most problematic aspect about LaHaye's antisemitism?",
+      "options": [
+        "It is blatant and outspoken",
+        "He draws on historical literature from Judaism",
+        "He is one of the best-selling Christian authors",
+        "It is thinly veiled in confusing language"
+      ],
+      "correct_answer": 2,
+      "rag_answer": "A) It is blatantly anti-Semitic.",
+      "is_correct": false
+    },
+    {
+      "problem_index": 128,
+      "question": "How are the governing decisions made on the planet?",
+      "options": [
+        "There is a branch of Earth’s government that oversees all decisions",
+        "There is a planetary disagreement about decision-making",
+        "They appear to be made by the will of someone greater than the characters in the story",
+        "The decisions are made by high officials, in this case the control was given to Bbulas"
+      ],
+      "correct_answer": 3,
+      "rag_answer": "C) They appear to be made by the will of someone greater than the characters in the story",
+      "is_correct": false
+    },
+    {
+      "problem_index": 129,
+      "question": "What aspect of Kimmy's psychological state was beneficial to the long space flight?",
+      "options": [
+        "His complete lack of anxiety",
+        "His antisocial behaviors",
+        "His tendency to dissociate into his own imagination",
+        "His extreme lethargy and patience"
+      ],
+      "correct_answer": 2,
+      "rag_answer": "C) His tendency to dissociate into his own imagination",
+      "is_correct": false
+    },
+    {
+      "problem_index": 130,
+      "question": "How did Retief evade the missile?",
+      "options": [
+        "He used emergency retro-drive",
+        "He flew right at it",
+        "He crashed the skiff",
+        "He altered course to the south"
+      ],
+      "correct_answer": 1,
+      "rag_answer": "D) He altered course to the south",
+      "is_correct": false
+    },
+    {
+      "problem_index": 131,
+      "question": "How are the Martians different from Earth humans?",
+      "options": [
+        "They are much dirtier",
+        "They value material possessions more",
+        "All of the other answers are correct",
+        "They are more physically attractive"
+      ],
+      "correct_answer": 0,
+      "rag_answer": "A) They are much dirtier",
+      "is_correct": false
+    },
+    {
+      "problem_index": 132,
+      "question": "How do modern dental procedures compare to those of the past?",
+      "options": [
+        "There are less options available",
+        "They are more temporary",
+        "They are more permanent",
+        "They are more comfortable"
+      ],
+      "correct_answer": 2,
+      "rag_answer": "C) They are more permanent",
+      "is_correct": false
+    },
+    {
+      "problem_index": 133,
+      "question": "Why are Manto and Palit at the zoo?",
+      "options": [
+        "They are lost.",
+        "They are on a class trip.",
+        "They are observing the animals.",
+        "They are observing the girls."
+      ],
+      "correct_answer": 3,
+      "rag_answer": "D) They are observing the girls.",
+      "is_correct": false
+    },
+    {
+      "problem_index": 134,
+      "question": "What is different about Jakk’s physical abilities?",
+      "options": [
+        "His brute strength",
+        "His incredible jumping over the wall",
+        "His running stamina",
+        "His eye sight"
+      ],
+      "correct_answer": 3,
+      "rag_answer": "A) His brute strength",
+      "is_correct": false
+    },
+    {
+      "problem_index": 135,
+      "question": "Why was the warden worried about answering Coleman's question?",
+      "options": [
+        "He was afraid of people in positions of authority",
+        "He had not been at his job very long",
+        "He was worried Coleman would disapprove of his answer",
+        "Coleman was an impressive figure"
+      ],
+      "correct_answer": 2,
+      "rag_answer": "B) He had not been at his job very long",
+      "is_correct": false
+    },
+    {
+      "problem_index": 136,
+      "question": "How was Ernie's life after the gifts compared to before?",
+      "options": [
+        "More comfortable",
+        "More stressful",
+        "Less exciting",
+        "More fun"
+      ],
+      "correct_answer": 1,
+      "rag_answer": "B) More stressful",
+      "is_correct": false
+    },
+    {
+      "problem_index": 137,
+      "question": "Those who typically rent these sorts of spaces",
+      "options": [
+        "hate their home, so they have to get out.",
+        "want to add to their social life, and they are great places to meet people other than online dating sites.",
+        "are freelancers and startups.",
+        "lonely and need friends."
+      ],
+      "correct_answer": 2,
+      "rag_answer": "C) are freelancers and startups.",
+      "is_correct": false
+    },
+    {
+      "problem_index": 138,
+      "question": "The Mob",
+      "options": [
+        "decides that Mars is too backwards, and they leave after causing as much destruction there as possible.",
+        "eventually turns Mars into an almost mirror of the way they run things on Earth.",
+        "decides that the Communists must be stopped, so they try to kill them off one by one.",
+        "tries to take Martians back to Earth in order to allow them to colonize."
+      ],
+      "correct_answer": 1,
+      "rag_answer": "A)",
+      "is_correct": false
+    },
+    {
+      "problem_index": 139,
+      "question": "How does Retief subdue both of the Flapjacks that he wrestles?",
+      "options": [
+        "Flapjacks are terrified of water, and he spit on them, which acts as a burning agent on a Flapjack.",
+        "He mashes his thumb into an opening which Retief thought was the eye, but which Hoshick implies is involved in Flapjack reproduction.",
+        "He mashes his thumb into an opening identified by Retief and verified by Hoshick as being the Flapjack's eye, in each case.",
+        "He twists the Flapjacks' tentacles, which is excruciatingly painful to a Flapjack."
+      ],
+      "correct_answer": 1,
+      "rag_answer": "B) He mashes his thumb into an opening which Retief thought was the eye, but which Hoshick implies is involved in Flapjack reproduction.",
+      "is_correct": false
+    },
+    {
+      "problem_index": 140,
+      "question": "Why did Matheny want to leave the church?",
+      "options": [
+        "He was thirsty",
+        "He was no good at playing craps",
+        "He was embarrassed",
+        "He was not religious"
+      ],
+      "correct_answer": 2,
+      "rag_answer": "C) He was embarrassed",
+      "is_correct": false
+    },
+    {
+      "problem_index": 141,
+      "question": "What is the main reason for the increase in popularity in co-working spaces?",
+      "options": [
+        "Corporate offices downsizing their physical operations",
+        "Main offices becoming too expensive",
+        "Collaboration between companies becoming more commonplace",
+        "A lack of real estate for individual offices"
+      ],
+      "correct_answer": 0,
+      "rag_answer": "A) Corporate offices downsizing their physical operations",
+      "is_correct": false
+    },
+    {
+      "problem_index": 142,
+      "question": "How do Cob and Strike come to appreciate women of rank through the story?",
+      "options": [
+        "They vow to have more women working in their teams",
+        "They choose to work on Aphrodite permanently",
+        "Their minds aren’t changed",
+        "They take on understudies to further promote equality"
+      ],
+      "correct_answer": 2,
+      "rag_answer": "C) Their minds aren't changed",
+      "is_correct": false
+    },
+    {
+      "problem_index": 143,
+      "question": "Why are people less satisfied with their smile now than in previous generations?",
+      "options": [
+        "People had nicer smiles in the past",
+        "Plastic implants are not as effective as amalgam fillings",
+        "They aren't",
+        "They have different expectations"
+      ],
+      "correct_answer": 3,
+      "rag_answer": "D) They have different expectations",
+      "is_correct": false
+    },
+    {
+      "problem_index": 144,
+      "question": "What did Morgan assume when he thought that principles of business would be the same in both worlds?",
+      "options": [
+        "That he would be able to start a business without any issues",
+        "That he would be able to get a newspaper for free",
+        "That his money would be good in this world",
+        "That he could negotiate the price of items at the store"
+      ],
+      "correct_answer": 2,
+      "rag_answer": "C) That his money would be good in this world",
+      "is_correct": false
+    },
+    {
+      "problem_index": 145,
+      "question": "How are hybrid OA journals different from full OA journals? ",
+      "options": [
+        "Hybrid OA journals employ green OA practices while full OA journals employ gold OA practices",
+        "Hybrid OA journals have some toll-access content and some OA content",
+        "Hybrid OA journals are much riskier for publishers",
+        "Hybrid OA journals only have toll-access content"
+      ],
+      "correct_answer": 1,
+      "rag_answer": "B) Hybrids OA journals have some toll-access content and some OA content.",
+      "is_correct": false
+    },
+    {
+      "problem_index": 146,
+      "question": "Of the following options, which traits best describe Darling Toujours?",
+      "options": [
+        "Pretty and kind",
+        "Naive and lovely",
+        "Gorgeous and patient",
+        "Rude and beautiful"
+      ],
+      "correct_answer": 3,
+      "rag_answer": "C) Gorgeous and patient",
+      "is_correct": false
+    },
+    {
+      "problem_index": 147,
+      "question": "Why did the squid always appear a little bit too late to save the anglers?",
+      "options": [
+        "The anglers were not useful to the squid",
+        "The anglers were being punished",
+        "The anglers were not the squid's primary interest",
+        "The squid were a nearly defeated colony that didn’t have enough members to save every angler"
+      ],
+      "correct_answer": 2,
+      "rag_answer": "C) The anglers were not the squid's primary interest",
+      "is_correct": false
+    },
+    {
+      "problem_index": 148,
+      "question": "Why did Rai decide to start working in forestry?",
+      "options": [
+        "He wanted be somewhere that was much different than where he grew up",
+        "He wanted to be able to save money by not living in an urban environment",
+        "He was forced into the field by his university",
+        "He was passionate about stopping climate change"
+      ],
+      "correct_answer": 0,
+      "rag_answer": "A) He wanted be somewhere that was much different than where he grew up",
+      "is_correct": false
+    },
+    {
+      "problem_index": 149,
+      "question": "How did Chapman feel about the moon?",
+      "options": [
+        "He liked it there",
+        "He was glad to have the opportunity to stay longer",
+        "He couldn't wait to leave",
+        "He would stay longer for more money"
+      ],
+      "correct_answer": 2,
+      "rag_answer": "C) He couldn't wait to leave",
+      "is_correct": false
+    },
+    {
+      "problem_index": 150,
+      "question": "Each different coworking space",
+      "options": [
+        "has a different theme that the occupants must adhere to.",
+        "is the same anywhere you go.",
+        "is its own unique environment.",
+        "is exactly like going to work at a 9-5 job."
+      ],
+      "correct_answer": 2,
+      "rag_answer": "C) is its own unique environment.",
+      "is_correct": false
+    },
+    {
+      "problem_index": 151,
+      "question": "Where is Pashkov in the beginning of the story?",
+      "options": [
+        "Cuba",
+        "United States",
+        "Russia",
+        "Sweden"
+      ],
+      "correct_answer": 2,
+      "rag_answer": "C) Russia",
+      "is_correct": false
+    },
+    {
+      "problem_index": 152,
+      "question": "How do the space travellers navigate around the planet of Venus?",
+      "options": [
+        "Only by sight",
+        "Radar",
+        "Using a search and rescue flight pattern",
+        "Using magnetic poles"
+      ],
+      "correct_answer": 0,
+      "rag_answer": "B) Radar",
+      "is_correct": false
+    },
+    {
+      "problem_index": 153,
+      "question": "Who is called an aphrodisiac?",
+      "options": [
+        "Celia Graham",
+        "the Cleopatra",
+        "Commander Strike",
+        "Ivy Hendricks"
+      ],
+      "correct_answer": 1,
+      "rag_answer": "B) the Cleopatra",
+      "is_correct": false
+    },
+    {
+      "problem_index": 154,
+      "question": "Why does Mr. Turner like to read air-war stories?",
+      "options": [
+        "He aspires to be a war hero.",
+        "The stories feel real to him because he can relate to the characters.",
+        "He likes to escape his real life.",
+        "He likes to look at the girls in the comics."
+      ],
+      "correct_answer": 1,
+      "rag_answer": "C) He likes to escape his real life.",
+      "is_correct": false
+    },
+    {
+      "problem_index": 155,
+      "question": "What is the most likely reason that Blake says he is a god?",
+      "options": [
+        "He has the ability to create beings at will",
+        "He is righteous",
+        "He chases and apprehends criminals",
+        "He is alive while his mom is dead"
+      ],
+      "correct_answer": 0,
+      "rag_answer": "A) He has the ability to create beings at will",
+      "is_correct": false
+    },
+    {
+      "problem_index": 156,
+      "question": "What is Blane's reaction to the crash?",
+      "options": [
+        "He has an outburst of anger but then becomes cheerful",
+        "He is so injured that he does not realize what has happened",
+        "He is furious with Splinter and refuses to speak to him after it",
+        "He is completely calm and tells Splinter not to worry"
+      ],
+      "correct_answer": 0,
+      "rag_answer": "A) He has an outburst of anger but then becomes cheerful",
+      "is_correct": false
+    },
+    {
+      "problem_index": 157,
+      "question": "When Pashkov asks Zubov how many cigars he is holding, does Zubov answer correctly?",
+      "options": [
+        "The apes distract him from answering.",
+        "Yes",
+        "He refuses to answer the question.",
+        "No"
+      ],
+      "correct_answer": 3,
+      "rag_answer": "B) Yes",
+      "is_correct": false
+    },
+    {
+      "problem_index": 158,
+      "question": "Why was Jonathan relieved when he entered the spaceship?",
+      "options": [
+        "He felt comfortable in familiar surroundings",
+        "The women were polite to him",
+        "He was starved and ready to eat",
+        "He thought he could escape like a mouse"
+      ],
+      "correct_answer": 0,
+      "rag_answer": "A) He felt comfortable in familiar surroundings",
+      "is_correct": false
+    },
+    {
+      "problem_index": 159,
+      "question": "What did Dan think Erica's motivation was for coming onto him physically?",
+      "options": [
+        "She was afraid of him",
+        "She felt sorry for him",
+        "She missed him",
+        "She like his new body"
+      ],
+      "correct_answer": 1,
+      "rag_answer": "B) She felt sorry for him",
+      "is_correct": false
+    },
+    {
+      "problem_index": 160,
+      "question": "What are the gender roles like in this community?",
+      "options": [
+        "The women hunt and the men watch the children",
+        "Men and women do an equal amount of raising the kids",
+        "Women do a lot of the business on behalf of each family",
+        "Men have to protect the group regularly"
+      ],
+      "correct_answer": 3,
+      "rag_answer": "D) Men have to protect the group regularly",
+      "is_correct": false
+    },
+    {
+      "problem_index": 161,
+      "question": "Why do owners want to build large ballparks?",
+      "options": [
+        "they want to increase the total number of seats",
+        "they can afford it and don't need to budget",
+        "they want to sell more expensive tickets to the rich",
+        "they want to help bring an economic boom to the area"
+      ],
+      "correct_answer": 2,
+      "rag_answer": "C) they want to sell more expensive tickets to the rich",
+      "is_correct": false
+    },
+    {
+      "problem_index": 162,
+      "question": "Why was Max happy to be paid with fruit?",
+      "options": [
+        "He was a civil servant",
+        "He loved apricots",
+        "His children loved fruit",
+        "Food was very scarce"
+      ],
+      "correct_answer": 3,
+      "rag_answer": "B) He loved apricots",
+      "is_correct": false
+    },
+    {
+      "problem_index": 163,
+      "question": "Why would Morgan be “worse than no help at all”?",
+      "options": [
+        "He writes fiction, so people will think he made up Parks' story.",
+        "He is against space exploration.",
+        "He lost his credibility by writing a fact story.",
+        "He is also lost and homeless."
+      ],
+      "correct_answer": 0,
+      "rag_answer": "A) He writes fiction, so people will think he made up Parks' story.",
+      "is_correct": false
+    },
+    {
+      "problem_index": 164,
+      "question": "Of the following options, which best summarizes this story?",
+      "options": [
+        "A woman auditions for her friend's play and gains perspective for what her future as an actress might be like.",
+        "A woman auditions for her friend's play and makes friends and connections in the process.",
+        "A woman auditions for her friend's play and wants to prove to her friend that he should write a role for her in the future.",
+        "A woman auditions for her friend's play and has a lot of fun seeing the audition process."
+      ],
+      "correct_answer": 1,
+      "rag_answer": "A) ",
+      "is_correct": false
+    },
+    {
+      "problem_index": 165,
+      "question": "What is a theme of the story?",
+      "options": [
+        "People who tell lies often will eventually get themselves into trouble.",
+        "The truth does not matter if no one believes it.",
+        "Space travel is dangerous.",
+        "There are aliens walking among us."
+      ],
+      "correct_answer": 1,
+      "rag_answer": "C) Space travel is dangerous.",
+      "is_correct": false
+    },
+    {
+      "problem_index": 166,
+      "question": "Which of the following technologies is the dreamcast most like?",
+      "options": [
+        "Telephone",
+        "Internet",
+        "Radio",
+        "Television"
+      ],
+      "correct_answer": 3,
+      "rag_answer": "B) Internet",
+      "is_correct": false
+    },
+    {
+      "problem_index": 167,
+      "question": "Why does LaHaye believe that Jewish suffering is deserved?",
+      "options": [
+        "He believes that Antichrist will almost certainly be Jewish",
+        "The actions of certain atheist Jews historically",
+        "It was prophesied in the Bible",
+        "They are counterfeit of the true Christ"
+      ],
+      "correct_answer": 1,
+      "rag_answer": "C) It was prophesied in the Bible",
+      "is_correct": false
+    },
+    {
+      "problem_index": 168,
+      "question": "What is Broom’s relationship with Contarini?",
+      "options": [
+        "They are strangers.",
+        "They are both prisoners.",
+        "They are brothers.",
+        "They are both con artists."
+      ],
+      "correct_answer": 1,
+      "rag_answer": "B) They are both prisoners.",
+      "is_correct": false
+    },
+    {
+      "problem_index": 169,
+      "question": "Why did Kimmy's wife leave him?",
+      "options": [
+        "She was worried about his mental health issues",
+        "She thought he was an extra terrestrial",
+        "She knew he did not want to remain on Earth",
+        "She thought he was neglectful"
+      ],
+      "correct_answer": 2,
+      "rag_answer": "B) She thought he was an extra terrestrial",
+      "is_correct": false
+    },
+    {
+      "problem_index": 170,
+      "question": "Which of the following is most true about Harry Smythe?",
+      "options": [
+        "He is infamous",
+        "He does not like the protagonist",
+        "He is hiding on Earth",
+        "He is a Martian"
+      ],
+      "correct_answer": 0,
+      "rag_answer": "C) He is hiding on Earth",
+      "is_correct": false
+    },
+    {
+      "problem_index": 171,
+      "question": "What was the woman's plan in going into space?",
+      "options": [
+        "To have her baby on the moon",
+        "To spy on her husband without him knowing",
+        "To kill herself",
+        "For her husband to fall back in love with her"
+      ],
+      "correct_answer": 3,
+      "rag_answer": "B) To spy on her husband without him knowing",
+      "is_correct": false
+    },
+    {
+      "problem_index": 172,
+      "question": "About how many years will it take from the first testing of maglev to the completion of the Chuo Shinkansen?",
+      "options": [
+        "65",
+        "27",
+        "6",
+        "62"
+      ],
+      "correct_answer": 0,
+      "rag_answer": "B) 27",
+      "is_correct": false
+    },
+    {
+      "problem_index": 173,
+      "question": "Why was the keyboard locked when the boss tried to put in an order?",
+      "options": [
+        "The machine was mad at him",
+        "He couldn't keep up with the mail",
+        "The machine was helping him",
+        "The system malfunctioned because of his tinkering"
+      ],
+      "correct_answer": 2,
+      "rag_answer": "C) The machine was helping him",
+      "is_correct": false
+    },
+    {
+      "problem_index": 174,
+      "question": "Of the following options, which is not an issue discussed within this fantasy world?",
+      "options": [
+        "Classism",
+        "Evil Corporations",
+        "Racism",
+        "Crimes"
+      ],
+      "correct_answer": 2,
+      "rag_answer": "C) Racism",
+      "is_correct": false
+    },
+    {
+      "problem_index": 175,
+      "question": "How did they feel about walking on the planet's surface?",
+      "options": [
+        "They refused to ever do it",
+        "They considered it uncivilized",
+        "They preferred to be there all the time",
+        "They liked to do it at least once a day"
+      ],
+      "correct_answer": 1,
+      "rag_answer": "B) They considered it uncivilized",
+      "is_correct": false
+    },
+    {
+      "problem_index": 176,
+      "question": "What item on board the ship does Burnett use an improvised weapon?",
+      "options": [
+        "The blood-pumps",
+        "The rockets",
+        "His surgical tools",
+        "The mechanical claw"
+      ],
+      "correct_answer": 3,
+      "rag_answer": "D) The mechanical claw",
+      "is_correct": false
+    },
+    {
+      "problem_index": 177,
+      "question": "Why were the people of Snaddra not dressed for the weather?",
+      "options": [
+        "They had never been outside before",
+        "They wanted the humans to look at them",
+        "They liked being cold",
+        "They could not afford clothes"
+      ],
+      "correct_answer": 0,
+      "rag_answer": "B) They wanted the humans to look at them",
+      "is_correct": false
+    },
+    {
+      "problem_index": 178,
+      "question": "What is the main difference between funding groups and academic institutions when it comes to OA?",
+      "options": [
+        "Funding groups allow waivers for the authors to not release their work",
+        "Funding groups only allow Gold OA policies",
+        "Academic institutions only allow Gold policies",
+        "Funding groups do not allow waivers for the authors to not release their work"
+      ],
+      "correct_answer": 3,
+      "rag_answer": "D) Funding groups do not allow waivers for the authors to not release their work",
+      "is_correct": false
+    },
+    {
+      "problem_index": 179,
+      "question": "Why is Walter in trouble?",
+      "options": [
+        "He is production manager and sales are down.",
+        "He spends too much company time on Koffee-Kup.",
+        "He was late to work by 4 minutes.",
+        "He comes and goes as he pleases."
+      ],
+      "correct_answer": 0,
+      "rag_answer": "C) He was late to work by 4 minutes.",
+      "is_correct": false
+    },
+    {
+      "problem_index": 180,
+      "question": "What were some of Nash’s working habits?",
+      "options": [
+        "Involving colleagues in round tables to brainstorm",
+        "Yelling in his office",
+        "It is never outlined",
+        "Going on long retreats"
+      ],
+      "correct_answer": 2,
+      "rag_answer": "C) It is never outlined",
+      "is_correct": false
+    },
+    {
+      "problem_index": 181,
+      "question": "What happened to the warden in the end?",
+      "options": [
+        "He was elected to the Council",
+        "He was woken up from his dream",
+        "He went on with his duties",
+        "He died"
+      ],
+      "correct_answer": 2,
+      "rag_answer": "C) He went on with his duties",
+      "is_correct": false
+    },
+    {
+      "problem_index": 182,
+      "question": "How does Lundgard end up getting left behind and needing a companion back to Earth?",
+      "options": [
+        "He was waiting behind to try to kill Johnny.",
+        "He basically \"took one for the team\" for his last crew, as he made a mistake, causing them to need to leave one person behind.  He volunteered to stay.",
+        "He is a criminal on the run, and he had not found a way to escape to Earth yet.",
+        "He stayed behind for a woman, but their relationship dissolved."
+      ],
+      "correct_answer": 1,
+      "rag_answer": "B) He basically \"took one for the team\" for his last crew, as he made a mistake, causing them to need to leave one person behind.  He volunteered to stay.",
+      "is_correct": false
+    },
+    {
+      "problem_index": 183,
+      "question": "Why didn't Solomon destroy the old cars instead?",
+      "options": [
+        "He liked them too much",
+        "He didn't have the means",
+        "They were worth too much",
+        "He was not allowed"
+      ],
+      "correct_answer": 0,
+      "rag_answer": "C) They were worth too much",
+      "is_correct": false
+    },
+    {
+      "problem_index": 184,
+      "question": "How long has Manet been at his post on Mars?",
+      "options": [
+        "unknown",
+        "11 years",
+        "3 years",
+        "17 years"
+      ],
+      "correct_answer": 0,
+      "rag_answer": "B) 11 years",
+      "is_correct": false
+    },
+    {
+      "problem_index": 185,
+      "question": "Why did the Grzdnth choose Earth to travel to?",
+      "options": [
+        "The Earthlings were very hospitable",
+        "It had the right climate for their gestation period",
+        "There was a large source of food for them",
+        "It was nearby in location to their most previous home"
+      ],
+      "correct_answer": 1,
+      "rag_answer": "B) It had the right climate for their gestation period",
+      "is_correct": false
+    },
+    {
+      "problem_index": 186,
+      "question": "Why wasn't anyone interested in the coils before the toy?",
+      "options": [
+        "They didn't know about it",
+        "They were too busy",
+        "It was too small-scale",
+        "They were interested"
+      ],
+      "correct_answer": 2,
+      "rag_answer": "C) It was too small-scale",
+      "is_correct": false
+    },
+    {
+      "problem_index": 187,
+      "question": "What reasons does the author give that Said’s actions might be controversial?",
+      "options": [
+        "Political commentary",
+        "Independent publishing",
+        "University lectures",
+        "Fashion"
+      ],
+      "correct_answer": 0,
+      "rag_answer": "A) Political commentary",
+      "is_correct": false
+    },
+    {
+      "problem_index": 188,
+      "question": "What surprised the author about his conversation with Rev. Falwell",
+      "options": [
+        "Falwell was excited to talk about the Antichrist",
+        "Falwell refused to talk the to author",
+        "Falwell only wanted to talk about the future of Jerusalem",
+        "Falwell showed remorse for some of his beliefs"
+      ],
+      "correct_answer": 0,
+      "rag_answer": "A) Falwell was excited to talk about the Antichrist",
+      "is_correct": false
+    },
+    {
+      "problem_index": 189,
+      "question": "What caused Mr. Partch to become catatonic?",
+      "options": [
+        "A few hours without any sound",
+        "The overwhelming noise of the jet engines",
+        "Being lost in the forest by himself",
+        "The pills that his therapist perscribed"
+      ],
+      "correct_answer": 0,
+      "rag_answer": "B) The overwhelming noise of the jet engines",
+      "is_correct": false
+    },
+    {
+      "problem_index": 190,
+      "question": "Every time a strong OA policy is put into use, ",
+      "options": [
+        "the system is strengthened, making future policies and decisions easier to develop.",
+        "researchers pull further away from the want to publish their work.",
+        "the prior structure is weakened, eventually leading to the end of OA.",
+        "universities can charge higher fees to access the information."
+      ],
+      "correct_answer": 0,
+      "rag_answer": "A",
+      "is_correct": true
+    },
+    {
+      "problem_index": 191,
+      "question": "How does the author likely feel about the present?",
+      "options": [
+        "He is optimistic",
+        "He is cynical",
+        "This is an impossible question to answer based on the article",
+        "He does not feel anything"
+      ],
+      "correct_answer": 0,
+      "rag_answer": "C) This is an impossible question to answer based on the article",
+      "is_correct": false
+    },
+    {
+      "problem_index": 192,
+      "question": "Why was Madison thinking about a child eating ice cream as he investigated?",
+      "options": [
+        "He was really hungry after seeing the workers' sandwich wrappers and craving something sweet.",
+        "The unique colorization of the granite looked like raspberry ice cream.",
+        "He missed his son, and eating ice cream together was a fond memory.",
+        "The haphazard way the granite was harvested and the bloody scene nearby reminded him of it."
+      ],
+      "correct_answer": 3,
+      "rag_answer": "D) The haphazard way the granite was harvested and the bloody scene nearby reminded him of it.",
+      "is_correct": false
+    },
+    {
+      "problem_index": 193,
+      "question": "When concerning green OA and gold OA,",
+      "options": [
+        "there are many areas that remain unclear, thus causing policy-making to be difficult unless a greater understanding of their distinctions is garnered.",
+        "all OA mandates are gold, but this is often misconstrued.",
+        "mandates for gold OA are the only ones that make sense.",
+        "there is really no difference."
+      ],
+      "correct_answer": 0,
+      "rag_answer": "D) there is really no difference.",
+      "is_correct": false
+    },
+    {
+      "problem_index": 194,
+      "question": "What does the author NOT rate for each class?",
+      "options": [
+        "The difficulty of the workout.",
+        "The cost of each class.",
+        "The degree that the class requires contact with other participants.",
+        "If the skills are useful for self-defense."
+      ],
+      "correct_answer": 1,
+      "rag_answer": "B) The cost of each class.",
+      "is_correct": false
+    },
+    {
+      "problem_index": 195,
+      "question": "Why are the Earthlings always \"invincibly benign?\" ",
+      "options": [
+        "All of the malevolent people are sent to Mars",
+        "There is no more inequality in Earth's society",
+        "People live to be much older and are more calm because of this",
+        "They undergo ethical conditioning"
+      ],
+      "correct_answer": 3,
+      "rag_answer": "D) They undergo ethical conditioning",
+      "is_correct": false
+    },
+    {
+      "problem_index": 196,
+      "question": "The Martian women",
+      "options": [
+        "are repulsive even to the Martian men.",
+        "want to emulate human women.",
+        "live in their own colonies, and they do not interact with others.",
+        "are very desirable to the Martian men, and they worry about their safety around the humans."
+      ],
+      "correct_answer": 0,
+      "rag_answer": "D) are very desirable to the Martian men, and they worry about their safety around the humans.",
+      "is_correct": false
+    },
+    {
+      "problem_index": 197,
+      "question": "What is Gavir's motivation?",
+      "options": [
+        "Fear",
+        "Money",
+        "Revenge",
+        "Fame"
+      ],
+      "correct_answer": 2,
+      "rag_answer": "C) Revenge",
+      "is_correct": false
+    },
+    {
+      "problem_index": 198,
+      "question": "The narrator should have caught on that there was something special about Skippy when",
+      "options": [
+        "Skippy was brought in on the scam.  No one that young should have been able to adapt to that situation so quickly.",
+        "Skippy laughed at things that were not deemed appropriate at the time, and he was unapologetic about it.",
+        "the narrator thinks that the kid must have better than 20/20 vision.",
+        "there was no time there were hints about Skippy being special.  The narrator was given no warning."
+      ],
+      "correct_answer": 1,
+      "rag_answer": "D) there was no time there were hints about Skippy being special.  The narrator was given no warning.",
+      "is_correct": false
+    },
+    {
+      "problem_index": 199,
+      "question": "How did all the efforts to protect Baxter make him feel?",
+      "options": [
+        "Concerned",
+        "Safer",
+        "Ambivalent",
+        "Indestructible"
+      ],
+      "correct_answer": 0,
+      "rag_answer": "A) Concerned",
+      "is_correct": false
+    },
+    {
+      "problem_index": 200,
+      "question": "Which of the following comparisons to cravings does the shop owner make when referring to the main character's affinity for air-war pulp magazines?",
+      "options": [
+        "narcotics",
+        "horror novels",
+        "cigarettes",
+        "pornography"
+      ],
+      "correct_answer": 2,
+      "rag_answer": "C) cigarettes",
+      "is_correct": false
+    }
+  ]
+}

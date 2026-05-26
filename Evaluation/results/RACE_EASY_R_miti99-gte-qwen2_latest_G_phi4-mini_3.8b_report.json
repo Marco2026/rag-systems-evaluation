@@ -1,0 +1,2617 @@
+{
+  "benchmark": "RACE_EASY",
+  "retriever_model": "miti99/gte-qwen2:latest",
+  "retriever_params": 1.8,
+  "retriever_size": 3.3,
+  "generator_model": "phi4-mini:3.8b",
+  "generator_params": 3.84,
+  "generator_size": 2.3,
+  "timestamp": "2026-04-18T01:19:04.186545",
+  "duration": "00:07:05",
+  "duration (seconds)": 425,
+  "total": 200,
+  "correct": 0,
+  "accuracy": 0.0,
+  "results": [
+    {
+      "problem_index": 1,
+      "question": "Jack became very worried one afternoon because   _  .",
+      "options": [
+        "Dick couldn't take him out for a walk at the usual time",
+        "a young man came to visit Dick that afternoon",
+        "Dick walked around his room several times",
+        "he couldn't find the young man's hat"
+      ],
+      "correct_answer": "A",
+      "rag_answer": "B) a young man came to visit Dick that afternoon.",
+      "is_correct": false
+    },
+    {
+      "problem_index": 2,
+      "question": "Which of the following statements is TRUE?",
+      "options": [
+        "Local stores have few areas for people to put signs.",
+        "You can only get one service on the notice board.",
+        "The Craigslist Web site can get two million new jobs each week.",
+        "Susan Miller has helped many people find a good job successfully."
+      ],
+      "correct_answer": "D",
+      "rag_answer": "D) Susan Miller has helped many people find a good job successfully.",
+      "is_correct": false
+    },
+    {
+      "problem_index": 3,
+      "question": "What does the passage mainly want to tell us ?",
+      "options": [
+        "Rules for US bars and restaurants.",
+        "Ways of sitting with people you don't know.",
+        "Doggie bags for keeping food for yourselves .",
+        "Dinner customs in the US restaurants."
+      ],
+      "correct_answer": "D",
+      "rag_answer": "D) Dinner customs in the US restaurants.",
+      "is_correct": false
+    },
+    {
+      "problem_index": 4,
+      "question": "You found a school ID card. Maybe   it belongs to     _  .",
+      "options": [
+        "Mike",
+        "Jenny",
+        "Tony",
+        "Tom"
+      ],
+      "correct_answer": "A",
+      "rag_answer": "A) Mike",
+      "is_correct": false
+    },
+    {
+      "problem_index": 5,
+      "question": "In fact, Jack and Steve   _",
+      "options": [
+        "were not ill at all",
+        "wanted to watch the football final on TV",
+        "both A and B",
+        "are terrible ill"
+      ],
+      "correct_answer": "C",
+      "rag_answer": "A) were not ill at all",
+      "is_correct": false
+    },
+    {
+      "problem_index": 6,
+      "question": "When people without jobs go to the doctors, they",
+      "options": [
+        "get free   medical care at home",
+        "get free prescriptions",
+        "get free medicine in the hospital",
+        "get free medicine in the medicine shop"
+      ],
+      "correct_answer": "B",
+      "rag_answer": "B) get free prescriptions",
+      "is_correct": false
+    },
+    {
+      "problem_index": 7,
+      "question": "Which of the following is wrong about Hill?",
+      "options": [
+        "He accepted his stepmother's typewriter.",
+        "He fa iled to do as he was expected.",
+        "He started writing to a local newspaper.",
+        "He understood his stepmother."
+      ],
+      "correct_answer": "B",
+      "rag_answer": "B) He failed to do as he was expected.",
+      "is_correct": false
+    },
+    {
+      "problem_index": 8,
+      "question": "Li Yan's parents are in  _  .",
+      "options": [
+        "Yangzhou",
+        "Australia",
+        "America",
+        "England"
+      ],
+      "correct_answer": "D",
+      "rag_answer": "D) England",
+      "is_correct": false
+    },
+    {
+      "problem_index": 9,
+      "question": "The farmer didn't lift the bag onto the horse by himself because  _  .",
+      "options": [
+        "the bag was broken",
+        "the horse went away",
+        "the bag was too heavy",
+        "the farmer was ill"
+      ],
+      "correct_answer": "C",
+      "rag_answer": "C) the bag was too heavy",
+      "is_correct": false
+    },
+    {
+      "problem_index": 10,
+      "question": "After the party, Jessica's parents looked for the writer to   _  .",
+      "options": [
+        "give her a gift from Becky",
+        "ask her how to get an \"A\"",
+        "learn about Jessica's behavior",
+        "thank Becky's kindness for Jessica"
+      ],
+      "correct_answer": "D",
+      "rag_answer": "D) thank Becky's kindness for Jessica",
+      "is_correct": false
+    },
+    {
+      "problem_index": 11,
+      "question": "Robinson is always under the desk if the boss is  _  .",
+      "options": [
+        "in the office",
+        "at the meetings",
+        "out of the office",
+        "out of the work"
+      ],
+      "correct_answer": "A",
+      "rag_answer": "A) in the office",
+      "is_correct": false
+    },
+    {
+      "problem_index": 12,
+      "question": "When the third Frenchman went back, the English friend   _   .",
+      "options": [
+        "was washing his face",
+        "was having his breakfast",
+        "was still in an upstairs room",
+        "was reading a newspaper"
+      ],
+      "correct_answer": "C",
+      "rag_answer": "C) was still in an upstairs room.",
+      "is_correct": false
+    },
+    {
+      "problem_index": 13,
+      "question": "Why do some people like traveling alone ?",
+      "options": [
+        "Because they want to see interesting sights.",
+        "Because they have different ways to travel.",
+        "Because they are free to see what they want to see.",
+        "Because they want to learn more about people from other countries."
+      ],
+      "correct_answer": "C",
+      "rag_answer": "C) Because they are free to see what they want to see.",
+      "is_correct": false
+    },
+    {
+      "problem_index": 14,
+      "question": "Which one is true?",
+      "options": [
+        "Old John smoked before",
+        "Old John smoked less than  before",
+        "Old John didn't smoke before",
+        "Old John didn't smoke a cigar a day"
+      ],
+      "correct_answer": "C",
+      "rag_answer": "C) Old John didn't smoke before",
+      "is_correct": false
+    },
+    {
+      "problem_index": 15,
+      "question": "According the survey ,  _  young people take a lot of exercise .",
+      "options": [
+        "20%",
+        "30%",
+        "15%",
+        "9%"
+      ],
+      "correct_answer": "D",
+      "rag_answer": "D) 9%",
+      "is_correct": false
+    },
+    {
+      "problem_index": 16,
+      "question": "How do you understand a \"win-win\" solution?",
+      "options": [
+        "It is a way that helps make new friends.",
+        "It is a way that makes both people pleased.",
+        "It is a way that tells who is right and who is wrong.",
+        "It is a way to understand a person."
+      ],
+      "correct_answer": "B",
+      "rag_answer": "B) It is a way that makes both people pleased.",
+      "is_correct": false
+    },
+    {
+      "problem_index": 17,
+      "question": "Your dreams can be very   _  , such as becoming one of the best students in your class.",
+      "options": [
+        "big",
+        "small",
+        "high",
+        "low"
+      ],
+      "correct_answer": "B",
+      "rag_answer": "B) small",
+      "is_correct": false
+    },
+    {
+      "problem_index": 18,
+      "question": "The young camel sees the oasis   _  .",
+      "options": [
+        "just on the left",
+        "just on the right",
+        "neither on the left nor on the right",
+        "not only on the left but also on the fight"
+      ],
+      "correct_answer": "A",
+      "rag_answer": "A) just on the left",
+      "is_correct": false
+    },
+    {
+      "problem_index": 19,
+      "question": "You don't need  _  for your milk shake.",
+      "options": [
+        "icecream",
+        "milk",
+        "a blender",
+        "juice"
+      ],
+      "correct_answer": "D",
+      "rag_answer": "B) milk",
+      "is_correct": false
+    },
+    {
+      "problem_index": 20,
+      "question": "There are   _   rooms in Millie's house.",
+      "options": [
+        "three",
+        "four",
+        "five",
+        "six"
+      ],
+      "correct_answer": "C",
+      "rag_answer": "B) four",
+      "is_correct": false
+    },
+    {
+      "problem_index": 21,
+      "question": "If a person travels for adventure, he may choose   _   to get a different experience.",
+      "options": [
+        "eating",
+        "shopping",
+        "bungee jumping",
+        "sleeping"
+      ],
+      "correct_answer": "C",
+      "rag_answer": "C) bungee jumping",
+      "is_correct": false
+    },
+    {
+      "problem_index": 22,
+      "question": "The teacher is going to read the students' exercise books  _",
+      "options": [
+        "in class",
+        "at home",
+        "at school",
+        "in classroom"
+      ],
+      "correct_answer": "B",
+      "rag_answer": "B) at home",
+      "is_correct": false
+    },
+    {
+      "problem_index": 23,
+      "question": "A club isn't really a club if   _  .",
+      "options": [
+        "its members aren't interested in music",
+        "there are only ten people in it",
+        "only your friends want to join it",
+        "activities are organized once a week"
+      ],
+      "correct_answer": "C",
+      "rag_answer": "C) only your friends want to join it",
+      "is_correct": false
+    },
+    {
+      "problem_index": 24,
+      "question": "From the letter we know that Tom loves  _  and Jill loves  _  .",
+      "options": [
+        "sports; animals",
+        "music; animals",
+        "sports; dancing",
+        "animals; sports"
+      ],
+      "correct_answer": "A",
+      "rag_answer": "A) sports; animals",
+      "is_correct": false
+    },
+    {
+      "problem_index": 25,
+      "question": "Karl's father likes   _   very much.",
+      "options": [
+        "bananas",
+        "apples",
+        "strawberries",
+        "pears"
+      ],
+      "correct_answer": "B",
+      "rag_answer": "B) apples",
+      "is_correct": false
+    },
+    {
+      "problem_index": 26,
+      "question": "What are the most popular online?",
+      "options": [
+        "Candies and DVD players.",
+        "Treasure products.",
+        "Clothing and home-use products.",
+        "Clothes and books."
+      ],
+      "correct_answer": "C",
+      "rag_answer": "C) Clothing and home-use products.",
+      "is_correct": false
+    },
+    {
+      "problem_index": 27,
+      "question": "The passage was written mainly to tell us that   _  .",
+      "options": [
+        "children should be praised",
+        "Hill's father married again",
+        "Hill's stepmother wan kind to him",
+        "Hill'S father was cruel to him"
+      ],
+      "correct_answer": "A",
+      "rag_answer": "A) children should be praised",
+      "is_correct": false
+    },
+    {
+      "problem_index": 28,
+      "question": "What is the main idea of the passage?",
+      "options": [
+        "Fire can help people in many ways.",
+        "Fire can be both helpful and harmful.",
+        "Fire can burn things and people",
+        "We must be careful with matches."
+      ],
+      "correct_answer": "B",
+      "rag_answer": "B)",
+      "is_correct": false
+    },
+    {
+      "problem_index": 29,
+      "question": "How many RCSC's rescue teams have arrived in the tsunami-hit countries?",
+      "options": [
+        "One.",
+        "Two.",
+        "Three.",
+        "Four."
+      ],
+      "correct_answer": "B",
+      "rag_answer": "B) Two.",
+      "is_correct": false
+    },
+    {
+      "problem_index": 30,
+      "question": "Which of the following is TRUE about the truants in England recently?",
+      "options": [
+        "The police can not stop girl truants.",
+        "Truants are often beaten by the police.",
+        "Truants are often criticized   by their teachers.",
+        "There are more boy truants than girl truants."
+      ],
+      "correct_answer": "D",
+      "rag_answer": "D) There are more boy truants than girl truants.",
+      "is_correct": false
+    },
+    {
+      "problem_index": 31,
+      "question": "The son ran out of the house angrily because   _  .",
+      "options": [
+        "his father said something wrong to him",
+        "his father gave him nothing",
+        "he thought his father only gave him a Bible",
+        "his father didn't love him"
+      ],
+      "correct_answer": "C",
+      "rag_answer": "C) he thought his father only gave him a Bible",
+      "is_correct": false
+    },
+    {
+      "problem_index": 32,
+      "question": "Which of the following sentence is true according to the passage?",
+      "options": [
+        "It's good for kids to micro blog for more than one hour a day.",
+        "Kids should believe all the messages on a micro blog because they are useful.",
+        "Many young people have written something on micro blogs since two years ago.",
+        "Kids should try to talk face to face with people, not just micro blogging."
+      ],
+      "correct_answer": "D",
+      "rag_answer": "D) Kids should try to talk face to face with people, not just micro blogging.",
+      "is_correct": false
+    },
+    {
+      "problem_index": 33,
+      "question": "George was interested in    _  .",
+      "options": [
+        "taking small planes",
+        "doing tricks in planes",
+        "reading books about planes",
+        "drawing pictures"
+      ],
+      "correct_answer": "B",
+      "rag_answer": "B) doing tricks in planes",
+      "is_correct": false
+    },
+    {
+      "problem_index": 34,
+      "question": "What's the best title of this passage(  )?",
+      "options": [
+        "Dark color",
+        "Color",
+        "Heat",
+        "Clothes"
+      ],
+      "correct_answer": "B",
+      "rag_answer": "B) Color",
+      "is_correct": false
+    },
+    {
+      "problem_index": 35,
+      "question": "Ten of the students   _  .",
+      "options": [
+        "come to school by bike",
+        "come to school late",
+        "come to school very early",
+        "live in the school"
+      ],
+      "correct_answer": "B",
+      "rag_answer": "B) come to school late",
+      "is_correct": false
+    },
+    {
+      "problem_index": 36,
+      "question": "Why did the boy's father become a different person?",
+      "options": [
+        "Because the boy didn't study very hard.",
+        "Because he lost a leg and couldn't support the family.",
+        "Because he lost an arm in an accident.",
+        "Because it was the coldest winter."
+      ],
+      "correct_answer": "C",
+      "rag_answer": "B) Because he lost a leg and couldn't support the family.",
+      "is_correct": false
+    },
+    {
+      "problem_index": 37,
+      "question": "On the Craigslist Web site,you can't  _  .",
+      "options": [
+        "find ajob",
+        "meet people",
+        "sell your old things",
+        "do some shopping online"
+      ],
+      "correct_answer": "C",
+      "rag_answer": "A) find a job",
+      "is_correct": false
+    },
+    {
+      "problem_index": 38,
+      "question": "Which is true about Rihanna's first album ?",
+      "options": [
+        "It included her first number one hit in the US.",
+        "It sold69,000 copies in total.",
+        "It made Rihanna a star.",
+        "It came out before she finished school."
+      ],
+      "correct_answer": "C",
+      "rag_answer": "C) It made Rihanna a star.",
+      "is_correct": false
+    },
+    {
+      "problem_index": 39,
+      "question": "What is the passage mainly about?",
+      "options": [
+        "How to spend your free time.",
+        "Some good habits at home.",
+        "How to do your homework.",
+        "Some don't do and do in schools."
+      ],
+      "correct_answer": "C",
+      "rag_answer": "C) How to do your homework.",
+      "is_correct": false
+    },
+    {
+      "problem_index": 40,
+      "question": "Alexandra's painting   _  .",
+      "options": [
+        "took her a lot of time at school",
+        "made her drop out of school",
+        "didn't influence her studies at school",
+        "made her fall behind others in studies at school"
+      ],
+      "correct_answer": "C",
+      "rag_answer": "C) didn't influence her studies at school",
+      "is_correct": false
+    },
+    {
+      "problem_index": 41,
+      "question": "The taxi driver took the young man through many street to   _",
+      "options": [
+        "make the young man happy",
+        "get more than twenty dollars",
+        "let the young man think it was very far from the bus station to the hotel",
+        "let the young man have a good look at the city"
+      ],
+      "correct_answer": "C",
+      "rag_answer": "C) let the young man think it was very far from the bus station to the hotel",
+      "is_correct": false
+    },
+    {
+      "problem_index": 42,
+      "question": "Many people in England have a   _   breakfast and a   _   lunch.",
+      "options": [
+        "fast; small",
+        "little; slow",
+        "big; quick",
+        "slow; big"
+      ],
+      "correct_answer": "C",
+      "rag_answer": "B) little; small",
+      "is_correct": false
+    },
+    {
+      "problem_index": 43,
+      "question": "When we are studying ,  _  .",
+      "options": [
+        "we must chat with friends on the phone",
+        "we'd better Listen to pop music",
+        "we have to eat something",
+        "we should put our hearts into the book"
+      ],
+      "correct_answer": "D",
+      "rag_answer": "D) we should put our hearts into the book.",
+      "is_correct": false
+    },
+    {
+      "problem_index": 44,
+      "question": "The bed is not connected to   _   .",
+      "options": [
+        "an alarm clock",
+        "a tape recorder",
+        "a TV",
+        "a mechanical \"foot\""
+      ],
+      "correct_answer": "C",
+      "rag_answer": "A) an alarm clock",
+      "is_correct": false
+    },
+    {
+      "problem_index": 45,
+      "question": "Which of the following about Wang Tao is NOT true according to the passage?",
+      "options": [
+        "He has a strong will.",
+        "He is warm hearted.",
+        "He is good at maths.",
+        "He likes art very much."
+      ],
+      "correct_answer": "D",
+      "rag_answer": "B) He is warm-hearted.",
+      "is_correct": false
+    },
+    {
+      "problem_index": 46,
+      "question": "What is the problem in Sun's village?",
+      "options": [
+        "They don't have enough food.",
+        "They don't have enough water.",
+        "They have to walk far away to go to school.",
+        "There are fewer and fewer villagers."
+      ],
+      "correct_answer": "B",
+      "rag_answer": "B) They don't have enough water.",
+      "is_correct": false
+    },
+    {
+      "problem_index": 47,
+      "question": "The backpack is    _   .",
+      "options": [
+        "the boy's",
+        "Jenny's",
+        "Sonia's",
+        "the teacher's"
+      ],
+      "correct_answer": "B",
+      "rag_answer": "B) Jenny's",
+      "is_correct": false
+    },
+    {
+      "problem_index": 48,
+      "question": "How old is Li Ling?",
+      "options": [
+        "27.",
+        "28.",
+        "29",
+        "30"
+      ],
+      "correct_answer": "B",
+      "rag_answer": "C) 29.",
+      "is_correct": false
+    },
+    {
+      "problem_index": 49,
+      "question": "The virtual fitting room is technology that  _  .",
+      "options": [
+        "allows people to watch a movie while trying on clothes",
+        "can help people buy clothes on the Internet",
+        "can help people choose clothes without having to try them on",
+        "allows people to walk freely in the fitting room"
+      ],
+      "correct_answer": "C",
+      "rag_answer": "C) can help people choose clothes without having to try them on",
+      "is_correct": false
+    },
+    {
+      "problem_index": 50,
+      "question": "There are  _  students in the class.",
+      "options": [
+        "23",
+        "22",
+        "12",
+        "45"
+      ],
+      "correct_answer": "D",
+      "rag_answer": "D) 45",
+      "is_correct": false
+    },
+    {
+      "problem_index": 51,
+      "question": "Truants are more likely to   _  .",
+      "options": [
+        "eat much",
+        "drink water",
+        "fail in exams",
+        "find a job"
+      ],
+      "correct_answer": "C",
+      "rag_answer": "C) fail in exams",
+      "is_correct": false
+    },
+    {
+      "problem_index": 52,
+      "question": "Which of the following is true?",
+      "options": [
+        "Running helps you win a marathon.",
+        "Running helps you improve your study.",
+        "Running helps you think more about yourself.",
+        "Running helps you set realistic goals in your life."
+      ],
+      "correct_answer": "B",
+      "rag_answer": "B) Running helps you improve your study.",
+      "is_correct": false
+    },
+    {
+      "problem_index": 53,
+      "question": "What is the passage mainly about?",
+      "options": [
+        "The cost of a college education",
+        "How to pay for a college education",
+        "How to borrow money from family",
+        "Spending money wisely at college"
+      ],
+      "correct_answer": "D",
+      "rag_answer": "A) The cost of a college education",
+      "is_correct": false
+    },
+    {
+      "problem_index": 54,
+      "question": "Who didn't really enjoy the stay in a foreign country very much?",
+      "options": [
+        "Mariko.",
+        "Carla.",
+        "Alvin.",
+        "None of them."
+      ],
+      "correct_answer": "B",
+      "rag_answer": "B) Carla.",
+      "is_correct": false
+    },
+    {
+      "problem_index": 55,
+      "question": "When Uncle George waved to his friends, they became   _  .",
+      "options": [
+        "worried",
+        "happy",
+        "sad",
+        "surprised"
+      ],
+      "correct_answer": "B",
+      "rag_answer": "B) happy",
+      "is_correct": false
+    },
+    {
+      "problem_index": 56,
+      "question": "Joy is David's   _   .",
+      "options": [
+        "brother",
+        "friend",
+        "sister",
+        "classmate"
+      ],
+      "correct_answer": "C",
+      "rag_answer": "C) sister",
+      "is_correct": false
+    },
+    {
+      "problem_index": 57,
+      "question": "How did people feel when Tom appeared at his town funeral?",
+      "options": [
+        "They were surprised and pleased.",
+        "They were surprised and sad.",
+        "They were worried and excited.",
+        "They were frightened and happy"
+      ],
+      "correct_answer": "A",
+      "rag_answer": "B) They were surprised and sad.",
+      "is_correct": false
+    },
+    {
+      "problem_index": 58,
+      "question": "The Friendship Building is the place where the writer  _  .",
+      "options": [
+        "lives",
+        "studies",
+        "works",
+        "teaches"
+      ],
+      "correct_answer": "C",
+      "rag_answer": "C) works",
+      "is_correct": false
+    },
+    {
+      "problem_index": 59,
+      "question": "Anna's new coat is   _  yuan.",
+      "options": [
+        "40",
+        "45",
+        "50",
+        "55"
+      ],
+      "correct_answer": "B",
+      "rag_answer": "B) 45",
+      "is_correct": false
+    },
+    {
+      "problem_index": 60,
+      "question": "Expenses that do not change include   _  .",
+      "options": [
+        "tuition",
+        "clothes",
+        "phone",
+        "food"
+      ],
+      "correct_answer": "A",
+      "rag_answer": "A) tuition",
+      "is_correct": false
+    },
+    {
+      "problem_index": 61,
+      "question": "I have  _  at eleven forty .",
+      "options": [
+        "breakfast",
+        "lunch",
+        "dinner",
+        "supper"
+      ],
+      "correct_answer": "B",
+      "rag_answer": "A) breakfast",
+      "is_correct": false
+    },
+    {
+      "problem_index": 62,
+      "question": "What is the passage mainly about?",
+      "options": [
+        "Ways to find mirror neurons.",
+        "Problems of mirror neurons.",
+        "Discovery of mirror neurons.",
+        "Functions of mirror neurons."
+      ],
+      "correct_answer": "D",
+      "rag_answer": "D) Functions of mirror neurons.",
+      "is_correct": false
+    },
+    {
+      "problem_index": 63,
+      "question": "What's the best title for this passage?",
+      "options": [
+        "Lovely kids",
+        "Hard-working parents",
+        "Family wishes",
+        "A busy family"
+      ],
+      "correct_answer": "D",
+      "rag_answer": "B) Hard-working parents",
+      "is_correct": false
+    },
+    {
+      "problem_index": 64,
+      "question": "The usual size of cars today are  _  that of future cars.",
+      "options": [
+        "smaller than",
+        "the same as",
+        "three times as large as",
+        "a little larger than"
+      ],
+      "correct_answer": "C",
+      "rag_answer": "B) the same as",
+      "is_correct": false
+    },
+    {
+      "problem_index": 65,
+      "question": "What does the story mainly   tell us?",
+      "options": [
+        "Everybody should become a great man.",
+        "We should help the man who is in trouble.",
+        "Everybody couldn't do as the farmer did.",
+        "We should pay for other's help."
+      ],
+      "correct_answer": "B",
+      "rag_answer": "B) We should help the man who is in trouble.",
+      "is_correct": false
+    },
+    {
+      "problem_index": 66,
+      "question": "About HFMD, which one is right?",
+      "options": [
+        "It's the same as Mad Cow Disease .",
+        "It first appeared in China.",
+        "Adults can be infected too.",
+        "There is vaccine now."
+      ],
+      "correct_answer": "C",
+      "rag_answer": "C) Adults can be infected too.",
+      "is_correct": false
+    },
+    {
+      "problem_index": 67,
+      "question": "The invention of Post-it Notes showed that Art Fry  _   .",
+      "options": [
+        "had a lot of knowledge",
+        "was very hard-working",
+        "was good at creative thinking",
+        "loved his job in the church"
+      ],
+      "correct_answer": "C",
+      "rag_answer": "C) was good at creative thinking",
+      "is_correct": false
+    },
+    {
+      "problem_index": 68,
+      "question": "Peter was surprised that his uncle   _",
+      "options": [
+        "waved to everybody they passed",
+        "knew everybody there",
+        "said hello to everyone",
+        "didn't know all the people they passed"
+      ],
+      "correct_answer": "A",
+      "rag_answer": "A)_wave to everybody they passed_",
+      "is_correct": false
+    },
+    {
+      "problem_index": 69,
+      "question": "Where are the insects or the snakes after the ants pass through?",
+      "options": [
+        "They hide themselves under the ground.",
+        "They have moved to other places before the ants come.",
+        "They can be killed and eaten up by the ants.",
+        "They were killed by people."
+      ],
+      "correct_answer": "C",
+      "rag_answer": "C) They can be killed and eaten up by the ants.",
+      "is_correct": false
+    },
+    {
+      "problem_index": 70,
+      "question": "_  leaves  the note .",
+      "options": [
+        "Jane.",
+        "Jane's father",
+        "Jane's mother",
+        "Jane's friend"
+      ],
+      "correct_answer": "C",
+      "rag_answer": "D) Jane's friend.",
+      "is_correct": false
+    },
+    {
+      "problem_index": 71,
+      "question": "In the passage the writer tries to tell us that  _  .",
+      "options": [
+        "we have to use a dictionary when we read something in English",
+        "an English-Chinese dictionary can tell us everything about a word",
+        "an English-Chinese dictionary can help us a lot in our English study",
+        "all English-Chinese dictionary are the same"
+      ],
+      "correct_answer": "A",
+      "rag_answer": "C) an English-Chinese dictionary can help us a lot in our English study",
+      "is_correct": false
+    },
+    {
+      "problem_index": 72,
+      "question": "Which is NOT true according to the passage?",
+      "options": [
+        "It took them 2 hours to drive through the city.",
+        "The old lady was the writer's relative.",
+        "The writer made a living by driving a taxi.",
+        "The old lady got happy because of the writer's kindness."
+      ],
+      "correct_answer": "B",
+      "rag_answer": "B) The old lady was the writer's relative.",
+      "is_correct": false
+    },
+    {
+      "problem_index": 73,
+      "question": "From the passage we can know that   _   .",
+      "options": [
+        "a new-born baby hates everyone around her.",
+        "a new-born baby is the most beautiful one.",
+        "People who tell white lies are not kind.",
+        "People who tell white lies want to be kind."
+      ],
+      "correct_answer": "D",
+      "rag_answer": "D) People who tell white lies want to be kind.",
+      "is_correct": false
+    },
+    {
+      "problem_index": 74,
+      "question": "\" An apple a day keeps the doctor away\"  means   _",
+      "options": [
+        "The doctor goes away when he sees an apple",
+        "The doctor runs away when you give him an apple",
+        "You eat an apple every day and you can be thin",
+        "You eat an apple every day and you can be healthy."
+      ],
+      "correct_answer": "D",
+      "rag_answer": "D) You eat an apple every day and you can be healthy.",
+      "is_correct": false
+    },
+    {
+      "problem_index": 75,
+      "question": "Why did the young man move the stone out of the road?",
+      "options": [
+        "Because he was strong enough to move it.",
+        "Because he knew there was a bag of money under it.",
+        "Because he didn't want other people to fall and get hurt.",
+        "Because the rich man wanted him to do so."
+      ],
+      "correct_answer": "C",
+      "rag_answer": "B) Because he knew there was a bag of money under it.",
+      "is_correct": false
+    },
+    {
+      "problem_index": 76,
+      "question": "Why do the millennials experct to share their work and ideas with others?",
+      "options": [
+        "Because they know how to use the Internet to make new friends.",
+        "Because they understand how to communicate with new friends.",
+        "Because they grow up sharing ideas, music, information, games, and friendships with others by the Internet.",
+        "Because the Internet can provide all the information they need."
+      ],
+      "correct_answer": "C",
+      "rag_answer": "C) Because they grew up sharing ideas, music, information, games, and friendships with others by the Internet.",
+      "is_correct": false
+    },
+    {
+      "problem_index": 77,
+      "question": "Drinking tea has lots of advantages EXCEPT   _  .",
+      "options": [
+        "help you lose weight",
+        "letting you feel less tired",
+        "having a strong wish for food",
+        "clearing heat inside your body"
+      ],
+      "correct_answer": "C",
+      "rag_answer": "C) having a strong wish for food",
+      "is_correct": false
+    },
+    {
+      "problem_index": 78,
+      "question": "\"I don't know all these people\" means   _  .",
+      "options": [
+        "I know none of these people",
+        "I know some of these people",
+        "I don't know any of these people",
+        "I know most of these people"
+      ],
+      "correct_answer": "B",
+      "rag_answer": "C) I don't know any of these people.",
+      "is_correct": false
+    },
+    {
+      "problem_index": 79,
+      "question": "If you are with type A,you might   _  .",
+      "options": [
+        "have strong minds",
+        "be always ready to help others",
+        "look peaceful outside",
+        "always start a task and don't finish it"
+      ],
+      "correct_answer": "C",
+      "rag_answer": "C) look peaceful outside",
+      "is_correct": false
+    },
+    {
+      "problem_index": 80,
+      "question": "The children begin to laugh because   _  .",
+      "options": [
+        "Mike wants to be a teacher",
+        "Mike draws a cat on the teacher's desk",
+        "Mike doesn't find Miss White behind him",
+        "Mike wants to clean the blackboard"
+      ],
+      "correct_answer": "C",
+      "rag_answer": "C) Mike doesn't find Miss White behind him.",
+      "is_correct": false
+    },
+    {
+      "problem_index": 81,
+      "question": "What were the young man's new trousers like at first?",
+      "options": [
+        "They were a bit too long.",
+        "They were just suitable.",
+        "They were too short for him.",
+        "There were about two inches shorter."
+      ],
+      "correct_answer": "A",
+      "rag_answer": "A) They were a bit too long.",
+      "is_correct": false
+    },
+    {
+      "problem_index": 82,
+      "question": "Save the Children is something similar to  _  .",
+      "options": [
+        "IOC",
+        "Greener China",
+        "WHO",
+        "Project Hope"
+      ],
+      "correct_answer": "D",
+      "rag_answer": "C) WHO",
+      "is_correct": false
+    },
+    {
+      "problem_index": 83,
+      "question": "The old lady went through the city because   _  .",
+      "options": [
+        "she wanted to show she knew the city very well",
+        "she didn't want to reach the hospice early",
+        "she wanted to see some places for the last time",
+        "she let the driver earn more money"
+      ],
+      "correct_answer": "C",
+      "rag_answer": "C) she wanted to see some places for the last time",
+      "is_correct": false
+    },
+    {
+      "problem_index": 84,
+      "question": "Her ID number is   _  .",
+      "options": [
+        "806-8027",
+        "89837654",
+        "87765465",
+        "80765465"
+      ],
+      "correct_answer": "B",
+      "rag_answer": "B) 89837654",
+      "is_correct": false
+    },
+    {
+      "problem_index": 85,
+      "question": "What's the passage mainly about?",
+      "options": [
+        "Some Earth Day activities for children.",
+        "Some knowledge children should know.",
+        "How to protect our nature.",
+        "How to learn with our children."
+      ],
+      "correct_answer": "A",
+      "rag_answer": "A) Some Earth Day activities for children.",
+      "is_correct": false
+    },
+    {
+      "problem_index": 86,
+      "question": "What did the writer mean when she said, \"I grew up with it\"?",
+      "options": [
+        "She helped clean the garbage out of the river.",
+        "She spent much time playing around the river.",
+        "She had many friends who lived near the river.",
+        "She grew well by eating fish and clams from the river."
+      ],
+      "correct_answer": "B",
+      "rag_answer": "B) She spent much time playing around the river.",
+      "is_correct": false
+    },
+    {
+      "problem_index": 87,
+      "question": "What does Mark teach children about?",
+      "options": [
+        "Farms.",
+        "Food.",
+        "Business.",
+        "Restaurants."
+      ],
+      "correct_answer": "B",
+      "rag_answer": "B) Food.",
+      "is_correct": false
+    },
+    {
+      "problem_index": 88,
+      "question": "Schaeffer found out that  _  .",
+      "options": [
+        "the best paper was in the forest",
+        "a German made the best paper",
+        "wood could be made into the best paper",
+        "the oldest paper was made 1,500 years ago"
+      ],
+      "correct_answer": "C",
+      "rag_answer": "C) wood could be made into the best paper",
+      "is_correct": false
+    },
+    {
+      "problem_index": 89,
+      "question": "What is Li Ling's dream  ?",
+      "options": [
+        "She wants to have a good school.",
+        "She wants to be a kind teacher.",
+        "She wants to help left-behind children.",
+        "She wants to move China."
+      ],
+      "correct_answer": "A",
+      "rag_answer": "A) She wants to have a good school.",
+      "is_correct": false
+    },
+    {
+      "problem_index": 90,
+      "question": "What subjects did Bill like best at school?",
+      "options": [
+        "Science and math",
+        "Languages and art",
+        "Math and languages",
+        "Music and P.E"
+      ],
+      "correct_answer": "A",
+      "rag_answer": "B) Languages and art",
+      "is_correct": false
+    },
+    {
+      "problem_index": 91,
+      "question": "You need  _  of icecream",
+      "options": [
+        "a glass",
+        "two spoons",
+        "125g",
+        "150ml"
+      ],
+      "correct_answer": "B",
+      "rag_answer": "B) two spoons",
+      "is_correct": false
+    },
+    {
+      "problem_index": 92,
+      "question": "Children near the beach can enjoy the sea  _",
+      "options": [
+        "in the evening",
+        "for one or two weeks",
+        "for two months",
+        "very often"
+      ],
+      "correct_answer": "D",
+      "rag_answer": "B) for one or two weeks",
+      "is_correct": false
+    },
+    {
+      "problem_index": 93,
+      "question": "We can heat water, produce electricity or create fresh air for the home   _  .",
+      "options": [
+        "with a leaf from the tree",
+        "with the energy from sunlight",
+        "with gardens on its wall",
+        "with the door in the house"
+      ],
+      "correct_answer": "B",
+      "rag_answer": "B) with the energy from sunlight",
+      "is_correct": false
+    },
+    {
+      "problem_index": 94,
+      "question": "_   students come to school on foot.",
+      "options": [
+        "Thirty",
+        "Twenty",
+        "Thirty-eight",
+        "Ten"
+      ],
+      "correct_answer": "D",
+      "rag_answer": "D) Ten",
+      "is_correct": false
+    },
+    {
+      "problem_index": 95,
+      "question": "Ann and her children will go to Linda's home on about  _  .",
+      "options": [
+        "October 1",
+        "October 7",
+        "October 15",
+        "October 28"
+      ],
+      "correct_answer": "C",
+      "rag_answer": "B) October 7",
+      "is_correct": false
+    },
+    {
+      "problem_index": 96,
+      "question": "what can you see on the wall of the room?",
+      "options": [
+        "Two maps.",
+        "A clock.",
+        "A chair",
+        "A window"
+      ],
+      "correct_answer": "A",
+      "rag_answer": "A) Two maps.",
+      "is_correct": false
+    },
+    {
+      "problem_index": 97,
+      "question": "What does Judy mean by saying Paul  _  ?",
+      "options": [
+        "He enjoys eating.",
+        "He is good at singing.",
+        "He talks a lot but does little.",
+        "He kisses people to show his thanks."
+      ],
+      "correct_answer": "C",
+      "rag_answer": "C) He talks a lot but does little.",
+      "is_correct": false
+    },
+    {
+      "problem_index": 98,
+      "question": "What should adults teach children?",
+      "options": [
+        "When disasters will happen.",
+        "Why disasters are dangerous.",
+        "What to do for a disaster.",
+        "How to avoid a disaster."
+      ],
+      "correct_answer": "C",
+      "rag_answer": "C) What to do for a disaster.",
+      "is_correct": false
+    },
+    {
+      "problem_index": 99,
+      "question": "How much does Denial have to pay each month?",
+      "options": [
+        "200 yuan",
+        "800 yuan",
+        "1000 yuan",
+        "4000 yuan"
+      ],
+      "correct_answer": "D",
+      "rag_answer": "C) 1000 yuan",
+      "is_correct": false
+    },
+    {
+      "problem_index": 100,
+      "question": "If you want to be a model, you can write to   _  .",
+      "options": [
+        "careers@golden-care.com",
+        "info@wowee.com",
+        "cathy@cut-above.brighton.com",
+        "info@top-model-agency.uk"
+      ],
+      "correct_answer": "D",
+      "rag_answer": "B) info@wowee.com",
+      "is_correct": false
+    },
+    {
+      "problem_index": 101,
+      "question": "Who needn't pay attention to others but depend on himself ?",
+      "options": [
+        "A Libra.",
+        "A Cancer.",
+        "An Aquarius.",
+        "A Capricorn."
+      ],
+      "correct_answer": "D",
+      "rag_answer": "D) A Capricorn.",
+      "is_correct": false
+    },
+    {
+      "problem_index": 102,
+      "question": "The old fox  _  very much.",
+      "options": [
+        "wants to eat the piece of meat",
+        "wants to eat the baby",
+        "wants the crow to sing for him",
+        "wants to eat the crow"
+      ],
+      "correct_answer": "A",
+      "rag_answer": "A) wants to eat the piece of meat",
+      "is_correct": false
+    },
+    {
+      "problem_index": 103,
+      "question": "The stranger  _   since then.",
+      "options": [
+        "had been successful",
+        "had still been poor",
+        "had been rich",
+        "had had much money"
+      ],
+      "correct_answer": "B",
+      "rag_answer": "B) had still been poor",
+      "is_correct": false
+    },
+    {
+      "problem_index": 104,
+      "question": "How many people are there in most families in modern China ?",
+      "options": [
+        "Three",
+        "Five",
+        "Six",
+        "Seven"
+      ],
+      "correct_answer": "A",
+      "rag_answer": "A) Three",
+      "is_correct": false
+    },
+    {
+      "problem_index": 105,
+      "question": "The kids can get more money when they  _  .",
+      "options": [
+        "walk the family dog",
+        "do their homework",
+        "feed the family dog",
+        "do easy chores"
+      ],
+      "correct_answer": "A",
+      "rag_answer": "C) feed the family dog",
+      "is_correct": false
+    },
+    {
+      "problem_index": 106,
+      "question": "Which of the Following can be the best title of the passage?",
+      "options": [
+        "A Wrong Question",
+        "Sue's Dog",
+        "A pleasant talk",
+        "Sue's Friend"
+      ],
+      "correct_answer": "A",
+      "rag_answer": "B) Sue's Dog",
+      "is_correct": false
+    },
+    {
+      "problem_index": 107,
+      "question": "The mother camel can see things   _",
+      "options": [
+        "only with the left eye",
+        "only with the right eye",
+        "with both of her eyes",
+        "with neither of her eyes"
+      ],
+      "correct_answer": "B",
+      "rag_answer": "A) only with the right eye",
+      "is_correct": false
+    },
+    {
+      "problem_index": 108,
+      "question": "Why do young kids only do easy chores?Because  _  .",
+      "options": [
+        "they have to study for tests",
+        "they are too young and they can't do difficult chores",
+        "they only want candy",
+        "they are lazy"
+      ],
+      "correct_answer": "B",
+      "rag_answer": "B) they are too young and they can't do difficult chores",
+      "is_correct": false
+    },
+    {
+      "problem_index": 109,
+      "question": "Why did the director hire John?",
+      "options": [
+        "Because he thought John 1earned appreciation.",
+        "Because he thought John had a good education.",
+        "Because he thought John worked very hard.",
+        "Because he thought John could help his mother."
+      ],
+      "correct_answer": "A",
+      "rag_answer": "A) Because he thought John knew what appreciation was.",
+      "is_correct": false
+    },
+    {
+      "problem_index": 110,
+      "question": "What is LIFE WATERR for?",
+      "options": [
+        "Taking care of the sick in the hospital.",
+        "Making people feel better and fresher.",
+        "Helping children grow better and faster.",
+        "Keeping people away from heart problems."
+      ],
+      "correct_answer": "B",
+      "rag_answer": "B) Making people feel better and fresher.",
+      "is_correct": false
+    },
+    {
+      "problem_index": 111,
+      "question": "What do the family take to the park?",
+      "options": [
+        "A basket of food and a book.",
+        "A carpet and a dog.",
+        "A basket of food and a carpet.",
+        "Food and clothes."
+      ],
+      "correct_answer": "C",
+      "rag_answer": "C) A basket of food and a carpet.",
+      "is_correct": false
+    },
+    {
+      "problem_index": 112,
+      "question": "Living room is not a good place to study because  _  .",
+      "options": [
+        "it is too small",
+        "it is too noisy",
+        "it is too big",
+        "it is very quiet"
+      ],
+      "correct_answer": "B",
+      "rag_answer": "B) it is too noisy",
+      "is_correct": false
+    },
+    {
+      "problem_index": 113,
+      "question": "What did Sudha do in January, 1984?",
+      "options": [
+        "She had a car accident.",
+        "She met a doctor.",
+        "She left Bombay.",
+        "She made a historiccomeback."
+      ],
+      "correct_answer": "D",
+      "rag_answer": "D) She made a historic comeback.",
+      "is_correct": false
+    },
+    {
+      "problem_index": 114,
+      "question": "The best title  of this passage should be  _  .",
+      "options": [
+        "Old John",
+        "Old John is ill",
+        "The Doctor's Advice",
+        "The Doctor"
+      ],
+      "correct_answer": "C",
+      "rag_answer": "C) The Doctor's Advice",
+      "is_correct": false
+    },
+    {
+      "problem_index": 115,
+      "question": "The woman is not happy because  _  .",
+      "options": [
+        "Xiao Ming 's mother is still in bed.",
+        "Xiao Ming 's mother doesn't want to see her.",
+        "Nobody opens the door.",
+        "Xiao Ming's mother doesn't like the woman."
+      ],
+      "correct_answer": "C",
+      "rag_answer": "C) Nobody opens the door.",
+      "is_correct": false
+    },
+    {
+      "problem_index": 116,
+      "question": "Which place didn't find H7N9 in March?",
+      "options": [
+        "Shanghai",
+        "Jiangsu",
+        "Zhejiang",
+        "Beijing"
+      ],
+      "correct_answer": "D",
+      "rag_answer": "B) Jiangsu",
+      "is_correct": false
+    },
+    {
+      "problem_index": 117,
+      "question": "How did the writer escape   from the bees?",
+      "options": [
+        "She covered her face with her hands.",
+        "She hid behind the rocks.",
+        "She jumped into a water pool.",
+        "She made herself look like a rock."
+      ],
+      "correct_answer": "C",
+      "rag_answer": "C) She jumped into a water pool.",
+      "is_correct": false
+    },
+    {
+      "problem_index": 118,
+      "question": "It has been growing for almost   _   years.",
+      "options": [
+        "400",
+        "4,000",
+        "40,000",
+        "2,000"
+      ],
+      "correct_answer": "B",
+      "rag_answer": "B) 4,000",
+      "is_correct": false
+    },
+    {
+      "problem_index": 119,
+      "question": "When the son was   _  , he went to see Nasreddin.",
+      "options": [
+        "short of money",
+        "quite poor and sick",
+        "in trouble",
+        "quite poor and alone"
+      ],
+      "correct_answer": "D",
+      "rag_answer": "B) quite poor and isolated",
+      "is_correct": false
+    },
+    {
+      "problem_index": 120,
+      "question": "More than   _   billion yuan was spent shopping on Taotao last year.",
+      "options": [
+        "80",
+        "100",
+        "200",
+        "250"
+      ],
+      "correct_answer": "C",
+      "rag_answer": "D) 250",
+      "is_correct": false
+    },
+    {
+      "problem_index": 121,
+      "question": "The sight \"Pekinese Dog\" is   _   on Green Island.",
+      "options": [
+        "a cute living dog",
+        "a rock like a dog",
+        "a dogshaped plant",
+        "a dog of \"Sleeping Beauty\""
+      ],
+      "correct_answer": "B",
+      "rag_answer": "B) a rock like a dog",
+      "is_correct": false
+    },
+    {
+      "problem_index": 122,
+      "question": "When the writer went back to see the river, what did she find?",
+      "options": [
+        "The pollution in the river was very serious.",
+        "The river was a good place for children to play.",
+        "Bird-watching was more and more popular along the river.",
+        "There were many more fish in the river."
+      ],
+      "correct_answer": "A",
+      "rag_answer": "A) The pollution in the river was very serious.",
+      "is_correct": false
+    },
+    {
+      "problem_index": 123,
+      "question": "What may interest children very much in Peace Park?",
+      "options": [
+        "Elephants playing basketball.",
+        "Dolphins dancing to the music.",
+        "Seals riding bikes.",
+        "Sea lions blowing instruments."
+      ],
+      "correct_answer": "B",
+      "rag_answer": "B) Dolphins dancing to the music.",
+      "is_correct": false
+    },
+    {
+      "problem_index": 124,
+      "question": "If we wait very late in the evening, our work will   _",
+      "options": [
+        "look very easy",
+        "go to so much trouble",
+        "become a bit hard",
+        "seem much harder"
+      ],
+      "correct_answer": "D",
+      "rag_answer": "C) become a bit hard",
+      "is_correct": false
+    },
+    {
+      "problem_index": 125,
+      "question": "Don't let   _   leave your heart.",
+      "options": [
+        "your idea",
+        "your decision",
+        "your dream",
+        "your book"
+      ],
+      "correct_answer": "C",
+      "rag_answer": "C) your dream",
+      "is_correct": false
+    },
+    {
+      "problem_index": 126,
+      "question": "\"Sunday dinner\"in this passage is  _  .",
+      "options": [
+        "a big supper on Sunday",
+        "a big lunch on Sunday",
+        "a big lunch on the weekends",
+        "a big dinner every day"
+      ],
+      "correct_answer": "C",
+      "rag_answer": "A) a big supper on Sunday",
+      "is_correct": false
+    },
+    {
+      "problem_index": 127,
+      "question": "The chess players may like rock climbing because  _  .",
+      "options": [
+        "they'd like to get into beautiful shape",
+        "it is more interesting than chess playing",
+        "it is like chess playing in the way of thinking",
+        "they really tike to do sports"
+      ],
+      "correct_answer": "C",
+      "rag_answer": "C) it is like chess playing in the way of thinking",
+      "is_correct": false
+    },
+    {
+      "problem_index": 128,
+      "question": "Mirror neurons can explain   _  .",
+      "options": [
+        "why we cry when we are hurt",
+        "why we cough when we catch a cold",
+        "why we smile when we see someone else smile",
+        "why we yawn when we see someone else get up late"
+      ],
+      "correct_answer": "C",
+      "rag_answer": "C) why we smile when we see someone else smile",
+      "is_correct": false
+    },
+    {
+      "problem_index": 129,
+      "question": "Andrew studied very hard at the nearby school because   _  .",
+      "options": [
+        "he wanted to realize his dream",
+        "he liked to stay with other students",
+        "he wanted to forget his illness",
+        "his parents wanted him to do so"
+      ],
+      "correct_answer": "A",
+      "rag_answer": "A) he wanted to realize his dream",
+      "is_correct": false
+    },
+    {
+      "problem_index": 130,
+      "question": "In the end, Mr. Brown made a notice board and it   _  .",
+      "options": [
+        "was just the same as a police notice",
+        "was different in color from a police notice",
+        "just looked like a police notice",
+        "said \"POLICE NOTICE, NO PARKING\""
+      ],
+      "correct_answer": "D",
+      "rag_answer": "C) just looked like a police notice",
+      "is_correct": false
+    },
+    {
+      "problem_index": 131,
+      "question": "The first Europeans went to America   _  .",
+      "options": [
+        "on foot",
+        "by bike",
+        "by boat",
+        "by train"
+      ],
+      "correct_answer": "C",
+      "rag_answer": "C) by boat",
+      "is_correct": false
+    },
+    {
+      "problem_index": 132,
+      "question": "After lunch, the students can   _  .",
+      "options": [
+        "listen to music",
+        "write e-mails",
+        "play ball games",
+        "A, B and C"
+      ],
+      "correct_answer": "D",
+      "rag_answer": "D) A, B and C",
+      "is_correct": false
+    },
+    {
+      "problem_index": 133,
+      "question": "What is the article mainly about?",
+      "options": [
+        "How willpower and muscles are similar and how they can be trained.",
+        "How willpower affects people's lives and how it is similar to muscles.",
+        "How willpower is important to success and how we can make it stronger.",
+        "How willpower is connected with success and how they affect each other."
+      ],
+      "correct_answer": "C",
+      "rag_answer": "A) How willpower and muscles are similar and how they can be trained.",
+      "is_correct": false
+    },
+    {
+      "problem_index": 134,
+      "question": "_  kinds of animals are mentioned in the passage.",
+      "options": [
+        "Five",
+        "Six",
+        "Seven",
+        "Eight"
+      ],
+      "correct_answer": "C",
+      "rag_answer": "B) Six",
+      "is_correct": false
+    },
+    {
+      "problem_index": 135,
+      "question": "Walking certainly is the   _   activity it was when many of us were school children.",
+      "options": [
+        "dangerous",
+        "safe",
+        "healthy",
+        "harmful"
+      ],
+      "correct_answer": "A",
+      "rag_answer": "A) dangerous",
+      "is_correct": false
+    },
+    {
+      "problem_index": 136,
+      "question": "Earth Day is   _    .",
+      "options": [
+        "on 2",
+        "on 22",
+        "on 22",
+        "on 2"
+      ],
+      "correct_answer": "B",
+      "rag_answer": "B) on 22",
+      "is_correct": false
+    },
+    {
+      "problem_index": 137,
+      "question": "What do Mr and Mrs Green do? They   _  .",
+      "options": [
+        "study Chinese",
+        "teach English",
+        "look after Jack and Mary",
+        "go to the park"
+      ],
+      "correct_answer": "B",
+      "rag_answer": "B) teach English",
+      "is_correct": false
+    },
+    {
+      "problem_index": 138,
+      "question": "The schoolbag is  _  .",
+      "options": [
+        "on the desk",
+        "on the bed",
+        "under the desk",
+        "in the microwave oven"
+      ],
+      "correct_answer": "A",
+      "rag_answer": "A) on the desk",
+      "is_correct": false
+    },
+    {
+      "problem_index": 139,
+      "question": "Which of the following is TRUE?",
+      "options": [
+        "The boy knew why his mother got the scar before.",
+        "The boy told his classmates why his mother got the scar.",
+        "The mother told the boy about the scar many times.",
+        "The mother told the teacher about the scat after the meeting."
+      ],
+      "correct_answer": "D",
+      "rag_answer": "A) The boy knew why his mother got the scar before.",
+      "is_correct": false
+    },
+    {
+      "problem_index": 140,
+      "question": "From this passage, we know that   _  .",
+      "options": [
+        "all the animals have the same ancestor",
+        "all dogs are as wild as they were many years ago",
+        "man has helped change dogs",
+        "animals never change"
+      ],
+      "correct_answer": "C",
+      "rag_answer": "C) man has helped change dogs",
+      "is_correct": false
+    },
+    {
+      "problem_index": 141,
+      "question": "Who won the 2012 Nobel Prize in Medicine?",
+      "options": [
+        "Sir John Gurdon",
+        "Shiny a Yamanaka.",
+        "Sir John Gurdon and Shinya Yamanaka",
+        "Gurdon's science teacher."
+      ],
+      "correct_answer": "C",
+      "rag_answer": "A) Sir John Gurdon",
+      "is_correct": false
+    },
+    {
+      "problem_index": 142,
+      "question": "Which is the best title for this passage?",
+      "options": [
+        "A special day",
+        "An interesting lesson",
+        "A nice teacher",
+        "A professional report"
+      ],
+      "correct_answer": "A",
+      "rag_answer": "B) An interesting lesson",
+      "is_correct": false
+    },
+    {
+      "problem_index": 143,
+      "question": "The street will be less crowded in the future because  _  .",
+      "options": [
+        "there will be fewer cars",
+        "there will be fewer people in the street",
+        "driving future cars will be safe",
+        "future cars will be much smaller"
+      ],
+      "correct_answer": "D",
+      "rag_answer": "A) there will be fewer cars",
+      "is_correct": false
+    },
+    {
+      "problem_index": 144,
+      "question": "What's the best title of this article?",
+      "options": [
+        "How to plan a chlid's future",
+        "How to make the child have a happier lifestyle",
+        "Father and child bonding is very important",
+        "Playing games with the child is nesessary."
+      ],
+      "correct_answer": "C",
+      "rag_answer": "C) Father and child bonding is very important",
+      "is_correct": false
+    },
+    {
+      "problem_index": 145,
+      "question": "Tony's mother thinks Tony's school foods are   _  .",
+      "options": [
+        "expensive",
+        "sweet",
+        "cold",
+        "healthy"
+      ],
+      "correct_answer": "D",
+      "rag_answer": "D) healthy",
+      "is_correct": false
+    },
+    {
+      "problem_index": 146,
+      "question": "Zhang Min likes  _",
+      "options": [
+        "green",
+        "red",
+        "blue",
+        "black"
+      ],
+      "correct_answer": "C",
+      "rag_answer": "C) blue",
+      "is_correct": false
+    },
+    {
+      "problem_index": 147,
+      "question": "_  jumped on the donkey and killed it.",
+      "options": [
+        "All the tigers",
+        "All the dogs",
+        "All the donkeys",
+        "All the lions"
+      ],
+      "correct_answer": "A",
+      "rag_answer": "A) All the tigers",
+      "is_correct": false
+    },
+    {
+      "problem_index": 148,
+      "question": "What is the idea behind the special school?",
+      "options": [
+        "The children are creative.",
+        "All the students need to be taught.",
+        "All the students must be successful.",
+        "All the students must have high grades."
+      ],
+      "correct_answer": "A",
+      "rag_answer": "A) The children are creative.",
+      "is_correct": false
+    },
+    {
+      "problem_index": 149,
+      "question": "Why did the ancient Greeks arrange something special for birthdays?",
+      "options": [
+        "To make their dreams come true.",
+        "To celebrate a person's birthday.",
+        "To protect themselves from evil spirits.",
+        "To please the goddess of the moon."
+      ],
+      "correct_answer": "D",
+      "rag_answer": "D) To please the goddess of the moon.",
+      "is_correct": false
+    },
+    {
+      "problem_index": 150,
+      "question": "As the situation went on , the writer became   _   .",
+      "options": [
+        "more and more sacred.",
+        "calmer and calmer.",
+        "more and more bored.",
+        "clearer and clearer."
+      ],
+      "correct_answer": "A",
+      "rag_answer": "B) calmer and calmer.",
+      "is_correct": false
+    },
+    {
+      "problem_index": 151,
+      "question": "The students need to work for   _  hours at Sun Old People's Home on Sunday.",
+      "options": [
+        "two",
+        "three",
+        "four",
+        "five"
+      ],
+      "correct_answer": "C",
+      "rag_answer": "B) three",
+      "is_correct": false
+    },
+    {
+      "problem_index": 152,
+      "question": "From the passage we know that  _  .",
+      "options": [
+        "Liu Ying is not a healthy student",
+        "Liu Ying is good at housework",
+        "Liu Ying doesn't want to do housework.",
+        "Liu Ying has to do much housework."
+      ],
+      "correct_answer": "D",
+      "rag_answer": "D) Liu Ying has to do much housework.",
+      "is_correct": false
+    },
+    {
+      "problem_index": 153,
+      "question": "The writer enjoyed   _   in Xiangshan.",
+      "options": [
+        "skating",
+        "swimming",
+        "skiing",
+        "board-skating"
+      ],
+      "correct_answer": "C",
+      "rag_answer": "C) skiing",
+      "is_correct": false
+    },
+    {
+      "problem_index": 154,
+      "question": "Einstein, Newton and Galileo did so many things for mankind because   _  .",
+      "options": [
+        "they learned a lot at school",
+        "they learned everything inside and outside school",
+        "they were so useful",
+        "they went to college and learned from professors"
+      ],
+      "correct_answer": "B",
+      "rag_answer": "C) they invented so many things for mankind.",
+      "is_correct": false
+    },
+    {
+      "problem_index": 155,
+      "question": "Emma can't go back to school again, because   _  .",
+      "options": [
+        "she is tired of being a student",
+        "she wants to make more money from modeling",
+        "she is so old that she has missed the best time in school",
+        "she has done a good job and makes a lot of money as a model"
+      ],
+      "correct_answer": "C",
+      "rag_answer": "C) she is so old that she has missed the best time in school",
+      "is_correct": false
+    },
+    {
+      "problem_index": 156,
+      "question": "If you want to watch a football game the best program for you would be   _",
+      "options": [
+        "TV play",
+        "Sports",
+        "Around the world",
+        "Talk show"
+      ],
+      "correct_answer": "B",
+      "rag_answer": "B) Sports",
+      "is_correct": false
+    },
+    {
+      "problem_index": 157,
+      "question": "From the passage, we can learn   _  .",
+      "options": [
+        "Alexandra was not interested in travelling",
+        "Alexandra's success changed her family's life",
+        "Alexandra's parents were good at English",
+        "Alexandra's stories appeared often on the radio and TV"
+      ],
+      "correct_answer": "B",
+      "rag_answer": "B) Alexandra's success changed her family's life",
+      "is_correct": false
+    },
+    {
+      "problem_index": 158,
+      "question": "Bob Doughty seems to be   _  .",
+      "options": [
+        "an exchange student from the USA",
+        "an expert of international education",
+        "a viewer of VOA",
+        "a reporter from VOA"
+      ],
+      "correct_answer": "D",
+      "rag_answer": "C) a viewer of VOA",
+      "is_correct": false
+    },
+    {
+      "problem_index": 159,
+      "question": "Xiao Ming's mother is   _  .",
+      "options": [
+        "at work",
+        "at home",
+        "at school",
+        "out"
+      ],
+      "correct_answer": "B",
+      "rag_answer": "B) at home",
+      "is_correct": false
+    },
+    {
+      "problem_index": 160,
+      "question": "Which of the following is NOT true?",
+      "options": [
+        "Place bones on the edge of your plate.",
+        "Use your spoon only for soup.",
+        "The napkin protects your clothes from food.",
+        "You can put your own fork, knife and spoon into serving bowl."
+      ],
+      "correct_answer": "D",
+      "rag_answer": "D) You can put your own fork, knife and spoon into serving bowl.",
+      "is_correct": false
+    },
+    {
+      "problem_index": 161,
+      "question": "What's the main idea of the passage?",
+      "options": [
+        "How to read books.",
+        "How to spend free time.",
+        "How to make friends.",
+        "How to play drums."
+      ],
+      "correct_answer": "B",
+      "rag_answer": "A) How to recycle paper.",
+      "is_correct": false
+    },
+    {
+      "problem_index": 162,
+      "question": "Travelers Corner is most probably  _  .",
+      "options": [
+        "a sports club newsletter",
+        "a science documentary",
+        "a travel magazine",
+        "a news website"
+      ],
+      "correct_answer": "C",
+      "rag_answer": "C)",
+      "is_correct": false
+    },
+    {
+      "problem_index": 163,
+      "question": "The party was held   _  .",
+      "options": [
+        "at Peter's house",
+        "in a large hall",
+        "at Peter's friend's house",
+        "in a secret place"
+      ],
+      "correct_answer": "C",
+      "rag_answer": "A) at Peter's house",
+      "is_correct": false
+    },
+    {
+      "problem_index": 164,
+      "question": "The dog is   _   .",
+      "options": [
+        "eleven",
+        "five",
+        "two",
+        "One"
+      ],
+      "correct_answer": "C",
+      "rag_answer": "C) two",
+      "is_correct": false
+    },
+    {
+      "problem_index": 165,
+      "question": "Mr. Zhang's little daughter says her father  _  .",
+      "options": [
+        "is not a good father.",
+        "is the best father in the world.",
+        "is always very kind to others",
+        "does not really love her."
+      ],
+      "correct_answer": "B",
+      "rag_answer": "B) is the best father in the world.",
+      "is_correct": false
+    },
+    {
+      "problem_index": 166,
+      "question": "This is a picture of   _  .",
+      "options": [
+        "Mary",
+        "Mary's family",
+        "Mary's father",
+        "a middle school"
+      ],
+      "correct_answer": "B",
+      "rag_answer": "B) Mary's family",
+      "is_correct": false
+    },
+    {
+      "problem_index": 167,
+      "question": "What did Mr. Brown write on the blackboard?",
+      "options": [
+        "BROWN IS STUPID",
+        "WHICH ONE DID IT",
+        "The rules of the class",
+        "The names of the four boys"
+      ],
+      "correct_answer": "D",
+      "rag_answer": "B) WHICH ONE DID IT",
+      "is_correct": false
+    },
+    {
+      "problem_index": 168,
+      "question": "The man sits   _  the woman.",
+      "options": [
+        "next to",
+        "in front of",
+        "behind",
+        "on the left of"
+      ],
+      "correct_answer": "A",
+      "rag_answer": "A) next to",
+      "is_correct": false
+    },
+    {
+      "problem_index": 169,
+      "question": "According to the two stories,people on Green Island used to   _  .",
+      "options": [
+        "meet a lot of visitors",
+        "set fires to get warm",
+        "make a living by fishing",
+        "cut down too many trees and grass"
+      ],
+      "correct_answer": "C",
+      "rag_answer": "C) make a living by fishing",
+      "is_correct": false
+    },
+    {
+      "problem_index": 170,
+      "question": "What does Meg's sister do at the end of the story?",
+      "options": [
+        "She changes all the buttons of the coat.",
+        "She buys another coat again.",
+        "She buys a button in the clothes store.",
+        "She goes to the clothes store and changes the coat."
+      ],
+      "correct_answer": "A",
+      "rag_answer": "A) She changes all the buttons of the coat.",
+      "is_correct": false
+    },
+    {
+      "problem_index": 171,
+      "question": "Why do kids like Heelys when they wear them?",
+      "options": [
+        "Because they can fly in space.",
+        "Because they can walk fast.",
+        "Because they are fun and cool.",
+        "Because they can skate."
+      ],
+      "correct_answer": "C",
+      "rag_answer": "C) Because they are fun and cool.",
+      "is_correct": false
+    },
+    {
+      "problem_index": 172,
+      "question": "Fruit flies were used in the research because  _   .",
+      "options": [
+        "they love to eat apples",
+        "they share similar genes with humans",
+        "they are easy to catch",
+        "they can live longer"
+      ],
+      "correct_answer": "B",
+      "rag_answer": "B) they share similar genes with humans",
+      "is_correct": false
+    },
+    {
+      "problem_index": 173,
+      "question": "Li Jian left Shuimu Nianhua because  _  .",
+      "options": [
+        "he would form a new band",
+        "he had few chances to give concerts",
+        "he had too much pressure in university",
+        "he refused to change their musical style"
+      ],
+      "correct_answer": "D",
+      "rag_answer": "D) he refused to change their musical style",
+      "is_correct": false
+    },
+    {
+      "problem_index": 174,
+      "question": "A traveler can become an artist if he   _  .",
+      "options": [
+        "takes a camera with him",
+        "knows the history of a place",
+        "is interested in not only the landmarks but also the people of a place",
+        "learns how to draw and paint pictures of a place"
+      ],
+      "correct_answer": "C",
+      "rag_answer": "C) is interested in not only the landmarks but also the people of a place",
+      "is_correct": false
+    },
+    {
+      "problem_index": 175,
+      "question": "According to the passage, Andrew  _  .",
+      "options": [
+        "was good at going door-to door",
+        "got in no touch with the reporters",
+        "usually acted like a person much older",
+        "was praised by his teachers and classmates"
+      ],
+      "correct_answer": "D",
+      "rag_answer": "C) usually acted like a person much older",
+      "is_correct": false
+    },
+    {
+      "problem_index": 176,
+      "question": "When did his elder sister shortened the trousers?",
+      "options": [
+        "In the evening.",
+        "Before she finished the washing.",
+        "After lunch.",
+        "After she came back from the cinema."
+      ],
+      "correct_answer": "A",
+      "rag_answer": "D) After she come back from the cinema.",
+      "is_correct": false
+    },
+    {
+      "problem_index": 177,
+      "question": "For the children like Fu Yuan, studying isn't the main thing because  _  .",
+      "options": [
+        "they have to go out and make money",
+        "they like playing games better than studying",
+        "they needn't go to a good college",
+        "they have lots of things to do at home"
+      ],
+      "correct_answer": "D",
+      "rag_answer": "D) they have lots of things to do at home",
+      "is_correct": false
+    },
+    {
+      "problem_index": 178,
+      "question": "Whose telephone number is 978-8098?",
+      "options": [
+        "Peter's",
+        "Mr Wang's",
+        "Mike's",
+        "Henry's"
+      ],
+      "correct_answer": "C",
+      "rag_answer": "B) Mr Wang's",
+      "is_correct": false
+    },
+    {
+      "problem_index": 179,
+      "question": "What does the doctor think of Heelys?",
+      "options": [
+        "They are too expensive to buy.",
+        "They are too fast to go.",
+        "They are bad for kids' health.",
+        "They are good for training."
+      ],
+      "correct_answer": "C",
+      "rag_answer": "C) They are bad for kids' health.",
+      "is_correct": false
+    },
+    {
+      "problem_index": 180,
+      "question": "If you arrive late,  _  .",
+      "options": [
+        "you should hurry to your seat",
+        "you should ask for help",
+        "you have to wait until the interval",
+        "you have to change the date"
+      ],
+      "correct_answer": "C",
+      "rag_answer": "C) you have to wait until the interval",
+      "is_correct": false
+    },
+    {
+      "problem_index": 181,
+      "question": "The purpose of the article is to   _  .",
+      "options": [
+        "call on people in China to queue more",
+        "compare queuing in two cultures",
+        "praise the English for following good manners",
+        "explain why people rush in some situations"
+      ],
+      "correct_answer": "B",
+      "rag_answer": "B) compare queuing in two cultures",
+      "is_correct": false
+    },
+    {
+      "problem_index": 182,
+      "question": "Sudha thought she could depend on   _   to make her dream come true.",
+      "options": [
+        "the doctor",
+        "her father",
+        "herself",
+        "a film producer"
+      ],
+      "correct_answer": "C",
+      "rag_answer": "C) herself",
+      "is_correct": false
+    },
+    {
+      "problem_index": 183,
+      "question": "According to the writer, some kids feel lonely at break because they  _  .",
+      "options": [
+        "have trouble with their studies",
+        "need their parents to be with them",
+        "don't have their best friends around",
+        "are too young to look after themselves"
+      ],
+      "correct_answer": "C",
+      "rag_answer": "C) don't have their best friends around",
+      "is_correct": false
+    },
+    {
+      "problem_index": 184,
+      "question": "Scientists' explanation for rain of blood is that   _  .",
+      "options": [
+        "the tornado picked up the birds' blood",
+        "there were no strong winds that day",
+        "flying birds were torn into pieces by strong winds",
+        "those birds were bleeding while flying"
+      ],
+      "correct_answer": "C",
+      "rag_answer": "C) flying birds were torn into pieces by strong winds",
+      "is_correct": false
+    },
+    {
+      "problem_index": 185,
+      "question": "_  is my mother.",
+      "options": [
+        "Sandy",
+        "Ken",
+        "Martin",
+        "Mr Jordan"
+      ],
+      "correct_answer": "A",
+      "rag_answer": "B) Ken",
+      "is_correct": false
+    },
+    {
+      "problem_index": 186,
+      "question": "Which of the following is NOT true?",
+      "options": [
+        "Millie is an English teacher.",
+        "Millie can go to the church in the centre of the town.",
+        "Millie's house is very big.",
+        "Millie enjoys her life in Ketton."
+      ],
+      "correct_answer": "D",
+      "rag_answer": "C) Millie's house is very big.",
+      "is_correct": false
+    },
+    {
+      "problem_index": 187,
+      "question": "Trees for paper come from   _  .",
+      "options": [
+        "parks",
+        "rainforests",
+        "timberlands",
+        "people's yard"
+      ],
+      "correct_answer": "C",
+      "rag_answer": "C) timberlands",
+      "is_correct": false
+    },
+    {
+      "problem_index": 188,
+      "question": "What will happen to the cover of the lizard house when it's in the bright sun?",
+      "options": [
+        "It will take in light.",
+        "It will produce energy.",
+        "It will turn dark.",
+        "It will turn white."
+      ],
+      "correct_answer": "C",
+      "rag_answer": "C) It will turn dark.",
+      "is_correct": false
+    },
+    {
+      "problem_index": 189,
+      "question": "Which of the following is NOT true about modern robots?",
+      "options": [
+        "Some robots can solve problems on their own.",
+        "Some robots are like big machines.",
+        "Modern robots are smart.",
+        "Some robots' brains are sensors."
+      ],
+      "correct_answer": "D",
+      "rag_answer": "D) Some robots' brains are sensors.",
+      "is_correct": false
+    },
+    {
+      "problem_index": 190,
+      "question": "Which of the following is true?",
+      "options": [
+        "Mike was one year younger than Ted.",
+        "Mike was Ted's friend.",
+        "Ted's hands were not so dirty as Mike's.",
+        "Ted was one year older than Mike."
+      ],
+      "correct_answer": "C",
+      "rag_answer": "D) Ted was one year older than Mike.",
+      "is_correct": false
+    },
+    {
+      "problem_index": 191,
+      "question": "One day, as Andy went across the track,   _  .",
+      "options": [
+        "he thought there was something wrong with it",
+        "he saw the train was coming",
+        "he found one of the rails was broken",
+        "he heard a noise"
+      ],
+      "correct_answer": "C",
+      "rag_answer": "A) he thought there was something wrong with it",
+      "is_correct": false
+    },
+    {
+      "problem_index": 192,
+      "question": ".John Denver died in  _  .",
+      "options": [
+        "1997",
+        "1990",
+        "1996",
+        "1999"
+      ],
+      "correct_answer": "A",
+      "rag_answer": "A) 1997",
+      "is_correct": false
+    },
+    {
+      "problem_index": 193,
+      "question": "Which is the best title for the passage?",
+      "options": [
+        "Money from the Sky.",
+        "Police and Money.",
+        "A Truck of Money.",
+        "Poor People and Money."
+      ],
+      "correct_answer": "A",
+      "rag_answer": "D) Poor People and Money.",
+      "is_correct": false
+    },
+    {
+      "problem_index": 194,
+      "question": "The writer's mother thinks that country music is   _  .",
+      "options": [
+        "amazing",
+        "boring",
+        "relaxing",
+        "cool"
+      ],
+      "correct_answer": "C",
+      "rag_answer": "B) boring",
+      "is_correct": false
+    },
+    {
+      "problem_index": 195,
+      "question": "What might be the correct order of the cabins from the front to the back on this plance?",
+      "options": [
+        "Club-Pilots'-Economy -First Class",
+        "Pilots'-Club-Economy -First Class",
+        "Club-Economy- First Class- Pilots'",
+        "Pilots'- First Class -Club- Economy"
+      ],
+      "correct_answer": "D",
+      "rag_answer": "C) Club-Economy- First Class- Pilots'",
+      "is_correct": false
+    },
+    {
+      "problem_index": 196,
+      "question": "The Worried Grandfather might be a person   _  .",
+      "options": [
+        "who always thinks of others",
+        "who has been kidnapped   by hitchhikers",
+        "who has seen much of the world and is very careful",
+        "who dislikes to hitchhike"
+      ],
+      "correct_answer": "C",
+      "rag_answer": "D) who dislikes to hitchhike",
+      "is_correct": false
+    },
+    {
+      "problem_index": 197,
+      "question": "How many people are there in the family?",
+      "options": [
+        "One.",
+        "Two.",
+        "Three.",
+        "Four."
+      ],
+      "correct_answer": "D",
+      "rag_answer": "C) Three.",
+      "is_correct": false
+    },
+    {
+      "problem_index": 198,
+      "question": "According to the writer,fat people may feel bad in  _  weather.",
+      "options": [
+        "cold",
+        "cool",
+        "warm",
+        "hot"
+      ],
+      "correct_answer": "D",
+      "rag_answer": "A) cold",
+      "is_correct": false
+    },
+    {
+      "problem_index": 199,
+      "question": "Why did Mary David like to wear sunglasses?",
+      "options": [
+        "She was a movie star.",
+        "She wanted to follow a movie star.",
+        "Wearing sunglasses was good to her eyes.",
+        "It was good to wear sunglasses when watching TV."
+      ],
+      "correct_answer": "B",
+      "rag_answer": "D) It was good to watch TV.",
+      "is_correct": false
+    },
+    {
+      "problem_index": 200,
+      "question": "_  liked Peter.",
+      "options": [
+        "Many of his friends",
+        "Few people",
+        "Everyone",
+        "All his friends"
+      ],
+      "correct_answer": "B",
+      "rag_answer": "C) Everyone",
+      "is_correct": false
+    }
+  ]
+}

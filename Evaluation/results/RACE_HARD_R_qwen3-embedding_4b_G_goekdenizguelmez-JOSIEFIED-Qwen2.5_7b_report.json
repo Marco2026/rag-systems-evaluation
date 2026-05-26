@@ -1,0 +1,2617 @@
+{
+  "benchmark": "RACE_HARD",
+  "retriever_model": "qwen3-embedding:4b",
+  "retriever_params": 4.02,
+  "retriever_size": 2.3,
+  "generator_model": "goekdenizguelmez/JOSIEFIED-Qwen2.5:7b",
+  "generator_params": 7.62,
+  "generator_size": 4.4,
+  "timestamp": "2026-04-14T12:00:32.465046",
+  "duration": "00:09:41",
+  "duration (seconds)": 581,
+  "total": 200,
+  "correct": 165,
+  "accuracy": 0.825,
+  "results": [
+    {
+      "problem_index": 1,
+      "question": "The writer's father didn't charge for his work because_.",
+      "options": [
+        "he didn't need that money",
+        "he felt pity for the old couple",
+        "he was not satisfied with his work",
+        "he wanted to set a good example to others"
+      ],
+      "correct_answer": "B",
+      "rag_answer": "A",
+      "is_correct": false
+    },
+    {
+      "problem_index": 2,
+      "question": "Those who escape from accepting responsibility    .",
+      "options": [
+        "can't achieve their goals in a short time",
+        "can benefit from not growing up in the end",
+        "can miss the advantages of being a responsible person",
+        "can avoid the burdens of unpleasant or frightening things"
+      ],
+      "correct_answer": "C",
+      "rag_answer": "C",
+      "is_correct": true
+    },
+    {
+      "problem_index": 3,
+      "question": "Besides ranking, what does Phil Moss suggest you should refer to if you're picking a university?",
+      "options": [
+        "Investment in education.",
+        "Guidance from professors.",
+        "Information on websites.",
+        "Suggestions from students."
+      ],
+      "correct_answer": "D",
+      "rag_answer": "D",
+      "is_correct": true
+    },
+    {
+      "problem_index": 4,
+      "question": "The expressway was closed to   _  .",
+      "options": [
+        "protect the passengers from being frozen",
+        "make the police have a good rest",
+        "stop cars traveling around",
+        "avoid the happening of traffic accidents"
+      ],
+      "correct_answer": "D",
+      "rag_answer": "A",
+      "is_correct": false
+    },
+    {
+      "problem_index": 5,
+      "question": "Why did people throw Mary into the river?",
+      "options": [
+        "To take her life.",
+        "To tell if she was a witch",
+        "To test her swimming skills.",
+        "To prove that she was guilty"
+      ],
+      "correct_answer": "B",
+      "rag_answer": "B",
+      "is_correct": true
+    },
+    {
+      "problem_index": 6,
+      "question": "Who actually had the airplane accident?",
+      "options": [
+        "Justin and Teddy",
+        "Kathy and Victor",
+        "Justin himself",
+        "Kathy herself"
+      ],
+      "correct_answer": "A",
+      "rag_answer": "A",
+      "is_correct": true
+    },
+    {
+      "problem_index": 7,
+      "question": "What's the best title of this text?",
+      "options": [
+        "Clear Your Mental Space.",
+        "Deep Breath, Trouble Away.",
+        "Try to Avoid the Negative Emotion.",
+        "Keep Holding on to This Negative Emotion as Long as Possible."
+      ],
+      "correct_answer": "A",
+      "rag_answer": "A",
+      "is_correct": true
+    },
+    {
+      "problem_index": 8,
+      "question": "In the author's opinion,  _  .",
+      "options": [
+        "no one is luckier than her",
+        "God doesn't treat everyone fairly",
+        "writing poetry is the best way to deal with cancer",
+        "being alive is lucky for her"
+      ],
+      "correct_answer": "D",
+      "rag_answer": "D",
+      "is_correct": true
+    },
+    {
+      "problem_index": 9,
+      "question": "What is the main purpose of this passage?",
+      "options": [
+        "To describe the beauty of Pacaya.",
+        "To attract guided tours to Pacaya.",
+        "To introduce the best time to visit Pacaya.",
+        "To explain the power of nature at Pacaya."
+      ],
+      "correct_answer": "B",
+      "rag_answer": "B",
+      "is_correct": true
+    },
+    {
+      "problem_index": 10,
+      "question": "What is the reason which caused the accident?",
+      "options": [
+        "Because of the thunderstorms",
+        "Because the boat sank.",
+        "Because the boat hit something with force.",
+        "Because we had no life jackets"
+      ],
+      "correct_answer": "C",
+      "rag_answer": "B",
+      "is_correct": false
+    },
+    {
+      "problem_index": 11,
+      "question": "When did he learn to read music?",
+      "options": [
+        "When he was less than 14 years old",
+        "When he was in the school band",
+        "After he became a grown-up",
+        "His beautiful speech"
+      ],
+      "correct_answer": "C",
+      "rag_answer": "C",
+      "is_correct": true
+    },
+    {
+      "problem_index": 12,
+      "question": "What inspired the author with the idea of building an online bookstore?",
+      "options": [
+        "His dream of being an inventor.",
+        "The support of his wife.",
+        "The greatly increasing usage of the Internet.",
+        "The successful boss that he admired."
+      ],
+      "correct_answer": "C",
+      "rag_answer": "C",
+      "is_correct": true
+    },
+    {
+      "problem_index": 13,
+      "question": "From Soraya's story, we know this Latino musician was a   _  .",
+      "options": [
+        "strong-minded woman who was willing to help others",
+        "strong-willed artist with courage to promote her new album",
+        "warm-hearted musician who relieved people's suffering with her songs",
+        "wise person with many famous sayings"
+      ],
+      "correct_answer": "A",
+      "rag_answer": "A",
+      "is_correct": true
+    },
+    {
+      "problem_index": 14,
+      "question": "What is the best title of the text?",
+      "options": [
+        "Qia Wang,a Talented Doctoral Student",
+        "Use Smartphones to Their Full Potential",
+        "Targeting and Tracking With Smartphones",
+        "Smartphone-armed Soldiers on the Battlefield"
+      ],
+      "correct_answer": "C",
+      "rag_answer": "C",
+      "is_correct": true
+    },
+    {
+      "problem_index": 15,
+      "question": "Many first-time visitors may find \"oil tea\"   _   when taking a sip.",
+      "options": [
+        "popular",
+        "strange",
+        "addicted",
+        "beneficial"
+      ],
+      "correct_answer": "B",
+      "rag_answer": "B",
+      "is_correct": true
+    },
+    {
+      "problem_index": 16,
+      "question": "The passage mainly describes   _  .",
+      "options": [
+        "the rapid progress of mankind",
+        "Verne's accurate prediction of the future",
+        "the 1969 Apollo II moon mission",
+        "the 19th century science and technology"
+      ],
+      "correct_answer": "B",
+      "rag_answer": "B",
+      "is_correct": true
+    },
+    {
+      "problem_index": 17,
+      "question": "According to the author we can broaden our knowledge by   _   .",
+      "options": [
+        "composing",
+        "imagining",
+        "communicating",
+        "reading"
+      ],
+      "correct_answer": "D",
+      "rag_answer": "D",
+      "is_correct": true
+    },
+    {
+      "problem_index": 18,
+      "question": "Why was Peng Weiye, a Senior 2 girl, so excited?",
+      "options": [
+        "S.H.E. band will get the old fashioned evening exciting.",
+        "S. H.E. will perform in Las Vegas over Christmas.",
+        "Her parents bought her a ticket for S. H. E. Is Shanghai show.",
+        "S. H.E. will perform on the CCTV Spring Festival Evening Party."
+      ],
+      "correct_answer": "D",
+      "rag_answer": "D",
+      "is_correct": true
+    },
+    {
+      "problem_index": 19,
+      "question": "How long did Lee Kuan Yew serve as Singapore's prime minister?",
+      "options": [
+        "52 years",
+        "31 years",
+        "56 years",
+        "50 years"
+      ],
+      "correct_answer": "B",
+      "rag_answer": "B",
+      "is_correct": true
+    },
+    {
+      "problem_index": 20,
+      "question": "How did Nicholas Carr feel after he limited his time online several weeks later?",
+      "options": [
+        "Anxious.",
+        "Relaxed.",
+        "Concentrated.",
+        "Puzzled."
+      ],
+      "correct_answer": "C",
+      "rag_answer": "C",
+      "is_correct": true
+    },
+    {
+      "problem_index": 21,
+      "question": "The best title of this passage might be  _  .",
+      "options": [
+        "My Disabled Brother",
+        "A Peaceful Death of My Brother",
+        "My Silent Keeper",
+        "Love to My Brother"
+      ],
+      "correct_answer": "C",
+      "rag_answer": "A",
+      "is_correct": false
+    },
+    {
+      "problem_index": 22,
+      "question": "From the text you know that  _  .",
+      "options": [
+        "Barton Springs is the most popular in the USA",
+        "Lake Buchanan Adventures offers indoor activities",
+        "fishermen may get the best salt fish when fishing in Texas",
+        "Big Bend provides outdoor activities in an ancient way"
+      ],
+      "correct_answer": "D",
+      "rag_answer": "C",
+      "is_correct": false
+    },
+    {
+      "problem_index": 23,
+      "question": "One way the writer of this letter tries to convince the reader is by  _  .",
+      "options": [
+        "complaining that someone has to drive him to Parkersburg",
+        "getting an after-school job in fast-food restaurant himself",
+        "suggesting that many businessmen have the same opinion",
+        "giving specific examples of the high costs in Brockingham"
+      ],
+      "correct_answer": "D",
+      "rag_answer": "D",
+      "is_correct": true
+    },
+    {
+      "problem_index": 24,
+      "question": "What is a feature of Scandinavia's education?",
+      "options": [
+        "Loads of homework.",
+        "Strict examinations.",
+        "No national curriculum.",
+        "Necessary financial resources."
+      ],
+      "correct_answer": "C",
+      "rag_answer": "C",
+      "is_correct": true
+    },
+    {
+      "problem_index": 25,
+      "question": "What was the place like where Cather grew up?",
+      "options": [
+        "It was cold, plain and without a church.",
+        "It was a color1ful world of wild flowers.",
+        "It was like a German Christmas card",
+        "It was vast, open, flat and wild."
+      ],
+      "correct_answer": "D",
+      "rag_answer": "D",
+      "is_correct": true
+    },
+    {
+      "problem_index": 26,
+      "question": "What can we learn from the passage?",
+      "options": [
+        "Time will tell the truth.",
+        "People are afraid of being old.",
+        "A doctor is important to old people.",
+        "Respecting elderly people is a good tradition."
+      ],
+      "correct_answer": "B",
+      "rag_answer": "B",
+      "is_correct": true
+    },
+    {
+      "problem_index": 27,
+      "question": "The United Nations conference was held to   _  .",
+      "options": [
+        "gather opinions from the representatives",
+        "make plans for nearly 200 countries",
+        "deal with the warming climate",
+        "call for protection of wildlife"
+      ],
+      "correct_answer": "C",
+      "rag_answer": "C",
+      "is_correct": true
+    },
+    {
+      "problem_index": 28,
+      "question": "All the following are the advantages of studying abroad EXCEPT  _",
+      "options": [
+        "the ability in the second language may be greatly improved",
+        "you may make friends from all over the world",
+        "you can learn to live an independent life",
+        "you can get to know the latest knowledge in science."
+      ],
+      "correct_answer": "C",
+      "rag_answer": "C",
+      "is_correct": true
+    },
+    {
+      "problem_index": 29,
+      "question": "Thatched houses are still preferred because of   _  .",
+      "options": [
+        "their style and comfort",
+        "their durability",
+        "their easy maintenance",
+        "their cheap and ready-made materials"
+      ],
+      "correct_answer": "A",
+      "rag_answer": "A",
+      "is_correct": true
+    },
+    {
+      "problem_index": 30,
+      "question": "What does the author mainly argue for?",
+      "options": [
+        "Pets are of great significance to us human beings.",
+        "We should rethink about our attitude towards animals and mankind.",
+        "It is kind of human beings to extend kindness to animals.",
+        "We should be selective when showing attitude toward other human beings."
+      ],
+      "correct_answer": "B",
+      "rag_answer": "B",
+      "is_correct": true
+    },
+    {
+      "problem_index": 31,
+      "question": "Which of the four libraries has the longest history?",
+      "options": [
+        "Central Library.",
+        "Trinity College Library.",
+        "Geisel Library.",
+        "TU Delft Library."
+      ],
+      "correct_answer": "B",
+      "rag_answer": "B",
+      "is_correct": true
+    },
+    {
+      "problem_index": 32,
+      "question": "What is the passage mainly about?",
+      "options": [
+        "Students life in the foreign countries.",
+        "The advantages and disadvantages of studying abroad.",
+        "Problems that will be met when we study abroad.",
+        "The reasons why many parents sent their children abroad."
+      ],
+      "correct_answer": "B",
+      "rag_answer": "B",
+      "is_correct": true
+    },
+    {
+      "problem_index": 33,
+      "question": "How does the author sound when referring to the campaign against\"bossy\"?",
+      "options": [
+        "Objective",
+        "Angry",
+        "Doubtful",
+        "Optimistic"
+      ],
+      "correct_answer": "A",
+      "rag_answer": "D",
+      "is_correct": false
+    },
+    {
+      "problem_index": 34,
+      "question": "The Leaning Tower of Pisa began to lean probably because   _  .",
+      "options": [
+        "it was too high like a pole",
+        "its foundation shook badly",
+        "the work of repair was delayed",
+        "the soil of its foundation was too weak"
+      ],
+      "correct_answer": "D",
+      "rag_answer": "D",
+      "is_correct": true
+    },
+    {
+      "problem_index": 35,
+      "question": "Which of the following is a \"guilty secret\" according to the World Book Day report?",
+      "options": [
+        "Charles Dickens is very low on the top-ten list.",
+        "42% of people pretended to have read 1984.",
+        "The author admitted having read 9 books.",
+        "Dreams From My Father is hardly read."
+      ],
+      "correct_answer": "B",
+      "rag_answer": "D",
+      "is_correct": false
+    },
+    {
+      "problem_index": 36,
+      "question": "It can be inferred that the gate of the baby farm was always kept locked in order to   _  .",
+      "options": [
+        "protect the children inside from dangers outside",
+        "prevent official visitors walking in unexpectedly",
+        "keep the children inside working all the time",
+        "ensure the children were always neat and clean"
+      ],
+      "correct_answer": "B",
+      "rag_answer": "B",
+      "is_correct": true
+    },
+    {
+      "problem_index": 37,
+      "question": "What's the author's attitude toward men's bear heads?",
+      "options": [
+        "Objective",
+        "Negative",
+        "Positive",
+        "Doubtful"
+      ],
+      "correct_answer": "A",
+      "rag_answer": "B",
+      "is_correct": false
+    },
+    {
+      "problem_index": 38,
+      "question": "Which of the following can be the best title for the passage?",
+      "options": [
+        "The Road to Success",
+        "Heart of a Champion",
+        "Steve, the Real Winner",
+        "A Player of Patience"
+      ],
+      "correct_answer": "B",
+      "rag_answer": "B",
+      "is_correct": true
+    },
+    {
+      "problem_index": 39,
+      "question": "Doyle made up the description of Holmes  _  .",
+      "options": [
+        "from his own imagination",
+        "based on a famous London doctor",
+        "based on Dr Joseph Bell at Edinburgh University",
+        "based on a model of Holmes"
+      ],
+      "correct_answer": "C",
+      "rag_answer": "C",
+      "is_correct": true
+    },
+    {
+      "problem_index": 40,
+      "question": "The writer made Robby perform last because   _  .",
+      "options": [
+        "the one who performs last always performs very well",
+        "Robby asked the writer to do so",
+        "she wanted to do something to save a poor performance",
+        "Robby thought his mother would come at last"
+      ],
+      "correct_answer": "C",
+      "rag_answer": "C",
+      "is_correct": true
+    },
+    {
+      "problem_index": 41,
+      "question": "Which of the above goods has the least discount?",
+      "options": [
+        "A charming table lamp.",
+        "The Home Office Desk",
+        "The lovely coffee table.",
+        "None of them"
+      ],
+      "correct_answer": "A",
+      "rag_answer": "A",
+      "is_correct": true
+    },
+    {
+      "problem_index": 42,
+      "question": "Why is \"such simplistic advice\" impossible to follow according to the author?",
+      "options": [
+        "No one can stay on the same job for long.",
+        "No prescription is effective in reducing stress.",
+        "People are sure to get married.",
+        "You could reduce stress by doing nothing."
+      ],
+      "correct_answer": "B",
+      "rag_answer": "B",
+      "is_correct": true
+    },
+    {
+      "problem_index": 43,
+      "question": "What does the author think of adding make-up to our face?",
+      "options": [
+        "It makes perfect images.",
+        "It's really meaningless.",
+        "It makes true images go outdated.",
+        "It's hard to achieve what we wish."
+      ],
+      "correct_answer": "D",
+      "rag_answer": "C",
+      "is_correct": false
+    },
+    {
+      "problem_index": 44,
+      "question": "Lions and tigers will not kill or eat men   _   .",
+      "options": [
+        "unless men try to run away",
+        "if they are too old and too weak",
+        "if they are able to get enough food",
+        "however men act towards them"
+      ],
+      "correct_answer": "C",
+      "rag_answer": "B",
+      "is_correct": false
+    },
+    {
+      "problem_index": 45,
+      "question": "In Science &Health, \"Johns Hopkins\" is   _  .",
+      "options": [
+        "a medical center",
+        "a famous university",
+        "a well-known doctor",
+        "a drug company"
+      ],
+      "correct_answer": "A",
+      "rag_answer": "A",
+      "is_correct": true
+    },
+    {
+      "problem_index": 46,
+      "question": "If a child starts to speak later than others, he will    _    in future.",
+      "options": [
+        "have a high IQ",
+        "be less intelligent",
+        "be insensitive to verbal signals",
+        "not necessarily be backward"
+      ],
+      "correct_answer": "D",
+      "rag_answer": "D",
+      "is_correct": true
+    },
+    {
+      "problem_index": 47,
+      "question": "We can learn from the text that kidults  _  .",
+      "options": [
+        "know little what they can pass on to their children",
+        "are sure of their abilities for good life",
+        "living in urban can enjoy more peace",
+        "living in small towns know well what they're living for"
+      ],
+      "correct_answer": "A",
+      "rag_answer": "A",
+      "is_correct": true
+    },
+    {
+      "problem_index": 48,
+      "question": "The main reason why obesity rates are rising in many Pacific islanders is    _   .",
+      "options": [
+        "the change of society",
+        "the change of eating habits",
+        "the change of life style",
+        "lack of exercise"
+      ],
+      "correct_answer": "B",
+      "rag_answer": "B",
+      "is_correct": true
+    },
+    {
+      "problem_index": 49,
+      "question": "What's the writer's opinion of daydreaming?",
+      "options": [
+        "He agrees with the early experts in psychology.",
+        "He agrees with L. Giambra and Eric Klinger.",
+        "He doesn't prefer either side.",
+        "He hasn't formed his own idea yet."
+      ],
+      "correct_answer": "B",
+      "rag_answer": "B",
+      "is_correct": true
+    },
+    {
+      "problem_index": 50,
+      "question": "What is the text mainly about?",
+      "options": [
+        "A new technique to create power.",
+        "A big problem concerning conventional batteries.",
+        "Some special sources of power.",
+        "The development of power harvesting."
+      ],
+      "correct_answer": "A",
+      "rag_answer": "A",
+      "is_correct": true
+    },
+    {
+      "problem_index": 51,
+      "question": "The author presents this passage by   _  .",
+      "options": [
+        "testing an argument",
+        "reasoning with evidence",
+        "describing a research",
+        "introducing a method"
+      ],
+      "correct_answer": "B",
+      "rag_answer": "B",
+      "is_correct": true
+    },
+    {
+      "problem_index": 52,
+      "question": "Some people in Shanghai use water improperly because_.",
+      "options": [
+        "the rich surface water and large amount of rain mislead them",
+        "their family toilets can save plenty of water",
+        "the waste water has already been treated",
+        "new technology provide people with water as much as possible"
+      ],
+      "correct_answer": "A",
+      "rag_answer": "A",
+      "is_correct": true
+    },
+    {
+      "problem_index": 53,
+      "question": "What attitude do most American grown-ups have towards music lessons?   _",
+      "options": [
+        "Uninterested",
+        "Approving",
+        "Doubtful",
+        "Uncertain"
+      ],
+      "correct_answer": "B",
+      "rag_answer": "B",
+      "is_correct": true
+    },
+    {
+      "problem_index": 54,
+      "question": "According to the author, going to the theater is helpful because of the following reasons EXCEPT  _  .",
+      "options": [
+        "improving the ability to read others' feelings",
+        "being a way of learning something",
+        "being a way of entertainment",
+        "improving people's understanding of their own or other cultures"
+      ],
+      "correct_answer": "A",
+      "rag_answer": "A",
+      "is_correct": true
+    },
+    {
+      "problem_index": 55,
+      "question": "From the text, we can infer tipping comes from   _  .",
+      "options": [
+        "the west",
+        "Hong Kong",
+        "Asian countries",
+        "Bangkok"
+      ],
+      "correct_answer": "A",
+      "rag_answer": "A",
+      "is_correct": true
+    },
+    {
+      "problem_index": 56,
+      "question": "In which section  of a newspaper can you find such a passage?",
+      "options": [
+        "Sports",
+        "Culture",
+        "Music",
+        "News"
+      ],
+      "correct_answer": "B",
+      "rag_answer": "B",
+      "is_correct": true
+    },
+    {
+      "problem_index": 57,
+      "question": "What can we learn from the text?",
+      "options": [
+        "The researchers will continue to do experiments.",
+        "The researchers have found a clear answer.",
+        "The experiments are popular among kids.",
+        "Kids change their feelings more easily."
+      ],
+      "correct_answer": "A",
+      "rag_answer": "A",
+      "is_correct": true
+    },
+    {
+      "problem_index": 58,
+      "question": "What made the government change its mind?",
+      "options": [
+        "Schwartz's love for the deer.",
+        "The threat to the deer in the wild.",
+        "The change of the law.",
+        "The influence from the press and the Web."
+      ],
+      "correct_answer": "D",
+      "rag_answer": "D",
+      "is_correct": true
+    },
+    {
+      "problem_index": 59,
+      "question": "Americans used to give their children  _  .",
+      "options": [
+        "much freedom",
+        "proper guidance",
+        "1ots of money",
+        "expensive toys"
+      ],
+      "correct_answer": "B",
+      "rag_answer": "B",
+      "is_correct": true
+    },
+    {
+      "problem_index": 60,
+      "question": "According to the author, her father is unwilling to retire probably because   _  .",
+      "options": [
+        "he wants to continue to earn money",
+        "he is doubtful of her independence",
+        "he fears to lose his function as a dad",
+        "he is not sure of the love from her"
+      ],
+      "correct_answer": "C",
+      "rag_answer": "C",
+      "is_correct": true
+    },
+    {
+      "problem_index": 61,
+      "question": "We can infer from the passage that the writer does not favor   _  .",
+      "options": [
+        "father's helping his son with his study",
+        "written reports to the parents from the teachers",
+        "talking about children's shortcomings",
+        "having the parents help their children with their lessons"
+      ],
+      "correct_answer": "C",
+      "rag_answer": "B",
+      "is_correct": false
+    },
+    {
+      "problem_index": 62,
+      "question": "The author mentioned the example of high ropes course to prove  _  .",
+      "options": [
+        "it was an effective way to cure campers' illness",
+        "it had campers know the difficulty to fight against illness",
+        "it made campers realize the importance of health",
+        "it helped campers feel better about their illness"
+      ],
+      "correct_answer": "D",
+      "rag_answer": "D",
+      "is_correct": true
+    },
+    {
+      "problem_index": 63,
+      "question": "Hasbro Electronic Catch Phrase can be used to   _  .",
+      "options": [
+        "sing and play music like a CD player.",
+        "help children say and learn phrases",
+        "store words and phrases for future use.",
+        "help children learn basic knowledge of computer"
+      ],
+      "correct_answer": "B",
+      "rag_answer": "B",
+      "is_correct": true
+    },
+    {
+      "problem_index": 64,
+      "question": "When Joan's son was born, Sally  _  .",
+      "options": [
+        "felt very happy",
+        "felt not delighted",
+        "moved away",
+        "admired her a lot"
+      ],
+      "correct_answer": "B",
+      "rag_answer": "B",
+      "is_correct": true
+    },
+    {
+      "problem_index": 65,
+      "question": "What can we learn about Professor Allen and his team from the text?",
+      "options": [
+        "They have made use of radio waves in their daily life.",
+        "They have raised a big fund to support their research.",
+        "They have gained a patent for their new technology.",
+        "They mainly did their research in their spare time."
+      ],
+      "correct_answer": "D",
+      "rag_answer": "D",
+      "is_correct": true
+    },
+    {
+      "problem_index": 66,
+      "question": "According to the poll, the time people spend viewing content on electronic devices a day differs from_.",
+      "options": [
+        "one to three hours",
+        "four to six hours",
+        "one to more than ten hours",
+        "seven to more than ten hours."
+      ],
+      "correct_answer": "C",
+      "rag_answer": "C",
+      "is_correct": true
+    },
+    {
+      "problem_index": 67,
+      "question": "What is the best title for the passage?",
+      "options": [
+        "Sharks Should be Forbidden for Commercial",
+        "PETA Tries to Stop Shooting With Animals",
+        "Sharks Are Sensitive Animals in Captivity",
+        "Shark Brought to Los Angeles for Commercial Dies"
+      ],
+      "correct_answer": "D",
+      "rag_answer": "D",
+      "is_correct": true
+    },
+    {
+      "problem_index": 68,
+      "question": "Why are some people strongly against a stricter limitation of smog-caused pollutants?",
+      "options": [
+        "Because they have to live a poorer life.",
+        "Because they think they have to spend more money.",
+        "Because they hold different political view.",
+        "Because they want to make more money."
+      ],
+      "correct_answer": "B",
+      "rag_answer": "B",
+      "is_correct": true
+    },
+    {
+      "problem_index": 69,
+      "question": "Why was the author angry with the patient's mother?",
+      "options": [
+        "Because of her optimism.",
+        "Because of her impoliteness.",
+        "Because she couldn't stop crying.",
+        "Because she was always complaining."
+      ],
+      "correct_answer": "A",
+      "rag_answer": "A",
+      "is_correct": true
+    },
+    {
+      "problem_index": 70,
+      "question": "According to the text, teens in the UK   _  .",
+      "options": [
+        "have few eyesight problems",
+        "can design their own glasses",
+        "change their glasses very often",
+        "can check their eyes without paying"
+      ],
+      "correct_answer": "D",
+      "rag_answer": "D",
+      "is_correct": true
+    },
+    {
+      "problem_index": 71,
+      "question": "The author got interested in watching hockey games   _",
+      "options": [
+        "because he is a sports fan",
+        "due to his sister's influence",
+        "since everyone enjoys the games",
+        "because he has nothing to do all day long"
+      ],
+      "correct_answer": "B",
+      "rag_answer": "B",
+      "is_correct": true
+    },
+    {
+      "problem_index": 72,
+      "question": "From the passage,we know that grits and gravy   _  .",
+      "options": [
+        "were cooked with new materials after the Civil War",
+        "are gaining popularity in the south of America",
+        "were more popular over ten years ago",
+        "are seldom served in restaurants"
+      ],
+      "correct_answer": "B",
+      "rag_answer": "B",
+      "is_correct": true
+    },
+    {
+      "problem_index": 73,
+      "question": "The students today tend to see the world as a much smaller place NOT because    _   .",
+      "options": [
+        "they are having more exposure to the television programs",
+        "they are having easier access to the Internet",
+        "they are having frequent travels to the other parts of the world",
+        "they are having better communication with their parents"
+      ],
+      "correct_answer": "D",
+      "rag_answer": "D",
+      "is_correct": true
+    },
+    {
+      "problem_index": 74,
+      "question": "The author walked away from the car wash to   _  .",
+      "options": [
+        "go to work",
+        "wash his car",
+        "go shopping",
+        "meet his wife"
+      ],
+      "correct_answer": "D",
+      "rag_answer": "D",
+      "is_correct": true
+    },
+    {
+      "problem_index": 75,
+      "question": "What's the best title of the passage?",
+      "options": [
+        "An Unforgettable Afternoon",
+        "Vital Telephone Call Makes a Difference",
+        "Truman Makes His Decisions",
+        "Roosevelt's Death Makes Truman President"
+      ],
+      "correct_answer": "D",
+      "rag_answer": "D",
+      "is_correct": true
+    },
+    {
+      "problem_index": 76,
+      "question": "Why were more and more people listening to Robert's programmes?",
+      "options": [
+        "Because he always lost his temper",
+        "Because he disliked \"the FC\"",
+        "Because the programmes were rich and to the taste of the listeners",
+        "We don't know"
+      ],
+      "correct_answer": "C",
+      "rag_answer": "C",
+      "is_correct": true
+    },
+    {
+      "problem_index": 77,
+      "question": "People's strong desire to check their messages partly results from   _  .",
+      "options": [
+        "the modern substitute of their watches",
+        "the new messages of their handsets",
+        "the same behavior of other people",
+        "the update service of Facebook"
+      ],
+      "correct_answer": "C",
+      "rag_answer": "C",
+      "is_correct": true
+    },
+    {
+      "problem_index": 78,
+      "question": "Professor Joan McLean's course aims to  _  .",
+      "options": [
+        "add color and variety to students'campus life",
+        "inform students of the windshield wiper's invention",
+        "carry out the requirements by Mountain University",
+        "prepare students to try their own inventions"
+      ],
+      "correct_answer": "D",
+      "rag_answer": "D",
+      "is_correct": true
+    },
+    {
+      "problem_index": 79,
+      "question": "What would be the best title for the passage?",
+      "options": [
+        "Shape may influence your drinking",
+        "Curved glass is out of date",
+        "Drink less for your health",
+        "Drinkers favor a different type of glass"
+      ],
+      "correct_answer": "A",
+      "rag_answer": "A",
+      "is_correct": true
+    },
+    {
+      "problem_index": 80,
+      "question": "The book Happy And Other Bad Thoughts is intended for   _  .",
+      "options": [
+        "young children",
+        "Disney World workers",
+        "middle school teachers",
+        "parents with young children"
+      ],
+      "correct_answer": "D",
+      "rag_answer": "D",
+      "is_correct": true
+    },
+    {
+      "problem_index": 81,
+      "question": "How does the author develop the text?",
+      "options": [
+        "First the author gives some messages and then explain them.",
+        "First the author presents his opinions and then describes them.",
+        "First the author informs us of main arguments and then compares them.",
+        "First the author makes an introduction and then draws a conclusion."
+      ],
+      "correct_answer": "A",
+      "rag_answer": "A",
+      "is_correct": true
+    },
+    {
+      "problem_index": 82,
+      "question": "How did the author react after the couple told him their son's name?",
+      "options": [
+        "He was very excited about accepting Michael on the team.",
+        "He refused to accept Michael because he had no talent for sports.",
+        "He decided to accept Michael though he was unwilling to do so.",
+        "He agreed to accept Michael because he was moved by his determination."
+      ],
+      "correct_answer": "C",
+      "rag_answer": "C",
+      "is_correct": true
+    },
+    {
+      "problem_index": 83,
+      "question": "_   leads to people's deeper understanding of health.",
+      "options": [
+        "Common knowledge",
+        "Progress in scientific research",
+        "Better conditions of living",
+        "Quality of life"
+      ],
+      "correct_answer": "B",
+      "rag_answer": "B",
+      "is_correct": true
+    },
+    {
+      "problem_index": 84,
+      "question": "What does George Bernard Shaw's saying imply?",
+      "options": [
+        "We should bear responsibility regardless of situations.",
+        "We shouldn't owe failure to the sense of responsibility.",
+        "We should first step out of our present circumstances.",
+        "We shouldn't care what kind of situations we're in."
+      ],
+      "correct_answer": "A",
+      "rag_answer": "A",
+      "is_correct": true
+    },
+    {
+      "problem_index": 85,
+      "question": "At the places where you see Sign 1,   _  .",
+      "options": [
+        "you are already out of a town",
+        "you still have thirty kilometres to go",
+        "there must be a town thirty kilometres away",
+        "there must be many houses and buildings not far away"
+      ],
+      "correct_answer": "D",
+      "rag_answer": "D",
+      "is_correct": true
+    },
+    {
+      "problem_index": 86,
+      "question": "From the text we can learn that.",
+      "options": [
+        "Ann would act as Santa Claus to hand out the Christmas presents",
+        "the Sutton children always got lots of presents at Christmas",
+        "Kinzie's generosity influenced others and they clici something similar",
+        "Ashley was moved and promised to return the money"
+      ],
+      "correct_answer": "C",
+      "rag_answer": "C",
+      "is_correct": true
+    },
+    {
+      "problem_index": 87,
+      "question": "What is the author's opinion of people' s mindsets?",
+      "options": [
+        "A growth mindstet means no failure.",
+        "People need develop a fixed mindset.",
+        "A fixed mindset focuses more on process.",
+        "People should develop a growth mindest."
+      ],
+      "correct_answer": "D",
+      "rag_answer": "D",
+      "is_correct": true
+    },
+    {
+      "problem_index": 88,
+      "question": "The only thing that the little girl wanted was   _   .:",
+      "options": [
+        "to be rich",
+        "to have her own parents",
+        "to have a lot of friends",
+        "happiness"
+      ],
+      "correct_answer": "D",
+      "rag_answer": "D",
+      "is_correct": true
+    },
+    {
+      "problem_index": 89,
+      "question": "If a carsharing renter should have an accident in California,the car's owner   _  .",
+      "options": [
+        "has to take legal responsibility",
+        "will not suffer the consequence",
+        "is not covered by health insurance",
+        "must pay the insurance for the renter"
+      ],
+      "correct_answer": "B",
+      "rag_answer": "B",
+      "is_correct": true
+    },
+    {
+      "problem_index": 90,
+      "question": "LiptorR, ZocorR,CrestorRare  _  .",
+      "options": [
+        "diseases",
+        "side effects",
+        "medicines",
+        "cholesterol"
+      ],
+      "correct_answer": "C",
+      "rag_answer": "B",
+      "is_correct": false
+    },
+    {
+      "problem_index": 91,
+      "question": "This passage is mainly about   _  .",
+      "options": [
+        "why animals move from one place to another",
+        "how animals can find food easily",
+        "new discoveries of animals traveling",
+        "some problems with traveling"
+      ],
+      "correct_answer": "A",
+      "rag_answer": "A",
+      "is_correct": true
+    },
+    {
+      "problem_index": 92,
+      "question": "Why is Twain so loved in the US according to the article?",
+      "options": [
+        "He wrote bad things about US wars abroad.",
+        "He supported women's right to vote.",
+        "He criticized American culture and society clearly and cleverly.",
+        "He showed readers a magical childhood that everyone would love."
+      ],
+      "correct_answer": "C",
+      "rag_answer": "C",
+      "is_correct": true
+    },
+    {
+      "problem_index": 93,
+      "question": "Why did Susie dump water in the boy's lap?",
+      "options": [
+        "The boy asked her to do so.",
+        "She just did it by accident.",
+        "The teacher told her to do so.",
+        "She knew the boy's trouble."
+      ],
+      "correct_answer": "D",
+      "rag_answer": "D",
+      "is_correct": true
+    },
+    {
+      "problem_index": 94,
+      "question": "From the passage we can learn that Leoneavallo was   _  .",
+      "options": [
+        "an actor",
+        "a writer",
+        "a pop singer",
+        "an opera singer"
+      ],
+      "correct_answer": "B",
+      "rag_answer": "B",
+      "is_correct": true
+    },
+    {
+      "problem_index": 95,
+      "question": "How are social robots different from household robots?",
+      "options": [
+        "They can control their emotions.",
+        "They are more like humans.",
+        "They do the normal housework.",
+        "They respond to users more slowly."
+      ],
+      "correct_answer": "B",
+      "rag_answer": "B",
+      "is_correct": true
+    },
+    {
+      "problem_index": 96,
+      "question": "From this passage we learn that_.",
+      "options": [
+        "only American citizens take part in the competition",
+        "fewer girls used to take part in the competition",
+        "more than half girls took part in the recent competition",
+        "all winners' prizes are for their college educations"
+      ],
+      "correct_answer": "B",
+      "rag_answer": "B",
+      "is_correct": true
+    },
+    {
+      "problem_index": 97,
+      "question": "What is Jan Eichhorn's opinion of the Scottish teenagers aged 16 to 17?",
+      "options": [
+        "They are too enthusiastic to make informed decisions.",
+        "They make no difference to the voting result.",
+        "They are as informed and capable as adults of voting.",
+        "They are unwilling to be involved in the decision of the country's future."
+      ],
+      "correct_answer": "C",
+      "rag_answer": "C",
+      "is_correct": true
+    },
+    {
+      "problem_index": 98,
+      "question": "What did Uncle Tom want to teach Vicki?",
+      "options": [
+        "How to respect others",
+        "The meaning of gifts",
+        "How to deal with gifts",
+        "The value of a promise"
+      ],
+      "correct_answer": "D",
+      "rag_answer": "D",
+      "is_correct": true
+    },
+    {
+      "problem_index": 99,
+      "question": "High-tech groups believe that if an extra fee is charged on every TV or computer purchased in California, consumers will   _  .",
+      "options": [
+        "hesitate to upgrade their computers",
+        "abandon online shopping",
+        "strongly protest against such a charge",
+        "buy them from other states"
+      ],
+      "correct_answer": "D",
+      "rag_answer": "D",
+      "is_correct": true
+    },
+    {
+      "problem_index": 100,
+      "question": "what is the first important thing to know at a dinner party?",
+      "options": [
+        "what to eat",
+        "whether to talk",
+        "when to begin eating",
+        "How to use forks."
+      ],
+      "correct_answer": "C",
+      "rag_answer": "C",
+      "is_correct": true
+    },
+    {
+      "problem_index": 101,
+      "question": "It can be inferred that in a highly open society, the differences between men and women   _  .",
+      "options": [
+        "have attracted little attention",
+        "hinder the social development",
+        "are attractive topics in talk shows",
+        "still call for great concern"
+      ],
+      "correct_answer": "D",
+      "rag_answer": "D",
+      "is_correct": true
+    },
+    {
+      "problem_index": 102,
+      "question": "L'Oreal-UNESCO For Women in Science Awards is_.",
+      "options": [
+        "an award for the developing world",
+        "equal to Women's Nobel Prize",
+        "held for more than 14 times",
+        "only to in honour of Marie Curie"
+      ],
+      "correct_answer": "B",
+      "rag_answer": "C",
+      "is_correct": false
+    },
+    {
+      "problem_index": 103,
+      "question": "The phrase \"maternal bond\" refers to_.",
+      "options": [
+        "the education of mothers",
+        "the supervision of mothers on children",
+        "whether the mother uses drugs",
+        "the guidance of schools on mothers"
+      ],
+      "correct_answer": "B",
+      "rag_answer": "C",
+      "is_correct": false
+    },
+    {
+      "problem_index": 104,
+      "question": "According to the Kaiser Poll, which of the following is NOT correct?",
+      "options": [
+        "The country is making progress against AIDS.",
+        "AIDS drugs still cannot save people's lives.",
+        "AIDS drugs can now make people live longer.",
+        "More and more people die of AIDS now."
+      ],
+      "correct_answer": "D",
+      "rag_answer": "B",
+      "is_correct": false
+    },
+    {
+      "problem_index": 105,
+      "question": "If you stand near the two horses and listen, you will be amazed that   _  .",
+      "options": [
+        "one of the two horses is blind",
+        "the blind horse lives in an uncomfortable barn",
+        "God helps the blind horse",
+        "the blind horse follows the ringing bell"
+      ],
+      "correct_answer": "D",
+      "rag_answer": "D",
+      "is_correct": true
+    },
+    {
+      "problem_index": 106,
+      "question": "If you prefer emotional stories,you'll choose   _  .",
+      "options": [
+        "The Invention of Wings and Gray Mountain",
+        "All the Light We Cannot See and Twenty Seconds Ago",
+        "The Invention of Wings and All the Light We Cannot See",
+        "Twenty Seconds Ago and Gray Mountain"
+      ],
+      "correct_answer": "C",
+      "rag_answer": "C",
+      "is_correct": true
+    },
+    {
+      "problem_index": 107,
+      "question": "Andy Ridgwell, the environmental scientist, believes that",
+      "options": [
+        "dust plays a more important part than trees",
+        "trees shouldn't have been planted in dry places",
+        "carbon dioxide is harmful to everything on the earth",
+        "environmental problems are more complex than expected"
+      ],
+      "correct_answer": "D",
+      "rag_answer": "D",
+      "is_correct": true
+    },
+    {
+      "problem_index": 108,
+      "question": "What was the hair style that Kevin chose like?",
+      "options": [
+        "It was very strange.",
+        "It suited him well.",
+        "It was very bad.",
+        "It was more like a girl's"
+      ],
+      "correct_answer": "B",
+      "rag_answer": "B",
+      "is_correct": true
+    },
+    {
+      "problem_index": 109,
+      "question": "What is learning about culture?",
+      "options": [
+        "Learning the hidden part of the iceberg, which is underwater.",
+        "Learning everyday activities and some basic customs.",
+        "Learning the culture of an iceberg.",
+        "Learning the visible as well as the hidden differences of culture."
+      ],
+      "correct_answer": "D",
+      "rag_answer": "D",
+      "is_correct": true
+    },
+    {
+      "problem_index": 110,
+      "question": "It can be concluded from the passage that   _  .",
+      "options": [
+        "Newton,Darwin,Stephen Hawking and Albert Einstein all graduated from Cambridge University.",
+        "The year of 2009 is also the 200th anniversary of Isaac Newton.",
+        "Cambridge brought up about 83 Nobel prizewinners,ranking top of the world.",
+        "Cambridge University is younger than OxfordUniversity."
+      ],
+      "correct_answer": "D",
+      "rag_answer": "D",
+      "is_correct": true
+    },
+    {
+      "problem_index": 111,
+      "question": "According to this passage, which of the following statements is TRUE?",
+      "options": [
+        "Cell phones can't be taken into the school.",
+        "Students' parents are in favor of the ban.",
+        "Students have different opinions about the ban.",
+        "Students can use cell phones without camera freely at school."
+      ],
+      "correct_answer": "C",
+      "rag_answer": "C",
+      "is_correct": true
+    },
+    {
+      "problem_index": 112,
+      "question": "Unlike the other lakes in Northern Saskatchewan, the Nemeiben Lake  _  .",
+      "options": [
+        "was the most dangerous and threatening lake",
+        "was most famous for fishing and tourism",
+        "was the largest and deepest in this area",
+        "had a good reputation for its wildlife"
+      ],
+      "correct_answer": "B",
+      "rag_answer": "B",
+      "is_correct": true
+    },
+    {
+      "problem_index": 113,
+      "question": "If you want to learn something about people of the past,  you can   _",
+      "options": [
+        "join the team to Hawaii",
+        "join the team to the Far North",
+        "join the team to Washington",
+        "join the team to Greece"
+      ],
+      "correct_answer": "D",
+      "rag_answer": "D",
+      "is_correct": true
+    },
+    {
+      "problem_index": 114,
+      "question": "When a tourist asks the Japanese the way to a certain place, they usually   _  .",
+      "options": [
+        "describe the place carefully",
+        "show him a map of the place",
+        "tell him the names of the streets",
+        "refer to recognizable buildings and places"
+      ],
+      "correct_answer": "D",
+      "rag_answer": "D",
+      "is_correct": true
+    },
+    {
+      "problem_index": 115,
+      "question": "The writer suggests that if the number of official languages was reduced   _  .",
+      "options": [
+        "the EU would not know which official languages to choose",
+        "countries whose languages were not used officially would be unhappy",
+        "only languages that are easy to translate would be used officially",
+        "the smaller member countries would be pleased"
+      ],
+      "correct_answer": "B",
+      "rag_answer": "B",
+      "is_correct": true
+    },
+    {
+      "problem_index": 116,
+      "question": "If a person suffers from OCD, be is likely to keep doing any of the following EXCEPT   .",
+      "options": [
+        "chewing pens",
+        "hurting himself",
+        "sucking fingers",
+        "biting nails"
+      ],
+      "correct_answer": "B",
+      "rag_answer": "B",
+      "is_correct": true
+    },
+    {
+      "problem_index": 117,
+      "question": "Which of the following can be the best title of the passage?",
+      "options": [
+        "Social Acceptance And Rejection",
+        "Females Use Mobiles More than Men",
+        "How Do People Check Messages?",
+        "Cellphone Use Is Spreading"
+      ],
+      "correct_answer": "D",
+      "rag_answer": "D",
+      "is_correct": true
+    },
+    {
+      "problem_index": 118,
+      "question": "Why couldn't the woman get out of the water?",
+      "options": [
+        "She was bitten by a shark.",
+        "Her friend didn't offer help.",
+        "She was too weak to stay awake.",
+        "There was something wrong with her knee."
+      ],
+      "correct_answer": "D",
+      "rag_answer": "D",
+      "is_correct": true
+    },
+    {
+      "problem_index": 119,
+      "question": "The brothers constructed a number of kites in order to  _  .",
+      "options": [
+        "test the materials they would use for their plane",
+        "prove that building a flying machine was possible",
+        "see which shape could support the most weight",
+        "improve the design of their plane's wings"
+      ],
+      "correct_answer": "D",
+      "rag_answer": "D",
+      "is_correct": true
+    },
+    {
+      "problem_index": 120,
+      "question": "What is the new challenge to American agriculture?",
+      "options": [
+        "Fewer and older farmers.",
+        "Higher fuel prices.",
+        "More natural disasters.",
+        "Lower agricultural output."
+      ],
+      "correct_answer": "A",
+      "rag_answer": "A",
+      "is_correct": true
+    },
+    {
+      "problem_index": 121,
+      "question": "What does the passage mainly talk about?",
+      "options": [
+        "Forest plants.",
+        "Animal doctors.",
+        "Chimp's diets.",
+        "A cure for cancer."
+      ],
+      "correct_answer": "B",
+      "rag_answer": "C",
+      "is_correct": false
+    },
+    {
+      "problem_index": 122,
+      "question": "When did Wang Chuanfu's mother die?",
+      "options": [
+        "When he was eight.",
+        "When he was ten.",
+        "When he was about eighteen.",
+        "When he was about fifteen."
+      ],
+      "correct_answer": "D",
+      "rag_answer": "D",
+      "is_correct": true
+    },
+    {
+      "problem_index": 123,
+      "question": "The writer thinks that the railways, far from being dead, are very much alive because  _  .",
+      "options": [
+        "we can have a smooth and untroubled journey",
+        "we'll not have enough money to fly in planes",
+        "we can now travel in super-fast train",
+        "all of the above"
+      ],
+      "correct_answer": "D",
+      "rag_answer": "D",
+      "is_correct": true
+    },
+    {
+      "problem_index": 124,
+      "question": "Sherlock Holmes was  _  .",
+      "options": [
+        "the greatest detective who ever lived",
+        "Dr Joseph Bell",
+        "Arthur Conan Doyle",
+        "only a character made up by Arthur Conan Dolye"
+      ],
+      "correct_answer": "D",
+      "rag_answer": "A",
+      "is_correct": false
+    },
+    {
+      "problem_index": 125,
+      "question": "Why do we choose certain flowers as gifts?",
+      "options": [
+        "Because they are the best gifts for you.",
+        "Because flowers all look beautiful",
+        "Because different flowers smell good.",
+        "Because they can express specific meanings."
+      ],
+      "correct_answer": "D",
+      "rag_answer": "D",
+      "is_correct": true
+    },
+    {
+      "problem_index": 126,
+      "question": "The difference between such a new machine and a robot is that   _  .",
+      "options": [
+        "the new machine is more difficult to make than a robot",
+        "the new machine is more difficult to be controlled",
+        "a robot is controlled by man indirectly",
+        "a robot can't be used in places too dangerous or faraway"
+      ],
+      "correct_answer": "A",
+      "rag_answer": "C",
+      "is_correct": false
+    },
+    {
+      "problem_index": 127,
+      "question": "What can be inferred from the passage?",
+      "options": [
+        "The deal between Alibaba and Yahoo will lead to the end of the competition.",
+        "Yahoo may suffer a financial loss in carrying out a \"Cash rich split\" plan.",
+        "Yahoo will transfer more cash to its assets in Asia for future development.",
+        "Alibaba.com's shares haven't had a satisfactory performance on the market."
+      ],
+      "correct_answer": "D",
+      "rag_answer": "D",
+      "is_correct": true
+    },
+    {
+      "problem_index": 128,
+      "question": "What did Mrs. Packletide want the villagers to arrange for her?",
+      "options": [
+        "A platform in a tree",
+        "A paid companion.",
+        "An accurate gun.",
+        "A safe shooting."
+      ],
+      "correct_answer": "D",
+      "rag_answer": "A",
+      "is_correct": false
+    },
+    {
+      "problem_index": 129,
+      "question": "Which is NOT the standard in the following when evaluating a great book?",
+      "options": [
+        "Although not a best seller for a year or two, it must be the most widely read.",
+        "A great book can be read without any effort.",
+        "Great books are never out of date.",
+        "Great books will not disappoint you if you try to read them well."
+      ],
+      "correct_answer": "D",
+      "rag_answer": "B",
+      "is_correct": false
+    },
+    {
+      "problem_index": 130,
+      "question": "When the writer was selling the crib,  _  .",
+      "options": [
+        "she felt relieved that there was someone willing to buy it",
+        "she showed a strong attachment to the old item",
+        "she couldn't decide whether or not to sell it in the end",
+        "she changed her mind in hopes of keeping it and increasing its value"
+      ],
+      "correct_answer": "B",
+      "rag_answer": "B",
+      "is_correct": true
+    },
+    {
+      "problem_index": 131,
+      "question": "What is this passage mainly about?",
+      "options": [
+        "What a true friend is like.",
+        "Three kinds of friends in our life.",
+        "The role that friends play in our life.",
+        "Why there are different kinds of friends."
+      ],
+      "correct_answer": "B",
+      "rag_answer": "B",
+      "is_correct": true
+    },
+    {
+      "problem_index": 132,
+      "question": "According to the text,the ecotourists should be  _  .",
+      "options": [
+        "those who like to experience the easilyremembered natural environment",
+        "those who like to go to their travelling places by hiking",
+        "those who prefer an undamaged natural world and remain what it used to be",
+        "those who prefer unique natural environment of cultural relics"
+      ],
+      "correct_answer": "C",
+      "rag_answer": "C",
+      "is_correct": true
+    },
+    {
+      "problem_index": 133,
+      "question": "What made the author deeply sad?",
+      "options": [
+        "The poor food for the patients.",
+        "The sight he saw in the hospital.",
+        "The hopeless patients in the hospital.",
+        "The bad service of the hospital."
+      ],
+      "correct_answer": "B",
+      "rag_answer": "B",
+      "is_correct": true
+    },
+    {
+      "problem_index": 134,
+      "question": "According to the expert, a good relationship should be   _  .",
+      "options": [
+        "fair and equal",
+        "fair and kind",
+        "powerful and equal",
+        "confident and fair"
+      ],
+      "correct_answer": "A",
+      "rag_answer": "A",
+      "is_correct": true
+    },
+    {
+      "problem_index": 135,
+      "question": "Without Mr. Clark,the writer   _  .",
+      "options": [
+        "might have been put into prison",
+        "might not have won the prize",
+        "might have joined a women's club",
+        "might not have moved to Atlanta"
+      ],
+      "correct_answer": "A",
+      "rag_answer": "A",
+      "is_correct": true
+    },
+    {
+      "problem_index": 136,
+      "question": "Why does the author say education has become a global enterprise?",
+      "options": [
+        "Monkseaton High School used to be a very unfashionable school in the Northeast England.",
+        "Monkseaton High School is now one of the state-funded middle schools in England.",
+        "Monkseaton High School has sent two top students to the Harvard University in U.S.",
+        "There is now an extensive exchange of students among different countries."
+      ],
+      "correct_answer": "D",
+      "rag_answer": "D",
+      "is_correct": true
+    },
+    {
+      "problem_index": 137,
+      "question": "Why did Mr.Lucky hand out his money?",
+      "options": [
+        "He was easy-going and rich.",
+        "He wanted to help the poor.",
+        "He believed people could use it properly.",
+        "He needed people to share his responsibility."
+      ],
+      "correct_answer": "C",
+      "rag_answer": "C",
+      "is_correct": true
+    },
+    {
+      "problem_index": 138,
+      "question": "Few Asian American students major in human sciences mainly because  _  .",
+      "options": [
+        "their English is not good enough",
+        "they are afraid they might meet with unfair judgment in these areas",
+        "there is a wide difference between Asian and Western cultures",
+        "they know little about American culture and society"
+      ],
+      "correct_answer": "B",
+      "rag_answer": "B",
+      "is_correct": true
+    },
+    {
+      "problem_index": 139,
+      "question": "How long did it take Mary to put his spectrograph into use?",
+      "options": [
+        "Three months.",
+        "Half a year.",
+        "About a year.",
+        "Several years."
+      ],
+      "correct_answer": "B",
+      "rag_answer": "B",
+      "is_correct": true
+    },
+    {
+      "problem_index": 140,
+      "question": "Which of the following is true according to the passage?",
+      "options": [
+        "Palmer will attempt to put solar cars on the market.",
+        "Palmer dreamed of a solar car when he was a boy.",
+        "Palmer will return home from Indonesia.",
+        "Palmer has never made a journey before."
+      ],
+      "correct_answer": "A",
+      "rag_answer": "B",
+      "is_correct": false
+    },
+    {
+      "problem_index": 141,
+      "question": "Alex' s Lemonade Stand began   _  .?",
+      "options": [
+        "when Mario was eight years old",
+        "when Alex was about four years old",
+        "shortly after Alex died of cancer",
+        "before cancers began to hit kids"
+      ],
+      "correct_answer": "B",
+      "rag_answer": "B",
+      "is_correct": true
+    },
+    {
+      "problem_index": 142,
+      "question": "What kind of problem is the most difficult to adjust in teaching Chinese in America?",
+      "options": [
+        "To adapt themselves to the American life styles.",
+        "To communicate with the American students.",
+        "To get along well with the American students.",
+        "To be fit for the cultural differences in teaching styles."
+      ],
+      "correct_answer": "D",
+      "rag_answer": "D",
+      "is_correct": true
+    },
+    {
+      "problem_index": 143,
+      "question": "It can be known from the passage that   _  .",
+      "options": [
+        "stress is too difficult to be kept under control",
+        "stress is always more positive than harmful to the body",
+        "Learn to Lighten Up and Live Longer is a popular book",
+        "Taiwanese teens experience more stress than American teens"
+      ],
+      "correct_answer": "C",
+      "rag_answer": "C",
+      "is_correct": true
+    },
+    {
+      "problem_index": 144,
+      "question": "The four men did not feed the cows because",
+      "options": [
+        "they had not cut the hay yet",
+        "Mr. Jones wasn't at home",
+        "they did not have time to feed them",
+        "the cows had fed themselves"
+      ],
+      "correct_answer": "B",
+      "rag_answer": "C",
+      "is_correct": false
+    },
+    {
+      "problem_index": 145,
+      "question": "The attitude of the author of the passage toward Among the Boys is   _  .",
+      "options": [
+        "forgiving",
+        "doubtful",
+        "praising",
+        "ignorant"
+      ],
+      "correct_answer": "C",
+      "rag_answer": "C",
+      "is_correct": true
+    },
+    {
+      "problem_index": 146,
+      "question": "According to the passage, Ethyl Pyruvate can   _  .",
+      "options": [
+        "kill the mosquitoes' smelling neurons",
+        "cause the mosquitoes to lose their senses of smell",
+        "result in the inactiveness of the mosquitoes' receptors",
+        "make the mosquitoes uninterested in human breath and skin smell"
+      ],
+      "correct_answer": "C",
+      "rag_answer": "C",
+      "is_correct": true
+    },
+    {
+      "problem_index": 147,
+      "question": "According to the passage, taking notes by hand  _  .",
+      "options": [
+        "requires students to think independently",
+        "is unsuitable for students to learn new ideas",
+        "helps students actively participate in learning",
+        "proves to be an old and useless learning method"
+      ],
+      "correct_answer": "C",
+      "rag_answer": "C",
+      "is_correct": true
+    },
+    {
+      "problem_index": 148,
+      "question": "We can infer from the passage that  _  .",
+      "options": [
+        "elephants in zoos suffer less stress than those in the wild",
+        "elephants in zoos live an easy life",
+        "social lives are not important to elephants",
+        "zoo life can be stressful to elephants"
+      ],
+      "correct_answer": "D",
+      "rag_answer": "D",
+      "is_correct": true
+    },
+    {
+      "problem_index": 149,
+      "question": "Tom was a student, but at the same time he was   _   .",
+      "options": [
+        "a butcher and a doctor",
+        "a manager and a doctor",
+        "an assistant",
+        "a manager"
+      ],
+      "correct_answer": "C",
+      "rag_answer": "A",
+      "is_correct": false
+    },
+    {
+      "problem_index": 150,
+      "question": "What does this passage mainly talk about?",
+      "options": [
+        "Laptops are very popular in universities of America.",
+        "More laptops are being used in universities of America.",
+        "People like using laptops everywhere, including in universities.",
+        "Laptops will be used in Westlake College in Virginia."
+      ],
+      "correct_answer": "D",
+      "rag_answer": "D",
+      "is_correct": true
+    },
+    {
+      "problem_index": 151,
+      "question": "How did Carl learn to play the banjo well?",
+      "options": [
+        "By working hard.",
+        "By taking short cuts.",
+        "By asking his wife to help him.",
+        "By finding the best teacher."
+      ],
+      "correct_answer": "A",
+      "rag_answer": "A",
+      "is_correct": true
+    },
+    {
+      "problem_index": 152,
+      "question": "Which of the following places has Helen not visited yet?",
+      "options": [
+        "The North Pole",
+        "The Sahara Desert",
+        "The Gobi Desert",
+        "Sichuan and Tibet"
+      ],
+      "correct_answer": "D",
+      "rag_answer": "D",
+      "is_correct": true
+    },
+    {
+      "problem_index": 153,
+      "question": "The best title of the passage can be   _  .",
+      "options": [
+        "Two things changing my life",
+        "My baby sister's wedding",
+        "Not Lucy anymore",
+        "Not innocent anymore"
+      ],
+      "correct_answer": "C",
+      "rag_answer": "A",
+      "is_correct": false
+    },
+    {
+      "problem_index": 154,
+      "question": "What is probably the author's purpose of writing this passage?",
+      "options": [
+        "To draw readers' attention to popular radio shows.",
+        "To introduce behavioral mimicry and its influence.",
+        "To appeal to readers not to fall into others' habits.",
+        "To advocate healthy food choices among readers."
+      ],
+      "correct_answer": "B",
+      "rag_answer": "B",
+      "is_correct": true
+    },
+    {
+      "problem_index": 155,
+      "question": "The students from Canada and Beijing No. 2 Middle School didn't   _  .",
+      "options": [
+        "take photos",
+        "visit places of interest",
+        "sing songs",
+        "have a football match"
+      ],
+      "correct_answer": "D",
+      "rag_answer": "A",
+      "is_correct": false
+    },
+    {
+      "problem_index": 156,
+      "question": "Some people don't like shopping online because they  _  .",
+      "options": [
+        "have to pay more money",
+        "must send their money first online",
+        "don't have enough time",
+        "are worried about the safety of shopping online"
+      ],
+      "correct_answer": "D",
+      "rag_answer": "D",
+      "is_correct": true
+    },
+    {
+      "problem_index": 157,
+      "question": "British police forces are making efforts to   _  .",
+      "options": [
+        "put an end to trick or treat",
+        "control anti-social behaviours",
+        "punish those who frighten others",
+        "make Halloween safe trouble-free"
+      ],
+      "correct_answer": "D",
+      "rag_answer": "B",
+      "is_correct": false
+    },
+    {
+      "problem_index": 158,
+      "question": "Why is mountaineering not a game?",
+      "options": [
+        "Because it is dangerous.",
+        "Because it has no man-made rules.",
+        "Because it is unfamiliar to many people.",
+        "Because so few people go in for this sport."
+      ],
+      "correct_answer": "B",
+      "rag_answer": "B",
+      "is_correct": true
+    },
+    {
+      "problem_index": 159,
+      "question": "What is the greenest way for you to see a film on Valentine's Day?",
+      "options": [
+        "Just watch a DVD at home.",
+        "Just see the film in the running car.",
+        "Go to the nearest theatre by bike.",
+        "\"Escape\" from your house by car."
+      ],
+      "correct_answer": "A",
+      "rag_answer": "A",
+      "is_correct": true
+    },
+    {
+      "problem_index": 160,
+      "question": "Which is an initiative adopted by Crow at Arizona State University?",
+      "options": [
+        "Restructuring the teachers College.",
+        "Launching the School of Life Sciences.",
+        "Ignoring the linkages between disciplines.",
+        "Enrolling more students from poor families."
+      ],
+      "correct_answer": "D",
+      "rag_answer": "D",
+      "is_correct": true
+    },
+    {
+      "problem_index": 161,
+      "question": "The author gave a speech to the students and parents in order to   _  .",
+      "options": [
+        "bring in new team members",
+        "teach them how to play football",
+        "tell them about the benefits of playing football",
+        "help those parents who are worried about their children"
+      ],
+      "correct_answer": "A",
+      "rag_answer": "A",
+      "is_correct": true
+    },
+    {
+      "problem_index": 162,
+      "question": "How can Dr. Wrangham tell which plants are medicine for chimps?",
+      "options": [
+        "By talking with the biologists.",
+        "By analyzing the chimps' favorite food.",
+        "By studying the chimps' feeding habits.",
+        "By comparing other scientists' discoveries."
+      ],
+      "correct_answer": "C",
+      "rag_answer": "C",
+      "is_correct": true
+    },
+    {
+      "problem_index": 163,
+      "question": "If you want to know more information about spas, you can call   _  .",
+      "options": [
+        "800-967-9033",
+        "+351 220 409 620",
+        "01 951 501 6100",
+        "+90 212 520 00 53"
+      ],
+      "correct_answer": "A",
+      "rag_answer": "B",
+      "is_correct": false
+    },
+    {
+      "problem_index": 164,
+      "question": "We can know from the passage that   _  .",
+      "options": [
+        "the author developed breast cancer a few years after colon cancer",
+        "writing only helped the author alone",
+        "the author wrote stories as well as poems",
+        "If Only I Could Fly,Said Mattiebee is a poem"
+      ],
+      "correct_answer": "C",
+      "rag_answer": "C",
+      "is_correct": true
+    },
+    {
+      "problem_index": 165,
+      "question": "According to the passage, grandparents will be of least benefit to a child   _   .",
+      "options": [
+        "from two biological parent families",
+        "from a single--parent household",
+        "from a divorced household",
+        "from a stepfamily household"
+      ],
+      "correct_answer": "A",
+      "rag_answer": "A",
+      "is_correct": true
+    },
+    {
+      "problem_index": 166,
+      "question": "The course instructors_.",
+      "options": [
+        "can accept tips",
+        "work part-time",
+        "can be booked online",
+        "will email photos to the learners"
+      ],
+      "correct_answer": "A",
+      "rag_answer": "A",
+      "is_correct": true
+    },
+    {
+      "problem_index": 167,
+      "question": "Which can be the best title for the text?",
+      "options": [
+        "Using Apps for Apes",
+        "Let's Help Zoos",
+        "Wonderful Zoos Welcome You",
+        "A Traditional Program Will Expand"
+      ],
+      "correct_answer": "A",
+      "rag_answer": "A",
+      "is_correct": true
+    },
+    {
+      "problem_index": 168,
+      "question": "Which is probably one of the reasons why users dislike Window 8?",
+      "options": [
+        "Microsoft hasn't offered any discount for it.",
+        "They like Window 7 more than Window 8.",
+        "Microsoft refuses to offer them a new machine.",
+        "It's impossible for them to use the new operating system."
+      ],
+      "correct_answer": "A",
+      "rag_answer": "B",
+      "is_correct": false
+    },
+    {
+      "problem_index": 169,
+      "question": "According to the passage which of the following is TRUE?",
+      "options": [
+        "The Indians believed that killing too many wild animals had disturbed the balance of nature.",
+        "The government began to have a better understanding of the Indians in the fifties of the nineteenth century.",
+        "Between 1843 and 1854 about 70,000 Indians were killed in the battle.",
+        "The whites carried serious diseases into where the Indians lived."
+      ],
+      "correct_answer": "D",
+      "rag_answer": "D",
+      "is_correct": true
+    },
+    {
+      "problem_index": 170,
+      "question": "What might be the best title of the story ?",
+      "options": [
+        "Take All My Money With Me",
+        "A Promise Cleverly Kept",
+        "A Loving Wife",
+        "Miser and his Wife"
+      ],
+      "correct_answer": "B",
+      "rag_answer": "B",
+      "is_correct": true
+    },
+    {
+      "problem_index": 171,
+      "question": "Who does this article introduce?",
+      "options": [
+        "A modem philosopher.",
+        "An international diplomat .",
+        "An important scientist",
+        "A conservative politician."
+      ],
+      "correct_answer": "C",
+      "rag_answer": "C",
+      "is_correct": true
+    },
+    {
+      "problem_index": 172,
+      "question": "The best headline   fot this newspaper article is   _  .",
+      "options": [
+        "Astonishing Medicine",
+        "Farmer Loses Arm",
+        "Dangerous Bites",
+        "Snake Doctor"
+      ],
+      "correct_answer": "D",
+      "rag_answer": "B",
+      "is_correct": false
+    },
+    {
+      "problem_index": 173,
+      "question": "Who first created the basic words of the Na'vi language?",
+      "options": [
+        "Paul Frommer.",
+        "An Indian.",
+        "James Cameron",
+        "Hamlet."
+      ],
+      "correct_answer": "C",
+      "rag_answer": "C",
+      "is_correct": true
+    },
+    {
+      "problem_index": 174,
+      "question": "The passage is mainly written for    _   .",
+      "options": [
+        "holiday makers",
+        "companions",
+        "dinner hosts",
+        "dinner guests"
+      ],
+      "correct_answer": "D",
+      "rag_answer": "D",
+      "is_correct": true
+    },
+    {
+      "problem_index": 175,
+      "question": "What's Yam's view on men and women?  _  .",
+      "options": [
+        "Their intellectual abilities and research capabilities are the same.",
+        "Their passion, dedication and determination are the same.",
+        "Women require stability and security.",
+        "Women can't get the mental and material support from family and society."
+      ],
+      "correct_answer": "A",
+      "rag_answer": "A",
+      "is_correct": true
+    },
+    {
+      "problem_index": 176,
+      "question": "A couple, with their 13yearold son, had a halfday tour of Canyon de Chelly without stay on Nov. 13,2006.They should pay  _  .",
+      "options": [
+        "$114",
+        "$189",
+        "$177",
+        "$123"
+      ],
+      "correct_answer": "D",
+      "rag_answer": "A",
+      "is_correct": false
+    },
+    {
+      "problem_index": 177,
+      "question": "According to the passage, which of the following ships will take the longest time of voyage?",
+      "options": [
+        "Silver Shadow.",
+        "Maasadam.",
+        "Divina.",
+        "Symphony."
+      ],
+      "correct_answer": "B",
+      "rag_answer": "D",
+      "is_correct": false
+    },
+    {
+      "problem_index": 178,
+      "question": "What is the main idea of the passage?",
+      "options": [
+        "An exciting experience my parents and I had",
+        "A disappointing experience my parents and I had",
+        "An adventurous experience my parents and I had",
+        "A strong experience my parents and I had"
+      ],
+      "correct_answer": "C",
+      "rag_answer": "A",
+      "is_correct": false
+    },
+    {
+      "problem_index": 179,
+      "question": "The darkest moments in the writer's family were with the fact that  _  .",
+      "options": [
+        "the family bought big Christmas trees",
+        "they had problems decorating their Christmas trees",
+        "they had problems picking suitable Christmas trees",
+        "they had problems finding carpenters for putting up Christmas trees"
+      ],
+      "correct_answer": "C",
+      "rag_answer": "C",
+      "is_correct": true
+    },
+    {
+      "problem_index": 180,
+      "question": "Some people are less willing to deal with humans because",
+      "options": [
+        "they are becoming less patient",
+        "they are growing too independent",
+        "they have to handle many important messages",
+        "they have to follow an evolutionary step backward."
+      ],
+      "correct_answer": "A",
+      "rag_answer": "A",
+      "is_correct": true
+    },
+    {
+      "problem_index": 181,
+      "question": "What's the best title of this passage?",
+      "options": [
+        "Yang Jiang's works.",
+        "Young people should read more books.",
+        "Yang Jiang and her husband.",
+        "Yang Jiang, Chinese writer died at 105."
+      ],
+      "correct_answer": "D",
+      "rag_answer": "D",
+      "is_correct": true
+    },
+    {
+      "problem_index": 182,
+      "question": "Chinese used to lack self-confidence because  .",
+      "options": [
+        "They thought the foreigners were mysterious.",
+        "They used to think themselves less powerful.",
+        "They once believed foreigners were awesome.",
+        "They were deeply influenced by the dark history."
+      ],
+      "correct_answer": "D",
+      "rag_answer": "D",
+      "is_correct": true
+    },
+    {
+      "problem_index": 183,
+      "question": "If you stay in the capsule hotel in Shanghai for 8 hours, you will have to pay  _  yuan.",
+      "options": [
+        "28",
+        "60",
+        "68",
+        "88"
+      ],
+      "correct_answer": "B",
+      "rag_answer": "B",
+      "is_correct": true
+    },
+    {
+      "problem_index": 184,
+      "question": "Ryan Stewart will have to   _  .",
+      "options": [
+        "change his major",
+        "get a job teaching",
+        "go back to school",
+        "become a religious leader"
+      ],
+      "correct_answer": "C",
+      "rag_answer": "C",
+      "is_correct": true
+    },
+    {
+      "problem_index": 185,
+      "question": "It can be inferred from the passage that what Bald Eagles and Kingfishers have in common is their  _  .",
+      "options": [
+        "habitats",
+        "shapes",
+        "ability to catch fish",
+        "eyesight in air or under water"
+      ],
+      "correct_answer": "C",
+      "rag_answer": "C",
+      "is_correct": true
+    },
+    {
+      "problem_index": 186,
+      "question": "How did Josh Duhamel feel about his joining in the beach run?",
+      "options": [
+        "He felt it the best way to kill time especially on weekends.",
+        "He disliked it when there were reporters coming here.",
+        "He thought it a best chance to make himself famous.",
+        "He found it enjoyable and exciting to be a member."
+      ],
+      "correct_answer": "D",
+      "rag_answer": "D",
+      "is_correct": true
+    },
+    {
+      "problem_index": 187,
+      "question": "In America, it is essential that young people should  _  .",
+      "options": [
+        "make some money",
+        "enjoy rock'n'roll",
+        "stay with parents",
+        "have their own cars"
+      ],
+      "correct_answer": "D",
+      "rag_answer": "C",
+      "is_correct": false
+    },
+    {
+      "problem_index": 188,
+      "question": "Which of the following is right?",
+      "options": [
+        "The Japanese don't like sluggish fish, so the Japanese fishing companies won't put the fish in the tanks",
+        "Since the waters close to Japan have not held many fish for decades, they have to go farther to catch fish.",
+        "Road blocks slow you down and stop you going on .",
+        "If your challenges are too large or too numerous, give it up first."
+      ],
+      "correct_answer": "B",
+      "rag_answer": "B",
+      "is_correct": true
+    },
+    {
+      "problem_index": 189,
+      "question": "The writer's attitude toward the digital society is   _  .",
+      "options": [
+        "critical",
+        "positive",
+        "neutral",
+        "negative"
+      ],
+      "correct_answer": "B",
+      "rag_answer": "B",
+      "is_correct": true
+    },
+    {
+      "problem_index": 190,
+      "question": "When the author's cousin told her that Charles Schulz had died, she   _  .",
+      "options": [
+        "felt a great sense of loss",
+        "burst into tears",
+        "thought he was joking",
+        "got angry at him for his attitude"
+      ],
+      "correct_answer": "A",
+      "rag_answer": "A",
+      "is_correct": true
+    },
+    {
+      "problem_index": 191,
+      "question": "The score of the match between Agassi and Becker is   _  .",
+      "options": [
+        "0-2",
+        "0-3",
+        "1-3",
+        "2-3"
+      ],
+      "correct_answer": "B",
+      "rag_answer": "B",
+      "is_correct": true
+    },
+    {
+      "problem_index": 192,
+      "question": "Protein GOPO(R) found in rose hips can do all the following EXCEPT  _  .",
+      "options": [
+        "protecting vulnerable cartilage",
+        "improving mood",
+        "improving sleep quality of normal people",
+        "improving the life of those affected by arthritis"
+      ],
+      "correct_answer": "C",
+      "rag_answer": "C",
+      "is_correct": true
+    },
+    {
+      "problem_index": 193,
+      "question": "What Ms. Gao and Ms. Tang said suggests that   _  .",
+      "options": [
+        "they still trust major supermarkets when shopping",
+        "they will make food by themselves",
+        "they will never go to supermarkets",
+        "they feel confused about where to buy safe food"
+      ],
+      "correct_answer": "D",
+      "rag_answer": "D",
+      "is_correct": true
+    },
+    {
+      "problem_index": 194,
+      "question": "What would the passage talk about if it continued?",
+      "options": [
+        "An Egyptian myth about Apophis.",
+        "NASA's study on NEOs.",
+        "How the keyhole influences Apophis.",
+        "What methods can be used to deflect the asteroid."
+      ],
+      "correct_answer": "D",
+      "rag_answer": "D",
+      "is_correct": true
+    },
+    {
+      "problem_index": 195,
+      "question": "The purpose of writing this text is to   _   .",
+      "options": [
+        "help the readers get a better understanding of New York",
+        "supply the readers with some information about New York jobs",
+        "try to persuade the readers to visit New York",
+        "tell the readers where New York lies"
+      ],
+      "correct_answer": "C",
+      "rag_answer": "C",
+      "is_correct": true
+    },
+    {
+      "problem_index": 196,
+      "question": "What can we learn from the passage?",
+      "options": [
+        "All birthday parties last one and a half hours.",
+        "We should buy birthday invitations for our guest at the zoo.",
+        "Animals will make a performance at the party.",
+        "Any party member will be given a bag to store rubbish at the party."
+      ],
+      "correct_answer": "C",
+      "rag_answer": "B",
+      "is_correct": false
+    },
+    {
+      "problem_index": 197,
+      "question": "What's the author's purpose of writing the article?",
+      "options": [
+        "To tell us the different aims of men and women in the US who go online.",
+        "To show why men and women are equally likely to use the Internet.",
+        "To teach us how to surf the Internet.",
+        "To offer us some information of both sexes' going online in the US."
+      ],
+      "correct_answer": "A",
+      "rag_answer": "D",
+      "is_correct": false
+    },
+    {
+      "problem_index": 198,
+      "question": "The colored buns were sold in some large supermarkets EXCEPT   _  .",
+      "options": [
+        "Hualian",
+        "Lianhua",
+        "Shenglu",
+        "Dia"
+      ],
+      "correct_answer": "C",
+      "rag_answer": "C",
+      "is_correct": true
+    },
+    {
+      "problem_index": 199,
+      "question": "Which of the following is NOT the responsibility of a toddler teacher in the child care center?",
+      "options": [
+        "Making sure to watch over the children when they are eating or playing.",
+        "Creating lessons to develop the children's ability to compete.",
+        "Helping the children develop their abilities to imagine.",
+        "Interacting with children in their learning activities."
+      ],
+      "correct_answer": "B",
+      "rag_answer": "B",
+      "is_correct": true
+    },
+    {
+      "problem_index": 200,
+      "question": "Which of the following best describes the author's attitude to uncertainty and confusion?",
+      "options": [
+        "Favorable.",
+        "Resistant.",
+        "Curious.",
+        "Doubtful."
+      ],
+      "correct_answer": "A",
+      "rag_answer": "A",
+      "is_correct": true
+    }
+  ]
+}

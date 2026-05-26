@@ -1,0 +1,2617 @@
+{
+  "benchmark": "QuaLITY_HARD",
+  "retriever_model": "MockRetriever",
+  "retriever_params": 0.0,
+  "retriever_size": 0.0,
+  "generator_model": "rjmalagon/lamarck-v0.7:14b-bf16",
+  "generator_params": 14.8,
+  "generator_size": 27.5,
+  "timestamp": "2026-04-14T18:16:26.116038",
+  "duration": "00:03:50",
+  "duration (seconds)": 230,
+  "total": 200,
+  "correct": 72,
+  "accuracy": 0.36,
+  "results": [
+    {
+      "problem_index": 1,
+      "question": "Where did Blake begin his chase of Sabrina?",
+      "options": [
+        "By the lake",
+        "At his parents' house",
+        "In his apartment",
+        "On Dubhe 4"
+      ],
+      "correct_answer": 1,
+      "rag_answer": "A",
+      "is_correct": false
+    },
+    {
+      "problem_index": 2,
+      "question": "Why isn't Pashkov angry with Medvedev?",
+      "options": [
+        "Medvedev is too talented for Pashkov to be angry with him",
+        "Pashkov likes Boris too much",
+        "Pashkov is dishonest too",
+        "Petchareff ordered Pashkov to hide his feelings"
+      ],
+      "correct_answer": 2,
+      "rag_answer": "C",
+      "is_correct": true
+    },
+    {
+      "problem_index": 3,
+      "question": "Why would it be a bad idea for Westover to disembark the monster when he realized where its next big destination was?",
+      "options": [
+        "He would end up trapped in the desert",
+        "He would be stranded on the island",
+        "He wouldn't be able to reach land",
+        "He would end up nearby a camp of dangerous humans"
+      ],
+      "correct_answer": 2,
+      "rag_answer": "D",
+      "is_correct": false
+    },
+    {
+      "problem_index": 4,
+      "question": "How does Rai feel about climate change talks?",
+      "options": [
+        "All of these answers are true",
+        "They're funny",
+        "They're frustrating",
+        "They're disconnected"
+      ],
+      "correct_answer": 0,
+      "rag_answer": "C",
+      "is_correct": false
+    },
+    {
+      "problem_index": 5,
+      "question": "Why is Ravdin willing to try and make peace with the Hunters?",
+      "options": [
+        "They have offered messages of peace recently",
+        "It has been thousands of years since they have had contact",
+        "He believes he can convince their leader",
+        "He is going to try and trick the Hunters"
+      ],
+      "correct_answer": 1,
+      "rag_answer": "A",
+      "is_correct": false
+    },
+    {
+      "problem_index": 6,
+      "question": "What are the ways that the family sustains themselves?",
+      "options": [
+        "Drinking water from under the ice of a frozen lake",
+        "Eating the people that froze in the city",
+        "Sheltering next to a nuclear reactor",
+        "Breathing pure oxygen"
+      ],
+      "correct_answer": 3,
+      "rag_answer": "A",
+      "is_correct": false
+    },
+    {
+      "problem_index": 7,
+      "question": "What was one of Nash's delusions?",
+      "options": [
+        "Being a refugee from Europe",
+        "Being in a coma",
+        "Being a father",
+        "Being the leader of a continent"
+      ],
+      "correct_answer": 3,
+      "rag_answer": "D",
+      "is_correct": true
+    },
+    {
+      "problem_index": 8,
+      "question": "What is true about Nash?",
+      "options": [
+        "Mathematicians were wowed by all of his work",
+        "Mathematicians were wowed by his work at Rand Corporation",
+        "Mathematicians were wowed by his manifold proof",
+        "Mathematicians were wowed by his game theory proof"
+      ],
+      "correct_answer": 2,
+      "rag_answer": "D",
+      "is_correct": false
+    },
+    {
+      "problem_index": 9,
+      "question": "What time period in human history does the author liken the Venusian planet to?",
+      "options": [
+        "The dawn of the Space Age",
+        "A fairytale of the Stone Age",
+        "A society on the edge of an industrial revolution",
+        "A magical Iron Age"
+      ],
+      "correct_answer": 3,
+      "rag_answer": "B",
+      "is_correct": false
+    },
+    {
+      "problem_index": 10,
+      "question": "According to Slate's ratings, which of the orderings below correctly goes from most reprehensible to least reprehensible?",
+      "options": [
+        "Bob Barr, James Carville, Lanny Davis, Erskine Bowles",
+        "James Carville, Lanny Davis, Bob Barr, Erskine Bowles",
+        "Lanny Davis, Bob Barr, James Carville, Erskine Bowles",
+        "Bob Barr, Erskine Bowles, James Carville, Lanny Davis"
+      ],
+      "correct_answer": 1,
+      "rag_answer": "B",
+      "is_correct": true
+    },
+    {
+      "problem_index": 11,
+      "question": "What causes Dameri Tass’s face’s color to change?",
+      "options": [
+        "The color changes when he is speaking different languages",
+        "The color changes to camouflage him",
+        "The color changes based on the emotions he feels",
+        "The color changes depending on if he is awake or asleep"
+      ],
+      "correct_answer": 2,
+      "rag_answer": "C",
+      "is_correct": true
+    },
+    {
+      "problem_index": 12,
+      "question": "Many authors",
+      "options": [
+        "believe that they should be profiting off of OA just as much as the publishers.",
+        "believe that universities and publishers should have to deal with OA.",
+        "don't seem to care about OA at all.",
+        "support OA because they will make more money that way."
+      ],
+      "correct_answer": 1,
+      "rag_answer": "C",
+      "is_correct": false
+    },
+    {
+      "problem_index": 13,
+      "question": "Why does the mother tell her son he should be comfortable in the nude?",
+      "options": [
+        "He would always arrive to his teleported location naked",
+        "She wants to improve his body positivity",
+        "Being naked was a last resort way to distract the Agents from recognizing their cylinders",
+        "He had to be naked in order to initiate a teleport"
+      ],
+      "correct_answer": 0,
+      "rag_answer": "B",
+      "is_correct": false
+    },
+    {
+      "problem_index": 14,
+      "question": "Why does Chapman always inspect the men's equipment before they go outside?",
+      "options": [
+        "He doesn't want them to join Dixon",
+        "He's gone a little crazy from being on the moon too long",
+        "It's his assigned duty",
+        "He doesn't think they can look after themselves"
+      ],
+      "correct_answer": 0,
+      "rag_answer": "C",
+      "is_correct": false
+    },
+    {
+      "problem_index": 15,
+      "question": "What is the relative size of the space bugs?",
+      "options": [
+        "Just too big to fit into the palm of a hand",
+        "Larger than a loaf of bread",
+        "The size of a horse",
+        "About the size of a small beetle"
+      ],
+      "correct_answer": 3,
+      "rag_answer": "D",
+      "is_correct": true
+    },
+    {
+      "problem_index": 16,
+      "question": "Which of the OA mandates gives the author the most control over their work? ",
+      "options": [
+        "Libre green mandates",
+        "Loophole mandates",
+        "Deposit mandates",
+        "Rights-retention mandates"
+      ],
+      "correct_answer": 3,
+      "rag_answer": "D",
+      "is_correct": true
+    },
+    {
+      "problem_index": 17,
+      "question": "What is the relationship between Walter and Torkleson?",
+      "options": [
+        "Walter is Torkleson’s boss at the factory.",
+        "Walter and Torkleson are co-workers.",
+        "Torkleson is Walter’s boss at the factory.",
+        "Torkelson is Walter’s secretary."
+      ],
+      "correct_answer": 2,
+      "rag_answer": "B",
+      "is_correct": false
+    },
+    {
+      "problem_index": 18,
+      "question": "How did Maitland beat the second test on the second day?",
+      "options": [
+        "He refused to be strapped down",
+        "He did math in his head",
+        "He thought about opposite kinds of images",
+        "He closed his eyes"
+      ],
+      "correct_answer": 2,
+      "rag_answer": "B",
+      "is_correct": false
+    },
+    {
+      "problem_index": 19,
+      "question": "What did Britain decide to build instead of a maglev track?",
+      "options": [
+        "A conventional high-speed rail",
+        "An atmospheric railway",
+        "A Hyperloop station",
+        "More airports and bus stations"
+      ],
+      "correct_answer": 0,
+      "rag_answer": "A",
+      "is_correct": true
+    },
+    {
+      "problem_index": 20,
+      "question": "How many companions did Manet make with the kit?",
+      "options": [
+        "Two",
+        "He never used the kit",
+        "One",
+        "Three"
+      ],
+      "correct_answer": 3,
+      "rag_answer": "C",
+      "is_correct": false
+    },
+    {
+      "problem_index": 21,
+      "question": "How is the relationship between the Martians and the humans?",
+      "options": [
+        "They are friendly.",
+        "They have a business relationship.",
+        "The Martians are distrustful of the humans.",
+        "They are allies."
+      ],
+      "correct_answer": 2,
+      "rag_answer": "C",
+      "is_correct": true
+    },
+    {
+      "problem_index": 22,
+      "question": "What convinces the Captain to have confidence in I.V. Hendricks?",
+      "options": [
+        "The Captain never gains confidence in Hendricks",
+        "The Captain always believed in her abilities due to her excellent reputation",
+        "Hendricks’ father built the ship and trained her on it",
+        "Hendricks had proven her abilities over years working with the Captain"
+      ],
+      "correct_answer": 2,
+      "rag_answer": "D",
+      "is_correct": false
+    },
+    {
+      "problem_index": 23,
+      "question": "What does the warden think about the people he puts to sleep?",
+      "options": [
+        "He wishes deeply to go to sleep himself to know what it’s like",
+        "He thinks their sleep removes them from all knowing or pain of the real world",
+        "He feels badly about it, but does not see what else could possibly be done",
+        "He takes pride in feeling that he is serving his community"
+      ],
+      "correct_answer": 2,
+      "rag_answer": "C",
+      "is_correct": true
+    },
+    {
+      "problem_index": 24,
+      "question": "What was Mrs. Jamieson's biggest problem in the story?",
+      "options": [
+        "She did not understand the Stinson Effect",
+        "She had to raise her son alone",
+        "She was just able to make ends meet",
+        "She had to hide her scar"
+      ],
+      "correct_answer": 0,
+      "rag_answer": "B",
+      "is_correct": false
+    },
+    {
+      "problem_index": 25,
+      "question": "What happens to Solomon?",
+      "options": [
+        "He is arrested by the patrolmen for dumping junk into space.",
+        "He sells his business and works for NASA.",
+        "He becomes famous for being the crazy old man who polluted space.",
+        "He meets the President and is asked to share his discovery with the Air Force."
+      ],
+      "correct_answer": 3,
+      "rag_answer": "D",
+      "is_correct": true
+    },
+    {
+      "problem_index": 26,
+      "question": "The crew agrees that the city is",
+      "options": [
+        "completely dead and worthless for any sort of exploration.",
+        "a machine of some sort.",
+        "full of magical wonders and they must return to the mother ship to let the others know.",
+        "just a typical city."
+      ],
+      "correct_answer": 1,
+      "rag_answer": "D",
+      "is_correct": false
+    },
+    {
+      "problem_index": 27,
+      "question": "Why is it risky for a planet to receive services when they are not under contract with Hospital Earth?",
+      "options": [
+        "Hospital Earth may come to collect collateral for their services, which has been known to start war",
+        "The physicians are known to be brutal and sometimes kill patients from planets that aren’t under contract",
+        "The cost may be extremely expensive for emergency services outside of the contract, taking centuries to repay",
+        "Their biology is not understood well, and mistakes can be made"
+      ],
+      "correct_answer": 3,
+      "rag_answer": "C",
+      "is_correct": false
+    },
+    {
+      "problem_index": 28,
+      "question": "Which president had staffers find and bring in women for him?",
+      "options": [
+        "Kennedy and Clinton",
+        "Kennedy",
+        "Clinton",
+        "Harding"
+      ],
+      "correct_answer": 1,
+      "rag_answer": "A",
+      "is_correct": false
+    },
+    {
+      "problem_index": 29,
+      "question": "What kind of mission does the crew appear to be sent on?",
+      "options": [
+        "Mapping planets, collecting precious stones",
+        "Searching for water",
+        "Testing colonization of distant planets by cannibalizing parts from spaceships",
+        "Capturing aliens"
+      ],
+      "correct_answer": 0,
+      "rag_answer": "B",
+      "is_correct": false
+    },
+    {
+      "problem_index": 30,
+      "question": "What is Ernie’s living situation?",
+      "options": [
+        "He lives alone with family close by",
+        "He has a wife and kids",
+        "He lives with some family",
+        "He is estranged from his real family"
+      ],
+      "correct_answer": 2,
+      "rag_answer": "A",
+      "is_correct": false
+    },
+    {
+      "problem_index": 31,
+      "question": "Why was Dr. Crander so proud of his work on the patient?",
+      "options": [
+        "They were able to rehabilitate Dan much more quickly than expected.",
+        "No one had ever spent that extreme amount of time in a regeneration tank before",
+        "They thought the patient would never walk or talk again.",
+        "Overcoming the complexities involved in matching donor body parts."
+      ],
+      "correct_answer": 3,
+      "rag_answer": "A",
+      "is_correct": false
+    },
+    {
+      "problem_index": 32,
+      "question": "How did Ranson find Elath Taen?",
+      "options": [
+        "He analyzed his DNA.",
+        "He found footprints.",
+        "He followed his scent.",
+        "He tracked the stolen \"electric bloodhound.\""
+      ],
+      "correct_answer": 2,
+      "rag_answer": "D",
+      "is_correct": false
+    },
+    {
+      "problem_index": 33,
+      "question": "Why might Mr. Chambers think that the face from his vision from \"behind the curtain\" is evil?",
+      "options": [
+        "He saw it as a representation of the people who hated him",
+        "It was too large in scale for him to comprehend",
+        "It revealed its' evil intentions to Mr. Chambers directly",
+        "He felt that this new presence was trying to steal reality from humans"
+      ],
+      "correct_answer": 3,
+      "rag_answer": "A",
+      "is_correct": false
+    },
+    {
+      "problem_index": 34,
+      "question": "According to the author, how has the importance of kin-selection changed over human evolution?",
+      "options": [
+        "Kin-selection is more important now than ever before",
+        "There has been no change to the importance of kin-selection over human evolution",
+        "Helping your kin continues to be important to pass along traits of kinship through the population as a whole",
+        "Traits for kinship are throughout the entire human population now, thus supporting only kin is less important in the modern world for kinship to persist"
+      ],
+      "correct_answer": 3,
+      "rag_answer": "C",
+      "is_correct": false
+    },
+    {
+      "problem_index": 35,
+      "question": "Under what circumstances were people allowed to read? ",
+      "options": [
+        "If they were wealthy enough",
+        "When they reached an old enough age",
+        "Reading religious material was permitted",
+        "If they were employed by the government"
+      ],
+      "correct_answer": 1,
+      "rag_answer": "C",
+      "is_correct": false
+    },
+    {
+      "problem_index": 36,
+      "question": "What did Hoshick want?",
+      "options": [
+        "To take over the oases",
+        "To be a farmer",
+        "To go into battle against the humans",
+        "To have a plebian contest"
+      ],
+      "correct_answer": 1,
+      "rag_answer": "A",
+      "is_correct": false
+    },
+    {
+      "problem_index": 37,
+      "question": "What was the author’s general finding about the true taste of the beers?",
+      "options": [
+        "The quality of the beers is closely linked to first impressions",
+        "The results were too varied to really make a general conclusion",
+        "A low cost beer was actually ranked the best overall",
+        "Low cost beers actually rate pretty well when people don’t know what they’re drinking"
+      ],
+      "correct_answer": 3,
+      "rag_answer": "D",
+      "is_correct": true
+    },
+    {
+      "problem_index": 38,
+      "question": "How does Edward feel about the Arab-Israeli conflict?",
+      "options": [
+        "He never criticizes the Palestinians",
+        "He is pro-Arab but still criticizes their shortcomings",
+        "He supports Israel wholeheartedly",
+        "He supports all the Arabs wholeheartedly"
+      ],
+      "correct_answer": 1,
+      "rag_answer": "B",
+      "is_correct": true
+    },
+    {
+      "problem_index": 39,
+      "question": "How is Earth entangled with Skkiru’s planet?",
+      "options": [
+        "His planet has been developing in the ways of Earth, but is now trying to appear primitive",
+        "Earth evaluates planets across the galaxy for their resources, and his planet is of particular interest",
+        "Earth appears to be informing a cultural shift as their technologies reach his planet",
+        "Earth provided technologies to his planet early on and is checking back in on the status of their progress"
+      ],
+      "correct_answer": 0,
+      "rag_answer": "B",
+      "is_correct": false
+    },
+    {
+      "problem_index": 40,
+      "question": "What is the tone of the story?",
+      "options": [
+        "Foreboding",
+        "Solemn",
+        "Cynical",
+        "Humorous"
+      ],
+      "correct_answer": 3,
+      "rag_answer": "A",
+      "is_correct": false
+    },
+    {
+      "problem_index": 41,
+      "question": "What happens to Earl in the end?",
+      "options": [
+        "He goes on to live on Centaurus",
+        "He never leaves Earth, hell bent on avenging his mother",
+        "He removes his cylinder",
+        "He is killed by the Agents"
+      ],
+      "correct_answer": 0,
+      "rag_answer": "D",
+      "is_correct": false
+    },
+    {
+      "problem_index": 42,
+      "question": "What does the author argue as a global benefit to the internet becoming more fractured ",
+      "options": [
+        "Better internet protocol and practices could be discovered by starting fresh",
+        "It would lead to the internet being less centralized in the western world, particularly the U.S.",
+        "It would allow organizations like the U.N. to operate more efficiently",
+        "Construction of new national internet infrastructure would help the global economy"
+      ],
+      "correct_answer": 0,
+      "rag_answer": "B",
+      "is_correct": false
+    },
+    {
+      "problem_index": 43,
+      "question": "What is the most likely anatomy of the inhabited spacecrafts in the story?",
+      "options": [
+        "They are natural planets outfitted with propelling devices to move them through space",
+        "They are meteors fitted with spaceship components",
+        "They outwardly appear as streamlined torpedo spaceships with interior rooms containing similar plant life to Earth",
+        "They are crafted planets made to be much like Earth with spaceship components within to propel them"
+      ],
+      "correct_answer": 3,
+      "rag_answer": "C",
+      "is_correct": false
+    },
+    {
+      "problem_index": 44,
+      "question": "What is Gingrich’s role in the piece?",
+      "options": [
+        "He intercepts talk of the affair and is the whistleblower",
+        "He is the lawyer for Lewinsky",
+        "He and Linda are congress people",
+        "He organizes impeachment, eventually resigns"
+      ],
+      "correct_answer": 3,
+      "rag_answer": "D",
+      "is_correct": true
+    },
+    {
+      "problem_index": 45,
+      "question": "How many times does Ferdinand visit with Butt?",
+      "options": [
+        "They only visit through a computer screen, never in person",
+        "Once alone and once with his sister",
+        "Many times over the journey",
+        "Three times"
+      ],
+      "correct_answer": 2,
+      "rag_answer": "B",
+      "is_correct": false
+    },
+    {
+      "problem_index": 46,
+      "question": "Of the following options, what best summarizes this story?",
+      "options": [
+        "A woman attempts to hijack the flight of an astronaut she's in love with so they can both stay young and beautiful together forever.",
+        "A vain woman has a tough time accepting the natural aging process but eventually succeeds.",
+        "A woman has a plan to reverse her aging process and the reader sees her follow through with it.",
+        "A woman tries to benevolently prove that people can become younger through space travel."
+      ],
+      "correct_answer": 2,
+      "rag_answer": "A",
+      "is_correct": false
+    },
+    {
+      "problem_index": 47,
+      "question": "What is Sylvia's relation to Paul?",
+      "options": [
+        "She is his wife",
+        "She is a girl in a magazine",
+        "She is his girlfriend",
+        "She went to the Officers Ball with him once"
+      ],
+      "correct_answer": 2,
+      "rag_answer": "C",
+      "is_correct": true
+    },
+    {
+      "problem_index": 48,
+      "question": "If the pirates hadn't tried to ambush the ship, what would've most likely happened to Grandma Perkins?",
+      "options": [
+        "She would've convinced the pirates to pick her up once she got to Earth.",
+        "She would've reached Earth and might've tried to avoid the nursing home.",
+        "She would've contacted another transportation agency and altered her travel plans.",
+        "She would've found a way to escape the ship before reaching Earth."
+      ],
+      "correct_answer": 1,
+      "rag_answer": "B",
+      "is_correct": true
+    },
+    {
+      "problem_index": 49,
+      "question": "What kind of life is on the moon in the story?",
+      "options": [
+        "Water is collected for drinking",
+        "Insects invade the bunkers",
+        "Plants are scientifically sampled",
+        "There is zero life"
+      ],
+      "correct_answer": 2,
+      "rag_answer": "D",
+      "is_correct": false
+    },
+    {
+      "problem_index": 50,
+      "question": "Which of the following technologies does the main character not use to impress the natives?",
+      "options": [
+        "Robots",
+        "The Beacon",
+        "Explosives",
+        "Microphones"
+      ],
+      "correct_answer": 1,
+      "rag_answer": "D",
+      "is_correct": false
+    },
+    {
+      "problem_index": 51,
+      "question": "How did Yasak feel towards Robert upon their meeting?",
+      "options": [
+        "Shocked by his appearance",
+        "A friendly camaraderie",
+        "Threatened by his presence",
+        "Angry he had carried Koroby"
+      ],
+      "correct_answer": 2,
+      "rag_answer": "A",
+      "is_correct": false
+    },
+    {
+      "problem_index": 52,
+      "question": "In the end, what is the relationship between the humans and the alien races?",
+      "options": [
+        "The relationship is hostile.",
+        "The relationship is cordial.",
+        "There is no more communication between the species.",
+        "The species live in communities together."
+      ],
+      "correct_answer": 1,
+      "rag_answer": "A",
+      "is_correct": false
+    },
+    {
+      "problem_index": 53,
+      "question": "What is the relationship like between Peggy and Paula?",
+      "options": [
+        "Amicable acquaintances",
+        "Old friends",
+        "Competitive actors",
+        "Housemates"
+      ],
+      "correct_answer": 0,
+      "rag_answer": "B",
+      "is_correct": false
+    },
+    {
+      "problem_index": 54,
+      "question": "How many round trips does the Kismet make in the story?",
+      "options": [
+        "Zero",
+        "One",
+        "Two",
+        "Three"
+      ],
+      "correct_answer": 0,
+      "rag_answer": "B",
+      "is_correct": false
+    },
+    {
+      "problem_index": 55,
+      "question": "Why did Coleman tell the warden he was in a dream?",
+      "options": [
+        "He wanted to be in a dream forever",
+        "He wanted to never be put in a dream",
+        "He wanted him to know the truth",
+        "He liked being in dreams for short periods of time"
+      ],
+      "correct_answer": 3,
+      "rag_answer": "C",
+      "is_correct": false
+    },
+    {
+      "problem_index": 56,
+      "question": "What was the ultimate outcome of letting the Grzdnth take repreive Earth?",
+      "options": [
+        "The Grzdnth decided to make Earth a permanent home and cooperate with the humas",
+        "The Grzdnth enslaved humankind after staging a coupe",
+        "Humankind would be transported to a parallel universe",
+        "Humans were able to discover the secrets of inter-dimensional travel"
+      ],
+      "correct_answer": 2,
+      "rag_answer": "B",
+      "is_correct": false
+    },
+    {
+      "problem_index": 57,
+      "question": "What do we learn of the relationship between Rice and Burnett?",
+      "options": [
+        "They served together in combat",
+        "They are brothers",
+        "They are work colleagues",
+        "They are long time friends"
+      ],
+      "correct_answer": 2,
+      "rag_answer": "C",
+      "is_correct": true
+    },
+    {
+      "problem_index": 58,
+      "question": "What do the robots want?",
+      "options": [
+        "To sell bread",
+        "To create world peace",
+        "To improve bread chemistry",
+        "To please humans"
+      ],
+      "correct_answer": 1,
+      "rag_answer": "D",
+      "is_correct": false
+    },
+    {
+      "problem_index": 59,
+      "question": "What is the narrative purpose of having Arthur try to explore Arz while Stryker slept?",
+      "options": [
+        "It was to increase the reader's curiosity because Arthur didn't know what the inside of the island looked like.",
+        "It was to help the reader learn answers to the questions they had.",
+        "It was to allow Arthur to communicate with the fishermen and learn more about their customs.",
+        "It was to build suspense because Arthur was put in harm's way."
+      ],
+      "correct_answer": 3,
+      "rag_answer": "D",
+      "is_correct": true
+    },
+    {
+      "problem_index": 60,
+      "question": "Who was most in favor of staying on the planet?",
+      "options": [
+        "Reba",
+        "Grampa",
+        "Four",
+        "Joyce"
+      ],
+      "correct_answer": 0,
+      "rag_answer": "A",
+      "is_correct": true
+    },
+    {
+      "problem_index": 61,
+      "question": "Why does Blote collect so much art?",
+      "options": [
+        "The vaults where they are kept are the easiest to break into.",
+        "His job is to source unique items from his sector of the universe.",
+        "He is influenced by human artwork in his own paintings.",
+        "He uses it to trade for rare items."
+      ],
+      "correct_answer": 1,
+      "rag_answer": "B",
+      "is_correct": true
+    },
+    {
+      "problem_index": 62,
+      "question": "What is the relationship like between Strike and Cob?",
+      "options": [
+        "They have known each other through their last assignment",
+        "They meet during the course of the story and become easy friends",
+        "They meet during the course of the story, but begin apprehensive of each other",
+        "They never actually meet in the story"
+      ],
+      "correct_answer": 1,
+      "rag_answer": "C",
+      "is_correct": false
+    },
+    {
+      "problem_index": 63,
+      "question": "What are some of the design features that the author highlights as beneficial about the new park designs?",
+      "options": [
+        "The fields have new shapes",
+        "There are more seats closer to the action",
+        "There is a greater diversity of dining",
+        "There are more parking spaces"
+      ],
+      "correct_answer": 0,
+      "rag_answer": "B",
+      "is_correct": false
+    },
+    {
+      "problem_index": 64,
+      "question": "What would most likely have happened if Andrias had not waved out the guard?",
+      "options": [
+        "Duane would not have turned over the cargo",
+        "Duane would not have escaped",
+        "Duane would not have signed the paper",
+        "Andrias would have died"
+      ],
+      "correct_answer": 1,
+      "rag_answer": "B",
+      "is_correct": true
+    },
+    {
+      "problem_index": 65,
+      "question": "What is ironic about the internet?",
+      "options": [
+        "It was never meant to be such a huge part of society.",
+        "Almost everything that makes the internet function is found on land.",
+        "Major corporations have corrupted it just like the corporate world.",
+        "Donald Trump caused its demise."
+      ],
+      "correct_answer": 1,
+      "rag_answer": "B",
+      "is_correct": true
+    },
+    {
+      "problem_index": 66,
+      "question": "In the end,",
+      "options": [
+        "after everyone ends up leaving the trailer court, Charlie finds his way home.",
+        "Roy never hears from Joey and his mom again.",
+        "Doc and Roy stay in touch with Ethel and Joey for many years.",
+        "the stars go back to where they were originally, and it was like the story never happened."
+      ],
+      "correct_answer": 1,
+      "rag_answer": "B",
+      "is_correct": true
+    },
+    {
+      "problem_index": 67,
+      "question": "Does the story have a good ending?",
+      "options": [
+        "Unclear, the story ends as Evelyn enters a dangerous situation",
+        "Yes, Evelyn successfully infiltrates the enemy's ranks",
+        "Unclear, Evelyn will likely succeed but the ending fails to confirm this",
+        "No, Evelyn gets caught"
+      ],
+      "correct_answer": 0,
+      "rag_answer": "A",
+      "is_correct": true
+    },
+    {
+      "problem_index": 68,
+      "question": "How did Hendricks outfit the ship for war?",
+      "options": [
+        "She replaced the metal hull to keep it from melting",
+        "She upgraded the weaponry to match what the Eridians were capable of",
+        "She outfitted the ship for discovery, not war",
+        "She had additional screens installed to withstand combat"
+      ],
+      "correct_answer": 2,
+      "rag_answer": "B",
+      "is_correct": false
+    },
+    {
+      "problem_index": 69,
+      "question": "What is the most likely reason that Johnathan decides to stay on the asteroid?",
+      "options": [
+        "He realizes that his life as a pilot was unfulfilling, and he doesn't want to go back.",
+        "He realizes that he'd rather stay with wild women than travel back with the posh Doctor Boynton.",
+        "He realizes that he wants to stay and enjoy sexual relations with the twenty-seven beautiful women.",
+        "He realizes that if he stays on the asteroid, he won't have to give up the tobacco seeds for experimentation and can grow and enjoy it himself."
+      ],
+      "correct_answer": 2,
+      "rag_answer": "C",
+      "is_correct": true
+    },
+    {
+      "problem_index": 70,
+      "question": "What is the relationship between Gavin and the First Officer like?",
+      "options": [
+        "Gavin thinks the First Officer wants to take his job",
+        "The First Officer only interacts with Gavin using Quade as an intermediary",
+        "Gavin trusts him so much as to go together on space expeditions, but not further",
+        "Gavin learns important lessons in leadership from him"
+      ],
+      "correct_answer": 3,
+      "rag_answer": "B",
+      "is_correct": false
+    },
+    {
+      "problem_index": 71,
+      "question": "Why was it urgent to repair the old Beacon?",
+      "options": [
+        "It was causing disruptions in hyperspace travel",
+        "It had been 2000 years since the last routine matinence",
+        "It was keeping the Proxima Cetauri planets safe",
+        "To appease the local Earthlings"
+      ],
+      "correct_answer": 0,
+      "rag_answer": "C",
+      "is_correct": false
+    },
+    {
+      "problem_index": 72,
+      "question": "How many times did the crew of the expedition leave their spaceship to explore the planet during the course of the story?",
+      "options": [
+        "Twice",
+        "Once",
+        "They did not actually ever leave the ship",
+        "Thrice"
+      ],
+      "correct_answer": 1,
+      "rag_answer": "C",
+      "is_correct": false
+    },
+    {
+      "problem_index": 73,
+      "question": "Why did the ship go to hyperspace?",
+      "options": [
+        "Because Cob gave the order",
+        "Because Gorman appointed them to the experiment",
+        "Because they needed time to fix the drive",
+        "Because Ivy requested the ship for the experiment"
+      ],
+      "correct_answer": 2,
+      "rag_answer": "D",
+      "is_correct": false
+    },
+    {
+      "problem_index": 74,
+      "question": "How was Farrell discouraged from interfering with the angers and squid?",
+      "options": [
+        "There were rules that prohibited interfering with their culture",
+        "His fellow crew would leave him if he did",
+        "The squid had nearly eaten him in the past",
+        "The anglers threatened him"
+      ],
+      "correct_answer": 0,
+      "rag_answer": "C",
+      "is_correct": false
+    },
+    {
+      "problem_index": 75,
+      "question": "How did Earth come to be the hospital planet?",
+      "options": [
+        "Earth had the most liquid water to be incorporated into medical treatments",
+        "Earth was the site of a previous wartime hospital, and due to that experience they became known as the hospital planet",
+        "As interplanetary transit developed, planets specialized",
+        "Earth’s atmosphere has a unique ability to soothe many types of illnesses when patients from other planets are brought to Earth Hospital"
+      ],
+      "correct_answer": 2,
+      "rag_answer": "C",
+      "is_correct": true
+    },
+    {
+      "problem_index": 76,
+      "question": "Why do the Agents kill the Konvs?",
+      "options": [
+        "Once they depart to Centaurus they become unreachable to the law",
+        "They need to keep the number of Konvs down or everyone on Earth might die",
+        "The Konvs are inherently bad for humanity",
+        "They can commit lawless acts without punishment"
+      ],
+      "correct_answer": 3,
+      "rag_answer": "B",
+      "is_correct": false
+    },
+    {
+      "problem_index": 77,
+      "question": "Why didn't he just take the express elevator when the local did not arrive?",
+      "options": [
+        "It didn't occur to him",
+        "No one had used the express in many years",
+        "The express did not stop at the 153rd floor",
+        "The express did not stop at the 167th floor"
+      ],
+      "correct_answer": 2,
+      "rag_answer": "D",
+      "is_correct": false
+    },
+    {
+      "problem_index": 78,
+      "question": "How did the captain stop the alien attack?",
+      "options": [
+        "With an attack from the guards",
+        "With a child's game",
+        "With a gunshot",
+        "With a nuclear weapon"
+      ],
+      "correct_answer": 1,
+      "rag_answer": "B",
+      "is_correct": true
+    },
+    {
+      "problem_index": 79,
+      "question": "What was the relationship like between the father and son in the piece?",
+      "options": [
+        "The son thought his father made bad financial decisions",
+        "The son held great respect for his father and valued his legacy",
+        "They had become estranged through life",
+        "The son came to discover that his father had secrets in his finances upon his death"
+      ],
+      "correct_answer": 1,
+      "rag_answer": "B",
+      "is_correct": true
+    },
+    {
+      "problem_index": 80,
+      "question": "Why does the Captain decide to save Gorman?",
+      "options": [
+        "He sees that they could be good business partners",
+        "Gorman is Ivy’s father and she pleads to save him",
+        "He has a sense of duty to not let innocent people die",
+        "He prefers their ship to his own"
+      ],
+      "correct_answer": 2,
+      "rag_answer": "C",
+      "is_correct": true
+    },
+    {
+      "problem_index": 81,
+      "question": "What two fields does the author say Tannen mixes together?",
+      "options": [
+        "linguistics and politics",
+        "men and women",
+        "personal communication and public communication",
+        "speaking and writing"
+      ],
+      "correct_answer": 2,
+      "rag_answer": "C",
+      "is_correct": true
+    },
+    {
+      "problem_index": 82,
+      "question": "What issue does the Author have with Liam Neeson's character?",
+      "options": [
+        "His slow movements during fight scenes",
+        "His over-delivery of lines",
+        "His apathy in all situations",
+        "His lack of chemistry with his co-stars"
+      ],
+      "correct_answer": 2,
+      "rag_answer": "B",
+      "is_correct": false
+    },
+    {
+      "problem_index": 83,
+      "question": "What was the relationship between the globes?",
+      "options": [
+        "We never find out",
+        "There had been a misunderstanding",
+        "They desired each other’s resources",
+        "One wished to conquer the other"
+      ],
+      "correct_answer": 3,
+      "rag_answer": "A",
+      "is_correct": false
+    },
+    {
+      "problem_index": 84,
+      "question": "What do Tellurians think of the phenomenon of group-mind?",
+      "options": [
+        "It has been described from other planets and they are developing ways to combat it",
+        "It is foreign to them and not understood",
+        "Tellurians revere the group mind and wish to contact Eridians for a better understanding",
+        "The Tellurians are never aware of the group-mind, only the reader has that information"
+      ],
+      "correct_answer": 1,
+      "rag_answer": "B",
+      "is_correct": true
+    },
+    {
+      "problem_index": 85,
+      "question": "Why did Ann smile when she met Jonathan?",
+      "options": [
+        "She thought he was there to rescue her",
+        "She knew he thought she was pretty",
+        "She had thought he was dead",
+        "She hadn't seen a man in 3 years"
+      ],
+      "correct_answer": 3,
+      "rag_answer": "C",
+      "is_correct": false
+    },
+    {
+      "problem_index": 86,
+      "question": "How did Butt come aboard the spaceship?",
+      "options": [
+        "His actions on Earth led him to be deported on the ship",
+        "He had a fake passport",
+        "He was able to travel freely between Earth and Venus",
+        "He was assisted by unnamed parties"
+      ],
+      "correct_answer": 3,
+      "rag_answer": "D",
+      "is_correct": true
+    },
+    {
+      "problem_index": 87,
+      "question": "What does the story teach the reader about their process of casting?",
+      "options": [
+        "Acting ability is most important before looks",
+        "Finding someone with comedic talent is a high priority",
+        "The look of the person is most important before acting ability",
+        "Have the people audition reading the same passage and then assign their roles by personality"
+      ],
+      "correct_answer": 2,
+      "rag_answer": "C",
+      "is_correct": true
+    },
+    {
+      "problem_index": 88,
+      "question": "Who was the young boy reluctant to go into space?",
+      "options": [
+        "The son of a moon astronaut",
+        "A young physicist",
+        "Dahl at a younger age",
+        "Chapman at a younger age"
+      ],
+      "correct_answer": 0,
+      "rag_answer": "A",
+      "is_correct": true
+    },
+    {
+      "problem_index": 89,
+      "question": "What is the nature of the relationship between Georges and Retief?",
+      "options": [
+        "Old friends from their time in the Corps",
+        "Argumentative diplomatic colleagues",
+        "Amicable bridge between Boyar and Corps",
+        "Brotherly from their Boyar childhood together"
+      ],
+      "correct_answer": 2,
+      "rag_answer": "C",
+      "is_correct": true
+    },
+    {
+      "problem_index": 90,
+      "question": "Why was the new cook so upset that the Skipper decided to surrender?",
+      "options": [
+        "He realized that if they surrendered they would be sent to concentration camps and he would no longer be able to continue cooking.",
+        "He realized that Skipper was more devoted to his own survival than to the Federation.",
+        "He spent his whole life in the Belt and he wanted to experience his first space fight.",
+        "He realized by surrendering, the Alliance could use their ship to sneak into Federation territory unnoticed."
+      ],
+      "correct_answer": 3,
+      "rag_answer": "A",
+      "is_correct": false
+    },
+    {
+      "problem_index": 91,
+      "question": "Why did Max need to be the one to use the machine?",
+      "options": [
+        "He was the only one who could stay conscious in it",
+        "He had built it",
+        "His coworkers insisted that he do it",
+        "He was in charge of the project"
+      ],
+      "correct_answer": 0,
+      "rag_answer": "A",
+      "is_correct": true
+    },
+    {
+      "problem_index": 92,
+      "question": "What caused the plague on earth?",
+      "options": [
+        "It was a microbe from space travel",
+        "It was a form of contagious cancer",
+        "It was caused by cosmic rays that reached earth",
+        "It was caused by radium"
+      ],
+      "correct_answer": 1,
+      "rag_answer": "A",
+      "is_correct": false
+    },
+    {
+      "problem_index": 93,
+      "question": "How did winning the prize impact Nash?",
+      "options": [
+        "He changed into a kinder man",
+        "He was paralyzed by it",
+        "He moved into a new house",
+        "He felt helpless"
+      ],
+      "correct_answer": 0,
+      "rag_answer": "A",
+      "is_correct": true
+    },
+    {
+      "problem_index": 94,
+      "question": "What was the protaganists reaction to falling from the fourteenth floor?",
+      "options": [
+        "He was injured and unable to move",
+        "He fled the scene",
+        "He asked the police for help",
+        "He returned to the fourteenth floor to try again"
+      ],
+      "correct_answer": 1,
+      "rag_answer": "A",
+      "is_correct": false
+    },
+    {
+      "problem_index": 95,
+      "question": "Who did Manet like the best?",
+      "options": [
+        "Trader Tom",
+        "Veronica",
+        "Victor",
+        "Ronald"
+      ],
+      "correct_answer": 2,
+      "rag_answer": "C",
+      "is_correct": true
+    },
+    {
+      "problem_index": 96,
+      "question": "Of the following options, who would most likely enjoy this story and why?",
+      "options": [
+        "Readers of war and espionage novels, because of the elements of deceit in the story",
+        "Mystery fans, because the story unravels slowly and answers questions along the way",
+        "Sci-fi nerds, because of the battleship and space components of the story",
+        "Romance fans, because of her relationship with her superior"
+      ],
+      "correct_answer": 0,
+      "rag_answer": "A",
+      "is_correct": true
+    },
+    {
+      "problem_index": 97,
+      "question": "Why was the neighbor surprised?",
+      "options": [
+        "He knew that Ernie never went outside before 7 AM",
+        "He was not expecting the smell of gasoline",
+        "He'd never seen Ernie watering the lawn before",
+        "He accidentally saw Ernie using his gift"
+      ],
+      "correct_answer": 3,
+      "rag_answer": "A",
+      "is_correct": false
+    },
+    {
+      "problem_index": 98,
+      "question": "What role does Greta audition for?",
+      "options": [
+        "Career woman",
+        "Lead female",
+        "Director",
+        "Unknown"
+      ],
+      "correct_answer": 3,
+      "rag_answer": "D",
+      "is_correct": true
+    },
+    {
+      "problem_index": 99,
+      "question": "What is the narrative point of having Meek meet the mechanic?",
+      "options": [
+        "So Meek can fix the fleet of vehicles",
+        "So Meek can make a good friend",
+        "So Meek can learn about Gus and eventually meet him",
+        "So Meek can meet some of the locals"
+      ],
+      "correct_answer": 2,
+      "rag_answer": "C",
+      "is_correct": true
+    },
+    {
+      "problem_index": 100,
+      "question": "Why was Jorgenson so angry to have his business taken by Glen-U?",
+      "options": [
+        "Glen-U had made his closest friend disappear",
+        "He needed his business to support his family",
+        "He came to the planet to defeat Glen-U’s dictatorship",
+        "He believed anyone to be capable of making mistakes"
+      ],
+      "correct_answer": 3,
+      "rag_answer": "B",
+      "is_correct": false
+    },
+    {
+      "problem_index": 101,
+      "question": "The group try to come up with a plan in regards to the Qornt, and Nitworth decides",
+      "options": [
+        "They need to flee the planet to be safe.",
+        "They will stand and fight against them.",
+        "Magnan needs the experience involved in a recon mission.",
+        "Retief has to confront them due to a punishment he receives."
+      ],
+      "correct_answer": 0,
+      "rag_answer": "D",
+      "is_correct": false
+    },
+    {
+      "problem_index": 102,
+      "question": "How did Emerson's ship get to the city where Irgi lived?",
+      "options": [
+        "The space ship started tumbling out of control on its way down to the planet, and they landed next to the domed city by dumb luck.",
+        "The crew saw there was no sign of life where they originally touched down, so they flew in atmospheric mode around the planet till they saw the city and landed again.",
+        "Irgi used his powers to move the ship from the desolate patch of rocks where it landed, to the city.",
+        "The crew made a careful reconnaissance of the planet before choosing a landing site, and saw the opening in the city's globe covering and aimed for that."
+      ],
+      "correct_answer": 2,
+      "rag_answer": "B",
+      "is_correct": false
+    },
+    {
+      "problem_index": 103,
+      "question": "Why was it good there was so much rain on the planet?",
+      "options": [
+        "They needed rain to grow a rare plant",
+        "The rain helped keep the insects away",
+        "The sticky mud made it easier to get around",
+        "There was nothing good about the rain"
+      ],
+      "correct_answer": 0,
+      "rag_answer": "D",
+      "is_correct": false
+    },
+    {
+      "problem_index": 104,
+      "question": "How do most of the humans on Earth feel about Dameri Tass’s arrival?",
+      "options": [
+        "They fear he wants to wipe out human civilization",
+        "They are apathetic to the news of his arrival",
+        "They are concerned that the Americans will kill him",
+        "They are eager to learn from him"
+      ],
+      "correct_answer": 3,
+      "rag_answer": "D",
+      "is_correct": true
+    },
+    {
+      "problem_index": 105,
+      "question": "Why was Dan determined to wait so long for the thieves?",
+      "options": [
+        "He wanted to steal the carrier so the thieves could not leave.",
+        "He planned to help Kelly successfully arrest the thieves.",
+        "He wanted to help prevent important paintings from being stolen out of the vault.",
+        "It was his plan to have the chance to time-travel."
+      ],
+      "correct_answer": 3,
+      "rag_answer": "B",
+      "is_correct": false
+    },
+    {
+      "problem_index": 106,
+      "question": "Why did Zubb want the men to go visit the Qornt?",
+      "options": [
+        "He wanted to report their crimes against him",
+        "He thought they would be ignored",
+        "He wanted the men to be honored guests",
+        "He wanted them to negotiate a surrender"
+      ],
+      "correct_answer": 0,
+      "rag_answer": "D",
+      "is_correct": false
+    },
+    {
+      "problem_index": 107,
+      "question": "What would best describe Asa's motive for working as a muck man?",
+      "options": [
+        "He is motivated by the high pay rate.",
+        "It was his dream to be a muck man.",
+        "He wants to prove he was framed by Dorr.",
+        "He is seeking revenge."
+      ],
+      "correct_answer": 3,
+      "rag_answer": "D",
+      "is_correct": true
+    },
+    {
+      "problem_index": 108,
+      "question": "Who is the murderer for which Bo listens for footsteps?",
+      "options": [
+        "Johnny Malone",
+        "A Venusian",
+        "An unknown person",
+        "A crewmember from Fireball"
+      ],
+      "correct_answer": 3,
+      "rag_answer": "A",
+      "is_correct": false
+    },
+    {
+      "problem_index": 109,
+      "question": "Within the article, which of the following is NOT a minus that's listed in the ratings?",
+      "options": [
+        "Wrote two memoirs for profit as a result of the scandal.",
+        "Failed to investigate Clinton's refutation of the scandal.",
+        "Used the scandal as leverage to attempt impeachment.",
+        "Discussed the scandal with others."
+      ],
+      "correct_answer": 0,
+      "rag_answer": "D",
+      "is_correct": false
+    },
+    {
+      "problem_index": 110,
+      "question": "How did the warden go about solving his conundrum?",
+      "options": [
+        "He scoured the databases to see if there were any records related to him in Dreamland",
+        "He went about his duties waiting to one day find out the truth",
+        "He developed a moral scenario where it was revealed to him he was in the real world",
+        "He tasked Keller with finding out the Coleman’s background"
+      ],
+      "correct_answer": 2,
+      "rag_answer": "D",
+      "is_correct": false
+    },
+    {
+      "problem_index": 111,
+      "question": "Why did Manet lock the two people in the small room?",
+      "options": [
+        "They were unintelligent.",
+        "He had gone crazy.",
+        "They would not do as he said.",
+        "They tried to kill him."
+      ],
+      "correct_answer": 0,
+      "rag_answer": "C",
+      "is_correct": false
+    },
+    {
+      "problem_index": 112,
+      "question": "What abilities does the spy appear to have?",
+      "options": [
+        "Mind reading and detection of others in the elevator shaft",
+        "Detection of others in the elevator shaft",
+        "Shape shifting",
+        "Invisibility and mind reading"
+      ],
+      "correct_answer": 1,
+      "rag_answer": "B",
+      "is_correct": true
+    },
+    {
+      "problem_index": 113,
+      "question": "How does the author feel about the way Topsy-Turvy goes and back forth in time?",
+      "options": [
+        "It is confusing.",
+        "It is unnecessary.",
+        "It is boring.",
+        "It is magical."
+      ],
+      "correct_answer": 3,
+      "rag_answer": "D",
+      "is_correct": true
+    },
+    {
+      "problem_index": 114,
+      "question": "What is Grampa’s claim to fame?",
+      "options": [
+        "Striking radioactive deposits on far flung planets that can be sold back on Earth for a fortune",
+        "Solving all the pircuits he’d ever been challenged with",
+        "Being the first space missionary",
+        "Creating a special piece of machinery for spaceships"
+      ],
+      "correct_answer": 3,
+      "rag_answer": "B",
+      "is_correct": false
+    },
+    {
+      "problem_index": 115,
+      "question": "Why was the woman afraid to be pregnant?",
+      "options": [
+        "Her husband had left her",
+        "Pregnant women always die during the trip to the moon",
+        "She didn't want to be a mother",
+        "Pregnant women sometimes die during the trip to the moon"
+      ],
+      "correct_answer": 1,
+      "rag_answer": "D",
+      "is_correct": false
+    },
+    {
+      "problem_index": 116,
+      "question": "What choice best describes Dan's feelings toward operating the carrier throughout the article?",
+      "options": [
+        "He was originally confused on how to operate the carrier and still remained unfamiliar with how it worked throughout the article.",
+        "Dan was intrigued by the carrier when he first operated it but gradually began to dislike it the more he used the carrier.",
+        "Dan was originally confused by the machine but became increasingly frustrated with it throughout the rest of the article.",
+        "Dan was nervous to operate the carrier when he first used it, but eventually became confident in controlling it."
+      ],
+      "correct_answer": 0,
+      "rag_answer": "C",
+      "is_correct": false
+    },
+    {
+      "problem_index": 117,
+      "question": "The public believes the person most responsible for the scandal is ",
+      "options": [
+        "Clinton",
+        "Hillary",
+        "Monica",
+        "The media"
+      ],
+      "correct_answer": 2,
+      "rag_answer": "A",
+      "is_correct": false
+    },
+    {
+      "problem_index": 118,
+      "question": "Why is Burnett compared to a machine?",
+      "options": [
+        "Because he has become numb to his emotions after witnessing so much death",
+        "Because he has always been detached from his emotions",
+        "Because he is renowned for his efficiency at his job",
+        "Because he is part cyborg"
+      ],
+      "correct_answer": 0,
+      "rag_answer": "A",
+      "is_correct": true
+    },
+    {
+      "problem_index": 119,
+      "question": "Why was Nagurski happy to no longer be a captain?",
+      "options": [
+        "The men didn't trust him",
+        "He was suspicious of everything",
+        "He had only wanted to do it for a few years",
+        "He wanted less stress at work"
+      ],
+      "correct_answer": 3,
+      "rag_answer": "D",
+      "is_correct": true
+    },
+    {
+      "problem_index": 120,
+      "question": "Why was Mr. Spurling able to speak in a hostile tone?",
+      "options": [
+        "He was secretly martian himself",
+        "He had lived on Mars for too long",
+        "He had never undergone the ethical conditioning",
+        "He was a \"senile delinquent\" and had outgrown his ethical conditioning"
+      ],
+      "correct_answer": 1,
+      "rag_answer": "C",
+      "is_correct": false
+    },
+    {
+      "problem_index": 121,
+      "question": "Why did Robert want to go to space?",
+      "options": [
+        "He wanted to follow in his father’s footsteps and fly to space like him",
+        "He needed to escape his life on Earth",
+        "He was after eternal youth himself",
+        "We don’t know for sure from the story"
+      ],
+      "correct_answer": 3,
+      "rag_answer": "D",
+      "is_correct": true
+    },
+    {
+      "problem_index": 122,
+      "question": "How did Broom travel through time?",
+      "options": [
+        "By thinking about it",
+        "We never learn",
+        "Contarini sent him",
+        "It was an accident"
+      ],
+      "correct_answer": 0,
+      "rag_answer": "B",
+      "is_correct": false
+    },
+    {
+      "problem_index": 123,
+      "question": "What is the highest authority the reader learns of any woman holding on Flamme?",
+      "options": [
+        "Servant",
+        "Under-Secretary",
+        "Secretary of Diplomatic Affairs",
+        "Farmer"
+      ],
+      "correct_answer": 0,
+      "rag_answer": "B",
+      "is_correct": false
+    },
+    {
+      "problem_index": 124,
+      "question": "What would best describe how Dan's experiences, such as fighting the thieves and meeting Dzhackoon, changed his overall attitude that he had in the beginning of the article?",
+      "options": [
+        "His experiences made him more cunning in accomplishing his ultimate motive.",
+        "His experiences made him no longer act collected about his original plan and underlying motive.",
+        "His experiences helped make him more confident in his plans.",
+        "His experiences made him reflect on how he should have revised his original plan and motive."
+      ],
+      "correct_answer": 1,
+      "rag_answer": "C",
+      "is_correct": false
+    },
+    {
+      "problem_index": 125,
+      "question": "Why did his girlfriend put such an emphasis on promptness?",
+      "options": [
+        "She thought being late was rude",
+        "She was a perfectionist",
+        "She was conditioned by her work",
+        "She was a controlling person"
+      ],
+      "correct_answer": 2,
+      "rag_answer": "A",
+      "is_correct": false
+    },
+    {
+      "problem_index": 126,
+      "question": "Second Home ",
+      "options": [
+        "does not offer enough for the cost of service.",
+        "seems to be geared towards \"hipsters.\"",
+        "is family friendly.",
+        "is an uncomfortable environment."
+      ],
+      "correct_answer": 1,
+      "rag_answer": "C",
+      "is_correct": false
+    },
+    {
+      "problem_index": 127,
+      "question": "How did Splinter feel about being with Kerry on the turtle-shaped island?",
+      "options": [
+        "Angry with him that they had crashed",
+        "Terrified to be alone with him",
+        "Pitiful that he had broken his arm",
+        "Relieved to have his experience at hand"
+      ],
+      "correct_answer": 3,
+      "rag_answer": "D",
+      "is_correct": true
+    },
+    {
+      "problem_index": 128,
+      "question": "How did Brown react to Evelyn?",
+      "options": [
+        "He got angry",
+        "He gave up trying to respond to her accusations",
+        "He disliked her",
+        "He agreed the revolution on earth had been needed"
+      ],
+      "correct_answer": 1,
+      "rag_answer": "B",
+      "is_correct": true
+    },
+    {
+      "problem_index": 129,
+      "question": "What does the author argue is central to human evolution?",
+      "options": [
+        "Social invention",
+        "Curiosity",
+        "Self-interest",
+        "Abstract thinking"
+      ],
+      "correct_answer": 0,
+      "rag_answer": "A",
+      "is_correct": true
+    },
+    {
+      "problem_index": 130,
+      "question": "What was the nature of the spy?",
+      "options": [
+        "He insisted he wasn’t a spy but actually was",
+        "A scientist",
+        "A defector from a nearby Project",
+        "A person trying to escape the project"
+      ],
+      "correct_answer": 1,
+      "rag_answer": "A",
+      "is_correct": false
+    },
+    {
+      "problem_index": 131,
+      "question": "What is the most likely explanation for the cook's demeanor and behavior?",
+      "options": [
+        "The cook was female",
+        "The cook was young",
+        "The cook was an alien",
+        "The cook was a saboteur"
+      ],
+      "correct_answer": 1,
+      "rag_answer": "D",
+      "is_correct": false
+    },
+    {
+      "problem_index": 132,
+      "question": "Why was Deirdre sad after she left the bench?",
+      "options": [
+        "Because Eldoria had died.",
+        "Because the young man did not ask her to prom.",
+        "Because her parents died of dysentery.",
+        "Because she was going to be separated from Blake."
+      ],
+      "correct_answer": 3,
+      "rag_answer": "D",
+      "is_correct": true
+    },
+    {
+      "problem_index": 133,
+      "question": "What is the author’s overall thesis about inaugural speeches?",
+      "options": [
+        "They are largely useless",
+        "They present a snapshot of the views and beliefs of their time",
+        "They are a cryptic way to interpret history",
+        "They are the standard to hold the president accountable to"
+      ],
+      "correct_answer": 1,
+      "rag_answer": "B",
+      "is_correct": true
+    },
+    {
+      "problem_index": 134,
+      "question": "Why were Duane and Stevens fighting?\n",
+      "options": [
+        "Andrias had promised Stevens $100,000",
+        "Stevens wanted to keep $50,000 of Duane's money",
+        "Stevens wanted to keep $40,000 of Duane's money",
+        "Duane had been promised $50,000"
+      ],
+      "correct_answer": 2,
+      "rag_answer": "B",
+      "is_correct": false
+    },
+    {
+      "problem_index": 135,
+      "question": "Which was not an era of the inaugural addresses?",
+      "options": [
+        "demanding executive",
+        "forceful evangelist",
+        "unassuming attendant of the people",
+        "commonplace manager of the country"
+      ],
+      "correct_answer": 3,
+      "rag_answer": "A",
+      "is_correct": false
+    },
+    {
+      "problem_index": 136,
+      "question": "What does the author see as an integral aspect of an anarchist viewpoint?",
+      "options": [
+        "The ability to remove voting members at will",
+        "Lack of state or national delegation",
+        "A desire for a peer to peer networked democracy",
+        "Embracing distributed consensus created by blockchain"
+      ],
+      "correct_answer": 1,
+      "rag_answer": "B",
+      "is_correct": true
+    },
+    {
+      "problem_index": 137,
+      "question": "Was the warden in a dream instead of real life?",
+      "options": [
+        "We never find out",
+        "Yes, and he never figured it out",
+        "Yes, but he figured that out",
+        "No"
+      ],
+      "correct_answer": 3,
+      "rag_answer": "A",
+      "is_correct": false
+    },
+    {
+      "problem_index": 138,
+      "question": "Why are the Tepoktans so interested in space travel?",
+      "options": [
+        "They do not know anything about the stars.",
+        "They want to leave their planet.",
+        "They are interested in what they cannot do.",
+        "They are not interested in space travel."
+      ],
+      "correct_answer": 2,
+      "rag_answer": "B",
+      "is_correct": false
+    },
+    {
+      "problem_index": 139,
+      "question": "How many times did the doctor give the patient aspirin?",
+      "options": [
+        "3",
+        "2",
+        "4",
+        "1"
+      ],
+      "correct_answer": 1,
+      "rag_answer": "D",
+      "is_correct": false
+    },
+    {
+      "problem_index": 140,
+      "question": "Sabrina York is ",
+      "options": [
+        "a criminal that Blake is hunting",
+        "a psycheye that taught Blake all the tricks",
+        "an old friend of Blake's",
+        "Eldoria's alter ego"
+      ],
+      "correct_answer": 0,
+      "rag_answer": "B",
+      "is_correct": false
+    },
+    {
+      "problem_index": 141,
+      "question": "What is the relationship like between Skkiru and Larhgan?",
+      "options": [
+        "They were once married, but it did not work out between them. Skkiru would do anything to regain Larhgan’s love",
+        "Larhgan betrayed Skkiru’s love and she cannot forgive herself for that. She decides to refrain from every marrying again as a punishment for her mistakes",
+        "They were engaged to be married, but circumstances dictated otherwise. They remain in love and think there will never be another for them",
+        "Skkiru created an elaborate scheme for them to marry as high priest and priestess, and Larhgan is unaware of his scheming"
+      ],
+      "correct_answer": 2,
+      "rag_answer": "C",
+      "is_correct": true
+    },
+    {
+      "problem_index": 142,
+      "question": "Why didn't the Tepoktans seize Al Birken after he stole the vehicle?",
+      "options": [
+        "The Tepoktans were afraid Al Birken would kill more people",
+        "The Tepoktans wanted Al Birken to leave",
+        "Al Birken continually overpowered the Tepoktans",
+        "The Tepotkans were leaving it up to George's discretion"
+      ],
+      "correct_answer": 3,
+      "rag_answer": "D",
+      "is_correct": true
+    },
+    {
+      "problem_index": 143,
+      "question": "Which of the following does not happen in the article?",
+      "options": [
+        "Meek tries a new game",
+        "Meek talks to a mechanic",
+        "Meek is confused by new things",
+        "Meek asks questions about space travel"
+      ],
+      "correct_answer": 3,
+      "rag_answer": "B",
+      "is_correct": false
+    },
+    {
+      "problem_index": 144,
+      "question": "How does Ferdinand relate to his sister?",
+      "options": [
+        "He never keeps secrets from her and she trusts him completely because of it",
+        "He feels close to her as a sibling, but yearns for a father figure",
+        "He knows that she deliberately doesn’t teach him about politics to keep him naive",
+        "He feels protective of her and she appreciates his consideration"
+      ],
+      "correct_answer": 1,
+      "rag_answer": "D",
+      "is_correct": false
+    },
+    {
+      "problem_index": 145,
+      "question": "Why did the workers weld appendages to the Cleopatra?",
+      "options": [
+        "To prepare for battle against the Eridans",
+        "To enable travel to hyperspace",
+        "Maintenance during a twenty-day leave",
+        "To make it through the asteroid belt"
+      ],
+      "correct_answer": 1,
+      "rag_answer": "D",
+      "is_correct": false
+    },
+    {
+      "problem_index": 146,
+      "question": "When does the story take place?",
+      "options": [
+        "1950s",
+        "1930s",
+        "1940s",
+        "1960s"
+      ],
+      "correct_answer": 0,
+      "rag_answer": "D",
+      "is_correct": false
+    },
+    {
+      "problem_index": 147,
+      "question": "What is the cargo Duane and Stevens are transporting?",
+      "options": [
+        "420 cases of dehydrated foods and drilling supplies",
+        "800 guns",
+        "tools",
+        "4000 guns"
+      ],
+      "correct_answer": 3,
+      "rag_answer": "A",
+      "is_correct": false
+    },
+    {
+      "problem_index": 148,
+      "question": "How long have the Venusians and Earth been in conflict?",
+      "options": [
+        "A decade",
+        "Since Earthlings discovered interplanetary travel",
+        "Since Venus was colonized",
+        "A century"
+      ],
+      "correct_answer": 0,
+      "rag_answer": "B",
+      "is_correct": false
+    },
+    {
+      "problem_index": 149,
+      "question": "What makes Chapman so qualified to train crews on the moon?",
+      "options": [
+        "His attention to scientific details",
+        "His technical skills and leadership",
+        "His lack of ties back home on Earth",
+        "His mechanical background and military training"
+      ],
+      "correct_answer": 1,
+      "rag_answer": "D",
+      "is_correct": false
+    },
+    {
+      "problem_index": 150,
+      "question": "After a short time of trying to locate the Qornt, Magnan",
+      "options": [
+        "finds them and quickly defeats them.",
+        "says it's too bad they could not be located and attempts to go back to camp.",
+        "finds them and runs.",
+        "sees them from afar but tells everyone else they could not be found."
+      ],
+      "correct_answer": 1,
+      "rag_answer": "B",
+      "is_correct": true
+    },
+    {
+      "problem_index": 151,
+      "question": "In what way was Jorgenson’s reasoning similar to that of the Thrid?",
+      "options": [
+        "Neither required evidence to draw conclusions",
+        "Neither allowed nuance",
+        "Both were skeptical of novel ideas",
+        "Both followed intuition"
+      ],
+      "correct_answer": 1,
+      "rag_answer": "C",
+      "is_correct": false
+    },
+    {
+      "problem_index": 152,
+      "question": "How did living under a state of siege affect the project inhabitants?",
+      "options": [
+        "They rarely thought about it",
+        "They thought about it daily",
+        "They all had to actively help with vigilance",
+        "They never thought about it"
+      ],
+      "correct_answer": 0,
+      "rag_answer": "B",
+      "is_correct": false
+    },
+    {
+      "problem_index": 153,
+      "question": "What is the relationship like between Caldwell and Johnson?",
+      "options": [
+        "Adversarial colleagues",
+        "Secret lovers",
+        "Suspicious and guarded",
+        "Partners on a mission"
+      ],
+      "correct_answer": 3,
+      "rag_answer": "A",
+      "is_correct": false
+    },
+    {
+      "problem_index": 154,
+      "question": "What seems to be the primary benefit of becoming a changeling?",
+      "options": [
+        "Efficient labor and reduced prison sentences.",
+        "Regeneration of bodily organs.",
+        "Extended life expectancy.",
+        "Developing superhuman powers."
+      ],
+      "correct_answer": 0,
+      "rag_answer": "C",
+      "is_correct": false
+    },
+    {
+      "problem_index": 155,
+      "question": "What was Asa's true motivation for choosing Jordan's Planet?",
+      "options": [
+        "Studying Slider eggs in their natural habitat.",
+        "He wanted to serve a reduced sentence.",
+        "The conversions made mud-dwelling more comfortable.",
+        "The bankroll was far greater than on other planets."
+      ],
+      "correct_answer": 0,
+      "rag_answer": "B",
+      "is_correct": false
+    },
+    {
+      "problem_index": 156,
+      "question": "When he realizes that they are messing up one of the steps, ",
+      "options": [
+        "Neeshan is angry because they are doing it wrong.",
+        "Neeshan tries to run the other way because he knows that there is about to be trouble.",
+        "Neeshan is scared because they are doing it wrong.",
+        "Neeshan is far from surprised because they never listen."
+      ],
+      "correct_answer": 2,
+      "rag_answer": "D",
+      "is_correct": false
+    },
+    {
+      "problem_index": 157,
+      "question": "What is Achilles?",
+      "options": [
+        "A rowdy bar",
+        "An asteroid near Jupiter",
+        "An asteroid near Mars",
+        "A dense cluster"
+      ],
+      "correct_answer": 1,
+      "rag_answer": "C",
+      "is_correct": false
+    },
+    {
+      "problem_index": 158,
+      "question": "What would best describe Madison's attitude towards Professor Parnell upon learning Parnell's reasoning for calling the people of Granite City \"subhuman\"?",
+      "options": [
+        "Madison unquestionably believes Parnell's story.",
+        "Madison dismisses Parnell as a liar.",
+        "Madison is reluctant to believe Parnell.",
+        "Madison pretends to believe Parnell's story for the mean-time."
+      ],
+      "correct_answer": 2,
+      "rag_answer": "C",
+      "is_correct": true
+    },
+    {
+      "problem_index": 159,
+      "question": "Describe Granthan's journey after leaving the capsule.",
+      "options": [
+        "Boat, then car, then train, then walking, then car, then cab",
+        "Boat, then car, then train, then car, then walking, then car, then cab",
+        "Boat, then car, then train, then walking, then cab",
+        "Boat, then train, then walking, then car, then cab"
+      ],
+      "correct_answer": 0,
+      "rag_answer": "B",
+      "is_correct": false
+    },
+    {
+      "problem_index": 160,
+      "question": "The way that man ended up on Mars",
+      "options": [
+        "was a calculated plan made by the Martians in order to secure Earth's sugar stores.",
+        "was almost by accident as they were attempting to find a suitable site for a completely different venture.",
+        "is a commentary on how destructive man is.  They purposefully set out to corrupt the planet since no more damage could be done on Earth.",
+        "is quite frightening.  Martians basically hijacked ships to bring humans to their planet in order to supply them with sugar."
+      ],
+      "correct_answer": 1,
+      "rag_answer": "B",
+      "is_correct": true
+    },
+    {
+      "problem_index": 161,
+      "question": "How did the author classify the beers?",
+      "options": [
+        "He used prices at his local store",
+        "He used nationwide average prices",
+        "He used his favorite beer categories",
+        "He asked the tasters to create 3 categories"
+      ],
+      "correct_answer": 0,
+      "rag_answer": "D",
+      "is_correct": false
+    },
+    {
+      "problem_index": 162,
+      "question": "What likely happened to Rice in the end?",
+      "options": [
+        "He returned to Earth",
+        "He died of his wounds",
+        "He went to Venus",
+        "He continued to collect bodies until the ship was full"
+      ],
+      "correct_answer": 0,
+      "rag_answer": "B",
+      "is_correct": false
+    },
+    {
+      "problem_index": 163,
+      "question": "What classic issues of the democratic process could blockchain-based voting solve?",
+      "options": [
+        "Corruption of the physical voting process",
+        "Authoritarian governments holding falsified elections",
+        "Time constraints of the voting public",
+        "Low public engagement in the voting process"
+      ],
+      "correct_answer": 2,
+      "rag_answer": "A",
+      "is_correct": false
+    },
+    {
+      "problem_index": 164,
+      "question": "What was Burnett’s greatest motivation to collect the 99th body?",
+      "options": [
+        "He saw a way to end the conflict",
+        "Finally something exciting was happening on the ship",
+        "He wanted to learn more about the mechanism to breathe in space",
+        "He wanted to go home"
+      ],
+      "correct_answer": 0,
+      "rag_answer": "D",
+      "is_correct": false
+    },
+    {
+      "problem_index": 165,
+      "question": "Who does Chapman want to visit when he returns to Earth?",
+      "options": [
+        "no one - he wants to sit alone in a room over Times Square",
+        "his wife",
+        "Ginny",
+        "his mother"
+      ],
+      "correct_answer": 2,
+      "rag_answer": "B",
+      "is_correct": false
+    },
+    {
+      "problem_index": 166,
+      "question": "What is the Oans' unusual advantage? ",
+      "options": [
+        "They have the human's fire weapons.",
+        "They emit flames.",
+        "The strength of their arms.",
+        "Their eyes cut the night."
+      ],
+      "correct_answer": 0,
+      "rag_answer": "D",
+      "is_correct": false
+    },
+    {
+      "problem_index": 167,
+      "question": "Which of the following did Broom recognize?",
+      "options": [
+        "Knife",
+        "Stars",
+        "Ashtray",
+        "Typewriter"
+      ],
+      "correct_answer": 1,
+      "rag_answer": "D",
+      "is_correct": false
+    },
+    {
+      "problem_index": 168,
+      "question": "What did the flap-jacks think people wanted?",
+      "options": [
+        "Skirmishes",
+        "Peace",
+        "To eliminate weapons",
+        "The oases"
+      ],
+      "correct_answer": 0,
+      "rag_answer": "B",
+      "is_correct": false
+    },
+    {
+      "problem_index": 169,
+      "question": "What is Rathole?",
+      "options": [
+        "A small city of former Spanish slaves who were taken to Venus by the Dutch.",
+        "A Spanish colony on Venus.",
+        "Rathole is a derogatory term for slum on Venus.",
+        "An old colony turned into a small city by Spanish laborers."
+      ],
+      "correct_answer": 3,
+      "rag_answer": "C",
+      "is_correct": false
+    },
+    {
+      "problem_index": 170,
+      "question": "What was Said’s relationship with Western media?",
+      "options": [
+        "He never tried to engage with Western media due to his reputation",
+        "He remained aware of its importance, but chose not to use it as a venue",
+        "He was shunned by Western media and they would not pick up his work",
+        "He published in several Western magazines"
+      ],
+      "correct_answer": 3,
+      "rag_answer": "B",
+      "is_correct": false
+    },
+    {
+      "problem_index": 171,
+      "question": "What is true about Edward's writings?",
+      "options": [
+        "He often writes about the arts",
+        "He writes solely about the Palestinian cause",
+        "His writing is concise",
+        "He researched his book for 3 years"
+      ],
+      "correct_answer": 0,
+      "rag_answer": "A",
+      "is_correct": true
+    },
+    {
+      "problem_index": 172,
+      "question": "What is the relationship like between Charlie and the captain?",
+      "options": [
+        "They have a mutual respect for one another",
+        "Charlie wishes to train under the captain to one day be one himself",
+        "The captain would do anything to get Charlie out of his role",
+        "The captain is highly attentive to Charlie, but does not accept any deviations to his role"
+      ],
+      "correct_answer": 3,
+      "rag_answer": "A",
+      "is_correct": false
+    },
+    {
+      "problem_index": 173,
+      "question": "Why was Tate likely dejected to learn the truth about Kal-Jmar from the Martian?",
+      "options": [
+        "He learned Kal-Jmar didn’t contain secrets and treasures",
+        "He learned the creatures of Kal-Jmar would kill him instantly",
+        "He learned Kal-Jmar was a fictional place",
+        "He was told the Kal-Jmar dome sensed Earthling DNA and would explode his body on entry"
+      ],
+      "correct_answer": 0,
+      "rag_answer": "C",
+      "is_correct": false
+    },
+    {
+      "problem_index": 174,
+      "question": "What did Manet ask for from the trader?",
+      "options": [
+        "A companion",
+        "Whiskey",
+        "Nothing",
+        "A credit card"
+      ],
+      "correct_answer": 0,
+      "rag_answer": "C",
+      "is_correct": false
+    },
+    {
+      "problem_index": 175,
+      "question": "What do the Qornt transform into once they moult?",
+      "options": [
+        "No one knows because they have never lived that long.",
+        "They turn back into Boog.",
+        "They turn back into Verpp.",
+        "They turn simply grow larger."
+      ],
+      "correct_answer": 0,
+      "rag_answer": "D",
+      "is_correct": false
+    },
+    {
+      "problem_index": 176,
+      "question": "What is the age difference between Kimball and his oldest sister?",
+      "options": [
+        "9 years",
+        "15 years",
+        "17 years",
+        "8 years"
+      ],
+      "correct_answer": 3,
+      "rag_answer": "D",
+      "is_correct": true
+    },
+    {
+      "problem_index": 177,
+      "question": "What was the root of the Cuchulainn's landing issue?",
+      "options": [
+        "Rob's calculated coordinates were incorrect.",
+        "Dick had failed to fix essential broken parts on the ship.",
+        "Dick and Rob had anticipated landing during daylight hours, not at night.",
+        "The gravitational pull was too strong."
+      ],
+      "correct_answer": 2,
+      "rag_answer": "C",
+      "is_correct": true
+    },
+    {
+      "problem_index": 178,
+      "question": "What does Lexington make at the factory?",
+      "options": [
+        "Automotive components",
+        "Basic parts",
+        "Aircraft components",
+        "Robots to automate other factories"
+      ],
+      "correct_answer": 1,
+      "rag_answer": "A",
+      "is_correct": false
+    },
+    {
+      "problem_index": 179,
+      "question": "Why is gravity on the planet abnormal?",
+      "options": [
+        "There is much more gravity than Earth",
+        "It has polarized gravity",
+        "It is not the straight-line kind of gravity",
+        "There is much less gravity than Earth"
+      ],
+      "correct_answer": 2,
+      "rag_answer": "C",
+      "is_correct": true
+    },
+    {
+      "problem_index": 180,
+      "question": "What are the elements that the author seems most perplexed by in the inaugural speeches?",
+      "options": [
+        "The lack of coverage of taxes as a public issue",
+        "The consistent use of one phrase through all of the inaugural speeches",
+        "The increasing amount of words per sentence over time",
+        "The lack of discussion of hot topics by presidents inaugurated during those eras"
+      ],
+      "correct_answer": 3,
+      "rag_answer": "D",
+      "is_correct": true
+    },
+    {
+      "problem_index": 181,
+      "question": "Where in the White House is it feasible for the president to meet a woman?",
+      "options": [
+        "Only the East Wing",
+        "Only the private quarters",
+        "Only the oval office, bowling alley, or East Wing",
+        "Only the private quarters or the office restroom"
+      ],
+      "correct_answer": 3,
+      "rag_answer": "C",
+      "is_correct": false
+    },
+    {
+      "problem_index": 182,
+      "question": "Which of Mrs. Perkins’ qualities makes her suspicious?",
+      "options": [
+        "Sharp mind",
+        "Strength",
+        "Large stature",
+        "Cackle"
+      ],
+      "correct_answer": 1,
+      "rag_answer": "D",
+      "is_correct": false
+    },
+    {
+      "problem_index": 183,
+      "question": "Why did Blake create the three female super-images of Miss Stoddart, Officer Finch, and Vera Velvetskin?",
+      "options": [
+        "He feels guilty about having slept with Eldoria which perpetuated the demand for female prostitution.",
+        "Even though he is a psycheye, he feels guilty about hunting down Sabrina York.",
+        "He is still grieving his mother's death and regrets not being a more loving son.",
+        "He feels guilty about hurting Deirdre's feelings after her graduation when he ignored their romantic connection, and instead, played the part of a parent."
+      ],
+      "correct_answer": 3,
+      "rag_answer": "D",
+      "is_correct": true
+    },
+    {
+      "problem_index": 184,
+      "question": "Why did Chapman feel embarrassed?",
+      "options": [
+        "He shared that he wanted to go to a burlesque house",
+        "He shared how much he missed people",
+        "He shared that he wanted to be naked outdoors",
+        "He told his coworker about his girlfriend"
+      ],
+      "correct_answer": 2,
+      "rag_answer": "C",
+      "is_correct": true
+    },
+    {
+      "problem_index": 185,
+      "question": "What was the purpose of the interview questions?",
+      "options": [
+        "To see if Peter was trainable",
+        "To give Peter a hard time for no reason",
+        "To see what Peter knew about the work",
+        "To find out about Peter's past job experience"
+      ],
+      "correct_answer": 0,
+      "rag_answer": "C",
+      "is_correct": false
+    },
+    {
+      "problem_index": 186,
+      "question": "Why couldn't Baxter use his own bathroom?",
+      "options": [
+        "It wasn't nice enough",
+        "It was out of order",
+        "He thought it was too nice for him",
+        "He was trying to sneak off the ship"
+      ],
+      "correct_answer": 3,
+      "rag_answer": "B",
+      "is_correct": false
+    },
+    {
+      "problem_index": 187,
+      "question": "Why did Harper change his tone regarding a vacation to Mars?",
+      "options": [
+        "He wanted to see the beautiful Emerald Star hotel.",
+        "He was worried about the robots staffing the hotel.",
+        "Bella convinced him he could benefit from some curative rest and relaxation.",
+        "He realized he could profit from a scientific breakthrough."
+      ],
+      "correct_answer": 3,
+      "rag_answer": "C",
+      "is_correct": false
+    },
+    {
+      "problem_index": 188,
+      "question": "Why did Syme accept the mission with Tate?",
+      "options": [
+        "He needed a way back to Earth",
+        "He felt he would collect a reward along the way",
+        "He respected Tate",
+        "He had no plan for his life, so he jumped on the adventure"
+      ],
+      "correct_answer": 1,
+      "rag_answer": "D",
+      "is_correct": false
+    },
+    {
+      "problem_index": 189,
+      "question": "What does the author argue is true about Tannen’s latest work?",
+      "options": [
+        "It is partisan",
+        "It does not go far enough",
+        "It doesn’t get the facts straight",
+        "It oversimplifies"
+      ],
+      "correct_answer": 3,
+      "rag_answer": "C",
+      "is_correct": false
+    },
+    {
+      "problem_index": 190,
+      "question": "How many wives did Dan Merrol have?",
+      "options": [
+        "Six",
+        "Two",
+        "Four",
+        "One"
+      ],
+      "correct_answer": 3,
+      "rag_answer": "D",
+      "is_correct": true
+    },
+    {
+      "problem_index": 191,
+      "question": "How does the author layer ethics into the discussion of kinship?",
+      "options": [
+        "Humans have never considered natural behavior in animals to be unethical",
+        "Just because a behavior is natural to animals does not mean it is considered ethical",
+        "Natural behaviors in the animal kingdom always lead humans to do what is ethically “good”",
+        "The ethics discussion is unrelated to the kinship arguments"
+      ],
+      "correct_answer": 1,
+      "rag_answer": "B",
+      "is_correct": true
+    },
+    {
+      "problem_index": 192,
+      "question": "Of the following options, which traits best describe Arthur Farrell?",
+      "options": [
+        "witty and considerate",
+        "smart and reckless",
+        "stubborn and talkative",
+        "calculated and cautious"
+      ],
+      "correct_answer": 1,
+      "rag_answer": "A",
+      "is_correct": false
+    },
+    {
+      "problem_index": 193,
+      "question": "What is Nehmon most worried about while talking with Ravdin and Dana?",
+      "options": [
+        "The society not being able to leave quickly enough to avoid the hunters",
+        "That they will not achieve the perfect community concert",
+        "That Ravdin may be mistaken about the Hunters knowing their location",
+        "Ravdin and Dana's plan to stay behind and speak with the Hunters"
+      ],
+      "correct_answer": 3,
+      "rag_answer": "C",
+      "is_correct": false
+    },
+    {
+      "problem_index": 194,
+      "question": "Why were the reports for the Robling company bad?",
+      "options": [
+        "Poor production and no innovation",
+        "Too high of union dues and insurance fees",
+        "Too much spending by the executives",
+        "Walter asking for too high of a salary raise"
+      ],
+      "correct_answer": 0,
+      "rag_answer": "A",
+      "is_correct": true
+    },
+    {
+      "problem_index": 195,
+      "question": "Why is Belphin controlling Earth?",
+      "options": [
+        "He wants to make lives better for humans",
+        "He wants to weaken the human race",
+        "He wants to rule",
+        "We never learn"
+      ],
+      "correct_answer": 3,
+      "rag_answer": "D",
+      "is_correct": true
+    },
+    {
+      "problem_index": 196,
+      "question": "Why don't we see Evelyn interact with more of her people?",
+      "options": [
+        "Most of them are live prisoners",
+        "Most of them escaped to another galaxy",
+        "Most of them were killed",
+        "Most of them don't want to get involved with her adventure"
+      ],
+      "correct_answer": 2,
+      "rag_answer": "C",
+      "is_correct": true
+    },
+    {
+      "problem_index": 197,
+      "question": "Why does the author say Monica was hired?",
+      "options": [
+        "Clinton insisted his staff remain",
+        "She was a secretary",
+        "Due to the government shutdown",
+        "It was in the budget"
+      ],
+      "correct_answer": 2,
+      "rag_answer": "C",
+      "is_correct": true
+    },
+    {
+      "problem_index": 198,
+      "question": "What are the mother’s hopes for her son?",
+      "options": [
+        "Singularly revenge of his father’s death",
+        "To not follow her into the way of the Konv",
+        "Revenge, get healthcare training",
+        "To solve time travel, become an engineer"
+      ],
+      "correct_answer": 2,
+      "rag_answer": "C",
+      "is_correct": true
+    },
+    {
+      "problem_index": 199,
+      "question": "How do people now feel about keeping all of their natural teeth?",
+      "options": [
+        "Insecure",
+        "Entitled",
+        "No information provided in the article",
+        "Proud"
+      ],
+      "correct_answer": 1,
+      "rag_answer": "C",
+      "is_correct": false
+    },
+    {
+      "problem_index": 200,
+      "question": "Caution must be taken with decisions surrounding OA policies because",
+      "options": [
+        "those seeking information are ultimately the ones who will suffer if the wrong decisions are made.",
+        "institutions will make the policies that are best for them, not others involved.",
+        "there is not enough information available concerning the long-term effects of OA policies.",
+        "certain mandates will limit where authors can publish their works."
+      ],
+      "correct_answer": 3,
+      "rag_answer": "C",
+      "is_correct": false
+    }
+  ]
+}
