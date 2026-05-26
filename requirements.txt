@@ -9,4 +9,4 @@ uvicorn==0.42.0
 python-multipart==0.0.22
 pydantic-settings==2.13.1
 datasets==4.8.4
-matplotlib==3.10.2
+matplotlib==3.10.9
