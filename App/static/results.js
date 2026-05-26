@@ -189,7 +189,7 @@ function renderCurve(curve) {
     const layout = {
         margin: { t: 18, r: 12, b: 52, l: 52 },
         yaxis: { range: [0, 1], title: 'Accuracy' },
-        xaxis: { title: 'Parámetros (billions) o índice' },
+        xaxis: { title: 'Parámetros (billions)' },
     };
 
     curveCaption.textContent = `Análisis con ${curve.fixed.type} fijo: ${curve.fixed.name}`;
