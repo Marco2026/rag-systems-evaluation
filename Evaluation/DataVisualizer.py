@@ -316,7 +316,7 @@ class DataVisualizer:
 			for source_label in ("raw", "post"):
 				# build and write benchmark mean table
 				bench_table = self._build_benchmarks_mean_table(benchmarks, source_label)
-				zip_file.writestr(f"global/global_benchmarks_mean_{source_label}.md", bench_table + "\n")
+				zip_file.writestr(f"global/global_benchmarks_{source_label}.md", bench_table + "\n")
 
 				# aggregated matrix across benchmarks
 				aggregate = self._aggregate_matrix(benchmarks, source_label)
@@ -358,7 +358,7 @@ class DataVisualizer:
 		if sin_index is not None:
 			row_order = [sin_index] + [idx for idx in row_order if idx != sin_index]
 
-		column_spec = "l" + ("c" * len(generators))
+		column_spec = "l" + ("c" * len(generators)) + "cc"
 		display_benchmark = benchmark.replace("\\", "")
 		caption = (
 			"Resultados de evaluación por combinación de modelos para el benchmark "
@@ -379,8 +379,9 @@ class DataVisualizer:
 		for idx, generator in enumerate(generators, start=1):
 			params_label = self._format_params(generator_params.get(generator))
 			generator_labels.append(f"G{idx} ({params_label})")
-		header_cells = ["\\textbf{Retriever / Generator}"]
+		header_cells = ["\\textbf{Ret. / Gen.}"]
 		header_cells.extend([f"\\textbf{{{label}}}" for label in generator_labels])
+		header_cells.extend(["\\textbf{Media}", "\\textbf{Desv.}"])
 		lines.append(" & ".join(header_cells) + " \\\\")
 		lines.append("\\midrule")
 
@@ -398,16 +399,23 @@ class DataVisualizer:
 			retriever_label = retriever_labels.get(row_idx, "R?")
 			row = matrix[row_idx] if row_idx < len(matrix) else []
 			values = []
+			row_values: list[float] = []
 			for col_idx in range(len(generators)):
 				cell = row[col_idx] if col_idx < len(row) else None
 				if cell is None:
 					values.append("0")
 				else:
 					values.append(f"{cell:.3f}")
+					row_values.append(cell)
+
+			row_mean = f"{_mean(row_values):.3f}" if row_values else "0"
+			row_std = f"{_std(row_values):.3f}" if row_values else "0"
 
 			row_cells = [
 				self._latex_escape(retriever_label),
 				*values,
+				row_mean,
+				row_std,
 			]
 
 			suffix = " \\\\[4pt]" if idx < len(row_order) - 1 else " \\\\"
@@ -421,10 +429,12 @@ class DataVisualizer:
 					col_values[col_idx].append(value)
 
 		mean_row = ["Media"]
-		std_row = ["Desviación típica"]
+		std_row = ["Desv."]
 		for values in col_values:
 			mean_row.append(f"{_mean(values):.3f}" if values else "0")
 			std_row.append(f"{_std(values):.3f}" if values else "0")
+		mean_row.extend(["", ""])
+		std_row.extend(["", ""])
 
 		lines.append("\\midrule")
 		lines.append(" & ".join(mean_row) + " \\\\")
@@ -658,7 +668,7 @@ class DataVisualizer:
 	def _format_params(self, value: float | None) -> str:
 		if value is None:
 			return "?"
-		return f"{value:.2f}B"
+		return f"{value:.1f}B"
 
 	def _label_safe(self, text: str) -> str:
 		return re.sub(r"[^a-zA-Z0-9]+", "_", text).strip("_") or "benchmark"
